@@ -721,3 +721,62 @@
 [2023-05-17 00:53:13] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
 [2023-05-17 00:53:13] INFO root fetch - main [MainThread]: End processing [lolpop]: success
 [2023-05-17 00:53:13] INFO root fetch - main [MainThread]: Store serial: [18130321]
+[2023-05-17 00:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130321]
+[2023-05-17 00:58:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyalpa
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reproscreener
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panoptic
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conductor-python
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pref-voting
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylogix
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dynbps
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kurses-py
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgp-reconstruction
+[2023-05-17 00:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calysto-scheme
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pyalpa]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-05-17 00:58:22] WARNING root fetch - processPackages [reproscreener]: Skipping, unable to determine old version
+[2023-05-17 00:58:22] INFO root fetch - main [MainThread]: End processing [reproscreener] error
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pylogix]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 00:58:22] INFO root fetch - processPackages [dynbps]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 00:58:22] INFO root fetch - processPackages [conductor-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 00:58:22] WARNING root fetch - processPackages [pgp-reconstruction]: Skipping, unable to determine old version
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pref-voting]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 00:58:22] WARNING root fetch - processPackages [kurses-py]: Skipping, unable to determine old version
+[2023-05-17 00:58:22] INFO root fetch - processPackages [panoptic]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 00:58:22] INFO root fetch - main [MainThread]: End processing [pgp-reconstruction] error
+[2023-05-17 00:58:22] INFO root fetch - main [MainThread]: End processing [kurses-py] error
+[2023-05-17 00:58:22] INFO root fetch - processPackages [calysto-scheme]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-05-17 00:58:22] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/aa/5c/1984a69a2c2d2c3319e80408d6ddf3fb2b9b815584ed068cb2546c3ce3e9/panoptic-0.0.3.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pylogix]: Downloading https://files.pythonhosted.org/packages/ed/9d/600963fbc624a15e85fc04b907b90c795460293e6c474c58618debf8afea/pylogix-0.8.8-py2.py3-none-any.whl
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/55/cb/b58f9631dab3deed8ceff45ced1fc81239327aaf62a8a362aaee18cd2d84/pref_voting-0.2.9.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/e6/c0/bd13f4e3840075edacb315cdc5399df4657f0554d5ec2d913c267079bad1/dynbps-0.0.1.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [conductor-python]: Downloading https://files.pythonhosted.org/packages/b8/3e/59c817236587c494cd92a7614ed237998be4be850582260c4473520307f4/conductor-python-1.0.8.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [calysto-scheme]: Downloading https://files.pythonhosted.org/packages/2e/18/c88b6fce7153ffb38daa81e17a3cab9b56948f01ea6d68fdaa8074137849/calysto_scheme-1.4.7.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pyalpa]: Downloading https://files.pythonhosted.org/packages/41/e4/a47a36f4a9902c31e566f60370775e193cf4a5721a71eafdf1b41b431ecc/pyalpa-1.0.0.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.2.8.tar.gz tmp/pref_voting-0.2.9.tar.gz --markdown 20230517/p/pref-voting/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 00:58:22] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/94/26/8216390b71e34d97cee7a1cd249db24b65f7b6af987370861d48e7416360/panoptic-0.0.4.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pyalpa]: executing diffoscope
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pyalpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalpa-0.9.1.tar.gz tmp/pyalpa-1.0.0.tar.gz --markdown 20230517/p/pyalpa/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 00:58:22] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/4a/db/af357e74d64e7bb4b4a57f15e634b516df9784aef0b0934017bd6e4be760/dynbps-0.0.2.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pylogix]: Downloading https://files.pythonhosted.org/packages/24/0d/60d590fcc970b10a32c3ec4dacaa45151db1a5ad315d97da4965b3ff991d/pylogix-0.8.9-py2.py3-none-any.whl
+[2023-05-17 00:58:22] INFO root fetch - processPackages [calysto-scheme]: Downloading https://files.pythonhosted.org/packages/e0/18/637cefec056ed337b11ed249f75d978a53a3db0660b7f5e4243f2bf70093/calysto_scheme-1.4.8-py2.py3-none-any.whl
+[2023-05-17 00:58:22] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-17 00:58:22] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.3.tar.gz tmp/panoptic-0.0.4.tar.gz --markdown 20230517/p/panoptic/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pylogix]: executing diffoscope
+[2023-05-17 00:58:22] INFO root fetch - processPackages [pylogix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-0.8.8-py2.py3-none-any.whl.zip tmp/pylogix-0.8.9-py2.py3-none-any.whl.zip --markdown 20230517/p/pylogix/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 00:58:22] INFO root fetch - processPackages [conductor-python]: Downloading https://files.pythonhosted.org/packages/4c/37/75ceb98fa0a897a9ef3956c769a3653e5e884e10d1f0f2a847a40ec765a8/conductor-python-1.0.9.tar.gz
+[2023-05-17 00:58:22] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-05-17 00:58:22] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.1.tar.gz tmp/dynbps-0.0.2.tar.gz --markdown 20230517/d/dynbps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 00:58:23] INFO root fetch - processPackages [calysto-scheme]: executing diffoscope
+[2023-05-17 00:58:23] INFO root fetch - processPackages [calysto-scheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calysto_scheme-1.4.7.tar.gz tmp/calysto_scheme-1.4.8-py2.py3-none-any.whl.zip --markdown 20230517/c/calysto-scheme/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-05-17 00:58:23] INFO root fetch - processPackages [conductor-python]: executing diffoscope
+[2023-05-17 00:58:23] INFO root fetch - processPackages [conductor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conductor-python-1.0.8.tar.gz tmp/conductor-python-1.0.9.tar.gz --markdown 20230517/c/conductor-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [pylogix]: success
+[2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [calysto-scheme]: success
+[2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [conductor-python]: success
+[2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [pyalpa]: success
+[2023-05-17 00:58:26] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-17 00:58:26] INFO root fetch - main [MainThread]: Store serial: [18130357]
