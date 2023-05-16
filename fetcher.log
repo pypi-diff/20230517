@@ -504,3 +504,99 @@
 [2023-05-17 00:31:06] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-17 00:31:11] INFO root fetch - main [MainThread]: End processing [pymultiastar]: success
 [2023-05-17 00:31:11] INFO root fetch - main [MainThread]: Store serial: [18130209]
+[2023-05-17 00:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130209]
+[2023-05-17 00:36:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotON_sdk
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rattail
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeduino
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2graphapi
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CactusSerializer
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finetune-eval-harness
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Tailbone
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TuoTuo
+[2023-05-17 00:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jiujitsu
+[2023-05-17 00:36:20] INFO root fetch - processPackages [homeduino]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.1] Old Version: [0.0.4.0]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [text2graphapi]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [jiujitsu]: New version: [0.3] Old Version: [0.2]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [TuoTuo]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.3.dev1] Old Version: [0.6.2.dev1]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [CactusSerializer]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 00:36:20] INFO root fetch - processPackages [homeduino]: Downloading https://files.pythonhosted.org/packages/0a/17/e37a110238426ef30851aab3579c66da189b15e25f34128b979a1ae4445f/homeduino-0.0.7.3.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [text2graphapi]: Downloading https://files.pythonhosted.org/packages/a9/16/e156bf19a66e22138ed378ff2045b619f05f3946d3f7c6865eac71850eda/text2graphapi-0.1.7.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [jiujitsu]: Downloading https://files.pythonhosted.org/packages/d4/e6/b2b935641f5e05729a6cd60092b3e3028c0297fa905dfd68ff3684f29134/jiujitsu-0.3.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [CactusSerializer]: Downloading https://files.pythonhosted.org/packages/1d/1d/ccaf361d1284a389ade8cdc5a95012455445b5de67d3430b485c13df1b6a/CactusSerializer-3.0.0.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230517/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/66/f5/6aeb4aecd0d70b40f2c13f29011fb8c405fcb66fcedc6438eade6d9ed5b7/finetune_eval_harness-0.6.3.dev1.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [jiujitsu]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [jiujitsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiujitsu-0.2.tar.gz tmp/jiujitsu-0.3.tar.gz --markdown 20230517/j/jiujitsu/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/ef/13/ca1bc1e8758affef78122d7236ea3daac26d5b4a82509df0279fb38f2714/spotON_sdk-0.0.4.1.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/b9/4a/cf4ffe927d78e4e283a695e8bcee1ea65e4bf57042b0ac7fda1a497a06b0/TuoTuo-0.2.7.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [homeduino]: Downloading https://files.pythonhosted.org/packages/2d/53/2febc613639b5822190299afadc4551dc5f4bc633ffaa6e7ad5bf53a220c/homeduino-0.0.7.4.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [text2graphapi]: Downloading https://files.pythonhosted.org/packages/40/90/7fb651a0b310336d18a247f5b6d78e8e563e820a80d3d4aa55b1aeabf7fc/text2graphapi-0.1.8.tar.gz
+[2023-05-17 00:36:20] INFO root fetch - processPackages [CactusSerializer]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [CactusSerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CactusSerializer-2.0.0.tar.gz tmp/CactusSerializer-3.0.0.tar.gz --markdown 20230517/C/CactusSerializer/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230517/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.6.2.dev1.tar.gz tmp/finetune_eval_harness-0.6.3.dev1.tar.gz --markdown 20230517/f/finetune-eval-harness/0.6.2.dev1-0.6.3.dev1/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230517/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [homeduino]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [homeduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeduino-0.0.7.3.tar.gz tmp/homeduino-0.0.7.4.tar.gz --markdown 20230517/h/homeduino/0.0.7.3-0.0.7.4/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [text2graphapi]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [text2graphapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2graphapi-0.1.7.tar.gz tmp/text2graphapi-0.1.8.tar.gz --markdown 20230517/t/text2graphapi/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-17 00:36:20] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-17 00:36:20] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.0.tar.gz tmp/spotON_sdk-0.0.4.1.tar.gz --markdown 20230517/s/spotON_sdk/0.0.4.0-0.0.4.1/diff.md --exclude *.pyd
+[2023-05-17 00:36:21] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-17 00:36:21] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.2.6.tar.gz tmp/TuoTuo-0.2.7.tar.gz --markdown 20230517/T/TuoTuo/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-17 00:36:22] INFO root fetch - processPackages [CactusSerializer]: Start processing: airunner
+[2023-05-17 00:36:22] INFO root fetch - main [MainThread]: End processing [CactusSerializer]: success
+[2023-05-17 00:36:22] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-17 00:36:22] INFO root fetch - processPackages [homeduino]: Start processing: Public-API-Football4
+[2023-05-17 00:36:22] INFO root fetch - main [MainThread]: End processing [homeduino]: success
+[2023-05-17 00:36:22] INFO root fetch - processPackages [Public-API-Football4]: New version: [0.2] Old Version: [0.1]
+[2023-05-17 00:36:22] INFO root fetch - processPackages [jiujitsu]: Start processing: audit-flask
+[2023-05-17 00:36:22] INFO root fetch - main [MainThread]: End processing [jiujitsu]: success
+[2023-05-17 00:36:22] INFO root fetch - processPackages [audit-flask]: New version: [0.25.3] Old Version: [0.25.2]
+[2023-05-17 00:36:22] INFO root fetch - processPackages [finetune-eval-harness]: Start processing: module-qc-tools
+[2023-05-17 00:36:22] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-17 00:36:22] INFO root fetch - processPackages [module-qc-tools]: New version: [1.3.2rc1] Old Version: [1.3.2rc0]
+[2023-05-17 00:36:22] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-05-17 00:36:22] INFO root fetch - processPackages [spotON_sdk]: Start processing: ironflow
+[2023-05-17 00:36:22] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-17 00:36:22] INFO root fetch - processPackages [Public-API-Football4]: Downloading https://files.pythonhosted.org/packages/98/83/445a511363d4f88233e26bde9bc84d237f17698ccb376e4da5093f0dfb00/Public_API_Football4-0.1.tar.gz
+[2023-05-17 00:36:22] INFO root fetch - processPackages [audit-flask]: Downloading https://files.pythonhosted.org/packages/f6/86/5dca9cb36c6c9827bcb8a32939d24f9b01d0bb8327eda4412d824ff093e7/audit_flask-0.25.3-py3-none-any.whl
+[2023-05-17 00:36:22] INFO root fetch - processPackages [ironflow]: New version: [0.post0.dev1] Old Version: [0.0.7]
+[2023-05-17 00:36:22] INFO root fetch - processPackages [module-qc-tools]: Downloading https://files.pythonhosted.org/packages/a3/e8/54cc063dee1fa49c66458766719a73310c6153520e928a37ab8bbc5d5af0/module_qc_tools-1.3.2rc0.tar.gz
+[2023-05-17 00:36:22] INFO root fetch - main [MainThread]: End processing [text2graphapi]: success
+[2023-05-17 00:36:22] INFO root fetch - processPackages [audit-flask]: executing diffoscope
+[2023-05-17 00:36:22] INFO root fetch - processPackages [audit-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audit_flask-0.25.2-py3-none-any.whl.zip tmp/audit_flask-0.25.3-py3-none-any.whl.zip --markdown 20230517/a/audit-flask/0.25.2-0.25.3/diff.md --exclude *.pyd
+[2023-05-17 00:36:23] INFO root fetch - processPackages [Public-API-Football4]: Downloading https://files.pythonhosted.org/packages/49/d6/d4ca61b622f89866cda96197d8d26e8fd28d8c98a77f6d4b092241164fcb/Public_API_Football4-0.2.tar.gz
+[2023-05-17 00:36:23] INFO root fetch - processPackages [ironflow]: Downloading https://files.pythonhosted.org/packages/77/25/53b44846e25eb6051b6505cf2fee55ff4d0cbcad994b040fea98aef164cb/ironflow-0.0.7.tar.gz
+[2023-05-17 00:36:23] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-05-17 00:36:23] INFO root fetch - processPackages [Public-API-Football4]: executing diffoscope
+[2023-05-17 00:36:23] INFO root fetch - processPackages [Public-API-Football4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Public_API_Football4-0.1.tar.gz tmp/Public_API_Football4-0.2.tar.gz --markdown 20230517/P/Public-API-Football4/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-17 00:36:23] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-05-17 00:36:23] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230517/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-17 00:36:23] INFO root fetch - processPackages [module-qc-tools]: Downloading https://files.pythonhosted.org/packages/01/c7/fdd4fb631418af630456e9abd557a0f11a60d125b4c5872d84813e86d36e/module_qc_tools-1.3.2rc1.tar.gz
+[2023-05-17 00:36:23] INFO root fetch - processPackages [ironflow]: Downloading https://files.pythonhosted.org/packages/36/b0/a46809f7728c443b887adab33d1b388f42b0bf960417d7630a4e90f6188b/ironflow-0.post0.dev1.tar.gz
+[2023-05-17 00:36:23] INFO root fetch - processPackages [module-qc-tools]: executing diffoscope
+[2023-05-17 00:36:23] INFO root fetch - processPackages [module-qc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_tools-1.3.2rc0.tar.gz tmp/module_qc_tools-1.3.2rc1.tar.gz --markdown 20230517/m/module-qc-tools/1.3.2rc0-1.3.2rc1/diff.md --exclude *.pyd
+[2023-05-17 00:36:23] INFO root fetch - processPackages [ironflow]: executing diffoscope
+[2023-05-17 00:36:23] INFO root fetch - processPackages [ironflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironflow-0.0.7.tar.gz tmp/ironflow-0.post0.dev1.tar.gz --markdown 20230517/i/ironflow/0.0.7-0.post0.dev1/diff.md --exclude *.pyd
+[2023-05-17 00:36:24] INFO root fetch - main [MainThread]: End processing [Public-API-Football4]: success
+[2023-05-17 00:36:24] INFO root fetch - main [MainThread]: End processing [audit-flask]: success
+[2023-05-17 00:36:24] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-05-17 00:36:24] INFO root fetch - main [MainThread]: End processing [ironflow]: success
+[2023-05-17 00:36:25] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-05-17 00:36:27] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-17 00:36:28] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-17 00:36:29] INFO root fetch - main [MainThread]: End processing [module-qc-tools]: success
+[2023-05-17 00:37:02] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-17 00:37:02] INFO root fetch - main [MainThread]: Store serial: [18130264]
