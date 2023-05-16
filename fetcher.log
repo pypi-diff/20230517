@@ -1047,3 +1047,48 @@
 [2023-05-17 01:19:30] INFO root fetch - main [MainThread]: End processing [youte]: success
 [2023-05-17 01:19:32] INFO root fetch - main [MainThread]: End processing [panoptic]: success
 [2023-05-17 01:19:32] INFO root fetch - main [MainThread]: Store serial: [18130552]
+[2023-05-17 01:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130552]
+[2023-05-17 01:24:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verilogae
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wads
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlantsAI
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: interpret
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interpret-core
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phot2lc
+[2023-05-17 01:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-histogram
+[2023-05-17 01:24:41] INFO root fetch - processPackages [verilogae]: New version: [1.0.0] Old Version: [0.9b8]
+[2023-05-17 01:24:41] INFO root fetch - processPackages [wads]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 01:24:41] WARNING root fetch - processPackages [PlantsAI]: Skipping, unable to determine old version
+[2023-05-17 01:24:41] INFO root fetch - main [MainThread]: End processing [PlantsAI] error
+[2023-05-17 01:24:42] INFO root fetch - processPackages [phot2lc]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret-core]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-17 01:24:42] INFO root fetch - processPackages [dask-histogram]: New version: [2023.5.1] Old Version: [2023.5.0]
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-17 01:24:42] INFO root fetch - processPackages [verilogae]: Downloading https://files.pythonhosted.org/packages/be/76/1163337631102987057903567781d7f6208894f420bb80184b0bf22328e5/verilogae-0.9b8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 01:24:42] INFO root fetch - processPackages [wads]: Downloading https://files.pythonhosted.org/packages/2f/49/6663752a3ec44ab9b8e366f6a3b47e3ef0c08dc06c3945b42f6c79507571/wads-0.0.8.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [phot2lc]: Downloading https://files.pythonhosted.org/packages/87/5c/029e7e3a69239a39a93c1af1b03ac1ad1ed5b03e3c71aa377f8238f1225d/phot2lc-1.7.7.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [dask-histogram]: Downloading https://files.pythonhosted.org/packages/06/d2/3a09ff8bf93b0527f40b71692513b56b270cb45eea57f27d9b1cdf5590cc/dask_histogram-2023.5.0.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret-core]: Downloading https://files.pythonhosted.org/packages/e3/d1/bdabe29166c2e10eb613e0cc11d7581a24eb2e235434be9ed3b495d2a9f7/interpret-core-0.4.0.tar.gz
+[2023-05-17 01:24:42] WARNING root fetch - processPackages [verilogae]: Skipping package: exceeds size limit 22016926>=10485760
+[2023-05-17 01:24:42] INFO root fetch - main [MainThread]: End processing [verilogae] error
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret]: Downloading https://files.pythonhosted.org/packages/db/25/45af0f21c4b4dbcca146813d6eb0b6982310f9623e038b2fc96cc32e1623/interpret-0.4.1.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [phot2lc]: Downloading https://files.pythonhosted.org/packages/58/2b/7ef5c4d438c7ffdcda582e90c477e7d4478d93e52cc9ef4549cb03058802/phot2lc-1.7.8.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [dask-histogram]: Downloading https://files.pythonhosted.org/packages/dc/2e/8281740b00b5f194533c38eab4f2359115027d85b438e86393cb6695777e/dask_histogram-2023.5.1.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret-core]: Downloading https://files.pythonhosted.org/packages/32/54/3d86569b74b112c1938d9a597f5e56570f5ccb7a302930f5227d315663fe/interpret-core-0.4.1.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret]: executing diffoscope
+[2023-05-17 01:24:42] INFO root fetch - processPackages [interpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpret-0.4.0.tar.gz tmp/interpret-0.4.1.tar.gz --markdown 20230517/i/interpret/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-17 01:24:42] INFO root fetch - processPackages [phot2lc]: executing diffoscope
+[2023-05-17 01:24:42] INFO root fetch - processPackages [phot2lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phot2lc-1.7.7.tar.gz tmp/phot2lc-1.7.8.tar.gz --markdown 20230517/p/phot2lc/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-05-17 01:24:42] INFO root fetch - processPackages [wads]: Downloading https://files.pythonhosted.org/packages/75/5e/3a91a7524a6b786bb306693ddaf58f9c767fa1cb6a605904b91e813e2708/wads-0.0.9.tar.gz
+[2023-05-17 01:24:42] INFO root fetch - processPackages [dask-histogram]: executing diffoscope
+[2023-05-17 01:24:42] INFO root fetch - processPackages [dask-histogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_histogram-2023.5.0.tar.gz tmp/dask_histogram-2023.5.1.tar.gz --markdown 20230517/d/dask-histogram/2023.5.0-2023.5.1/diff.md --exclude *.pyd
+[2023-05-17 01:24:43] INFO root fetch - processPackages [interpret-core]: executing diffoscope
+[2023-05-17 01:24:43] INFO root fetch - processPackages [interpret-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpret-core-0.4.0.tar.gz tmp/interpret-core-0.4.1.tar.gz --markdown 20230517/i/interpret-core/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-17 01:24:43] INFO root fetch - processPackages [wads]: executing diffoscope
+[2023-05-17 01:24:43] INFO root fetch - processPackages [wads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wads-0.0.8.tar.gz tmp/wads-0.0.9.tar.gz --markdown 20230517/w/wads/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:24:43] INFO root fetch - main [MainThread]: End processing [interpret]: success
+[2023-05-17 01:24:43] INFO root fetch - main [MainThread]: End processing [dask-histogram]: success
+[2023-05-17 01:24:44] INFO root fetch - main [MainThread]: End processing [phot2lc]: success
+[2023-05-17 01:24:44] INFO root fetch - main [MainThread]: End processing [wads]: success
+[2023-05-17 01:25:24] INFO root fetch - main [MainThread]: End processing [interpret-core]: success
+[2023-05-17 01:25:24] INFO root fetch - main [MainThread]: Store serial: [18130574]
