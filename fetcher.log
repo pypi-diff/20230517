@@ -990,3 +990,60 @@
 [2023-05-17 01:14:16] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 01:14:17] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 01:14:17] INFO root fetch - main [MainThread]: Store serial: [18130504]
+[2023-05-17 01:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130504]
+[2023-05-17 01:19:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xmos-ai-tools
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrecdp
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navigator-auth
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reproscreener
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydivsufsort
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: youte
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: panoptic
+[2023-05-17 01:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clonalEvolution
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.323] Old Version: [0.3.322]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [youte]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pydivsufsort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 01:19:26] WARNING root fetch - processPackages [reproscreener]: Skipping, unable to determine old version
+[2023-05-17 01:19:26] INFO root fetch - main [MainThread]: End processing [reproscreener] error
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pyrecdp]: New version: [1.0.1b202305151] Old Version: [1.0.1b202305134]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [youte]: executing diffoscope
+[2023-05-17 01:19:26] INFO root fetch - processPackages [youte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youte-2.1.0.tar.gz tmp/youte-2.2.0.tar.gz --markdown 20230517/y/youte/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-17 01:19:26] INFO root fetch - processPackages [clonalEvolution]: New version: [2.0.0] Old Version: [1.5.0]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [navigator-auth]: New version: [0.8.0] Old Version: [0.7.7]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [xmos-ai-tools]: New version: [0.2.2.dev91] Old Version: [0.2.2.dev51]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [panoptic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.0.1b202305134.tar.gz tmp/pyrecdp-1.0.1b202305151.tar.gz --markdown 20230517/p/pyrecdp/1.0.1b202305134-1.0.1b202305151/diff.md --exclude *.pyd
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/49/ca/1f59eee51b660ac744bba30de354fab40585d71416def3694b25fce43b59/pepperize.cdk-ses-smtp-credentials-0.3.323.tar.gz
+[2023-05-17 01:19:26] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/c5/1d/9946c167df76548adaf72d309e2f47933cdac9adb9e805a611171ed1679b/clonalEvolution-1.5.0.tar.gz
+[2023-05-17 01:19:26] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/57/67/b1d5f783a98d4afb43274edfc0e9e066578f260ede3384f3b98588dc6a65/panoptic-0.0.5.tar.gz
+[2023-05-17 01:19:26] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/45/ec/1596423fa6f0d2c54b1d97912de474f453e7e855296ee673b664073e93ea/xmos_ai_tools-0.2.2.dev51-py3-none-win_amd64.whl
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.322.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.323.tar.gz --markdown 20230517/p/pepperize.cdk-ses-smtp-credentials/0.3.322-0.3.323/diff.md --exclude *.pyd
+[2023-05-17 01:19:26] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 12231762>=10485760
+[2023-05-17 01:19:26] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-05-17 01:19:26] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/96/dd/f7607f01a3c0d729eb4733e3cb88b67e6216af980d8ec150ac4e54dacd1e/navigator_auth-0.7.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pydivsufsort]: executing diffoscope
+[2023-05-17 01:19:26] INFO root fetch - processPackages [pydivsufsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivsufsort-0.0.8.tar.gz tmp/pydivsufsort-0.0.9.tar.gz --markdown 20230517/p/pydivsufsort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:19:26] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-17 01:19:26] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.4.tar.gz tmp/panoptic-0.0.5.tar.gz --markdown 20230517/p/panoptic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 01:19:26] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-17 01:19:26] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230517/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-17 01:19:26] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/aa/38/c960258dc1a097a31adf7616016468c5db1454d40d26f03da261c28bd7a4/clonalEvolution-2.0.0.tar.gz
+[2023-05-17 01:19:26] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/96/9d/c18e928eec097cfc3afcd49a26f1e1e4410f7ab88aea3427a5ce9fa655bd/navigator_auth-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 01:19:27] INFO root fetch - processPackages [clonalEvolution]: executing diffoscope
+[2023-05-17 01:19:27] INFO root fetch - processPackages [clonalEvolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonalEvolution-1.5.0.tar.gz tmp/clonalEvolution-2.0.0.tar.gz --markdown 20230517/c/clonalEvolution/1.5.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-17 01:19:27] INFO root fetch - processPackages [navigator-auth]: executing diffoscope
+[2023-05-17 01:19:27] INFO root fetch - processPackages [navigator-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_auth-0.7.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_auth-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/n/navigator-auth/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 01:19:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-17 01:19:28] INFO root fetch - main [MainThread]: End processing [clonalEvolution]: success
+[2023-05-17 01:19:28] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
+[2023-05-17 01:19:28] INFO root fetch - main [MainThread]: End processing [pydivsufsort]: success
+[2023-05-17 01:19:29] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-17 01:19:30] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-05-17 01:19:30] INFO root fetch - main [MainThread]: End processing [youte]: success
+[2023-05-17 01:19:32] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-17 01:19:32] INFO root fetch - main [MainThread]: Store serial: [18130552]
