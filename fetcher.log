@@ -1141,3 +1141,32 @@
 [2023-05-17 01:30:37] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
 [2023-05-17 01:30:38] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
 [2023-05-17 01:30:38] INFO root fetch - main [MainThread]: Store serial: [18130595]
+[2023-05-17 01:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130595]
+[2023-05-17 01:35:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-17 01:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calcipy
+[2023-05-17 01:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2023-05-17 01:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windbg-copilot
+[2023-05-17 01:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlantsAI
+[2023-05-17 01:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s2aff
+[2023-05-17 01:35:47] INFO root fetch - processPackages [s2aff]: New version: [0.47] Old Version: [0.46]
+[2023-05-17 01:35:47] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 01:35:47] WARNING root fetch - processPackages [PlantsAI]: Skipping, unable to determine old version
+[2023-05-17 01:35:47] INFO root fetch - main [MainThread]: End processing [PlantsAI] error
+[2023-05-17 01:35:47] INFO root fetch - processPackages [calcipy]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-17 01:35:47] INFO root fetch - processPackages [pandasai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 01:35:47] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-17 01:35:47] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.8.tar.gz tmp/pandasai-0.2.9.tar.gz --markdown 20230517/p/pandasai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 01:35:47] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-05-17 01:35:47] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230517/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:35:47] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/24/14/bfce4cc477938912a093e4ff8ac585e9ed5829545eb262dfb9793c167d79/calcipy-1.2.3.tar.gz
+[2023-05-17 01:35:47] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/86/a8/b690a06b5e7acfe7a34054ffeb20e976fbcd113133c508301a998af76969/s2aff-0.47.tar.gz
+[2023-05-17 01:35:47] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-17 01:35:47] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.46.tar.gz tmp/s2aff-0.47.tar.gz --markdown 20230517/s/s2aff/0.46-0.47/diff.md --exclude *.pyd
+[2023-05-17 01:35:47] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/7f/32/46784d4fd3f3e3bc5879381fccfe70f639db7722a26f5c5f9b3692c8a343/calcipy-1.2.4.tar.gz
+[2023-05-17 01:35:48] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-05-17 01:35:48] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.2.3.tar.gz tmp/calcipy-1.2.4.tar.gz --markdown 20230517/c/calcipy/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-17 01:35:48] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-05-17 01:35:48] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-17 01:35:49] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-17 01:35:49] INFO root fetch - main [MainThread]: End processing [calcipy]: success
+[2023-05-17 01:35:49] INFO root fetch - main [MainThread]: Store serial: [18130612]
