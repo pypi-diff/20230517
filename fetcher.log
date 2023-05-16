@@ -780,3 +780,59 @@
 [2023-05-17 00:58:24] INFO root fetch - main [MainThread]: End processing [pyalpa]: success
 [2023-05-17 00:58:26] INFO root fetch - main [MainThread]: End processing [panoptic]: success
 [2023-05-17 00:58:26] INFO root fetch - main [MainThread]: Store serial: [18130357]
+[2023-05-17 01:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130357]
+[2023-05-17 01:03:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-yuvalbd-function-signature-formatting
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latch
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampling-constraints
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: youte
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolibri-ml
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tmnt
+[2023-05-17 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tecton
+[2023-05-17 01:03:36] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: New version: [20230516.22.59.556250] Old Version: [20230516.22.12.754242]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230515] Old Version: [1.5.0.dev20230512]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [youte]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.8.tar.gz tmp/sampling-constraints-0.0.9.tar.gz --markdown 20230517/s/sampling-constraints/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:03:36] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230517/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230516] Old Version: [0.7.0b20230515]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230516] Old Version: [0.7.0b20230515]
+[2023-05-17 01:03:36] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Downloading https://files.pythonhosted.org/packages/e5/9d/7e542141e96b7e7cf62d9aec76e6c6c4cd3f039ac4d9ae751df3d0481497/certora-cli-alpha-yuvalbd-function_signature_formatting-20230516.22.12.754242.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230512.tar.gz tmp/flwr_nightly-1.5.0.dev20230515.tar.gz --markdown 20230517/f/flwr-nightly/1.5.0.dev20230512-1.5.0.dev20230515/diff.md --exclude *.pyd
+[2023-05-17 01:03:36] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Skipping package: exceeds size limit 38656909>=10485760
+[2023-05-17 01:03:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-function-signature-formatting] error
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ab/15/50fe8be1bdfae399aa601c6c83095d3815c92941e31e67f6dd894dc1d5e6/tecton-0.7.0b8.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [youte]: Downloading https://files.pythonhosted.org/packages/54/ff/dbdda9a1102ec3d6a10bf3594d2ea276e172319bbac643eb0191f0505b8f/youte-2.1.0.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/bb/28/20ce81d72975050e91d1252922aeed74c83b4265700ac4f8efbf7301dd25/tmnt-cu101-0.7.0b20230516.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/78/4d/07f10569c439cea2cb99253ebf25f8bb443bf7121c257f1406b9f7fa01ad/tmnt-0.7.0b20230516.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230517/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230515.tar.gz tmp/tmnt-cu101-0.7.0b20230516.tar.gz --markdown 20230517/t/tmnt-cu101/0.7.0b20230515-0.7.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230515.tar.gz tmp/tmnt-0.7.0b20230516.tar.gz --markdown 20230517/t/tmnt/0.7.0b20230515-0.7.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 01:03:36] INFO root fetch - processPackages [youte]: Downloading https://files.pythonhosted.org/packages/3a/d3/3c37c52655f63035697e3f192b0c29b4f60bea5e5c4b74e008671e820cae/youte-2.2.0.tar.gz
+[2023-05-17 01:03:36] INFO root fetch - processPackages [youte]: executing diffoscope
+[2023-05-17 01:03:36] INFO root fetch - processPackages [youte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youte-2.1.0.tar.gz tmp/youte-2.2.0.tar.gz --markdown 20230517/y/youte/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-17 01:03:37] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/69/ce/1a0b9ac92ad90f7624d38a3450d2ad3914be1fa55edb89778b3f2e58f43c/tecton-0.7.0b9.tar.gz
+[2023-05-17 01:03:37] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-17 01:03:37] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-17 01:03:37] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-17 01:03:37] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230517/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-17 01:03:37] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-17 01:03:38] INFO root fetch - main [MainThread]: End processing [youte]: success
+[2023-05-17 01:03:39] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-17 01:03:39] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-17 01:03:41] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-05-17 01:03:42] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-17 01:03:42] INFO root fetch - main [MainThread]: Store serial: [18130390]
