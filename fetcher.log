@@ -904,3 +904,89 @@
 [2023-05-17 01:08:57] INFO root fetch - main [MainThread]: End processing [graspologic]: success
 [2023-05-17 01:08:59] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-17 01:08:59] INFO root fetch - main [MainThread]: Store serial: [18130459]
+[2023-05-17 01:14:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130459]
+[2023-05-17 01:14:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms2ml
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whacc
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kurses-py
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redacty
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nglui
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geofabrics
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mongodol
+[2023-05-17 01:14:08] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 01:14:08] WARNING root fetch - processPackages [kurses-py]: Skipping, unable to determine old version
+[2023-05-17 01:14:08] INFO root fetch - processPackages [kurses-py]: Start processing: PlantsAI
+[2023-05-17 01:14:08] INFO root fetch - main [MainThread]: End processing [kurses-py] error
+[2023-05-17 01:14:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.322] Old Version: [0.3.321]
+[2023-05-17 01:14:08] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 01:14:08] INFO root fetch - processPackages [ms2ml]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 01:14:08] INFO root fetch - processPackages [whacc]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-17 01:14:08] INFO root fetch - processPackages [nglui]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-17 01:14:08] WARNING root fetch - processPackages [redacty]: Skipping, unable to determine old version
+[2023-05-17 01:14:08] INFO root fetch - processPackages [redacty]: Start processing: tapipy
+[2023-05-17 01:14:08] INFO root fetch - processPackages [mongodol]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 01:14:08] INFO root fetch - main [MainThread]: End processing [redacty] error
+[2023-05-17 01:14:08] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-17 01:14:08] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230517/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 01:14:08] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-05-17 01:14:08] WARNING root fetch - processPackages [PlantsAI]: Skipping, unable to determine old version
+[2023-05-17 01:14:08] INFO root fetch - processPackages [PlantsAI]: Start processing: pref-voting
+[2023-05-17 01:14:08] INFO root fetch - main [MainThread]: End processing [PlantsAI] error
+[2023-05-17 01:14:08] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-17 01:14:08] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230517/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 01:14:08] INFO root fetch - processPackages [pref-voting]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 01:14:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-17 01:14:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.321.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.322.tar.gz --markdown 20230517/p/pepperize.cdk-ses-smtp-credentials/0.3.321-0.3.322/diff.md --exclude *.pyd
+[2023-05-17 01:14:08] INFO root fetch - processPackages [tapipy]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-17 01:14:08] INFO root fetch - processPackages [mongodol]: Downloading https://files.pythonhosted.org/packages/5f/90/5f64c28f20a98897a230d9b99297528f3c669c8d85050eae7e348ea9c1e8/mongodol-0.0.8.tar.gz
+[2023-05-17 01:14:08] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/ab/a3/b71a0a3a708fc1aaada6e7d6df13d323de45ae1771809c5f09f6b5f972ae/geofabrics-0.9.3a0.tar.gz
+[2023-05-17 01:14:08] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-05-17 01:14:08] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.2.8.tar.gz tmp/pref_voting-0.2.9.tar.gz --markdown 20230517/p/pref-voting/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 01:14:09] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/0a/f4/08cbd309b4d5b3ff291fcc599f79d0ea8fb65fa77535e2c88f2e024318a7/tapipy-1.3.3.tar.gz
+[2023-05-17 01:14:09] INFO root fetch - processPackages [ms2ml]: executing diffoscope
+[2023-05-17 01:14:09] INFO root fetch - processPackages [ms2ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2ml-0.0.7.tar.gz tmp/ms2ml-0.0.8.tar.gz --markdown 20230517/m/ms2ml/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 01:14:09] INFO root fetch - processPackages [nglui]: executing diffoscope
+[2023-05-17 01:14:09] INFO root fetch - processPackages [nglui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nglui-2.8.1.tar.gz tmp/nglui-2.9.0.tar.gz --markdown 20230517/n/nglui/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-17 01:14:09] INFO root fetch - processPackages [whacc]: executing diffoscope
+[2023-05-17 01:14:09] INFO root fetch - processPackages [whacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whacc-1.3.8.tar.gz tmp/whacc-1.3.9.tar.gz --markdown 20230517/w/whacc/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-17 01:14:09] INFO root fetch - processPackages [mongodol]: Downloading https://files.pythonhosted.org/packages/45/07/d50f025f2b5df68989db8f0254a160ad0679ba49a2058366ab1280ba365b/mongodol-0.0.9.tar.gz
+[2023-05-17 01:14:09] INFO root fetch - processPackages [mongodol]: executing diffoscope
+[2023-05-17 01:14:09] INFO root fetch - processPackages [mongodol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodol-0.0.8.tar.gz tmp/mongodol-0.0.9.tar.gz --markdown 20230517/m/mongodol/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:14:09] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/f3/2f/b84fea41bea143f4e81d14dc8a934fe6294f1788b6baf846c84da4b88c8d/geofabrics-0.9.4.tar.gz
+[2023-05-17 01:14:09] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/e9/be/d2eed41f99dde9a5301592406cdd7c50e4b34d0121f4e5aff19d96129c9e/tapipy-1.3.4.tar.gz
+[2023-05-17 01:14:09] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-05-17 01:14:09] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230517/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-05-17 01:14:09] INFO root fetch - processPackages [tapipy]: executing diffoscope
+[2023-05-17 01:14:09] INFO root fetch - processPackages [tapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapipy-1.3.3.tar.gz tmp/tapipy-1.3.4.tar.gz --markdown 20230517/t/tapipy/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-17 01:14:10] INFO root fetch - processPackages [pref-voting]: Start processing: dash-connectivity-viewer
+[2023-05-17 01:14:10] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-05-17 01:14:10] INFO root fetch - processPackages [dash-connectivity-viewer]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-17 01:14:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Start processing: sagemaker-studio-analytics-extension
+[2023-05-17 01:14:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-17 01:14:10] INFO root fetch - processPackages [sagemaker-studio-analytics-extension]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 01:14:10] INFO root fetch - processPackages [ms2ml]: Start processing: xmos-ai-tools
+[2023-05-17 01:14:10] INFO root fetch - main [MainThread]: End processing [ms2ml]: success
+[2023-05-17 01:14:10] INFO root fetch - processPackages [xmos-ai-tools]: New version: [0.2.2.dev91] Old Version: [0.2.2.dev51]
+[2023-05-17 01:14:10] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/45/ec/1596423fa6f0d2c54b1d97912de474f453e7e855296ee673b664073e93ea/xmos_ai_tools-0.2.2.dev51-py3-none-win_amd64.whl
+[2023-05-17 01:14:10] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 12231762>=10485760
+[2023-05-17 01:14:10] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-05-17 01:14:10] INFO root fetch - processPackages [sagemaker-studio-analytics-extension]: Downloading https://files.pythonhosted.org/packages/1a/cc/d49423a1c9a96703c08b87e1703bee823445facea82134a4a5733872e935/sagemaker-studio-analytics-extension-0.0.8.tar.gz
+[2023-05-17 01:14:10] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-05-17 01:14:10] INFO root fetch - processPackages [dash-connectivity-viewer]: Downloading https://files.pythonhosted.org/packages/2e/76/e5968f0b641a90ebdaab709a83b8e5d715f2b8dba99f3097ef763b5b01e5/dash-connectivity-viewer-2.0.6.tar.gz
+[2023-05-17 01:14:11] INFO root fetch - processPackages [sagemaker-studio-analytics-extension]: Downloading https://files.pythonhosted.org/packages/98/61/2f472b09751a5c98ace774d18271359b92ca5c3c176b3daa8970f6b94626/sagemaker-studio-analytics-extension-0.0.9.tar.gz
+[2023-05-17 01:14:11] INFO root fetch - processPackages [dash-connectivity-viewer]: executing diffoscope
+[2023-05-17 01:14:11] INFO root fetch - processPackages [dash-connectivity-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-connectivity-viewer-2.0.5.tar.gz tmp/dash-connectivity-viewer-2.0.6.tar.gz --markdown 20230517/d/dash-connectivity-viewer/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-17 01:14:11] INFO root fetch - processPackages [sagemaker-studio-analytics-extension]: executing diffoscope
+[2023-05-17 01:14:11] INFO root fetch - processPackages [sagemaker-studio-analytics-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-studio-analytics-extension-0.0.8.tar.gz tmp/sagemaker-studio-analytics-extension-0.0.9.tar.gz --markdown 20230517/s/sagemaker-studio-analytics-extension/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:14:11] INFO root fetch - main [MainThread]: End processing [tapipy]: success
+[2023-05-17 01:14:11] INFO root fetch - main [MainThread]: End processing [mongodol]: success
+[2023-05-17 01:14:12] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
+[2023-05-17 01:14:12] INFO root fetch - main [MainThread]: End processing [sagemaker-studio-analytics-extension]: success
+[2023-05-17 01:14:13] INFO root fetch - main [MainThread]: End processing [nglui]: success
+[2023-05-17 01:14:16] INFO root fetch - main [MainThread]: End processing [whacc]: success
+[2023-05-17 01:14:16] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-17 01:14:17] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-17 01:14:17] INFO root fetch - main [MainThread]: Store serial: [18130504]
