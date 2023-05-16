@@ -697,3 +697,27 @@
 [2023-05-17 00:48:01] INFO root fetch - main [MainThread]: End processing [pyaipersonality]: success
 [2023-05-17 00:48:01] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
 [2023-05-17 00:48:01] INFO root fetch - main [MainThread]: Store serial: [18130313]
+[2023-05-17 00:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130313]
+[2023-05-17 00:53:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-17 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wdmtoolbox
+[2023-05-17 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apf-base
+[2023-05-17 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lolpop
+[2023-05-17 00:53:11] INFO root fetch - processPackages [wdmtoolbox]: New version: [8.9.7.5] Old Version: [7.9.7.5]
+[2023-05-17 00:53:11] INFO root fetch - processPackages [lolpop]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-05-17 00:53:11] INFO root fetch - processPackages [apf-base]: New version: [2.2.1] Old Version: [2.1.6]
+[2023-05-17 00:53:11] INFO root fetch - processPackages [apf-base]: Downloading https://files.pythonhosted.org/packages/02/39/5b79e167bf5f3fbd010f24cca9e7b7c9b0c5eb9b505dc2de857a87572bcc/apf_base-2.1.6.tar.gz
+[2023-05-17 00:53:11] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/ec/9a/3bc801645af851093802a64c43c71137b82cab1db34a7279d8f696cf0b19/wdmtoolbox-7.9.7.5.tar.gz
+[2023-05-17 00:53:11] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/df/b2/7422b0e677b448015ec2b7952201ca49f275fa4170d0db77065d91c513eb/lolpop-0.1.0a2.tar.gz
+[2023-05-17 00:53:11] INFO root fetch - processPackages [apf-base]: Downloading https://files.pythonhosted.org/packages/ec/9e/e631593dcf9276fc30c79cf0199e4ebde4ea3cdd228bf5f7cdf36da54e6d/apf_base-2.2.1.tar.gz
+[2023-05-17 00:53:11] INFO root fetch - processPackages [apf-base]: executing diffoscope
+[2023-05-17 00:53:11] INFO root fetch - processPackages [apf-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apf_base-2.1.6.tar.gz tmp/apf_base-2.2.1.tar.gz --markdown 20230517/a/apf-base/2.1.6-2.2.1/diff.md --exclude *.pyd
+[2023-05-17 00:53:11] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/ed/dd/b504fa38074c7125a9370e09e7f3e43ade58f6d9910ef98319d15217b927/lolpop-0.1.0a3.tar.gz
+[2023-05-17 00:53:11] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/70/67/62d4bfd6f784827489a14b4c543d4ca60b65a5484ef88e082f73ff0a2de0/wdmtoolbox-8.9.7.5.tar.gz
+[2023-05-17 00:53:11] INFO root fetch - processPackages [lolpop]: executing diffoscope
+[2023-05-17 00:53:11] INFO root fetch - processPackages [lolpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolpop-0.1.0a2.tar.gz tmp/lolpop-0.1.0a3.tar.gz --markdown 20230517/l/lolpop/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-05-17 00:53:11] INFO root fetch - processPackages [wdmtoolbox]: executing diffoscope
+[2023-05-17 00:53:11] INFO root fetch - processPackages [wdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdmtoolbox-7.9.7.5.tar.gz tmp/wdmtoolbox-8.9.7.5.tar.gz --markdown 20230517/w/wdmtoolbox/7.9.7.5-8.9.7.5/diff.md --exclude *.pyd
+[2023-05-17 00:53:12] INFO root fetch - main [MainThread]: End processing [apf-base]: success
+[2023-05-17 00:53:13] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
+[2023-05-17 00:53:13] INFO root fetch - main [MainThread]: End processing [lolpop]: success
+[2023-05-17 00:53:13] INFO root fetch - main [MainThread]: Store serial: [18130321]
