@@ -1245,3 +1245,51 @@
 [2023-05-17 01:41:05] INFO root fetch - main [MainThread]: End processing [docutils]: success
 [2023-05-17 01:41:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 01:41:05] INFO root fetch - main [MainThread]: Store serial: [18130649]
+[2023-05-17 01:46:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130649]
+[2023-05-17 01:46:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elabapi-python
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arraykit
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aocref
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finetune-eval-harness
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-queuey
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyt-gpt
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linushka-serializer
+[2023-05-17 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mgz
+[2023-05-17 01:46:14] INFO root fetch - processPackages [elabapi-python]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-17 01:46:14] INFO root fetch - processPackages [mgz]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-17 01:46:14] INFO root fetch - processPackages [aocref]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-17 01:46:14] WARNING root fetch - processPackages [linushka-serializer]: Skipping, unable to determine old version
+[2023-05-17 01:46:14] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 01:46:14] INFO root fetch - main [MainThread]: End processing [linushka-serializer] error
+[2023-05-17 01:46:14] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 01:46:14] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.4.dev1] Old Version: [0.6.3.dev1]
+[2023-05-17 01:46:14] INFO root fetch - processPackages [arraykit]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-05-17 01:46:14] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-17 01:46:14] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230517/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 01:46:14] INFO root fetch - processPackages [aocref]: executing diffoscope
+[2023-05-17 01:46:14] INFO root fetch - processPackages [aocref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aocref-2.0.8.tar.gz tmp/aocref-2.0.9.tar.gz --markdown 20230517/a/aocref/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-17 01:46:14] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-17 01:46:14] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230517/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 01:46:14] INFO root fetch - processPackages [elabapi-python]: Downloading https://files.pythonhosted.org/packages/fb/2b/7a7f2999883465ade6e570cfa66c7af7e0ced03831bf538e13266b1438ee/elabapi-python-0.2.3.tar.gz
+[2023-05-17 01:46:14] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/3f/c1/01499b2c7a7e8ca67a4e3d16d6c237de4b8d8b103d08d090f99b6fbe6ece/mgz-1.8.8.tar.gz
+[2023-05-17 01:46:14] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/a7/71/1672c1ca672d51a31d9bbfedc2e9433346453336883157fc8705a8af91f4/arraykit-0.3.4.tar.gz
+[2023-05-17 01:46:14] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/01/5f/cbf064e2cc796f02f6601abe7bcce3010cf5a2c0d2b929b03a92bfa54d23/finetune_eval_harness-0.6.4.dev1.tar.gz
+[2023-05-17 01:46:14] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-17 01:46:14] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.6.3.dev1.tar.gz tmp/finetune_eval_harness-0.6.4.dev1.tar.gz --markdown 20230517/f/finetune-eval-harness/0.6.3.dev1-0.6.4.dev1/diff.md --exclude *.pyd
+[2023-05-17 01:46:14] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/35/5d/3c7e585d83e983b9e2b9769b5831f699db890394acd1b0e5bffda676eb34/arraykit-0.4.0.tar.gz
+[2023-05-17 01:46:14] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/af/28/845205c817682a35883ecd3b20e9e09be17f8e08dd38fd1ee3a194f8499f/mgz-1.8.9.tar.gz
+[2023-05-17 01:46:15] INFO root fetch - processPackages [elabapi-python]: Downloading https://files.pythonhosted.org/packages/1f/87/c0070e74cc52a3e456d27aee4f31253c18e1ffab5148ce655b83d103ea8a/elabapi-python-0.2.4.tar.gz
+[2023-05-17 01:46:15] INFO root fetch - processPackages [arraykit]: executing diffoscope
+[2023-05-17 01:46:15] INFO root fetch - processPackages [arraykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraykit-0.3.4.tar.gz tmp/arraykit-0.4.0.tar.gz --markdown 20230517/a/arraykit/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 01:46:15] INFO root fetch - processPackages [mgz]: executing diffoscope
+[2023-05-17 01:46:15] INFO root fetch - processPackages [mgz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgz-1.8.8.tar.gz tmp/mgz-1.8.9.tar.gz --markdown 20230517/m/mgz/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-17 01:46:15] INFO root fetch - processPackages [elabapi-python]: executing diffoscope
+[2023-05-17 01:46:15] INFO root fetch - processPackages [elabapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elabapi-python-0.2.3.tar.gz tmp/elabapi-python-0.2.4.tar.gz --markdown 20230517/e/elabapi-python/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-17 01:46:15] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-17 01:46:15] INFO root fetch - main [MainThread]: End processing [aocref]: success
+[2023-05-17 01:46:16] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-17 01:46:16] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-17 01:46:16] INFO root fetch - main [MainThread]: End processing [mgz]: success
+[2023-05-17 01:46:16] INFO root fetch - main [MainThread]: End processing [arraykit]: success
+[2023-05-17 01:46:18] INFO root fetch - main [MainThread]: End processing [elabapi-python]: success
+[2023-05-17 01:46:18] INFO root fetch - main [MainThread]: Store serial: [18130715]
