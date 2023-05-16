@@ -437,3 +437,70 @@
 [2023-05-17 00:25:51] INFO root fetch - main [MainThread]: End processing [hack-mentor]: success
 [2023-05-17 00:25:51] INFO root fetch - main [MainThread]: End processing [xm-ai]: success
 [2023-05-17 00:25:51] INFO root fetch - main [MainThread]: Store serial: [18130165]
+[2023-05-17 00:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130165]
+[2023-05-17 00:31:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flyteidl
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymultiastar
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangoldp-tzcld
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlrun
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flashpass
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clubscore
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openimis-be-tools
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simplesystray
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: module-qc-analysis-tools
+[2023-05-17 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qbraid
+[2023-05-17 00:31:00] INFO root fetch - processPackages [flashpass]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [djangoldp-tzcld]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [openimis-be-tools]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc5] Old Version: [1.4.0rc4]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [module-qc-analysis-tools]: New version: [1.3.1rc8] Old Version: [1.3.1rc7]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [pymultiastar]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [simplesystray]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [clubscore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [flyteidl]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [qbraid]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-17 00:31:00] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/6b/87/a84a3bced72cf90b834ed3e97c5557eb9dde74efec52e68e2f959cd1807d/clubscore-0.1.6.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/02/08/e7caef9441b2e07eab8e9eaec5f8e135f3b94410d38fbea74c0641d5f64d/mlrun-1.4.0rc5-py3-none-any.whl
+[2023-05-17 00:31:00] INFO root fetch - processPackages [flashpass]: Downloading https://files.pythonhosted.org/packages/f4/21/f67ca9187ce801057277e2b801f54c7bd00509a73380909eaf2b56f1cdae/flashpass-1.0.1.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [simplesystray]: Downloading https://files.pythonhosted.org/packages/23/8e/d07dcef40ee897c90df12a3d885df3fb9bd4eeed56bd11fa0baeb0cec8a0/simplesystray-0.0.7.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/83/e8/df50ed0ee79e11e9af60e46dce9ae1d2d06fc6de34d81ac1a3f7a0b01142/qbraid-0.3.0.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [openimis-be-tools]: Downloading https://files.pythonhosted.org/packages/71/15/a04da01a60260fc2da25f7e4a2d91b87999e6cc2f0156a131c4c62d2416b/openimis-be-tools-1.5.0.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/65/43/3ab38dcab6afa65a27986fd926f50d6350f8dc3e74be2de82b81578f065f/flyteidl-1.5.4.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/5f/63/1fddf202aed25d44bc6264e5d2ca4c15a99c397a11dcc4e398753a195f50/module_qc_analysis_tools-1.3.1rc7.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [djangoldp-tzcld]: executing diffoscope
+[2023-05-17 00:31:00] INFO root fetch - processPackages [djangoldp-tzcld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_tzcld-1.0.8.tar.gz tmp/djangoldp_tzcld-1.0.9.tar.gz --markdown 20230517/d/djangoldp-tzcld/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 00:31:00] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-17 00:31:00] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc4-py3-none-any.whl.zip tmp/mlrun-1.4.0rc5-py3-none-any.whl.zip --markdown 20230517/m/mlrun/1.4.0rc4-1.4.0rc5/diff.md --exclude *.pyd
+[2023-05-17 00:31:00] INFO root fetch - processPackages [simplesystray]: executing diffoscope
+[2023-05-17 00:31:00] INFO root fetch - processPackages [simplesystray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesystray-0.0.6.tar.gz tmp/simplesystray-0.0.7.tar.gz --markdown 20230517/s/simplesystray/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 00:31:00] INFO root fetch - processPackages [pymultiastar]: Downloading https://files.pythonhosted.org/packages/66/c0/43131f2c6d83c79fd61acb41071d6a6bed88ac7255a9bca08e486ed86cf8/pymultiastar-0.0.8.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [flashpass]: executing diffoscope
+[2023-05-17 00:31:00] INFO root fetch - processPackages [flashpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashpass-1.0.0.tar.gz tmp/flashpass-1.0.1.tar.gz --markdown 20230517/f/flashpass/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 00:31:00] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/65/7f/247c2714e34f40c44b2e63bc5c4d130d7cf25fadff21ac41d94d601fd2b9/clubscore-0.1.7.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [openimis-be-tools]: Downloading https://files.pythonhosted.org/packages/20/06/8080a15b604c8f536ab120e95038e36c855c16b80858f53c578f4dadc61c/openimis-be-tools-1.5.1.tar.gz
+[2023-05-17 00:31:00] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/40/15/1343a705736b631ecb62f864b5c9e780074922e07bb4074ce25e32ab36a4/module_qc_analysis_tools-1.3.1rc8.tar.gz
+[2023-05-17 00:31:01] INFO root fetch - processPackages [pymultiastar]: executing diffoscope
+[2023-05-17 00:31:01] INFO root fetch - processPackages [pymultiastar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultiastar-0.0.7.tar.gz tmp/pymultiastar-0.0.8.tar.gz --markdown 20230517/p/pymultiastar/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 00:31:01] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-05-17 00:31:01] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.1.6.tar.gz tmp/clubscore-0.1.7.tar.gz --markdown 20230517/c/clubscore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 00:31:01] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/f4/31/a18d4019c7e5adaff06927d0d6e81af9233de3d1a849e9623a76cac290ce/flyteidl-1.5.5.tar.gz
+[2023-05-17 00:31:01] INFO root fetch - processPackages [openimis-be-tools]: executing diffoscope
+[2023-05-17 00:31:01] INFO root fetch - processPackages [openimis-be-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-tools-1.5.0.tar.gz tmp/openimis-be-tools-1.5.1.tar.gz --markdown 20230517/o/openimis-be-tools/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-17 00:31:01] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2023-05-17 00:31:01] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.5.4.tar.gz tmp/flyteidl-1.5.5.tar.gz --markdown 20230517/f/flyteidl/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-17 00:31:01] INFO root fetch - processPackages [module-qc-analysis-tools]: executing diffoscope
+[2023-05-17 00:31:01] INFO root fetch - processPackages [module-qc-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_analysis_tools-1.3.1rc7.tar.gz tmp/module_qc_analysis_tools-1.3.1rc8.tar.gz --markdown 20230517/m/module-qc-analysis-tools/1.3.1rc7-1.3.1rc8/diff.md --exclude *.pyd
+[2023-05-17 00:31:01] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/a5/fe/f784dacc412dd3c7a54f17b44be72f31480952f5775f5461d34ecc508273/qbraid-0.4.0.tar.gz
+[2023-05-17 00:31:02] INFO root fetch - main [MainThread]: End processing [flashpass]: success
+[2023-05-17 00:31:02] INFO root fetch - main [MainThread]: End processing [simplesystray]: success
+[2023-05-17 00:31:02] INFO root fetch - processPackages [qbraid]: executing diffoscope
+[2023-05-17 00:31:02] INFO root fetch - processPackages [qbraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-0.3.0.tar.gz tmp/qbraid-0.4.0.tar.gz --markdown 20230517/q/qbraid/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 00:31:02] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-05-17 00:31:02] INFO root fetch - main [MainThread]: End processing [djangoldp-tzcld]: success
+[2023-05-17 00:31:03] INFO root fetch - main [MainThread]: End processing [module-qc-analysis-tools]: success
+[2023-05-17 00:31:03] INFO root fetch - main [MainThread]: End processing [openimis-be-tools]: success
+[2023-05-17 00:31:05] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2023-05-17 00:31:05] INFO root fetch - main [MainThread]: End processing [qbraid]: success
+[2023-05-17 00:31:06] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-17 00:31:11] INFO root fetch - main [MainThread]: End processing [pymultiastar]: success
+[2023-05-17 00:31:11] INFO root fetch - main [MainThread]: Store serial: [18130209]
