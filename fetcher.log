@@ -1293,3 +1293,53 @@
 [2023-05-17 01:46:16] INFO root fetch - main [MainThread]: End processing [arraykit]: success
 [2023-05-17 01:46:18] INFO root fetch - main [MainThread]: End processing [elabapi-python]: success
 [2023-05-17 01:46:18] INFO root fetch - main [MainThread]: Store serial: [18130715]
+[2023-05-17 01:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130715]
+[2023-05-17 01:51:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-processing-img
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clonalEvolution
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ms2ml
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jinjat
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nni
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyt-gpt
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NikeCA
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: np-queuey
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whylogs
+[2023-05-17 01:51:27] WARNING root fetch - processPackages [image-processing-img]: Skipping, unable to determine old version
+[2023-05-17 01:51:27] INFO root fetch - main [MainThread]: End processing [image-processing-img] error
+[2023-05-17 01:51:27] INFO root fetch - processPackages [NikeCA]: New version: [0.2.9b0] Old Version: [0.2.9a0]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ms2ml]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [nni]: New version: [3.0rc1] Old Version: [2.9]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [clonalEvolution]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [jinjat]: New version: [0.6] Old Version: [0.5]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ms2ml]: executing diffoscope
+[2023-05-17 01:51:27] INFO root fetch - processPackages [ms2ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2ml-0.0.7.tar.gz tmp/ms2ml-0.0.8.tar.gz --markdown 20230517/m/ms2ml/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 01:51:27] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-17 01:51:27] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.2.9a0.tar.gz tmp/NikeCA-0.2.9b0.tar.gz --markdown 20230517/N/NikeCA/0.2.9a0-0.2.9b0/diff.md --exclude *.pyd
+[2023-05-17 01:51:27] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-17 01:51:27] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230517/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 01:51:27] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/6c/34/cb36a462c7f1a25e2397feb5161235a99057fb4cdc3ffeab7804a101669a/clonalEvolution-2.0.4.tar.gz
+[2023-05-17 01:51:27] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-17 01:51:27] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230517/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 01:51:27] INFO root fetch - processPackages [nni]: Downloading https://files.pythonhosted.org/packages/a7/00/aad22cc3727ae56cf137bde71d022be79cd286ce6d29641ed483db4e8746/nni-2.9-py3-none-win_amd64.whl
+[2023-05-17 01:51:27] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/44/f1/d0c2ceb2f992ecca7e7c54c3748613c3933e8aeea3b26f1d6a178eb8544d/whylogs-1.1.9.tar.gz
+[2023-05-17 01:51:27] INFO root fetch - processPackages [jinjat]: Downloading https://files.pythonhosted.org/packages/56/af/f463249801a610dc534dace6cf1c5577cbfb6296ea3a4e43841173574c75/jinjat-0.6.tar.gz
+[2023-05-17 01:51:27] INFO root fetch - processPackages [clonalEvolution]: executing diffoscope
+[2023-05-17 01:51:27] INFO root fetch - processPackages [clonalEvolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonalEvolution-2.0.3.tar.gz tmp/clonalEvolution-2.0.4.tar.gz --markdown 20230517/c/clonalEvolution/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-17 01:51:27] INFO root fetch - processPackages [jinjat]: executing diffoscope
+[2023-05-17 01:51:27] INFO root fetch - processPackages [jinjat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjat-0.5.tar.gz tmp/jinjat-0.6.tar.gz --markdown 20230517/j/jinjat/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-17 01:51:27] WARNING root fetch - processPackages [nni]: Skipping package: exceeds size limit 52957170>=10485760
+[2023-05-17 01:51:27] INFO root fetch - main [MainThread]: End processing [nni] error
+[2023-05-17 01:51:27] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/61/60/7d86d3c1b7fa9e59180a1270f188d931d74ee519ba64d0294973b19ec04e/whylogs-1.1.9.dev0.tar.gz
+[2023-05-17 01:51:28] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-17 01:51:28] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230517/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-17 01:51:28] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-17 01:51:28] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-17 01:51:28] INFO root fetch - main [MainThread]: End processing [clonalEvolution]: success
+[2023-05-17 01:51:28] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-17 01:51:28] INFO root fetch - main [MainThread]: End processing [ms2ml]: success
+[2023-05-17 01:51:29] INFO root fetch - main [MainThread]: End processing [jinjat]: success
+[2023-05-17 01:51:30] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-17 01:51:30] INFO root fetch - main [MainThread]: Store serial: [18130755]
