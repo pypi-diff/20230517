@@ -1343,3 +1343,59 @@
 [2023-05-17 01:51:29] INFO root fetch - main [MainThread]: End processing [jinjat]: success
 [2023-05-17 01:51:30] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-05-17 01:51:30] INFO root fetch - main [MainThread]: Store serial: [18130755]
+[2023-05-17 01:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130755]
+[2023-05-17 01:56:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dinohub-seedwork-be
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqapi
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homeduino
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Himon
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swgoh-comlink
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudsnorkel.cdk-github-runners
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yalexs-ble
+[2023-05-17 01:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chalkpy
+[2023-05-17 01:56:39] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [swgoh-comlink]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [sqapi]: New version: [0.42] Old Version: [0.41]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [Himon]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [homeduino]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [yalexs-ble]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-17 01:56:39] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-17 01:56:39] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230517/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-17 01:56:39] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-17 01:56:39] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230517/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 01:56:39] INFO root fetch - processPackages [swgoh-comlink]: Downloading https://files.pythonhosted.org/packages/3a/99/0a6023c14f5e7ec52ad4415e7c740684d16ccf51f72fdcb4ed75f4fb651d/swgoh_comlink-1.8.0.tar.gz
+[2023-05-17 01:56:39] INFO root fetch - processPackages [sqapi]: Downloading https://files.pythonhosted.org/packages/fc/75/0458b5459a074f94e9b8fc5d86b208aeca5c0cdb43330d85e42b53972a1c/sqapi-0.42.tar.gz
+[2023-05-17 01:56:39] INFO root fetch - processPackages [homeduino]: Downloading https://files.pythonhosted.org/packages/a5/6e/7e95f689634acfb89fcbf4cda75b1f7200ba9b88b2d8362dd9584fce2c72/homeduino-0.0.7.5.tar.gz
+[2023-05-17 01:56:39] INFO root fetch - processPackages [Himon]: Downloading https://files.pythonhosted.org/packages/ec/d6/196a8000eb71153cb7228c8d7525911ad845b6a3bd9ca8b01b9c94bc7a6e/himon-0.3.2.tar.gz
+[2023-05-17 01:56:40] INFO root fetch - processPackages [sqapi]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [sqapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqapi-0.41.tar.gz tmp/sqapi-0.42.tar.gz --markdown 20230517/s/sqapi/0.41-0.42/diff.md --exclude *.pyd
+[2023-05-17 01:56:40] INFO root fetch - processPackages [yalexs-ble]: Downloading https://files.pythonhosted.org/packages/8b/d6/fb5933f2f02986bbe8ebe924fe135fca6f7e96d8cf162f15d80d3a214c97/yalexs_ble-2.1.8.tar.gz
+[2023-05-17 01:56:40] INFO root fetch - processPackages [homeduino]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [homeduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeduino-0.0.7.4.tar.gz tmp/homeduino-0.0.7.5.tar.gz --markdown 20230517/h/homeduino/0.0.7.4-0.0.7.5/diff.md --exclude *.pyd
+[2023-05-17 01:56:40] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230517/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 01:56:40] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsnorkel.cdk-github-runners-0.9.7.tar.gz tmp/cloudsnorkel.cdk-github-runners-0.9.8.tar.gz --markdown 20230517/c/cloudsnorkel.cdk-github-runners/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-17 01:56:40] INFO root fetch - processPackages [Himon]: Downloading https://files.pythonhosted.org/packages/c4/80/d4acb40c2edf31a9409ebb824bc87564b408231daa9c75f8e37302ced4e9/himon-0.4.0.tar.gz
+[2023-05-17 01:56:40] INFO root fetch - processPackages [swgoh-comlink]: Downloading https://files.pythonhosted.org/packages/73/58/a97e21a0484ee0f41f245e0d7ba49885017a81c8fb0cd2249837228d512b/swgoh_comlink-1.9.0.tar.gz
+[2023-05-17 01:56:40] INFO root fetch - processPackages [Himon]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [Himon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/himon-0.3.2.tar.gz tmp/himon-0.4.0.tar.gz --markdown 20230517/H/Himon/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 01:56:40] INFO root fetch - processPackages [yalexs-ble]: Downloading https://files.pythonhosted.org/packages/d3/c0/1359ed4958f4289a61ea70d0a5f5b97ff6c2976c3f26d846f403c12cd4f2/yalexs_ble-2.1.9.tar.gz
+[2023-05-17 01:56:40] INFO root fetch - processPackages [yalexs-ble]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [yalexs-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs_ble-2.1.8.tar.gz tmp/yalexs_ble-2.1.9.tar.gz --markdown 20230517/y/yalexs-ble/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-17 01:56:40] INFO root fetch - processPackages [swgoh-comlink]: executing diffoscope
+[2023-05-17 01:56:40] INFO root fetch - processPackages [swgoh-comlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swgoh_comlink-1.8.0.tar.gz tmp/swgoh_comlink-1.9.0.tar.gz --markdown 20230517/s/swgoh-comlink/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 01:56:41] INFO root fetch - main [MainThread]: End processing [homeduino]: success
+[2023-05-17 01:56:41] INFO root fetch - main [MainThread]: End processing [sqapi]: success
+[2023-05-17 01:56:41] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
+[2023-05-17 01:56:42] INFO root fetch - main [MainThread]: End processing [yalexs-ble]: success
+[2023-05-17 01:56:42] INFO root fetch - main [MainThread]: End processing [Himon]: success
+[2023-05-17 01:56:43] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-17 01:56:43] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-17 01:56:45] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-17 01:57:17] INFO root fetch - main [MainThread]: End processing [swgoh-comlink]: success
+[2023-05-17 01:57:17] INFO root fetch - main [MainThread]: Store serial: [18130782]
