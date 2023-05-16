@@ -836,3 +836,71 @@
 [2023-05-17 01:03:41] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-05-17 01:03:42] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-17 01:03:42] INFO root fetch - main [MainThread]: Store serial: [18130390]
+[2023-05-17 01:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130390]
+[2023-05-17 01:08:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyGSTi
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolibri-ml
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byubit
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-queuey
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lokiunimore
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uwu-codec
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paper-qa
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinx-shikijs
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynbps
+[2023-05-17 01:08:50] INFO root fetch - processPackages [byubit]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 01:08:50] WARNING root fetch - processPackages [sphinx-shikijs]: Skipping, unable to determine old version
+[2023-05-17 01:08:50] INFO root fetch - processPackages [sphinx-shikijs]: Start processing: upecd
+[2023-05-17 01:08:50] WARNING root fetch - processPackages [uwu-codec]: Skipping, unable to determine old version
+[2023-05-17 01:08:50] INFO root fetch - main [MainThread]: End processing [sphinx-shikijs] error
+[2023-05-17 01:08:50] INFO root fetch - processPackages [uwu-codec]: Start processing: graspologic
+[2023-05-17 01:08:50] INFO root fetch - processPackages [pyGSTi]: New version: [0.9.9.3] Old Version: [0.9.9.2]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [lokiunimore]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [paper-qa]: New version: [1.6.0] Old Version: [1.4.1]
+[2023-05-17 01:08:50] INFO root fetch - main [MainThread]: End processing [uwu-codec] error
+[2023-05-17 01:08:50] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [dynbps]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230516.4.26.467828] Old Version: [20230516.23.6.855064]
+[2023-05-17 01:08:50] WARNING root fetch - processPackages [upecd]: Skipping, unable to determine old version
+[2023-05-17 01:08:50] INFO root fetch - processPackages [upecd]: Start processing: ethyca-fides
+[2023-05-17 01:08:50] INFO root fetch - main [MainThread]: End processing [upecd] error
+[2023-05-17 01:08:50] INFO root fetch - processPackages [graspologic]: New version: [3.0.0.dev4997377482] Old Version: [3.0.0.dev4534921903]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-17 01:08:50] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-17 01:08:50] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230517/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 01:08:50] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-05-17 01:08:50] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230517/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-17 01:08:50] INFO root fetch - processPackages [lokiunimore]: Downloading https://files.pythonhosted.org/packages/7e/f2/8cba0848cd3d3c796c980960b1c6dfd59435278648a2ba32e52a595bc18f/lokiunimore-0.6.0.tar.gz
+[2023-05-17 01:08:51] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/db/ba/0ce0da3c24e0daa548ede7e61f76bee3a6dafdfc75f6357ce9dcc94faced/certora-cli-alpha-jtoman-infinite-loop-fix-20230516.23.6.855064.tar.gz
+[2023-05-17 01:08:51] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-17 01:08:51] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230517/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-17 01:08:51] INFO root fetch - processPackages [graspologic]: Downloading https://files.pythonhosted.org/packages/74/5b/575a9e4c4854e1935aec6e35da6ae6962b70deaecd6e9e608e37acc383ae/graspologic-3.0.0.dev4534921903.tar.gz
+[2023-05-17 01:08:51] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/5b/c3/3d510f69d60b3d6ca176bebea19abcb6006774eee31609e92acfc14409af/dynbps-0.0.3.tar.gz
+[2023-05-17 01:08:51] INFO root fetch - processPackages [pyGSTi]: Downloading https://files.pythonhosted.org/packages/1f/73/1da571a8bc8086709ddcc16fd3f70e0d0ae89d712b85d46d09b53a36977e/pyGSTi-0.9.9.2.tar.gz
+[2023-05-17 01:08:51] WARNING root fetch - processPackages [pyGSTi]: Skipping package: exceeds size limit 11040458>=10485760
+[2023-05-17 01:08:51] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-05-17 01:08:51] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.2.tar.gz tmp/dynbps-0.0.3.tar.gz --markdown 20230517/d/dynbps/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 01:08:51] INFO root fetch - main [MainThread]: End processing [pyGSTi] error
+[2023-05-17 01:08:51] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 38976456>=10485760
+[2023-05-17 01:08:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-17 01:08:51] INFO root fetch - processPackages [lokiunimore]: Downloading https://files.pythonhosted.org/packages/e9/dd/296df0a52dfbd7a4c4f7fb69dd75e3364a4f1ed65be9744503bb75e2cfe7/lokiunimore-0.6.1.tar.gz
+[2023-05-17 01:08:51] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/0d/4b/7aacc371cba03937712483c7c4af7cd6c6e2d509132a1a5446cd1dbe3b13/paper-qa-1.6.0.tar.gz
+[2023-05-17 01:08:51] INFO root fetch - processPackages [byubit]: executing diffoscope
+[2023-05-17 01:08:51] INFO root fetch - processPackages [byubit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byubit-0.6.8.tar.gz tmp/byubit-0.6.9.tar.gz --markdown 20230517/b/byubit/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-17 01:08:51] INFO root fetch - processPackages [lokiunimore]: executing diffoscope
+[2023-05-17 01:08:51] INFO root fetch - processPackages [lokiunimore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokiunimore-0.6.0.tar.gz tmp/lokiunimore-0.6.1.tar.gz --markdown 20230517/l/lokiunimore/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-17 01:08:51] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-05-17 01:08:51] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-1.4.1.tar.gz tmp/paper-qa-1.6.0.tar.gz --markdown 20230517/p/paper-qa/1.4.1-1.6.0/diff.md --exclude *.pyd
+[2023-05-17 01:08:52] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-17 01:08:52] INFO root fetch - processPackages [graspologic]: Downloading https://files.pythonhosted.org/packages/e8/ab/b6609f32b3e930168d3bbb03e983ccd88bc83ad2b026d2da4a6efda9ba3c/graspologic-3.0.0.dev4997377482.tar.gz
+[2023-05-17 01:08:52] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-05-17 01:08:52] INFO root fetch - main [MainThread]: End processing [byubit]: success
+[2023-05-17 01:08:52] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-05-17 01:08:52] INFO root fetch - main [MainThread]: End processing [lokiunimore]: success
+[2023-05-17 01:08:54] INFO root fetch - processPackages [graspologic]: executing diffoscope
+[2023-05-17 01:08:54] INFO root fetch - processPackages [graspologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graspologic-3.0.0.dev4534921903.tar.gz tmp/graspologic-3.0.0.dev4997377482.tar.gz --markdown 20230517/g/graspologic/3.0.0.dev4534921903-3.0.0.dev4997377482/diff.md --exclude *.pyd
+[2023-05-17 01:08:57] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-05-17 01:08:57] INFO root fetch - main [MainThread]: End processing [graspologic]: success
+[2023-05-17 01:08:59] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-17 01:08:59] INFO root fetch - main [MainThread]: Store serial: [18130459]
