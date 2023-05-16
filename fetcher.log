@@ -600,3 +600,57 @@
 [2023-05-17 00:36:29] INFO root fetch - main [MainThread]: End processing [module-qc-tools]: success
 [2023-05-17 00:37:02] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
 [2023-05-17 00:37:02] INFO root fetch - main [MainThread]: Store serial: [18130264]
+[2023-05-17 00:42:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130264]
+[2023-05-17 00:42:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openimis-be-im-export
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hack-mentor
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplesystray
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EllipSect
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jiujitsu
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dynbps
+[2023-05-17 00:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rattail-tempmon
+[2023-05-17 00:42:10] INFO root fetch - processPackages [EllipSect]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-05-17 00:42:10] WARNING root fetch - processPackages [openimis-be-im-export]: Skipping, unable to determine old version
+[2023-05-17 00:42:10] INFO root fetch - main [MainThread]: End processing [openimis-be-im-export] error
+[2023-05-17 00:42:10] INFO root fetch - processPackages [hack-mentor]: New version: [0.7] Old Version: [0.5]
+[2023-05-17 00:42:10] INFO root fetch - processPackages [simplesystray]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 00:42:10] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 00:42:10] WARNING root fetch - processPackages [dynbps]: Skipping, unable to determine old version
+[2023-05-17 00:42:10] INFO root fetch - main [MainThread]: End processing [dynbps] error
+[2023-05-17 00:42:10] INFO root fetch - processPackages [jiujitsu]: New version: [0.4] Old Version: [0.3]
+[2023-05-17 00:42:10] INFO root fetch - processPackages [rattail-tempmon]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 00:42:10] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.27] Old Version: [4.2.26]
+[2023-05-17 00:42:11] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-17 00:42:11] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230517/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 00:42:11] INFO root fetch - processPackages [hack-mentor]: Downloading https://files.pythonhosted.org/packages/68/7c/86c9a45a4455416b2ec5f04286beb88487acf37f157b812d6d4dcb3500b5/hack_mentor-0.5.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [rattail-tempmon]: Downloading https://files.pythonhosted.org/packages/1c/c3/efcb7c37c2731eba479ea6a14c4710c764e7a0b86465474fa4168d7af713/rattail-tempmon-0.2.8.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [EllipSect]: Downloading https://files.pythonhosted.org/packages/9c/a4/53e19505a3878239fb76b28e9751429087c318850a501993b67f3f9c98e0/EllipSect-3.2.2.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [simplesystray]: Downloading https://files.pythonhosted.org/packages/9d/a0/36c7e38e62a51064bca9ca9ef8de335485207084d898ab7ca5ad5f018817/simplesystray-0.0.8.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [jiujitsu]: Downloading https://files.pythonhosted.org/packages/37/00/2db1bf8834f22a9bf851623f5865c4e56f36cd31f6b1b3ebec3ee5937c4e/jiujitsu-0.4.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/34/3e/e86430715a75d9ef160e874ceccce2b105db0b5afec215f7bd99606dad9f/cyberdrop-dl-4.2.26.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [simplesystray]: executing diffoscope
+[2023-05-17 00:42:11] INFO root fetch - processPackages [simplesystray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesystray-0.0.7.tar.gz tmp/simplesystray-0.0.8.tar.gz --markdown 20230517/s/simplesystray/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 00:42:11] INFO root fetch - processPackages [hack-mentor]: Downloading https://files.pythonhosted.org/packages/4a/de/e3051e0b4952e0bdc5c49aa77dbce6b9b06a203db52b5cb23566cc45c8bc/hack_mentor-0.7.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [jiujitsu]: executing diffoscope
+[2023-05-17 00:42:11] INFO root fetch - processPackages [jiujitsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiujitsu-0.3.tar.gz tmp/jiujitsu-0.4.tar.gz --markdown 20230517/j/jiujitsu/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-17 00:42:11] INFO root fetch - processPackages [rattail-tempmon]: Downloading https://files.pythonhosted.org/packages/f7/ae/b894a72842581ba40cbffbc1295f354a7db1b5e297112e38822e3e65f564/rattail-tempmon-0.2.9.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [hack-mentor]: executing diffoscope
+[2023-05-17 00:42:11] INFO root fetch - processPackages [hack-mentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hack_mentor-0.5.tar.gz tmp/hack_mentor-0.7.tar.gz --markdown 20230517/h/hack-mentor/0.5-0.7/diff.md --exclude *.pyd
+[2023-05-17 00:42:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ea/83/67fbb505851c3a88f44458dfed59afb0459587b4aaff1e92d1361427f31e/cyberdrop-dl-4.2.27.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [EllipSect]: Downloading https://files.pythonhosted.org/packages/f0/30/1841e1c22de1993ba485dcc8fb5401c3a1be64feecf4b01022fe5b99be79/EllipSect-3.2.3.tar.gz
+[2023-05-17 00:42:11] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-17 00:42:11] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.26.tar.gz tmp/cyberdrop-dl-4.2.27.tar.gz --markdown 20230517/c/cyberdrop-dl/4.2.26-4.2.27/diff.md --exclude *.pyd
+[2023-05-17 00:42:11] INFO root fetch - processPackages [rattail-tempmon]: executing diffoscope
+[2023-05-17 00:42:11] INFO root fetch - processPackages [rattail-tempmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-tempmon-0.2.8.tar.gz tmp/rattail-tempmon-0.2.9.tar.gz --markdown 20230517/r/rattail-tempmon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 00:42:12] INFO root fetch - processPackages [EllipSect]: executing diffoscope
+[2023-05-17 00:42:12] INFO root fetch - processPackages [EllipSect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EllipSect-3.2.2.tar.gz tmp/EllipSect-3.2.3.tar.gz --markdown 20230517/E/EllipSect/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-05-17 00:42:12] INFO root fetch - main [MainThread]: End processing [simplesystray]: success
+[2023-05-17 00:42:12] INFO root fetch - main [MainThread]: End processing [jiujitsu]: success
+[2023-05-17 00:42:12] INFO root fetch - main [MainThread]: End processing [hack-mentor]: success
+[2023-05-17 00:42:13] INFO root fetch - main [MainThread]: End processing [rattail-tempmon]: success
+[2023-05-17 00:42:13] INFO root fetch - main [MainThread]: End processing [EllipSect]: success
+[2023-05-17 00:42:16] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-17 00:42:51] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-17 00:42:51] INFO root fetch - main [MainThread]: Store serial: [18130295]
