@@ -349,3 +349,91 @@
 [2023-05-17 00:20:36] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2023-05-17 00:20:38] INFO root fetch - main [MainThread]: End processing [dacy]: success
 [2023-05-17 00:20:38] INFO root fetch - main [MainThread]: Store serial: [18130124]
+[2023-05-17 00:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130124]
+[2023-05-17 00:25:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upe
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: access-nri-intake
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openimis-be-report
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ket-lang
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atmoswing-vigicrues
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeduino
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-freshworks-crm
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rfmanalysis
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyMonCtl
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hack-mentor-gpickett00
+[2023-05-17 00:25:47] INFO root fetch - processPackages [ket-lang]: New version: [0.6rc2] Old Version: [0.6.1rc1]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [rfmanalysis]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [access-nri-intake]: New version: [0.0.2.post1] Old Version: [0.0.2]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [homeduino]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2023-05-17 00:25:47] WARNING root fetch - processPackages [PyMonCtl]: Skipping, unable to determine old version
+[2023-05-17 00:25:47] INFO root fetch - processPackages [python-freshworks-crm]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [PyMonCtl]: Start processing: hack-mentor-gpickett00
+[2023-05-17 00:25:47] INFO root fetch - main [MainThread]: End processing [PyMonCtl] error
+[2023-05-17 00:25:47] INFO root fetch - processPackages [openimis-be-report]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [upe]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [hack-mentor-gpickett00]: New version: [0.5] Old Version: [0.4]
+[2023-05-17 00:25:47] INFO root fetch - processPackages [hack-mentor-gpickett00]: New version: [0.5] Old Version: [0.4]
+[2023-05-17 00:25:48] INFO root fetch - processPackages [python-freshworks-crm]: Downloading https://files.pythonhosted.org/packages/bc/19/3cf71bdc577bd595540207c053219b514d6e8cc4f243a663872c5f4b37b8/python-freshworks-crm-1.0.0.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [homeduino]: Downloading https://files.pythonhosted.org/packages/9c/dd/72df5925899bb1c268d1d8f433252be169656350b7ba3e5da489fc224df4/homeduino-0.0.7.2.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [ket-lang]: Downloading https://files.pythonhosted.org/packages/f5/13/1248cc26fdfb071be3591cd44206ca6cbbc24cba8953ebb19e5e92902205/ket-lang-0.6.1rc1.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [rfmanalysis]: Downloading https://files.pythonhosted.org/packages/07/eb/1fe120141178b7d246539e697e2628e602a0e288117219fdabe385384590/rfmanalysis-0.1.5.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [openimis-be-report]: Downloading https://files.pythonhosted.org/packages/07/2a/79c2d9bbb2209422a0026c058b82f79f853a2cd02f54b4bd6eca3045feed/openimis-be-report-1.5.0.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: Downloading https://files.pythonhosted.org/packages/98/d4/715f307f5f8247b3547435868903148d15cd7b4524c516decaaf2142d0a6/hack_mentor_gpickett00-0.4.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/e5/49/64783afca6a51f350060b61d9343f73beedf2b6662877bcab1dcff77e716/access_nri_intake-0.0.2.post1.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: Downloading https://files.pythonhosted.org/packages/98/d4/715f307f5f8247b3547435868903148d15cd7b4524c516decaaf2142d0a6/hack_mentor_gpickett00-0.4.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [homeduino]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [homeduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeduino-0.0.7.1.tar.gz tmp/homeduino-0.0.7.2.tar.gz --markdown 20230517/h/homeduino/0.0.7.1-0.0.7.2/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [upe]: Downloading https://files.pythonhosted.org/packages/b9/b7/0005a0a12a867147c296b1070fa7e6cfa02894c503dc6944b4e45b5c8ca6/upe-0.0.8.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/7b/6d/a2143dc2604e89cd7f6c598fb53f297912819c23e7fa6e0e25a05052d685/atmoswing-vigicrues-1.1.2.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [rfmanalysis]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [rfmanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfmanalysis-0.1.4.tar.gz tmp/rfmanalysis-0.1.5.tar.gz --markdown 20230517/r/rfmanalysis/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [access-nri-intake]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [access-nri-intake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access_nri_intake-0.0.2.tar.gz tmp/access_nri_intake-0.0.2.post1.tar.gz --markdown 20230517/a/access-nri-intake/0.0.2-0.0.2.post1/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [upe]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [upe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upe-0.0.7.tar.gz tmp/upe-0.0.8.tar.gz --markdown 20230517/u/upe/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [python-freshworks-crm]: Downloading https://files.pythonhosted.org/packages/9f/25/6d2ccc633f4d08c8bc0e4d9aee566c6477bdc61115e6f5853b1bd6962a63/python-freshworks-crm-1.0.1.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [python-freshworks-crm]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [python-freshworks-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-freshworks-crm-1.0.0.tar.gz tmp/python-freshworks-crm-1.0.1.tar.gz --markdown 20230517/p/python-freshworks-crm/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [ket-lang]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [ket-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ket-lang-0.6.1rc1.tar.gz tmp/ket-lang-0.6rc2.tar.gz --markdown 20230517/k/ket-lang/0.6.1rc1-0.6rc2/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.1.1.tar.gz tmp/atmoswing-vigicrues-1.1.2.tar.gz --markdown 20230517/a/atmoswing-vigicrues/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [openimis-be-report]: Downloading https://files.pythonhosted.org/packages/fa/2d/556c8d99636c6e475ecd143d8a336ca93c2fd98abe0e0f491cdb0bdc095c/openimis-be-report-1.5.1.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: Downloading https://files.pythonhosted.org/packages/b6/bf/523c927611f2ad1541d7ffbaf56fef5304f93806c7c32b2f1af07e8bd350/hack_mentor_gpickett00-0.5.tar.gz
+[2023-05-17 00:25:48] WARNING root fetch - processPackages [openimis-be-report]: Skipping package: exceeds size limit 13621343>=10485760
+[2023-05-17 00:25:48] INFO root fetch - processPackages [openimis-be-report]: Start processing: np-queuey
+[2023-05-17 00:25:48] INFO root fetch - main [MainThread]: End processing [openimis-be-report] error
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: Downloading https://files.pythonhosted.org/packages/b6/bf/523c927611f2ad1541d7ffbaf56fef5304f93806c7c32b2f1af07e8bd350/hack_mentor_gpickett00-0.5.tar.gz
+[2023-05-17 00:25:48] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 00:25:48] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230517/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: executing diffoscope
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hack_mentor_gpickett00-0.4.tar.gz tmp/hack_mentor_gpickett00-0.5.tar.gz --markdown 20230517/h/hack-mentor-gpickett00/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-17 00:25:48] INFO root fetch - processPackages [hack-mentor-gpickett00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hack_mentor_gpickett00-0.4.tar.gz tmp/hack_mentor_gpickett00-0.5.tar.gz --markdown 20230517/h/hack-mentor-gpickett00/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-17 00:25:49] INFO root fetch - processPackages [access-nri-intake]: Start processing: xm-ai
+[2023-05-17 00:25:49] INFO root fetch - main [MainThread]: End processing [access-nri-intake]: success
+[2023-05-17 00:25:50] INFO root fetch - processPackages [xm-ai]: New version: [0.6] Old Version: [0.5]
+[2023-05-17 00:25:50] INFO root fetch - processPackages [upe]: Start processing: hack-mentor
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [upe]: success
+[2023-05-17 00:25:50] INFO root fetch - processPackages [hack-mentor]: New version: [0.2] Old Version: [0.1]
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [homeduino]: success
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [python-freshworks-crm]: success
+[2023-05-17 00:25:50] INFO root fetch - processPackages [xm-ai]: Downloading https://files.pythonhosted.org/packages/e2/48/f3e4075a92fda23d6cfe9cacb49f4dc6287a44f8fdea12f363d396740a52/xm_ai-0.5-py3-none-any.whl
+[2023-05-17 00:25:50] INFO root fetch - processPackages [hack-mentor]: Downloading https://files.pythonhosted.org/packages/ba/a5/516b7f358f8587cc1756fec615fed70c2e7f4780209271e85d395f33c5d1/hack_mentor-0.1.tar.gz
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [hack-mentor-gpickett00]: success
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [ket-lang]: success
+[2023-05-17 00:25:50] INFO root fetch - processPackages [xm-ai]: Downloading https://files.pythonhosted.org/packages/4b/3f/401cb2112ceeb5b7784ca5846ad371f862765eb69f94610c5bd3735842f4/xm_ai-0.6-py3-none-any.whl
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [rfmanalysis]: success
+[2023-05-17 00:25:50] INFO root fetch - main [MainThread]: End processing [hack-mentor-gpickett00]: success
+[2023-05-17 00:25:50] INFO root fetch - processPackages [hack-mentor]: Downloading https://files.pythonhosted.org/packages/32/38/c9afde672c14b29451fbf05450b9e1ecb64687bd99ad1060a5de5b1a278b/hack_mentor-0.2.tar.gz
+[2023-05-17 00:25:50] INFO root fetch - processPackages [xm-ai]: executing diffoscope
+[2023-05-17 00:25:50] INFO root fetch - processPackages [xm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xm_ai-0.5-py3-none-any.whl.zip tmp/xm_ai-0.6-py3-none-any.whl.zip --markdown 20230517/x/xm-ai/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-17 00:25:50] INFO root fetch - processPackages [hack-mentor]: executing diffoscope
+[2023-05-17 00:25:50] INFO root fetch - processPackages [hack-mentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hack_mentor-0.1.tar.gz tmp/hack_mentor-0.2.tar.gz --markdown 20230517/h/hack-mentor/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-17 00:25:51] INFO root fetch - main [MainThread]: End processing [hack-mentor]: success
+[2023-05-17 00:25:51] INFO root fetch - main [MainThread]: End processing [xm-ai]: success
+[2023-05-17 00:25:51] INFO root fetch - main [MainThread]: Store serial: [18130165]
