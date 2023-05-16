@@ -1092,3 +1092,52 @@
 [2023-05-17 01:24:44] INFO root fetch - main [MainThread]: End processing [wads]: success
 [2023-05-17 01:25:24] INFO root fetch - main [MainThread]: End processing [interpret-core]: success
 [2023-05-17 01:25:24] INFO root fetch - main [MainThread]: Store serial: [18130574]
+[2023-05-17 01:30:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130574]
+[2023-05-17 01:30:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aurora-asi-lib
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skellyai
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superloops
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clonalEvolution
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s2aff
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-rpm
+[2023-05-17 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-rpm-client
+[2023-05-17 01:30:34] INFO root fetch - processPackages [s2aff]: New version: [0.46] Old Version: [0.45]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [clonalEvolution]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [aurora-asi-lib]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [skellyai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [superloops]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-05-17 01:30:34] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/50/32/eaeef4189b1bcae22ea93fa52172a68c954ff7b81af1b3c5bbfa6aa2df30/aurora-asi-lib-0.9.4.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/2b/e5/68cd792e1fa8392cd121692612731bc865ebc87d7565bb684904859f1983/s2aff-0.46.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/ff/1e/5233d641810949aa6421b42d883f21e226633dae7b51692d36e9ba32248c/pulp-rpm-3.9.0.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/69/ba/a378e12a321bb387a182e910da8f69eca64c0e35896852dc9151f85a1890/clonalEvolution-2.0.1.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [superloops]: Downloading https://files.pythonhosted.org/packages/73/09/1453f9f6e8abc370e500e1154c127f43195dd5fe4a6aef2f7794e44ceb50/superloops-0.1.0.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/72/a3/5316809e90453285ef5027a3a4ffb05b274e8efaefb38482da408beab20c/pulp_rpm-client-3.9.0.dev1611548779.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/1d/ff/6a0e294c82855d7556446ea314244e084b759c5fca9a95629b6c241bb476/skellyai-0.1.4.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-17 01:30:34] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.45.tar.gz tmp/s2aff-0.46.tar.gz --markdown 20230517/s/s2aff/0.45-0.46/diff.md --exclude *.pyd
+[2023-05-17 01:30:34] INFO root fetch - processPackages [clonalEvolution]: executing diffoscope
+[2023-05-17 01:30:34] INFO root fetch - processPackages [clonalEvolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonalEvolution-2.0.0.tar.gz tmp/clonalEvolution-2.0.1.tar.gz --markdown 20230517/c/clonalEvolution/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-17 01:30:34] INFO root fetch - processPackages [skellyai]: executing diffoscope
+[2023-05-17 01:30:34] INFO root fetch - processPackages [skellyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skellyai-0.1.3.tar.gz tmp/skellyai-0.1.4.tar.gz --markdown 20230517/s/skellyai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 01:30:34] INFO root fetch - processPackages [superloops]: Downloading https://files.pythonhosted.org/packages/78/e0/71a958af5aa143e90970085cd9357ccbc531046f71a80284d917db733791/superloops-0.1.1.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/f6/c3/7630f1a0387b49cdb9c675bda36988b5f74f95750b8884864db4d8ece3ae/pulp-rpm-3.9.1.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/b6/be/f25fba38fea038de92e8763ae19522b9fb288b2f1a73da9ddb9aa5cbe5c9/pulp_rpm-client-3.9.1.tar.gz
+[2023-05-17 01:30:34] INFO root fetch - processPackages [superloops]: executing diffoscope
+[2023-05-17 01:30:34] INFO root fetch - processPackages [superloops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superloops-0.1.0.tar.gz tmp/superloops-0.1.1.tar.gz --markdown 20230517/s/superloops/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230517/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-05-17 01:30:34] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230517/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-05-17 01:30:35] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/84/0c/8c7e5b70ee5634837d944d978f39d8a697185c2b5ff320762f7a71817094/aurora-asi-lib-0.9.5.tar.gz
+[2023-05-17 01:30:35] INFO root fetch - processPackages [aurora-asi-lib]: executing diffoscope
+[2023-05-17 01:30:35] INFO root fetch - processPackages [aurora-asi-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurora-asi-lib-0.9.4.tar.gz tmp/aurora-asi-lib-0.9.5.tar.gz --markdown 20230517/a/aurora-asi-lib/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-17 01:30:35] INFO root fetch - main [MainThread]: End processing [skellyai]: success
+[2023-05-17 01:30:35] INFO root fetch - main [MainThread]: End processing [clonalEvolution]: success
+[2023-05-17 01:30:36] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-17 01:30:36] INFO root fetch - main [MainThread]: End processing [superloops]: success
+[2023-05-17 01:30:36] INFO root fetch - main [MainThread]: End processing [aurora-asi-lib]: success
+[2023-05-17 01:30:37] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-05-17 01:30:38] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-05-17 01:30:38] INFO root fetch - main [MainThread]: Store serial: [18130595]
