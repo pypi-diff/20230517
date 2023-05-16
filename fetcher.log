@@ -1,0 +1,105 @@
+[2023-05-17 00:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18129916]
+[2023-05-17 00:04:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-stars
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhOn
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starlette-bridge
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dacy
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: librespot
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: term-music
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oceano-algos
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MySerializerOfJsonAndXml
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: panda3d-gltf
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dnastack-client-library
+[2023-05-17 00:04:32] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [term-music]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ml-stars]: New version: [0.1.1.dev1] Old Version: [0.1.1.dev0]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-05-17 00:04:32] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230517/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 00:04:32] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-17 00:04:32] WARNING root fetch - processPackages [MySerializerOfJsonAndXml]: Skipping, unable to determine old version
+[2023-05-17 00:04:32] INFO root fetch - processPackages [librespot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230517/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 00:04:32] INFO root fetch - processPackages [MySerializerOfJsonAndXml]: Start processing: slskd-api
+[2023-05-17 00:04:32] INFO root fetch - main [MainThread]: End processing [MySerializerOfJsonAndXml] error
+[2023-05-17 00:04:32] INFO root fetch - processPackages [starlette-bridge]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [dacy]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [panda3d-gltf]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [slskd-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 00:04:32] INFO root fetch - processPackages [term-music]: Downloading https://files.pythonhosted.org/packages/41/65/a79d11e7c1f80f584892f5dc80edd0590eac7aed9de70759a771d314e681/term-music-0.1.0.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ml-stars]: Downloading https://files.pythonhosted.org/packages/62/30/ad44cb054a59b9a6b008c5ab98824f6aabf39222990f8019a5a97e6c44a4/ml-stars-0.1.1.dev0.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [slskd-api]: executing diffoscope
+[2023-05-17 00:04:32] INFO root fetch - processPackages [slskd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slskd-api-0.0.2.tar.gz tmp/slskd-api-0.0.3.tar.gz --markdown 20230517/s/slskd-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 00:04:32] INFO root fetch - processPackages [dacy]: Downloading https://files.pythonhosted.org/packages/8e/3f/be0b8bff526f572f5c4f1f8a35dafdf97487fb0e846ecdf980290aa47e91/dacy-2.6.0.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [librespot]: Downloading https://files.pythonhosted.org/packages/d3/e6/a8b5e153f4787d22674872fb798c73f15cc2d1f15f917f851045ca5f7c93/librespot-0.0.8.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [starlette-bridge]: Downloading https://files.pythonhosted.org/packages/6b/9a/a42c289921ab4ae2c2f1a19609d8f2edcca77ba6f05af1ed7c5c54bf8e44/starlette_bridge-0.1.0.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [panda3d-gltf]: Downloading https://files.pythonhosted.org/packages/d9/bb/2188a7020423b796314b6b0edf5c84aaa52be4532405ed38fe08cc090422/panda3d-gltf-0.8.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [term-music]: Downloading https://files.pythonhosted.org/packages/c9/2d/ca1c9ff21ea74213772915ac223cc300bd0f4128cfd6c88eee0c8b7d2071/term-music-0.2.0.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ml-stars]: Downloading https://files.pythonhosted.org/packages/41/c8/cf3e37c4cc7d6219c615c82ed03188519281798b47faa1cbd7a8f1690e59/ml-stars-0.1.1.dev1.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [term-music]: executing diffoscope
+[2023-05-17 00:04:32] INFO root fetch - processPackages [term-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/term-music-0.1.0.tar.gz tmp/term-music-0.2.0.tar.gz --markdown 20230517/t/term-music/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 00:04:32] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-05-17 00:04:32] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230517/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-05-17 00:04:32] INFO root fetch - processPackages [starlette-bridge]: Downloading https://files.pythonhosted.org/packages/41/fe/b99d8b5c1fd161a980bd7d4e4581c374837df101e1d01948b26de8e5c5e7/starlette_bridge-0.2.0.tar.gz
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ml-stars]: executing diffoscope
+[2023-05-17 00:04:32] INFO root fetch - processPackages [ml-stars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-stars-0.1.1.dev0.tar.gz tmp/ml-stars-0.1.1.dev1.tar.gz --markdown 20230517/m/ml-stars/0.1.1.dev0-0.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-17 00:04:32] INFO root fetch - processPackages [panda3d-gltf]: Downloading https://files.pythonhosted.org/packages/f2/64/0f87d95dde7f2a472f1035fef6856141dba23ce14398e24ef93fbacfb479/panda3d-gltf-0.9.tar.gz
+[2023-05-17 00:04:33] INFO root fetch - processPackages [librespot]: Downloading https://files.pythonhosted.org/packages/37/bc/e40c51aa80a566c83ea8cfc90f920269e8d26c617a3eedf9f6d29f3b6555/librespot-0.0.9.tar.gz
+[2023-05-17 00:04:33] INFO root fetch - processPackages [starlette-bridge]: executing diffoscope
+[2023-05-17 00:04:33] INFO root fetch - processPackages [starlette-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_bridge-0.1.0.tar.gz tmp/starlette_bridge-0.2.0.tar.gz --markdown 20230517/s/starlette-bridge/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 00:04:33] INFO root fetch - processPackages [panda3d-gltf]: executing diffoscope
+[2023-05-17 00:04:33] INFO root fetch - processPackages [panda3d-gltf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda3d-gltf-0.8.tar.gz tmp/panda3d-gltf-0.9.tar.gz --markdown 20230517/p/panda3d-gltf/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 00:04:33] INFO root fetch - processPackages [librespot]: executing diffoscope
+[2023-05-17 00:04:33] INFO root fetch - processPackages [librespot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librespot-0.0.8.tar.gz tmp/librespot-0.0.9.tar.gz --markdown 20230517/l/librespot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 00:04:33] INFO root fetch - processPackages [dacy]: Downloading https://files.pythonhosted.org/packages/33/75/265e4e5f2a020d6cec74af5338ef826aa9345841b7ab23c9ef2cf7f2e537/dacy-2.7.0.tar.gz
+[2023-05-17 00:04:33] INFO root fetch - processPackages [dacy]: executing diffoscope
+[2023-05-17 00:04:33] INFO root fetch - processPackages [dacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dacy-2.6.0.tar.gz tmp/dacy-2.7.0.tar.gz --markdown 20230517/d/dacy/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-17 00:04:34] INFO root fetch - processPackages [term-music]: Start processing: app-transport-framework-library
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [term-music]: success
+[2023-05-17 00:04:34] WARNING root fetch - processPackages [app-transport-framework-library]: Skipping, unable to determine old version
+[2023-05-17 00:04:34] INFO root fetch - processPackages [app-transport-framework-library]: Start processing: PlantsAI
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [app-transport-framework-library] error
+[2023-05-17 00:04:34] INFO root fetch - processPackages [slskd-api]: Start processing: dnastack-client-library
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [slskd-api]: success
+[2023-05-17 00:04:34] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-05-17 00:04:34] INFO root fetch - processPackages [oceano-algos]: Start processing: kolibri-ml
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-17 00:04:34] WARNING root fetch - processPackages [PlantsAI]: Skipping, unable to determine old version
+[2023-05-17 00:04:34] INFO root fetch - processPackages [PlantsAI]: Start processing: MySerializatorOfXmlAndJson
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [PlantsAI] error
+[2023-05-17 00:04:34] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-17 00:04:34] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-05-17 00:04:34] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230517/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-05-17 00:04:34] INFO root fetch - processPackages [starlette-bridge]: Start processing: simplesystray
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [starlette-bridge]: success
+[2023-05-17 00:04:34] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-17 00:04:34] INFO root fetch - processPackages [simplesystray]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 00:04:34] INFO root fetch - processPackages [panda3d-gltf]: Start processing: MySerializatorOfXmlAndJson
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [panda3d-gltf]: success
+[2023-05-17 00:04:34] INFO root fetch - processPackages [simplesystray]: executing diffoscope
+[2023-05-17 00:04:34] INFO root fetch - processPackages [simplesystray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesystray-0.0.3.tar.gz tmp/simplesystray-0.0.4.tar.gz --markdown 20230517/s/simplesystray/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 00:04:34] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/59/fd/9cfaeaa9d80171537b6db190c8c31e66a2308d23fbf486378dc0f28a4837/kolibri_ml-1.1.7-py3-none-any.whl
+[2023-05-17 00:04:34] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-05-17 00:04:34] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: Downloading https://files.pythonhosted.org/packages/8b/14/951e1720c04dfa74ca32ed3ae96d615db258ed4b7fabe3242a341d899afa/MySerializatorOfXmlAndJson-0.1.tar.gz
+[2023-05-17 00:04:34] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: Downloading https://files.pythonhosted.org/packages/8b/14/951e1720c04dfa74ca32ed3ae96d615db258ed4b7fabe3242a341d899afa/MySerializatorOfXmlAndJson-0.1.tar.gz
+[2023-05-17 00:04:34] INFO root fetch - main [MainThread]: End processing [ml-stars]: success
+[2023-05-17 00:04:34] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-05-17 00:04:35] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: Downloading https://files.pythonhosted.org/packages/cf/c3/768e9f0c779e64cec1f2b6c58746f2dfa01c67044e1f861b612d2132ced1/MySerializatorOfXmlAndJson-0.1.1.tar.gz
+[2023-05-17 00:04:35] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: Downloading https://files.pythonhosted.org/packages/cf/c3/768e9f0c779e64cec1f2b6c58746f2dfa01c67044e1f861b612d2132ced1/MySerializatorOfXmlAndJson-0.1.1.tar.gz
+[2023-05-17 00:04:35] INFO root fetch - main [MainThread]: End processing [librespot]: success
+[2023-05-17 00:04:35] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-05-17 00:04:35] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-05-17 00:04:35] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230517/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-17 00:04:35] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: executing diffoscope
+[2023-05-17 00:04:35] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: executing diffoscope
+[2023-05-17 00:04:35] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MySerializatorOfXmlAndJson-0.1.tar.gz tmp/MySerializatorOfXmlAndJson-0.1.1.tar.gz --markdown 20230517/M/MySerializatorOfXmlAndJson/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 00:04:35] INFO root fetch - processPackages [MySerializatorOfXmlAndJson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MySerializatorOfXmlAndJson-0.1.tar.gz tmp/MySerializatorOfXmlAndJson-0.1.1.tar.gz --markdown 20230517/M/MySerializatorOfXmlAndJson/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 00:04:35] INFO root fetch - main [MainThread]: End processing [simplesystray]: success
+[2023-05-17 00:04:36] INFO root fetch - main [MainThread]: End processing [MySerializatorOfXmlAndJson]: success
+[2023-05-17 00:04:36] INFO root fetch - main [MainThread]: End processing [MySerializatorOfXmlAndJson]: success
+[2023-05-17 00:04:36] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-05-17 00:04:36] INFO root fetch - main [MainThread]: End processing [dacy]: success
+[2023-05-17 00:04:41] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-05-17 00:04:41] INFO root fetch - main [MainThread]: Store serial: [18129975]
