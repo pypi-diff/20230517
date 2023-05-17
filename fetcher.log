@@ -14932,3 +14932,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:35:15] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
 [2023-05-17 13:35:15] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
 [2023-05-17 13:35:15] INFO root fetch - main [MainThread]: Store serial: [18138534]
+[2023-05-17 13:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138534]
+[2023-05-17 13:40:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-Geosciences
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clip-ea
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encryptos
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panml
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botok
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swibots
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aalto-boss
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyLexia
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: topic-wizard
+[2023-05-17 13:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-17 13:40:24] INFO root fetch - processPackages [panml]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-05-17 13:40:24] WARNING root fetch - processPackages [encryptos]: Skipping, unable to determine old version
+[2023-05-17 13:40:24] INFO root fetch - processPackages [encryptos]: Start processing: irispreppy
+[2023-05-17 13:40:24] INFO root fetch - main [MainThread]: End processing [encryptos] error
+[2023-05-17 13:40:24] INFO root fetch - processPackages [botok]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PyLexia]: New version: [1.19] Old Version: [1.18]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [swibots]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-17 13:40:24] WARNING root fetch - processPackages [clip-ea]: Skipping, unable to determine old version
+[2023-05-17 13:40:24] INFO root fetch - processPackages [topic-wizard]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [clip-ea]: Start processing: benqprojector
+[2023-05-17 13:40:24] INFO root fetch - main [MainThread]: End processing [clip-ea] error
+[2023-05-17 13:40:24] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [aalto-boss]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.0.8] Old Version: [7.0.7]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [benqprojector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 13:40:24] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/31/ca/a4889ef7b5622189a7381af0dca197abdb321d75c168eac4443632d7c518/panml-0.0.10.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-05-17 13:40:24] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230517/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PyLexia]: Downloading https://files.pythonhosted.org/packages/f0/96/86efda0301219e33d51274f6de49053fd15e3e8078d443a5a70f2276acbc/PyLexia-1.18.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [botok]: Downloading https://files.pythonhosted.org/packages/37/cd/d98cfc9086ab4ed7012de6ef464233590dd75c3b126ec0fea24f09204481/botok-0.8.7.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/bc/47/c62e0930025ec50c0efef3cc2b436b6805a78a62c894d51ab188d160a5a3/OpenGeode_Geosciences-7.0.7-cp39-cp39-win_amd64.whl
+[2023-05-17 13:40:24] INFO root fetch - processPackages [aalto-boss]: Downloading https://files.pythonhosted.org/packages/bf/9c/f25a9a22685282d9815804f2860d938b27203776b4ce08fb2acee41ab6b9/aalto-boss-1.7.1.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [topic-wizard]: Downloading https://files.pythonhosted.org/packages/ea/f4/9e05a847c8d4c9d701a9b7924759f6701f42e0af059b88690c5054cae23d/topic_wizard-0.2.4.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/24/01/1ba5e447bb2c7ca7a9137639f6fb2f8384f5b2f94702ed185fd75f311cf5/swibots-1.1.8.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [benqprojector]: Downloading https://files.pythonhosted.org/packages/1c/3b/cc9026cb2c5cc540ba45cb0b7e8817f86167089e0b27847bf95da641bdf9/benqprojector-0.0.8.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/97/38/049676ffc92365e094606d369f240ac5c68efa66443d86efe791ac4d1bd1/PatryksAutoAI-0.9.9.tar.gz
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.8.tar.gz tmp/PatryksAutoAI-0.9.9.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 13:40:24] INFO root fetch - processPackages [PyLexia]: Downloading https://files.pythonhosted.org/packages/40/85/bff17a163d58c05491a00c42cc8755f3d23b0ca75d633b41e0e30ab1bfca/PyLexia-1.19.tar.gz
+[2023-05-17 13:40:25] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.1.7.tar.gz tmp/swibots-1.1.8.tar.gz --markdown 20230517/s/swibots/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [topic-wizard]: Downloading https://files.pythonhosted.org/packages/3a/59/a6e0b3232f387535e01c4f9d1e73c91ee85c624ef71d7b7446869263b8c6/topic_wizard-0.2.5.tar.gz
+[2023-05-17 13:40:25] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/0b/35/7a93b4073962dca8632a3d0004d2d5683c81bf60af8c9fb71698d8d96703/panml-0.0.9.tar.gz
+[2023-05-17 13:40:25] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/9a/08/74d5b140415592169372c97c6fd9a6190d627b4a70f81c778e3cd312b18a/OpenGeode_Geosciences-7.0.8-cp39-cp39-win_amd64.whl
+[2023-05-17 13:40:25] INFO root fetch - processPackages [aalto-boss]: Downloading https://files.pythonhosted.org/packages/2c/38/aa2eb25b9f048a84962348af968b432c151364d6c681901fc1671f51f688/aalto-boss-1.8.0.tar.gz
+[2023-05-17 13:40:25] INFO root fetch - processPackages [botok]: Downloading https://files.pythonhosted.org/packages/61/98/9d84e5229d9d3fdc3377acd7a622c0ea25556c7db2b6d922cc4426be1cc3/botok-0.8.8.tar.gz
+[2023-05-17 13:40:25] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.10.tar.gz tmp/panml-0.0.9.tar.gz --markdown 20230517/p/panml/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [PyLexia]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [topic-wizard]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [PyLexia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLexia-1.18.tar.gz tmp/PyLexia-1.19.tar.gz --markdown 20230517/P/PyLexia/1.18-1.19/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [topic-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topic_wizard-0.2.4.tar.gz tmp/topic_wizard-0.2.5.tar.gz --markdown 20230517/t/topic-wizard/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [aalto-boss]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [aalto-boss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalto-boss-1.7.1.tar.gz tmp/aalto-boss-1.8.0.tar.gz --markdown 20230517/a/aalto-boss/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [benqprojector]: Downloading https://files.pythonhosted.org/packages/87/e5/7c835b83e8b881861a2c318f47281265604d48dbc3550ea7e3057c5a47db/benqprojector-0.0.9.tar.gz
+[2023-05-17 13:40:25] INFO root fetch - processPackages [botok]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [botok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botok-0.8.7.tar.gz tmp/botok-0.8.8.tar.gz --markdown 20230517/b/botok/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.7-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.0.8-cp39-cp39-win_amd64.whl.zip --markdown 20230517/O/OpenGeode-Geosciences/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2023-05-17 13:40:25] INFO root fetch - processPackages [benqprojector]: executing diffoscope
+[2023-05-17 13:40:25] INFO root fetch - processPackages [benqprojector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benqprojector-0.0.8.tar.gz tmp/benqprojector-0.0.9.tar.gz --markdown 20230517/b/benqprojector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:40:27] INFO root fetch - processPackages [PyLexia]: Start processing: ever-playground
+[2023-05-17 13:40:27] INFO root fetch - main [MainThread]: End processing [PyLexia]: success
+[2023-05-17 13:40:27] INFO root fetch - processPackages [panml]: Start processing: pyre-check-nightly
+[2023-05-17 13:40:27] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-05-17 13:40:27] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: cli-command-parser
+[2023-05-17 13:40:27] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 13:40:27] WARNING root fetch - processPackages [ever-playground]: Skipping, unable to determine old version
+[2023-05-17 13:40:27] INFO root fetch - processPackages [ever-playground]: Start processing: gpt-convo-reader
+[2023-05-17 13:40:27] INFO root fetch - main [MainThread]: End processing [ever-playground] error
+[2023-05-17 13:40:27] INFO root fetch - processPackages [gpt-convo-reader]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-17 13:40:27] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101684321918] Old Version: [0.0.101684235440]
+[2023-05-17 13:40:28] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.5.8] Old Version: [2023.5.2]
+[2023-05-17 13:40:28] INFO root fetch - processPackages [gpt-convo-reader]: executing diffoscope
+[2023-05-17 13:40:28] INFO root fetch - processPackages [gpt-convo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-convo-reader-0.2.tar.gz tmp/gpt-convo-reader-0.2.1.tar.gz --markdown 20230517/g/gpt-convo-reader/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 13:40:28] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/1f/b0/87e6b1c8c17be8399c577722c3493a4342923e9b9056ef558fe9795a93fa/pyre-check-nightly-0.0.101684235440.tar.gz
+[2023-05-17 13:40:28] INFO root fetch - processPackages [topic-wizard]: Start processing: dol
+[2023-05-17 13:40:28] INFO root fetch - main [MainThread]: End processing [topic-wizard]: success
+[2023-05-17 13:40:28] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/d1/47/a116a349180e6edd870329e2e195638747985d61354ca1409e6cba7c79e5/cli_command_parser-2023.5.2.tar.gz
+[2023-05-17 13:40:28] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23208786>=10485760
+[2023-05-17 13:40:28] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: prodigy-teams-recipes-sdk
+[2023-05-17 13:40:28] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-17 13:40:28] WARNING root fetch - processPackages [prodigy-teams-recipes-sdk]: Skipping, unable to determine old version
+[2023-05-17 13:40:28] INFO root fetch - main [MainThread]: End processing [prodigy-teams-recipes-sdk] error
+[2023-05-17 13:40:28] INFO root fetch - processPackages [dol]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-17 13:40:28] INFO root fetch - main [MainThread]: End processing [aalto-boss]: success
+[2023-05-17 13:40:28] INFO root fetch - main [MainThread]: End processing [benqprojector]: success
+[2023-05-17 13:40:28] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/ca/4a/8b3ea3c301d23fc29b9dc4b0961ff15d18cbb97d3e1a68397e3af340077d/dol-0.1.98.tar.gz
+[2023-05-17 13:40:28] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/10/48/2b27aa422b6f0dbb99734a5f88529d39c4c21e3f4d10632cabaa8bec532f/cli_command_parser-2023.5.8.tar.gz
+[2023-05-17 13:40:29] INFO root fetch - main [MainThread]: End processing [botok]: success
+[2023-05-17 13:40:29] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-05-17 13:40:29] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.5.2.tar.gz tmp/cli_command_parser-2023.5.8.tar.gz --markdown 20230517/c/cli-command-parser/2023.5.2-2023.5.8/diff.md --exclude *.pyd
+[2023-05-17 13:40:29] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/21/71e7389816fcb2eaef9a689b287a1892994811398bf622e15dccee9768f9/dol-0.1.99.tar.gz
+[2023-05-17 13:40:29] INFO root fetch - processPackages [dol]: executing diffoscope
+[2023-05-17 13:40:29] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.1.98.tar.gz tmp/dol-0.1.99.tar.gz --markdown 20230517/d/dol/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-17 13:40:29] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-05-17 13:40:29] INFO root fetch - main [MainThread]: End processing [gpt-convo-reader]: success
+[2023-05-17 13:40:30] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-05-17 13:40:31] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2023-05-17 13:40:31] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-05-17 13:40:34] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-05-17 13:40:34] INFO root fetch - main [MainThread]: Store serial: [18138603]
