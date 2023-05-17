@@ -15366,3 +15366,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:51:12] INFO root fetch - main [MainThread]: End processing [dagshub]: success
 [2023-05-17 13:51:13] INFO root fetch - main [MainThread]: End processing [griffe]: success
 [2023-05-17 13:51:13] INFO root fetch - main [MainThread]: Store serial: [18138757]
+[2023-05-17 13:56:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138757]
+[2023-05-17 13:56:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arthub-api
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calc123
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redhat-qe-cloud-tools
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Econ-Windows
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PandasProx
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libcnmc
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ralph-malph
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg-pytest-reporter
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cfgnet
+[2023-05-17 13:56:22] WARNING root fetch - processPackages [calc123]: Skipping, unable to determine old version
+[2023-05-17 13:56:22] INFO root fetch - processPackages [calc123]: Start processing: aitest-cli
+[2023-05-17 13:56:22] INFO root fetch - main [MainThread]: End processing [calc123] error
+[2023-05-17 13:56:22] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 13:56:22] INFO root fetch - processPackages [arthub-api]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-05-17 13:56:22] WARNING root fetch - processPackages [cfgnet]: Skipping, unable to determine old version
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ralph-malph]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-05-17 13:56:22] INFO root fetch - main [MainThread]: End processing [cfgnet] error
+[2023-05-17 13:56:22] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 13:56:22] WARNING root fetch - processPackages [PandasProx]: Skipping, unable to determine old version
+[2023-05-17 13:56:22] INFO root fetch - main [MainThread]: End processing [PandasProx] error
+[2023-05-17 13:56:22] INFO root fetch - processPackages [aitest-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 13:56:22] INFO root fetch - processPackages [cg-pytest-reporter]: New version: [2023.5.17.942] Old Version: [2023.5.17.1153]
+[2023-05-17 13:56:22] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-17 13:56:22] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-17 13:56:22] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-17 13:56:22] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230517/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-17 13:56:22] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-17 13:56:22] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230517/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-17 13:56:22] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/e3/f5/eb23f2d19f14386f59a5303f57b694e6ddf1f69227e7aef70af7beba478b/redhat_qe_cloud_tools-1.0.2.tar.gz
+[2023-05-17 13:56:22] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/c9/77/986ee5937c9fbda106654e31be7ab783bf65224f1127489c4f2dc268cb5a/Econ_Windows-0.0.7.tar.gz
+[2023-05-17 13:56:22] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/cd/10/432dc02bad7ef8edd20298f0bd766bdce9045bbfe40c6ef67c77db5af5c1/cg_pytest_reporter-2023.5.17.1153.tar.gz
+[2023-05-17 13:56:22] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/89/66/0f9a2ee77a6044675163a7cb6986a4bb49a9a106fbcf2ddd4397e713f39e/arthub_api-1.6.6.tar.gz
+[2023-05-17 13:56:22] INFO root fetch - processPackages [aitest-cli]: Downloading https://files.pythonhosted.org/packages/41/22/596e225d45e3c57b0ade9382a2443643d417ec8f260bf44df2a82fafb2d6/aitest-cli-0.2.8.tar.gz
+[2023-05-17 13:56:22] INFO root fetch - processPackages [ralph-malph]: Downloading https://files.pythonhosted.org/packages/9a/85/0e5bd7ec9108f5c2f365a1a33928c83afe2ab2de9d9d9938053b92d5a212/ralph-malph-3.5.1.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/74/4a/e0ebc051a46fbf1217694bbb084c9678727bca89d810c50b8cff59017e74/Econ_Windows-0.0.8.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/13/1b/5a4858d37f4cc57becc0ed25f18ae615550de5a5b38be6b44e369e076bb1/redhat_qe_cloud_tools-1.0.3.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/58/4c/889447a0b6eda90907443de9bd10477b508213a91347f84d94bc21a00180/arthub_api-1.6.7.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2023-05-17 13:56:23] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.2.tar.gz tmp/redhat_qe_cloud_tools-1.0.3.tar.gz --markdown 20230517/r/redhat-qe-cloud-tools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 13:56:23] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/15/0a/62d3f2ccad1e4fb87b4f378bba623558a020d5898d4ca3b454ebea0e7449/cg_pytest_reporter-2023.5.17.942.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [aitest-cli]: Downloading https://files.pythonhosted.org/packages/3f/2e/56cf51265cd212f99b429877d549df1f97df33771a1ebb37adf173339e0a/aitest-cli-0.2.9.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-17 13:56:23] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.7.tar.gz tmp/Econ_Windows-0.0.8.tar.gz --markdown 20230517/E/Econ-Windows/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 13:56:23] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-17 13:56:23] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.6.6.tar.gz tmp/arthub_api-1.6.7.tar.gz --markdown 20230517/a/arthub-api/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-05-17 13:56:23] INFO root fetch - processPackages [cg-pytest-reporter]: executing diffoscope
+[2023-05-17 13:56:23] INFO root fetch - processPackages [cg-pytest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_pytest_reporter-2023.5.17.1153.tar.gz tmp/cg_pytest_reporter-2023.5.17.942.tar.gz --markdown 20230517/c/cg-pytest-reporter/2023.5.17.1153-2023.5.17.942/diff.md --exclude *.pyd
+[2023-05-17 13:56:23] INFO root fetch - processPackages [aitest-cli]: executing diffoscope
+[2023-05-17 13:56:23] INFO root fetch - processPackages [aitest-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitest-cli-0.2.8.tar.gz tmp/aitest-cli-0.2.9.tar.gz --markdown 20230517/a/aitest-cli/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 13:56:23] INFO root fetch - processPackages [ralph-malph]: Downloading https://files.pythonhosted.org/packages/a0/97/899335a31964f180e35caf19a263b91dfccbbe91323f48dbfc5cbd5076c3/ralph-malph-3.6.0.tar.gz
+[2023-05-17 13:56:23] INFO root fetch - processPackages [ralph-malph]: executing diffoscope
+[2023-05-17 13:56:23] INFO root fetch - processPackages [ralph-malph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralph-malph-3.5.1.tar.gz tmp/ralph-malph-3.6.0.tar.gz --markdown 20230517/r/ralph-malph/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-05-17 13:56:24] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-17 13:56:24] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2023-05-17 13:56:24] INFO root fetch - main [MainThread]: End processing [aitest-cli]: success
+[2023-05-17 13:56:24] INFO root fetch - main [MainThread]: End processing [cg-pytest-reporter]: success
+[2023-05-17 13:56:24] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-17 13:56:25] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-17 13:56:25] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-17 13:56:25] INFO root fetch - main [MainThread]: End processing [ralph-malph]: success
+[2023-05-17 13:56:25] INFO root fetch - main [MainThread]: Store serial: [18138801]
