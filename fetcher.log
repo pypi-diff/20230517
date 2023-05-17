@@ -12462,3 +12462,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:39:42] INFO root fetch - main [MainThread]: End processing [shayhan]: success
 [2023-05-17 11:39:42] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
 [2023-05-17 11:39:42] INFO root fetch - main [MainThread]: Store serial: [18137211]
+[2023-05-17 11:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137211]
+[2023-05-17 11:44:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tlgateway
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytlgateway
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellfinder-core
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conniosdk
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: corgy
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psytricks
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: baba
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collecting-faces
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyreason
+[2023-05-17 11:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-antti-symbol-counter
+[2023-05-17 11:44:51] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 11:44:51] INFO root fetch - processPackages [collecting-faces]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 11:44:51] INFO root fetch - processPackages [baba]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-17 11:44:51] INFO root fetch - processPackages [certora-cli-alpha-antti-symbol-counter]: New version: [20230516.13.11.434436] Old Version: [20230516.12.56.265699]
+[2023-05-17 11:44:51] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-05-17 11:44:51] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230517/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 11:44:51] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 11:44:51] INFO root fetch - processPackages [baba]: executing diffoscope
+[2023-05-17 11:44:51] INFO root fetch - processPackages [baba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baba-0.1.2.tar.gz tmp/baba-0.1.3.tar.gz --markdown 20230517/b/baba/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [conniosdk]: New version: [0.34] Old Version: [0.33]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [psytricks]: New version: [2.1.1a0] Old Version: [2.1.0]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pyreason]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [corgy]: New version: [9.0.0] Old Version: [8.1.2]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [cellfinder-core]: New version: [0.4.0] Old Version: [0.3.1rc1]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [certora-cli-alpha-antti-symbol-counter]: Downloading https://files.pythonhosted.org/packages/a8/d6/c1a949720b32a8464bdf7bf4f2425582589472de6e3df3c6b5fbe60593e0/certora-cli-alpha-antti-symbol-counter-20230516.12.56.265699.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [collecting-faces]: Downloading https://files.pythonhosted.org/packages/f9/cd/0b8bcc1a7748eab5d4cb1eb8e0ba456d53f34bd9a53322fcb55edbb7a9a8/collecting_faces-1.0.1.tar.gz
+[2023-05-17 11:44:52] WARNING root fetch - processPackages [certora-cli-alpha-antti-symbol-counter]: Skipping package: exceeds size limit 38758105>=10485760
+[2023-05-17 11:44:52] INFO root fetch - processPackages [certora-cli-alpha-antti-symbol-counter]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-17 11:44:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-symbol-counter] error
+[2023-05-17 11:44:52] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/b0/44/e40b86d2221591116b31dd770b16948e0365c71ce8d84f82721c36386388/psytricks-2.1.0.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/82/95/07259d0e0fbe92458ea22062157f41f97734a4d62df0513fe6edce34d8d4/pyreason-1.5.1.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230517.7.53.784228] Old Version: [20230516.19.57.373904]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/5f/a1/fbd0c192ebdce1d1bade71084e23cc8d65a54fe7d7dea517f4b9c442c931/conniosdk-0.33-py3-none-any.whl
+[2023-05-17 11:44:52] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/d0/1d/173bf969970ddc9f0be2df64bc0d9c47f470e31fbaa95320069aa9ef1de6/corgy-8.1.2.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [collecting-faces]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [collecting-faces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collecting_faces-1.0.0.tar.gz tmp/collecting_faces-1.0.1.tar.gz --markdown 20230517/c/collecting-faces/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [cellfinder-core]: Downloading https://files.pythonhosted.org/packages/52/1e/b92eceff09ef90470277e7a8c4afb4abafe21085e2ce9b0531e75c6d6015/cellfinder-core-0.3.1rc1.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/00/6a/d813fae2921cc02488f900219225cca617c08737119d3553fa8d0d511102/psytricks-2.1.1a0.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/95/12/2361f9b1745f24f73c316c0f299fab29732d6c03028065e1577d748bdf0f/certora-cli-alpha-uri-eradicate_certora_dir-20230516.19.57.373904.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [psytricks]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [psytricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psytricks-2.1.0.tar.gz tmp/psytricks-2.1.1a0.tar.gz --markdown 20230517/p/psytricks/2.1.0-2.1.1a0/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38976702>=10485760
+[2023-05-17 11:44:52] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: fast-poisson-solver
+[2023-05-17 11:44:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/a3/18/742410346f76dc678aa23ef1b95615f176f4f9138f026f3d502e8c37e38e/pyreason-1.5.2.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/96/df/2d5b97a26ad360fac42086c072c827ef4e1258b91927f1e8a16790cc24a4/conniosdk-0.34-py3-none-any.whl
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [corgy]: Downloading https://files.pythonhosted.org/packages/df/59/9ac7cdd6c2b338ead8d522f53af89ad212a104032d7cff1a27b925efd130/corgy-9.0.0.tar.gz
+[2023-05-17 11:44:52] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping, unable to determine old version
+[2023-05-17 11:44:52] INFO root fetch - processPackages [fast-poisson-solver]: Start processing: vagd
+[2023-05-17 11:44:52] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-05-17 11:44:52] INFO root fetch - processPackages [conniosdk]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [conniosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conniosdk-0.33-py3-none-any.whl.zip tmp/conniosdk-0.34-py3-none-any.whl.zip --markdown 20230517/c/conniosdk/0.33-0.34/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.5.1.tar.gz tmp/pyreason-1.5.2.tar.gz --markdown 20230517/p/pyreason/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230517/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [corgy]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [corgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corgy-8.1.2.tar.gz tmp/corgy-9.0.0.tar.gz --markdown 20230517/c/corgy/8.1.2-9.0.0/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [vagd]: New version: [0.3.8] Old Version: [0.3.6]
+[2023-05-17 11:44:52] INFO root fetch - processPackages [cellfinder-core]: Downloading https://files.pythonhosted.org/packages/04/7f/47eac382c1adddd177f3bb3d9d9621ea4495972967e6df058751e4b368fa/cellfinder-core-0.4.0.tar.gz
+[2023-05-17 11:44:52] INFO root fetch - processPackages [cellfinder-core]: executing diffoscope
+[2023-05-17 11:44:52] INFO root fetch - processPackages [cellfinder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-core-0.3.1rc1.tar.gz tmp/cellfinder-core-0.4.0.tar.gz --markdown 20230517/c/cellfinder-core/0.3.1rc1-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 11:44:52] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/27/43/b4171166d0dba79dc86e6c4963f83faf67393c99626732958ec92a974faa/vagd-0.3.6.tar.gz
+[2023-05-17 11:44:53] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/2b/11/176c5f8557b338b643ff088cb7131cfba9d44e80c69f178b3bbe4be05db5/vagd-0.3.8.tar.gz
+[2023-05-17 11:44:53] INFO root fetch - processPackages [tlgateway]: Start processing: quantplay
+[2023-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-05-17 11:44:53] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-05-17 11:44:53] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.3.6.tar.gz tmp/vagd-0.3.8.tar.gz --markdown 20230517/v/vagd/0.3.6-0.3.8/diff.md --exclude *.pyd
+[2023-05-17 11:44:53] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.82]
+[2023-05-17 11:44:53] INFO root fetch - processPackages [baba]: Start processing: bx-py-utils
+[2023-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [baba]: success
+[2023-05-17 11:44:53] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/83/80/815e6baf0b3c4d3f4e7b6b5d3856c9cc53375bef5106816c4d17826f943b/quantplay-1.2.82.tar.gz
+[2023-05-17 11:44:53] INFO root fetch - processPackages [bx-py-utils]: New version: [9] Old Version: [81]
+[2023-05-17 11:44:53] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/b0/02/21d214eef43619fd8d7cf3c5aef0af3f81a16d0fd1a3ca9202b32c42fce1/bx_py_utils-81.tar.gz
+[2023-05-17 11:44:53] INFO root fetch - processPackages [collecting-faces]: Start processing: hpcflow-new2
+[2023-05-17 11:44:53] INFO root fetch - main [MainThread]: End processing [collecting-faces]: success
+[2023-05-17 11:44:53] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-17 11:44:53] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.82.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230517/q/quantplay/1.2.82-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 11:44:53] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-05-17 11:44:54] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-05-17 11:44:54] INFO root fetch - processPackages [psytricks]: Start processing: cg-pytest-reporter
+[2023-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [psytricks]: success
+[2023-05-17 11:44:54] WARNING root fetch - processPackages [cg-pytest-reporter]: Skipping, unable to determine old version
+[2023-05-17 11:44:54] INFO root fetch - processPackages [cg-pytest-reporter]: Start processing: ayugespidertools
+[2023-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [cg-pytest-reporter] error
+[2023-05-17 11:44:54] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/d6/8c/032d7aeb097a01b342559ef69422a284dca168947c68470f75b3ca26e1d2/bx_py_utils-9.tar.gz
+[2023-05-17 11:44:54] INFO root fetch - processPackages [ayugespidertools]: New version: [3.0.1] Old Version: [2.1.0]
+[2023-05-17 11:44:54] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-05-17 11:44:54] INFO root fetch - processPackages [bx-py-utils]: executing diffoscope
+[2023-05-17 11:44:54] INFO root fetch - processPackages [bx-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_py_utils-81.tar.gz tmp/bx_py_utils-9.tar.gz --markdown 20230517/b/bx-py-utils/81-9/diff.md --exclude *.pyd
+[2023-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [conniosdk]: success
+[2023-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-05-17 11:44:54] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/1a/dd/5795fae6005a4c45b9d8d85713d36463e4e57b4e1ba1e628f0cc7c199184/ayugespidertools-2.1.0.tar.gz
+[2023-05-17 11:44:54] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-05-17 11:44:54] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230517/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-05-17 11:44:54] INFO root fetch - main [MainThread]: End processing [corgy]: success
+[2023-05-17 11:44:54] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/54/67/95dbdc6f17bd479542a597edcdca7a79a926d116dc4cb241d5a45dee3e27/ayugespidertools-3.0.1.tar.gz
+[2023-05-17 11:44:54] INFO root fetch - processPackages [ayugespidertools]: executing diffoscope
+[2023-05-17 11:44:54] INFO root fetch - processPackages [ayugespidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayugespidertools-2.1.0.tar.gz tmp/ayugespidertools-3.0.1.tar.gz --markdown 20230517/a/ayugespidertools/2.1.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-17 11:44:55] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-05-17 11:44:55] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-05-17 11:44:55] INFO root fetch - main [MainThread]: End processing [bx-py-utils]: success
+[2023-05-17 11:44:55] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-17 11:44:55] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-05-17 11:44:56] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
+[2023-05-17 11:44:57] INFO root fetch - main [MainThread]: End processing [cellfinder-core]: success
+[2023-05-17 11:44:57] INFO root fetch - main [MainThread]: Store serial: [18137267]
