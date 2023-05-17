@@ -10129,3 +10129,150 @@
 [2023-05-17 09:41:11] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
 [2023-05-17 09:41:25] INFO root fetch - main [MainThread]: End processing [ifly-uiautotest]: success
 [2023-05-17 09:41:25] INFO root fetch - main [MainThread]: Store serial: [18135719]
+[2023-05-17 09:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135719]
+[2023-05-17 09:46:35] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datagen-protocol-functional
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datagen-validation-protocol
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiuv
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: citros
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-dudi-CERT-2090
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agri-sense
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrsm
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cubicweb-web
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xToolkit
+[2023-05-17 09:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metalattice
+[2023-05-17 09:46:35] WARNING root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Skipping, unable to determine old version
+[2023-05-17 09:46:35] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Start processing: Econ-Windows
+[2023-05-17 09:46:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dudi-CERT-2090] error
+[2023-05-17 09:46:35] INFO root fetch - processPackages [agri-sense]: New version: [1.0.8] Old Version: [1.0.5]
+[2023-05-17 09:46:35] INFO root fetch - processPackages [pyrsm]: New version: [0.8.1.8] Old Version: [0.8.1.5]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/bd/72/4e2a8f9de32bd1ad0c3ed1f98bb4a999913d81f6b8e7afe17c1fbc7f2423/pyrsm-0.8.1.5.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [aiuv]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-protocol-functional]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/2c/10/a75133b5ab493c528811b2c8bf8c2c9f683b66c167185d1107ae806a0e92/Econ_Windows-0.0.5.tar.gz
+[2023-05-17 09:46:36] WARNING root fetch - processPackages [metalattice]: Skipping, unable to determine old version
+[2023-05-17 09:46:36] INFO root fetch - processPackages [metalattice]: Start processing: wordcab
+[2023-05-17 09:46:36] INFO root fetch - processPackages [cubicweb-web]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-05-17 09:46:36] INFO root fetch - main [MainThread]: End processing [metalattice] error
+[2023-05-17 09:46:36] INFO root fetch - processPackages [citros]: New version: [23.19.2] Old Version: [23.19.1]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-validation-protocol]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [xToolkit]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/64/26/f6896333059a43720da2ecf97a58910201ab090182dde4acb159e0d04fab/agri_sense-1.0.8.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/28/f8/0bc3f1f4728b6010d0fedfffbb31ec3d43c1505a76b03a900924e7c424d8/pyrsm-0.8.1.8.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [wordcab]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-17 09:46:36] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/d6/80/b842104c45088dab0678e7ecba8514ccba7a3dfe137032ab3caa48de0cb5/aiuv-0.8.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/73/cf/d72a66b042acdd5ce2d20ac72a57d6124200bdf5b8e1b6b0585cde8d7aa7/datagen_protocol_functional-0.8.3.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/52/c8/856483441ce48015380c44c033a0422fdc67328ae78b5c2de8f159532189/Econ_Windows-0.0.6.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/48/53/f8bf25b0ca1355a90bab29b2774abc8d1849f154a1f4fef74c8137f4cd11/citros-23.19.1.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [cubicweb-web]: Downloading https://files.pythonhosted.org/packages/32/f1/a43b8b3ccda423c27205d8eb2b779688fb7e91414af4834d2b277e5d1773/cubicweb-web-0.3.1.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.0.5.tar.gz tmp/agri_sense-1.0.8.tar.gz --markdown 20230517/a/agri-sense/1.0.5-1.0.8/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/73/e7/1ffbff7f1f243699f2a7cd2ace260907e7e5c1149d4c4f05639125d4887c/datagen_validation_protocol-0.8.3.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.1.5.tar.gz tmp/pyrsm-0.8.1.8.tar.gz --markdown 20230517/p/pyrsm/0.8.1.5-0.8.1.8/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [xToolkit]: Downloading https://files.pythonhosted.org/packages/a9/9f/df5333b7659dd0f53a94513f52b3ba2b4e2d313d89231dde8b33296d3f53/xToolkit-0.0.83.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.5.tar.gz tmp/Econ_Windows-0.0.6.tar.gz --markdown 20230517/E/Econ-Windows/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [wordcab]: Downloading https://files.pythonhosted.org/packages/b1/be/bbae6213ac65163da65b0d5507f7c8f29b1c2cbc1f6b7cd4d227e09aa622/wordcab-0.6.4.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/52/e9/356de5f1cf740c4a650962218aaf19ba8d1d42f385b7c0eb3e7ce5d97fe0/aiuv-0.9.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/99/b5/a60f08dce65253a603bf4dfee9f263ab1135c3a2872102d965ac377fc3f9/citros-23.19.2.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/3e/52/fdba1e8d2d19879e3ab38685476d5b3a3dfca41ba6b919505acc733cfe8c/datagen_protocol_functional-0.9.0.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/43/94/0d069cac7f9b7e0f430c6f1ddd8e7af9e56e43aa6cab0054e71e9b067dc8/datagen_validation_protocol-0.9.0.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-protocol-functional]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-protocol-functional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_functional-0.8.3.tar.gz tmp/datagen_protocol_functional-0.9.0.tar.gz --markdown 20230517/d/datagen-protocol-functional/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-validation-protocol]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [datagen-validation-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_validation_protocol-0.8.3.tar.gz tmp/datagen_validation_protocol-0.9.0.tar.gz --markdown 20230517/d/datagen-validation-protocol/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [aiuv]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [aiuv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiuv-0.8.tar.gz tmp/aiuv-0.9.tar.gz --markdown 20230517/a/aiuv/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.19.1.tar.gz tmp/citros-23.19.2.tar.gz --markdown 20230517/c/citros/23.19.1-23.19.2/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [xToolkit]: Downloading https://files.pythonhosted.org/packages/6a/06/6f20fcd61545521fb322ad69142540acb3c1aafd693393731808226c83d6/xToolkit-0.0.84.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [wordcab]: Downloading https://files.pythonhosted.org/packages/bc/8e/a0efd067fbcdd6c5e363f227591c0b88cead13e52c5496fab960b3e260d6/wordcab-0.6.5.tar.gz
+[2023-05-17 09:46:36] INFO root fetch - processPackages [xToolkit]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [xToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xToolkit-0.0.83.tar.gz tmp/xToolkit-0.0.84.tar.gz --markdown 20230517/x/xToolkit/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2023-05-17 09:46:36] INFO root fetch - processPackages [wordcab]: executing diffoscope
+[2023-05-17 09:46:36] INFO root fetch - processPackages [wordcab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcab-0.6.4.tar.gz tmp/wordcab-0.6.5.tar.gz --markdown 20230517/w/wordcab/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-17 09:46:37] INFO root fetch - processPackages [cubicweb-web]: Downloading https://files.pythonhosted.org/packages/f5/60/a6cb544cdbb6475a4323481a43bc226cf13ae11eaf7df14ddb7432986821/cubicweb-web-1.0.0.tar.gz
+[2023-05-17 09:46:37] INFO root fetch - processPackages [agri-sense]: Start processing: cmem-plugin-kafka
+[2023-05-17 09:46:37] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 09:46:37] INFO root fetch - processPackages [cmem-plugin-kafka]: New version: [1.2.0rc3] Old Version: [1.2.0rc2]
+[2023-05-17 09:46:38] INFO root fetch - processPackages [Econ-Windows]: Start processing: simple-print
+[2023-05-17 09:46:38] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-17 09:46:38] INFO root fetch - processPackages [simple-print]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-17 09:46:38] INFO root fetch - processPackages [cubicweb-web]: executing diffoscope
+[2023-05-17 09:46:38] INFO root fetch - processPackages [cubicweb-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-web-0.3.1.tar.gz tmp/cubicweb-web-1.0.0.tar.gz --markdown 20230517/c/cubicweb-web/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 09:46:38] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/0b/c5/f9a847087ab2422c0b71acd67e68333ef3d50c2bf2c909758b7f4a32c762/cmem_plugin_kafka-1.2.0rc2.tar.gz
+[2023-05-17 09:46:38] INFO root fetch - processPackages [datagen-validation-protocol]: Start processing: alibabacloud-eds-user20210308-py2
+[2023-05-17 09:46:38] INFO root fetch - main [MainThread]: End processing [datagen-validation-protocol]: success
+[2023-05-17 09:46:38] INFO root fetch - processPackages [simple-print]: Downloading https://files.pythonhosted.org/packages/6d/8d/6dacb55e6a66ed509cc11bbfc126123fa75d0edc7bae7d48a33327fae3e0/simple_print-1.7.2-py3-none-any.whl
+[2023-05-17 09:46:38] WARNING root fetch - processPackages [alibabacloud-eds-user20210308-py2]: Skipping, unable to determine old version
+[2023-05-17 09:46:38] INFO root fetch - processPackages [alibabacloud-eds-user20210308-py2]: Start processing: agri-sense
+[2023-05-17 09:46:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-eds-user20210308-py2] error
+[2023-05-17 09:46:38] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/93/3a/a7a7febca80ad4cf17af468e1066099e5a5c288e0f6326dd019b83c59a92/cmem_plugin_kafka-1.2.0rc3.tar.gz
+[2023-05-17 09:46:38] INFO root fetch - processPackages [agri-sense]: New version: [1.1] Old Version: [1.0.9]
+[2023-05-17 09:46:38] INFO root fetch - processPackages [datagen-protocol-functional]: Start processing: alibabacloud-eds-user20210308
+[2023-05-17 09:46:38] INFO root fetch - main [MainThread]: End processing [datagen-protocol-functional]: success
+[2023-05-17 09:46:38] INFO root fetch - processPackages [aiuv]: Start processing: remoulade
+[2023-05-17 09:46:38] INFO root fetch - main [MainThread]: End processing [aiuv]: success
+[2023-05-17 09:46:38] INFO root fetch - processPackages [simple-print]: Downloading https://files.pythonhosted.org/packages/53/e2/9e4af96658a3fff2d0e365cd94e47a54ca74a168565c4522ab984e890e4a/simple_print-1.7.3-py3-none-any.whl
+[2023-05-17 09:46:38] INFO root fetch - processPackages [cmem-plugin-kafka]: executing diffoscope
+[2023-05-17 09:46:38] INFO root fetch - processPackages [cmem-plugin-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kafka-1.2.0rc2.tar.gz tmp/cmem_plugin_kafka-1.2.0rc3.tar.gz --markdown 20230517/c/cmem-plugin-kafka/1.2.0rc2-1.2.0rc3/diff.md --exclude *.pyd
+[2023-05-17 09:46:38] INFO root fetch - processPackages [simple-print]: executing diffoscope
+[2023-05-17 09:46:38] INFO root fetch - processPackages [simple-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_print-1.7.2-py3-none-any.whl.zip tmp/simple_print-1.7.3-py3-none-any.whl.zip --markdown 20230517/s/simple-print/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-17 09:46:38] WARNING root fetch - processPackages [alibabacloud-eds-user20210308]: Skipping, unable to determine old version
+[2023-05-17 09:46:38] INFO root fetch - processPackages [alibabacloud-eds-user20210308]: Start processing: steam-sdk
+[2023-05-17 09:46:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-eds-user20210308] error
+[2023-05-17 09:46:38] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/33/61/485fc8541ee2388b2bbb78af9f42901fff402814a4801f2000108fdd65ed/agri_sense-1.0.9.tar.gz
+[2023-05-17 09:46:38] INFO root fetch - processPackages [remoulade]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-17 09:46:38] INFO root fetch - processPackages [steam-sdk]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-17 09:46:38] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/25/09/b4a4122144f22326b1ee0101679058f7e7128ff8fa4db62037a39b957350/remoulade-1.0.1.tar.gz
+[2023-05-17 09:46:38] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/12/a9/09c3a838f00b7b0ca5aba26015055cb18694234cbdf6f6e6ae6860772e39/agri_sense-1.1.tar.gz
+[2023-05-17 09:46:38] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/9a/0b/be07d886bfb6efcc6990a0800d22957fbfda528fea4c08e0ec6d6506c757/steam-sdk-2023.5.2.tar.gz
+[2023-05-17 09:46:39] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 09:46:39] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.0.9.tar.gz tmp/agri_sense-1.1.tar.gz --markdown 20230517/a/agri-sense/1.0.9-1.1/diff.md --exclude *.pyd
+[2023-05-17 09:46:39] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/f6/4f/4937bd7e156fe5d2de15c70b3d2496f5ef40ee25072b29c3835cf4c24bc0/remoulade-1.1.0.tar.gz
+[2023-05-17 09:46:39] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/8a/be/dc091205de51720383706b4582f7a5bcfe422e09d4dc776f7ec932a583ab/steam-sdk-2023.5.3.tar.gz
+[2023-05-17 09:46:39] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-05-17 09:46:39] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.0.1.tar.gz tmp/remoulade-1.1.0.tar.gz --markdown 20230517/r/remoulade/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 09:46:39] INFO root fetch - processPackages [wordcab]: Start processing: betterproto-twirp-new
+[2023-05-17 09:46:39] INFO root fetch - main [MainThread]: End processing [wordcab]: success
+[2023-05-17 09:46:39] INFO root fetch - processPackages [betterproto-twirp-new]: New version: [1.2.21] Old Version: [1.2.20]
+[2023-05-17 09:46:39] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-05-17 09:46:39] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.5.2.tar.gz tmp/steam-sdk-2023.5.3.tar.gz --markdown 20230517/s/steam-sdk/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-17 09:46:39] INFO root fetch - processPackages [citros]: Start processing: dmbiolib
+[2023-05-17 09:46:39] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-05-17 09:46:39] INFO root fetch - processPackages [betterproto-twirp-new]: Downloading https://files.pythonhosted.org/packages/67/24/90f07d6a9a30468a11d1ab64b090ecf8eb72637852b5a213c3c292a6dfae/betterproto-twirp-new-1.2.21.tar.gz
+[2023-05-17 09:46:39] INFO root fetch - processPackages [dmbiolib]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-17 09:46:39] INFO root fetch - processPackages [dmbiolib]: Downloading https://files.pythonhosted.org/packages/94/c1/341eed37805e7165902cd454e4fc2a23e8e3974de98cedabbb55036ecbe1/dmbiolib-0.4.1.tar.gz
+[2023-05-17 09:46:39] INFO root fetch - processPackages [betterproto-twirp-new]: executing diffoscope
+[2023-05-17 09:46:39] INFO root fetch - processPackages [betterproto-twirp-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterproto-twirp-new-1.2.20.tar.gz tmp/betterproto-twirp-new-1.2.21.tar.gz --markdown 20230517/b/betterproto-twirp-new/1.2.20-1.2.21/diff.md --exclude *.pyd
+[2023-05-17 09:46:39] INFO root fetch - processPackages [dmbiolib]: Downloading https://files.pythonhosted.org/packages/60/41/af8c620c79bf45e4fdf9f21d7bdad1e447d9891d6df76d55fd09b8828fce/dmbiolib-0.4.2.tar.gz
+[2023-05-17 09:46:39] INFO root fetch - processPackages [dmbiolib]: executing diffoscope
+[2023-05-17 09:46:39] INFO root fetch - processPackages [dmbiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmbiolib-0.4.1.tar.gz tmp/dmbiolib-0.4.2.tar.gz --markdown 20230517/d/dmbiolib/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-17 09:46:39] INFO root fetch - processPackages [xToolkit]: Start processing: DeepLearningPSD
+[2023-05-17 09:46:39] INFO root fetch - main [MainThread]: End processing [xToolkit]: success
+[2023-05-17 09:46:39] WARNING root fetch - processPackages [DeepLearningPSD]: Skipping, unable to determine old version
+[2023-05-17 09:46:39] INFO root fetch - processPackages [DeepLearningPSD]: Start processing: Hefesto
+[2023-05-17 09:46:39] INFO root fetch - main [MainThread]: End processing [DeepLearningPSD] error
+[2023-05-17 09:46:40] INFO root fetch - processPackages [Hefesto]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-17 09:46:40] INFO root fetch - processPackages [simple-print]: Start processing: PyLexia
+[2023-05-17 09:46:40] INFO root fetch - main [MainThread]: End processing [simple-print]: success
+[2023-05-17 09:46:40] INFO root fetch - processPackages [PyLexia]: New version: [1.1] Old Version: [1.0]
+[2023-05-17 09:46:40] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kafka]: success
+[2023-05-17 09:46:40] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/ce/d5/09ff9f25ef4e574d5ece55505b70ae4bd6b492ae92528b5b3af03719ae85/Hefesto-0.4.0.tar.gz
+[2023-05-17 09:46:40] INFO root fetch - processPackages [PyLexia]: executing diffoscope
+[2023-05-17 09:46:40] INFO root fetch - processPackages [PyLexia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLexia-1.0.tar.gz tmp/PyLexia-1.1.tar.gz --markdown 20230517/P/PyLexia/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-17 09:46:40] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-17 09:46:40] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/98/32/37dddab089ea06f7846abe790a91827b9fc4c5a547d0f449c5bb312731f8/Hefesto-0.4.1.tar.gz
+[2023-05-17 09:46:40] INFO root fetch - processPackages [Hefesto]: executing diffoscope
+[2023-05-17 09:46:40] INFO root fetch - processPackages [Hefesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hefesto-0.4.0.tar.gz tmp/Hefesto-0.4.1.tar.gz --markdown 20230517/H/Hefesto/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-17 09:46:40] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 09:46:41] INFO root fetch - main [MainThread]: End processing [PyLexia]: success
+[2023-05-17 09:46:41] INFO root fetch - main [MainThread]: End processing [dmbiolib]: success
+[2023-05-17 09:46:41] INFO root fetch - main [MainThread]: End processing [betterproto-twirp-new]: success
+[2023-05-17 09:46:41] INFO root fetch - main [MainThread]: End processing [Hefesto]: success
+[2023-05-17 09:46:42] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-05-17 09:46:43] INFO root fetch - main [MainThread]: End processing [cubicweb-web]: success
+[2023-05-17 09:46:44] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-05-17 09:46:44] INFO root fetch - main [MainThread]: Store serial: [18135795]
