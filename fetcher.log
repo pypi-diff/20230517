@@ -22485,3 +22485,118 @@ EOFError: EOF read where object expected
 [2023-05-17 18:17:58] INFO root fetch - main [MainThread]: End processing [lilit]: success
 [2023-05-17 18:17:58] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
 [2023-05-17 18:17:58] INFO root fetch - main [MainThread]: Store serial: [18142683]
+[2023-05-17 18:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142683]
+[2023-05-17 18:23:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceano-algos
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fletxible
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-option-menu
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptsubtitler
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongodol
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: browser-cookie3
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysparkler
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioregistry
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yalexs
+[2023-05-17 18:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: librus-apix
+[2023-05-17 18:23:08] INFO root fetch - processPackages [Fletxible]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [streamlit-option-menu]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [librus-apix]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [gptsubtitler]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [pysparkler]: New version: [0.7.dev1684340458] Old Version: [0.7.dev1684180437]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [mongodol]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [browser-cookie3]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [yalexs]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 18:23:08] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-17 18:23:08] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230517/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 18:23:08] INFO root fetch - processPackages [mongodol]: executing diffoscope
+[2023-05-17 18:23:08] INFO root fetch - processPackages [mongodol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodol-0.0.8.tar.gz tmp/mongodol-0.0.9.tar.gz --markdown 20230517/m/mongodol/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 18:23:08] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/61/a9/f836a2cbb26f42250a5db1b53f9e16dd74f764e19adbdece1f897ab9d153/Fletxible-0.4.2.tar.gz
+[2023-05-17 18:23:08] INFO root fetch - processPackages [browser-cookie3]: Downloading https://files.pythonhosted.org/packages/9c/a1/285fec171792b56db527381e4def7715d7eb664e206faf7b5c880c9d0ec4/browser-cookie3-0.9.0.tar.gz
+[2023-05-17 18:23:08] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/16/d2/4b4673418ce11f1d87411bc82acc84e34e911cf0efa71a28432d7241264f/yalexs-1.4.1-py3-none-any.whl
+[2023-05-17 18:23:08] INFO root fetch - processPackages [gptsubtitler]: Downloading https://files.pythonhosted.org/packages/bb/52/22a1970e7d1ad7e96e4160bdb2a77cac94180d76f67cbe2aeaa59d1d2e5c/gptsubtitler-0.0.7.tar.gz
+[2023-05-17 18:23:08] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/3c/dc/d13b88b07ccd714c6827fb528aa887191775660a67099eaa82e36ceb2dc5/pysparkler-0.7.dev1684180437.tar.gz
+[2023-05-17 18:23:08] INFO root fetch - processPackages [streamlit-option-menu]: Downloading https://files.pythonhosted.org/packages/a9/2e/df0e6834a96623c460b9bb28c30ca54a727f39173805d3b4169a6725ca3d/streamlit-option-menu-0.3.4.tar.gz
+[2023-05-17 18:23:08] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/60/e5/b5121d70bd0d4b587dcf84e5950c7aefc539ecb8c79b9fabd8bd1baa002b/librus_apix-0.3.0.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [streamlit-option-menu]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [streamlit-option-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-option-menu-0.3.3.tar.gz tmp/streamlit-option-menu-0.3.4.tar.gz --markdown 20230517/s/streamlit-option-menu/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-17 18:23:09] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/84/79/d3920c2c1dc8484d24bb2a30b806eacefc08e4e70806394c84e40a6d3567/Fletxible-0.5.0.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/85/3e/7a9bd0492662e925b56fbd451499e5029f01be2a904e78f198b02e9bbf2d/yalexs-1.4.2.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/c6/c2/34445a2a63309c55a631ea27109a99ab21a3fb1ae6415b00007e63895503/pysparkler-0.7.dev1684340458.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [browser-cookie3]: Downloading https://files.pythonhosted.org/packages/ac/15/b48d9960d5a08d57bd5948b4ab5a72c2c261fdd79d1157e5621a0bf8b089/browser-cookie3-0.9.1.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.4.2.tar.gz tmp/Fletxible-0.5.0.tar.gz --markdown 20230517/F/Fletxible/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-17 18:23:09] INFO root fetch - processPackages [gptsubtitler]: Downloading https://files.pythonhosted.org/packages/2a/77/59c5675881a4ad294c351cd8c991dbbe121bea048c6b3d8d3fa0ea2b90c5/gptsubtitler-0.0.8.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [yalexs]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [yalexs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs-1.4.1-py3-none-any.whl.zip tmp/yalexs-1.4.2.tar.gz --markdown 20230517/y/yalexs/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-17 18:23:09] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/5a/62/c1cee4b1a9c334d9be0207b7e481ba06dc36a8995fa396cc66fa89e872ab/librus_apix-0.3.1.tar.gz
+[2023-05-17 18:23:09] INFO root fetch - processPackages [browser-cookie3]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [browser-cookie3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browser-cookie3-0.9.0.tar.gz tmp/browser-cookie3-0.9.1.tar.gz --markdown 20230517/b/browser-cookie3/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 18:23:09] INFO root fetch - processPackages [gptsubtitler]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [gptsubtitler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptsubtitler-0.0.7.tar.gz tmp/gptsubtitler-0.0.8.tar.gz --markdown 20230517/g/gptsubtitler/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 18:23:09] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2023-05-17 18:23:09] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.7.dev1684180437.tar.gz tmp/pysparkler-0.7.dev1684340458.tar.gz --markdown 20230517/p/pysparkler/0.7.dev1684180437-0.7.dev1684340458/diff.md --exclude *.pyd
+[2023-05-17 18:23:09] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.3.0.tar.gz tmp/librus_apix-0.3.1.tar.gz --markdown 20230517/l/librus-apix/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 18:23:10] INFO root fetch - processPackages [oceano-algos]: Start processing: biolink-model
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [biolink-model]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-05-17 18:23:10] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-05-17 18:23:10] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/3c/b8/b2d23dcd319a02ea07b042e4f3ad78a26171c86c8adc8a848f95f0630a91/biolink-model-3.3.3.tar.gz
+[2023-05-17 18:23:10] INFO root fetch - processPackages [streamlit-option-menu]: Start processing: momento-wire-types
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [streamlit-option-menu]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [browser-cookie3]: Start processing: botxbingxuser
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [browser-cookie3]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-17 18:23:10] INFO root fetch - processPackages [botxbingxuser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 18:23:10] INFO root fetch - processPackages [mongodol]: Start processing: airunner
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [mongodol]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [botxbingxuser]: executing diffoscope
+[2023-05-17 18:23:10] INFO root fetch - processPackages [botxbingxuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botxbingxuser-0.0.3.tar.gz tmp/botxbingxuser-0.0.4.tar.gz --markdown 20230517/b/botxbingxuser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 18:23:10] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-17 18:23:10] INFO root fetch - processPackages [yalexs]: Start processing: edk2-pytool-extensions
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [yalexs]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [Fletxible]: Start processing: bashparser
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/8e/15/39cbe122770d42d15799ed4b5fec4b41c54e1656ecfafb8ff1338eeadb20/biolink-model-3.3.4.tar.gz
+[2023-05-17 18:23:10] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/18/54/ccd65bdf20002ba25a699332474568819f75c3de8212c94571f4a0146af7/momento-wire-types-0.9.1.tar.gz
+[2023-05-17 18:23:10] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-05-17 18:23:10] INFO root fetch - processPackages [pysparkler]: Start processing: tsuchinoko
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-05-17 18:23:10] INFO root fetch - processPackages [biolink-model]: executing diffoscope
+[2023-05-17 18:23:10] INFO root fetch - processPackages [biolink-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biolink-model-3.3.3.tar.gz tmp/biolink-model-3.3.4.tar.gz --markdown 20230517/b/biolink-model/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-05-17 18:23:10] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2023-05-17 18:23:11] INFO root fetch - processPackages [bashparser]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 18:23:11] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [edk2-pytool-extensions]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-17 18:23:11] INFO root fetch - processPackages [tsuchinoko]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 18:23:11] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-05-17 18:23:11] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230517/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-17 18:23:11] INFO root fetch - main [MainThread]: End processing [gptsubtitler]: success
+[2023-05-17 18:23:11] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/75/15/7d75acb737fa02bd4cb50ec1a419edf9095d3a1dae489937169934768b51/momento-wire-types-0.9.2.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [bashparser]: Downloading https://files.pythonhosted.org/packages/f7/1f/7ae253c0428771d6f10fed548e92008b0b401f5a2a1f81374faff51f7c95/bashparser-0.8.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [edk2-pytool-extensions]: Downloading https://files.pythonhosted.org/packages/e5/16/5b13429b7b73c72c11529c59f3eebe37f346e2ce533be54927f6eb992a17/edk2-pytool-extensions-0.9.4.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-05-17 18:23:11] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230517/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-17 18:23:11] INFO root fetch - processPackages [tsuchinoko]: Downloading https://files.pythonhosted.org/packages/8d/57/0eba868e553c49f37f9ed686caddf2084acfc52ec6de3d667baaf9e9cc41/tsuchinoko-1.0.8.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [bashparser]: Downloading https://files.pythonhosted.org/packages/09/bb/66123b51c2bded86171779383c724bc6f886545b276e4406597029c017e5/bashparser-0.9.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [tsuchinoko]: Downloading https://files.pythonhosted.org/packages/fd/20/4e206ac339b14f859b4e197663c084b5d3c2e1098e28151f267b4ea85773/tsuchinoko-1.0.9.tar.gz
+[2023-05-17 18:23:11] INFO root fetch - processPackages [bashparser]: executing diffoscope
+[2023-05-17 18:23:11] INFO root fetch - processPackages [bashparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashparser-0.8.tar.gz tmp/bashparser-0.9.tar.gz --markdown 20230517/b/bashparser/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 18:23:11] INFO root fetch - processPackages [tsuchinoko]: executing diffoscope
+[2023-05-17 18:23:11] INFO root fetch - processPackages [tsuchinoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsuchinoko-1.0.8.tar.gz tmp/tsuchinoko-1.0.9.tar.gz --markdown 20230517/t/tsuchinoko/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 18:23:11] INFO root fetch - main [MainThread]: End processing [botxbingxuser]: success
+[2023-05-17 18:23:12] INFO root fetch - processPackages [edk2-pytool-extensions]: Downloading https://files.pythonhosted.org/packages/4d/62/9ba9bc59689eddb6e5540966f6ad191972229431a3b07b304ff1a07322c0/edk2-pytool-extensions-0.9.5.tar.gz
+[2023-05-17 18:23:12] INFO root fetch - main [MainThread]: End processing [biolink-model]: success
+[2023-05-17 18:23:12] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-05-17 18:23:12] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-05-17 18:23:12] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-17 18:23:12] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230517/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 18:23:12] INFO root fetch - processPackages [edk2-pytool-extensions]: executing diffoscope
+[2023-05-17 18:23:12] INFO root fetch - processPackages [edk2-pytool-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-extensions-0.9.4.tar.gz tmp/edk2-pytool-extensions-0.9.5.tar.gz --markdown 20230517/e/edk2-pytool-extensions/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-17 18:23:13] INFO root fetch - main [MainThread]: End processing [bashparser]: success
+[2023-05-17 18:23:14] INFO root fetch - main [MainThread]: End processing [tsuchinoko]: success
+[2023-05-17 18:23:14] INFO root fetch - main [MainThread]: End processing [edk2-pytool-extensions]: success
+[2023-05-17 18:25:10] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-17 18:25:10] INFO root fetch - main [MainThread]: Store serial: [18142729]
