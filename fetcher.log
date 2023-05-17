@@ -11436,3 +11436,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 10:45:41] INFO root fetch - main [MainThread]: End processing [osdatahub]: success
 [2023-05-17 10:45:42] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-05-17 10:45:42] INFO root fetch - main [MainThread]: Store serial: [18136556]
+[2023-05-17 10:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136556]
+[2023-05-17 10:50:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-flow
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor-dev
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-enroll
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VoigtFit
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anomalyapp
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agri-sense
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embedbase
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gtki-module-orup-errors
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robofolw-yolo
+[2023-05-17 10:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: file-managers
+[2023-05-17 10:50:51] INFO root fetch - processPackages [VoigtFit]: New version: [3.16] Old Version: [3.15]
+[2023-05-17 10:50:51] WARNING root fetch - processPackages [robofolw-yolo]: Skipping, unable to determine old version
+[2023-05-17 10:50:51] INFO root fetch - processPackages [robofolw-yolo]: Start processing: sk-pysdk
+[2023-05-17 10:50:51] INFO root fetch - main [MainThread]: End processing [robofolw-yolo] error
+[2023-05-17 10:50:51] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.36.5] Old Version: [1.36.4]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [agri-sense]: New version: [1.8] Old Version: [1.7]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [file-managers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 10:50:51] WARNING root fetch - processPackages [anomalyapp]: Skipping, unable to determine old version
+[2023-05-17 10:50:51] INFO root fetch - processPackages [anomalyapp]: Start processing: peaqevcore
+[2023-05-17 10:50:51] INFO root fetch - main [MainThread]: End processing [anomalyapp] error
+[2023-05-17 10:50:51] INFO root fetch - processPackages [embedbase]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 10:50:51] WARNING root fetch - processPackages [sk-pysdk]: Skipping, unable to determine old version
+[2023-05-17 10:50:51] INFO root fetch - processPackages [sk-pysdk]: Start processing: angeltools
+[2023-05-17 10:50:51] INFO root fetch - main [MainThread]: End processing [sk-pysdk] error
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/60/81/d7e8a48571cefabd3be36b181f14bffce14452c4a1ef0d5321089a9b98ba/gtki_module_orup_errors-1.36.4-py3-none-any.whl
+[2023-05-17 10:50:51] INFO root fetch - processPackages [file-managers]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [file-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-managers-0.8.0.tar.gz tmp/file-managers-0.9.0.tar.gz --markdown 20230517/f/file-managers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [angeltools]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-17 10:50:51] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/cc/00/620ce5bfd9f6dd285eadfa067a8ccca859aa5ea1f258aaae5fd4502686d7/agri_sense-1.8.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230517/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [VoigtFit]: Downloading https://files.pythonhosted.org/packages/db/fe/d638a11b03dea881a6f7f4c05ea56092c8b499543b2dac2766eb85517475/VoigtFit-3.15.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.7.tar.gz tmp/agri_sense-1.8.tar.gz --markdown 20230517/a/agri-sense/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/48/1f/ce4cac029ec57a408018816c09ff0bc21fab72d9d13b2b7e00ec2d09224d/embedbase-1.1.6.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/dd/18/8076ef770b05b744f2cdbad042cbc540cd3dca7e67644fd362079d3be79a/gtki_module_orup_errors-1.36.5-py3-none-any.whl
+[2023-05-17 10:50:51] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.36.4-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.36.5-py3-none-any.whl.zip --markdown 20230517/g/gtki-module-orup-errors/1.36.4-1.36.5/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [angeltools]: Downloading https://files.pythonhosted.org/packages/e7/5a/52c62501f48f83ff3a17d7a495c591e72ce526f81f0a8fb302e89ed705e2/angeltools-0.2.7.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230517/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/e0/94/50eed9750c0d8e5590652aa9f3334bb5dcc32797ad29d67307dfab789e3a/embedbase-1.1.7.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.1.6.tar.gz tmp/embedbase-1.1.7.tar.gz --markdown 20230517/e/embedbase/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230517/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [angeltools]: Downloading https://files.pythonhosted.org/packages/e9/8f/b3ee66569ea7a44da7d0d32d22d203b6b906f7c6e1a2dd050982fd72c079/angeltools-0.2.8.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230517/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-17 10:50:51] INFO root fetch - processPackages [VoigtFit]: Downloading https://files.pythonhosted.org/packages/32/10/0d8eca11128f129fedb6d72b54325c2b1c92fa88bc6b1bdc0f0e67a56848/VoigtFit-3.16.tar.gz
+[2023-05-17 10:50:51] INFO root fetch - processPackages [angeltools]: executing diffoscope
+[2023-05-17 10:50:51] INFO root fetch - processPackages [angeltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angeltools-0.2.7.tar.gz tmp/angeltools-0.2.8.tar.gz --markdown 20230517/a/angeltools/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-17 10:50:52] INFO root fetch - processPackages [VoigtFit]: executing diffoscope
+[2023-05-17 10:50:52] INFO root fetch - processPackages [VoigtFit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VoigtFit-3.15.tar.gz tmp/VoigtFit-3.16.tar.gz --markdown 20230517/V/VoigtFit/3.15-3.16/diff.md --exclude *.pyd
+[2023-05-17 10:50:52] INFO root fetch - processPackages [file-managers]: Start processing: mmis
+[2023-05-17 10:50:52] INFO root fetch - main [MainThread]: End processing [file-managers]: success
+[2023-05-17 10:50:52] INFO root fetch - processPackages [mmis]: New version: [1.37] Old Version: [1.36]
+[2023-05-17 10:50:52] INFO root fetch - processPackages [agri-sense]: Start processing: frequenz-api-common
+[2023-05-17 10:50:52] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 10:50:52] INFO root fetch - processPackages [mmis]: Downloading https://files.pythonhosted.org/packages/07/fc/87bdee4dcb10bfeb1c170637aca6b0dc920e2ee4a7a7ab3d23b97f9df248/mmis-1.36.tar.gz
+[2023-05-17 10:50:52] WARNING root fetch - processPackages [frequenz-api-common]: Skipping, unable to determine old version
+[2023-05-17 10:50:52] INFO root fetch - processPackages [frequenz-api-common]: Start processing: robofolw-yolov0
+[2023-05-17 10:50:52] INFO root fetch - main [MainThread]: End processing [frequenz-api-common] error
+[2023-05-17 10:50:53] WARNING root fetch - processPackages [robofolw-yolov0]: Skipping, unable to determine old version
+[2023-05-17 10:50:53] INFO root fetch - processPackages [robofolw-yolov0]: Start processing: s3-cli
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [robofolw-yolov0] error
+[2023-05-17 10:50:53] WARNING root fetch - processPackages [s3-cli]: Skipping, unable to determine old version
+[2023-05-17 10:50:53] INFO root fetch - processPackages [s3-cli]: Start processing: robofolw-yolov1
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [s3-cli] error
+[2023-05-17 10:50:53] INFO root fetch - processPackages [mmis]: Downloading https://files.pythonhosted.org/packages/e5/dc/30bb654fa83335482c28a5d140e130d062b91c6e84f608e39105bdf4c6b6/mmis-1.37.tar.gz
+[2023-05-17 10:50:53] INFO root fetch - processPackages [gtki-module-orup-errors]: Start processing: robofolw-yolov2
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-17 10:50:53] WARNING root fetch - processPackages [robofolw-yolov1]: Skipping, unable to determine old version
+[2023-05-17 10:50:53] INFO root fetch - processPackages [robofolw-yolov1]: Start processing: robofolw-yolov3
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [robofolw-yolov1] error
+[2023-05-17 10:50:53] INFO root fetch - processPackages [mmis]: executing diffoscope
+[2023-05-17 10:50:53] INFO root fetch - processPackages [mmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmis-1.36.tar.gz tmp/mmis-1.37.tar.gz --markdown 20230517/m/mmis/1.36-1.37/diff.md --exclude *.pyd
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-05-17 10:50:53] WARNING root fetch - processPackages [robofolw-yolov2]: Skipping, unable to determine old version
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [robofolw-yolov2] error
+[2023-05-17 10:50:53] WARNING root fetch - processPackages [robofolw-yolov3]: Skipping, unable to determine old version
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [robofolw-yolov3] error
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-05-17 10:50:53] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-17 10:50:54] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-17 10:50:54] INFO root fetch - main [MainThread]: End processing [mmis]: success
+[2023-05-17 10:50:54] INFO root fetch - main [MainThread]: End processing [angeltools]: success
+[2023-05-17 10:50:55] INFO root fetch - main [MainThread]: End processing [VoigtFit]: success
+[2023-05-17 10:50:55] INFO root fetch - main [MainThread]: Store serial: [18136624]
