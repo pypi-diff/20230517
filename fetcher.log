@@ -9598,3 +9598,110 @@
 [2023-05-17 09:09:11] INFO root fetch - main [MainThread]: End processing [sphinx-api-sidebar]: success
 [2023-05-17 09:09:12] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
 [2023-05-17 09:09:12] INFO root fetch - main [MainThread]: Store serial: [18135363]
+[2023-05-17 09:14:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135363]
+[2023-05-17 09:14:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-server-tools
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-cron-expression-validator
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-base-custom-filter
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addons-oca-server-ux
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-models-nightly
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsp-tools
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsqdriver
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metdig
+[2023-05-17 09:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hiddifypanel
+[2023-05-17 09:14:21] INFO root fetch - processPackages [nsqdriver]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [aws-cron-expression-validator]: New version: [1.1.6] Old Version: [1.1.3]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev13]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: New version: [13.0.20230516.0] Old Version: [13.0.20230228.0]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20230516.0] Old Version: [16.0.20230510.0]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.80]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [dsp-tools]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.0.dev0] Old Version: [6.5.4]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-17 09:14:21] INFO root fetch - processPackages [aws-cron-expression-validator]: Downloading https://files.pythonhosted.org/packages/64/74/c769fd9ee94ae87e373155e3b2fcc756dd2f98c47860d5a21bc5418f0945/aws_cron_expression_validator-1.1.3.tar.gz
+[2023-05-17 09:14:21] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: Downloading https://files.pythonhosted.org/packages/7d/c5/32f3f636dfb3e7a6133e501ea0e6ec4df2b400186aa2a14a76642afe201e/odoo14_addon_base_custom_filter-14.0.1.0.1.dev13-py3-none-any.whl
+[2023-05-17 09:14:21] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2023-05-17 09:14:21] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/b2/ad460059fd719cd0821a879815ba5d2a978cfc5b86afa6f57ad6f8635bfa/quantplay-1.2.80.tar.gz
+[2023-05-17 09:14:21] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/87/ec/6bbdbeafe1b97ee9e257592931eff06198f4f75f93f61c62c51bfb03bb05/odoo13_addons_oca_server_ux-13.0.20230228.0-py3-none-any.whl
+[2023-05-17 09:14:21] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/2b/9b/26844ba5504db8e80a86f29cc1982467c76b432854b0b0597b3e67fc4c01/dsp_tools-2.2.2.tar.gz
+[2023-05-17 09:14:22] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/d3/bc/a3170de3cd8e2cc133e627903a1e50caf18a8787e53637a8f0c5b7c88275/nsqdriver-0.2.5.tar.gz
+[2023-05-17 09:14:22] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/a9/fd/c9d8c09c69282bcdc64e9e0f4e92c89b1cba94ce735a5cd193da6842d300/hiddifypanel-6.5.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/b1/3c/6f99d5b25b3bfab92bfe158379ff91e93f0226f0cfce9bfadd9bd77189e5/metdig-0.1.9.9.8-py3-none-any.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/d8/5a/1b597f9bfa81fa293b08f6595b26d24f5a53e464334622327e0efd3f886f/odoo_addons_oca_server_tools-16.0.20230510.0-py3-none-any.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.80.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230517/q/quantplay/1.2.80-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [aws-cron-expression-validator]: Downloading https://files.pythonhosted.org/packages/86/35/fda6050ccff7afcae83500fd65e63bfab395c0d0b82205381c877f32919a/aws_cron_expression_validator-1.1.6.tar.gz
+[2023-05-17 09:14:22] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [aws-cron-expression-validator]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [aws-cron-expression-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cron_expression_validator-1.1.3.tar.gz tmp/aws_cron_expression_validator-1.1.6.tar.gz --markdown 20230517/a/aws-cron-expression-validator/1.1.3-1.1.6/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/6a/6d/60e0231cf0962d7303c497e76bd69c2f300afd0870fb008a4b10aae7138b/dsp_tools-2.3.0.tar.gz
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: Downloading https://files.pythonhosted.org/packages/81/54/196b4e8ead8e76d368538649a92168d6bb72d6c0ef7df3619bb10dbaf9be/odoo14_addon_base_custom_filter-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/c5/08/f7258d1731441154cf35da3bfcb7e65f854989a542e1d6259f01091b5c98/odoo13_addons_oca_server_ux-13.0.20230516.0-py3-none-any.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/b7/3f/3801a22fb880318630496dfabea10bef895807ab23318be051641398467e/odoo_addons_oca_server_tools-16.0.20230516.0-py3-none-any.whl
+[2023-05-17 09:14:22] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/e2/39/1cb6ca0f72cf8ad4f17db32c5d648b18e02e5abe9f78d52781b08d8d5b03/nsqdriver-0.2.6.tar.gz
+[2023-05-17 09:14:22] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-2.2.2.tar.gz tmp/dsp_tools-2.3.0.tar.gz --markdown 20230517/d/dsp-tools/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20230510.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20230516.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addons-oca-server-tools/16.0.20230510.0-16.0.20230516.0/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_server_ux-13.0.20230228.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_server_ux-13.0.20230516.0-py3-none-any.whl.zip --markdown 20230517/o/odoo13-addons-oca-server-ux/13.0.20230228.0-13.0.20230516.0/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230517/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.2.5.tar.gz tmp/nsqdriver-0.2.6.tar.gz --markdown 20230517/n/nsqdriver/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: executing diffoscope
+[2023-05-17 09:14:22] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_custom_filter-14.0.1.0.1.dev13-py3-none-any.whl.zip tmp/odoo14_addon_base_custom_filter-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-base-custom-filter/14.0.1.0.1.dev13-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-17 09:14:23] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/6c/13/0ae2473abcb58f9c247376c67ab5a1dac75e7fd3894cae202fc83ad887d9/hiddifypanel-7.0.0.dev0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-17 09:14:23] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/96/6e/1c393cb969c82fe1c39fc922d6de4aedb7830f5ce13e7be8c7ac41f5115f/metdig-0.1.9.9.9-py3-none-any.whl
+[2023-05-17 09:14:24] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-05-17 09:14:24] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230517/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-05-17 09:14:24] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-17 09:14:24] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.5.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230517/h/hiddifypanel/6.5.4-7.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-17 09:14:24] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Start processing: ansys-test-package
+[2023-05-17 09:14:24] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2023-05-17 09:14:24] INFO root fetch - processPackages [aws-cron-expression-validator]: Start processing: SigProfilerMatrixGenerator
+[2023-05-17 09:14:24] INFO root fetch - main [MainThread]: End processing [aws-cron-expression-validator]: success
+[2023-05-17 09:14:25] WARNING root fetch - processPackages [ansys-test-package]: Skipping, unable to determine old version
+[2023-05-17 09:14:25] INFO root fetch - processPackages [ansys-test-package]: Start processing: CUQIpy
+[2023-05-17 09:14:25] INFO root fetch - main [MainThread]: End processing [ansys-test-package] error
+[2023-05-17 09:14:25] INFO root fetch - processPackages [SigProfilerMatrixGenerator]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-17 09:14:25] INFO root fetch - processPackages [CUQIpy]: New version: [0.3.0.post0.dev7] Old Version: [0.3.0.post0.dev5]
+[2023-05-17 09:14:25] INFO root fetch - processPackages [SigProfilerMatrixGenerator]: Downloading https://files.pythonhosted.org/packages/2e/49/62507a5776c1107ed1588fa61450bdbe94a9534645d1ba0b31e868535d76/SigProfilerMatrixGenerator-1.2.8.tar.gz
+[2023-05-17 09:14:25] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Start processing: antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4
+[2023-05-17 09:14:25] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-server-ux]: success
+[2023-05-17 09:14:25] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-17 09:14:25] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/97/a1/49a43ddeaf8a9206501143de48713ff42c1cc4e0bc21dfbf69d47ec209a8/CUQIpy-0.3.0.post0.dev5.tar.gz
+[2023-05-17 09:14:25] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: executing diffoscope
+[2023-05-17 09:14:25] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.7.tar.gz tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.8.tar.gz --markdown 20230517/a/antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-17 09:14:25] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: Start processing: fastapi-amis-admin-nav
+[2023-05-17 09:14:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-custom-filter]: success
+[2023-05-17 09:14:25] INFO root fetch - processPackages [fastapi-amis-admin-nav]: New version: [0.0.4a1] Old Version: [0.0.4]
+[2023-05-17 09:14:25] INFO root fetch - processPackages [nsqdriver]: Start processing: linmo
+[2023-05-17 09:14:25] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-05-17 09:14:25] INFO root fetch - processPackages [fastapi-amis-admin-nav]: Downloading https://files.pythonhosted.org/packages/60/59/afee3f3280dba2779ebc1759283b21464ecb62104755d41d34d49a4873a1/fastapi_amis_admin_nav-0.0.4.tar.gz
+[2023-05-17 09:14:25] WARNING root fetch - processPackages [linmo]: Skipping, unable to determine old version
+[2023-05-17 09:14:25] INFO root fetch - processPackages [linmo]: Start processing: cloudnetpy-qc
+[2023-05-17 09:14:25] INFO root fetch - main [MainThread]: End processing [linmo] error
+[2023-05-17 09:14:26] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-17 09:14:26] WARNING root fetch - processPackages [SigProfilerMatrixGenerator]: Skipping package: exceeds size limit 38464555>=10485760
+[2023-05-17 09:14:26] INFO root fetch - main [MainThread]: End processing [SigProfilerMatrixGenerator] error
+[2023-05-17 09:14:26] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2023-05-17 09:14:26] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20230517/c/cloudnetpy-qc/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-17 09:14:26] INFO root fetch - processPackages [fastapi-amis-admin-nav]: Downloading https://files.pythonhosted.org/packages/81/79/2ebc90dd52a073a3c6ab2f23be95a9c98c84adef494760754ec465a587b1/fastapi_amis_admin_nav-0.0.4a1.tar.gz
+[2023-05-17 09:14:26] INFO root fetch - processPackages [fastapi-amis-admin-nav]: executing diffoscope
+[2023-05-17 09:14:26] INFO root fetch - processPackages [fastapi-amis-admin-nav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin_nav-0.0.4.tar.gz tmp/fastapi_amis_admin_nav-0.0.4a1.tar.gz --markdown 20230517/f/fastapi-amis-admin-nav/0.0.4-0.0.4a1/diff.md --exclude *.pyd
+[2023-05-17 09:14:26] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/43/e5/a0ca19319f37a3f4a5ca4e028f3f37dbc0e13a85df1ca7fb1cfb4d50c4f2/CUQIpy-0.3.0.post0.dev7.tar.gz
+[2023-05-17 09:14:26] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2023-05-17 09:14:26] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-0.3.0.post0.dev5.tar.gz tmp/CUQIpy-0.3.0.post0.dev7.tar.gz --markdown 20230517/C/CUQIpy/0.3.0.post0.dev5-0.3.0.post0.dev7/diff.md --exclude *.pyd
+[2023-05-17 09:14:27] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-17 09:14:28] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2023-05-17 09:14:28] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: success
+[2023-05-17 09:14:28] INFO root fetch - main [MainThread]: End processing [fastapi-amis-admin-nav]: success
+[2023-05-17 09:14:33] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2023-05-17 09:14:34] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2023-05-17 09:14:40] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-05-17 09:14:46] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-17 09:14:48] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-17 09:14:48] INFO root fetch - main [MainThread]: Store serial: [18135424]
