@@ -11895,3 +11895,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:07:09] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2023-05-17 11:07:26] INFO root fetch - main [MainThread]: End processing [ifly-uiautotest]: success
 [2023-05-17 11:07:26] INFO root fetch - main [MainThread]: Store serial: [18136853]
+[2023-05-17 11:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136853]
+[2023-05-17 11:12:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unified-planning
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metricq
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anomalyapp
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyworxcloud
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cici.tools
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-alto-parser
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-editor-dev
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openshift-python-utilities
+[2023-05-17 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jina-now
+[2023-05-17 11:12:37] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [cici.tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-17 11:12:37] WARNING root fetch - processPackages [anomalyapp]: Skipping, unable to determine old version
+[2023-05-17 11:12:37] INFO root fetch - processPackages [anomalyapp]: Start processing: piperider
+[2023-05-17 11:12:37] INFO root fetch - main [MainThread]: End processing [anomalyapp] error
+[2023-05-17 11:12:37] WARNING root fetch - processPackages [simple-alto-parser]: Skipping, unable to determine old version
+[2023-05-17 11:12:37] INFO root fetch - main [MainThread]: End processing [simple-alto-parser] error
+[2023-05-17 11:12:37] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [metricq]: New version: [5.0.0] Old Version: [4.2.0]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.54.dev1]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-17 11:12:37] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/a0/c1/8dab3c7cac6450f5dcc71e7437bc31197cbadb65f348356c767429777502/jina-now-0.0.9.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [cici.tools]: Downloading https://files.pythonhosted.org/packages/bd/d2/86ad28f5de1268e3220957294d48b76fc3c664b2116a74b80d929551e08c/cici.tools-0.1.2.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/c6/e9/b13aa938944ec91859ff4f5aa25ed1acf3523749776ade061878c34fa9f6/openshift-python-utilities-4.13.8.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230517/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.8.tar.gz tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.9.tar.gz --markdown 20230517/a/antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/74/44/25e84e97dd123cbdf0dd631c4440c87602183d068af13ddb23db3147fd44/unified_planning-0.6.0.54.dev1.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/84/1a/7d5d16f74ca3d4b76baa344a9cc7b4060fcc125610ff71d6f6f6f26d48a0/pyworxcloud-3.1.6.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/a6/34/88c80b83d604d27cab877d84c5fa0c4bcbf12f763c8cf5ceea6248e3f7dc/metricq-4.2.0-py3-none-any.whl
+[2023-05-17 11:12:37] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/82/20/038948e51195bd3de8c85ac694d6a59d712e94575701c6d9eb0c2eb58f7b/jina-now-0.0.9.dev2.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [cici.tools]: Downloading https://files.pythonhosted.org/packages/27/1a/5fd67670ddc116de90b5766f2a897d812fa62054f62b09632900f3e6e48f/cici.tools-0.1.3.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230517/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [cici.tools]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [cici.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici.tools-0.1.2.tar.gz tmp/cici.tools-0.1.3.tar.gz --markdown 20230517/c/cici.tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/01/b0/e7536cf5076c939fa56c6aead76fc2ecc1b804b8075bb583a89505b99389/openshift-python-utilities-4.13.9.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/85/c9/ea2430e92bbd171b449a3c32e199a1889cfd00ecea1546cee7603d0d39d8/metricq-5.0.0-py3-none-any.whl
+[2023-05-17 11:12:37] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/3a/91/5101c77d2165f9085d449171c6193a715a23a85a9abfb796a12ef7fc96ac/pyworxcloud-3.1.7.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.13.8.tar.gz tmp/openshift-python-utilities-4.13.9.tar.gz --markdown 20230517/o/openshift-python-utilities/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-05-17 11:12:37] INFO root fetch - processPackages [metricq]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [metricq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricq-4.2.0-py3-none-any.whl.zip tmp/metricq-5.0.0-py3-none-any.whl.zip --markdown 20230517/m/metricq/4.2.0-5.0.0/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.6.tar.gz tmp/pyworxcloud-3.1.7.tar.gz --markdown 20230517/p/pyworxcloud/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-05-17 11:12:37] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-17 11:12:37] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.54.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230517/u/unified-planning/0.6.0.54.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-17 11:12:38] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-05-17 11:12:38] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230517/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-17 11:12:39] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: success
+[2023-05-17 11:12:39] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-17 11:12:39] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-05-17 11:12:39] INFO root fetch - main [MainThread]: End processing [cici.tools]: success
+[2023-05-17 11:12:39] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-05-17 11:12:40] INFO root fetch - main [MainThread]: End processing [metricq]: success
+[2023-05-17 11:12:40] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-05-17 11:12:41] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-05-17 11:12:43] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-17 11:12:43] INFO root fetch - main [MainThread]: Store serial: [18136893]
