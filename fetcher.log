@@ -12866,3 +12866,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:00:44] INFO root fetch - main [MainThread]: End processing [sfft]: success
 [2023-05-17 12:00:45] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
 [2023-05-17 12:00:45] INFO root fetch - main [MainThread]: Store serial: [18137483]
+[2023-05-17 12:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137483]
+[2023-05-17 12:05:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hprint
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extr-ds
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noise2read
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seamapi
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: message-ix
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmsdna-lakeapi
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-editor-dev
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nobubo
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psytricks
+[2023-05-17 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bqhus
+[2023-05-17 12:05:54] INFO root fetch - processPackages [hprint]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [psytricks]: New version: [2.1.1a0] Old Version: [2.1.0]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [seamapi]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [hprint]: executing diffoscope
+[2023-05-17 12:05:54] INFO root fetch - processPackages [hprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hprint-2.0.4.tar.gz tmp/hprint-2.0.5.tar.gz --markdown 20230517/h/hprint/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-17 12:05:54] INFO root fetch - processPackages [noise2read]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [message-ix]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [bqhus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-17 12:05:54] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230517/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 12:05:54] INFO root fetch - processPackages [nobubo]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-17 12:05:54] INFO root fetch - processPackages [psytricks]: executing diffoscope
+[2023-05-17 12:05:54] INFO root fetch - processPackages [psytricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psytricks-2.1.0.tar.gz tmp/psytricks-2.1.1a0.tar.gz --markdown 20230517/p/psytricks/2.1.0-2.1.1a0/diff.md --exclude *.pyd
+[2023-05-17 12:05:54] INFO root fetch - processPackages [seamapi]: Downloading https://files.pythonhosted.org/packages/66/89/44ca8fd07b0ae73a320a143a76e9f2dac864dff04d1fb1c5410964fbe6c5/seamapi-2.9.0.tar.gz
+[2023-05-17 12:05:54] INFO root fetch - processPackages [message-ix]: Downloading https://files.pythonhosted.org/packages/ce/e6/d66eba50c4a34916dc2db9a667a5cea2559d41e108b16a5a182c2cd83366/message_ix-3.6.0.tar.gz
+[2023-05-17 12:05:54] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/a6/a1/a0ea616ee88a1aa23b3f9841f648dcc2b055b43c8cab6247e503185b3248/noise2read-0.0.82.tar.gz
+[2023-05-17 12:05:54] INFO root fetch - processPackages [bqhus]: Downloading https://files.pythonhosted.org/packages/a9/ec/faaf7cc0fedd071f306b7d8cfadaa12f4578e02db7828ad88abc5ebebe20/bqhus-0.1.8.tar.gz
+[2023-05-17 12:05:54] INFO root fetch - processPackages [nobubo]: Downloading https://files.pythonhosted.org/packages/4a/15/fdafe801833e31bba5a60c8385f527a72bc623e2ea409c9e61d2184810d6/nobubo-1.4.1.tar.gz
+[2023-05-17 12:05:54] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/c3/78/b7a6a610f72cfb06e6c46b09597015cffcdf5dda1b5a21d89e57728d5420/bmsdna_lakeapi-0.1.0.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/dc/9f/0fd80cca887fded9663815405eb872925577a868253db4e79830e3a789fd/noise2read-0.0.83.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230517/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:05:55] INFO root fetch - processPackages [seamapi]: Downloading https://files.pythonhosted.org/packages/d1/68/f644a5fadb8237d0e4c2be5925a6d30926799e24541904fdde5f9bdf5437/seamapi-2.9.1.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [nobubo]: Downloading https://files.pythonhosted.org/packages/a1/da/cdb12a3e032c710aaa4b47b3168275190be271985232838dec7ad94712b6/nobubo-1.5.0.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/02/eb/4726ce71eb0a9d22314ce01f6703ccd1038e0bdffc391c126754913558fd/bmsdna_lakeapi-0.1.1.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.82.tar.gz tmp/noise2read-0.0.83.tar.gz --markdown 20230517/n/noise2read/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-05-17 12:05:55] INFO root fetch - processPackages [bqhus]: Downloading https://files.pythonhosted.org/packages/fa/23/3af5b9116c789dc8a181e00744ce4d8281999c6b274e0120dff96b04827a/bqhus-0.1.9.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [seamapi]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [seamapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamapi-2.9.0.tar.gz tmp/seamapi-2.9.1.tar.gz --markdown 20230517/s/seamapi/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-17 12:05:55] INFO root fetch - processPackages [nobubo]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [nobubo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobubo-1.4.1.tar.gz tmp/nobubo-1.5.0.tar.gz --markdown 20230517/n/nobubo/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:05:55] INFO root fetch - processPackages [bqhus]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [bqhus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqhus-0.1.8.tar.gz tmp/bqhus-0.1.9.tar.gz --markdown 20230517/b/bqhus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 12:05:55] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.1.0.tar.gz tmp/bmsdna_lakeapi-0.1.1.tar.gz --markdown 20230517/b/bmsdna-lakeapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 12:05:55] INFO root fetch - processPackages [message-ix]: Downloading https://files.pythonhosted.org/packages/c1/e0/0e05f478eb74cdaec7e7f9226b774ceefe643384871825fd2c797d5e10ad/message_ix-3.7.0.tar.gz
+[2023-05-17 12:05:55] INFO root fetch - processPackages [hprint]: Start processing: AutoCarver
+[2023-05-17 12:05:55] INFO root fetch - main [MainThread]: End processing [hprint]: success
+[2023-05-17 12:05:55] INFO root fetch - processPackages [AutoCarver]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-05-17 12:05:55] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-05-17 12:05:55] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.1.0.tar.gz tmp/AutoCarver-4.2.0.tar.gz --markdown 20230517/A/AutoCarver/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-05-17 12:05:56] INFO root fetch - processPackages [message-ix]: executing diffoscope
+[2023-05-17 12:05:56] INFO root fetch - processPackages [message-ix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message_ix-3.6.0.tar.gz tmp/message_ix-3.7.0.tar.gz --markdown 20230517/m/message-ix/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-05-17 12:05:56] INFO root fetch - processPackages [extr-ds]: Start processing: sj-tool
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-17 12:05:56] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 12:05:56] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-05-17 12:05:56] INFO root fetch - processPackages [seamapi]: Start processing: pyrew
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [seamapi]: success
+[2023-05-17 12:05:56] INFO root fetch - processPackages [noise2read]: Start processing: firefox-parser
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-17 12:05:56] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-05-17 12:05:56] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-17 12:05:56] INFO root fetch - processPackages [bqhus]: Start processing: Bigsansar
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [bqhus]: success
+[2023-05-17 12:05:56] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-17 12:05:56] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230517/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:05:56] INFO root fetch - processPackages [firefox-parser]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-17 12:05:56] INFO root fetch - processPackages [psytricks]: Start processing: PatryksAutoAI
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [psytricks]: success
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-17 12:05:56] INFO root fetch - main [MainThread]: End processing [nobubo]: success
+[2023-05-17 12:05:56] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-17 12:05:56] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/12/96/37b7d810aacb30a4924999ce9a75e3d063b4b35b00b46cbf8c5f85ce55da/PatryksAutoAI-0.8.4.tar.gz
+[2023-05-17 12:05:56] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/64/69/8159a7dcf005a9e264127de535734128c82ba83ccbda77bb9d314ab042c4/pyrew-0.9.2.tar.gz
+[2023-05-17 12:05:56] INFO root fetch - processPackages [Bigsansar]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-17 12:05:57] INFO root fetch - processPackages [firefox-parser]: Downloading https://files.pythonhosted.org/packages/01/49/ef24b08cfcfc4345c6cc55cfd1103302a4f0ac894ae55ec48a24915680cd/firefox-parser-1.1.4.tar.gz
+[2023-05-17 12:05:57] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-17 12:05:57] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/db/0b/7e3af23d052e9b572937cc65f21de8e01db42d380b3482466ca5f264e943/PatryksAutoAI-0.8.5.tar.gz
+[2023-05-17 12:05:57] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/5f/32/a5b137c78999946d652f03dec1d7904199a12b49012ca6a9f47b208a25e3/Bigsansar-1.4.5.tar.gz
+[2023-05-17 12:05:57] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 12:05:57] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.8.4.tar.gz tmp/PatryksAutoAI-0.8.5.tar.gz --markdown 20230517/P/PatryksAutoAI/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-17 12:05:57] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/25/f4/85ad85fa368ea3c50f78e6e1c9a087d9bb4ab751750c8f47ff390f1ada6c/pyrew-0.9.3.tar.gz
+[2023-05-17 12:05:57] INFO root fetch - processPackages [firefox-parser]: Downloading https://files.pythonhosted.org/packages/c4/e8/648a0dcb1599b74bfdb9c1f0181923a2b18eec735924c8f7a7dfd73b3d41/firefox-parser-1.1.5.tar.gz
+[2023-05-17 12:05:57] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-17 12:05:57] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230517/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-17 12:05:57] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/af/c7/ad2ce1e966f1d28a8a706c0efc9a2987e93d80ae14366f84821bc4b064f4/Bigsansar-1.4.6.tar.gz
+[2023-05-17 12:05:57] INFO root fetch - processPackages [firefox-parser]: executing diffoscope
+[2023-05-17 12:05:57] INFO root fetch - processPackages [firefox-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefox-parser-1.1.4.tar.gz tmp/firefox-parser-1.1.5.tar.gz --markdown 20230517/f/firefox-parser/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-17 12:05:57] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-17 12:05:57] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.4.5.tar.gz tmp/Bigsansar-1.4.6.tar.gz --markdown 20230517/B/Bigsansar/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-17 12:05:57] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-05-17 12:05:58] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-17 12:05:58] INFO root fetch - main [MainThread]: End processing [firefox-parser]: success
+[2023-05-17 12:05:58] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-17 12:05:59] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 12:05:59] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-17 12:06:02] INFO root fetch - main [MainThread]: End processing [message-ix]: success
+[2023-05-17 12:06:02] INFO root fetch - main [MainThread]: Store serial: [18137528]
