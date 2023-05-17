@@ -4663,3 +4663,56 @@
 [2023-05-17 04:09:05] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
 [2023-05-17 04:09:05] INFO root fetch - main [MainThread]: End processing [reportbro-lib]: success
 [2023-05-17 04:09:05] INFO root fetch - main [MainThread]: Store serial: [18132700]
+[2023-05-17 04:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132700]
+[2023-05-17 04:14:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-python
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-python-client
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ufusion
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaskz
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tendenci
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lgtm-lint
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: labxpipe
+[2023-05-17 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-unopy
+[2023-05-17 04:14:14] WARNING root fetch - processPackages [ufusion]: Skipping, unable to determine old version
+[2023-05-17 04:14:14] INFO root fetch - main [MainThread]: End processing [ufusion] error
+[2023-05-17 04:14:14] INFO root fetch - processPackages [bambooai]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 04:14:14] WARNING root fetch - processPackages [lgtm-lint]: Skipping, unable to determine old version
+[2023-05-17 04:14:14] INFO root fetch - processPackages [types-unopy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 04:14:14] INFO root fetch - main [MainThread]: End processing [lgtm-lint] error
+[2023-05-17 04:14:14] INFO root fetch - processPackages [pulp-python-client]: New version: [3.9.0.dev1676518043] Old Version: [3.9.0.dev1676430999]
+[2023-05-17 04:14:14] INFO root fetch - processPackages [pulp-python]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-17 04:14:14] INFO root fetch - processPackages [flaskz]: New version: [1.5.1] Old Version: [1.5]
+[2023-05-17 04:14:14] INFO root fetch - processPackages [labxpipe]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-17 04:14:14] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-05-17 04:14:14] INFO root fetch - processPackages [types-unopy]: executing diffoscope
+[2023-05-17 04:14:14] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.2.1.tar.gz tmp/bambooai-0.2.2.tar.gz --markdown 20230517/b/bambooai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 04:14:14] INFO root fetch - processPackages [tendenci]: New version: [7.5.2] Old Version: [7.5.1]
+[2023-05-17 04:14:14] INFO root fetch - processPackages [types-unopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_unopy-1.0.4.tar.gz tmp/types_unopy-1.0.5.tar.gz --markdown 20230517/t/types-unopy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 04:14:14] INFO root fetch - processPackages [pulp-python-client]: Downloading https://files.pythonhosted.org/packages/a6/20/1f98dba3cc5780b03021c9e7cf8d36439750b2f38c33cee975cae5dbbf19/pulp_python-client-3.9.0.dev1676430999.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [labxpipe]: Downloading https://files.pythonhosted.org/packages/a3/95/901e726c73936e1502dc87aac9ad159641ba9a1700eea8ab982b5cc512e3/labxpipe-0.6.0.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python]: Downloading https://files.pythonhosted.org/packages/50/b0/b4a34d33a68857eaf899adf0b333b6a054457dad32854b578d08c28f7303/pulp-python-3.8.0.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/ef/b5/a77da13445b8e52197d23528eb1a97896eb8c7d4de61e20824fe4f3f145d/flaskz-1.5.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [tendenci]: Downloading https://files.pythonhosted.org/packages/aa/f5/02cb65e296927a22f364ed749d762471ddf0808e38af72fdee168cc9c081/tendenci-7.5.1.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [labxpipe]: Downloading https://files.pythonhosted.org/packages/2a/92/2173c2d3c55597a72389280a8ebdf0096284024c8fd400de1c18445fd88c/labxpipe-0.7.0.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/ce/9d/b925527494d5950ba09e5c0394b60986b9a3344677b1deeac3d88b33c16b/flaskz-1.5.1.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python]: Downloading https://files.pythonhosted.org/packages/78/ca/0836ecb18a439de462f9b6e3673f74acad89466e896addbd20d096b5986e/pulp-python-3.9.0.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python-client]: Downloading https://files.pythonhosted.org/packages/00/fa/38d7e0adc78f09c4185c13fdca9efd77316c9cad96ca193485ecb4d49c7d/pulp_python-client-3.9.0.dev1676518043.tar.gz
+[2023-05-17 04:14:15] INFO root fetch - processPackages [labxpipe]: executing diffoscope
+[2023-05-17 04:14:15] INFO root fetch - processPackages [labxpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labxpipe-0.6.0.tar.gz tmp/labxpipe-0.7.0.tar.gz --markdown 20230517/l/labxpipe/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 04:14:15] INFO root fetch - processPackages [flaskz]: executing diffoscope
+[2023-05-17 04:14:15] INFO root fetch - processPackages [flaskz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskz-1.5.tar.gz tmp/flaskz-1.5.1.tar.gz --markdown 20230517/f/flaskz/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python]: executing diffoscope
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-python-3.8.0.tar.gz tmp/pulp-python-3.9.0.tar.gz --markdown 20230517/p/pulp-python/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python-client]: executing diffoscope
+[2023-05-17 04:14:15] INFO root fetch - processPackages [pulp-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_python-client-3.9.0.dev1676430999.tar.gz tmp/pulp_python-client-3.9.0.dev1676518043.tar.gz --markdown 20230517/p/pulp-python-client/3.9.0.dev1676430999-3.9.0.dev1676518043/diff.md --exclude *.pyd
+[2023-05-17 04:14:15] WARNING root fetch - processPackages [tendenci]: Skipping package: exceeds size limit 18750556>=10485760
+[2023-05-17 04:14:15] INFO root fetch - main [MainThread]: End processing [tendenci] error
+[2023-05-17 04:14:15] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-05-17 04:14:16] INFO root fetch - main [MainThread]: End processing [labxpipe]: success
+[2023-05-17 04:14:17] INFO root fetch - main [MainThread]: End processing [flaskz]: success
+[2023-05-17 04:14:17] INFO root fetch - main [MainThread]: End processing [pulp-python-client]: success
+[2023-05-17 04:14:18] INFO root fetch - main [MainThread]: End processing [pulp-python]: success
+[2023-05-17 04:17:14] ERROR root fetch - processPackages [types-unopy]: Timeout during execution of pkgdiff
+[2023-05-17 04:17:14] INFO root fetch - main [MainThread]: End processing [types-unopy] error
+[2023-05-17 04:17:14] INFO root fetch - main [MainThread]: Store serial: [18132728]
