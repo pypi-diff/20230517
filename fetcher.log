@@ -7915,3 +7915,68 @@
 [2023-05-17 07:04:21] INFO root fetch - processPackages [coacd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coacd-0.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/coacd-0.0.3-py3-none-win_amd64.whl.zip --markdown 20230517/c/coacd/0.0.2-0.0.3/diff.md --exclude *.pyd
 [2023-05-17 07:04:23] INFO root fetch - main [MainThread]: End processing [coacd]: success
 [2023-05-17 07:04:23] INFO root fetch - main [MainThread]: Store serial: [18134381]
+[2023-05-17 07:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134381]
+[2023-05-17 07:09:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coacd
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layerx-sdk
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raindancers-network.raindancers-cdk
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vioneta-agro
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymino
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyTrilium
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automation-common-test
+[2023-05-17 07:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mwxlib
+[2023-05-17 07:09:32] INFO root fetch - processPackages [coacd]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 07:09:32] WARNING root fetch - processPackages [vioneta-agro]: Skipping, unable to determine old version
+[2023-05-17 07:09:32] INFO root fetch - processPackages [vioneta-agro]: Start processing: tflite-model-maker-nightly
+[2023-05-17 07:09:32] INFO root fetch - main [MainThread]: End processing [vioneta-agro] error
+[2023-05-17 07:09:32] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [layerx-sdk]: New version: [1.0.9.3] Old Version: [1.0.9.2]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230517] Old Version: [0.1.1.dev20230516]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [pymino]: New version: [1.1.7.6] Old Version: [1.1.7.5]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230517] Old Version: [1.1.8b20230516]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [PyTrilium]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.7.5.tar.gz tmp/pymino-1.1.7.6.tar.gz --markdown 20230517/p/pymino/1.1.7.5-1.1.7.6/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [mwxlib]: New version: [0.83.2] Old Version: [0.83.0]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230517/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230517/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [layerx-sdk]: Downloading https://files.pythonhosted.org/packages/11/09/518e2d02a9f103248310d1db0f35d447671259843ca4006a42a1436e202b/layerx-sdk-1.0.9.2.tar.gz
+[2023-05-17 07:09:33] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/dd/cd/3987ac46f71de71a9aedf03fd5a8c4e29be0ae5b5463db42c0459b859187/rapid_pe-0.1.1.dev20230517.tar.gz
+[2023-05-17 07:09:33] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/3a/11/8ea92dee476315ce4397371dd7716223ee9df5904cee3a40e23a4bd794a7/multi_model_server-1.1.8b20230516-py2.py3-none-any.whl
+[2023-05-17 07:09:33] INFO root fetch - processPackages [PyTrilium]: Downloading https://files.pythonhosted.org/packages/7a/e4/8ba11fc80bd82e0dd0b8f0ce59299e2c2182d0314ed3dc1fb830ee70d8e3/pytrilium-1.1.3.tar.gz
+[2023-05-17 07:09:33] INFO root fetch - processPackages [coacd]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [coacd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coacd-0.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/coacd-0.0.3-py3-none-win_amd64.whl.zip --markdown 20230517/c/coacd/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230516.tar.gz tmp/rapid_pe-0.1.1.dev20230517.tar.gz --markdown 20230517/r/rapid-pe/0.1.1.dev20230516-0.1.1.dev20230517/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305170509] Old Version: [0.4.3.dev202305160508]
+[2023-05-17 07:09:33] INFO root fetch - processPackages [PyTrilium]: Downloading https://files.pythonhosted.org/packages/53/6a/9e0091db829180bbad01cca648d5c90935278a5baea60554a96ba542225b/pytrilium-1.1.4.tar.gz
+[2023-05-17 07:09:33] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/eb/2d/9dc0eb6d9dcd9e0d799050c9cc044b9e44cfa11205d6b8cca56d4ef94418/mwxlib-0.83.2-py3-none-any.whl
+[2023-05-17 07:09:33] INFO root fetch - processPackages [layerx-sdk]: Downloading https://files.pythonhosted.org/packages/3a/f4/0ac54565b7806cf49018ccd0a6bfad0df8cf1b2f72d7f938c8c2c8480839/layerx-sdk-1.0.9.3.tar.gz
+[2023-05-17 07:09:33] INFO root fetch - processPackages [layerx-sdk]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [layerx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-1.0.9.2.tar.gz tmp/layerx-sdk-1.0.9.3.tar.gz --markdown 20230517/l/layerx-sdk/1.0.9.2-1.0.9.3/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [PyTrilium]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [PyTrilium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrilium-1.1.3.tar.gz tmp/pytrilium-1.1.4.tar.gz --markdown 20230517/P/PyTrilium/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/27/14/73e7b1e2ec10b193818bf7053fd4c2e8a4921535466edc523466691b3c8b/tflite-model-maker-nightly-0.4.3.dev202305170509.tar.gz
+[2023-05-17 07:09:33] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.83.0-py3-none-any.whl.zip tmp/mwxlib-0.83.2-py3-none-any.whl.zip --markdown 20230517/m/mwxlib/0.83.0-0.83.2/diff.md --exclude *.pyd
+[2023-05-17 07:09:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-17 07:09:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305160508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305170509.tar.gz --markdown 20230517/t/tflite-model-maker-nightly/0.4.3.dev202305160508-0.4.3.dev202305170509/diff.md --exclude *.pyd
+[2023-05-17 07:09:34] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/af/1f/ba5e643c59a3a136e55beb1dac85b1063a259b1f775f93f639f6bf71a20a/multi_model_server-1.1.8b20230517-py2.py3-none-any.whl
+[2023-05-17 07:09:34] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-17 07:09:34] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-17 07:09:35] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-05-17 07:09:35] INFO root fetch - main [MainThread]: End processing [PyTrilium]: success
+[2023-05-17 07:09:35] INFO root fetch - main [MainThread]: End processing [layerx-sdk]: success
+[2023-05-17 07:09:35] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-17 07:09:35] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230516-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230517-py2.py3-none-any.whl.zip --markdown 20230517/m/multi-model-server/1.1.8b20230516-1.1.8b20230517/diff.md --exclude *.pyd
+[2023-05-17 07:09:35] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-05-17 07:09:35] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-05-17 07:09:35] INFO root fetch - main [MainThread]: End processing [coacd]: success
+[2023-05-17 07:09:37] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-17 07:12:26] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-17 07:12:26] INFO root fetch - main [MainThread]: Store serial: [18134416]
