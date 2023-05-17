@@ -15430,3 +15430,189 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:56:25] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-17 13:56:25] INFO root fetch - main [MainThread]: End processing [ralph-malph]: success
 [2023-05-17 13:56:25] INFO root fetch - main [MainThread]: Store serial: [18138801]
+[2023-05-17 14:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138801]
+[2023-05-17 14:01:33] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multidimensionalks
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyikarus
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydisadm
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyCOREPOS
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: levi
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Econ-Windows
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rattail-corepos
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ionoscloud
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: img-prediction
+[2023-05-17 14:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CQE
+[2023-05-17 14:01:33] INFO root fetch - processPackages [pydisadm]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-05-17 14:01:33] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000081] Old Version: [0.3.0.dev202310000080]
+[2023-05-17 14:01:33] INFO root fetch - processPackages [CQE]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 14:01:33] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [img-prediction]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [CQE]: Downloading https://files.pythonhosted.org/packages/00/8e/f94e1897c2ce0f679d826dda7fbbe8978e5e3aa1833d8b8dd1371d145d9c/CQE-1.0.4.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/d1/91/410bec4d2d04f9f515cc32a7423a79490ed5a03eb1d8223334872ee89df1/img_prediction-0.0.3-py3-none-any.whl
+[2023-05-17 14:01:34] INFO root fetch - processPackages [levi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pydisadm]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pydisadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisadm-1.0.7.tar.gz tmp/pydisadm-1.1.0.tar.gz --markdown 20230517/p/pydisadm/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.7.tar.gz tmp/Econ_Windows-0.0.8.tar.gz --markdown 20230517/E/Econ-Windows/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyCOREPOS]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [rattail-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [ionoscloud]: New version: [6.1.5] Old Version: [6.1.4]
+[2023-05-17 14:01:34] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/c9/7b/a8b35e082e472a5cdf3e3a0a301a939721f9d27a88b471c17186ca6b7675/img-prediction-0.0.4.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/ae/30/007dece94258ab75da88be69b00fca3ef79eb503de8ad4729833f1269d46/pyikarus-0.3.0.dev202310000081.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [levi]: Downloading https://files.pythonhosted.org/packages/b3/e8/bcfef0a01d6e53b825fe34686c4f7f6e3a203ba2f57e6f5e4365baf692c3/levi-0.1.0.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [img-prediction]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [img-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img_prediction-0.0.3-py3-none-any.whl.zip tmp/img-prediction-0.0.4.tar.gz --markdown 20230517/i/img-prediction/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyCOREPOS]: Downloading https://files.pythonhosted.org/packages/68/57/3fe90edbff8163ed5d06c1cf57abf23874c5f61dc48f56c78798272b2134/pyCOREPOS-0.1.8.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/13/06/8b16a48ef3a7e6294bd301a140fc276b19a777623c2e5f2949c5ea9c8204/rattail_corepos-0.1.8.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [ionoscloud]: Downloading https://files.pythonhosted.org/packages/61/46/539e79d52da9b5f118306c76571ad8b4f36102e5e7aedc213405521975d9/ionoscloud-6.1.4.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [CQE]: Downloading https://files.pythonhosted.org/packages/11/20/20bd24167b4d8963c8b4aefe762c057724338bf1b8209c39bc703677e780/CQE-1.0.5.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [CQE]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [CQE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CQE-1.0.4.tar.gz tmp/CQE-1.0.5.tar.gz --markdown 20230517/C/CQE/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/58/71/efca8b68e4f059595e41c1afa459ffe52a789015a4caa020fe5baad47806/multidimensionalks-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 14:01:34] INFO root fetch - processPackages [levi]: Downloading https://files.pythonhosted.org/packages/e1/0c/48df8faad808db8e701807b79de61bbcb131c12c94e292a245821329c1bb/levi-0.2.0.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyCOREPOS]: Downloading https://files.pythonhosted.org/packages/62/9d/965b1e532308af2bac5109fbb37d483a41c47a37ba389560fe8d63092bb4/pyCOREPOS-0.1.9.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/0a/1b/f80b71641dcccb204bd092bf6e83e8e001a2d55250cf6e9b4d7233a22f9f/rattail_corepos-0.1.9.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [ionoscloud]: Downloading https://files.pythonhosted.org/packages/08/00/0560bcb7f3f489627d7c21f9d4d1d5b97f6aa9a01a6cd82d9403633f04d3/ionoscloud-6.1.5.tar.gz
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyCOREPOS]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyCOREPOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCOREPOS-0.1.8.tar.gz tmp/pyCOREPOS-0.1.9.tar.gz --markdown 20230517/p/pyCOREPOS/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000080.tar.gz tmp/pyikarus-0.3.0.dev202310000081.tar.gz --markdown 20230517/p/pyikarus/0.3.0.dev202310000080-0.3.0.dev202310000081/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/m/multidimensionalks/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [levi]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [levi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/levi-0.1.0.tar.gz tmp/levi-0.2.0.tar.gz --markdown 20230517/l/levi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [ionoscloud]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionoscloud-6.1.4.tar.gz tmp/ionoscloud-6.1.5.tar.gz --markdown 20230517/i/ionoscloud/6.1.4-6.1.5/diff.md --exclude *.pyd
+[2023-05-17 14:01:34] INFO root fetch - processPackages [rattail-corepos]: executing diffoscope
+[2023-05-17 14:01:34] INFO root fetch - processPackages [rattail-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail_corepos-0.1.8.tar.gz tmp/rattail_corepos-0.1.9.tar.gz --markdown 20230517/r/rattail-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:01:35] INFO root fetch - processPackages [Econ-Windows]: Start processing: prose
+[2023-05-17 14:01:35] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-17 14:01:35] INFO root fetch - processPackages [prose]: New version: [3.0.0] Old Version: [2.3.0]
+[2023-05-17 14:01:35] INFO root fetch - processPackages [img-prediction]: Start processing: lXtractor
+[2023-05-17 14:01:35] INFO root fetch - main [MainThread]: End processing [img-prediction]: success
+[2023-05-17 14:01:35] INFO root fetch - processPackages [lXtractor]: New version: [0.1.dev6] Old Version: [0.1.dev5]
+[2023-05-17 14:01:35] INFO root fetch - processPackages [prose]: Downloading https://files.pythonhosted.org/packages/64/d0/85dc71444bec365a9ece5eb072fa0cf21f2aa3a7903725e0cd4e409f8e5a/prose-2.3.0.tar.gz
+[2023-05-17 14:01:35] INFO root fetch - processPackages [pydisadm]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-17 14:01:35] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
+[2023-05-17 14:01:35] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-17 14:01:35] INFO root fetch - processPackages [lXtractor]: Downloading https://files.pythonhosted.org/packages/3d/fd/829699838ccd5011fe65aeed44cb69e147c9f813fe34188a889ee9968642/lxtractor-0.1.dev5.tar.gz
+[2023-05-17 14:01:35] INFO root fetch - processPackages [prose]: Downloading https://files.pythonhosted.org/packages/bc/8a/cad3d3a630255476021d3297b711f9b36be65992ddce743c7404ee335dcd/prose-3.0.0.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f5/e8/c9a04ed513fcae1eb2ac44837fa7070f47629d7bb3103d5aeaf6447585c0/apicurio_registry_python_sdk_preview-2.4.2.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [prose]: executing diffoscope
+[2023-05-17 14:01:36] INFO root fetch - processPackages [prose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prose-2.3.0.tar.gz tmp/prose-3.0.0.tar.gz --markdown 20230517/p/prose/2.3.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 14:01:36] INFO root fetch - processPackages [levi]: Start processing: tailbone-corepos
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [levi]: success
+[2023-05-17 14:01:36] INFO root fetch - processPackages [pyCOREPOS]: Start processing: checkmk-dev-tools
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [pyCOREPOS]: success
+[2023-05-17 14:01:36] INFO root fetch - processPackages [tailbone-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:01:36] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 14:01:36] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8d/d9/be9239043f91d8f61f8f2e1508ae03625314c0d22529c630b939e38a28ea/apicurio_registry_python_sdk_preview-2.4.3.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [lXtractor]: Downloading https://files.pythonhosted.org/packages/d6/78/cf87905fb82ba062820dace94a675b7f6ff90e2ace8632e0888005aefb87/lxtractor-0.1.dev6.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [tailbone-corepos]: Downloading https://files.pythonhosted.org/packages/ca/82/e37f1b36ceb241180e4f1a55e84e8ea76bc50d565301a41b7af88304450e/tailbone-corepos-0.1.8.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-17 14:01:36] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.2.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.3.tar.gz --markdown 20230517/a/apicurio-registry-python-sdk-preview/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-17 14:01:36] INFO root fetch - processPackages [lXtractor]: executing diffoscope
+[2023-05-17 14:01:36] INFO root fetch - processPackages [lXtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxtractor-0.1.dev5.tar.gz tmp/lxtractor-0.1.dev6.tar.gz --markdown 20230517/l/lXtractor/0.1.dev5-0.1.dev6/diff.md --exclude *.pyd
+[2023-05-17 14:01:36] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/e1/5d/2ef8df0dcb0e776e4cf670685e467aae2310d9d4205357e312a283f31e3c/checkmk_dev_tools-0.1.0.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [rattail-corepos]: Start processing: bigdl-dllib
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [rattail-corepos]: success
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:36] WARNING root fetch - processPackages [checkmk-dev-tools]: Skipping package: exceeds size limit 18689038>=10485760
+[2023-05-17 14:01:36] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: mySerializerIGILab
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools] error
+[2023-05-17 14:01:36] WARNING root fetch - processPackages [mySerializerIGILab]: Skipping, unable to determine old version
+[2023-05-17 14:01:36] INFO root fetch - processPackages [mySerializerIGILab]: Start processing: bigdl-orca
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [mySerializerIGILab] error
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:36] INFO root fetch - processPackages [tailbone-corepos]: Downloading https://files.pythonhosted.org/packages/4b/87/ba181b4a081cfd532608c0b575f7e2ec2809c3ca8cd1bf94aff8396eee4d/tailbone-corepos-0.1.9.tar.gz
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/16/3c/b549434e16e5c793daf7d17c042f2627b6f33cf591a36080163cebee24f0/bigdl-dllib-2.4.0b20230515.tar.gz
+[2023-05-17 14:01:36] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560797>=10485760
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-friesian
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-17 14:01:36] INFO root fetch - processPackages [tailbone-corepos]: executing diffoscope
+[2023-05-17 14:01:36] INFO root fetch - processPackages [tailbone-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-corepos-0.1.8.tar.gz tmp/tailbone-corepos-0.1.9.tar.gz --markdown 20230517/t/tailbone-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/2a/22/9fd6debf127a2db2e5fa6ebc986a5125614047bc678112231f1e1aec5340/bigdl_orca-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:36] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369343>=10485760
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-orca]: Start processing: OctoBot-Trading
+[2023-05-17 14:01:36] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-17 14:01:36] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/6b/82/6fa068a7ab71a630d33de5f25eda8633f344ba219700cc9904a94c0d840d/bigdl_friesian-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:37] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-17 14:01:37] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/43/d4/bef8832f46b6e87e6c1eb92d446b75f28ddc913cf13dd7ed59cd06700e51/OctoBot-Trading-2.4.2.tar.gz
+[2023-05-17 14:01:37] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/83/9f/4d2df9dedc9f9afc0bcfc0c83305135a762e8c9926bbb822eebc7f2cf106/bigdl_friesian-2.4.0b20230516-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:37] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-17 14:01:37] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230516-py3-none-manylinux1_x86_64.whl.zip --markdown 20230517/b/bigdl-friesian/2.4.0b20230515-2.4.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 14:01:37] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/43/0a/f005a7baf00f2994cebd6c4b9ad08804dc9d3df97838cc6a9ea441d255ca/OctoBot-Trading-2.4.3.tar.gz
+[2023-05-17 14:01:37] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-05-17 14:01:37] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.2.tar.gz tmp/OctoBot-Trading-2.4.3.tar.gz --markdown 20230517/O/OctoBot-Trading/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-17 14:01:37] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: bigdl
+[2023-05-17 14:01:37] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-17 14:01:37] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:38] INFO root fetch - processPackages [CQE]: Start processing: bigdl-dllib-spark2
+[2023-05-17 14:01:38] INFO root fetch - main [MainThread]: End processing [CQE]: success
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/02/5e/723064994f1ca8e7d95c7736d649e7417a5b843004539d7ba464206306de/bigdl-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/f8/6a/37b33667901934751ad06b1b2fcfe8e8e5853df5505092d18ab2f12b62c5/bigdl-dllib-spark2-2.4.0b20230515.tar.gz
+[2023-05-17 14:01:38] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560864>=10485760
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-orca-spark2
+[2023-05-17 14:01:38] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-17 14:01:38] INFO root fetch - processPackages [lXtractor]: Start processing: bigdl-friesian-spark2
+[2023-05-17 14:01:38] INFO root fetch - main [MainThread]: End processing [lXtractor]: success
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/d0/e3/1016aae7ed786fabf4e49a0775216622470396aad4f63301d0ff0cc7fedb/bigdl-2.4.0b20230516-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230517] Old Version: [2.4.0b20230516]
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230516-py3-none-manylinux1_x86_64.whl.zip --markdown 20230517/b/bigdl/2.4.0b20230515-2.4.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 14:01:38] INFO root fetch - processPackages [prose]: Start processing: bigdl-chronos-spark2
+[2023-05-17 14:01:38] INFO root fetch - main [MainThread]: End processing [prose]: success
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/3c/fb/20070c59628ff71f60f47332d18f0697b1cfdf0acb99aff319d1137e9060/bigdl_orca_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:38] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369345>=10485760
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-spark2
+[2023-05-17 14:01:38] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/04/6c/753b2826bf0cc042cd7eafdddc8998e00e93e1799f3a41046230ff1547f9/bigdl_friesian_spark2-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230516] Old Version: [2.4.0b20230515]
+[2023-05-17 14:01:38] INFO root fetch - processPackages [multidimensionalks]: Start processing: antchain-ak-d9fd09cd1986473d9a4b8dde727aa361
+[2023-05-17 14:01:38] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-17 14:01:38] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/07/f9/39d54e1cce017f0925423d3c7d76af7dae76dd4c87ee4f8b438665538091/bigdl_chronos_spark2-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/c4/40/23f6a0ee1babc29756431722d88d113137b57ec5415d2bce253c8b13a4be/bigdl_spark2-2.4.0b20230515-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:39] INFO root fetch - processPackages [antchain-ak-d9fd09cd1986473d9a4b8dde727aa361]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/4e/bc/5ba0ff22319636a68390ca79797a29fc319c0d3a6c6253d4a429132adc43/bigdl_friesian_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/43/ae/1950348a97459fc1e461de66a3536a115ca8962c23bc365001e39a895056/bigdl_chronos_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:39] INFO root fetch - processPackages [antchain-ak-d9fd09cd1986473d9a4b8dde727aa361]: Downloading https://files.pythonhosted.org/packages/39/70/067f4830fe68f331dd8db16ca0bf075850b1bcf011f822f55808b994d153/antchain_ak_d9fd09cd1986473d9a4b8dde727aa361-1.0.4.tar.gz
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl.zip --markdown 20230517/b/bigdl-friesian-spark2/2.4.0b20230515-2.4.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/2f/45/d528be1dc8c4d61e9143dd3418ad603e14ae114a15ffdd279221e25397b6/bigdl_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl.zip --markdown 20230517/b/bigdl-chronos-spark2/2.4.0b20230515-2.4.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-17 14:01:39] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230515-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230516-py3-none-manylinux1_x86_64.whl.zip --markdown 20230517/b/bigdl-spark2/2.4.0b20230515-2.4.0b20230516/diff.md --exclude *.pyd
+[2023-05-17 14:01:39] INFO root fetch - processPackages [antchain-ak-d9fd09cd1986473d9a4b8dde727aa361]: Downloading https://files.pythonhosted.org/packages/f7/b5/2caf611af3556a2feb32010802ebcf6fadb680959592056493598ca331b5/antchain_ak_d9fd09cd1986473d9a4b8dde727aa361-1.0.5.tar.gz
+[2023-05-17 14:01:39] INFO root fetch - processPackages [antchain-ak-d9fd09cd1986473d9a4b8dde727aa361]: executing diffoscope
+[2023-05-17 14:01:39] INFO root fetch - processPackages [antchain-ak-d9fd09cd1986473d9a4b8dde727aa361]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_d9fd09cd1986473d9a4b8dde727aa361-1.0.4.tar.gz tmp/antchain_ak_d9fd09cd1986473d9a4b8dde727aa361-1.0.5.tar.gz --markdown 20230517/a/antchain-ak-d9fd09cd1986473d9a4b8dde727aa361/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 14:01:39] INFO root fetch - processPackages [tailbone-corepos]: Start processing: anything2image
+[2023-05-17 14:01:39] INFO root fetch - main [MainThread]: End processing [tailbone-corepos]: success
+[2023-05-17 14:01:39] INFO root fetch - processPackages [anything2image]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 14:01:39] INFO root fetch - processPackages [anything2image]: executing diffoscope
+[2023-05-17 14:01:39] INFO root fetch - processPackages [anything2image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anything2image-1.0.4.tar.gz tmp/anything2image-1.0.5.tar.gz --markdown 20230517/a/anything2image/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 14:01:40] INFO root fetch - processPackages [bigdl]: Start processing: aws-cfn-update
+[2023-05-17 14:01:40] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-17 14:01:40] INFO root fetch - processPackages [aws-cfn-update]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-17 14:01:40] INFO root fetch - processPackages [bigdl-friesian]: Start processing: crypter-tiak
+[2023-05-17 14:01:40] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-17 14:01:40] WARNING root fetch - processPackages [crypter-tiak]: Skipping, unable to determine old version
+[2023-05-17 14:01:40] INFO root fetch - main [MainThread]: End processing [crypter-tiak] error
+[2023-05-17 14:01:40] INFO root fetch - processPackages [aws-cfn-update]: Downloading https://files.pythonhosted.org/packages/04/e2/8d07681d97a3e5fee9bfb5a5a998428fb6f6dc560dfceba86af8270b68c4/aws-cfn-update-0.8.4.tar.gz
+[2023-05-17 14:01:40] INFO root fetch - processPackages [aws-cfn-update]: executing diffoscope
+[2023-05-17 14:01:40] INFO root fetch - processPackages [aws-cfn-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cfn-update-0.8.3.tar.gz tmp/aws-cfn-update-0.8.4.tar.gz --markdown 20230517/a/aws-cfn-update/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-17 14:01:40] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-17 14:01:41] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-17 14:01:41] INFO root fetch - main [MainThread]: End processing [anything2image]: success
+[2023-05-17 14:01:41] INFO root fetch - main [MainThread]: End processing [antchain-ak-d9fd09cd1986473d9a4b8dde727aa361]: success
+[2023-05-17 14:01:42] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-17 14:01:42] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-17 14:01:42] INFO root fetch - main [MainThread]: End processing [ionoscloud]: success
+[2023-05-17 14:01:42] INFO root fetch - main [MainThread]: End processing [aws-cfn-update]: success
+[2023-05-17 14:01:43] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-05-17 14:01:43] INFO root fetch - main [MainThread]: Store serial: [18138898]
