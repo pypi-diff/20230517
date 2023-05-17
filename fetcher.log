@@ -22674,3 +22674,79 @@ EOFError: EOF read where object expected
 [2023-05-17 18:30:26] INFO root fetch - main [MainThread]: End processing [cycode]: success
 [2023-05-17 18:30:28] INFO root fetch - main [MainThread]: End processing [slideflow]: success
 [2023-05-17 18:30:28] INFO root fetch - main [MainThread]: Store serial: [18142763]
+[2023-05-17 18:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142763]
+[2023-05-17 18:35:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brainprint
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tap-exact
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openreview-py
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: singlestoredb
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: longitudinal-trends
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: awsparams
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: darmo
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcicutils
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-workshop
+[2023-05-17 18:35:38] WARNING root fetch - processPackages [brainprint]: Skipping, unable to determine old version
+[2023-05-17 18:35:38] INFO root fetch - processPackages [brainprint]: Start processing: edk2-pytool-library
+[2023-05-17 18:35:38] INFO root fetch - main [MainThread]: End processing [brainprint] error
+[2023-05-17 18:35:38] INFO root fetch - processPackages [tap-exact]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [longitudinal-trends]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [singlestoredb]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [darmo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [edk2-pytool-library]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [openreview-py]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [awsparams]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [dcicutils]: New version: [7.4.2] Old Version: [7.4.1]
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-05-17 18:35:38] INFO root fetch - processPackages [darmo]: executing diffoscope
+[2023-05-17 18:35:38] INFO root fetch - processPackages [darmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darmo-0.1.8.tar.gz tmp/darmo-0.1.9.tar.gz --markdown 20230517/d/darmo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 18:35:38] INFO root fetch - processPackages [singlestoredb]: Downloading https://files.pythonhosted.org/packages/a2/34/53475bca35bfbfd96e78165b45fcea4ed67edabdab0f762217184e7d9fb0/singlestoredb-0.5.4.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/9d/28/5fa3199db0cd5020b6818a7c09835ef302c0b90668d1ba0934e9bf4d2733/dcicutils-7.4.1.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/b7/5b/a23801f904a652fea96aa42f2e06f6e5492930d389a14ca39f438e7f1ad4/PatryksAutoAI-1.0.9.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [openreview-py]: Downloading https://files.pythonhosted.org/packages/10/f4/9df8095c8b89ddd8bd719a3dc3103e5af2355f785ae02f6e48d670c055e2/openreview_py-1.8.1-py2.py3-none-any.whl
+[2023-05-17 18:35:38] INFO root fetch - processPackages [awsparams]: Downloading https://files.pythonhosted.org/packages/d7/06/6efe30646461009e0dee1e5b0317e6d52ee3b01e025719d98e8bef57ca2a/awsparams-1.4.1.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [edk2-pytool-library]: Downloading https://files.pythonhosted.org/packages/d3/dd/9e9968e75ee14ecf32974fd3d51b6ca06ed9a88b62d33e7d0f20fefcf7ab/edk2-pytool-library-0.9.1.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [longitudinal-trends]: Downloading https://files.pythonhosted.org/packages/79/80/b0ba667d571b158c51e8d08c6a478108ad04386295ace92a030f319ae370/longitudinal_trends-0.1.6.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/f2/49/1776ea342085a407780a007f0a0ca6fc94d06599bd8768e31a9f9e4a8e67/tap_exact-0.3.2.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-05-17 18:35:38] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230517/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-05-17 18:35:38] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 18:35:38] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.0.8.tar.gz tmp/PatryksAutoAI-1.0.9.tar.gz --markdown 20230517/P/PatryksAutoAI/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 18:35:38] INFO root fetch - processPackages [singlestoredb]: Downloading https://files.pythonhosted.org/packages/3f/7c/f70f7a360e6ebb631a061c90a9833d6d019ca4756a85de5420fb9e0e7543/singlestoredb-0.6.0.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/c5/b2/3a1b94345da6d33806a2a9b91a674d5940c5b44c079e79730580e4556e85/dcicutils-7.4.2.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [awsparams]: Downloading https://files.pythonhosted.org/packages/29/25/f8caf8df93741ece0ae01bbbdc617d7d2a0ce306ba0155c29289f2a4898d/awsparams-1.5.0.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/af/5b/9e435e2c92753dc17e62d3363f43b04a06a812a0300b77f4f87ff5cef315/tap_exact-0.3.3.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [longitudinal-trends]: Downloading https://files.pythonhosted.org/packages/7b/eb/d2b0989f8c176011538ad5376188d3268fc35f593bdd4ca1a6784fce9d92/longitudinal_trends-0.1.7.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [openreview-py]: Downloading https://files.pythonhosted.org/packages/3f/ec/bddbdcce1143acd580ad90e5c6a9772c052772bcf7982d3d4d5957087e38/openreview_py-1.9.0-py2.py3-none-any.whl
+[2023-05-17 18:35:38] INFO root fetch - processPackages [singlestoredb]: executing diffoscope
+[2023-05-17 18:35:38] INFO root fetch - processPackages [singlestoredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlestoredb-0.5.4.tar.gz tmp/singlestoredb-0.6.0.tar.gz --markdown 20230517/s/singlestoredb/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-05-17 18:35:38] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-05-17 18:35:38] INFO root fetch - processPackages [edk2-pytool-library]: Downloading https://files.pythonhosted.org/packages/7f/fa/a8d82168bbf0f14262200294a783666dad1db51b6d6b037a46d1089f5afe/edk2-pytool-library-0.9.2.tar.gz
+[2023-05-17 18:35:38] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.3.2.tar.gz tmp/tap_exact-0.3.3.tar.gz --markdown 20230517/t/tap-exact/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-17 18:35:38] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-17 18:35:38] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.1.tar.gz tmp/dcicutils-7.4.2.tar.gz --markdown 20230517/d/dcicutils/7.4.1-7.4.2/diff.md --exclude *.pyd
+[2023-05-17 18:35:39] INFO root fetch - processPackages [awsparams]: executing diffoscope
+[2023-05-17 18:35:39] INFO root fetch - processPackages [awsparams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsparams-1.4.1.tar.gz tmp/awsparams-1.5.0.tar.gz --markdown 20230517/a/awsparams/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-17 18:35:39] INFO root fetch - processPackages [longitudinal-trends]: executing diffoscope
+[2023-05-17 18:35:39] INFO root fetch - processPackages [longitudinal-trends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longitudinal_trends-0.1.6.tar.gz tmp/longitudinal_trends-0.1.7.tar.gz --markdown 20230517/l/longitudinal-trends/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 18:35:39] INFO root fetch - processPackages [edk2-pytool-library]: executing diffoscope
+[2023-05-17 18:35:39] INFO root fetch - processPackages [edk2-pytool-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-library-0.9.1.tar.gz tmp/edk2-pytool-library-0.9.2.tar.gz --markdown 20230517/e/edk2-pytool-library/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-17 18:35:39] INFO root fetch - processPackages [openreview-py]: executing diffoscope
+[2023-05-17 18:35:39] INFO root fetch - processPackages [openreview-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openreview_py-1.8.1-py2.py3-none-any.whl.zip tmp/openreview_py-1.9.0-py2.py3-none-any.whl.zip --markdown 20230517/o/openreview-py/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 18:35:40] INFO root fetch - processPackages [ovos-workshop]: Start processing: flask-captcha2
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-05-17 18:35:40] WARNING root fetch - processPackages [flask-captcha2]: Skipping, unable to determine old version
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [flask-captcha2] error
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [darmo]: success
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [longitudinal-trends]: success
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-05-17 18:35:40] INFO root fetch - main [MainThread]: End processing [awsparams]: success
+[2023-05-17 18:35:41] INFO root fetch - main [MainThread]: End processing [openreview-py]: success
+[2023-05-17 18:35:42] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-17 18:35:42] INFO root fetch - main [MainThread]: End processing [edk2-pytool-library]: success
+[2023-05-17 18:35:42] INFO root fetch - main [MainThread]: End processing [singlestoredb]: success
+[2023-05-17 18:35:42] INFO root fetch - main [MainThread]: Store serial: [18142812]
