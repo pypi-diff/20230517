@@ -20889,3 +20889,103 @@ EOFError: EOF read where object expected
 [2023-05-17 17:32:24] INFO root fetch - main [MainThread]: End processing [usepy]: success
 [2023-05-17 17:32:25] INFO root fetch - main [MainThread]: End processing [shallowpavlov]: success
 [2023-05-17 17:32:25] INFO root fetch - main [MainThread]: Store serial: [18141858]
+[2023-05-17 17:37:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141858]
+[2023-05-17 17:37:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bgnlp
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sirmordred
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scu-yang-proto-msg
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NanoRepeat
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-scatter
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GCNFrame
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-yuvalbd-function-signature-formatting
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zrlog
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mrfix
+[2023-05-17 17:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geode-Background
+[2023-05-17 17:37:36] WARNING root fetch - processPackages [scu-yang-proto-msg]: Skipping, unable to determine old version
+[2023-05-17 17:37:36] INFO root fetch - processPackages [scu-yang-proto-msg]: Start processing: Geode-Conversion
+[2023-05-17 17:37:36] INFO root fetch - main [MainThread]: End processing [scu-yang-proto-msg] error
+[2023-05-17 17:37:36] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: New version: [20230517.7.59.860757] Old Version: [20230517.15.34.163856]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [zrlog]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [GCNFrame]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [bgnlp]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [NanoRepeat]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [sirmordred]: New version: [0.8.0rc1] Old Version: [0.7.2]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [jupyter-scatter]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [mrfix]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [Geode-Background]: New version: [7.1.4] Old Version: [7.1.3]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-05-17 17:37:36] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Downloading https://files.pythonhosted.org/packages/34/94/162b02d03cc39b2f455bdc8759431a90bbede1235186c254efce18b5a166/certora-cli-alpha-yuvalbd-function_signature_formatting-20230517.15.34.163856.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [GCNFrame]: Downloading https://files.pythonhosted.org/packages/bd/0c/9f9f119b9b5a4c0e4a068860802ee788b3ac0ab3fce15db803d25c8b90e4/GCNFrame-0.1.1.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [NanoRepeat]: Downloading https://files.pythonhosted.org/packages/a9/45/b44d8d9e27f452f52abf83f4605db71cbf5adc1ac985b3d1425ed0d93cbb/NanoRepeat-1.4.0.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/7b/97/7069811119d702c4ce54e811a6fba3921870f71407bd9393df1f76e685bc/sirmordred-0.7.2.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/52/d5/fdc26b2c812cb9385e85072bac02324d0ca1640b477dc79843e799450fac/jupyter-scatter-0.8.0.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [zrlog]: Downloading https://files.pythonhosted.org/packages/b5/a8/3e7118e6084162174c1e01f58ca1ccd37fff44661b6c33e53b1a27618974/zrlog-0.2.0.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/89/bd/047af4b7b39b086914bb04b54413de81b82ece2eb3dcb7e27658e06a980c/Geode_Conversion-5.0.4-cp39-cp39-win_amd64.whl
+[2023-05-17 17:37:36] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/ea/c1/43b3e1838f57545bc80b8e521f2e3a37b0f989845fab2e9428aa206eb388/mrfix-1.0.5.tar.gz
+[2023-05-17 17:37:36] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/a2/b9/bdc7eb6f7990f128e5e0aa586f10297770246c3015561c69cbfdfe542c51/Geode_Background-7.1.3-cp39-cp39-win_amd64.whl
+[2023-05-17 17:37:36] INFO root fetch - processPackages [bgnlp]: Downloading https://files.pythonhosted.org/packages/b9/21/7b1a9039af056adce795061ca8054005ce488ceda27d9d6825b105f8ee7f/bgnlp-0.3.0.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [NanoRepeat]: Downloading https://files.pythonhosted.org/packages/03/15/1203ded625a2b22e734e09ac99e1afdc04bbc57aef0b95d4d51d64fcf1f7/NanoRepeat-1.4.1.tar.gz
+[2023-05-17 17:37:37] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Skipping package: exceeds size limit 38749573>=10485760
+[2023-05-17 17:37:37] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Start processing: hatching-triage
+[2023-05-17 17:37:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-function-signature-formatting] error
+[2023-05-17 17:37:37] INFO root fetch - processPackages [hatching-triage]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 17:37:37] INFO root fetch - processPackages [zrlog]: Downloading https://files.pythonhosted.org/packages/b5/80/3c34e87d647db3305e339a646148c70534bda3e52ff8414eea9347f7a265/zrlog-0.3.0.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [GCNFrame]: Downloading https://files.pythonhosted.org/packages/90/ba/01669edc730fc5e5a000d72dca7d98ccd584575d667bdf668eb540ac0492/GCNFrame-0.1.2.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/92/5e/728fe110286250fc2e50ea3306074968c627bb382e860a3e615e501bce26/Geode_Conversion-5.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-17 17:37:37] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/cd/a3/bab2feeb3c3ea460132cda34d75a2f6aac2e8c38ab82342eeae49bea3540/jupyter-scatter-0.9.0.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [bgnlp]: Downloading https://files.pythonhosted.org/packages/29/df/55d8d61d53d24f0a92acaff413eded0d321591bfaad5186b51ef1658430b/bgnlp-0.3.1.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/ef/a3/ccea6c8179c1030257a7d7ec0193a9b3131b4764338037db9116d8163c80/mrfix-1.0.6.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5c/46/420380a653f6218da54da5f851da30f958775265a7cab9500f27380e593b/Geode_Background-7.1.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-17 17:37:37] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/ea/06/a7e7840b337bdc960286d13c723cb87b8abff817c7d5469b3d62568b9ca9/sirmordred-0.8.0rc1.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [zrlog]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [zrlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrlog-0.2.0.tar.gz tmp/zrlog-0.3.0.tar.gz --markdown 20230517/z/zrlog/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [NanoRepeat]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [NanoRepeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NanoRepeat-1.4.0.tar.gz tmp/NanoRepeat-1.4.1.tar.gz --markdown 20230517/N/NanoRepeat/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [GCNFrame]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [GCNFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GCNFrame-0.1.1.tar.gz tmp/GCNFrame-0.1.2.tar.gz --markdown 20230517/G/GCNFrame/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [hatching-triage]: Downloading https://files.pythonhosted.org/packages/8c/a4/8a72aac5f30fe670d59eb5d907de41dacbc406b94f9b547c79a24c1f40dd/hatching-triage-0.1.8.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [bgnlp]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [bgnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgnlp-0.3.0.tar.gz tmp/bgnlp-0.3.1.tar.gz --markdown 20230517/b/bgnlp/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-1.0.5.tar.gz tmp/mrfix-1.0.6.tar.gz --markdown 20230517/m/mrfix/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [jupyter-scatter]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [jupyter-scatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-scatter-0.8.0.tar.gz tmp/jupyter-scatter-0.9.0.tar.gz --markdown 20230517/j/jupyter-scatter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.4-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230517/G/Geode-Conversion/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-05-17 17:37:37] INFO root fetch - processPackages [hatching-triage]: Downloading https://files.pythonhosted.org/packages/a4/d3/0dbe34f07a67d36bf282da30f4c81894d960d539b428ca8d4aded010f6cf/hatching-triage-0.1.9.tar.gz
+[2023-05-17 17:37:37] INFO root fetch - processPackages [hatching-triage]: executing diffoscope
+[2023-05-17 17:37:37] INFO root fetch - processPackages [hatching-triage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatching-triage-0.1.8.tar.gz tmp/hatching-triage-0.1.9.tar.gz --markdown 20230517/h/hatching-triage/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 17:37:38] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-05-17 17:37:38] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.1.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.1.4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230517/G/Geode-Background/7.1.3-7.1.4/diff.md --exclude *.pyd
+[2023-05-17 17:37:38] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2023-05-17 17:37:38] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.7.2.tar.gz tmp/sirmordred-0.8.0rc1.tar.gz --markdown 20230517/s/sirmordred/0.7.2-0.8.0rc1/diff.md --exclude *.pyd
+[2023-05-17 17:37:38] INFO root fetch - processPackages [mrfix]: Start processing: easy-configs
+[2023-05-17 17:37:38] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-05-17 17:37:38] INFO root fetch - processPackages [easy-configs]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-05-17 17:37:38] INFO root fetch - processPackages [zrlog]: Start processing: redis-elastic
+[2023-05-17 17:37:38] INFO root fetch - main [MainThread]: End processing [zrlog]: success
+[2023-05-17 17:37:38] INFO root fetch - processPackages [bgnlp]: Start processing: determined-deploy
+[2023-05-17 17:37:38] INFO root fetch - main [MainThread]: End processing [bgnlp]: success
+[2023-05-17 17:37:38] INFO root fetch - processPackages [easy-configs]: executing diffoscope
+[2023-05-17 17:37:38] INFO root fetch - processPackages [easy-configs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-configs-0.0.1.tar.gz tmp/easy-configs-0.0.4.tar.gz --markdown 20230517/e/easy-configs/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 17:37:38] INFO root fetch - processPackages [redis-elastic]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 17:37:39] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-05-17 17:37:39] INFO root fetch - processPackages [redis-elastic]: Downloading https://files.pythonhosted.org/packages/4a/24/ea7aa6c086a57cda6599b316f1c1ff51f90e0aab747c80991a547300c1e8/redis_elastic-1.0.1.tar.gz
+[2023-05-17 17:37:39] INFO root fetch - main [MainThread]: End processing [NanoRepeat]: success
+[2023-05-17 17:37:39] INFO root fetch - main [MainThread]: End processing [hatching-triage]: success
+[2023-05-17 17:37:39] INFO root fetch - processPackages [determined-deploy]: New version: [0.22.1rc0] Old Version: [0.22.0rc2]
+[2023-05-17 17:37:39] INFO root fetch - processPackages [redis-elastic]: Downloading https://files.pythonhosted.org/packages/b2/f2/8eb507bfeb4b65714a5259bc5669ddf908e308e5c24110611ab420bc3efa/redis_elastic-1.0.2.tar.gz
+[2023-05-17 17:37:39] INFO root fetch - processPackages [redis-elastic]: executing diffoscope
+[2023-05-17 17:37:39] INFO root fetch - processPackages [redis-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_elastic-1.0.1.tar.gz tmp/redis_elastic-1.0.2.tar.gz --markdown 20230517/r/redis-elastic/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 17:37:39] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/ed/27/7e8b81c461fd8345f22dd3d4e8822f1a85bec73ccc55c0e95e531537c63d/determined_deploy-0.22.0rc2-py3-none-any.whl
+[2023-05-17 17:37:39] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/53/4e/b62839ebc4e49725a7a5a7eac0e2680b634a94ce84dcad26f868d3cf2c19/determined_deploy-0.22.1rc0-py3-none-any.whl
+[2023-05-17 17:37:40] INFO root fetch - main [MainThread]: End processing [easy-configs]: success
+[2023-05-17 17:37:40] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-17 17:37:40] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.22.0rc2-py3-none-any.whl.zip tmp/determined_deploy-0.22.1rc0-py3-none-any.whl.zip --markdown 20230517/d/determined-deploy/0.22.0rc2-0.22.1rc0/diff.md --exclude *.pyd
+[2023-05-17 17:37:40] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-05-17 17:37:40] INFO root fetch - main [MainThread]: End processing [redis-elastic]: success
+[2023-05-17 17:37:41] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-17 17:37:43] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2023-05-17 17:37:45] INFO root fetch - main [MainThread]: End processing [GCNFrame]: success
+[2023-05-17 17:37:52] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
+[2023-05-17 17:37:52] INFO root fetch - main [MainThread]: Store serial: [18141912]
