@@ -18027,3 +18027,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 15:43:36] INFO root fetch - main [MainThread]: End processing [dbt-schema-builder]: success
 [2023-05-17 15:43:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-17 15:43:43] INFO root fetch - main [MainThread]: Store serial: [18140251]
+[2023-05-17 15:48:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18140251]
+[2023-05-17 15:48:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Econ-Windows
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ampel-ztf
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-shop-api
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langflow
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpycocotools-stubs
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h3ppy
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrq-custom
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lolpop
+[2023-05-17 15:48:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hg38genome
+[2023-05-17 15:48:52] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 15:48:52] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.34] Old Version: [0.9.33.7]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [h3ppy]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [lolpop]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [ampel-ztf]: New version: [0.9.0] Old Version: [0.8.5b0]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [drf-shop-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [hg38genome]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [langflow]: New version: [0.0.74] Old Version: [0.0.73]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [rpycocotools-stubs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [kfish]: New version: [99.0.202305171345] Old Version: [99.0.202305162018]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/ed/dd/b504fa38074c7125a9370e09e7f3e43ade58f6d9910ef98319d15217b927/lolpop-0.1.0a3.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ad/4a/0990a52f0ccaade704c6709cbefdca6d508e232d5f0ecaef6131358ef750/kfish-99.0.202305162018-py3-none-any.whl
+[2023-05-17 15:48:53] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.8.tar.gz tmp/Econ_Windows-0.0.9.tar.gz --markdown 20230517/E/Econ-Windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [ampel-ztf]: Downloading https://files.pythonhosted.org/packages/af/a2/5d704d6a64c46a36538159c18cf4aedec494ccafd09e9db7e9035b079444/ampel_ztf-0.8.5b0.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/d1/d1/166dc1c12068ef58b4b010c2d5a17cff3ab481a95e9b54c7bb74546ecdff/mrq-custom-0.9.34.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [drf-shop-api]: Downloading https://files.pythonhosted.org/packages/61/43/30bdf171aaa4c4b06a4d15f8bc0dd462109c8d090d73461e7bb270815d07/drf_shop_api-0.0.1.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [h3ppy]: Downloading https://files.pythonhosted.org/packages/39/7d/efd3cbbe7a807b821146f67d0e68b31e6c65c2f198f6e8f7f94b66484c26/h3ppy-0.4.0.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/41/6d/2f311895b92305a2b07fc07bd84f3aae0e2ce790217e58f00427d331b46c/langflow-0.0.73.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [hg38genome]: Downloading https://files.pythonhosted.org/packages/5b/b9/19304a5b457915528a2e903dcf5f8c80dd56674dcbb157298ac17f21a17c/hg38genome-1.0.0.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [rpycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/b6/39/650d023cc82787788fee4eea5544efbda48870e5cd475743be2ad71a986d/rpycocotools_stubs-0.0.5.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e3/5a/ec8c7f6b2c68f998eb7bfdc43fbfe458897728e4492c57a67dd55deab40b/kfish-99.0.202305171345-py3-none-any.whl
+[2023-05-17 15:48:53] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305162018-py3-none-any.whl.zip tmp/kfish-99.0.202305171345-py3-none-any.whl.zip --markdown 20230517/k/kfish/99.0.202305162018-99.0.202305171345/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [lolpop]: Downloading https://files.pythonhosted.org/packages/1f/8f/1f373adde860998f15d894d62bddee860539cf156abe18830ea541850636/lolpop-0.1.0a4.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.33.7.tar.gz tmp/mrq-custom-0.9.34.tar.gz --markdown 20230517/m/mrq-custom/0.9.33.7-0.9.34/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [drf-shop-api]: Downloading https://files.pythonhosted.org/packages/1c/f7/9d37f9113b903da1edf7f122f288ab163ff1b71372e291b5a9abbf54a645/drf_shop_api-0.0.2.tar.gz
+[2023-05-17 15:48:53] WARNING root fetch - processPackages [hg38genome]: Skipping package: exceeds size limit 46572295>=10485760
+[2023-05-17 15:48:53] INFO root fetch - processPackages [hg38genome]: Start processing: pulumi-azure-native
+[2023-05-17 15:48:53] INFO root fetch - main [MainThread]: End processing [hg38genome] error
+[2023-05-17 15:48:53] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/64/ad/d0122e5eadc85dfcb824cf7bce1fec50ced2b9919eea774d3fd1b240c260/langflow-0.0.74.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-05-17 15:48:53] INFO root fetch - processPackages [h3ppy]: Downloading https://files.pythonhosted.org/packages/7f/ee/800bade0bae9d1d98293f32ca0457ac12121d732fb71fe9d847440969de0/h3ppy-0.4.1.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [rpycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/8d/43/9ec341d38ad266e634b44549e03f49160e0e0f88ad4b95728c7d1f3767a0/rpycocotools_stubs-0.0.6.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [lolpop]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [lolpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolpop-0.1.0a3.tar.gz tmp/lolpop-0.1.0a4.tar.gz --markdown 20230517/l/lolpop/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [ampel-ztf]: Downloading https://files.pythonhosted.org/packages/7a/61/3ef95337f4996d8918d61035f11c37eaca24960c92bd5aa5e82aa4821568/ampel_ztf-0.9.0.tar.gz
+[2023-05-17 15:48:53] INFO root fetch - processPackages [h3ppy]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [h3ppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h3ppy-0.4.0.tar.gz tmp/h3ppy-0.4.1.tar.gz --markdown 20230517/h/h3ppy/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [drf-shop-api]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [drf-shop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_shop_api-0.0.1.tar.gz tmp/drf_shop_api-0.0.2.tar.gz --markdown 20230517/d/drf-shop-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [ampel-ztf]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [ampel-ztf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_ztf-0.8.5b0.tar.gz tmp/ampel_ztf-0.9.0.tar.gz --markdown 20230517/a/ampel-ztf/0.8.5b0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 15:48:53] INFO root fetch - processPackages [rpycocotools-stubs]: executing diffoscope
+[2023-05-17 15:48:53] INFO root fetch - processPackages [rpycocotools-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpycocotools_stubs-0.0.5.tar.gz tmp/rpycocotools_stubs-0.0.6.tar.gz --markdown 20230517/r/rpycocotools-stubs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 15:48:54] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-05-17 15:48:54] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: machina-ratiocinatrix
+[2023-05-17 15:48:54] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-05-17 15:48:54] WARNING root fetch - processPackages [machina-ratiocinatrix]: Skipping, unable to determine old version
+[2023-05-17 15:48:54] INFO root fetch - processPackages [machina-ratiocinatrix]: Start processing: tkmilan
+[2023-05-17 15:48:54] INFO root fetch - main [MainThread]: End processing [machina-ratiocinatrix] error
+[2023-05-17 15:48:54] INFO root fetch - processPackages [tkmilan]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 15:48:54] INFO root fetch - processPackages [Econ-Windows]: Start processing: varwizard
+[2023-05-17 15:48:54] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-17 15:48:54] INFO root fetch - processPackages [tkmilan]: Downloading https://files.pythonhosted.org/packages/93/01/f5623f24ff225bb71aab5bb6bc9911818cb0b0e3f554efe31d89236fdb3b/tkmilan-0.8.tar.gz
+[2023-05-17 15:48:54] INFO root fetch - processPackages [varwizard]: New version: [0.2] Old Version: [0.1.1]
+[2023-05-17 15:48:54] INFO root fetch - processPackages [kfish]: Start processing: nornir-srl
+[2023-05-17 15:48:54] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-17 15:48:54] INFO root fetch - processPackages [nornir-srl]: New version: [0.1.4] Old Version: [0.0.3]
+[2023-05-17 15:48:54] INFO root fetch - processPackages [varwizard]: Downloading https://files.pythonhosted.org/packages/6a/82/b85a96cf0e7715c171d45ef4e7306dfd1a4771192559fb4d7699cc47f18b/varwizard-0.1.1.tar.gz
+[2023-05-17 15:48:54] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-17 15:48:54] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.73.tar.gz tmp/langflow-0.0.74.tar.gz --markdown 20230517/l/langflow/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2023-05-17 15:48:54] INFO root fetch - processPackages [tkmilan]: Downloading https://files.pythonhosted.org/packages/70/21/636dc6b5746848fad3d891699437a1b2e0f60d118440791af68a531f53fd/tkmilan-0.9.tar.gz
+[2023-05-17 15:48:54] INFO root fetch - processPackages [nornir-srl]: Downloading https://files.pythonhosted.org/packages/36/f9/02ab30f1dc68f5de9fb5c3082c98dcbfc066674cb4ad194b776ad36a5335/nornir_srl-0.0.3.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [tkmilan]: executing diffoscope
+[2023-05-17 15:48:55] INFO root fetch - processPackages [tkmilan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmilan-0.8.tar.gz tmp/tkmilan-0.9.tar.gz --markdown 20230517/t/tkmilan/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 15:48:55] INFO root fetch - processPackages [varwizard]: Downloading https://files.pythonhosted.org/packages/82/be/882411c3d0fcff48531acfde9d79d96b47bc7ad90d46df26014b110418d4/varwizard-0.2.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [nornir-srl]: Downloading https://files.pythonhosted.org/packages/fe/c7/10cbdb264bfc66e572b2a6285cd72601794eae2a85af91cb2b1baf825bb8/nornir_srl-0.1.4.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [nornir-srl]: executing diffoscope
+[2023-05-17 15:48:55] INFO root fetch - processPackages [nornir-srl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_srl-0.0.3.tar.gz tmp/nornir_srl-0.1.4.tar.gz --markdown 20230517/n/nornir-srl/0.0.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 15:48:55] INFO root fetch - processPackages [rpycocotools-stubs]: Start processing: tinybird-cli
+[2023-05-17 15:48:55] INFO root fetch - main [MainThread]: End processing [rpycocotools-stubs]: success
+[2023-05-17 15:48:55] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-17 15:48:55] INFO root fetch - processPackages [varwizard]: executing diffoscope
+[2023-05-17 15:48:55] INFO root fetch - processPackages [varwizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varwizard-0.1.1.tar.gz tmp/varwizard-0.2.tar.gz --markdown 20230517/v/varwizard/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-05-17 15:48:55] INFO root fetch - processPackages [drf-shop-api]: Start processing: musiclang
+[2023-05-17 15:48:55] INFO root fetch - main [MainThread]: End processing [drf-shop-api]: success
+[2023-05-17 15:48:55] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-17 15:48:55] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230517/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-17 15:48:55] INFO root fetch - processPackages [h3ppy]: Start processing: modelfree-protein15n
+[2023-05-17 15:48:55] INFO root fetch - main [MainThread]: End processing [h3ppy]: success
+[2023-05-17 15:48:55] INFO root fetch - processPackages [musiclang]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 15:48:55] INFO root fetch - processPackages [modelfree-protein15n]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 15:48:55] INFO root fetch - processPackages [modelfree-protein15n]: Downloading https://files.pythonhosted.org/packages/91/ed/9f5909d8587508af4d4ca9f36f1be8703ba749b88e37d55d040795cc13c1/modelfree-protein15n-0.0.2.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/79/a3/de1fab7b7b118439447ba7c00bf8de7b9eaaa65125218e8c5efa8a6b88d7/musiclang-0.8.8.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [lolpop]: Start processing: helios-opentelemetry-sdk
+[2023-05-17 15:48:55] INFO root fetch - main [MainThread]: End processing [lolpop]: success
+[2023-05-17 15:48:55] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.9] Old Version: [1.0.82]
+[2023-05-17 15:48:55] INFO root fetch - processPackages [modelfree-protein15n]: Downloading https://files.pythonhosted.org/packages/2f/fc/f2854cf06c0469b723a664a86363d5f7feef1a6ab1be091c8359be10c8d2/modelfree-protein15n-0.0.3.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/ce/78/d5fb11a1c49a470552c8c9100e00d401adbd6afa68a67948026b2be17f45/helios-opentelemetry-sdk-1.0.82.tar.gz
+[2023-05-17 15:48:55] INFO root fetch - processPackages [modelfree-protein15n]: executing diffoscope
+[2023-05-17 15:48:55] INFO root fetch - processPackages [modelfree-protein15n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelfree-protein15n-0.0.2.tar.gz tmp/modelfree-protein15n-0.0.3.tar.gz --markdown 20230517/m/modelfree-protein15n/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 15:48:56] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/ce/b8/ebd6ace55d3e94beab410e5bcaf30617e7a0bc4d4c56979db7804c6b4e72/musiclang-0.8.9.tar.gz
+[2023-05-17 15:48:56] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-05-17 15:48:56] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.82.tar.gz tmp/helios-opentelemetry-sdk-1.0.9.tar.gz --markdown 20230517/h/helios-opentelemetry-sdk/1.0.82-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 15:48:56] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-05-17 15:48:56] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.8.tar.gz tmp/musiclang-0.8.9.tar.gz --markdown 20230517/m/musiclang/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 15:48:56] INFO root fetch - processPackages [tkmilan]: Start processing: pyfreebody
+[2023-05-17 15:48:56] INFO root fetch - main [MainThread]: End processing [tkmilan]: success
+[2023-05-17 15:48:56] INFO root fetch - processPackages [pyfreebody]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-17 15:48:56] INFO root fetch - main [MainThread]: End processing [nornir-srl]: success
+[2023-05-17 15:48:57] INFO root fetch - processPackages [pyfreebody]: Downloading https://files.pythonhosted.org/packages/6f/cc/f48082f9207d4a6f5bcd1f7e2cd5c01cbb4ea9a373b37651443f85bfe2e0/pyfreebody-0.2.1.tar.gz
+[2023-05-17 15:48:57] INFO root fetch - main [MainThread]: End processing [modelfree-protein15n]: success
+[2023-05-17 15:48:57] INFO root fetch - processPackages [pyfreebody]: Downloading https://files.pythonhosted.org/packages/c8/2f/8b22b407b448f88566a10026fd01fb8e266f5ea3730b270d7c495ae14ccc/pyfreebody-0.3.0.tar.gz
+[2023-05-17 15:48:57] INFO root fetch - main [MainThread]: End processing [ampel-ztf]: success
+[2023-05-17 15:48:57] INFO root fetch - main [MainThread]: End processing [varwizard]: success
+[2023-05-17 15:48:57] INFO root fetch - processPackages [pyfreebody]: executing diffoscope
+[2023-05-17 15:48:57] INFO root fetch - processPackages [pyfreebody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfreebody-0.2.1.tar.gz tmp/pyfreebody-0.3.0.tar.gz --markdown 20230517/p/pyfreebody/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 15:48:57] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-17 15:48:57] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-17 15:48:58] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-05-17 15:48:58] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-05-17 15:48:58] INFO root fetch - main [MainThread]: End processing [pyfreebody]: success
+[2023-05-17 15:49:34] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-17 15:49:34] INFO root fetch - main [MainThread]: Store serial: [18140318]
