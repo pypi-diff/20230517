@@ -21073,3 +21073,118 @@ EOFError: EOF read where object expected
 [2023-05-17 17:43:05] INFO root fetch - main [MainThread]: End processing [google-sheets-telegram-utils]: success
 [2023-05-17 17:43:06] INFO root fetch - main [MainThread]: End processing [usepy]: success
 [2023-05-17 17:43:06] INFO root fetch - main [MainThread]: Store serial: [18142063]
+[2023-05-17 17:48:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142063]
+[2023-05-17 17:48:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepset-cloud-sdk
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prophet
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omniindex
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lapy
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kirzner-serializer
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kedro-prefect-oliver
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robin-chat-input
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onvif-gui
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botxbingxuser
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drb-topic-sentinel2
+[2023-05-17 17:48:15] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [lapy]: New version: [0.6.0] Old Version: [0.4.1]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kirzner-serializer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [onvif-gui]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [prophet]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [omniindex]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-17 17:48:15] WARNING root fetch - processPackages [robin-chat-input]: Skipping, unable to determine old version
+[2023-05-17 17:48:15] INFO root fetch - processPackages [robin-chat-input]: Start processing: ccbuilder
+[2023-05-17 17:48:15] INFO root fetch - main [MainThread]: End processing [robin-chat-input] error
+[2023-05-17 17:48:15] INFO root fetch - processPackages [botxbingxuser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [drb-topic-sentinel2]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kirzner-serializer]: Downloading https://files.pythonhosted.org/packages/08/00/c47bde58d643188d194ee7b3c7c9d7f292a136208c514d9f4d5afcde9671/kirzner_serializer-0.0.1.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kedro-prefect-oliver]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ccbuilder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 17:48:15] INFO root fetch - processPackages [prophet]: Downloading https://files.pythonhosted.org/packages/2d/d0/9de2137166e014133bb0df613c4eab9988ff3f547ac61c91fd584221be68/prophet-1.1.2.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-05-17 17:48:15] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.1.2.tar.gz tmp/onvif-gui-1.1.3.tar.gz --markdown 20230517/o/onvif-gui/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-17 17:48:15] INFO root fetch - processPackages [lapy]: Downloading https://files.pythonhosted.org/packages/2c/15/f3545380e94d57d0843b686497522d1c5bee628ad091b52985168459e5e9/lapy-0.4.1.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [botxbingxuser]: Downloading https://files.pythonhosted.org/packages/03/1c/e91f071639301984376aa15a4ac6be3a055a718e8bb5a224357e5591af33/botxbingxuser-0.0.1.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [drb-topic-sentinel2]: Downloading https://files.pythonhosted.org/packages/6d/99/a5b3d7a51bed484927fe14292b6d97a87c800e52d6de4d594f349ded9be0/drb-topic-sentinel2-1.2.0.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kedro-prefect-oliver]: Downloading https://files.pythonhosted.org/packages/c6/2a/6f6e81a91848dd3fe7f4eeac59cb1fa14ff630b3c46071cd42456c16ef2f/kedro-prefect-oliver-0.1.3.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [omniindex]: Downloading https://files.pythonhosted.org/packages/a9/ed/f8731b14503ec88fbd1a248437b65e6367174e92ed50d0f08ab390313c54/omniindex-0.1.7.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [ccbuilder]: Downloading https://files.pythonhosted.org/packages/21/3f/48cd48db125c15d0b7f1680809064241c3dc69e5f25fd2ae6be87f089033/ccbuilder-0.0.8.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kirzner-serializer]: Downloading https://files.pythonhosted.org/packages/3e/6d/fb4fd6401b74e31d7fb47cf9dd0c50ddb06ab2902ec37e049af4eacf1725/kirzner_serializer-0.0.2.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-05-17 17:48:15] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.8.tar.gz tmp/deepset_cloud_sdk-0.0.9.tar.gz --markdown 20230517/d/deepset-cloud-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 17:48:15] INFO root fetch - processPackages [prophet]: Downloading https://files.pythonhosted.org/packages/e3/40/bbf2f2771f7aba3077ad27163d847faa5dee6836c72cf4002306161d74c9/prophet-1.1.3.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [lapy]: Downloading https://files.pythonhosted.org/packages/48/0f/7ecac0c8a9fda692abe953d94f8eda6556a9963f128474c21608cc5b2e3a/lapy-0.6.0.tar.gz
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kirzner-serializer]: executing diffoscope
+[2023-05-17 17:48:15] INFO root fetch - processPackages [kirzner-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirzner_serializer-0.0.1.tar.gz tmp/kirzner_serializer-0.0.2.tar.gz --markdown 20230517/k/kirzner-serializer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 17:48:15] INFO root fetch - processPackages [drb-topic-sentinel2]: Downloading https://files.pythonhosted.org/packages/59/12/eb7a40aa52b5b2d978695044a927a7768a3a9489fdf6e67f1f49f3bd99c6/drb-topic-sentinel2-1.2.1.tar.gz
+[2023-05-17 17:48:16] INFO root fetch - processPackages [prophet]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophet-1.1.2.tar.gz tmp/prophet-1.1.3.tar.gz --markdown 20230517/p/prophet/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-17 17:48:16] INFO root fetch - processPackages [lapy]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [lapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapy-0.4.1.tar.gz tmp/lapy-0.6.0.tar.gz --markdown 20230517/l/lapy/0.4.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-17 17:48:16] INFO root fetch - processPackages [drb-topic-sentinel2]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [drb-topic-sentinel2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-topic-sentinel2-1.2.0.tar.gz tmp/drb-topic-sentinel2-1.2.1.tar.gz --markdown 20230517/d/drb-topic-sentinel2/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-17 17:48:16] INFO root fetch - processPackages [kedro-prefect-oliver]: Downloading https://files.pythonhosted.org/packages/7c/15/15887bd0ebe7f8c291e396d71be64e3267b95c49ca6be8157ac783c4dabc/kedro-prefect-oliver-0.1.4.tar.gz
+[2023-05-17 17:48:16] INFO root fetch - processPackages [omniindex]: Downloading https://files.pythonhosted.org/packages/db/09/eb6ead69e0394cc57fd98ce91e9c840f2907aaee5e894f145b5a96fb6d00/omniindex-0.1.9.tar.gz
+[2023-05-17 17:48:16] INFO root fetch - processPackages [botxbingxuser]: Downloading https://files.pythonhosted.org/packages/42/38/5fae078d8f61153246c3ac4e6e0a8c9cab9720d5f515c74307f99b4ddd7a/botxbingxuser-0.0.2.tar.gz
+[2023-05-17 17:48:16] INFO root fetch - processPackages [kedro-prefect-oliver]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [kedro-prefect-oliver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-prefect-oliver-0.1.3.tar.gz tmp/kedro-prefect-oliver-0.1.4.tar.gz --markdown 20230517/k/kedro-prefect-oliver/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 17:48:16] INFO root fetch - processPackages [omniindex]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [omniindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniindex-0.1.7.tar.gz tmp/omniindex-0.1.9.tar.gz --markdown 20230517/o/omniindex/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 17:48:16] INFO root fetch - processPackages [ccbuilder]: Downloading https://files.pythonhosted.org/packages/57/5b/64165e27bf26e7c41a3b34a1df5452b612640a231465641c8898e6e0ab0c/ccbuilder-0.0.9.tar.gz
+[2023-05-17 17:48:16] INFO root fetch - processPackages [botxbingxuser]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [botxbingxuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botxbingxuser-0.0.1.tar.gz tmp/botxbingxuser-0.0.2.tar.gz --markdown 20230517/b/botxbingxuser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 17:48:16] INFO root fetch - processPackages [ccbuilder]: executing diffoscope
+[2023-05-17 17:48:16] INFO root fetch - processPackages [ccbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccbuilder-0.0.8.tar.gz tmp/ccbuilder-0.0.9.tar.gz --markdown 20230517/c/ccbuilder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 17:48:17] INFO root fetch - processPackages [deepset-cloud-sdk]: Start processing: grimoirelab
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-05-17 17:48:17] INFO root fetch - processPackages [grimoirelab]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-17 17:48:17] INFO root fetch - processPackages [kirzner-serializer]: Start processing: pvbm
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [kirzner-serializer]: success
+[2023-05-17 17:48:17] INFO root fetch - processPackages [pvbm]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-17 17:48:17] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-05-17 17:48:17] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-2.0.0.tar.gz tmp/pvbm-2.1.0.tar.gz --markdown 20230517/p/pvbm/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 17:48:17] INFO root fetch - processPackages [lapy]: Start processing: shipyard-jira
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [lapy]: success
+[2023-05-17 17:48:17] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2b/e7/c4b4906f6cac9f1702d4049b7d069a0d4fc72649eeab1e78fab7a8115567/grimoirelab-0.9.1.tar.gz
+[2023-05-17 17:48:17] INFO root fetch - processPackages [kedro-prefect-oliver]: Start processing: covalent
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [kedro-prefect-oliver]: success
+[2023-05-17 17:48:17] INFO root fetch - processPackages [drb-topic-sentinel2]: Start processing: pdm-conda
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [drb-topic-sentinel2]: success
+[2023-05-17 17:48:17] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2023-05-17 17:48:17] INFO root fetch - processPackages [shipyard-jira]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 17:48:17] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2023-05-17 17:48:17] INFO root fetch - processPackages [omniindex]: Start processing: scrapy-zyte-api
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [omniindex]: success
+[2023-05-17 17:48:17] INFO root fetch - processPackages [covalent]: New version: [0.222.0rc0] Old Version: [0.221.1rc0]
+[2023-05-17 17:48:17] INFO root fetch - processPackages [scrapy-zyte-api]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-17 17:48:17] INFO root fetch - processPackages [prophet]: Start processing: rapidpro-flow-tools
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [prophet]: success
+[2023-05-17 17:48:17] WARNING root fetch - processPackages [rapidpro-flow-tools]: Skipping, unable to determine old version
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools] error
+[2023-05-17 17:48:17] INFO root fetch - main [MainThread]: End processing [ccbuilder]: success
+[2023-05-17 17:48:18] INFO root fetch - main [MainThread]: End processing [botxbingxuser]: success
+[2023-05-17 17:48:18] INFO root fetch - processPackages [shipyard-jira]: Downloading https://files.pythonhosted.org/packages/b8/a7/a9575091a04d53d7e8f9f03a92ab30e4d1604946fa2ad3be6191158e18f9/shipyard_jira-0.1.1.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/da/e1/da89736db6c8214a09fc04a98ae64d3b6383a0c93b27fa1e6f29fd756a19/covalent-0.221.1rc0.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/e5/83/4d346602a9ec233e47b3be18f074f5b04f464610341167deb792b4e43545/grimoirelab-0.9.2.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/ac/cf/7a2c8c219bcce4cb25d29156d9323a143f6509fceecff2841bba6e4fa647/scrapy-zyte-api-0.8.1.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-05-17 17:48:18] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20230517/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2023-05-17 17:48:18] INFO root fetch - processPackages [shipyard-jira]: Downloading https://files.pythonhosted.org/packages/b6/e6/65aca7907d66e7208ab5ade9ae9e5d33d9f0f28391dfe057ac091a67acf2/shipyard_jira-0.1.2.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2023-05-17 17:48:18] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.1.tar.gz tmp/grimoirelab-0.9.2.tar.gz --markdown 20230517/g/grimoirelab/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-17 17:48:18] INFO root fetch - processPackages [shipyard-jira]: executing diffoscope
+[2023-05-17 17:48:18] INFO root fetch - processPackages [shipyard-jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_jira-0.1.1.tar.gz tmp/shipyard_jira-0.1.2.tar.gz --markdown 20230517/s/shipyard-jira/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 17:48:18] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/5d/be/d92de4f0244903120fb40ce0a777aa0846cf495fffb7883232a5c9543acf/scrapy-zyte-api-0.8.2.tar.gz
+[2023-05-17 17:48:18] INFO root fetch - processPackages [scrapy-zyte-api]: executing diffoscope
+[2023-05-17 17:48:18] INFO root fetch - processPackages [scrapy-zyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-zyte-api-0.8.1.tar.gz tmp/scrapy-zyte-api-0.8.2.tar.gz --markdown 20230517/s/scrapy-zyte-api/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-17 17:48:18] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-05-17 17:48:18] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/c2/26/bc022636814bf2d517b29aacccaa660240fd131783c23fb148d88836c32b/covalent-0.222.0rc0.tar.gz
+[2023-05-17 17:48:19] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-05-17 17:48:19] INFO root fetch - main [MainThread]: End processing [shipyard-jira]: success
+[2023-05-17 17:48:19] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2023-05-17 17:48:19] INFO root fetch - processPackages [covalent]: executing diffoscope
+[2023-05-17 17:48:19] INFO root fetch - processPackages [covalent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-0.221.1rc0.tar.gz tmp/covalent-0.222.0rc0.tar.gz --markdown 20230517/c/covalent/0.221.1rc0-0.222.0rc0/diff.md --exclude *.pyd
+[2023-05-17 17:48:19] INFO root fetch - main [MainThread]: End processing [scrapy-zyte-api]: success
+[2023-05-17 17:48:19] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-05-17 17:48:23] INFO root fetch - main [MainThread]: End processing [covalent]: success
+[2023-05-17 17:48:23] INFO root fetch - main [MainThread]: Store serial: [18142119]
