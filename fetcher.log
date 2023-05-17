@@ -13813,3 +13813,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:35:29] INFO root fetch - main [MainThread]: End processing [usdm]: success
 [2023-05-17 12:35:30] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-17 12:35:30] INFO root fetch - main [MainThread]: Store serial: [18137889]
+[2023-05-17 12:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137889]
+[2023-05-17 12:40:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodigy-teams
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinxcontrib-matlabdomain
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prodigy-teams-recipes-sdk
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mybassm
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: directory-healthcheck
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ser-Stovba-lab3
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OccuPy
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extr-ds
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osais
+[2023-05-17 12:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydisadm
+[2023-05-17 12:40:38] WARNING root fetch - processPackages [prodigy-teams-recipes-sdk]: Skipping, unable to determine old version
+[2023-05-17 12:40:38] INFO root fetch - main [MainThread]: End processing [prodigy-teams-recipes-sdk] error
+[2023-05-17 12:40:38] INFO root fetch - processPackages [mybassm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 12:40:38] INFO root fetch - processPackages [prodigy-teams]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 12:40:38] INFO root fetch - processPackages [directory-healthcheck]: New version: [3.1.0] Old Version: [3.0.4]
+[2023-05-17 12:40:38] WARNING root fetch - processPackages [ser-Stovba-lab3]: Skipping, unable to determine old version
+[2023-05-17 12:40:38] INFO root fetch - main [MainThread]: End processing [ser-Stovba-lab3] error
+[2023-05-17 12:40:38] INFO root fetch - processPackages [OccuPy]: New version: [0.1.9rc1] Old Version: [0.1.9]
+[2023-05-17 12:40:38] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-17 12:40:38] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:40:38] INFO root fetch - processPackages [osais]: New version: [1.0.44] Old Version: [1.0.43]
+[2023-05-17 12:40:38] INFO root fetch - processPackages [pydisadm]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-17 12:40:39] INFO root fetch - processPackages [pydisadm]: Downloading https://files.pythonhosted.org/packages/13/33/f46b32a9f3ae1409048d18f19a99ee57c5e78ae047887f6f0cd310dadb04/pydisadm-1.0.6.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [mybassm]: Downloading https://files.pythonhosted.org/packages/b8/40/6964a2e052ef33c58d66bf897d3e81263ab9208d35210940ca16d9e057bd/mybassm-0.1.0.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-05-17 12:40:39] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230517/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 12:40:39] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-17 12:40:39] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230517/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:40:39] INFO root fetch - processPackages [prodigy-teams]: Downloading https://files.pythonhosted.org/packages/57/07/71027c4957e6a1622fb80cd60a705edc10baedef545efd04b767e8678c42/prodigy-teams-0.1.8.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [OccuPy]: Downloading https://files.pythonhosted.org/packages/57/ed/2306c212fe991a5c97d8a318471d2a2c786c531df3d370782cb0d8734c30/OccuPy-0.1.9.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [directory-healthcheck]: Downloading https://files.pythonhosted.org/packages/ba/5a/4296e287b68245e8f08d561c0023a82deeb27922d6702623f01309377a30/directory_healthcheck-3.0.4-py3-none-any.whl
+[2023-05-17 12:40:39] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/af/43/0c02c0a471e3c2c97b5e557865b2bc56e82dc3174c7ae8b461f0eba42803/osais-1.0.43.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [mybassm]: Downloading https://files.pythonhosted.org/packages/02/2a/3c9e81948c30d28e254be45f1a943ac4e7dcd6c012acf4c4a8b1e76f0659/mybassm-0.1.1.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [pydisadm]: Downloading https://files.pythonhosted.org/packages/9b/a6/e2ef69a4e1874c0416bc36f7910701af376df50630b08ecb3fc4cd4509a5/pydisadm-1.0.7.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/50/13/cefbd8f9c8a76827b087fb7aabac10303fe9608863976a25dfa64e3a4d4d/osais-1.0.44.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [prodigy-teams]: Downloading https://files.pythonhosted.org/packages/17/4c/a5f4f3cdaf7487d887d1aeabe53a3c3c0a1fe1985296cca2b2f3d0775821/prodigy-teams-0.1.9.tar.gz
+[2023-05-17 12:40:39] INFO root fetch - processPackages [directory-healthcheck]: Downloading https://files.pythonhosted.org/packages/2a/8b/af2f85457232b31be499c03ebbbb5b0f21534c609bd2da06269abdc35544/directory_healthcheck-3.1.0-py3-none-any.whl
+[2023-05-17 12:40:39] INFO root fetch - processPackages [mybassm]: executing diffoscope
+[2023-05-17 12:40:39] INFO root fetch - processPackages [mybassm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybassm-0.1.0.tar.gz tmp/mybassm-0.1.1.tar.gz --markdown 20230517/m/mybassm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 12:40:39] INFO root fetch - processPackages [prodigy-teams]: executing diffoscope
+[2023-05-17 12:40:39] INFO root fetch - processPackages [prodigy-teams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy-teams-0.1.8.tar.gz tmp/prodigy-teams-0.1.9.tar.gz --markdown 20230517/p/prodigy-teams/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 12:40:39] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-05-17 12:40:39] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.43.tar.gz tmp/osais-1.0.44.tar.gz --markdown 20230517/o/osais/1.0.43-1.0.44/diff.md --exclude *.pyd
+[2023-05-17 12:40:40] INFO root fetch - processPackages [directory-healthcheck]: executing diffoscope
+[2023-05-17 12:40:40] INFO root fetch - processPackages [directory-healthcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_healthcheck-3.0.4-py3-none-any.whl.zip tmp/directory_healthcheck-3.1.0-py3-none-any.whl.zip --markdown 20230517/d/directory-healthcheck/3.0.4-3.1.0/diff.md --exclude *.pyd
+[2023-05-17 12:40:40] INFO root fetch - processPackages [pydisadm]: executing diffoscope
+[2023-05-17 12:40:40] INFO root fetch - processPackages [pydisadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisadm-1.0.6.tar.gz tmp/pydisadm-1.0.7.tar.gz --markdown 20230517/p/pydisadm/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-17 12:40:40] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-17 12:40:40] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-05-17 12:40:41] INFO root fetch - main [MainThread]: End processing [mybassm]: success
+[2023-05-17 12:40:41] INFO root fetch - processPackages [OccuPy]: Downloading https://files.pythonhosted.org/packages/1d/91/03e5d8d82445d369c731c22d361d85500bc2647f11b1f2f9cbda174a3875/OccuPy-0.1.9rc1.tar.gz
+[2023-05-17 12:40:41] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-05-17 12:40:41] INFO root fetch - main [MainThread]: End processing [directory-healthcheck]: success
+[2023-05-17 12:40:41] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
+[2023-05-17 12:40:41] INFO root fetch - main [MainThread]: End processing [prodigy-teams]: success
+[2023-05-17 12:40:42] INFO root fetch - processPackages [OccuPy]: executing diffoscope
+[2023-05-17 12:40:42] INFO root fetch - processPackages [OccuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OccuPy-0.1.9.tar.gz tmp/OccuPy-0.1.9rc1.tar.gz --markdown 20230517/O/OccuPy/0.1.9-0.1.9rc1/diff.md --exclude *.pyd
+[2023-05-17 12:40:44] INFO root fetch - main [MainThread]: End processing [OccuPy]: success
+[2023-05-17 12:40:44] INFO root fetch - main [MainThread]: Store serial: [18137927]
