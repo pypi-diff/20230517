@@ -5026,3 +5026,40 @@
 [2023-05-17 04:42:25] INFO root fetch - main [MainThread]: End processing [milvus-cli]: success
 [2023-05-17 04:42:26] INFO root fetch - main [MainThread]: End processing [pyapp]: success
 [2023-05-17 04:42:26] INFO root fetch - main [MainThread]: Store serial: [18132894]
+[2023-05-17 04:47:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132894]
+[2023-05-17 04:47:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsptrain
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yambs
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dexchange-sms
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylebai
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ufusion
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-super-slider
+[2023-05-17 04:47:35] INFO root fetch - processPackages [pylebai]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-17 04:47:35] INFO root fetch - processPackages [lsptrain]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-05-17 04:47:35] WARNING root fetch - processPackages [streamlit-super-slider]: Skipping, unable to determine old version
+[2023-05-17 04:47:35] INFO root fetch - main [MainThread]: End processing [streamlit-super-slider] error
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ufusion]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-05-17 04:47:35] INFO root fetch - processPackages [dexchange-sms]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 04:47:35] INFO root fetch - processPackages [yambs]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 04:47:35] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/f3/63/aaa2a658a45fdcd2360ff86c0ee5035357753313367aea65158ad3f5b3bf/yambs-1.1.0.tar.gz
+[2023-05-17 04:47:35] INFO root fetch - processPackages [dexchange-sms]: Downloading https://files.pythonhosted.org/packages/9b/6f/bf03f3d729eee7a403815929e85929e72ab1df916331d41cabe4d41ba505/dexchange-sms-1.0.0.tar.gz
+[2023-05-17 04:47:35] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/f6/64/bfcb52c89ec8b1396617cc6c8066feb45bb38de7b558eab8bbeafb7b6bae/lsptrain-0.0.62.tar.gz
+[2023-05-17 04:47:35] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/69/55/8c51ba15c22ed19f987a345283b02d831af7ccfe3528a561e311434d2145/ufusion-1.0.6.tar.gz
+[2023-05-17 04:47:36] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-05-17 04:47:36] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.0.0.tar.gz tmp/yambs-1.1.0.tar.gz --markdown 20230517/y/yambs/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 04:47:36] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-05-17 04:47:36] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/44/23/11ace6b60d878a6ee65349a5e7ca15816f514c4f2463957c99286ddb4f40/pylebai-1.1.1-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-17 04:47:36] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.61.tar.gz tmp/lsptrain-0.0.62.tar.gz --markdown 20230517/l/lsptrain/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-05-17 04:47:36] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 04:47:36] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.4.tar.gz tmp/ufusion-1.0.6.tar.gz --markdown 20230517/u/ufusion/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-05-17 04:47:36] INFO root fetch - processPackages [dexchange-sms]: Downloading https://files.pythonhosted.org/packages/ca/61/fc4f66fe8e719ce5a081f07b76fbc9daec68a202129a272eaaf6e972fa21/dexchange-sms-1.0.1.tar.gz
+[2023-05-17 04:47:36] INFO root fetch - processPackages [dexchange-sms]: executing diffoscope
+[2023-05-17 04:47:36] INFO root fetch - processPackages [dexchange-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexchange-sms-1.0.0.tar.gz tmp/dexchange-sms-1.0.1.tar.gz --markdown 20230517/d/dexchange-sms/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 04:47:36] INFO root fetch - processPackages [pylebai]: executing diffoscope
+[2023-05-17 04:47:36] INFO root fetch - processPackages [pylebai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylebai-1.1.0-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pylebai-1.1.1-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230517/p/pylebai/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-17 04:47:37] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-05-17 04:47:37] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 04:47:37] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-05-17 04:47:37] INFO root fetch - main [MainThread]: End processing [dexchange-sms]: success
+[2023-05-17 04:47:53] INFO root fetch - main [MainThread]: End processing [pylebai]: success
+[2023-05-17 04:47:53] INFO root fetch - main [MainThread]: Store serial: [18132915]
