@@ -5238,3 +5238,78 @@
 [2023-05-17 05:04:08] INFO root fetch - main [MainThread]: End processing [XmindExcelTestcases]: success
 [2023-05-17 05:04:09] INFO root fetch - main [MainThread]: End processing [embedin]: success
 [2023-05-17 05:04:09] INFO root fetch - main [MainThread]: Store serial: [18133034]
+[2023-05-17 05:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18133034]
+[2023-05-17 05:09:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yyxx-game-pkg
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickzetta-connector
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-sqlalchemy
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ufusion
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioscpy
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourcery-nightly
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shared-atomic-enterprise
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scikit-duplo
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PIX-engine
+[2023-05-17 05:09:18] INFO root fetch - processPackages [ufusion]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-17 05:09:18] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-17 05:09:18] INFO root fetch - processPackages [scikit-duplo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 05:09:18] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.5.4.1] Old Version: [2023.5.16.2]
+[2023-05-17 05:09:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-17 05:09:18] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b1] Old Version: [1.3.0]
+[2023-05-17 05:09:18] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev3710] Old Version: [0.7.2.dev3666]
+[2023-05-17 05:09:19] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.6.5.tar.gz tmp/clickzetta-connector-0.6.6.tar.gz --markdown 20230517/c/clickzetta-connector/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [aioscpy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 05:09:19] WARNING root fetch - processPackages [PIX-engine]: Skipping, unable to determine old version
+[2023-05-17 05:09:19] INFO root fetch - processPackages [PIX-engine]: Start processing: disfluency-constituency-parser
+[2023-05-17 05:09:19] INFO root fetch - main [MainThread]: End processing [PIX-engine] error
+[2023-05-17 05:09:19] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.4] Old Version: [5!2.3.3]
+[2023-05-17 05:09:19] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.6.5.tar.gz tmp/clickzetta-sqlalchemy-0.6.6.tar.gz --markdown 20230517/c/clickzetta-sqlalchemy/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] WARNING root fetch - processPackages [disfluency-constituency-parser]: Skipping, unable to determine old version
+[2023-05-17 05:09:19] INFO root fetch - processPackages [disfluency-constituency-parser]: Start processing: ufusion
+[2023-05-17 05:09:19] INFO root fetch - main [MainThread]: End processing [disfluency-constituency-parser] error
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/fd/9c/13a5dfcdd08582335aea11c9e941931682ecf148db84d094cd756f89c69b/ufusion-1.1.0.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/d9/b9/a924b50d890bb7a3ca045e482e1409b50a416f492f838a877f08eaf44787/yyxx_game_pkg-2023.5.16.2.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/d2/69/48ab67fe3a7fbfad64c26d794fe8b50753bea30fef78cbdbf288ed9399c7/scikit-duplo-0.1.3.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/14/81/9b5e7f794a81ee47e38ee69f9453eecbdd0f32630a23657d1e4c5f9a2b26/sourcery_nightly-1.3.0-py2.py3-none-win_amd64.whl
+[2023-05-17 05:09:19] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58678691>=10485760
+[2023-05-17 05:09:19] INFO root fetch - processPackages [sourcery-nightly]: Start processing: kss
+[2023-05-17 05:09:19] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.8.tar.gz tmp/ufusion-1.1.0.tar.gz --markdown 20230517/u/ufusion/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [kss]: New version: [4.5.2] Old Version: [4.5.1]
+[2023-05-17 05:09:19] INFO root fetch - processPackages [aioscpy]: Downloading https://files.pythonhosted.org/packages/4d/e3/71d01426ca9a4df2a00dd530026cecbdc34ab31d559f0ffbe87b0e1da164/aioscpy-0.3.8.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/65/57/1923fc6ae0b83b5ab5fedc8e692e61d722b7ede4e327bcd31ed103596ce0/shared_atomic_enterprise-5!2.3.3-py39-none-win_amd64.whl
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/ea/84/d5bed72f0c6d43272d54222a01a771b235d8058e218eda63421bb0958f39/ufusion-1.1.1.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/2d/9d/54b1f67cb9db71427224c237bbc369b69c20f9637ca6cd4016bdc09ed327/duckdb-0.7.2.dev3710.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.5.16.2.tar.gz tmp/yyxx_game_pkg-2023.5.4.1.tar.gz --markdown 20230517/y/yyxx-game-pkg/2023.5.16.2-2023.5.4.1/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/f4/e3/b8f8232768cfe5f497f756fa1e9ea533ebe42af26b91de79b7c3a18bad8b/scikit-duplo-0.1.4.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [kss]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [kss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kss-4.5.1.tar.gz tmp/kss-4.5.2.tar.gz --markdown 20230517/k/kss/4.5.1-4.5.2/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/80/0e/a1d1bba314261ea74504321942a84062954f2028bab76935fb0395b73c30/ufusion-1.1.2.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [scikit-duplo]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [scikit-duplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-duplo-0.1.3.tar.gz tmp/scikit-duplo-0.1.4.tar.gz --markdown 20230517/s/scikit-duplo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.7.2.dev3666.tar.gz tmp/duckdb-0.7.2.dev3710.tar.gz --markdown 20230517/d/duckdb/0.7.2.dev3666-0.7.2.dev3710/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [aioscpy]: Downloading https://files.pythonhosted.org/packages/8d/7d/64f377f778d1a6fa98a1d3d90a132ad331f79393e0bf0956408c0f93e7d9/aioscpy-0.3.9.tar.gz
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.1.1.tar.gz tmp/ufusion-1.1.2.tar.gz --markdown 20230517/u/ufusion/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-17 05:09:19] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/f0/0a/8399708bdb7a811a1a4f9f2a45d72ba58e666d5294a37e1d9fecb6d6dfe9/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl
+[2023-05-17 05:09:19] INFO root fetch - processPackages [aioscpy]: executing diffoscope
+[2023-05-17 05:09:19] INFO root fetch - processPackages [aioscpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioscpy-0.3.8.tar.gz tmp/aioscpy-0.3.9.tar.gz --markdown 20230517/a/aioscpy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 05:09:20] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-17 05:09:20] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 05:09:20] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-05-17 05:09:20] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.3-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl.zip --markdown 20230517/s/shared-atomic-enterprise/5!2.3.3-5!2.3.4/diff.md --exclude *.pyd
+[2023-05-17 05:09:20] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-17 05:09:21] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 05:09:21] INFO root fetch - main [MainThread]: End processing [kss]: success
+[2023-05-17 05:09:21] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
+[2023-05-17 05:09:21] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-05-17 05:09:22] INFO root fetch - main [MainThread]: End processing [aioscpy]: success
+[2023-05-17 05:09:32] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-05-17 05:11:41] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-05-17 05:11:41] INFO root fetch - main [MainThread]: Store serial: [18133078]
