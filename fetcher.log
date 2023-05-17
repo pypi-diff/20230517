@@ -15616,3 +15616,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:01:42] INFO root fetch - main [MainThread]: End processing [aws-cfn-update]: success
 [2023-05-17 14:01:43] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-05-17 14:01:43] INFO root fetch - main [MainThread]: Store serial: [18138898]
+[2023-05-17 14:06:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138898]
+[2023-05-17 14:06:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pull-dash-components
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PandasProx
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latestinfoearthquakeindonesia
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rattail-nationbuilder
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liteindex
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rebasin
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-edi-endpoint-oca
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: materialyoucolor
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tsaugmentation
+[2023-05-17 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-cool
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rattail-nationbuilder]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [pull-dash-components]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [PandasProx]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [materialyoucolor]: New version: [1.2] Old Version: [1.1]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [django-cool]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [odoo14-addon-edi-endpoint-oca]: New version: [14.0.1.4.1.dev2] Old Version: [14.0.1.3.1.dev1]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 14:06:53] INFO root fetch - processPackages [odoo14-addon-edi-endpoint-oca]: Downloading https://files.pythonhosted.org/packages/f6/bc/6100f923dee9354d728fb1e53c50e15986b4829b90d241aa7a339bfad778/odoo14_addon_edi_endpoint_oca-14.0.1.3.1.dev1-py3-none-any.whl
+[2023-05-17 14:06:53] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/64/86/78ca28331191a408e87ecb1d6fd24f53ae97027824ac7d02565608d0804f/liteindex-0.0.1.dev8.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/ab/47/805ab5bd4ae2691ea891d86214653630ca381a9f46becd3b28242484672f/PandasProx-0.1.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [pull-dash-components]: Downloading https://files.pythonhosted.org/packages/b7/52/4871e852c68594f4364280a786e3c75479f83d3e8a286d631c3dcdaaf0fe/pull_dash_components-1.0.0.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: Downloading https://files.pythonhosted.org/packages/e7/33/3b7dca3bace213a657f6fd8f9b09271ed24adae4b209426e7c3160ce300c/latestinfoearthquakeindonesia-0.0.4.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [tsaugmentation]: Downloading https://files.pythonhosted.org/packages/37/8d/e6129f4cbbf71cf29c11ea63c65fb7662101350771a0b4617ab1b8b12ef9/tsaugmentation-0.5.8.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [django-cool]: Downloading https://files.pythonhosted.org/packages/23/86/799c5be157722a71cd77fe62d48f4259b3118104cd752fc73c5746fcb57f/django-cool-1.2.4.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rattail-nationbuilder]: Downloading https://files.pythonhosted.org/packages/57/4b/8de6e3c096df5135584adcfc9c801f23edbaf19f10e728401c7406ff28b6/rattail-nationbuilder-0.1.1.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [materialyoucolor]: Downloading https://files.pythonhosted.org/packages/8d/7b/a6f47b82068718029c4f624834d0b884b18f6bd3d1be3a38d0b8e741e938/materialyoucolor-1.1.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rebasin]: Downloading https://files.pythonhosted.org/packages/ee/ec/472b833c31a87a2dde819c67a6501493f5b2e8fce70142675932e85f181d/rebasin-0.0.8.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [odoo14-addon-edi-endpoint-oca]: Downloading https://files.pythonhosted.org/packages/ad/2e/4f5e2d799220db990f58e71781a764dbaee05e268f7b89b3e9036a3713f6/odoo14_addon_edi_endpoint_oca-14.0.1.4.1.dev2-py3-none-any.whl
+[2023-05-17 14:06:53] INFO root fetch - processPackages [pull-dash-components]: Downloading https://files.pythonhosted.org/packages/5a/19/4fb7bee299a7d07f465d242591d34417cf77d4d27a15cd80ef502af6cd04/pull_dash_components-1.0.1.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rattail-nationbuilder]: Downloading https://files.pythonhosted.org/packages/d8/65/a4c5774fba97450252a12c33ed92ffbf29187a194ccf6972b94167787712/rattail-nationbuilder-0.1.2.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/07/8a/18d41da9e5fe3b5fd11a4870a48b06c79c2910eb02a8b9223d79e921b246/liteindex-0.0.1.dev9.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [django-cool]: Downloading https://files.pythonhosted.org/packages/47/7c/4f4dd6107296731ae0889b5c86a21a929a107be0cb629a87d3895971aa4d/django-cool-1.2.5.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [odoo14-addon-edi-endpoint-oca]: executing diffoscope
+[2023-05-17 14:06:53] INFO root fetch - processPackages [odoo14-addon-edi-endpoint-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_endpoint_oca-14.0.1.3.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_endpoint_oca-14.0.1.4.1.dev2-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-edi-endpoint-oca/14.0.1.3.1.dev1-14.0.1.4.1.dev2/diff.md --exclude *.pyd
+[2023-05-17 14:06:53] INFO root fetch - processPackages [materialyoucolor]: Downloading https://files.pythonhosted.org/packages/10/db/75d15762370678b6ecd8fcfdd2d2f0e942181557b3d8830820fa9aca7bb7/materialyoucolor-1.2.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/ad/89/d881a5145255b2f445113f2f69f4a5cc501c92579c962e42e4963a5fe256/PandasProx-0.1.1.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [pull-dash-components]: executing diffoscope
+[2023-05-17 14:06:53] INFO root fetch - processPackages [pull-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pull_dash_components-1.0.0.tar.gz tmp/pull_dash_components-1.0.1.tar.gz --markdown 20230517/p/pull-dash-components/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 14:06:53] INFO root fetch - processPackages [tsaugmentation]: Downloading https://files.pythonhosted.org/packages/ac/61/b453fc41c7b840b361d3eac528d5ddafd5714fcfba6c253aed1064ba76a0/tsaugmentation-0.5.9.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: Downloading https://files.pythonhosted.org/packages/05/a6/57613e7823a4d08e49c09be76866cb9ac69174d7495ec8544c6067f9a88b/latestinfoearthquakeindonesia-0.0.5.tar.gz
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rattail-nationbuilder]: executing diffoscope
+[2023-05-17 14:06:53] INFO root fetch - processPackages [rattail-nationbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-nationbuilder-0.1.1.tar.gz tmp/rattail-nationbuilder-0.1.2.tar.gz --markdown 20230517/r/rattail-nationbuilder/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 14:06:53] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-17 14:06:53] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230517/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-17 14:06:54] INFO root fetch - processPackages [rebasin]: Downloading https://files.pythonhosted.org/packages/8c/bf/a5f0a0921ec6be3d6dc92653299b0a4d5d6e5d3796c7861c541e8bb874a7/rebasin-0.0.9.tar.gz
+[2023-05-17 14:06:54] INFO root fetch - processPackages [materialyoucolor]: executing diffoscope
+[2023-05-17 14:06:54] INFO root fetch - processPackages [materialyoucolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/materialyoucolor-1.1.tar.gz tmp/materialyoucolor-1.2.tar.gz --markdown 20230517/m/materialyoucolor/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-17 14:06:54] INFO root fetch - processPackages [django-cool]: executing diffoscope
+[2023-05-17 14:06:54] INFO root fetch - processPackages [django-cool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cool-1.2.4.tar.gz tmp/django-cool-1.2.5.tar.gz --markdown 20230517/d/django-cool/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-17 14:06:54] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 14:06:54] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.tar.gz tmp/PandasProx-0.1.1.tar.gz --markdown 20230517/P/PandasProx/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 14:06:54] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-17 14:06:54] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230517/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 14:06:54] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: executing diffoscope
+[2023-05-17 14:06:54] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latestinfoearthquakeindonesia-0.0.4.tar.gz tmp/latestinfoearthquakeindonesia-0.0.5.tar.gz --markdown 20230517/l/latestinfoearthquakeindonesia/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 14:06:54] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-17 14:06:54] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230517/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-17 14:06:55] INFO root fetch - processPackages [rattail-nationbuilder]: Start processing: sequana-demultiplex
+[2023-05-17 14:06:55] INFO root fetch - main [MainThread]: End processing [rattail-nationbuilder]: success
+[2023-05-17 14:06:55] INFO root fetch - processPackages [PandasProx]: Start processing: media-manager
+[2023-05-17 14:06:55] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 14:06:55] INFO root fetch - processPackages [sequana-demultiplex]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-17 14:06:55] INFO root fetch - processPackages [media-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 14:06:55] INFO root fetch - processPackages [odoo14-addon-edi-endpoint-oca]: Start processing: crdb
+[2023-05-17 14:06:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-endpoint-oca]: success
+[2023-05-17 14:06:55] INFO root fetch - processPackages [crdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 14:06:55] INFO root fetch - processPackages [sequana-demultiplex]: Downloading https://files.pythonhosted.org/packages/16/24/c720621249528f323dbebc8e790419f655a3d4220c86352292a2dbd27a7f/sequana_demultiplex-1.2.1.tar.gz
+[2023-05-17 14:06:55] INFO root fetch - processPackages [liteindex]: Start processing: moto-ext
+[2023-05-17 14:06:55] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-17 14:06:55] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-05-17 14:06:55] INFO root fetch - processPackages [materialyoucolor]: Start processing: revChatGPT
+[2023-05-17 14:06:55] INFO root fetch - main [MainThread]: End processing [materialyoucolor]: success
+[2023-05-17 14:06:55] INFO root fetch - processPackages [media-manager]: Downloading https://files.pythonhosted.org/packages/75/11/acc8a436463477db369c803d9007e03acdd0b43a677cd0cbb78b7ea5b3bb/media_manager-0.8.0-py2.py3-none-any.whl
+[2023-05-17 14:06:56] INFO root fetch - processPackages [crdb]: Downloading https://files.pythonhosted.org/packages/71/4e/3ba65249ab0786a0b903aa0bff4fba1fd56a89298263636da4dd34fd8af5/crdb-0.8.0.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [revChatGPT]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-05-17 14:06:56] INFO root fetch - processPackages [rebasin]: Start processing: extr-ds
+[2023-05-17 14:06:56] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-17 14:06:56] INFO root fetch - processPackages [latestinfoearthquakeindonesia]: Start processing: certora-cli-alpha-alexstolr-treeviewpath-hash
+[2023-05-17 14:06:56] INFO root fetch - main [MainThread]: End processing [latestinfoearthquakeindonesia]: success
+[2023-05-17 14:06:56] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 14:06:56] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: New version: [20230517.5.42.52453] Old Version: [20230517.11.22.602940]
+[2023-05-17 14:06:56] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a2/e9/90d0a0ef27fc081d195aa7e083e10db0a80e96eaeb892b1ce2c3b114901b/moto-ext-4.1.8.post1.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Downloading https://files.pythonhosted.org/packages/28/b3/e99a11474dd1cd2014f9ad9c536e75e4efd4eccaa3ef8e850abf4dba07e6/certora-cli-alpha-alexstolr-treeviewpath_hash-20230517.11.22.602940.tar.gz
+[2023-05-17 14:06:56] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Skipping package: exceeds size limit 38975931>=10485760
+[2023-05-17 14:06:56] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Start processing: niceml
+[2023-05-17 14:06:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-treeviewpath-hash] error
+[2023-05-17 14:06:56] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-17 14:06:56] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230517/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 14:06:56] INFO root fetch - processPackages [sequana-demultiplex]: Downloading https://files.pythonhosted.org/packages/60/ba/65a373efccaafbcfe454de9ecbad3f934abbb4c5839bc8cd6d12bbaae4b7/sequana_demultiplex-1.3.0.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [media-manager]: Downloading https://files.pythonhosted.org/packages/9b/a7/1155a373b195bebb88c0274982964c45aecd8d7206b2f4731838007628fd/media_manager-0.9.0-py2.py3-none-any.whl
+[2023-05-17 14:06:56] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/28/d4/4f99dcde0a5c90d411ece4c75a21ce192c305348164321b0e07c1ba15393/revChatGPT-5.0.2.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [sequana-demultiplex]: executing diffoscope
+[2023-05-17 14:06:56] INFO root fetch - processPackages [sequana-demultiplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_demultiplex-1.2.1.tar.gz tmp/sequana_demultiplex-1.3.0.tar.gz --markdown 20230517/s/sequana-demultiplex/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 14:06:56] INFO root fetch - processPackages [crdb]: Downloading https://files.pythonhosted.org/packages/4b/16/72f778a460d94ce891b34c81e3e1dbde996683db64be8c6e1215d1024750/crdb-0.9.0.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [niceml]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-05-17 14:06:56] INFO root fetch - processPackages [media-manager]: executing diffoscope
+[2023-05-17 14:06:56] INFO root fetch - processPackages [media-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_manager-0.8.0-py2.py3-none-any.whl.zip tmp/media_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230517/m/media-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 14:06:56] INFO root fetch - processPackages [crdb]: executing diffoscope
+[2023-05-17 14:06:56] INFO root fetch - processPackages [crdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crdb-0.8.0.tar.gz tmp/crdb-0.9.0.tar.gz --markdown 20230517/c/crdb/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 14:06:56] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/eb/4e/87077f844762a69f343ee7deae6562a86ccf206a8f59719aefb0f28fb96b/revChatGPT-5.0.3.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/89/37/2b4f1a2a40576abc77da8b9e43f06bfd00041ddff2179442e0de97f4024e/niceml-0.1.1.tar.gz
+[2023-05-17 14:06:56] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a1/2c/103d5cb88114dc2ce6ed9a27dfbd66d1d31dca7b4a1fa2496bf3ae5ee96b/moto-ext-4.1.9.post1.tar.gz
+[2023-05-17 14:06:56] WARNING root fetch - processPackages [niceml]: Skipping package: exceeds size limit 25850889>=10485760
+[2023-05-17 14:06:56] INFO root fetch - main [MainThread]: End processing [niceml] error
+[2023-05-17 14:06:56] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-05-17 14:06:56] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230517/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-05-17 14:06:56] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-05-17 14:06:56] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-5.0.2.tar.gz tmp/revChatGPT-5.0.3.tar.gz --markdown 20230517/r/revChatGPT/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-05-17 14:06:57] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-17 14:06:57] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-17 14:06:57] INFO root fetch - main [MainThread]: End processing [pull-dash-components]: success
+[2023-05-17 14:06:57] INFO root fetch - main [MainThread]: End processing [media-manager]: success
+[2023-05-17 14:06:58] INFO root fetch - main [MainThread]: End processing [crdb]: success
+[2023-05-17 14:06:58] INFO root fetch - main [MainThread]: End processing [sequana-demultiplex]: success
+[2023-05-17 14:06:58] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-05-17 14:06:59] INFO root fetch - main [MainThread]: End processing [django-cool]: success
+[2023-05-17 14:09:56] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2023-05-17 14:09:56] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2023-05-17 14:09:56] INFO root fetch - main [MainThread]: Store serial: [18138951]
