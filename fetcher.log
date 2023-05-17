@@ -16532,3 +16532,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:42:01] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-05-17 14:43:11] INFO root fetch - main [MainThread]: End processing [jupytercad]: success
 [2023-05-17 14:43:11] INFO root fetch - main [MainThread]: Store serial: [18139401]
+[2023-05-17 14:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139401]
+[2023-05-17 14:48:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wgd
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnmmeshio
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymovements
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcm-processor
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-general-utils
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamineml
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piicli
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manticore
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datastore-client
+[2023-05-17 14:48:20] INFO root fetch - processPackages [wgd]: New version: [2.0.13] Old Version: [2.0.12]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230517.9.43.923211] Old Version: [20230517.7.53.784228]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ms-general-utils]: New version: [1.3] Old Version: [1.2]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lamineml]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [piicli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lnmmeshio]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230516] Old Version: [0.3.8.dev230515]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [dcm-processor]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ms-general-utils]: executing diffoscope
+[2023-05-17 14:48:20] INFO root fetch - processPackages [ms-general-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_general_utils-1.2.tar.gz tmp/ms_general_utils-1.3.tar.gz --markdown 20230517/m/ms-general-utils/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-17 14:48:20] INFO root fetch - processPackages [pymovements]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [piicli]: executing diffoscope
+[2023-05-17 14:48:20] INFO root fetch - processPackages [piicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piicli-0.0.2.tar.gz tmp/piicli-0.0.3.tar.gz --markdown 20230517/p/piicli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 14:48:20] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/b5/08/18a9fe8cc82163056d9e22f6dd375668361dc472a916ba72d1fa4c9b95df/manticore-0.3.8.dev230515.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [datastore-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/f3/28/1cf73daf457042404af369ab2f3e55bcd126e2e6bc15ed2c07970a6754f0/certora-cli-alpha-uri-eradicate_certora_dir-20230517.7.53.784228.tar.gz
+[2023-05-17 14:48:20] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38976711>=10485760
+[2023-05-17 14:48:20] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: content-tracker
+[2023-05-17 14:48:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/6e/f7/c02f9340fc5b1d39a63a537a409465a5146e646395f503c812ee790bef56/lamineml-0.0.59.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lnmmeshio]: Downloading https://files.pythonhosted.org/packages/a7/47/1410e30d5cd3b70bbc577b91aa3a61a1e5311d51dd4017359767c8b6df9d/lnmmeshio-5.2.2.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/a7/a3/69af66ef770cd4034da68aee3ca28bf48c7bef176ffb2028d9834805c253/wgd-2.0.12.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/e7/78/f3812b17eabc4f17c99102765ad5eab6626ebc4519cac11a2aaa528bed18/manticore-0.3.8.dev230516.tar.gz
+[2023-05-17 14:48:20] WARNING root fetch - processPackages [content-tracker]: Skipping, unable to determine old version
+[2023-05-17 14:48:20] INFO root fetch - processPackages [content-tracker]: Start processing: qtdraw
+[2023-05-17 14:48:20] INFO root fetch - main [MainThread]: End processing [content-tracker] error
+[2023-05-17 14:48:20] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/b3/fb/09c0a34ac306588a32a1830bac5ec090725218aedd2efa680aad917d37f1/dcm-processor-1.0.5.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [pymovements]: Downloading https://files.pythonhosted.org/packages/84/4e/46c2dac99c9ee7b97604c91e8fb36f40b596388dbf3c51e0b1ca06b429f7/pymovements-0.8.0.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-17 14:48:20] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230515.tar.gz tmp/manticore-0.3.8.dev230516.tar.gz --markdown 20230517/m/manticore/0.3.8.dev230515-0.3.8.dev230516/diff.md --exclude *.pyd
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.58.tar.gz tmp/lamineml-0.0.59.tar.gz --markdown 20230517/l/lamineml/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-05-17 14:48:20] INFO root fetch - processPackages [datastore-client]: Downloading https://files.pythonhosted.org/packages/b9/a7/a2c30c471c0ff8f7d45e22c7a7bf2b3603f0c9e86a10c3fee386ad761b4b/datastore_client-0.0.8.tar.gz
+[2023-05-17 14:48:20] INFO root fetch - processPackages [qtdraw]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-17 14:48:20] INFO root fetch - processPackages [lnmmeshio]: Downloading https://files.pythonhosted.org/packages/e9/b7/3e4572ee50ebcde5ba0f850c7be1dd5161c066f38070ece9023faa7b4097/lnmmeshio-5.2.3.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/16/a8/6691d47b9d3775a1786cbf07a7b22968736cb38cb0999b713c351eb19a45/wgd-2.0.13.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [qtdraw]: Downloading https://files.pythonhosted.org/packages/3e/91/72b427addc020514715f72afb8676f493cb8864695769761d7a5ce13a94b/qtdraw-1.1.0.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [wgd]: executing diffoscope
+[2023-05-17 14:48:21] INFO root fetch - processPackages [wgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgd-2.0.12.tar.gz tmp/wgd-2.0.13.tar.gz --markdown 20230517/w/wgd/2.0.12-2.0.13/diff.md --exclude *.pyd
+[2023-05-17 14:48:21] INFO root fetch - processPackages [datastore-client]: Downloading https://files.pythonhosted.org/packages/5c/21/2b0fcdd61018fb986635e64418120613f66c3e20e18e397d47bb5e85b261/datastore_client-0.0.9.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [datastore-client]: executing diffoscope
+[2023-05-17 14:48:21] INFO root fetch - processPackages [datastore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastore_client-0.0.8.tar.gz tmp/datastore_client-0.0.9.tar.gz --markdown 20230517/d/datastore-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 14:48:21] INFO root fetch - processPackages [pymovements]: Downloading https://files.pythonhosted.org/packages/b8/95/8fa925c54e07f7bca4ad8850c566562df2f9d4a670450954f10240911a80/pymovements-0.9.0.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [pymovements]: executing diffoscope
+[2023-05-17 14:48:21] INFO root fetch - processPackages [pymovements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymovements-0.8.0.tar.gz tmp/pymovements-0.9.0.tar.gz --markdown 20230517/p/pymovements/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 14:48:21] INFO root fetch - processPackages [qtdraw]: Downloading https://files.pythonhosted.org/packages/db/8b/8ad3990ae4b9e443e10c0f57d860f7a534bd387f83f5fe4fad53b52b74b8/qtdraw-1.1.1.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [lnmmeshio]: executing diffoscope
+[2023-05-17 14:48:21] INFO root fetch - processPackages [lnmmeshio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnmmeshio-5.2.2.tar.gz tmp/lnmmeshio-5.2.3.tar.gz --markdown 20230517/l/lnmmeshio/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-05-17 14:48:21] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/26/3e/5f19cc006178b0cf02596d55a13863227e1169e64f3f33abdcd0b22f105a/dcm-processor-1.1.0.tar.gz
+[2023-05-17 14:48:21] INFO root fetch - processPackages [qtdraw]: executing diffoscope
+[2023-05-17 14:48:21] INFO root fetch - processPackages [qtdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtdraw-1.1.0.tar.gz tmp/qtdraw-1.1.1.tar.gz --markdown 20230517/q/qtdraw/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-17 14:48:22] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-05-17 14:48:22] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.0.5.tar.gz tmp/dcm-processor-1.1.0.tar.gz --markdown 20230517/d/dcm-processor/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 14:48:22] INFO root fetch - processPackages [piicli]: Start processing: BunkerSync
+[2023-05-17 14:48:22] INFO root fetch - main [MainThread]: End processing [piicli]: success
+[2023-05-17 14:48:22] WARNING root fetch - processPackages [BunkerSync]: Skipping, unable to determine old version
+[2023-05-17 14:48:22] INFO root fetch - processPackages [BunkerSync]: Start processing: kidash
+[2023-05-17 14:48:22] INFO root fetch - main [MainThread]: End processing [BunkerSync] error
+[2023-05-17 14:48:22] INFO root fetch - processPackages [ms-general-utils]: Start processing: drakaina
+[2023-05-17 14:48:22] INFO root fetch - main [MainThread]: End processing [ms-general-utils]: success
+[2023-05-17 14:48:22] INFO root fetch - processPackages [kidash]: New version: [0.5.6rc1] Old Version: [0.5.5]
+[2023-05-17 14:48:22] INFO root fetch - processPackages [drakaina]: New version: [0.7.0a3] Old Version: [0.7.0a2]
+[2023-05-17 14:48:22] INFO root fetch - processPackages [lamineml]: Start processing: valmi-connector-lib
+[2023-05-17 14:48:22] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-17 14:48:22] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:48:22] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2023-05-17 14:48:22] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.7.0a2.tar.gz tmp/drakaina-0.7.0a3.tar.gz --markdown 20230517/d/drakaina/0.7.0a2-0.7.0a3/diff.md --exclude *.pyd
+[2023-05-17 14:48:22] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/df/39/1d6b0194b838acd8e8741094f99691faca5c2b51af2311229f563d82522f/kidash-0.5.5.tar.gz
+[2023-05-17 14:48:22] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-17 14:48:22] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230517/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:48:22] INFO root fetch - processPackages [datastore-client]: Start processing: multipie
+[2023-05-17 14:48:22] INFO root fetch - main [MainThread]: End processing [datastore-client]: success
+[2023-05-17 14:48:22] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/4d/3c/1f8749a5632f646920efab3b2e8a86389dce17a23006469e7413ea358a57/kidash-0.5.6rc1.tar.gz
+[2023-05-17 14:48:22] INFO root fetch - processPackages [multipie]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-17 14:48:22] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-05-17 14:48:22] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.5.tar.gz tmp/kidash-0.5.6rc1.tar.gz --markdown 20230517/k/kidash/0.5.5-0.5.6rc1/diff.md --exclude *.pyd
+[2023-05-17 14:48:23] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/ec/a5/bce15fe4a64d06051efddb5410c3d14aff8e057ac8c41dc7b617dc6cfed9/multipie-1.1.0.tar.gz
+[2023-05-17 14:48:23] INFO root fetch - processPackages [pymovements]: Start processing: pGerrit
+[2023-05-17 14:48:23] INFO root fetch - main [MainThread]: End processing [pymovements]: success
+[2023-05-17 14:48:23] INFO root fetch - processPackages [pGerrit]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-17 14:48:23] INFO root fetch - processPackages [qtdraw]: Start processing: testrail-api-reporter
+[2023-05-17 14:48:23] INFO root fetch - main [MainThread]: End processing [qtdraw]: success
+[2023-05-17 14:48:23] INFO root fetch - processPackages [testrail-api-reporter]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-17 14:48:23] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/09/11/c00ee3821f0b900dd7c617883f35530126b1b83a4bd002ca499d1a32f772/multipie-1.1.1.tar.gz
+[2023-05-17 14:48:23] INFO root fetch - processPackages [pGerrit]: Downloading https://files.pythonhosted.org/packages/4f/d5/15537f4d1b339b9e187b1712affe6e0031a92a22325202e2537d611a35c5/pGerrit-0.1.4.tar.gz
+[2023-05-17 14:48:23] INFO root fetch - processPackages [testrail-api-reporter]: Downloading https://files.pythonhosted.org/packages/0e/61/265589991bb01cb2e76391b0ad58d69c633e4bf78e1a281e12f717d6c639/testrail_api_reporter-1.2.8.tar.gz
+[2023-05-17 14:48:23] INFO root fetch - processPackages [pGerrit]: Downloading https://files.pythonhosted.org/packages/8b/03/e7ce2a4056759ca72a0e1a2c41f4c899cffcf07cc146cb2c9c1f880cc526/pGerrit-0.1.5.tar.gz
+[2023-05-17 14:48:23] INFO root fetch - processPackages [pGerrit]: executing diffoscope
+[2023-05-17 14:48:23] INFO root fetch - processPackages [pGerrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pGerrit-0.1.4.tar.gz tmp/pGerrit-0.1.5.tar.gz --markdown 20230517/p/pGerrit/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-17 14:48:23] INFO root fetch - processPackages [testrail-api-reporter]: Downloading https://files.pythonhosted.org/packages/2f/71/ef1340db7326d6c0f17d046c4926b397e83fc53fd56566fa6d8a2bb9d3b5/testrail_api_reporter-1.2.9.tar.gz
+[2023-05-17 14:48:23] INFO root fetch - processPackages [testrail-api-reporter]: executing diffoscope
+[2023-05-17 14:48:23] INFO root fetch - processPackages [testrail-api-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testrail_api_reporter-1.2.8.tar.gz tmp/testrail_api_reporter-1.2.9.tar.gz --markdown 20230517/t/testrail-api-reporter/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 14:48:24] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-05-17 14:48:24] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.0.tar.gz tmp/multipie-1.1.1.tar.gz --markdown 20230517/m/multipie/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-17 14:48:24] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-05-17 14:48:24] INFO root fetch - main [MainThread]: End processing [wgd]: success
+[2023-05-17 14:48:24] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-05-17 14:48:24] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-17 14:48:24] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2023-05-17 14:48:25] INFO root fetch - main [MainThread]: End processing [lnmmeshio]: success
+[2023-05-17 14:48:25] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-17 14:48:25] INFO root fetch - main [MainThread]: End processing [pGerrit]: success
+[2023-05-17 14:48:27] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-05-17 14:49:05] INFO root fetch - main [MainThread]: End processing [testrail-api-reporter]: success
+[2023-05-17 14:49:05] INFO root fetch - main [MainThread]: Store serial: [18139458]
