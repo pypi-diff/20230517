@@ -17107,3 +17107,155 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 15:05:40] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-17 15:06:18] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-17 15:06:18] INFO root fetch - main [MainThread]: Store serial: [18139692]
+[2023-05-17 15:11:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139692]
+[2023-05-17 15:11:28] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BunkerSync
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graal
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cliptry1
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valmi-connector-lib
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sealights-python-agent
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramqp
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gettestmail
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-17 15:11:28] INFO root fetch - processPackages [BunkerSync]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [gettestmail]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.8]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ramqp]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [cliptry1]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [sealights-python-agent]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [sealights-python-agent]: Downloading https://files.pythonhosted.org/packages/56/3d/aa359e754976029bf7b255ac432a632ffc0e76e57543838545a194f2fc29/sealights-python-agent-1.0.5.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [gettestmail]: Downloading https://files.pythonhosted.org/packages/85/4a/e0fc20b8e6dec7c78c5e1c5075ea41ce5208a3aea5af099da638d07242b3/gettestmail-1.0.0.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/58/84/ce402bf2872ac68a0cbf4209ba3257dfb8c6d1882487607561e1114453f6/ramqp-8.3.0.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/bd/d5/1e9155af62bc2936bb3fc6087a4c948f66e00dc7c10854a1e2e340b6b0ac/graal-0.4.8.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [BunkerSync]: Downloading https://files.pythonhosted.org/packages/5d/94/32939aa9762e0a18afb5b5cc8ce1fb3130042a82be2a8c1d1f0edf66512c/BunkerSync-0.0.10.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/dd/d3/14377b7cefbfd966fe53dd6f7179e697dc7fd85f8cfc11c0b2e80741ac48/PatryksAutoAI-1.0.2.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/25/67/0cb46de41e52c06d558e9f3f9ea09617814dfbebd2634de2bfe431fbb35d/nonebot-plugin-osubot-1.7.3.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-05-17 15:11:28] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29657006>=10485760
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: nbdev-numpy
+[2023-05-17 15:11:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-05-17 15:11:28] INFO root fetch - processPackages [sealights-python-agent]: Downloading https://files.pythonhosted.org/packages/e5/97/3f4652a992eb121b54121efc595a426a19f12dff79384c63067fe7ffbd7a/sealights-python-agent-1.0.6.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-17 15:11:28] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/4b/a1/c11c113899cdf56badd91420d9f307bc8374f19dc0539f680c971e6a47ac/cliptry1-0.0.4.tar.gz
+[2023-05-17 15:11:28] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230517/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230517/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/e2/80/3ee80b58f496d1be21107a0e1db02e4a9fe46991b37293fade3015097469/ramqp-8.3.1.tar.gz
+[2023-05-17 15:11:29] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-05-17 15:11:29] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.0.1.tar.gz tmp/PatryksAutoAI-1.0.2.tar.gz --markdown 20230517/P/PatryksAutoAI/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [gettestmail]: Downloading https://files.pythonhosted.org/packages/10/e3/f717d3ca8b31ad0cc5b46be7cd59569e1a34645d1cc5195e1ebde70743bd/gettestmail-1.0.1.tar.gz
+[2023-05-17 15:11:29] INFO root fetch - processPackages [BunkerSync]: Downloading https://files.pythonhosted.org/packages/a6/2d/f341452bc18395f265a26edc4240e510825fd9ea259585e3489ab2cfc5bf/BunkerSync-0.0.11.tar.gz
+[2023-05-17 15:11:29] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-05-17 15:11:29] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.0.3.tar.gz tmp/cliptry1-0.0.4.tar.gz --markdown 20230517/c/cliptry1/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [BunkerSync]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [BunkerSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BunkerSync-0.0.10.tar.gz tmp/BunkerSync-0.0.11.tar.gz --markdown 20230517/B/BunkerSync/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [sealights-python-agent]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [sealights-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sealights-python-agent-1.0.5.tar.gz tmp/sealights-python-agent-1.0.6.tar.gz --markdown 20230517/s/sealights-python-agent/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [ramqp]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [ramqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramqp-8.3.0.tar.gz tmp/ramqp-8.3.1.tar.gz --markdown 20230517/r/ramqp/8.3.0-8.3.1/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.8.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230517/g/graal/0.4.8-0.4.9rc1/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [gettestmail]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [gettestmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gettestmail-1.0.0.tar.gz tmp/gettestmail-1.0.1.tar.gz --markdown 20230517/g/gettestmail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 15:11:29] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-05-17 15:11:29] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-17 15:11:29] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230517/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:11:30] INFO root fetch - processPackages [cliptry1]: Start processing: Py-FS
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-17 15:11:30] INFO root fetch - processPackages [Py-FS]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-17 15:11:30] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: doter
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-17 15:11:30] INFO root fetch - processPackages [doter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 15:11:30] INFO root fetch - processPackages [Py-FS]: Downloading https://files.pythonhosted.org/packages/12/74/235a922e90d5fdcd7625bd4af97e87bc86cb9a7204265af7848362af7fb9/Py_FS-0.2.0.tar.gz
+[2023-05-17 15:11:30] INFO root fetch - processPackages [BunkerSync]: Start processing: gdata-vaas
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [BunkerSync]: success
+[2023-05-17 15:11:30] INFO root fetch - processPackages [gettestmail]: Start processing: sysmon-utils
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [gettestmail]: success
+[2023-05-17 15:11:30] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: nbdev-pandas
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 15:11:30] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:11:30] INFO root fetch - processPackages [gdata-vaas]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-05-17 15:11:30] WARNING root fetch - processPackages [Py-FS]: Skipping package: exceeds size limit 10747540>=10485760
+[2023-05-17 15:11:30] INFO root fetch - processPackages [Py-FS]: Start processing: BunkerSync
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [Py-FS] error
+[2023-05-17 15:11:30] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-05-17 15:11:30] INFO root fetch - processPackages [doter]: Downloading https://files.pythonhosted.org/packages/a4/24/8005b2a3c526918a517aee261dd08d45cf0e02f9a374a0d8c43395af94d8/doter-1.0.1.tar.gz
+[2023-05-17 15:11:30] INFO root fetch - processPackages [BunkerSync]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-05-17 15:11:30] WARNING root fetch - processPackages [sysmon-utils]: Skipping, unable to determine old version
+[2023-05-17 15:11:30] INFO root fetch - processPackages [sysmon-utils]: Start processing: alchemy-graph
+[2023-05-17 15:11:30] INFO root fetch - main [MainThread]: End processing [sysmon-utils] error
+[2023-05-17 15:11:31] INFO root fetch - processPackages [ramqp]: Start processing: pyTigerGraph
+[2023-05-17 15:11:31] INFO root fetch - main [MainThread]: End processing [ramqp]: success
+[2023-05-17 15:11:31] INFO root fetch - processPackages [nbdev-numpy]: Start processing: hhcm-forest
+[2023-05-17 15:11:31] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-17 15:11:31] WARNING root fetch - processPackages [alchemy-graph]: Skipping, unable to determine old version
+[2023-05-17 15:11:31] INFO root fetch - processPackages [alchemy-graph]: Start processing: doblib-legacy
+[2023-05-17 15:11:31] INFO root fetch - main [MainThread]: End processing [alchemy-graph] error
+[2023-05-17 15:11:31] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/5a/02/74ca46fcd14dbb9fbc92b13abaa4076ce646b8da3e9cc981be3a924e9dae/gdata-vaas-3.0.0.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [BunkerSync]: Downloading https://files.pythonhosted.org/packages/b2/05/38c7e730795db37a21c7d2a4e4dfdf6c9e57b682cfce17a09b1679cc6684/BunkerSync-0.0.12.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [pyTigerGraph]: New version: [1.4] Old Version: [1.3.4]
+[2023-05-17 15:11:31] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [hhcm-forest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-17 15:11:31] WARNING root fetch - processPackages [doblib-legacy]: Skipping, unable to determine old version
+[2023-05-17 15:11:31] INFO root fetch - processPackages [doblib-legacy]: Start processing: cliptry1
+[2023-05-17 15:11:31] INFO root fetch - main [MainThread]: End processing [doblib-legacy] error
+[2023-05-17 15:11:31] INFO root fetch - processPackages [cliptry1]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 15:11:31] INFO root fetch - processPackages [doter]: Downloading https://files.pythonhosted.org/packages/6d/f6/d914986fab52f41e336a78c5c0df02768b4a409ca2091d6fad35d04a028b/doter-1.0.2.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [BunkerSync]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [BunkerSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BunkerSync-0.0.11.tar.gz tmp/BunkerSync-0.0.12.tar.gz --markdown 20230517/B/BunkerSync/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-05-17 15:11:31] INFO root fetch - processPackages [pyTigerGraph]: Downloading https://files.pythonhosted.org/packages/64/9f/0e79bd9858be7928dfcb4c1e41d4bd61a23bbb3c8a274fb0c9e28aa3c902/pyTigerGraph-1.3.4.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230517/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:11:31] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/1a/b9/9dd0dcf137d50dcbdadfe512e24f3b64783fc563ca598434d18d5eb87089/hhcm_forest-1.1.8.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/41/a1/eb96d4931e9d1f1ef0077095b13b026e6e7cfd518a17eaa8d6414cde049b/gdata-vaas-3.1.0.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/f2/64/3a967fd05c75314cc47bb403260954ca6765a70eee554416bf98d622fa68/cliptry1-0.0.5.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [doter]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [doter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doter-1.0.1.tar.gz tmp/doter-1.0.2.tar.gz --markdown 20230517/d/doter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 15:11:31] INFO root fetch - processPackages [gdata-vaas]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [gdata-vaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdata-vaas-3.0.0.tar.gz tmp/gdata-vaas-3.1.0.tar.gz --markdown 20230517/g/gdata-vaas/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-17 15:11:31] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.0.4.tar.gz tmp/cliptry1-0.0.5.tar.gz --markdown 20230517/c/cliptry1/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 15:11:31] INFO root fetch - processPackages [pyTigerGraph]: Downloading https://files.pythonhosted.org/packages/94/f4/c3e3d32bcea25306e19d2ad1748e2145cd133540ca26e51bafcf0d4c2c9a/pyTigerGraph-1.4.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/dc/55/1095ec9d5bcd490b4a577f577d8648f4b5f30b10327bc04a08ef258a35fb/hhcm_forest-1.1.9.tar.gz
+[2023-05-17 15:11:31] INFO root fetch - processPackages [pyTigerGraph]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [pyTigerGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTigerGraph-1.3.4.tar.gz tmp/pyTigerGraph-1.4.tar.gz --markdown 20230517/p/pyTigerGraph/1.3.4-1.4/diff.md --exclude *.pyd
+[2023-05-17 15:11:31] INFO root fetch - processPackages [hhcm-forest]: executing diffoscope
+[2023-05-17 15:11:31] INFO root fetch - processPackages [hhcm-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhcm_forest-1.1.8.tar.gz tmp/hhcm_forest-1.1.9.tar.gz --markdown 20230517/h/hhcm-forest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-17 15:11:32] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: nbdev-pytorch
+[2023-05-17 15:11:32] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-17 15:11:32] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:11:32] INFO root fetch - processPackages [sealights-python-agent]: Start processing: mammopy
+[2023-05-17 15:11:32] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
+[2023-05-17 15:11:32] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-05-17 15:11:32] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 15:11:32] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-05-17 15:11:32] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230517/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 15:11:32] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-05-17 15:11:32] INFO root fetch - processPackages [BunkerSync]: Start processing: onnx2kerastl
+[2023-05-17 15:11:32] INFO root fetch - main [MainThread]: End processing [BunkerSync]: success
+[2023-05-17 15:11:32] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.90] Old Version: [0.0.89]
+[2023-05-17 15:11:32] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-17 15:11:32] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230517/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:11:32] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-17 15:11:32] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.89.tar.gz tmp/onnx2kerastl-0.0.90.tar.gz --markdown 20230517/o/onnx2kerastl/0.0.89-0.0.90/diff.md --exclude *.pyd
+[2023-05-17 15:11:32] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-17 15:11:33] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-05-17 15:11:33] INFO root fetch - main [MainThread]: End processing [doter]: success
+[2023-05-17 15:11:33] INFO root fetch - main [MainThread]: End processing [hhcm-forest]: success
+[2023-05-17 15:11:33] INFO root fetch - main [MainThread]: End processing [gdata-vaas]: success
+[2023-05-17 15:11:33] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-17 15:11:33] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-17 15:11:34] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-17 15:11:35] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-05-17 15:11:35] INFO root fetch - main [MainThread]: End processing [pyTigerGraph]: success
+[2023-05-17 15:11:35] INFO root fetch - main [MainThread]: Store serial: [18139796]
