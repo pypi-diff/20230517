@@ -12971,3 +12971,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:05:59] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
 [2023-05-17 12:06:02] INFO root fetch - main [MainThread]: End processing [message-ix]: success
 [2023-05-17 12:06:02] INFO root fetch - main [MainThread]: Store serial: [18137528]
+[2023-05-17 12:11:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137528]
+[2023-05-17 12:11:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypcapkit
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: file-managers
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stackdiac
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wander
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thrivve-core
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyBerries
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tc-pdf
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-web-pivot-computed-measure
+[2023-05-17 12:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text2story
+[2023-05-17 12:11:11] INFO root fetch - processPackages [file-managers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 12:11:11] INFO root fetch - processPackages [thrivve-core]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-17 12:11:11] INFO root fetch - processPackages [text2story]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-17 12:11:11] INFO root fetch - processPackages [stackdiac]: New version: [0.0.1.dev24] Old Version: [0.0.1.dev23]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/1c/cf/2a4834fcfa76b00f8cebab45a0ffdc1ca2c820fc6f76eb12ea273b4e3834/text2story-1.2.2.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/eb/4a/1bc1f8e3df7a088849b55a64f206bf00d20c6fc502074bb55051db64fc6d/thrivve_core-0.2.4.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/26/59/63ce11bc3ec9196d12d06b9f0352824c8598610a8c3385135edc11661b5f/projen-0.71.8.tar.gz
+[2023-05-17 12:11:12] WARNING root fetch - processPackages [wander]: Skipping, unable to determine old version
+[2023-05-17 12:11:12] INFO root fetch - processPackages [wander]: Start processing: certora-cli-alpha-master
+[2023-05-17 12:11:12] INFO root fetch - main [MainThread]: End processing [wander] error
+[2023-05-17 12:11:12] INFO root fetch - processPackages [file-managers]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [file-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-managers-0.8.0.tar.gz tmp/file-managers-0.9.0.tar.gz --markdown 20230517/f/file-managers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [tc-pdf]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [PyBerries]: New version: [0.2.9] Old Version: [0.2.8.post1]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230517.0.20.571400] Old Version: [20230516.17.39.247982]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/58/12/3a34e5da49b7a25b0f4a0142f5cb332e50a3a42bd34f6e70328cdf16e593/certora-cli-alpha-master-20230516.17.39.247982.tar.gz
+[2023-05-17 12:11:12] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38976510>=10485760
+[2023-05-17 12:11:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: widefield-analysis
+[2023-05-17 12:11:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-17 12:11:12] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/ca/cc/ef1d98b55600f75cd7d90c9402addbeeee4a68367bdcbb0ab3cee28c8eb4/stackdiac-0.0.1.dev23.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/eb/fe/c214e767667043e64cb11f57f2365af3b969cf17ca277be9f91655757f15/text2story-1.2.3.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [tc-pdf]: Downloading https://files.pythonhosted.org/packages/f0/06/7f9607866b2eba5183f1f583774fbd25559e998d864807c3bdc83dc5e79a/tc_pdf-0.0.7.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: Downloading https://files.pythonhosted.org/packages/3d/86/fff57e5c9990cc794b448f25963350159a7d999031d6b4536dc2c7c3dad9/odoo_addon_web_pivot_computed_measure-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-17 12:11:12] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/54/9d/99f6743b6883b7f4d186d794c8f9b3119904f83c4430e88bfb1652600759/pypcapkit-1.0.1.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [widefield-analysis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 12:11:12] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/7b/42/36a23876fea93c9f0bb78f812b22b2d9e5fc8fffe909deb91ba7aff94151/thrivve_core-0.2.5.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/04/5f/ca15e3bd2482179b4f609455594a73dd9a4a01fde7e04168feff2f370d3f/PyBerries-0.2.8.post1.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.2.tar.gz tmp/text2story-1.2.3.tar.gz --markdown 20230517/t/text2story/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.2.4.tar.gz tmp/thrivve_core-0.2.5.tar.gz --markdown 20230517/t/thrivve-core/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/a3/89/7ddc88830e8a7c4128f64c0392d8206ab9f13766f9b9e09032dc1437a5e9/stackdiac-0.0.1.dev24.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [widefield-analysis]: Downloading https://files.pythonhosted.org/packages/af/d2/0d5ada2177c4731f5ee2fdf8229697555f435be31edc492d92756538c053/widefield_analysis-0.1.1.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/2c/8a/09fa4cbe93bafbb4aaaadc96bc6edc243d00a0e5123ac8f5c0b24d1495d0/PyBerries-0.2.9.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [tc-pdf]: Downloading https://files.pythonhosted.org/packages/31/23/7ca3317f6bf78253603006f1eca7134d99f9e520f68cbc03b8c78844bde7/tc_pdf-1.0.0.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [stackdiac]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [stackdiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackdiac-0.0.1.dev23.tar.gz tmp/stackdiac-0.0.1.dev24.tar.gz --markdown 20230517/s/stackdiac/0.0.1.dev23-0.0.1.dev24/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/6f/43/5dfbf7011fc719bd59121c04930f93029a168e19d33cb6a56204e0533761/pypcapkit-1.0.1.post1.tar.gz
+[2023-05-17 12:11:12] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: Downloading https://files.pythonhosted.org/packages/74/b7/b9d2d8ac56e23451ba1d12ffdb578e10277295083326cd29d507d90917ca/odoo_addon_web_pivot_computed_measure-15.0.1.0.1-py3-none-any.whl
+[2023-05-17 12:11:12] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.8.post1.tar.gz tmp/PyBerries-0.2.9.tar.gz --markdown 20230517/P/PyBerries/0.2.8.post1-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_pivot_computed_measure-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_pivot_computed_measure-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-web-pivot-computed-measure/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.1.tar.gz tmp/pypcapkit-1.0.1.post1.tar.gz --markdown 20230517/p/pypcapkit/1.0.1-1.0.1.post1/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [tc-pdf]: executing diffoscope
+[2023-05-17 12:11:12] INFO root fetch - processPackages [tc-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc_pdf-0.0.7.tar.gz tmp/tc_pdf-1.0.0.tar.gz --markdown 20230517/t/tc-pdf/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 12:11:12] INFO root fetch - processPackages [widefield-analysis]: Downloading https://files.pythonhosted.org/packages/ca/75/c48b188100f2e8026ce1d049fdb4084f408170873d8e5db03cc802f571c1/widefield_analysis-0.1.2.tar.gz
+[2023-05-17 12:11:13] INFO root fetch - processPackages [widefield-analysis]: executing diffoscope
+[2023-05-17 12:11:13] INFO root fetch - processPackages [widefield-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widefield_analysis-0.1.1.tar.gz tmp/widefield_analysis-0.1.2.tar.gz --markdown 20230517/w/widefield-analysis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 12:11:13] INFO root fetch - processPackages [file-managers]: Start processing: dockx-checker
+[2023-05-17 12:11:13] INFO root fetch - main [MainThread]: End processing [file-managers]: success
+[2023-05-17 12:11:13] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/ce/49/8d0875fd46d32b42ce93e5014d26cffc8a31bf69b96a163c695d1d9c84d7/projen-0.71.9.tar.gz
+[2023-05-17 12:11:13] WARNING root fetch - processPackages [dockx-checker]: Skipping, unable to determine old version
+[2023-05-17 12:11:13] INFO root fetch - processPackages [dockx-checker]: Start processing: prettyqt
+[2023-05-17 12:11:13] INFO root fetch - main [MainThread]: End processing [dockx-checker] error
+[2023-05-17 12:11:13] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-17 12:11:13] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-17 12:11:13] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-05-17 12:11:14] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-17 12:11:14] INFO root fetch - main [MainThread]: End processing [widefield-analysis]: success
+[2023-05-17 12:11:14] INFO root fetch - main [MainThread]: End processing [tc-pdf]: success
+[2023-05-17 12:11:14] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-05-17 12:11:14] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-05-17 12:11:14] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230517/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-17 12:11:14] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-17 12:11:14] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230517/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-17 12:11:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-pivot-computed-measure]: success
+[2023-05-17 12:11:15] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-17 12:11:16] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-17 12:11:17] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-05-17 12:11:21] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-05-17 12:11:23] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
+[2023-05-17 12:11:23] INFO root fetch - main [MainThread]: Store serial: [18137571]
