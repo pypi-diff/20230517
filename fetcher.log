@@ -2149,3 +2149,77 @@
 [2023-05-17 02:46:00] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 02:46:05] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-17 02:46:05] INFO root fetch - main [MainThread]: Store serial: [18131191]
+[2023-05-17 02:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131191]
+[2023-05-17 02:51:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: health-calc-pack-py
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satori-ci
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyt-gpt
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oganesson
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mixture-of-attention
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TriModelSystem
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projen
+[2023-05-17 02:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-slack-chatbot
+[2023-05-17 02:51:14] WARNING root fetch - processPackages [health-calc-pack-py]: Skipping, unable to determine old version
+[2023-05-17 02:51:14] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [health-calc-pack-py]: Start processing: nitric
+[2023-05-17 02:51:14] INFO root fetch - main [MainThread]: End processing [health-calc-pack-py] error
+[2023-05-17 02:51:14] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [TriModelSystem]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [oganesson]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-17 02:51:14] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-17 02:51:14] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-17 02:51:14] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230517/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 02:51:14] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-17 02:51:14] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230517/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 02:51:14] INFO root fetch - processPackages [TriModelSystem]: Downloading https://files.pythonhosted.org/packages/77/ee/383dc019b9dc349b4f36bec456ddb7d857cf0ccf041d50cfee27b644e706/TriModelSystem-0.0.1.tar.gz
+[2023-05-17 02:51:14] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-17 02:51:14] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-17 02:51:14] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230517/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-17 02:51:14] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-05-17 02:51:14] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230517/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 02:51:14] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230517/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 02:51:14] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/07/f0/595fbac9f206ec8f9649c834789bcf28dcdcb8f8807d4362c3ceea12e922/nitric-0.9.2.dev3.tar.gz
+[2023-05-17 02:51:14] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/b2/34/205a2f9d802baf298dbd5b153463d2e23b6d3799e0f3bca10b8bfca1e315/oganesson-0.1.3.tar.gz
+[2023-05-17 02:51:15] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-05-17 02:51:15] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.2.tar.gz tmp/oganesson-0.1.3.tar.gz --markdown 20230517/o/oganesson/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 02:51:15] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-05-17 02:51:15] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230517/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-17 02:51:15] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/81/ed/c83b8e908616ce5f569a349cac17e6f68a635038057e0e6a74828dab1bdf/nitric-0.9.2.dev4.tar.gz
+[2023-05-17 02:51:15] INFO root fetch - processPackages [TriModelSystem]: Downloading https://files.pythonhosted.org/packages/3e/99/ce65af48531ad6267d2fb6f70ab17f6c1b8a21d911e4398ec5b12f706a6f/TriModelSystem-0.0.2.tar.gz
+[2023-05-17 02:51:15] INFO root fetch - processPackages [TriModelSystem]: executing diffoscope
+[2023-05-17 02:51:15] INFO root fetch - processPackages [TriModelSystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TriModelSystem-0.0.1.tar.gz tmp/TriModelSystem-0.0.2.tar.gz --markdown 20230517/T/TriModelSystem/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 02:51:15] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-05-17 02:51:15] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230517/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-05-17 02:51:15] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-17 02:51:15] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: covalent-gcpbatch-plugin
+[2023-05-17 02:51:15] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-17 02:51:15] WARNING root fetch - processPackages [covalent-gcpbatch-plugin]: Skipping, unable to determine old version
+[2023-05-17 02:51:15] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: Start processing: hyt-gpt
+[2023-05-17 02:51:15] INFO root fetch - main [MainThread]: End processing [covalent-gcpbatch-plugin] error
+[2023-05-17 02:51:15] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 02:51:15] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-17 02:51:15] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230517/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 02:51:16] INFO root fetch - processPackages [mixture-of-attention]: Start processing: airbyte
+[2023-05-17 02:51:16] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-17 02:51:16] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-17 02:51:16] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-17 02:51:16] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-05-17 02:51:16] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230517/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-17 02:51:16] INFO root fetch - main [MainThread]: End processing [TriModelSystem]: success
+[2023-05-17 02:51:16] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-05-17 02:51:16] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-17 02:51:16] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-05-17 02:51:17] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-05-17 02:51:17] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-17 02:51:18] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-17 02:51:18] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-05-17 02:51:19] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-05-17 02:51:19] INFO root fetch - main [MainThread]: Store serial: [18131238]
