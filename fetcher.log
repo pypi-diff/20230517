@@ -10903,3 +10903,119 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 10:18:28] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-17 10:18:29] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
 [2023-05-17 10:18:29] INFO root fetch - main [MainThread]: Store serial: [18136162]
+[2023-05-17 10:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136162]
+[2023-05-17 10:23:38] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yubihsm
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spdx-tools
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agri-sense
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amsterdam-schema-tools
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeepParticleSD
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cymple
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-subtitler
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panml
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ign-gpao-client
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osnap-client
+[2023-05-17 10:23:38] WARNING root fetch - processPackages [DeepParticleSD]: Skipping, unable to determine old version
+[2023-05-17 10:23:38] INFO root fetch - processPackages [DeepParticleSD]: Start processing: weatheril
+[2023-05-17 10:23:38] INFO root fetch - main [MainThread]: End processing [DeepParticleSD] error
+[2023-05-17 10:23:38] INFO root fetch - processPackages [cymple]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [agri-sense]: New version: [1.4] Old Version: [1.3]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [cymple]: Downloading https://files.pythonhosted.org/packages/76/24/94269c7da6f54dbfd80da30f530a6c1ecafc048f74e84e44096048117620/cymple-0.7.1.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [yubihsm]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-17 10:23:38] WARNING root fetch - processPackages [ai-subtitler]: Skipping, unable to determine old version
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ai-subtitler]: Start processing: Busanstore
+[2023-05-17 10:23:38] INFO root fetch - main [MainThread]: End processing [ai-subtitler] error
+[2023-05-17 10:23:38] INFO root fetch - processPackages [spdx-tools]: New version: [0.8.0a2] Old Version: [0.8.0a1]
+[2023-05-17 10:23:38] WARNING root fetch - processPackages [panml]: Skipping, unable to determine old version
+[2023-05-17 10:23:38] INFO root fetch - processPackages [panml]: Start processing: file-managers
+[2023-05-17 10:23:38] INFO root fetch - main [MainThread]: End processing [panml] error
+[2023-05-17 10:23:38] INFO root fetch - processPackages [osnap-client]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ign-gpao-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [Busanstore]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [weatheril]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [file-managers]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [cymple]: Downloading https://files.pythonhosted.org/packages/c9/ff/b92681b29ee907d1120b2955816cf83f0e76705142528d3625476433a9d4/cymple-0.8.0.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/57/f8/21c63e31b0e0890e70ae1a87e89a631ab33ed75d888a54f045a801535ea1/agri_sense-1.4.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [yubihsm]: Downloading https://files.pythonhosted.org/packages/ce/15/eb47193fc3e841ead193baa96f00ad067c8a84af41629fea867dae39cd46/yubihsm-2.1.2.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [Busanstore]: Downloading https://files.pythonhosted.org/packages/05/fc/dc791fcc9359ee9e1f81528db40c9e68cd08959d99fc581ad771b54a4afb/Busanstore-0.0.3-py3-none-any.whl
+[2023-05-17 10:23:38] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 10:23:38] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.3.tar.gz tmp/agri_sense-1.4.tar.gz --markdown 20230517/a/agri-sense/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-17 10:23:38] INFO root fetch - processPackages [cymple]: executing diffoscope
+[2023-05-17 10:23:38] INFO root fetch - processPackages [cymple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cymple-0.7.1.tar.gz tmp/cymple-0.8.0.tar.gz --markdown 20230517/c/cymple/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 10:23:38] WARNING root fetch - processPackages [Busanstore]: Skipping package: exceeds size limit 19774141>=10485760
+[2023-05-17 10:23:38] INFO root fetch - processPackages [Busanstore]: Start processing: sharingiscaring
+[2023-05-17 10:23:38] INFO root fetch - main [MainThread]: End processing [Busanstore] error
+[2023-05-17 10:23:38] INFO root fetch - processPackages [osnap-client]: Downloading https://files.pythonhosted.org/packages/1e/09/e88f031334a8ef67d2e7ee4b87e32a178c5fa6ba7335338b683434bc37e6/osnap_client-0.1.1a1.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [weatheril]: Downloading https://files.pythonhosted.org/packages/35/90/600e8f97f69b3553e9ab61b52e87a4a06f29d0a232ff55930d181e040806/weatheril-0.8.0.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/88/f1/4ecfab2a950e9e3d892927048ee9ebd5db7c55178f4ffa94ede21cc9c667/spdx-tools-0.8.0a1.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/19/58/da8ddd14bb8b2e0efed18be809457239829a9d383bffd429e15ee586341d/ign-gpao-client-0.8.0.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [file-managers]: Downloading https://files.pythonhosted.org/packages/f0/df/b9cd3901592fb347e6be89d59fe48aeb71ecc83ecc21655ff7606cbb82e4/file-managers-0.8.0.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 10:23:38] INFO root fetch - processPackages [file-managers]: executing diffoscope
+[2023-05-17 10:23:38] INFO root fetch - processPackages [file-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-managers-0.7.0.tar.gz tmp/file-managers-0.8.0.tar.gz --markdown 20230517/f/file-managers/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 10:23:38] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [osnap-client]: Downloading https://files.pythonhosted.org/packages/7e/16/ad466a805ddf5261d4256a0d29a186fbafd0e70617c36c82915d572063bc/osnap_client-0.1.1a2.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [yubihsm]: Downloading https://files.pythonhosted.org/packages/ef/32/c24b9f73de6dbf386320230cc139669c17309013556120a7411fafa80fbd/yubihsm-2.1.3.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [osnap-client]: executing diffoscope
+[2023-05-17 10:23:38] INFO root fetch - processPackages [osnap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osnap_client-0.1.1a1.tar.gz tmp/osnap_client-0.1.1a2.tar.gz --markdown 20230517/o/osnap-client/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-17 10:23:38] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [weatheril]: Downloading https://files.pythonhosted.org/packages/28/c7/06fc7a9adffbedf7904b79d709b4b9cdee9fde760309afafcbdf4aa2323e/weatheril-0.9.0.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [yubihsm]: executing diffoscope
+[2023-05-17 10:23:38] INFO root fetch - processPackages [yubihsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yubihsm-2.1.2.tar.gz tmp/yubihsm-2.1.3.tar.gz --markdown 20230517/y/yubihsm/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-17 10:23:38] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/22/c3/3177362db99c1c07790c2bfc106b62691936267aca8dbcc9776533c6489a/spdx-tools-0.8.0a2.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [ign-gpao-client]: Downloading https://files.pythonhosted.org/packages/c0/f1/95b90e8ebd5ab62512fa3f4007cdca8cc81c685e691c2326fde428d948e2/ign-gpao-client-0.9.0.tar.gz
+[2023-05-17 10:23:38] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-05-17 10:23:38] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230517/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-17 10:23:39] INFO root fetch - processPackages [weatheril]: executing diffoscope
+[2023-05-17 10:23:39] INFO root fetch - processPackages [weatheril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatheril-0.8.0.tar.gz tmp/weatheril-0.9.0.tar.gz --markdown 20230517/w/weatheril/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:23:39] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-17 10:23:39] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230517/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 10:23:39] INFO root fetch - processPackages [spdx-tools]: executing diffoscope
+[2023-05-17 10:23:39] INFO root fetch - processPackages [spdx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx-tools-0.8.0a1.tar.gz tmp/spdx-tools-0.8.0a2.tar.gz --markdown 20230517/s/spdx-tools/0.8.0a1-0.8.0a2/diff.md --exclude *.pyd
+[2023-05-17 10:23:39] INFO root fetch - processPackages [ign-gpao-client]: executing diffoscope
+[2023-05-17 10:23:39] INFO root fetch - processPackages [ign-gpao-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-client-0.8.0.tar.gz tmp/ign-gpao-client-0.9.0.tar.gz --markdown 20230517/i/ign-gpao-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:23:39] INFO root fetch - processPackages [agri-sense]: Start processing: neurons
+[2023-05-17 10:23:39] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 10:23:39] INFO root fetch - processPackages [neurons]: New version: [0.9.1] Old Version: [0.8.4]
+[2023-05-17 10:23:39] INFO root fetch - processPackages [cymple]: Start processing: gpt-review
+[2023-05-17 10:23:39] INFO root fetch - main [MainThread]: End processing [cymple]: success
+[2023-05-17 10:23:39] INFO root fetch - processPackages [file-managers]: Start processing: gpt-review
+[2023-05-17 10:23:39] INFO root fetch - main [MainThread]: End processing [file-managers]: success
+[2023-05-17 10:23:39] INFO root fetch - processPackages [gpt-review]: New version: [0.9.2rc823.post1] Old Version: [0.9.2rc821.post1]
+[2023-05-17 10:23:39] INFO root fetch - processPackages [gpt-review]: New version: [0.9.2rc823.post1] Old Version: [0.9.2rc821.post1]
+[2023-05-17 10:23:40] INFO root fetch - processPackages [neurons]: Downloading https://files.pythonhosted.org/packages/19/d5/218bbe6ba23c7a1d7f6b61f936c6e2a2e4f56bd63235fb0112470cc10c61/neurons-0.8.4.tar.gz
+[2023-05-17 10:23:40] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/ee/44/2afcdb2c79b754f8269ab8e1594c3ce67514f1f99b4c3ce650a138bd06cd/gpt_review-0.9.2rc823.post1.tar.gz
+[2023-05-17 10:23:40] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/ee/44/2afcdb2c79b754f8269ab8e1594c3ce67514f1f99b4c3ce650a138bd06cd/gpt_review-0.9.2rc823.post1.tar.gz
+[2023-05-17 10:23:40] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-17 10:23:40] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.2rc821.post1.tar.gz tmp/gpt_review-0.9.2rc823.post1.tar.gz --markdown 20230517/g/gpt-review/0.9.2rc821.post1-0.9.2rc823.post1/diff.md --exclude *.pyd
+[2023-05-17 10:23:40] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-17 10:23:40] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.2rc821.post1.tar.gz tmp/gpt_review-0.9.2rc823.post1.tar.gz --markdown 20230517/g/gpt-review/0.9.2rc821.post1-0.9.2rc823.post1/diff.md --exclude *.pyd
+[2023-05-17 10:23:40] INFO root fetch - processPackages [weatheril]: Start processing: create-a-cli-tool
+[2023-05-17 10:23:40] INFO root fetch - main [MainThread]: End processing [weatheril]: success
+[2023-05-17 10:23:40] INFO root fetch - processPackages [neurons]: Downloading https://files.pythonhosted.org/packages/0c/08/9c13f74b62340530851498b9a890206f97039c1e7d5814d38caa7da3261c/neurons-0.9.1.tar.gz
+[2023-05-17 10:23:40] INFO root fetch - processPackages [create-a-cli-tool]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-17 10:23:40] INFO root fetch - processPackages [osnap-client]: Start processing: pyansys
+[2023-05-17 10:23:40] INFO root fetch - main [MainThread]: End processing [osnap-client]: success
+[2023-05-17 10:23:40] INFO root fetch - processPackages [neurons]: executing diffoscope
+[2023-05-17 10:23:40] INFO root fetch - processPackages [neurons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurons-0.8.4.tar.gz tmp/neurons-0.9.1.tar.gz --markdown 20230517/n/neurons/0.8.4-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 10:23:40] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-05-17 10:23:40] INFO root fetch - main [MainThread]: End processing [ign-gpao-client]: success
+[2023-05-17 10:23:40] INFO root fetch - processPackages [create-a-cli-tool]: Downloading https://files.pythonhosted.org/packages/aa/dd/f83cca153b7d5b9b153cd519a4a35e0e502e911f55c7160efae67ca2f5a9/create-a-cli-tool-0.5.2.tar.gz
+[2023-05-17 10:23:40] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-05-17 10:23:40] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230517/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-05-17 10:23:41] INFO root fetch - processPackages [create-a-cli-tool]: Downloading https://files.pythonhosted.org/packages/a5/fd/22ffd4d334034a76ab88b5ef7c486ff2c4147858516c4988d7078e0dfc62/create-a-cli-tool-0.5.3.tar.gz
+[2023-05-17 10:23:41] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-05-17 10:23:41] INFO root fetch - main [MainThread]: End processing [yubihsm]: success
+[2023-05-17 10:23:41] INFO root fetch - processPackages [create-a-cli-tool]: executing diffoscope
+[2023-05-17 10:23:41] INFO root fetch - processPackages [create-a-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-a-cli-tool-0.5.2.tar.gz tmp/create-a-cli-tool-0.5.3.tar.gz --markdown 20230517/c/create-a-cli-tool/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-17 10:23:41] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-05-17 10:23:41] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-17 10:23:42] INFO root fetch - main [MainThread]: End processing [neurons]: success
+[2023-05-17 10:23:42] INFO root fetch - main [MainThread]: End processing [create-a-cli-tool]: success
+[2023-05-17 10:23:42] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-17 10:23:44] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-17 10:23:45] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
+[2023-05-17 10:23:45] INFO root fetch - main [MainThread]: Store serial: [18136216]
