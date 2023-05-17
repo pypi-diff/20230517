@@ -4434,3 +4434,61 @@
 [2023-05-17 03:42:56] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-05-17 03:42:57] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-05-17 03:42:57] INFO root fetch - main [MainThread]: Store serial: [18132579]
+[2023-05-17 03:48:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132579]
+[2023-05-17 03:48:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-wget
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive-jupyter-kernel
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqapi
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-audio
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anylearn
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bytez
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: makeprojects
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proofpoint-itm
+[2023-05-17 03:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xmesh
+[2023-05-17 03:48:06] INFO root fetch - processPackages [sqapi]: New version: [0.42] Old Version: [0.41]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proofpoint-itm]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [sqapi]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [sqapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqapi-0.41.tar.gz tmp/sqapi-0.42.tar.gz --markdown 20230517/s/sqapi/0.41-0.42/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [neon-audio]: New version: [1.3.3a1] Old Version: [1.3.2a5]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [xmesh]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.87]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [anylearn]: New version: [0.17.6rc1] Old Version: [0.17.6a1]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [makeprojects]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 03:48:06] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230517/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proofpoint-itm]: Downloading https://files.pythonhosted.org/packages/7e/fc/0f5c40cfd41a5146ceaf59e9ef46a55e7978e74afa6a93abc003c1e31564/proofpoint_itm-0.3.0.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [bytez]: Downloading https://files.pythonhosted.org/packages/1b/9e/363b5206f98812304208a6e25a99f947d61e8504f7f00ea90ef98d987ae2/bytez-0.1.87.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [neon-audio]: Downloading https://files.pythonhosted.org/packages/77/c9/fb5e5e20d997eff3159a9ccddd9a882543b0e2f83d37365cbe5d22674695/neon_audio-1.3.2a5-py3-none-any.whl
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230517/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [makeprojects]: Downloading https://files.pythonhosted.org/packages/06/29/9e8630c2167da55026447abba315cbd1cfa44d5017459a53b211066524c0/makeprojects-0.9.8.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [xmesh]: Downloading https://files.pythonhosted.org/packages/1d/7d/2928d5280728bc5e4cff69fc4b6ab6b05d5907866bda5a84a6a09715cde2/xmesh-0.4.0.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/60/4d/968da4916832f96e711e7c05ebe1800749d5635790e6c52605bedf8970dd/anylearn-0.17.6rc1.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proofpoint-itm]: Downloading https://files.pythonhosted.org/packages/23/d4/1ef2182ecd004c029bf3088b61c547fda2b105268415e52503f95877367b/proofpoint_itm-0.3.1.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [xmesh]: Downloading https://files.pythonhosted.org/packages/30/bf/ff90a232d958e5af58dbae8f1a6fcb7f292a37ac84d835182d2449022ea4/xmesh-0.4.1.tar.gz
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proofpoint-itm]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [proofpoint-itm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proofpoint_itm-0.3.0.tar.gz tmp/proofpoint_itm-0.3.1.tar.gz --markdown 20230517/p/proofpoint-itm/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.17.6a1.tar.gz tmp/anylearn-0.17.6rc1.tar.gz --markdown 20230517/a/anylearn/0.17.6a1-0.17.6rc1/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [neon-audio]: Downloading https://files.pythonhosted.org/packages/47/ef/398f505fefc83f4df245713f7eaa0be251312aef60f1794b4788db429159/neon_audio-1.3.3a1-py3-none-any.whl
+[2023-05-17 03:48:06] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.87.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230517/b/bytez/0.1.87-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [neon-audio]: executing diffoscope
+[2023-05-17 03:48:06] INFO root fetch - processPackages [neon-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_audio-1.3.2a5-py3-none-any.whl.zip tmp/neon_audio-1.3.3a1-py3-none-any.whl.zip --markdown 20230517/n/neon-audio/1.3.2a5-1.3.3a1/diff.md --exclude *.pyd
+[2023-05-17 03:48:06] INFO root fetch - processPackages [makeprojects]: Downloading https://files.pythonhosted.org/packages/fd/61/2bf45dfd63d6c3ac396feb61bf86fba3640806fdf36624dad68b3879b34f/makeprojects-0.9.9.tar.gz
+[2023-05-17 03:48:07] INFO root fetch - processPackages [xmesh]: executing diffoscope
+[2023-05-17 03:48:07] INFO root fetch - processPackages [xmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmesh-0.4.0.tar.gz tmp/xmesh-0.4.1.tar.gz --markdown 20230517/x/xmesh/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-17 03:48:07] INFO root fetch - processPackages [makeprojects]: executing diffoscope
+[2023-05-17 03:48:07] INFO root fetch - processPackages [makeprojects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makeprojects-0.9.8.tar.gz tmp/makeprojects-0.9.9.tar.gz --markdown 20230517/m/makeprojects/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 03:48:07] INFO root fetch - main [MainThread]: End processing [sqapi]: success
+[2023-05-17 03:48:07] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [neon-audio]: success
+[2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [xmesh]: success
+[2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [proofpoint-itm]: success
+[2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [makeprojects]: success
+[2023-05-17 03:48:10] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-17 03:48:10] INFO root fetch - main [MainThread]: Store serial: [18132607]
