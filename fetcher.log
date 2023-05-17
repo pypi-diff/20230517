@@ -1399,3 +1399,23 @@
 [2023-05-17 01:56:45] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 01:57:17] INFO root fetch - main [MainThread]: End processing [swgoh-comlink]: success
 [2023-05-17 01:57:17] INFO root fetch - main [MainThread]: Store serial: [18130782]
+[2023-05-17 02:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130782]
+[2023-05-17 02:02:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-17 02:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio
+[2023-05-17 02:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goes-solar-retriever
+[2023-05-17 02:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch
+[2023-05-17 02:02:25] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-17 02:02:26] INFO root fetch - processPackages [goes-solar-retriever]: New version: [0.4.0] Old Version: [0.3]
+[2023-05-17 02:02:26] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-05-17 02:02:26] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-17 02:02:26] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230517/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-17 02:02:26] INFO root fetch - processPackages [goes-solar-retriever]: Downloading https://files.pythonhosted.org/packages/4e/6e/125349da8dc54cfe776b945f898c6f68a398e1eced688b8a14c6d23a97a0/goes_solar_retriever-0.3.tar.gz
+[2023-05-17 02:02:26] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-05-17 02:02:26] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-05-17 02:02:26] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-05-17 02:02:26] INFO root fetch - processPackages [goes-solar-retriever]: Downloading https://files.pythonhosted.org/packages/bc/90/d358480b547d20af07f5990de491db67475c90f01ebdcc9f3fe929fddd3e/goes_solar_retriever-0.4.0.tar.gz
+[2023-05-17 02:02:26] INFO root fetch - processPackages [goes-solar-retriever]: executing diffoscope
+[2023-05-17 02:02:26] INFO root fetch - processPackages [goes-solar-retriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goes_solar_retriever-0.3.tar.gz tmp/goes_solar_retriever-0.4.0.tar.gz --markdown 20230517/g/goes-solar-retriever/0.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 02:02:27] INFO root fetch - main [MainThread]: End processing [goes-solar-retriever]: success
+[2023-05-17 02:02:27] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-17 02:02:27] INFO root fetch - main [MainThread]: Store serial: [18130792]
