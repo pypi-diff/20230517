@@ -19443,3 +19443,144 @@ EOFError: EOF read where object expected
 [2023-05-17 16:33:26] INFO root fetch - main [MainThread]: End processing [atomap]: success
 [2023-05-17 16:33:26] INFO root fetch - main [MainThread]: End processing [pulp-maven-client]: success
 [2023-05-17 16:33:26] INFO root fetch - main [MainThread]: Store serial: [18140971]
+[2023-05-17 16:38:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18140971]
+[2023-05-17 16:38:36] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbsrollout
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-lectio
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xklb
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuclio-sdk
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ever-playground
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-db
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cohere
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: khoj-assistant
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pm-slack
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-picking-product-barcode-report
+[2023-05-17 16:38:36] INFO root fetch - processPackages [pbsrollout]: New version: [0.3.4.1] Old Version: [0.3.4]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [nuclio-sdk]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [invenio-db]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ever-playground]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [pm-slack]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [cohere]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev29]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [xklb]: New version: [1.28.4] Old Version: [1.28.3]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [python-lectio]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.3]
+[2023-05-17 16:38:36] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.1.tar.gz tmp/pm_slack-0.2.2.tar.gz --markdown 20230517/p/pm-slack/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [python-lectio]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [python-lectio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lectio-1.9.0.tar.gz tmp/python-lectio-1.9.1.tar.gz --markdown 20230517/p/python-lectio/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.2.dev29.tar.gz tmp/khoj_assistant-0.6.2.dev6.tar.gz --markdown 20230517/k/khoj-assistant/0.6.2.dev29-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/df/fb/15a42d9429b69d6e875d65d366250092dbc58485f03b53f1217ca1de0aa1/nuclio_sdk-0.5.2.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/f5/eb/78ff85335cb51e0b8dbc33c78318f85e8efe58e2d449569eaeb102eb0cca/ever_playground-0.4.1.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [invenio-db]: Downloading https://files.pythonhosted.org/packages/ca/a9/946ae733eeeb07a9f7b08ced95f0088b7206e4468712a3d415d7a427fe08/invenio-db-1.0.9.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/f0/e5/ebe6820a687a40236e5e4ac491934bc47e8574e5455b23e5cdabe644b403/xklb-1.28.4.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/fb/e4/1c6ac589675376399fb9b4fe520f144c201827a21f4afb350768e4ef4352/cohere-4.5.1.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/09/55/52eb5442d2355814e309bd5545e0b9bb52f15150f9226dfdc1bba65bc227/odoo_addon_stock_picking_product_barcode_report-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/fe/8b/ee98a7b7c7dce90493acfb40ae8cef5d5d3637d6c899934e5763d40f9f92/ever_playground-0.4.2.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/d7/b1/e36a67c284517c7b460bcce42edc0f964d8c0659be11a2ac8263ec114f23/nuclio_sdk-0.5.3.tar.gz
+[2023-05-17 16:38:36] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.5.0.tar.gz tmp/cohere-4.5.1.tar.gz --markdown 20230517/c/cohere/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.28.3.tar.gz tmp/xklb-1.28.4.tar.gz --markdown 20230517/x/xklb/1.28.3-1.28.4/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ever-playground]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [ever-playground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ever_playground-0.4.1.tar.gz tmp/ever_playground-0.4.2.tar.gz --markdown 20230517/e/ever-playground/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [nuclio-sdk]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [nuclio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclio_sdk-0.5.2.tar.gz tmp/nuclio_sdk-0.5.3.tar.gz --markdown 20230517/n/nuclio-sdk/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-17 16:38:36] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Downloading https://files.pythonhosted.org/packages/a7/19/c849b0cd3d41dc796f974060599a34e37e03749e3e838f2420354c994200/odoo_addon_stock_picking_product_barcode_report-15.0.1.1.0-py3-none-any.whl
+[2023-05-17 16:38:36] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: executing diffoscope
+[2023-05-17 16:38:36] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_product_barcode_report-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_product_barcode_report-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-stock-picking-product-barcode-report/15.0.1.0.0.3-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-17 16:38:37] INFO root fetch - processPackages [pbsrollout]: Downloading https://files.pythonhosted.org/packages/f9/b0/197b6f212d3125c293e1a9c36ee71706bcba23032434f433782154ce92aa/pbsrollout-0.3.4.tar.gz
+[2023-05-17 16:38:37] INFO root fetch - processPackages [pm-slack]: Start processing: scenariogeneration
+[2023-05-17 16:38:37] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-17 16:38:37] INFO root fetch - processPackages [scenariogeneration]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-17 16:38:37] INFO root fetch - processPackages [pbsrollout]: Downloading https://files.pythonhosted.org/packages/28/1c/16b367fda1b2b66a86eca612c197886a0beb3abc1600aeb93e1c41fd19c6/pbsrollout-0.3.4.1.tar.gz
+[2023-05-17 16:38:37] INFO root fetch - processPackages [scenariogeneration]: Downloading https://files.pythonhosted.org/packages/5b/97/272479d86c1fb39ae9f25422ae291c1a5426fd8f2578545ca045b947eb35/scenariogeneration-0.9.2.tar.gz
+[2023-05-17 16:38:37] INFO root fetch - processPackages [pbsrollout]: executing diffoscope
+[2023-05-17 16:38:37] INFO root fetch - processPackages [pbsrollout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbsrollout-0.3.4.tar.gz tmp/pbsrollout-0.3.4.1.tar.gz --markdown 20230517/p/pbsrollout/0.3.4-0.3.4.1/diff.md --exclude *.pyd
+[2023-05-17 16:38:37] INFO root fetch - processPackages [python-lectio]: Start processing: energinet-ml-sdk
+[2023-05-17 16:38:37] INFO root fetch - main [MainThread]: End processing [python-lectio]: success
+[2023-05-17 16:38:37] INFO root fetch - processPackages [cohere]: Start processing: drb-metadata-sentinel3
+[2023-05-17 16:38:37] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-05-17 16:38:37] INFO root fetch - processPackages [ever-playground]: Start processing: PatryksAutoAI
+[2023-05-17 16:38:37] INFO root fetch - main [MainThread]: End processing [ever-playground]: success
+[2023-05-17 16:38:38] INFO root fetch - processPackages [nuclio-sdk]: Start processing: rebasin
+[2023-05-17 16:38:38] INFO root fetch - main [MainThread]: End processing [nuclio-sdk]: success
+[2023-05-17 16:38:38] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:38:38] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [1.0.0.dev24] Old Version: [0.9.2.dev87]
+[2023-05-17 16:38:38] INFO root fetch - processPackages [drb-metadata-sentinel3]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-17 16:38:38] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 16:38:38] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-17 16:38:38] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230517/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:38:38] INFO root fetch - processPackages [xklb]: Start processing: nteu-corporate-engine
+[2023-05-17 16:38:38] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-17 16:38:38] INFO root fetch - processPackages [nteu-corporate-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 16:38:38] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/9e/4c/af824d557fb2a7bfb538eba01d03cd96d9fea42b4852760450c9d42f4d34/PatryksAutoAI-1.0.4.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [nteu-corporate-engine]: executing diffoscope
+[2023-05-17 16:38:38] INFO root fetch - processPackages [nteu-corporate-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nteu_corporate_engine-0.1.8.tar.gz tmp/nteu_corporate_engine-0.1.9.tar.gz --markdown 20230517/n/nteu-corporate-engine/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 16:38:38] INFO root fetch - processPackages [odoo-addon-stock-picking-product-barcode-report]: Start processing: uplogic
+[2023-05-17 16:38:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-barcode-report]: success
+[2023-05-17 16:38:38] INFO root fetch - processPackages [drb-metadata-sentinel3]: Downloading https://files.pythonhosted.org/packages/b5/d8/73a0788c462aabae0833e733ea4c38bec3a61c93ea4fca4807a848fb68e7/drb-metadata-sentinel3-1.1.0.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/a4/cd/ab786482705c0a4d69973849d90bf6c223efe62005267478b29226bd0706/energinet-ml-sdk-0.9.2.dev87.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [uplogic]: New version: [1.9.1] Old Version: [1.9]
+[2023-05-17 16:38:38] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 16:38:38] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.0.3.tar.gz tmp/PatryksAutoAI-1.0.4.tar.gz --markdown 20230517/P/PatryksAutoAI/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 16:38:38] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/e4/f6/0a758efaf6e1fb6a2f5a608b910965b3dd411fdb7992d122d15714ca728f/energinet-ml-sdk-1.0.0.dev24.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [drb-metadata-sentinel3]: Downloading https://files.pythonhosted.org/packages/64/6b/601ec1b3eecc4e85ccc1418467003bc86b71b6c880d256eee8038c1c9ec1/drb-metadata-sentinel3-1.2.0.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-05-17 16:38:38] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-0.9.2.dev87.tar.gz tmp/energinet-ml-sdk-1.0.0.dev24.tar.gz --markdown 20230517/e/energinet-ml-sdk/0.9.2.dev87-1.0.0.dev24/diff.md --exclude *.pyd
+[2023-05-17 16:38:38] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/fa/e3/0de759ad1a310074ffeb40ff85b903f91e2812d289c943960c4dc224c2d2/uplogic-1.9.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [drb-metadata-sentinel3]: executing diffoscope
+[2023-05-17 16:38:38] INFO root fetch - processPackages [drb-metadata-sentinel3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-metadata-sentinel3-1.1.0.tar.gz tmp/drb-metadata-sentinel3-1.2.0.tar.gz --markdown 20230517/d/drb-metadata-sentinel3/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-17 16:38:38] INFO root fetch - processPackages [invenio-db]: Downloading https://files.pythonhosted.org/packages/4f/0e/d18c848fbe4fc671ffb50bb4a06aed2104ddf1e9539c45916f4f97a3bd64/invenio-db-1.1.0.tar.gz
+[2023-05-17 16:38:38] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/40/9f/a6153babf33a105a1d9641e671178cb95862b8013c59cdae057a013e8037/uplogic-1.9.1.tar.gz
+[2023-05-17 16:38:39] INFO root fetch - processPackages [invenio-db]: executing diffoscope
+[2023-05-17 16:38:39] INFO root fetch - processPackages [invenio-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-db-1.0.9.tar.gz tmp/invenio-db-1.1.0.tar.gz --markdown 20230517/i/invenio-db/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 16:38:39] INFO root fetch - processPackages [uplogic]: executing diffoscope
+[2023-05-17 16:38:39] INFO root fetch - processPackages [uplogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplogic-1.9.tar.gz tmp/uplogic-1.9.1.tar.gz --markdown 20230517/u/uplogic/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-05-17 16:38:39] INFO root fetch - processPackages [pbsrollout]: Start processing: sortinghat
+[2023-05-17 16:38:39] INFO root fetch - main [MainThread]: End processing [pbsrollout]: success
+[2023-05-17 16:38:39] INFO root fetch - processPackages [sortinghat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-17 16:38:39] INFO root fetch - processPackages [rebasin]: Start processing: flarespy
+[2023-05-17 16:38:39] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-17 16:38:39] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-05-17 16:38:39] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.9.2.tar.gz tmp/sortinghat-0.9.3.tar.gz --markdown 20230517/s/sortinghat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-17 16:38:39] INFO root fetch - processPackages [nteu-corporate-engine]: Start processing: pynterface
+[2023-05-17 16:38:39] INFO root fetch - main [MainThread]: End processing [nteu-corporate-engine]: success
+[2023-05-17 16:38:39] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-17 16:38:39] INFO root fetch - processPackages [pynterface]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-17 16:38:39] INFO root fetch - processPackages [pynterface]: executing diffoscope
+[2023-05-17 16:38:39] INFO root fetch - processPackages [pynterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynterface-0.0.4.tar.gz tmp/pynterface-0.1.0.tar.gz --markdown 20230517/p/pynterface/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 16:38:39] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/04/25/388588a964ee3e165799f36a52ac68432b412f43d936c345577d8f7314ff/flarespy-0.9.7.tar.gz
+[2023-05-17 16:38:39] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: CONFIGS-dw9ga8fguawfvzauuwgzuh
+[2023-05-17 16:38:39] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 16:38:40] WARNING root fetch - processPackages [CONFIGS-dw9ga8fguawfvzauuwgzuh]: Skipping, unable to determine old version
+[2023-05-17 16:38:40] INFO root fetch - processPackages [CONFIGS-dw9ga8fguawfvzauuwgzuh]: Start processing: hkkang-utils
+[2023-05-17 16:38:40] INFO root fetch - main [MainThread]: End processing [CONFIGS-dw9ga8fguawfvzauuwgzuh] error
+[2023-05-17 16:38:40] INFO root fetch - processPackages [scenariogeneration]: Downloading https://files.pythonhosted.org/packages/0a/de/65b0ea40f2b370f99b2db18b1a8a83bb246791445448c8e281f65e7a8160/scenariogeneration-0.9.3.tar.gz
+[2023-05-17 16:38:40] INFO root fetch - processPackages [khoj-assistant]: Start processing: apis-bibsonomy
+[2023-05-17 16:38:40] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-05-17 16:38:40] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 16:38:40] INFO root fetch - processPackages [scenariogeneration]: executing diffoscope
+[2023-05-17 16:38:40] INFO root fetch - processPackages [scenariogeneration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenariogeneration-0.9.2.tar.gz tmp/scenariogeneration-0.9.3.tar.gz --markdown 20230517/s/scenariogeneration/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-17 16:38:40] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/7e/3f154203fb0f1369802551bb5c886d19787ba3740cac776f1ab46ff30696/flarespy-0.9.8.tar.gz
+[2023-05-17 16:38:40] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-17 16:38:40] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230517/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 16:38:40] INFO root fetch - processPackages [apis-bibsonomy]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-17 16:38:40] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-17 16:38:40] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230517/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-17 16:38:40] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-05-17 16:38:40] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/bd/f8/425d134ff9b8169a17433e84a53237ea211da890f306a818dde4802e5209/apis_bibsonomy-0.5.0.tar.gz
+[2023-05-17 16:38:40] INFO root fetch - main [MainThread]: End processing [drb-metadata-sentinel3]: success
+[2023-05-17 16:38:40] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/bf/52/4b59f38e00ac323ec4d853266b9fb1834f035d9f1a0cdefb48dc36d68c57/apis_bibsonomy-0.6.0.tar.gz
+[2023-05-17 16:38:40] INFO root fetch - main [MainThread]: End processing [pynterface]: success
+[2023-05-17 16:38:41] INFO root fetch - main [MainThread]: End processing [invenio-db]: success
+[2023-05-17 16:38:41] INFO root fetch - processPackages [apis-bibsonomy]: executing diffoscope
+[2023-05-17 16:38:41] INFO root fetch - processPackages [apis-bibsonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis_bibsonomy-0.5.0.tar.gz tmp/apis_bibsonomy-0.6.0.tar.gz --markdown 20230517/a/apis-bibsonomy/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-17 16:38:41] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-17 16:38:41] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-17 16:38:42] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-05-17 16:38:42] INFO root fetch - main [MainThread]: End processing [apis-bibsonomy]: success
+[2023-05-17 16:38:43] INFO root fetch - main [MainThread]: End processing [scenariogeneration]: success
+[2023-05-17 16:38:46] INFO root fetch - main [MainThread]: End processing [uplogic]: success
+[2023-05-17 16:38:46] INFO root fetch - main [MainThread]: Store serial: [18141041]
