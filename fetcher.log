@@ -13133,3 +13133,434 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:17:29] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-17 12:18:58] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-05-17 12:18:58] INFO root fetch - main [MainThread]: Store serial: [18137624]
+[2023-05-17 12:24:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137624]
+[2023-05-17 12:24:07] INFO root fetch - main [MainThread]: Found 64 changed packages
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skorch
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-cli
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-pipelines-cli
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Bigsansar
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcp-log
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinybird-cli
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pg-bulk-ingest
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clear-skies-aws
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dessert
+[2023-05-17 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iqrfpy
+[2023-05-17 12:24:08] WARNING root fetch - processPackages [gcp-log]: Skipping, unable to determine old version
+[2023-05-17 12:24:08] INFO root fetch - processPackages [gcp-log]: Start processing: openshift-cluster-management-python-wrapper
+[2023-05-17 12:24:08] INFO root fetch - main [MainThread]: End processing [gcp-log] error
+[2023-05-17 12:24:08] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [data-pipelines-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [skorch]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [Bigsansar]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [dessert]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-17 12:24:08] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230517/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [dessert]: Downloading https://files.pythonhosted.org/packages/4c/23/ffd2403a3ac2940a9a81c2b621073ba21f871ada4b610341f765f2b11b93/dessert-1.4.6.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/13/5e/7c987605af62aec987c4ee817c32a1f1dccae97f53623d4caf4d18e3d9b2/oarepo-cli-11.0.7.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/cd/6c/a0fb36a514ebe5af4488426d929bb2898873282a5fe6c968aea1647e1890/data_pipelines_cli-0.8.0.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [skorch]: Downloading https://files.pythonhosted.org/packages/ff/5c/8c39bdff43f2b2ed452a1d7e5e3a92ba0452a76db57a388097cd715e6846/skorch-0.8.0.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/a7/f6/1d86641c3de95ab0711165e9ed13392e8c746cd7cf03ab28c47e6de31957/clear-skies-aws-1.3.3.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/63/b1/05c0ad47d17410f5db4730c9630ad98643c9abdb30d5e305cd1b223f2810/pg_bulk_ingest-0.0.6.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/9a/79/395329fbaf5b71081388a8eae3bbd15a20816d4b1e98d60fa9a3b265c168/Bigsansar-1.4.7.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-aws-1.3.2.tar.gz tmp/clear-skies-aws-1.3.3.tar.gz --markdown 20230517/c/clear-skies-aws/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230517/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.4.6.tar.gz tmp/Bigsansar-1.4.7.tar.gz --markdown 20230517/B/Bigsansar/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [dessert]: Downloading https://files.pythonhosted.org/packages/80/8a/dc1835004669a8b83a1a0d391726aa23c0226c318feb68a8506c4c59f21f/dessert-1.4.7.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [dessert]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [dessert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dessert-1.4.6.tar.gz tmp/dessert-1.4.7.tar.gz --markdown 20230517/d/dessert/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/a6/ed/c5b32396cf4d87f219e668d6f0e363af9ae7f735ea5335f7878b0939ee6e/pg_bulk_ingest-0.0.7.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/e4/75/9be2188d5177d2fa3fa4a50c9b1fbf660d93d8701c94ee6a8df6dcdf9a4b/data_pipelines_cli-0.9.0.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230517/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [skorch]: Downloading https://files.pythonhosted.org/packages/19/c3/36d3305afd5f44663799c0d6ff962ba8e27e41c388599ac5c43e210332c5/skorch-0.9.0.tar.gz
+[2023-05-17 12:24:08] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.6.tar.gz tmp/pg_bulk_ingest-0.0.7.tar.gz --markdown 20230517/p/pg-bulk-ingest/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [data-pipelines-cli]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [data-pipelines-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipelines_cli-0.8.0.tar.gz tmp/data_pipelines_cli-0.9.0.tar.gz --markdown 20230517/d/data-pipelines-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [skorch]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [skorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skorch-0.8.0.tar.gz tmp/skorch-0.9.0.tar.gz --markdown 20230517/s/skorch/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:08] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-17 12:24:08] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230517/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-17 12:24:09] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Start processing: platform-library
+[2023-05-17 12:24:09] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-05-17 12:24:09] INFO root fetch - processPackages [platform-library]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 12:24:09] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/19/48/179a15918a09eefbc99e41a10b6e60704813d398bf0a0036d1f30001ec42/platform-library-0.0.7.tar.gz
+[2023-05-17 12:24:09] INFO root fetch - processPackages [clear-skies-aws]: Start processing: amuse-framework
+[2023-05-17 12:24:09] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-05-17 12:24:09] INFO root fetch - processPackages [amuse-framework]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:10] INFO root fetch - processPackages [tinybird-cli]: Start processing: aws-analytics-reference-architecture
+[2023-05-17 12:24:10] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-17 12:24:10] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-17 12:24:10] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/2e/e6/49e0df37adadb7cb8f25fecb3969b3c8e91b2e28922a78dc977059640aa9/platform-library-0.0.8.tar.gz
+[2023-05-17 12:24:10] INFO root fetch - processPackages [pg-bulk-ingest]: Start processing: PatryksAutoAI
+[2023-05-17 12:24:10] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-05-17 12:24:10] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-17 12:24:10] INFO root fetch - processPackages [amuse-framework]: Downloading https://files.pythonhosted.org/packages/6c/f9/50b4ca270dad0229de83448f00e84f87173712f03726ecd646d06e71b940/amuse-framework-2023.4.0.tar.gz
+[2023-05-17 12:24:10] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-05-17 12:24:10] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.0.7.tar.gz tmp/platform-library-0.0.8.tar.gz --markdown 20230517/p/platform-library/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 12:24:10] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-05-17 12:24:10] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 12:24:10] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.8.6.tar.gz tmp/PatryksAutoAI-0.8.7.tar.gz --markdown 20230517/P/PatryksAutoAI/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-17 12:24:10] INFO root fetch - processPackages [amuse-framework]: Downloading https://files.pythonhosted.org/packages/ba/97/dc95d25d33fdd85ba83668391a2bb8876c570ce7404be716a1d15465a83d/amuse-framework-2023.5.0.tar.gz
+[2023-05-17 12:24:10] INFO root fetch - processPackages [oarepo-cli]: Start processing: kubemarine
+[2023-05-17 12:24:10] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-17 12:24:10] INFO root fetch - processPackages [amuse-framework]: executing diffoscope
+[2023-05-17 12:24:10] INFO root fetch - processPackages [amuse-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-framework-2023.4.0.tar.gz tmp/amuse-framework-2023.5.0.tar.gz --markdown 20230517/a/amuse-framework/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:10] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-05-17 12:24:10] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: gon
+[2023-05-17 12:24:10] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-05-17 12:24:10] INFO root fetch - processPackages [kubemarine]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-05-17 12:24:10] INFO root fetch - processPackages [skorch]: Start processing: firefox-parser
+[2023-05-17 12:24:10] INFO root fetch - main [MainThread]: End processing [skorch]: success
+[2023-05-17 12:24:10] INFO root fetch - processPackages [firefox-parser]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-17 12:24:10] INFO root fetch - processPackages [gon]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-05-17 12:24:10] INFO root fetch - processPackages [firefox-parser]: executing diffoscope
+[2023-05-17 12:24:10] INFO root fetch - processPackages [firefox-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefox-parser-1.1.4.tar.gz tmp/firefox-parser-1.1.5.tar.gz --markdown 20230517/f/firefox-parser/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-17 12:24:10] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/d5/b3/3cf55ab702bff34504a870c2d96684ab06b50eef7eaa98d683f4b0327bfb/kubemarine-0.16.0.tar.gz
+[2023-05-17 12:24:10] INFO root fetch - processPackages [iqrfpy]: Start processing: amuse
+[2023-05-17 12:24:10] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-17 12:24:11] INFO root fetch - processPackages [gon]: Downloading https://files.pythonhosted.org/packages/b6/19/f203b85ee12b54e2e2b833bea42d249d0461b2d9944ba94331b40bc64421/gon-5.0.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:11] INFO root fetch - processPackages [data-pipelines-cli]: Start processing: amuse-aarsethzare
+[2023-05-17 12:24:11] INFO root fetch - main [MainThread]: End processing [data-pipelines-cli]: success
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-aarsethzare]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse]: Downloading https://files.pythonhosted.org/packages/55/4d/b09e095a7051b77df6044174855e7f14285de50a920da973380d332330be/amuse-2023.4.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [kubemarine]: Downloading https://files.pythonhosted.org/packages/e3/f1/285b57c4d59a0d1037ade5971f6231397abcba6100d2377186f7d6d38d29/kubemarine-0.17.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [platform-library]: Start processing: amuse-athena
+[2023-05-17 12:24:11] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-05-17 12:24:11] INFO root fetch - processPackages [gon]: Downloading https://files.pythonhosted.org/packages/d4/d3/af8de2e1cc1685f7c9b098c58204328fcbdb24b29a4a7805b921cf3e26d7/gon-6.0.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-aarsethzare]: Downloading https://files.pythonhosted.org/packages/86/33/920f40238c0c6ee5c145a4dcd7ebb2778ed2e76f910841753ad0dcb928af/amuse-aarsethzare-2023.4.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-athena]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:11] INFO root fetch - processPackages [dessert]: Start processing: amuse-bhtree
+[2023-05-17 12:24:11] INFO root fetch - main [MainThread]: End processing [dessert]: success
+[2023-05-17 12:24:11] INFO root fetch - processPackages [kubemarine]: executing diffoscope
+[2023-05-17 12:24:11] INFO root fetch - processPackages [kubemarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubemarine-0.16.0.tar.gz tmp/kubemarine-0.17.0.tar.gz --markdown 20230517/k/kubemarine/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse]: Downloading https://files.pythonhosted.org/packages/93/e1/ca2f3ec5f13a5d6be686b78a9f2cb8c2d68f928d945ad94dfeaa38c9d728/amuse-2023.5.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [gon]: executing diffoscope
+[2023-05-17 12:24:11] INFO root fetch - processPackages [gon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gon-5.0.0.tar.gz tmp/gon-6.0.0.tar.gz --markdown 20230517/g/gon/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse]: executing diffoscope
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-2023.4.0.tar.gz tmp/amuse-2023.5.0.tar.gz --markdown 20230517/a/amuse/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-bhtree]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:11] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: amuse-brutus
+[2023-05-17 12:24:11] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-aarsethzare]: Downloading https://files.pythonhosted.org/packages/ef/33/7b057321d93db861ab5b407270e535765e18dffbd5d4a25eaa7030c80599/amuse-aarsethzare-2023.5.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-athena]: Downloading https://files.pythonhosted.org/packages/89/98/06f7ee263497a15e2eb3a39a8b97fd3c02073f7e83085f4feb0e80b20f6f/amuse-athena-2023.4.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-brutus]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-bhtree]: Downloading https://files.pythonhosted.org/packages/e1/7f/ff2b01976ca9258aea761bbe2adb3867865f6e42d83df6fd8361d3881f41/amuse-bhtree-2023.4.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-aarsethzare]: executing diffoscope
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-aarsethzare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-aarsethzare-2023.4.0.tar.gz tmp/amuse-aarsethzare-2023.5.0.tar.gz --markdown 20230517/a/amuse-aarsethzare/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-brutus]: Downloading https://files.pythonhosted.org/packages/66/0c/3d129c0905de2511a373cb54e3cff33113f9c0817f48d9be2fb39ced8104/amuse-brutus-2023.4.0.tar.gz
+[2023-05-17 12:24:11] INFO root fetch - processPackages [amuse-athena]: Downloading https://files.pythonhosted.org/packages/c8/cf/3f765f023d7fd86b81bf770cd3878627891e1d717a7c69d423349946aae1/amuse-athena-2023.5.0.tar.gz
+[2023-05-17 12:24:12] INFO root fetch - processPackages [firefox-parser]: Start processing: amuse-bse
+[2023-05-17 12:24:12] INFO root fetch - main [MainThread]: End processing [firefox-parser]: success
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bhtree]: Downloading https://files.pythonhosted.org/packages/18/4f/bdaaebea696a58a2e2e4144a5a6ef2633d9619a24cdc34cc6bde8d7c049e/amuse-bhtree-2023.5.0.tar.gz
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-athena]: executing diffoscope
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-athena-2023.4.0.tar.gz tmp/amuse-athena-2023.5.0.tar.gz --markdown 20230517/a/amuse-athena/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-brutus]: Downloading https://files.pythonhosted.org/packages/1d/d5/22cf41f5d942def31e079318030a79845b9cefa27f65172b7ea16c7e4349/amuse-brutus-2023.5.0.tar.gz
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bse]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bhtree]: executing diffoscope
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bhtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-bhtree-2023.4.0.tar.gz tmp/amuse-bhtree-2023.5.0.tar.gz --markdown 20230517/a/amuse-bhtree/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-brutus]: executing diffoscope
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-brutus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-brutus-2023.4.0.tar.gz tmp/amuse-brutus-2023.5.0.tar.gz --markdown 20230517/a/amuse-brutus/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bse]: Downloading https://files.pythonhosted.org/packages/c1/fb/ad820be3743677979f590975039f80c508ff770ee7b03605db94da9472d7/amuse-bse-2023.4.0.tar.gz
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bse]: Downloading https://files.pythonhosted.org/packages/2e/70/98326874f4a478e410b99ef1b33b7510fefc02944f7a49a92c9567f21e40/amuse-bse-2023.5.0.tar.gz
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bse]: executing diffoscope
+[2023-05-17 12:24:12] INFO root fetch - processPackages [amuse-bse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-bse-2023.4.0.tar.gz tmp/amuse-bse-2023.5.0.tar.gz --markdown 20230517/a/amuse-bse/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:13] INFO root fetch - processPackages [gon]: Start processing: amuse-capreole
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [gon]: success
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-capreole]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:13] INFO root fetch - processPackages [Bigsansar]: Start processing: amuse-distributed
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-capreole]: Downloading https://files.pythonhosted.org/packages/cb/ce/12db4f8d7338dcd3bf4f11d161e4a8ddf40a0108954ec8ac2a3b62c771a4/amuse-capreole-2023.4.0.tar.gz
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-distributed]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-aarsethzare]: Start processing: chrome-parser
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [amuse-aarsethzare]: success
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse]: Start processing: amuse-evtwin
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [amuse]: success
+[2023-05-17 12:24:13] INFO root fetch - processPackages [chrome-parser]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-capreole]: Downloading https://files.pythonhosted.org/packages/78/e3/65542514335b65b8456d2051a8bee75317c5402a8adfb050b572239a5ac7/amuse-capreole-2023.5.0.tar.gz
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-distributed]: Downloading https://files.pythonhosted.org/packages/d0/76/21cefd4341d1634ffc63c5262537ff5fc0c6fde8745fe6150907e2adfb2a/amuse-distributed-2023.4.0.tar.gz
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-evtwin]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-capreole]: executing diffoscope
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-capreole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-capreole-2023.4.0.tar.gz tmp/amuse-capreole-2023.5.0.tar.gz --markdown 20230517/a/amuse-capreole/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:13] INFO root fetch - processPackages [chrome-parser]: Downloading https://files.pythonhosted.org/packages/f7/15/3dd2d7c80f5d57c8976746154b4bf20c8a06279a6b420b892ac3d8700964/chrome-parser-1.1.3.tar.gz
+[2023-05-17 12:24:13] WARNING root fetch - processPackages [amuse-distributed]: Skipping package: exceeds size limit 22044084>=10485760
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-distributed]: Start processing: amuse-fastkick
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [amuse-distributed] error
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-bhtree]: Start processing: amuse-fi
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [amuse-bhtree]: success
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-evtwin]: Downloading https://files.pythonhosted.org/packages/93/f7/a940fbc8444493ad9aa495c523add39a1e3856b026508ecf8fdeb5fb8c4b/amuse-evtwin-2023.4.0.tar.gz
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-fastkick]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-fi]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:13] INFO root fetch - processPackages [chrome-parser]: Downloading https://files.pythonhosted.org/packages/86/b6/8b2403ec90521aa07a1825d519c23cec8683ed6ca404925f866ed2dc0d5c/chrome-parser-1.1.4.tar.gz
+[2023-05-17 12:24:13] WARNING root fetch - processPackages [amuse-evtwin]: Skipping package: exceeds size limit 94309838>=10485760
+[2023-05-17 12:24:13] INFO root fetch - processPackages [amuse-evtwin]: Start processing: amuse-fractalcluster
+[2023-05-17 12:24:13] INFO root fetch - main [MainThread]: End processing [amuse-evtwin] error
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-framework]: Start processing: amuse-gadget2
+[2023-05-17 12:24:14] INFO root fetch - main [MainThread]: End processing [amuse-framework]: success
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fastkick]: Downloading https://files.pythonhosted.org/packages/24/1c/6eedb84cf4291b63cab234ebadb35698a9fb2a0ed44000f5c1a6541c2b93/amuse-fastkick-2023.4.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fractalcluster]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fi]: Downloading https://files.pythonhosted.org/packages/5d/09/a90e15d4d36cf546c3333d2e746609089e9cae44f82230ae037e0b795a2f/amuse-fi-2023.4.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [chrome-parser]: executing diffoscope
+[2023-05-17 12:24:14] INFO root fetch - processPackages [chrome-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrome-parser-1.1.3.tar.gz tmp/chrome-parser-1.1.4.tar.gz --markdown 20230517/c/chrome-parser/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-gadget2]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fastkick]: Downloading https://files.pythonhosted.org/packages/2c/4e/a363f4ba34f4560413f7f123d32a933f2620b4d4d99791200605bd5333b0/amuse-fastkick-2023.5.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fractalcluster]: Downloading https://files.pythonhosted.org/packages/34/ec/d2c2eeb099a81f9fdb4406bfece7f54643e4d56e8b5281445205a1bcf8bd/amuse-fractalcluster-2023.4.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-gadget2]: Downloading https://files.pythonhosted.org/packages/eb/ba/664e3300b84e2f9bb75a9a3fe505f2c7a72f7d453008993830e0c06c7f31/amuse-gadget2-2023.4.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fastkick]: executing diffoscope
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fastkick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-fastkick-2023.4.0.tar.gz tmp/amuse-fastkick-2023.5.0.tar.gz --markdown 20230517/a/amuse-fastkick/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fractalcluster]: Downloading https://files.pythonhosted.org/packages/41/32/8412b22add1898ce03e1fdea114b24e251adefb0a5600da9083dec5f7ca7/amuse-fractalcluster-2023.5.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [kubemarine]: Start processing: amuse-galactics
+[2023-05-17 12:24:14] INFO root fetch - main [MainThread]: End processing [kubemarine]: success
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-gadget2]: Downloading https://files.pythonhosted.org/packages/39/6f/bc285920bd551e925089f5b37a57c1e7d265f8559010aedbc679d772a5fa/amuse-gadget2-2023.5.0.tar.gz
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fractalcluster]: executing diffoscope
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-fractalcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-fractalcluster-2023.4.0.tar.gz tmp/amuse-fractalcluster-2023.5.0.tar.gz --markdown 20230517/a/amuse-fractalcluster/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-galactics]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-gadget2]: executing diffoscope
+[2023-05-17 12:24:14] INFO root fetch - processPackages [amuse-gadget2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-gadget2-2023.4.0.tar.gz tmp/amuse-gadget2-2023.5.0.tar.gz --markdown 20230517/a/amuse-gadget2/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-galactics]: Downloading https://files.pythonhosted.org/packages/90/0b/a5eceb7d43701eb3f6cf5dcc148efe9511578138723712e22d22a90e959d/amuse-galactics-2023.4.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [chrome-parser]: Start processing: amuse-galaxia
+[2023-05-17 12:24:15] INFO root fetch - main [MainThread]: End processing [chrome-parser]: success
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-galactics]: Downloading https://files.pythonhosted.org/packages/ba/42/880e7933186c34ce904d9eeea474acab31a11183e327d973fac700bfc277/amuse-galactics-2023.5.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-brutus]: Start processing: amuse-halogen
+[2023-05-17 12:24:15] INFO root fetch - main [MainThread]: End processing [amuse-brutus]: success
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-capreole]: Start processing: amuse-hermite
+[2023-05-17 12:24:15] INFO root fetch - main [MainThread]: End processing [amuse-capreole]: success
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-fi]: Downloading https://files.pythonhosted.org/packages/70/e6/5b7a5fab72c44565fc843f67a1b382a2af4c1ba0b04dc186dd39a2638f42/amuse-fi-2023.5.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-galaxia]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-halogen]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-hermite]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-galactics]: executing diffoscope
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-galactics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-galactics-2023.4.0.tar.gz tmp/amuse-galactics-2023.5.0.tar.gz --markdown 20230517/a/amuse-galactics/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-bse]: Start processing: amuse-hop
+[2023-05-17 12:24:15] INFO root fetch - main [MainThread]: End processing [amuse-bse]: success
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-hop]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-halogen]: Downloading https://files.pythonhosted.org/packages/a7/e5/49ad8ebc91096a9dd33c90c5e43937fcfe9aba6d2633d9fa769c4133662a/amuse-halogen-2023.4.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-hermite]: Downloading https://files.pythonhosted.org/packages/e4/eb/ccf3f6474fd2af094f158afcb1713eb1d8aca61c91406dcfedee02096509/amuse-hermite-2023.4.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-galaxia]: Downloading https://files.pythonhosted.org/packages/a7/65/54e02cac97d4c79452a3dfa08ad5bb12ca9ed657373155743540f525baa6/amuse-galaxia-2023.4.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-fastkick]: Start processing: amuse-huayno
+[2023-05-17 12:24:15] INFO root fetch - main [MainThread]: End processing [amuse-fastkick]: success
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-hop]: Downloading https://files.pythonhosted.org/packages/4c/a8/cbf9fb7b55a1d355f1de9b374dbc847c3164024c8db3e5a7117332793470/amuse-hop-2023.4.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-huayno]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-halogen]: Downloading https://files.pythonhosted.org/packages/13/71/34581bd49d502eae0226172a452e0dae4c6a41fdf8f00832457fc1b77046/amuse-halogen-2023.5.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-hermite]: Downloading https://files.pythonhosted.org/packages/4c/a7/037b0f2711a5729e87137ca4fd6ac1ebb462b18e91b93931a9bd49589e8f/amuse-hermite-2023.5.0.tar.gz
+[2023-05-17 12:24:15] INFO root fetch - processPackages [amuse-fractalcluster]: Start processing: amuse-kepler
+[2023-05-17 12:24:15] INFO root fetch - main [MainThread]: End processing [amuse-fractalcluster]: success
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-galaxia]: Downloading https://files.pythonhosted.org/packages/1c/cc/1393d6b12c136e1e1f4ef73c6c164a30c2a475c1d07a1fd1cb87724e7808/amuse-galaxia-2023.5.0.tar.gz
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-huayno]: Downloading https://files.pythonhosted.org/packages/5f/c5/a4da012b736f41d88754232741b5f8d424c54a31a6b378a9d51c75d1a5d0/amuse-huayno-2023.4.0.tar.gz
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-hermite]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-halogen]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-hermite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-hermite-2023.4.0.tar.gz tmp/amuse-hermite-2023.5.0.tar.gz --markdown 20230517/a/amuse-hermite/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-halogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-halogen-2023.4.0.tar.gz tmp/amuse-halogen-2023.5.0.tar.gz --markdown 20230517/a/amuse-halogen/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-hop]: Downloading https://files.pythonhosted.org/packages/2b/6f/2bc81c1db0cc2873ad58c4c1cd0efb42318258ec9a08f4aa81b290bfbec2/amuse-hop-2023.5.0.tar.gz
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-galaxia]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-galaxia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-galaxia-2023.4.0.tar.gz tmp/amuse-galaxia-2023.5.0.tar.gz --markdown 20230517/a/amuse-galaxia/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler]: Downloading https://files.pythonhosted.org/packages/6e/81/17a0cba61ee021eea4a325f3f47f1af070926822188a68f27e35a7b1c7d9/amuse-kepler-2023.4.0.tar.gz
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-huayno]: Downloading https://files.pythonhosted.org/packages/65/3c/f39dfeb5fecb559a1c0f5ba2c14c7c72dda55b4b28d2f790bb03c752b2b3/amuse-huayno-2023.5.0.tar.gz
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-fi]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-fi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-fi-2023.4.0.tar.gz tmp/amuse-fi-2023.5.0.tar.gz --markdown 20230517/a/amuse-fi/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-hop]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-hop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-hop-2023.4.0.tar.gz tmp/amuse-hop-2023.5.0.tar.gz --markdown 20230517/a/amuse-hop/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-gadget2]: Start processing: amuse-kepler-orbiters
+[2023-05-17 12:24:16] INFO root fetch - main [MainThread]: End processing [amuse-gadget2]: success
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler]: Downloading https://files.pythonhosted.org/packages/b8/d8/3dfce87c9b79cf0cf518d927a8db61148bc76020b915386f38f884bea324/amuse-kepler-2023.5.0.tar.gz
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-huayno]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-huayno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-huayno-2023.4.0.tar.gz tmp/amuse-huayno-2023.5.0.tar.gz --markdown 20230517/a/amuse-huayno/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler-orbiters]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler]: executing diffoscope
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-kepler-2023.4.0.tar.gz tmp/amuse-kepler-2023.5.0.tar.gz --markdown 20230517/a/amuse-kepler/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:16] INFO root fetch - processPackages [amuse-kepler-orbiters]: Downloading https://files.pythonhosted.org/packages/f6/55/229145cbf0d7b4177d4bf88482a1699c9e2b6212360c1ec22e7c6c4fe643/amuse-kepler-orbiters-2023.4.0.tar.gz
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-kepler-orbiters]: Downloading https://files.pythonhosted.org/packages/c7/5b/f047157cbcd14c2d2bb14f047a78a003bdddf7eec0bb9c309b2ef88d7884/amuse-kepler-orbiters-2023.5.0.tar.gz
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-kepler-orbiters]: executing diffoscope
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-kepler-orbiters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-kepler-orbiters-2023.4.0.tar.gz tmp/amuse-kepler-orbiters-2023.5.0.tar.gz --markdown 20230517/a/amuse-kepler-orbiters/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-galaxia]: Start processing: amuse-mameclot
+[2023-05-17 12:24:17] INFO root fetch - main [MainThread]: End processing [amuse-galaxia]: success
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-halogen]: Start processing: azure-confidentialledger
+[2023-05-17 12:24:17] INFO root fetch - main [MainThread]: End processing [amuse-halogen]: success
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-mameclot]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:17] INFO root fetch - processPackages [azure-confidentialledger]: New version: [1.1.0] Old Version: [1.0.0b1]
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-athena]: Start processing: amuse-mercury
+[2023-05-17 12:24:17] INFO root fetch - main [MainThread]: End processing [amuse-athena]: success
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-mercury]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:17] INFO root fetch - processPackages [azure-confidentialledger]: Downloading https://files.pythonhosted.org/packages/ca/1b/4615140f7be3853002e0fd379873d7612fcd6b9d4dedb9bce163069a751a/azure-confidentialledger-1.0.0b1.zip
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-huayno]: Start processing: amuse-mesa
+[2023-05-17 12:24:17] INFO root fetch - main [MainThread]: End processing [amuse-huayno]: success
+[2023-05-17 12:24:17] INFO root fetch - processPackages [amuse-mameclot]: Downloading https://files.pythonhosted.org/packages/d7/0e/350ba23337e5fa9826feee979455241a5e1d29d3dbaf10ff9d13aaa8f5a4/amuse-mameclot-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mercury]: Downloading https://files.pythonhosted.org/packages/95/95/6b6b9a77d09a35263ec4e6c12cbac3d10e31f59b735283c606d842006760/amuse-mercury-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-hermite]: Start processing: amuse-mesa-r15140
+[2023-05-17 12:24:18] INFO root fetch - main [MainThread]: End processing [amuse-hermite]: success
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mameclot]: Downloading https://files.pythonhosted.org/packages/70/bc/8ade3a6be7f406e8a1963f8df867757736ba1681a105e6ef03ef8393661b/amuse-mameclot-2023.5.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r15140]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa]: Downloading https://files.pythonhosted.org/packages/5d/33/e793ccfb9beef7c4953ff7af6606cc993f19e647308df66dbd04aa3b0c6f/amuse-mesa-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [azure-confidentialledger]: Downloading https://files.pythonhosted.org/packages/a1/57/853726be83f065e5f7d21f9a0ebfca8bc2dd4132a5fece47b7d9df0e033a/azure-confidentialledger-1.1.0.zip
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-hop]: Start processing: amuse-mesa-r2208
+[2023-05-17 12:24:18] INFO root fetch - main [MainThread]: End processing [amuse-hop]: success
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mameclot]: executing diffoscope
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mameclot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mameclot-2023.4.0.tar.gz tmp/amuse-mameclot-2023.5.0.tar.gz --markdown 20230517/a/amuse-mameclot/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mercury]: Downloading https://files.pythonhosted.org/packages/67/50/cddde21afc95769ebdc912079722fdcf9cbf48efbb38850bac5dc205fc5b/amuse-mercury-2023.5.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r15140]: Downloading https://files.pythonhosted.org/packages/c9/d3/bb938dfa95d8001acf18aafc7e70922054b2a04d4cb608f5ca6fb945d7f6/amuse-mesa-r15140-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r2208]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-kepler-orbiters]: Start processing: amuse-mikkola
+[2023-05-17 12:24:18] INFO root fetch - main [MainThread]: End processing [amuse-kepler-orbiters]: success
+[2023-05-17 12:24:18] INFO root fetch - processPackages [azure-confidentialledger]: executing diffoscope
+[2023-05-17 12:24:18] INFO root fetch - processPackages [azure-confidentialledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-confidentialledger-1.0.0b1.zip tmp/azure-confidentialledger-1.1.0.zip --markdown 20230517/a/azure-confidentialledger/1.0.0b1-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-kepler]: Start processing: amuse-mmams
+[2023-05-17 12:24:18] INFO root fetch - main [MainThread]: End processing [amuse-kepler]: success
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa]: Downloading https://files.pythonhosted.org/packages/d9/42/869267574b345d8f2d1d52d143654ce66fc5610134f0a69b055ecbf2ae66/amuse-mesa-2023.5.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mikkola]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mercury]: executing diffoscope
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mercury-2023.4.0.tar.gz tmp/amuse-mercury-2023.5.0.tar.gz --markdown 20230517/a/amuse-mercury/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r2208]: Downloading https://files.pythonhosted.org/packages/7f/81/ae42b6aa4abeb4b0ecefa0edfa36b72e7e6c2424e0d2672f3ab74c630587/amuse-mesa-r2208-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mmams]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r15140]: Downloading https://files.pythonhosted.org/packages/a7/b7/be768002e2b9575d4bc9d504c382f378f17cc3be672905d40823c4d08cf5/amuse-mesa-r15140-2023.5.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa]: executing diffoscope
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mesa-2023.4.0.tar.gz tmp/amuse-mesa-2023.5.0.tar.gz --markdown 20230517/a/amuse-mesa/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mikkola]: Downloading https://files.pythonhosted.org/packages/76/b8/7594aaf6aabd12d3181b853cee0a640aae5517938da16f103fbae0e7ff6b/amuse-mikkola-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mmams]: Downloading https://files.pythonhosted.org/packages/5f/1a/6c892b647b76ccbb4b3a8b18b95525dc1b9401ee545c28ba43e7ae92c140/amuse-mmams-2023.4.0.tar.gz
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r15140]: executing diffoscope
+[2023-05-17 12:24:18] INFO root fetch - processPackages [amuse-mesa-r15140]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mesa-r15140-2023.4.0.tar.gz tmp/amuse-mesa-r15140-2023.5.0.tar.gz --markdown 20230517/a/amuse-mesa-r15140/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mikkola]: Downloading https://files.pythonhosted.org/packages/f8/f5/d78a12e10e86bc8e7be7c4ec6264a730a042cde0d444088e7e3682262970/amuse-mikkola-2023.5.0.tar.gz
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mmams]: Downloading https://files.pythonhosted.org/packages/41/5d/2662189ab7488bfa91038c02f56e7fc121c4b073f07e4a6e322ce9222a0c/amuse-mmams-2023.5.0.tar.gz
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mesa-r2208]: Downloading https://files.pythonhosted.org/packages/11/57/589142afd9e923169dfe552b3d3ffab5174febfac82821a58b6319c44954/amuse-mesa-r2208-2023.5.0.tar.gz
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mikkola]: executing diffoscope
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mikkola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mikkola-2023.4.0.tar.gz tmp/amuse-mikkola-2023.5.0.tar.gz --markdown 20230517/a/amuse-mikkola/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mmams]: executing diffoscope
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mmams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mmams-2023.4.0.tar.gz tmp/amuse-mmams-2023.5.0.tar.gz --markdown 20230517/a/amuse-mmams/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mameclot]: Start processing: amuse-mobse
+[2023-05-17 12:24:19] INFO root fetch - main [MainThread]: End processing [amuse-mameclot]: success
+[2023-05-17 12:24:19] INFO root fetch - processPackages [amuse-mobse]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mobse]: Downloading https://files.pythonhosted.org/packages/8c/37/c62c4c5ac71de88c81eeadf89cba976a6e898cedc2c77ea78101361539f7/amuse-mobse-2023.4.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-galactics]: Start processing: amuse-mosse
+[2023-05-17 12:24:20] INFO root fetch - main [MainThread]: End processing [amuse-galactics]: success
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mobse]: Downloading https://files.pythonhosted.org/packages/2c/5d/7360ac8fff032cb8e5c40ad80ad818bb6854d1b1ba3239602a483bf63f1f/amuse-mobse-2023.5.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mesa]: Start processing: amuse-petar
+[2023-05-17 12:24:20] INFO root fetch - main [MainThread]: End processing [amuse-mesa]: success
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mosse]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-petar]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mikkola]: Start processing: amuse-ph4
+[2023-05-17 12:24:20] INFO root fetch - main [MainThread]: End processing [amuse-mikkola]: success
+[2023-05-17 12:24:20] INFO root fetch - processPackages [azure-confidentialledger]: Start processing: amuse-phantom
+[2023-05-17 12:24:20] INFO root fetch - main [MainThread]: End processing [azure-confidentialledger]: success
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mobse]: executing diffoscope
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mobse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mobse-2023.4.0.tar.gz tmp/amuse-mobse-2023.5.0.tar.gz --markdown 20230517/a/amuse-mobse/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mesa-r2208]: executing diffoscope
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mesa-r2208]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mesa-r2208-2023.4.0.tar.gz tmp/amuse-mesa-r2208-2023.5.0.tar.gz --markdown 20230517/a/amuse-mesa-r2208/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-ph4]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mosse]: Downloading https://files.pythonhosted.org/packages/50/5d/185ab5a4a6338fb44ee43195bbfeb83d0e7851048b44e0b8f7ba4d440f1e/amuse-mosse-2023.4.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mesa-r15140]: Start processing: amuse-phigrape
+[2023-05-17 12:24:20] INFO root fetch - main [MainThread]: End processing [amuse-mesa-r15140]: success
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-phantom]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-petar]: Downloading https://files.pythonhosted.org/packages/e2/55/4980b9b23be3216c33c1b6b4b686429fa58b4dff18b0868c327e5f25df3a/amuse-petar-2023.4.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-phigrape]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-ph4]: Downloading https://files.pythonhosted.org/packages/b1/c8/3bc907e0d3cd618aabb15e5350632b505f74e121457973c23a97219a8aa8/amuse-ph4-2023.4.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-phantom]: Downloading https://files.pythonhosted.org/packages/de/c0/9f6a0e7c69f45588d094d61872353dd75a7f631f36cf085dcb1ea16d9f91/amuse-phantom-2023.4.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-mosse]: Downloading https://files.pythonhosted.org/packages/27/bd/437d5cad894fe996cbe6e2f67bc6adbd523cfbe1282494f30c399424ccae/amuse-mosse-2023.5.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-petar]: Downloading https://files.pythonhosted.org/packages/6a/23/e45598278f78fd51a39e07d28863ab60973741946bb519359b76ebcd164b/amuse-petar-2023.5.0.tar.gz
+[2023-05-17 12:24:20] INFO root fetch - processPackages [amuse-phigrape]: Downloading https://files.pythonhosted.org/packages/dd/2f/d2ed03a37e53e278e1a8db0be6aba90d971a8a334b32f4e128ace022a0e9/amuse-phigrape-2023.4.0.tar.gz
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-mosse]: executing diffoscope
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-mosse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mosse-2023.4.0.tar.gz tmp/amuse-mosse-2023.5.0.tar.gz --markdown 20230517/a/amuse-mosse/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-phantom]: Downloading https://files.pythonhosted.org/packages/fb/22/e3bb899fab61c6cca51faf10db1f7f7b18f57c1ece1d27902f5c5cb96e77/amuse-phantom-2023.5.0.tar.gz
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-petar]: executing diffoscope
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-petar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-petar-2023.4.0.tar.gz tmp/amuse-petar-2023.5.0.tar.gz --markdown 20230517/a/amuse-petar/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-phigrape]: Downloading https://files.pythonhosted.org/packages/4b/20/f95eb1f8f653f0a05a71c5dc75b4951a930e839372acb4f2cc24404a8c1b/amuse-phigrape-2023.5.0.tar.gz
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-phantom]: executing diffoscope
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-phantom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-phantom-2023.4.0.tar.gz tmp/amuse-phantom-2023.5.0.tar.gz --markdown 20230517/a/amuse-phantom/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-phigrape]: executing diffoscope
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-phigrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-phigrape-2023.4.0.tar.gz tmp/amuse-phigrape-2023.5.0.tar.gz --markdown 20230517/a/amuse-phigrape/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-ph4]: Downloading https://files.pythonhosted.org/packages/ac/41/ed263b74d587ca3ed1a3a15ae53a7bfb2f921647212ffe7bf559d15efa17/amuse-ph4-2023.5.0.tar.gz
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-fi]: Start processing: amuse-seba
+[2023-05-17 12:24:21] INFO root fetch - main [MainThread]: End processing [amuse-fi]: success
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-seba]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-mercury]: Start processing: amuse-secularmultiple
+[2023-05-17 12:24:21] INFO root fetch - main [MainThread]: End processing [amuse-mercury]: success
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-mmams]: Start processing: amuse-simplex
+[2023-05-17 12:24:21] INFO root fetch - main [MainThread]: End processing [amuse-mmams]: success
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-secularmultiple]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:21] INFO root fetch - processPackages [amuse-seba]: Downloading https://files.pythonhosted.org/packages/84/32/20b241146d10e432e4c11d953f630660e4eecf2ab76a8fb848da131ac720/amuse-seba-2023.4.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-simplex]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-mobse]: Start processing: amuse-smalln
+[2023-05-17 12:24:22] INFO root fetch - main [MainThread]: End processing [amuse-mobse]: success
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-ph4]: executing diffoscope
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-ph4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-ph4-2023.4.0.tar.gz tmp/amuse-ph4-2023.5.0.tar.gz --markdown 20230517/a/amuse-ph4/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-secularmultiple]: Downloading https://files.pythonhosted.org/packages/a2/50/e00d3d4c55f546abbabc99834eb020f5009dc84fc680871e5a0876764328/amuse-secularmultiple-2023.4.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-smalln]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-simplex]: Downloading https://files.pythonhosted.org/packages/51/66/e204eaa4e1b827def86a3035f4e4b27227760294634d5a0c09be1374b23f/amuse-simplex-2023.4.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-seba]: Downloading https://files.pythonhosted.org/packages/5e/04/3ca05b7799c72503bd822d46e9e7ada204d80b19bec2487f30dfc7c4cfe8/amuse-seba-2023.5.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-secularmultiple]: Downloading https://files.pythonhosted.org/packages/3e/f4/1ee5980a60516a5a4d684453b5b48e81cfb6acca6be42e889ef712b83c2d/amuse-secularmultiple-2023.5.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-smalln]: Downloading https://files.pythonhosted.org/packages/af/dc/4e4a648d16626dcaf5c1b077fdce06a309303c25d9f6ac893ce8282fd1db/amuse-smalln-2023.4.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-seba]: executing diffoscope
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-seba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-seba-2023.4.0.tar.gz tmp/amuse-seba-2023.5.0.tar.gz --markdown 20230517/a/amuse-seba/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-petar]: Start processing: amuse-sphray
+[2023-05-17 12:24:22] INFO root fetch - main [MainThread]: End processing [amuse-petar]: success
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-mesa-r2208]: Start processing: amuse-sse
+[2023-05-17 12:24:22] INFO root fetch - main [MainThread]: End processing [amuse-mesa-r2208]: success
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-sphray]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-secularmultiple]: executing diffoscope
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-secularmultiple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-secularmultiple-2023.4.0.tar.gz tmp/amuse-secularmultiple-2023.5.0.tar.gz --markdown 20230517/a/amuse-secularmultiple/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-sse]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-phantom]: Start processing: amuse-tests
+[2023-05-17 12:24:22] INFO root fetch - main [MainThread]: End processing [amuse-phantom]: success
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-smalln]: Downloading https://files.pythonhosted.org/packages/b8/05/9134f8a68a4255429ac189e4c99b4d227073491a6857b4aae87431a2305d/amuse-smalln-2023.5.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-mosse]: Start processing: amuse-tutorial
+[2023-05-17 12:24:22] INFO root fetch - main [MainThread]: End processing [amuse-mosse]: success
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-tests]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-sphray]: Downloading https://files.pythonhosted.org/packages/9e/26/10bc4a51ed2b044c98d92a6099a38098a6c3c792e9790ae10f18b72a7610/amuse-sphray-2023.4.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-sse]: Downloading https://files.pythonhosted.org/packages/bf/4c/00fc75d45fb6c45932c41f4a394843721092406cab7e863a17a47091c86b/amuse-sse-2023.4.0.tar.gz
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-tutorial]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-smalln]: executing diffoscope
+[2023-05-17 12:24:22] INFO root fetch - processPackages [amuse-smalln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-smalln-2023.4.0.tar.gz tmp/amuse-smalln-2023.5.0.tar.gz --markdown 20230517/a/amuse-smalln/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tests]: Downloading https://files.pythonhosted.org/packages/55/4d/5f2b507403c88e803f5e514f9ff7b9b7a92f4f672da1bc1b229f697fd54d/amuse-tests-2023.4.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tutorial]: Downloading https://files.pythonhosted.org/packages/1f/47/9c2b77b2ef72c88c4de6b41a9513145929cec1f394cef8b98a354fdfcedb/amuse-tutorial-2023.4.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-sse]: Downloading https://files.pythonhosted.org/packages/59/89/5b31baa0999b775118dad3eaf54246812c42a975f790fe521e7547607abe/amuse-sse-2023.5.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-simplex]: Downloading https://files.pythonhosted.org/packages/d3/58/a982b52993c3761eba9f27fc1ea80fb6fb167d4348331fa0e4819b331c00/amuse-simplex-2023.5.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-sse]: executing diffoscope
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-sse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-sse-2023.4.0.tar.gz tmp/amuse-sse-2023.5.0.tar.gz --markdown 20230517/a/amuse-sse/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tests]: Downloading https://files.pythonhosted.org/packages/2e/a0/fb5fa2ed9fa96c507e00e8810e4a49f2adb81ef41648a7a767b0aaf3937e/amuse-tests-2023.5.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tutorial]: Downloading https://files.pythonhosted.org/packages/23/e1/80bf08e35e59d977e9396b29013377dc72392e2694c987244580a8b518e3/amuse-tutorial-2023.5.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-sphray]: Downloading https://files.pythonhosted.org/packages/91/63/f99bc71623ac4d5177b0a999d05ad6d9e30e06c7ef418ea2b48b9e29f5ab/amuse-sphray-2023.5.0.tar.gz
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tutorial]: executing diffoscope
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tutorial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-tutorial-2023.4.0.tar.gz tmp/amuse-tutorial-2023.5.0.tar.gz --markdown 20230517/a/amuse-tutorial/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-seba]: Start processing: amuse-twobody
+[2023-05-17 12:24:23] INFO root fetch - main [MainThread]: End processing [amuse-seba]: success
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tests]: executing diffoscope
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-tests-2023.4.0.tar.gz tmp/amuse-tests-2023.5.0.tar.gz --markdown 20230517/a/amuse-tests/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:23] INFO root fetch - processPackages [amuse-twobody]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-twobody]: Downloading https://files.pythonhosted.org/packages/06/ae/f39d149407f5cc15bd4b812451805f41728cbf614b952e7c3d08921dd6ad/amuse-twobody-2023.4.0.tar.gz
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-simplex]: executing diffoscope
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-simplex-2023.4.0.tar.gz tmp/amuse-simplex-2023.5.0.tar.gz --markdown 20230517/a/amuse-simplex/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-phigrape]: Start processing: amuse-vader
+[2023-05-17 12:24:24] INFO root fetch - main [MainThread]: End processing [amuse-phigrape]: success
+[2023-05-17 12:24:24] INFO root fetch - main [MainThread]: End processing [amuse-ph4]: success
+[2023-05-17 12:24:24] INFO root fetch - main [MainThread]: End processing [amuse-secularmultiple]: success
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-sphray]: executing diffoscope
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-sphray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-sphray-2023.4.0.tar.gz tmp/amuse-sphray-2023.5.0.tar.gz --markdown 20230517/a/amuse-sphray/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-vader]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-twobody]: Downloading https://files.pythonhosted.org/packages/17/e9/ad41ebd1309d8a8165e3087b8758149f8b29b890895517b78a539f2557ad/amuse-twobody-2023.5.0.tar.gz
+[2023-05-17 12:24:24] INFO root fetch - main [MainThread]: End processing [amuse-smalln]: success
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-vader]: Downloading https://files.pythonhosted.org/packages/5b/26/91221c842eb0a5408a2635af61f4ae78b33616b8290924d052f6f9629083/amuse-vader-2023.4.0.tar.gz
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-twobody]: executing diffoscope
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-twobody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-twobody-2023.4.0.tar.gz tmp/amuse-twobody-2023.5.0.tar.gz --markdown 20230517/a/amuse-twobody/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:24] INFO root fetch - main [MainThread]: End processing [amuse-sse]: success
+[2023-05-17 12:24:24] INFO root fetch - processPackages [amuse-vader]: Downloading https://files.pythonhosted.org/packages/d0/23/9f61c4adadb54fa1dbaf6a6841afaf94445447ccdf07edd06a90f942f873/amuse-vader-2023.5.0.tar.gz
+[2023-05-17 12:24:24] INFO root fetch - main [MainThread]: End processing [amuse-tutorial]: success
+[2023-05-17 12:24:25] INFO root fetch - processPackages [amuse-vader]: executing diffoscope
+[2023-05-17 12:24:25] INFO root fetch - processPackages [amuse-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-vader-2023.4.0.tar.gz tmp/amuse-vader-2023.5.0.tar.gz --markdown 20230517/a/amuse-vader/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 12:24:25] INFO root fetch - main [MainThread]: End processing [amuse-twobody]: success
+[2023-05-17 12:24:26] INFO root fetch - main [MainThread]: End processing [amuse-vader]: success
+[2023-05-17 12:24:26] INFO root fetch - main [MainThread]: End processing [amuse-sphray]: success
+[2023-05-17 12:24:27] INFO root fetch - main [MainThread]: End processing [amuse-tests]: success
+[2023-05-17 12:24:30] INFO root fetch - main [MainThread]: End processing [amuse-simplex]: success
+[2023-05-17 12:24:30] INFO root fetch - main [MainThread]: Store serial: [18137775]
