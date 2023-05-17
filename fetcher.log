@@ -9250,3 +9250,86 @@
 [2023-05-17 08:52:01] INFO root fetch - main [MainThread]: End processing [sdkms]: success
 [2023-05-17 08:52:10] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-17 08:52:10] INFO root fetch - main [MainThread]: Store serial: [18135150]
+[2023-05-17 08:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135150]
+[2023-05-17 08:57:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-common-test
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonarr-py
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xllabelme
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chailie
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeepPSDNano
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: betterproto-twirp-new
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anything2image
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-sale-workflow
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-sonarqube-api
+[2023-05-17 08:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: core-models
+[2023-05-17 08:57:19] INFO root fetch - processPackages [core-models]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [automation-common-test]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [anything2image]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [sonarr-py]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [chailie]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [betterproto-twirp-new]: New version: [1.2.18] Old Version: [1.2.17]
+[2023-05-17 08:57:19] WARNING root fetch - processPackages [DeepPSDNano]: Skipping, unable to determine old version
+[2023-05-17 08:57:19] INFO root fetch - processPackages [DeepPSDNano]: Start processing: lumber-sdk
+[2023-05-17 08:57:19] INFO root fetch - main [MainThread]: End processing [DeepPSDNano] error
+[2023-05-17 08:57:19] INFO root fetch - processPackages [xllabelme]: New version: [5.1.7] Old Version: [5.1.6]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230516.0] Old Version: [16.0.20230515.0]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [python-sonarqube-api]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [lumber-sdk]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 08:57:19] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/01/dc/9519a97af6fe4e9e2b62f6ff51ff972971780fc119904db0ed5f7ab3872d/odoo_addons_oca_sale_workflow-16.0.20230515.0-py3-none-any.whl
+[2023-05-17 08:57:19] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/c2/ba/300856fc6cc3a4af7d0da2d9c3243f212ed1d20a01b0ccc3f3032554961d/automation-common-test-1.9.0.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/b6/ff/a7140f6cef77fedbf601d45b9e60fdcc91fec7c8dcb6ea887e6e7467c7e1/anything2image-1.0.4.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/7e/26/888a022602ff7e25718771f7fc026b33b32c982c4f59e79c6968d1af0879/core_models-0.0.1.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [betterproto-twirp-new]: Downloading https://files.pythonhosted.org/packages/e3/cf/af9f767f56026019c60aee6ebdadc372314fa53d77bee7efdbde2e47030b/betterproto-twirp-new-1.2.17.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/2f/9d/9ee6a4a8046a32e49cd245fe224d08b4526a3379560efee6d05fc16ec577/python-sonarqube-api-1.3.6.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [chailie]: Downloading https://files.pythonhosted.org/packages/9b/c8/1ac7d9f82260763b908da1e44084303bcb167bc204b4909eff77b8d8dc7f/chailie-0.3.0.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [xllabelme]: Downloading https://files.pythonhosted.org/packages/d6/b7/2c18af9bb76dff5da09d51a1dcbd72249826a2eb5d3a8c8928c7a4ca9dac/xllabelme-5.1.6.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [lumber-sdk]: Downloading https://files.pythonhosted.org/packages/87/dd/4781f768052ab5c57e62238a91ae06ab59a6124849d084042dfffda870d2/lumber-sdk-1.0.0.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [sonarr-py]: Downloading https://files.pythonhosted.org/packages/ab/26/00fd8a4a1ca6e9765a59e10e69eb9616242f6ebabf0b048298d2f33bd3ff/sonarr-py-0.6.2.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/be/04/e86c9c2ce7752ad3a3a397046df2c5ac6dc2552f6b2e52be686c8dbedd83/core_models-0.0.2.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/1b/23/538505f03ef11a6bc2becdf228be95577b413c619ba40a0c0ca93f2d89fa/odoo_addons_oca_sale_workflow-16.0.20230516.0-py3-none-any.whl
+[2023-05-17 08:57:19] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/4f/58/5cd03fa3cc7a8bee42f3fde890a7821101e620c6326e637e50918e65a2e4/automation-common-test-2.0.0.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [betterproto-twirp-new]: Downloading https://files.pythonhosted.org/packages/04/00/b4a69b71861efd95ab7eb66771bc925ff52b94724cf0c9b8928355b79f09/betterproto-twirp-new-1.2.18.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [python-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/d4/58/dea1113830458ed06a44256bebbe468b854ce0990db04f8ff916be9d610a/python-sonarqube-api-1.3.7.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.0.1.tar.gz tmp/core_models-0.0.2.tar.gz --markdown 20230517/c/core-models/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [xllabelme]: Downloading https://files.pythonhosted.org/packages/08/99/14aeeb6e89dfa19fdca99fbf297ecf177c1a1ed836a7b53d68b83c23c209/xllabelme-5.1.7.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.9.0.tar.gz tmp/automation-common-test-2.0.0.tar.gz --markdown 20230517/a/automation-common-test/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [python-sonarqube-api]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [python-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sonarqube-api-1.3.6.tar.gz tmp/python-sonarqube-api-1.3.7.tar.gz --markdown 20230517/p/python-sonarqube-api/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [sonarr-py]: Downloading https://files.pythonhosted.org/packages/41/81/a465afa359b5bc2fdb89fb10386ae430038d0e682eb0603f0f11f0fb81b6/sonarr-py-0.7.0.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [xllabelme]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [xllabelme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xllabelme-5.1.6.tar.gz tmp/xllabelme-5.1.7.tar.gz --markdown 20230517/x/xllabelme/5.1.6-5.1.7/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [chailie]: Downloading https://files.pythonhosted.org/packages/ab/41/98cd93e7ddf236d49d17d040081ebdf0eec419871a4d3afd7cde5af471ae/chailie-0.3.1.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [betterproto-twirp-new]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [betterproto-twirp-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterproto-twirp-new-1.2.17.tar.gz tmp/betterproto-twirp-new-1.2.18.tar.gz --markdown 20230517/b/betterproto-twirp-new/1.2.17-1.2.18/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [lumber-sdk]: Downloading https://files.pythonhosted.org/packages/a4/fd/b09ccac957a73b018336b41e6b1de311769e392b4c2c22255609c4e14765/lumber-sdk-1.1.0.tar.gz
+[2023-05-17 08:57:19] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230516.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addons-oca-sale-workflow/16.0.20230515.0-16.0.20230516.0/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [sonarr-py]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [sonarr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonarr-py-0.6.2.tar.gz tmp/sonarr-py-0.7.0.tar.gz --markdown 20230517/s/sonarr-py/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [lumber-sdk]: executing diffoscope
+[2023-05-17 08:57:19] INFO root fetch - processPackages [lumber-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumber-sdk-1.0.0.tar.gz tmp/lumber-sdk-1.1.0.tar.gz --markdown 20230517/l/lumber-sdk/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 08:57:19] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/68/94/44e1941f021e35906b8d0069fc5c36e4917e5ee37c81dddc7c248fd52115/anything2image-1.0.5.tar.gz
+[2023-05-17 08:57:20] INFO root fetch - processPackages [chailie]: executing diffoscope
+[2023-05-17 08:57:20] INFO root fetch - processPackages [chailie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chailie-0.3.0.tar.gz tmp/chailie-0.3.1.tar.gz --markdown 20230517/c/chailie/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 08:57:20] INFO root fetch - processPackages [anything2image]: executing diffoscope
+[2023-05-17 08:57:20] INFO root fetch - processPackages [anything2image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anything2image-1.0.4.tar.gz tmp/anything2image-1.0.5.tar.gz --markdown 20230517/a/anything2image/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 08:57:21] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Start processing: tad-dftd4
+[2023-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-05-17 08:57:21] INFO root fetch - processPackages [tad-dftd4]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [lumber-sdk]: success
+[2023-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [chailie]: success
+[2023-05-17 08:57:21] INFO root fetch - processPackages [tad-dftd4]: Downloading https://files.pythonhosted.org/packages/dd/c1/7869e3ad301c32adc90ed100fd20a417f91c7eb8cef08f5b59f861e2e866/tad_dftd4-0.0.3.tar.gz
+[2023-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [betterproto-twirp-new]: success
+[2023-05-17 08:57:21] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-17 08:57:21] INFO root fetch - processPackages [tad-dftd4]: Downloading https://files.pythonhosted.org/packages/a8/f2/ab1a7ace84e437bbd2843855b6fded664ae5f8113a77ddf6cef079b7e5f0/tad_dftd4-0.0.4.tar.gz
+[2023-05-17 08:57:21] INFO root fetch - processPackages [tad-dftd4]: executing diffoscope
+[2023-05-17 08:57:21] INFO root fetch - processPackages [tad-dftd4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tad_dftd4-0.0.3.tar.gz tmp/tad_dftd4-0.0.4.tar.gz --markdown 20230517/t/tad-dftd4/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 08:57:22] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-05-17 08:57:22] INFO root fetch - main [MainThread]: End processing [python-sonarqube-api]: success
+[2023-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [tad-dftd4]: success
+[2023-05-17 08:57:23] INFO root fetch - main [MainThread]: End processing [anything2image]: success
+[2023-05-17 08:57:24] INFO root fetch - main [MainThread]: End processing [xllabelme]: success
+[2023-05-17 08:57:51] INFO root fetch - main [MainThread]: End processing [sonarr-py]: success
+[2023-05-17 08:57:51] INFO root fetch - main [MainThread]: Store serial: [18135183]
