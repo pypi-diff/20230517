@@ -11233,3 +11233,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 10:34:25] INFO root fetch - main [MainThread]: End processing [query-toolkits]: success
 [2023-05-17 10:34:25] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-17 10:34:25] INFO root fetch - main [MainThread]: Store serial: [18136439]
+[2023-05-17 10:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136439]
+[2023-05-17 10:39:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signalsnap
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yellowbox-snowglobe
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onsite
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytheia
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docbuild
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: windpyutils
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threedi-schema
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-estimator-nightly
+[2023-05-17 10:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moe-inform-client
+[2023-05-17 10:39:35] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [docbuild]: New version: [0.1.109] Old Version: [0.1.108]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/63/12/d7dc59e285a43c2e139b9557a2841057aa707d35d5f3a9be1636bb43cf3d/docbuild-0.1.108.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [yellowbox-snowglobe]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-17 10:39:35] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230517/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:39:35] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-05-17 10:39:35] INFO root fetch - processPackages [signalsnap]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [onsite]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [pytheia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [moe-inform-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [threedi-schema]: New version: [0.217.1] Old Version: [0.217.0]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/0a/8b/e631d05913afcce94682ffc5b0f80b005c77b7ac08eaef89818b9b913f0e/docbuild-0.1.109.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [onsite]: Downloading https://files.pythonhosted.org/packages/cf/a6/67a8e7ca4ac666148e7ea5d96497edcf1d4ae7c68f9fedfc48ae8b7ff116/onsite-1.0.3.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-05-17 10:39:35] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [docbuild]: executing diffoscope
+[2023-05-17 10:39:35] INFO root fetch - processPackages [yellowbox-snowglobe]: Downloading https://files.pythonhosted.org/packages/87/0e/d68ac6cb0ffa3d8aa2ff6ce09677f58cf7dc3b29164b0e20e6ffabb2444d/yellowbox_snowglobe-0.2.0.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docbuild-0.1.108.tar.gz tmp/docbuild-0.1.109.tar.gz --markdown 20230517/d/docbuild/0.1.108-0.1.109/diff.md --exclude *.pyd
+[2023-05-17 10:39:35] INFO root fetch - processPackages [moe-inform-client]: Downloading https://files.pythonhosted.org/packages/ef/61/b2b3927c41625b4a6a58694a709714a53c00140d35e4961e44d6f351ab7a/moe-inform-client-0.0.1.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/13/49/d183b122c16564dd1e751908c3e9ecaa9e7afd77baec58fab126c673b523/threedi-schema-0.217.0.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [signalsnap]: Downloading https://files.pythonhosted.org/packages/0d/79/9303abbee8ecad838ee884a8c8ff25fd9dd26fb7efe3ff0d644476efb577/signalsnap-0.1.7.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/db/cb/0be1f2ecd21e8ed7f9f3f3818b3f882fcd1f904b8e53b78b8665bbccf06c/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-17 10:39:35] WARNING root fetch - processPackages [signalsnap]: Skipping package: exceeds size limit 32154044>=10485760
+[2023-05-17 10:39:35] INFO root fetch - processPackages [signalsnap]: Start processing: bimdata-api-client
+[2023-05-17 10:39:35] INFO root fetch - main [MainThread]: End processing [signalsnap] error
+[2023-05-17 10:39:35] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-05-17 10:39:35] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-17 10:39:35] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230517/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-17 10:39:35] INFO root fetch - processPackages [onsite]: Downloading https://files.pythonhosted.org/packages/97/55/436d2dfbb05daf7f992c265f4b163d80424a763448a523c07d55a263bbea/onsite-1.0.4.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [moe-inform-client]: Downloading https://files.pythonhosted.org/packages/36/a5/43e2b98972a39fc0fe11735b0380c6c82458a70b367683405fb9d0cf43a8/moe-inform-client-0.0.2.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/ad/01/3214a12e8bfeab50c406d59cf28ba9ab2db17116f29697f6cde1482756c1/threedi-schema-0.217.1.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [onsite]: executing diffoscope
+[2023-05-17 10:39:35] INFO root fetch - processPackages [onsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onsite-1.0.3.tar.gz tmp/onsite-1.0.4.tar.gz --markdown 20230517/o/onsite/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 10:39:35] INFO root fetch - processPackages [yellowbox-snowglobe]: Downloading https://files.pythonhosted.org/packages/93/90/5c7f8d1bcb697c76104e18fdcd992ce12a0ba980c9e518e84eea1dc724ce/yellowbox_snowglobe-0.2.1.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [moe-inform-client]: executing diffoscope
+[2023-05-17 10:39:35] INFO root fetch - processPackages [moe-inform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moe-inform-client-0.0.1.tar.gz tmp/moe-inform-client-0.0.2.tar.gz --markdown 20230517/m/moe-inform-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 10:39:35] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-05-17 10:39:35] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2023-05-17 10:39:35] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.217.0.tar.gz tmp/threedi-schema-0.217.1.tar.gz --markdown 20230517/t/threedi-schema/0.217.0-0.217.1/diff.md --exclude *.pyd
+[2023-05-17 10:39:36] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/f4/1f/4929381cf46e92fdccf72ceab1b4a6858800ceff635f10e85be29b2a662e/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-17 10:39:36] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-05-17 10:39:36] INFO root fetch - processPackages [yellowbox-snowglobe]: executing diffoscope
+[2023-05-17 10:39:36] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-05-17 10:39:36] INFO root fetch - processPackages [yellowbox-snowglobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox_snowglobe-0.2.0.tar.gz tmp/yellowbox_snowglobe-0.2.1.tar.gz --markdown 20230517/y/yellowbox-snowglobe/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 10:39:36] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230517/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:39:36] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-05-17 10:39:36] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230517/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-17 10:39:36] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2023-05-17 10:39:36] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230517/p/pytheia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 10:39:37] INFO root fetch - processPackages [docbuild]: Start processing: cici.tools
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [docbuild]: success
+[2023-05-17 10:39:37] INFO root fetch - processPackages [cici.tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 10:39:37] INFO root fetch - processPackages [DLMS-SPODES]: Start processing: panml
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-17 10:39:37] INFO root fetch - processPackages [cici.tools]: Downloading https://files.pythonhosted.org/packages/42/a0/4e22c35a62c1e26ca7753704be22f10c4b94425e9bde6ec7c31983c0a370/cici.tools-0.1.0.tar.gz
+[2023-05-17 10:39:37] WARNING root fetch - processPackages [panml]: Skipping, unable to determine old version
+[2023-05-17 10:39:37] INFO root fetch - processPackages [panml]: Start processing: domain-admin
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [panml] error
+[2023-05-17 10:39:37] INFO root fetch - processPackages [moe-inform-client]: Start processing: dbt-coverage
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [moe-inform-client]: success
+[2023-05-17 10:39:37] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2023-05-17 10:39:37] INFO root fetch - processPackages [dbt-coverage]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [yellowbox-snowglobe]: success
+[2023-05-17 10:39:37] INFO root fetch - processPackages [cici.tools]: Downloading https://files.pythonhosted.org/packages/0e/49/e258cfb97b7d0ae5f9b33032e998a123d026c58addd3bec2048fff1cd7f0/cici.tools-0.1.1.tar.gz
+[2023-05-17 10:39:37] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-05-17 10:39:37] INFO root fetch - processPackages [cici.tools]: executing diffoscope
+[2023-05-17 10:39:37] INFO root fetch - processPackages [cici.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici.tools-0.1.0.tar.gz tmp/cici.tools-0.1.1.tar.gz --markdown 20230517/c/cici.tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 10:39:37] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/12/fd/408b2019569509ef3185c0e2a8aac6581beff09247221f0099b89eb5a53e/domain-admin-1.2.8.tar.gz
+[2023-05-17 10:39:37] INFO root fetch - processPackages [dbt-coverage]: Downloading https://files.pythonhosted.org/packages/e1/fb/6e2c69d66c9ff2293691fdb84e06d5f982faf3cd95535a43f060027d411b/dbt_coverage-0.3.3.tar.gz
+[2023-05-17 10:39:38] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/25/50/bda7d4fb755638b0e212e1f3e7f778a08590ed8127424a05cc3432d28958/domain-admin-1.2.9.tar.gz
+[2023-05-17 10:39:38] INFO root fetch - main [MainThread]: End processing [onsite]: success
+[2023-05-17 10:39:38] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-05-17 10:39:38] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230517/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 10:39:38] INFO root fetch - processPackages [dbt-coverage]: Downloading https://files.pythonhosted.org/packages/7b/45/5bcafa682a64f1baac2dbafb4d957e64bb3a712743c27da456cb7682704b/dbt_coverage-0.3.4.tar.gz
+[2023-05-17 10:39:38] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-17 10:39:38] INFO root fetch - processPackages [dbt-coverage]: executing diffoscope
+[2023-05-17 10:39:38] INFO root fetch - processPackages [dbt-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coverage-0.3.3.tar.gz tmp/dbt_coverage-0.3.4.tar.gz --markdown 20230517/d/dbt-coverage/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-17 10:39:38] INFO root fetch - main [MainThread]: End processing [cici.tools]: success
+[2023-05-17 10:39:39] INFO root fetch - main [MainThread]: End processing [dbt-coverage]: success
+[2023-05-17 10:39:40] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-05-17 10:39:45] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-05-17 10:40:21] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2023-05-17 10:40:21] INFO root fetch - main [MainThread]: Store serial: [18136485]
