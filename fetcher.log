@@ -16314,3 +16314,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:31:30] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
 [2023-05-17 14:31:32] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
 [2023-05-17 14:31:32] INFO root fetch - main [MainThread]: Store serial: [18139289]
+[2023-05-17 14:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139289]
+[2023-05-17 14:36:41] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cool
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Econ-Windows
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bloodyAD
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pglift
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upyog
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dxsp
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cluster-experiments
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: materialyoucolor
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ttcore
+[2023-05-17 14:36:41] INFO root fetch - processPackages [bloodyAD]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [upyog]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [django-cool]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ttcore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [materialyoucolor]: New version: [1.2] Old Version: [1.1.2]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.8.0.1.dev1] Old Version: [14.0.8.0.1]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [cluster-experiments]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [pglift]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-17 14:36:41] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/60/71/f51df07ee91ed662145f7859e19028ecda816149656eab5205b50267a959/dxsp-2.2.8.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [materialyoucolor]: Downloading https://files.pythonhosted.org/packages/b3/0e/5a74674550110527cb3d691eb8a9cc73e537d0bb3c327eda83cc6cc41830/materialyoucolor-1.1.2.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/c2/fb/5258d86e333d7d72371ec707c94bf072409292e8605d4e91cbf2408e1d4b/odoo14_addon_l10n_br_nfe-14.0.8.0.1-py3-none-any.whl
+[2023-05-17 14:36:41] INFO root fetch - processPackages [bloodyAD]: Downloading https://files.pythonhosted.org/packages/7c/cc/3c2bf1fce22f7621a37665dd6d9d11afb520bc38fa786ed2f5f468520ec8/bloodyAD-1.0.1.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [django-cool]: Downloading https://files.pythonhosted.org/packages/29/25/2a277b2b5c114660d2f571c7548f3af189d4702ebc8dd163320d045ed2f7/django-cool-1.2.7.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/c6/c2/9453100de720b94f991b0da0df51c463a8b367869c1da867fc2462416053/Econ_Windows-0.0.9.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/52/67/e0073430f3eebed117287322b1c448495637915e3919363200349ba93b2b/ttcore-0.1.7.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/3f/1c/f3e0c4e4e44b09a5bcd064d7050a0fbd25e8cf1205cd6fe5d4838bdf1003/cluster_experiments-0.8.4.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [upyog]: Downloading https://files.pythonhosted.org/packages/84/b0/66d0509b8e638384ff784ad939487bd2f72facd313b1f9a1a11a31f1582c/upyog-0.6.2.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [pglift]: Downloading https://files.pythonhosted.org/packages/7d/27/d1f439d5f6d33d6b8dc6c0e851cb59f4592e14f49365386c600c6af68718/pglift-0.8.0.tar.gz
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ttcore]: executing diffoscope
+[2023-05-17 14:36:41] INFO root fetch - processPackages [ttcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcore-0.1.6.tar.gz tmp/ttcore-0.1.7.tar.gz --markdown 20230517/t/ttcore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 14:36:41] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-17 14:36:41] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.8.tar.gz tmp/Econ_Windows-0.0.9.tar.gz --markdown 20230517/E/Econ-Windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [materialyoucolor]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [materialyoucolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/materialyoucolor-1.1.2.tar.gz tmp/materialyoucolor-1.2.tar.gz --markdown 20230517/m/materialyoucolor/1.1.2-1.2/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a0/56/f546a97608f10fc68386ae3ad008c10334e015e6ac67a9d8b49aff6cd27d/dxsp-2.2.9.tar.gz
+[2023-05-17 14:36:42] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.8.3.tar.gz tmp/cluster_experiments-0.8.4.tar.gz --markdown 20230517/c/cluster-experiments/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [django-cool]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [django-cool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cool-1.2.6.tar.gz tmp/django-cool-1.2.7.tar.gz --markdown 20230517/d/django-cool/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230517/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [upyog]: Downloading https://files.pythonhosted.org/packages/40/a0/58c5869cf64d5d84a1fff7c3679c115b92c3ae99187e2f0ad425801ec692/upyog-0.7.0.tar.gz
+[2023-05-17 14:36:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/68/51/b5aa70dfba70aa47b30831cafed09b989027e22093724a3cf0d8a5f6f190/odoo14_addon_l10n_br_nfe-14.0.8.0.1.dev1-py3-none-any.whl
+[2023-05-17 14:36:42] INFO root fetch - processPackages [bloodyAD]: Downloading https://files.pythonhosted.org/packages/78/73/05a47d8649f874b06d9996598e6cace794e22af6a3318c86cfecb7e3cfff/bloodyAD-1.0.2.tar.gz
+[2023-05-17 14:36:42] INFO root fetch - processPackages [pglift]: Downloading https://files.pythonhosted.org/packages/e2/f7/2e0ded87c196da325d82fbf455b25ffd39ead24ac9e7946a7782ddabfc13/pglift-0.9.0.tar.gz
+[2023-05-17 14:36:42] INFO root fetch - processPackages [upyog]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [upyog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upyog-0.6.2.tar.gz tmp/upyog-0.7.0.tar.gz --markdown 20230517/u/upyog/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.8.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.8.0.1.dev1-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-l10n-br-nfe/14.0.8.0.1-14.0.8.0.1.dev1/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [bloodyAD]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [bloodyAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloodyAD-1.0.1.tar.gz tmp/bloodyAD-1.0.2.tar.gz --markdown 20230517/b/bloodyAD/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 14:36:42] INFO root fetch - processPackages [pglift]: executing diffoscope
+[2023-05-17 14:36:42] INFO root fetch - processPackages [pglift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglift-0.8.0.tar.gz tmp/pglift-0.9.0.tar.gz --markdown 20230517/p/pglift/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 14:36:43] INFO root fetch - processPackages [Econ-Windows]: Start processing: techiaith-tts
+[2023-05-17 14:36:43] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-17 14:36:43] INFO root fetch - processPackages [techiaith-tts]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 14:36:43] INFO root fetch - processPackages [ttcore]: Start processing: cc-py-commons
+[2023-05-17 14:36:43] INFO root fetch - main [MainThread]: End processing [ttcore]: success
+[2023-05-17 14:36:43] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 14:36:43] INFO root fetch - processPackages [techiaith-tts]: Downloading https://files.pythonhosted.org/packages/fa/33/197dbf2542e5eeeb9e11ed47cf7bf47040c51edfa550953f85ae1af21161/techiaith-tts-0.1.1.tar.gz
+[2023-05-17 14:36:43] INFO root fetch - processPackages [cluster-experiments]: Start processing: fiat-cli
+[2023-05-17 14:36:43] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-05-17 14:36:43] INFO root fetch - processPackages [fiat-cli]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-05-17 14:36:43] INFO root fetch - processPackages [dxsp]: Start processing: PandasProx
+[2023-05-17 14:36:43] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-17 14:36:43] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-17 14:36:43] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230517/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 14:36:43] INFO root fetch - processPackages [PandasProx]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 14:36:43] INFO root fetch - processPackages [fiat-cli]: Downloading https://files.pythonhosted.org/packages/ca/22/e26889657012054ce8e8fb09d249532407ffb41f7c39af33e97f910c7569/fiat_cli-0.6.9.tar.gz
+[2023-05-17 14:36:43] INFO root fetch - processPackages [materialyoucolor]: Start processing: openai-parallel-toolkit
+[2023-05-17 14:36:43] INFO root fetch - main [MainThread]: End processing [materialyoucolor]: success
+[2023-05-17 14:36:43] WARNING root fetch - processPackages [openai-parallel-toolkit]: Skipping, unable to determine old version
+[2023-05-17 14:36:43] INFO root fetch - processPackages [openai-parallel-toolkit]: Start processing: arknights-toolkit
+[2023-05-17 14:36:43] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit] error
+[2023-05-17 14:36:44] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/13/d8/44e66721000f256cdc6bf32bbb57cb98352f7e18e8151ba3a4fd5ada01d6/PandasProx-0.1.2.tar.gz
+[2023-05-17 14:36:44] INFO root fetch - processPackages [fiat-cli]: Downloading https://files.pythonhosted.org/packages/b3/e6/833b76745edbcd95a87fb8a4b76554450a0cfb1e26ff9a2657a7e57a862c/fiat_cli-0.7.0.tar.gz
+[2023-05-17 14:36:44] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-17 14:36:44] INFO root fetch - processPackages [techiaith-tts]: Downloading https://files.pythonhosted.org/packages/3e/2b/199bd86ba01b6dd6092d41497f030c33380c569d6fd20d2f4e6ff91a98ac/techiaith-tts-0.1.2.tar.gz
+[2023-05-17 14:36:44] INFO root fetch - processPackages [fiat-cli]: executing diffoscope
+[2023-05-17 14:36:44] INFO root fetch - processPackages [fiat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiat_cli-0.6.9.tar.gz tmp/fiat_cli-0.7.0.tar.gz --markdown 20230517/f/fiat-cli/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 14:36:44] INFO root fetch - processPackages [techiaith-tts]: executing diffoscope
+[2023-05-17 14:36:44] INFO root fetch - processPackages [techiaith-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techiaith-tts-0.1.1.tar.gz tmp/techiaith-tts-0.1.2.tar.gz --markdown 20230517/t/techiaith-tts/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 14:36:44] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 14:36:44] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.1.tar.gz tmp/PandasProx-0.1.2.tar.gz --markdown 20230517/P/PandasProx/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 14:36:44] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/dd/0a/e6fa9c28573e6ba9d0c75a64cd64b6f4a1f1464845d55584b92d70a2d677/arknights_toolkit-0.5.5.tar.gz
+[2023-05-17 14:36:44] INFO root fetch - processPackages [upyog]: Start processing: pypipr
+[2023-05-17 14:36:44] INFO root fetch - main [MainThread]: End processing [upyog]: success
+[2023-05-17 14:36:44] INFO root fetch - processPackages [pypipr]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-17 14:36:44] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-17 14:36:44] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.90.tar.gz tmp/pypipr-0.1.91.tar.gz --markdown 20230517/p/pypipr/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-17 14:36:44] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 17444037>=10485760
+[2023-05-17 14:36:44] INFO root fetch - processPackages [arknights-toolkit]: Start processing: discovery-connectors
+[2023-05-17 14:36:44] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2023-05-17 14:36:44] INFO root fetch - processPackages [discovery-connectors]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-17 14:36:44] INFO root fetch - processPackages [discovery-connectors]: Downloading https://files.pythonhosted.org/packages/2c/f4/05e9090e493b6e54616f21e6368e2d202e7f29a5f1d5042054d262d4b767/discovery-connectors-1.4.3.tar.gz
+[2023-05-17 14:36:44] INFO root fetch - processPackages [django-cool]: Start processing: config-yml
+[2023-05-17 14:36:44] INFO root fetch - main [MainThread]: End processing [django-cool]: success
+[2023-05-17 14:36:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Start processing: dynbps
+[2023-05-17 14:36:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-05-17 14:36:45] INFO root fetch - processPackages [config-yml]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-17 14:36:45] INFO root fetch - processPackages [dynbps]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 14:36:45] INFO root fetch - processPackages [discovery-connectors]: Downloading https://files.pythonhosted.org/packages/90/7d/3267443719dac5f589e6df30af49506374279978a94d4b2969c19888429b/discovery-connectors-1.4.4.tar.gz
+[2023-05-17 14:36:45] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/4a/db/af357e74d64e7bb4b4a57f15e634b516df9784aef0b0934017bd6e4be760/dynbps-0.0.2.tar.gz
+[2023-05-17 14:36:45] INFO root fetch - processPackages [pglift]: Start processing: hkkang-utils
+[2023-05-17 14:36:45] INFO root fetch - main [MainThread]: End processing [pglift]: success
+[2023-05-17 14:36:45] INFO root fetch - processPackages [config-yml]: Downloading https://files.pythonhosted.org/packages/fc/db/c20bf669b792d41788250fcd7da4c05217d88af25fa15fbcd2f65df56960/config_yml-0.2.3.tar.gz
+[2023-05-17 14:36:45] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:36:45] INFO root fetch - processPackages [discovery-connectors]: executing diffoscope
+[2023-05-17 14:36:45] INFO root fetch - processPackages [discovery-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-connectors-1.4.3.tar.gz tmp/discovery-connectors-1.4.4.tar.gz --markdown 20230517/d/discovery-connectors/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-17 14:36:45] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/5b/c3/3d510f69d60b3d6ca176bebea19abcb6006774eee31609e92acfc14409af/dynbps-0.0.3.tar.gz
+[2023-05-17 14:36:45] INFO root fetch - processPackages [cc-py-commons]: Start processing: lamineml
+[2023-05-17 14:36:45] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-17 14:36:45] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-17 14:36:45] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230517/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:36:45] INFO root fetch - processPackages [lamineml]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-17 14:36:45] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-05-17 14:36:45] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.2.tar.gz tmp/dynbps-0.0.3.tar.gz --markdown 20230517/d/dynbps/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 14:36:45] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-17 14:36:45] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.56.tar.gz tmp/lamineml-0.0.57.tar.gz --markdown 20230517/l/lamineml/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-17 14:36:45] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 14:36:45] INFO root fetch - processPackages [config-yml]: Downloading https://files.pythonhosted.org/packages/f6/9b/d756f9fe28ac494da33934db061a2accfc6f3ebf123132430a1d2e3bbf66/config_yml-0.3.0.tar.gz
+[2023-05-17 14:36:45] INFO root fetch - main [MainThread]: End processing [techiaith-tts]: success
+[2023-05-17 14:36:45] INFO root fetch - main [MainThread]: End processing [fiat-cli]: success
+[2023-05-17 14:36:45] INFO root fetch - processPackages [config-yml]: executing diffoscope
+[2023-05-17 14:36:45] INFO root fetch - processPackages [config-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_yml-0.2.3.tar.gz tmp/config_yml-0.3.0.tar.gz --markdown 20230517/c/config-yml/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 14:36:46] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-17 14:36:46] INFO root fetch - main [MainThread]: End processing [bloodyAD]: success
+[2023-05-17 14:36:46] INFO root fetch - main [MainThread]: End processing [discovery-connectors]: success
+[2023-05-17 14:36:46] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-17 14:36:46] INFO root fetch - main [MainThread]: End processing [config-yml]: success
+[2023-05-17 14:36:46] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-17 14:36:47] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-05-17 14:36:47] INFO root fetch - main [MainThread]: Store serial: [18139359]
