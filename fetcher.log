@@ -9826,3 +9826,68 @@
 [2023-05-17 09:25:19] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
 [2023-05-17 09:25:19] INFO root fetch - main [MainThread]: End processing [classiq]: success
 [2023-05-17 09:25:19] INFO root fetch - main [MainThread]: Store serial: [18135536]
+[2023-05-17 09:30:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135536]
+[2023-05-17 09:30:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyansys
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jie
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-lw-data-provider
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezbeq
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: almapiwrapper
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: String-Controller
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: homewizard-climate-ws
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edman
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zndraw
+[2023-05-17 09:30:28] WARNING root fetch - processPackages [String-Controller]: Skipping, unable to determine old version
+[2023-05-17 09:30:28] INFO root fetch - main [MainThread]: End processing [String-Controller] error
+[2023-05-17 09:30:28] INFO root fetch - processPackages [almapiwrapper]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [zndraw]: New version: [0.2.0a1] Old Version: [0.1.7]
+[2023-05-17 09:30:28] WARNING root fetch - processPackages [jie]: Skipping, unable to determine old version
+[2023-05-17 09:30:28] INFO root fetch - main [MainThread]: End processing [jie] error
+[2023-05-17 09:30:28] INFO root fetch - processPackages [homewizard-climate-ws]: New version: [0.0.9] Old Version: [0.0.18]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5000506722]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.5.17]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-17 09:30:28] INFO root fetch - processPackages [almapiwrapper]: Downloading https://files.pythonhosted.org/packages/41/87/e8f3d7e57480040dcc2a9e4ad1ff0a61eb5926a8ad89e326b1b44d1e8a83/almapiwrapper-0.8.6.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/40/f4/b0ed80140e26a49763ebb750a2e45e2b8e31fd86699b28f44391dfd0eff4/ezbeq-1.0.0b8.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [homewizard-climate-ws]: Downloading https://files.pythonhosted.org/packages/a5/5e/e494d211a6a138f01a447dca6d0c9298ad0603db8af6a7704a9c4eb3ed56/homewizard_climate_ws-0.0.18.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/fa/c2/db829c6d494d61a808b435963c39cefa756e090434618cf7f18c19209e95/th2_grpc_lw_data_provider-2.0.0.dev5000506722.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/e4/1c/baa52dd3dde1a1be58a378c78ee45e529c742142fecaeb6adf8034a311b4/pyansys-2023.2rc1.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/08/d3/d1e0c29545a43387701ae3287a4c1f27e88947566ac31960a8fa8c79f734/zndraw-0.1.7.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [almapiwrapper]: Downloading https://files.pythonhosted.org/packages/1f/d8/1aace8c2bccdff561133e6519565f36c11c26f0aced77d89c96fd76f0fa7/almapiwrapper-0.9.0.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/13/2e/5c0dd673fbbac48705a0377ec71aecf1186bb132064c9f16d71dc15ebeb3/edman-2023.5.17.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [almapiwrapper]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [almapiwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almapiwrapper-0.8.6.tar.gz tmp/almapiwrapper-0.9.0.tar.gz --markdown 20230517/a/almapiwrapper/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:30:29] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/01/2c/eb8009743c7049f955b3b3ffb989398ca1433d2be1f0bf9848674fa1e2f9/ezbeq-1.0.0b9.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/09/02/b2298bb78469ed8bf6853548529bbc47ef3f9f9b5637160d5838e276f030/pyansys-2023.2rc2.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230517/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-05-17 09:30:29] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [homewizard-climate-ws]: Downloading https://files.pythonhosted.org/packages/79/8f/3bbd7f985f8504a9d180fdd7893b148fa4a4b73cdbe0efb972f24ac5ec5b/homewizard_climate_ws-0.0.9.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5000506722.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230517/t/th2-grpc-lw-data-provider/2.0.0.dev5000506722-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-05-17 09:30:29] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b8.tar.gz tmp/ezbeq-1.0.0b9.tar.gz --markdown 20230517/e/ezbeq/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-17 09:30:29] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/99/e4/b98698534793f46e46a605c882a737dbb3ab1411d0680bafc73980ffc298/zndraw-0.2.0a1.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [homewizard-climate-ws]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [homewizard-climate-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homewizard_climate_ws-0.0.18.tar.gz tmp/homewizard_climate_ws-0.0.9.tar.gz --markdown 20230517/h/homewizard-climate-ws/0.0.18-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 09:30:29] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230517/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-17 09:30:29] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/fe/9d/f5d4a0e84bf32c5d43603830b85aff308ae0f695236274c9846c6959a9e1/edman-2023.5.8.tar.gz
+[2023-05-17 09:30:29] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-17 09:30:29] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.5.17.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230517/e/edman/2023.5.17-2023.5.8/diff.md --exclude *.pyd
+[2023-05-17 09:30:30] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-05-17 09:30:30] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-05-17 09:30:30] INFO root fetch - main [MainThread]: End processing [almapiwrapper]: success
+[2023-05-17 09:30:30] INFO root fetch - processPackages [zndraw]: executing diffoscope
+[2023-05-17 09:30:30] INFO root fetch - processPackages [zndraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zndraw-0.1.7.tar.gz tmp/zndraw-0.2.0a1.tar.gz --markdown 20230517/z/zndraw/0.1.7-0.2.0a1/diff.md --exclude *.pyd
+[2023-05-17 09:30:31] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-17 09:30:31] INFO root fetch - main [MainThread]: End processing [homewizard-climate-ws]: success
+[2023-05-17 09:30:32] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-17 09:30:35] INFO root fetch - main [MainThread]: End processing [zndraw]: success
+[2023-05-17 09:30:38] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-05-17 09:30:38] INFO root fetch - main [MainThread]: Store serial: [18135569]
