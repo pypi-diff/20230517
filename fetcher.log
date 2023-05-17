@@ -7541,3 +7541,39 @@
 [2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2023-05-17 05:56:11] INFO root fetch - main [MainThread]: End processing [pystemd]: success
 [2023-05-17 05:56:11] INFO root fetch - main [MainThread]: Store serial: [18134094]
+[2023-05-17 06:01:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134094]
+[2023-05-17 06:01:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-17 06:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-hologram20220601
+[2023-05-17 06:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eptlsoot
+[2023-05-17 06:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathactive
+[2023-05-17 06:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-duplo
+[2023-05-17 06:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-05-17 06:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyphpfunc
+[2023-05-17 06:01:21] INFO root fetch - processPackages [mathactive]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 06:01:21] INFO root fetch - processPackages [eptlsoot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 06:01:21] INFO root fetch - processPackages [pyphpfunc]: New version: [1.0] Old Version: [0.0.1]
+[2023-05-17 06:01:21] INFO root fetch - processPackages [scikit-duplo]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-17 06:01:21] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [7.0.5] Old Version: [7.0.4]
+[2023-05-17 06:01:21] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/bf/01/b5e0d690a4def26e2edca4114d9c537b0c069135c48314b58a710d88ce3f/cdktf-cdktf-provider-google_beta-7.0.4.tar.gz
+[2023-05-17 06:01:21] INFO root fetch - processPackages [alibabacloud-hologram20220601]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 06:01:21] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 21426038>=10485760
+[2023-05-17 06:01:21] INFO root fetch - processPackages [mathactive]: executing diffoscope
+[2023-05-17 06:01:21] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-05-17 06:01:21] INFO root fetch - processPackages [mathactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathactive-0.0.3.tar.gz tmp/mathactive-0.0.4.tar.gz --markdown 20230517/m/mathactive/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 06:01:21] INFO root fetch - processPackages [pyphpfunc]: executing diffoscope
+[2023-05-17 06:01:21] INFO root fetch - processPackages [pyphpfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphpfunc-0.0.1.tar.gz tmp/pyphpfunc-1.0.tar.gz --markdown 20230517/p/pyphpfunc/0.0.1-1.0/diff.md --exclude *.pyd
+[2023-05-17 06:01:21] INFO root fetch - processPackages [eptlsoot]: executing diffoscope
+[2023-05-17 06:01:21] INFO root fetch - processPackages [eptlsoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptlsoot-0.0.5-cp39-cp39-win_amd64.whl.zip tmp/eptlsoot-0.0.6-cp39-cp39-win_amd64.whl.zip --markdown 20230517/e/eptlsoot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 06:01:21] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/57/90/0cedae282193da7366fc2879c726c72f0ca942fffed1f43281fe5d167e2e/scikit-duplo-0.1.5.tar.gz
+[2023-05-17 06:01:21] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Downloading https://files.pythonhosted.org/packages/f1/08/cd6507865d93ff1438419468244b70ce4f97015d9392b30afa5c92dbb96d/alibabacloud_hologram20220601-1.0.2.tar.gz
+[2023-05-17 06:01:21] INFO root fetch - processPackages [scikit-duplo]: executing diffoscope
+[2023-05-17 06:01:21] INFO root fetch - processPackages [scikit-duplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-duplo-0.1.4.tar.gz tmp/scikit-duplo-0.1.5.tar.gz --markdown 20230517/s/scikit-duplo/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-17 06:01:21] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Downloading https://files.pythonhosted.org/packages/2f/2b/45d69c3ae389219fc9a52202b40c0b97bb5fb9c9bbb49e6b3ff1a9aba44a/alibabacloud_hologram20220601-1.0.3.tar.gz
+[2023-05-17 06:01:21] INFO root fetch - processPackages [alibabacloud-hologram20220601]: executing diffoscope
+[2023-05-17 06:01:21] INFO root fetch - processPackages [alibabacloud-hologram20220601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_hologram20220601-1.0.2.tar.gz tmp/alibabacloud_hologram20220601-1.0.3.tar.gz --markdown 20230517/a/alibabacloud-hologram20220601/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 06:01:22] INFO root fetch - main [MainThread]: End processing [mathactive]: success
+[2023-05-17 06:01:22] INFO root fetch - main [MainThread]: End processing [eptlsoot]: success
+[2023-05-17 06:01:22] INFO root fetch - main [MainThread]: End processing [pyphpfunc]: success
+[2023-05-17 06:01:22] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
+[2023-05-17 06:01:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-hologram20220601]: success
+[2023-05-17 06:01:22] INFO root fetch - main [MainThread]: Store serial: [18134118]
