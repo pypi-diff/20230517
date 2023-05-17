@@ -8192,3 +8192,36 @@
 [2023-05-17 07:22:56] INFO root fetch - main [MainThread]: End processing [aiuv]: success
 [2023-05-17 07:22:56] INFO root fetch - main [MainThread]: End processing [django-excel-importer]: success
 [2023-05-17 07:22:56] INFO root fetch - main [MainThread]: Store serial: [18134508]
+[2023-05-17 07:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134508]
+[2023-05-17 07:28:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-17 07:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zep-python
+[2023-05-17 07:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-serve
+[2023-05-17 07:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pawnlib
+[2023-05-17 07:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TSMasterAPI
+[2023-05-17 07:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lit
+[2023-05-17 07:28:05] INFO root fetch - processPackages [zep-python]: New version: [0.25] Old Version: [0.24]
+[2023-05-17 07:28:05] INFO root fetch - processPackages [TSMasterAPI]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-17 07:28:05] INFO root fetch - processPackages [lit]: New version: [16.0.5] Old Version: [16.0.3]
+[2023-05-17 07:28:05] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-17 07:28:05] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 07:28:05] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-17 07:28:05] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230517/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 07:28:05] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-17 07:28:05] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230517/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-17 07:28:05] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/5e/7c/2593286ac08410c7eea706aa848bc541ef29937cec4c4417c00059d6c97b/TSMasterAPI-2.0.1.tar.gz
+[2023-05-17 07:28:05] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/75/e8/6deb4cc017266af4b8c5d370de340d917b0bbcbce3cbaf4ec1cfba7b0ca7/lit-16.0.3.tar.gz
+[2023-05-17 07:28:05] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/e5/28/6e6e47fe545f907b63b8824a39d677a2caf984af141ea6481477129f51fc/TSMasterAPI-2.0.2.tar.gz
+[2023-05-17 07:28:05] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/63/ab/e4c5f26400970a3ca356d19e592af3a5f05a73d5f35470accb6600f84045/lit-16.0.5.tar.gz
+[2023-05-17 07:28:05] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/8d/6a/d6e141c514d4e13c09189c4d19335bfe7c4da2a4ae557e817aa7b31e4e77/zep_python-0.25.tar.gz
+[2023-05-17 07:28:05] INFO root fetch - processPackages [TSMasterAPI]: executing diffoscope
+[2023-05-17 07:28:05] INFO root fetch - processPackages [TSMasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSMasterAPI-2.0.1.tar.gz tmp/TSMasterAPI-2.0.2.tar.gz --markdown 20230517/T/TSMasterAPI/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-17 07:28:05] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-05-17 07:28:05] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-0.24.tar.gz tmp/zep_python-0.25.tar.gz --markdown 20230517/z/zep-python/0.24-0.25/diff.md --exclude *.pyd
+[2023-05-17 07:28:05] INFO root fetch - processPackages [lit]: executing diffoscope
+[2023-05-17 07:28:05] INFO root fetch - processPackages [lit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit-16.0.3.tar.gz tmp/lit-16.0.5.tar.gz --markdown 20230517/l/lit/16.0.3-16.0.5/diff.md --exclude *.pyd
+[2023-05-17 07:28:06] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-17 07:28:06] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-17 07:28:06] INFO root fetch - main [MainThread]: End processing [TSMasterAPI]: success
+[2023-05-17 07:28:06] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-05-17 07:28:08] INFO root fetch - main [MainThread]: End processing [lit]: success
+[2023-05-17 07:28:08] INFO root fetch - main [MainThread]: Store serial: [18134520]
