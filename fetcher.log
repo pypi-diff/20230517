@@ -19870,3 +19870,81 @@ EOFError: EOF read where object expected
 [2023-05-17 16:49:31] INFO root fetch - main [MainThread]: End processing [tqwgp-parser]: success
 [2023-05-17 16:49:35] INFO root fetch - main [MainThread]: End processing [GalSim]: success
 [2023-05-17 16:49:35] INFO root fetch - main [MainThread]: Store serial: [18141227]
+[2023-05-17 16:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141227]
+[2023-05-17 16:54:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sspqdd
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp-history
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elody
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigraph-viz
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-xmlmodel
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptsubtitler
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plotoptix
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyowletapi
+[2023-05-17 16:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pvbm
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.7.0] Old Version: [15.0.1.6.1]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [elody]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [gptsubtitler]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.6.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.7.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-ddmrp/15.0.1.6.1-15.0.1.7.0/diff.md --exclude *.pyd
+[2023-05-17 16:54:45] WARNING root fetch - processPackages [sspqdd]: Skipping, unable to determine old version
+[2023-05-17 16:54:45] INFO root fetch - processPackages [sspqdd]: Start processing: certora-cli-alpha-uri-remove-last-conf-dir
+[2023-05-17 16:54:45] INFO root fetch - main [MainThread]: End processing [sspqdd] error
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.2]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [bigraph-viz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pvbm]: New version: [2.0.0] Old Version: [1.8.0]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.9] Old Version: [2023.5.7]
+[2023-05-17 16:54:45] WARNING root fetch - processPackages [pydantic-xmlmodel]: Skipping, unable to determine old version
+[2023-05-17 16:54:45] INFO root fetch - processPackages [gptsubtitler]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pydantic-xmlmodel]: Start processing: premise
+[2023-05-17 16:54:45] INFO root fetch - main [MainThread]: End processing [pydantic-xmlmodel] error
+[2023-05-17 16:54:45] INFO root fetch - processPackages [gptsubtitler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptsubtitler-0.0.4.tar.gz tmp/gptsubtitler-0.0.5.tar.gz --markdown 20230517/g/gptsubtitler/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 16:54:45] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: New version: [20230517.7.54.924559] Old Version: [20230516.18.4.70189]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [plotoptix]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/ce/79/dc54c172c1da8b31489fc9d477772f620c64c0643babb17eea19c43f30fd/elody-0.0.1.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [bigraph-viz]: Downloading https://files.pythonhosted.org/packages/cd/4a/596b6733502cbc0ee6b22baa45635393188e01b18b5c832576f84190b6db/bigraph-viz-0.0.8.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/36/c5/90d597c27101aa0b18908e891d106d6e9b08e2aa88a0a82f9ee53de842ff/odoo_addon_ddmrp_history-15.0.1.0.2-py3-none-any.whl
+[2023-05-17 16:54:45] INFO root fetch - processPackages [premise]: New version: [1.5.0b6] Old Version: [1.5.0b5]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/93/a6/977ae0ddc9feb31d34adcb2ff9537f80ef29a6ad29a1ddc97e66f10f316a/pyowletapi-2023.5.7.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [plotoptix]: Downloading https://files.pythonhosted.org/packages/4a/a1/cb5c1a36c5cbe9ec35e1dd050e388c1c28bf5743301424c890d882cae0da/plotoptix-0.8.2.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Downloading https://files.pythonhosted.org/packages/0a/c9/7515173b19fdbad2c6516c73c646f6b3a115b079ca405d790e19bb0c007d/certora-cli-alpha-uri-remove_last_conf_dir-20230516.18.4.70189.tar.gz
+[2023-05-17 16:54:45] WARNING root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Skipping package: exceeds size limit 38976409>=10485760
+[2023-05-17 16:54:45] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Start processing: drift-protocol
+[2023-05-17 16:54:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-remove-last-conf-dir] error
+[2023-05-17 16:54:45] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/19/cf/252da27c85f71aabe287be8811038f6da9b69407d6eb2b7f29d9d6885fdc/elody-0.0.2.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/85/4f/66169689f35978b477a6f0478f83715eda97d6a3c9a00b17a264347d4c31/pvbm-1.8.0.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/59/fd/6d303d29cafa017bf5f63d8ab8e2d61a28dd059a9df1b5717de89c14228a/premise-1.5.0b5.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/17/72/19e8d28123533f33c36495b89ecec08ef0a7ddf779101b0fade21f545043/odoo_addon_ddmrp_history-15.0.1.1.0-py3-none-any.whl
+[2023-05-17 16:54:45] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 67942717>=10485760
+[2023-05-17 16:54:45] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-05-17 16:54:45] INFO root fetch - processPackages [drift-protocol]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-17 16:54:45] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.1.tar.gz tmp/elody-0.0.2.tar.gz --markdown 20230517/e/elody/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/6e/2e/af455fa9c2a369e4db90d9e563028eecc7136380171d474521192dfd23ef/pyowletapi-2023.5.9.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-ddmrp-history/15.0.1.0.2-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/07/67/2bebd128ae9edb16179627a05da895c322173d63340df8541ed6bbeb5d68/pvbm-2.0.0.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [bigraph-viz]: Downloading https://files.pythonhosted.org/packages/d7/b1/89b66d4b66f8baf361b72d00f97edabc6f1501e765bf8b68bf615de142d7/bigraph-viz-0.0.9.tar.gz
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.7.tar.gz tmp/pyowletapi-2023.5.9.tar.gz --markdown 20230517/p/pyowletapi/2023.5.7-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 16:54:45] INFO root fetch - processPackages [drift-protocol]: Downloading https://files.pythonhosted.org/packages/6e/8a/ea150d3b04e42754e92f9a0f938902c3518c4c0db3a8805646f5f38e70e8/drift_protocol-0.3.0-py3-none-any.whl
+[2023-05-17 16:54:45] INFO root fetch - processPackages [bigraph-viz]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [bigraph-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-viz-0.0.8.tar.gz tmp/bigraph-viz-0.0.9.tar.gz --markdown 20230517/b/bigraph-viz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-05-17 16:54:45] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-1.8.0.tar.gz tmp/pvbm-2.0.0.tar.gz --markdown 20230517/p/pvbm/1.8.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-17 16:54:46] INFO root fetch - processPackages [drift-protocol]: Downloading https://files.pythonhosted.org/packages/1e/7e/c271deef9b7c2c408ff58fee0f6604ad6cc424705e143c747db78e691cbd/drift_protocol-0.4.0-py3-none-any.whl
+[2023-05-17 16:54:46] INFO root fetch - main [MainThread]: End processing [gptsubtitler]: success
+[2023-05-17 16:54:46] INFO root fetch - processPackages [drift-protocol]: executing diffoscope
+[2023-05-17 16:54:46] INFO root fetch - processPackages [drift-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_protocol-0.3.0-py3-none-any.whl.zip tmp/drift_protocol-0.4.0-py3-none-any.whl.zip --markdown 20230517/d/drift-protocol/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 16:54:46] INFO root fetch - processPackages [plotoptix]: Downloading https://files.pythonhosted.org/packages/e1/34/2a847144ffde53ba72db3aab0579a6d5b922c7b76b00f8b9dcc16816c819/plotoptix-0.9.0.tar.gz
+[2023-05-17 16:54:46] INFO root fetch - processPackages [plotoptix]: executing diffoscope
+[2023-05-17 16:54:46] INFO root fetch - processPackages [plotoptix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotoptix-0.8.2.tar.gz tmp/plotoptix-0.9.0.tar.gz --markdown 20230517/p/plotoptix/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 16:54:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [bigraph-viz]: success
+[2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [drift-protocol]: success
+[2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-05-17 16:54:59] INFO root fetch - main [MainThread]: End processing [plotoptix]: success
+[2023-05-17 16:54:59] INFO root fetch - main [MainThread]: Store serial: [18141265]
