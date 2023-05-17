@@ -16961,3 +16961,149 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:59:41] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-05-17 15:00:12] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-05-17 15:00:12] INFO root fetch - main [MainThread]: Store serial: [18139619]
+[2023-05-17 15:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139619]
+[2023-05-17 15:05:22] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PandasProx
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cliptry1
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mse-lib-sgx
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pm-slack
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proteinflow
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PandasProx
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pasteur
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intel-sgx-ra
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-edi-oca
+[2023-05-17 15:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flask-ninja
+[2023-05-17 15:05:22] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.0a1] Old Version: [1.1a2]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [PandasProx]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [odoo14-addon-edi-oca]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1.dev1]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [cliptry1]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [PandasProx]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [proteinflow]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [pm-slack]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.0a3] Old Version: [2.0a2]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [pasteur]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [odoo14-addon-edi-oca]: executing diffoscope
+[2023-05-17 15:05:22] INFO root fetch - processPackages [odoo14-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-edi-oca/14.0.1.9.1.dev1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-05-17 15:05:22] INFO root fetch - processPackages [flask-ninja]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-17 15:05:22] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/ff/bd/a689044a19e72d7e2d793c457cd83dfc870393f83e4f32e46b7415995f37/PandasProx-0.1.7.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/ff/bd/a689044a19e72d7e2d793c457cd83dfc870393f83e4f32e46b7415995f37/PandasProx-0.1.7.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/bc/8b/3341c25e5d337002edf2901752f5eb3ba19cd76ab5ae07a85b32282039c7/pm_slack-0.2.2.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/83/6c/33abddb592c4c93bb508dad12ef04566420c4f334f2382ef9c04b8563fb1/proteinflow-1.3.3.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/f9/fa/cd16c59c75766f51373f83be07d67aa45ce6783a5e5a5848ba1f5c2cdc15/mse_lib_sgx-1.1a2.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [pasteur]: Downloading https://files.pythonhosted.org/packages/79/2e/b19d23389aabe2712527df6dde34c74eaf0b8ce6eaebc00df00546113b46/pasteur-0.1.0.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/40/6e/338eb9bc145003f237a3a0994b7cebef0e90f2a57cfaa41f29d29c5fce12/cliptry1-0.0.3.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [flask-ninja]: Downloading https://files.pythonhosted.org/packages/10/50/a79048ee2129c1b5da64152a17f04a2122a09a82cc35edea2175b5453f2b/flask_ninja-1.2.1.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-17 15:05:22] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.1.tar.gz tmp/pm_slack-0.2.2.tar.gz --markdown 20230517/p/pm-slack/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 15:05:22] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/55/64/57657c193ebefff9c03154b039b59f51ffa84d335e61f29463b182fdb4ca/intel_sgx_ra-2.0a2.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-05-17 15:05:22] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.3.2.tar.gz tmp/proteinflow-1.3.3.tar.gz --markdown 20230517/p/proteinflow/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-17 15:05:22] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/62/6f/56987597271b92bb8e2929284c417e91110f9d0f8538296dfc8823987ac3/PandasProx-0.1.8.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/62/6f/56987597271b92bb8e2929284c417e91110f9d0f8538296dfc8823987ac3/PandasProx-0.1.8.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/b2/a0/d2531b5b50ae59ac2dd86b09c48d60a4199329280855eff50559189a4327/mse_lib_sgx-2.0a1.tar.gz
+[2023-05-17 15:05:22] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-17 15:05:22] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.0.2.tar.gz tmp/cliptry1-0.0.3.tar.gz --markdown 20230517/c/cliptry1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 15:05:22] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-05-17 15:05:22] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-1.1a2.tar.gz tmp/mse_lib_sgx-2.0a1.tar.gz --markdown 20230517/m/mse-lib-sgx/1.1a2-2.0a1/diff.md --exclude *.pyd
+[2023-05-17 15:05:22] INFO root fetch - processPackages [flask-ninja]: Downloading https://files.pythonhosted.org/packages/b9/a6/cdef0bc7f4bdb4c0a820530cc880fb2e0ac38dc9700f6a66d0849ec2680c/flask_ninja-1.2.2.tar.gz
+[2023-05-17 15:05:23] INFO root fetch - processPackages [pasteur]: Downloading https://files.pythonhosted.org/packages/32/ad/a630534b22b948efe951ca28b3d70f4381cf86be570bd74e78ece98c5438/pasteur-0.1.1.tar.gz
+[2023-05-17 15:05:23] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 15:05:23] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.7.tar.gz tmp/PandasProx-0.1.8.tar.gz --markdown 20230517/P/PandasProx/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-17 15:05:23] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 15:05:23] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.7.tar.gz tmp/PandasProx-0.1.8.tar.gz --markdown 20230517/P/PandasProx/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-17 15:05:23] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/f3/f3/67d5ab1de5bc67f0f7358120fd425b131881c49dd5e4c7c6b675f43634f9/intel_sgx_ra-2.0a3.tar.gz
+[2023-05-17 15:05:23] INFO root fetch - processPackages [flask-ninja]: executing diffoscope
+[2023-05-17 15:05:23] INFO root fetch - processPackages [flask-ninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_ninja-1.2.1.tar.gz tmp/flask_ninja-1.2.2.tar.gz --markdown 20230517/f/flask-ninja/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-17 15:05:23] INFO root fetch - processPackages [pasteur]: executing diffoscope
+[2023-05-17 15:05:23] INFO root fetch - processPackages [pasteur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasteur-0.1.0.tar.gz tmp/pasteur-0.1.1.tar.gz --markdown 20230517/p/pasteur/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 15:05:23] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2023-05-17 15:05:23] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.0a2.tar.gz tmp/intel_sgx_ra-2.0a3.tar.gz --markdown 20230517/i/intel-sgx-ra/2.0a2-2.0a3/diff.md --exclude *.pyd
+[2023-05-17 15:05:24] INFO root fetch - processPackages [pm-slack]: Start processing: cg
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [cliptry1]: Start processing: integreat-cms
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [integreat-cms]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [cg]: New version: [30.2.6] Old Version: [30.2.4]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/e0/ad/de8be6ef27ce64fc05d326d7ebd6edd51ac1f634fa08ff3b6c55f7981b21/integreat-cms-2023.5.1.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [PandasProx]: Start processing: argparse-manpage
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [mse-lib-sgx]: Start processing: FreeTVG-karjakak
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [odoo14-addon-edi-oca]: Start processing: jupyterhub-backendspawner
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-oca]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.2rc1] Old Version: [3.2.2]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [PandasProx]: Start processing: autoviml
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [argparse-manpage]: New version: [4.3] Old Version: [4.2]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/5b/b5/3caab69c45a8c71ec275d07d24a020df7ff7ced46a642aa1834772d1f783/FreeTVG-karjakak-3.2.2.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/77/fe/0467296cd458699bde249b75a60b8b1df3a8b7727e6b8438b529483a5b1d/cg-30.2.4.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [autoviml]: New version: [0.1.715] Old Version: [0.1.714]
+[2023-05-17 15:05:24] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16243616>=10485760
+[2023-05-17 15:05:24] INFO root fetch - processPackages [integreat-cms]: Start processing: amuse-mesa
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2023-05-17 15:05:24] INFO root fetch - processPackages [flask-ninja]: Start processing: PandasProx
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [flask-ninja]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [amuse-mesa]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [PandasProx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/3e/ea/ac8a4ad800860eef520dd0f06bb155bf44665328b192f25a7dc99edf10fb/jupyterhub-backendspawner-0.2.6.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [argparse-manpage]: Downloading https://files.pythonhosted.org/packages/f6/84/2d6cf91aeebdb4f19c6e0d71a2495091d75d889e3a1f1d3203dcf9b835f8/argparse-manpage-4.2.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [intel-sgx-ra]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/d8/d2/86368bd8a3a68b301ee1cbad5a2a94bd9b83e7fabf1343c003f06f2145f1/FreeTVG-karjakak-3.2.2rc1.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [amuse-mesa]: executing diffoscope
+[2023-05-17 15:05:24] INFO root fetch - processPackages [amuse-mesa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mesa-2023.4.0.tar.gz tmp/amuse-mesa-2023.5.0.tar.gz --markdown 20230517/a/amuse-mesa/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 15:05:24] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/01/90/635a82bbe04d17c70d972e7f82e155e079c4ff56447a0c8208ff15b6db87/autoviml-0.1.714.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/07/43/503e761891a72189c3cd28d69cc6ad4abd2a207abd0fac4bf9c3db6eef6e/cg-30.2.6.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [proteinflow]: Start processing: materialyoucolor
+[2023-05-17 15:05:24] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-05-17 15:05:24] INFO root fetch - processPackages [materialyoucolor]: New version: [1.1] Old Version: [1.0]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/b3/84/af261725c70165af1e45d06fd6fb06b78b1ccbd2e9849b903724c2977e25/PandasProx-0.1.9.tar.gz
+[2023-05-17 15:05:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.17] Old Version: [2023.5.16]
+[2023-05-17 15:05:24] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-17 15:05:24] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.2.tar.gz tmp/FreeTVG-karjakak-3.2.2rc1.tar.gz --markdown 20230517/F/FreeTVG-karjakak/3.2.2-3.2.2rc1/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/90/e0/15bac26343822005fe074387150830816b9f10f13e7ea3ff8e923fe0e7b2/jupyterhub-backendspawner-0.3.0.tar.gz
+[2023-05-17 15:05:25] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-17 15:05:25] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.2.4.tar.gz tmp/cg-30.2.6.tar.gz --markdown 20230517/c/cg/30.2.4-30.2.6/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [argparse-manpage]: Downloading https://files.pythonhosted.org/packages/d3/5f/3353e1dd33fcb3801cfe7e6412ad9d75202fc642679d105015e361aceef7/argparse-manpage-4.3.tar.gz
+[2023-05-17 15:05:25] INFO root fetch - processPackages [materialyoucolor]: Downloading https://files.pythonhosted.org/packages/ca/c6/6b96f3dc6e75c5a4869064ff11e901b7c60d800a185ea20c46b18799e0b8/materialyoucolor-1.0.tar.gz
+[2023-05-17 15:05:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/0e/13/fa2d66c62b87a51c4a19ab8085bc0ce3221b22c2d8515b5272fb41033a57/fbgemm_gpu_nightly_cpu-2023.5.16-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-17 15:05:25] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 15:05:25] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.8.tar.gz tmp/PandasProx-0.1.9.tar.gz --markdown 20230517/P/PandasProx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-17 15:05:25] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.2.6.tar.gz tmp/jupyterhub-backendspawner-0.3.0.tar.gz --markdown 20230517/j/jupyterhub-backendspawner/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/90/66/b0a9f5b03037998a4cb1c5598975c009926a2bda5740693d75a5fcd6755b/autoviml-0.1.715.tar.gz
+[2023-05-17 15:05:25] INFO root fetch - processPackages [argparse-manpage]: executing diffoscope
+[2023-05-17 15:05:25] INFO root fetch - processPackages [argparse-manpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparse-manpage-4.2.tar.gz tmp/argparse-manpage-4.3.tar.gz --markdown 20230517/a/argparse-manpage/4.2-4.3/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [materialyoucolor]: executing diffoscope
+[2023-05-17 15:05:25] INFO root fetch - processPackages [materialyoucolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/materialyoucolor-1.0.tar.gz tmp/materialyoucolor-1.1.tar.gz --markdown 20230517/m/materialyoucolor/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [autoviml]: executing diffoscope
+[2023-05-17 15:05:25] INFO root fetch - processPackages [autoviml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviml-0.1.714.tar.gz tmp/autoviml-0.1.715.tar.gz --markdown 20230517/a/autoviml/0.1.714-0.1.715/diff.md --exclude *.pyd
+[2023-05-17 15:05:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4f/09/3cb5cbafc93821189f6eb4b094bff5817bec3542f74cd119398612b1a711/fbgemm_gpu_nightly_cpu-2023.5.17-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-17 15:05:26] INFO root fetch - processPackages [FreeTVG-karjakak]: Start processing: odoo-addon-hr-employee-calendar-planning
+[2023-05-17 15:05:26] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-17 15:05:26] INFO root fetch - processPackages [PandasProx]: Start processing: apache-airflow-client
+[2023-05-17 15:05:26] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 15:05:26] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: New version: [15.0.1.1.5] Old Version: [15.0.1.1.4]
+[2023-05-17 15:05:26] INFO root fetch - main [MainThread]: End processing [amuse-mesa]: success
+[2023-05-17 15:05:26] INFO root fetch - processPackages [apache-airflow-client]: New version: [2.6.1rc1] Old Version: [2.6.0rc3]
+[2023-05-17 15:05:26] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-17 15:05:26] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/a7/28/b0d1bb8151abe2b42023140d2fe4fcf7bf36e7a995925b71422c45d75738/odoo_addon_hr_employee_calendar_planning-15.0.1.1.4-py3-none-any.whl
+[2023-05-17 15:05:26] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/9e/e9/6fec2b8148f8d1cf3dab7657fdc9796e53152ff9c792cb0cec1061d284c2/apache-airflow-client-2.6.0rc3.tar.gz
+[2023-05-17 15:05:26] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/63/85/50f5b165f0fcdeb1dd6f4503e9cec51c36ef9fe52def8fd97e903ce8d5c5/odoo_addon_hr_employee_calendar_planning-15.0.1.1.5-py3-none-any.whl
+[2023-05-17 15:05:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-17 15:05:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.16-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.17-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230517/f/fbgemm-gpu-nightly-cpu/2023.5.16-2023.5.17/diff.md --exclude *.pyd
+[2023-05-17 15:05:26] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-05-17 15:05:26] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.5-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-hr-employee-calendar-planning/15.0.1.1.4-15.0.1.1.5/diff.md --exclude *.pyd
+[2023-05-17 15:05:26] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/29/02/38c1ddeb79fbd40096fbd5878599d333a9507294c3983a2a2f2107c2df64/apache-airflow-client-2.6.1rc1.tar.gz
+[2023-05-17 15:05:27] INFO root fetch - main [MainThread]: End processing [autoviml]: success
+[2023-05-17 15:05:27] INFO root fetch - main [MainThread]: End processing [materialyoucolor]: success
+[2023-05-17 15:05:27] INFO root fetch - main [MainThread]: End processing [pasteur]: success
+[2023-05-17 15:05:27] INFO root fetch - processPackages [apache-airflow-client]: executing diffoscope
+[2023-05-17 15:05:27] INFO root fetch - processPackages [apache-airflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-client-2.6.0rc3.tar.gz tmp/apache-airflow-client-2.6.1rc1.tar.gz --markdown 20230517/a/apache-airflow-client/2.6.0rc3-2.6.1rc1/diff.md --exclude *.pyd
+[2023-05-17 15:05:27] INFO root fetch - main [MainThread]: End processing [argparse-manpage]: success
+[2023-05-17 15:05:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-calendar-planning]: success
+[2023-05-17 15:05:36] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
+[2023-05-17 15:05:40] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-17 15:06:18] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-17 15:06:18] INFO root fetch - main [MainThread]: Store serial: [18139692]
