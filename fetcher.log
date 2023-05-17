@@ -20244,3 +20244,152 @@ EOFError: EOF read where object expected
 [2023-05-17 17:05:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-17 17:05:45] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2023-05-17 17:05:45] INFO root fetch - main [MainThread]: Store serial: [18141472]
+[2023-05-17 17:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141472]
+[2023-05-17 17:10:54] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynotiontools
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polygon-api-client
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airflow-db-logger
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smarthouse
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picsellia-tf2
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elefantolib-fastapi
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sspqdd
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta
+[2023-05-17 17:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-add-python
+[2023-05-17 17:10:54] INFO root fetch - processPackages [airflow-db-logger]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: New version: [20230517.14.27.894626] Old Version: [20230516.20.52.233729]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [test-add-python]: New version: [0.2] Old Version: [0.1]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [polygon-api-client]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [picsellia-tf2]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [sspqdd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [smarthouse]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [airflow-db-logger]: executing diffoscope
+[2023-05-17 17:10:54] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-17 17:10:54] INFO root fetch - processPackages [airflow-db-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_db_logger-3.0.0.tar.gz tmp/airflow_db_logger-3.0.1.tar.gz --markdown 20230517/a/airflow-db-logger/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-17 17:10:54] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-17 17:10:54] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230517/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 17:10:54] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/5e/a3/f2cbed7ef6c757a13589aee5a93cd3ab2a8a3fffc6e39e23af9a4afccb95/test_add_python-0.1.tar.gz
+[2023-05-17 17:10:54] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Downloading https://files.pythonhosted.org/packages/64/c7/dbc2cbf5a101d4d4c34d0fcc3c3bb8f2e9daa9e3f800782cb521f33b2f63/certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta-20230516.20.52.233729.tar.gz
+[2023-05-17 17:10:54] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/23/83/5765420a34838982e70a023ecef7c3a32e2e9c7a808392971a762fba48f4/sspqdd-1.0.3.tar.gz
+[2023-05-17 17:10:55] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Skipping package: exceeds size limit 38976401>=10485760
+[2023-05-17 17:10:55] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Start processing: dr-import
+[2023-05-17 17:10:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta] error
+[2023-05-17 17:10:55] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/2f/a7/df4a59007ce214f62d0b64704be1196b00ed577675c01512a0dff81e22ca/elefantolib_fastapi-0.2.5.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [polygon-api-client]: Downloading https://files.pythonhosted.org/packages/39/ad/f896654d03e62972edc910c9b86060ceb472aec378dd575146fb8012e221/polygon_api_client-1.8.5.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [smarthouse]: Downloading https://files.pythonhosted.org/packages/2b/a8/600941024ed5a37cc025785c066ee51a9c9a2e289bed0c60082be771d7f3/smarthouse-0.1.0.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [picsellia-tf2]: Downloading https://files.pythonhosted.org/packages/ac/b0/7b861c72c6f1d95076b7debb36d3d5e14f6dd83ae8f3cc1e6da4d90a25b3/picsellia_tf2-0.8.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [dr-import]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 17:10:55] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/ea/e5/f7e21dd34129cb55cea4ea894d8e249da12188b45220417f3f7168c9f4d2/sspqdd-1.0.4.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230517/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/67/3e/6eea5d69bb665f8ec2606aa11155b780fbb9393746f9095eb0c88d871a75/test_add_python-0.2.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/d3/ce/1bebbeb20353dd27a25ac060b37f1258aa32f708e6b357ae6fac4ac21233/elefantolib_fastapi-0.2.6.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [smarthouse]: Downloading https://files.pythonhosted.org/packages/5c/93/bfeb8ea1bf5238c4744bdac1d3af821aee1b91e91f78df1e2c21c58a12a7/smarthouse-0.1.1.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [dr-import]: Downloading https://files.pythonhosted.org/packages/f0/a1/8765ac847a97c16ad6959ac77eca3a4efe506112571a39cc19411b176af3/dr_import-0.2.8-py3-none-any.whl
+[2023-05-17 17:10:55] INFO root fetch - processPackages [test-add-python]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [test-add-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_add_python-0.1.tar.gz tmp/test_add_python-0.2.tar.gz --markdown 20230517/t/test-add-python/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.2.5.tar.gz tmp/elefantolib_fastapi-0.2.6.tar.gz --markdown 20230517/e/elefantolib-fastapi/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.3.tar.gz tmp/sspqdd-1.0.4.tar.gz --markdown 20230517/s/sspqdd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [polygon-api-client]: Downloading https://files.pythonhosted.org/packages/4d/65/e5f104286a8dbb485e56e41b550d2f33f04adb38b8e7545650b5f525d996/polygon_api_client-1.8.6.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [picsellia-tf2]: Downloading https://files.pythonhosted.org/packages/26/f2/f175e7ae2469853745a7b7bb529b52b165c48c11b7575ed4ae85ab00f65d/picsellia_tf2-0.9.tar.gz
+[2023-05-17 17:10:55] INFO root fetch - processPackages [polygon-api-client]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [polygon-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygon_api_client-1.8.5.tar.gz tmp/polygon_api_client-1.8.6.tar.gz --markdown 20230517/p/polygon-api-client/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [smarthouse]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [smarthouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarthouse-0.1.0.tar.gz tmp/smarthouse-0.1.1.tar.gz --markdown 20230517/s/smarthouse/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [picsellia-tf2]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [picsellia-tf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia_tf2-0.8.tar.gz tmp/picsellia_tf2-0.9.tar.gz --markdown 20230517/p/picsellia-tf2/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 17:10:55] INFO root fetch - processPackages [dr-import]: Downloading https://files.pythonhosted.org/packages/cc/4d/777f7b14d8ff812e34be596626b422e1496e901a5b5b53e3e60ec4ea9c40/dr_import-0.2.9-py3-none-any.whl
+[2023-05-17 17:10:55] INFO root fetch - processPackages [dr-import]: executing diffoscope
+[2023-05-17 17:10:55] INFO root fetch - processPackages [dr-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dr_import-0.2.8-py3-none-any.whl.zip tmp/dr_import-0.2.9-py3-none-any.whl.zip --markdown 20230517/d/dr-import/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 17:10:56] INFO root fetch - processPackages [airflow-db-logger]: Start processing: sspqdd
+[2023-05-17 17:10:56] INFO root fetch - main [MainThread]: End processing [airflow-db-logger]: success
+[2023-05-17 17:10:56] INFO root fetch - processPackages [sspqdd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 17:10:56] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-17 17:10:56] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.3.tar.gz tmp/sspqdd-1.0.4.tar.gz --markdown 20230517/s/sspqdd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 17:10:56] INFO root fetch - processPackages [mynotiontools]: Start processing: opvious
+[2023-05-17 17:10:56] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-05-17 17:10:56] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-17 17:10:56] INFO root fetch - processPackages [test-add-python]: Start processing: myapimovies
+[2023-05-17 17:10:56] INFO root fetch - main [MainThread]: End processing [test-add-python]: success
+[2023-05-17 17:10:56] WARNING root fetch - processPackages [myapimovies]: Skipping, unable to determine old version
+[2023-05-17 17:10:56] INFO root fetch - processPackages [myapimovies]: Start processing: luminesce-sdk-preview
+[2023-05-17 17:10:56] INFO root fetch - main [MainThread]: End processing [myapimovies] error
+[2023-05-17 17:10:56] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-17 17:10:56] INFO root fetch - processPackages [elefantolib-fastapi]: Start processing: fusionsc
+[2023-05-17 17:10:56] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-05-17 17:10:56] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-17 17:10:56] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230517/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-17 17:10:56] INFO root fetch - processPackages [sspqdd]: Start processing: metobs-toolkit
+[2023-05-17 17:10:56] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-17 17:10:56] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-05-17 17:10:56] INFO root fetch - processPackages [metobs-toolkit]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2023-05-17 17:10:56] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-17 17:10:57] INFO root fetch - processPackages [metobs-toolkit]: executing diffoscope
+[2023-05-17 17:10:57] INFO root fetch - processPackages [metobs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metobs_toolkit-0.0.2a3.tar.gz tmp/metobs_toolkit-0.0.2a4.tar.gz --markdown 20230517/m/metobs-toolkit/0.0.2a3-0.0.2a4/diff.md --exclude *.pyd
+[2023-05-17 17:10:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: data-repo-client
+[2023-05-17 17:10:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-17 17:10:57] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.482.0]
+[2023-05-17 17:10:57] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-17 17:10:57] INFO root fetch - processPackages [fusionsc]: Start processing: pretix-mpesa-mz
+[2023-05-17 17:10:57] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-17 17:10:57] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-17 17:10:57] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230517/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-17 17:10:57] INFO root fetch - processPackages [dr-import]: Start processing: sspqdd
+[2023-05-17 17:10:57] INFO root fetch - main [MainThread]: End processing [dr-import]: success
+[2023-05-17 17:10:57] INFO root fetch - processPackages [smarthouse]: Start processing: esmerald-sessions
+[2023-05-17 17:10:57] INFO root fetch - main [MainThread]: End processing [smarthouse]: success
+[2023-05-17 17:10:57] INFO root fetch - processPackages [sspqdd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 17:10:57] INFO root fetch - processPackages [pretix-mpesa-mz]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-17 17:10:57] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/0b/44/86800df75085f88bdc22b386080ea2f9b19e930a4fc50f72bedd68c2ba4c/data-repo-client-1.482.0.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-17 17:10:57] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.3.tar.gz tmp/sspqdd-1.0.4.tar.gz --markdown 20230517/s/sspqdd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 17:10:57] INFO root fetch - processPackages [esmerald-sessions]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-17 17:10:57] INFO root fetch - processPackages [sspqdd]: Start processing: ebbe
+[2023-05-17 17:10:57] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-17 17:10:57] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/2c/64/bc1aabfed0deb00100302d4ae5fd22a671a4466c861fb2466a88ac1d3fca/pretix-mpesa-mz-1.3.0.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [ebbe]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-17 17:10:57] INFO root fetch - processPackages [esmerald-sessions]: Downloading https://files.pythonhosted.org/packages/b0/3c/17e4cf910611fb8bb6bbf1ca44696ef731a9ab3f2a849693cec546d79995/esmerald_sessions-0.2.0.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/e8/8a/451e11152872d84fa0bcbd1aba4b4b8ec25f3b0e88b7ff07b3b7add256e9/pretix-mpesa-mz-1.3.1.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [ebbe]: Downloading https://files.pythonhosted.org/packages/62/e3/2fd509a85b795096ee4bc9db6f335a3c41abe8b10288d05fc114c1fc699e/ebbe-1.8.0.tar.gz
+[2023-05-17 17:10:57] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-17 17:10:57] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.482.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230517/d/data-repo-client/1.482.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-17 17:10:58] INFO root fetch - processPackages [esmerald-sessions]: Downloading https://files.pythonhosted.org/packages/db/8f/25e9c0db14203783e44cd9716883c8f0edb35e140e61ab4073326d144494/esmerald_sessions-0.3.0.tar.gz
+[2023-05-17 17:10:58] INFO root fetch - processPackages [polygon-api-client]: Start processing: fastapi-mqtt
+[2023-05-17 17:10:58] INFO root fetch - main [MainThread]: End processing [polygon-api-client]: success
+[2023-05-17 17:10:58] INFO root fetch - processPackages [pretix-mpesa-mz]: executing diffoscope
+[2023-05-17 17:10:58] INFO root fetch - processPackages [pretix-mpesa-mz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-mpesa-mz-1.3.0.tar.gz tmp/pretix-mpesa-mz-1.3.1.tar.gz --markdown 20230517/p/pretix-mpesa-mz/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-17 17:10:58] INFO root fetch - processPackages [fastapi-mqtt]: New version: [1.8] Old Version: [1.0.7]
+[2023-05-17 17:10:58] INFO root fetch - processPackages [esmerald-sessions]: executing diffoscope
+[2023-05-17 17:10:58] INFO root fetch - processPackages [esmerald-sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald_sessions-0.2.0.tar.gz tmp/esmerald_sessions-0.3.0.tar.gz --markdown 20230517/e/esmerald-sessions/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 17:10:58] INFO root fetch - processPackages [ebbe]: Downloading https://files.pythonhosted.org/packages/d7/45/6cd4270962fc840707b2cae8746e98562e37c875417ec218cc09a41e33b5/ebbe-1.9.0.tar.gz
+[2023-05-17 17:10:58] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/a4/b3/835760f4b5a00084693816fd741c2af542d93a3c12a5b403b1b9d11439da/fastapi_mqtt-1.0.7.tar.gz
+[2023-05-17 17:10:58] INFO root fetch - processPackages [ebbe]: executing diffoscope
+[2023-05-17 17:10:58] INFO root fetch - processPackages [ebbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbe-1.8.0.tar.gz tmp/ebbe-1.9.0.tar.gz --markdown 20230517/e/ebbe/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 17:10:58] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/91/cf/e7011cf21b89a2770d2115b03a1eaa430b8b699ea03571ed19a4c34622dd/fastapi_mqtt-1.8.tar.gz
+[2023-05-17 17:10:58] INFO root fetch - processPackages [opvious]: Start processing: tensorflow-text-nightly
+[2023-05-17 17:10:58] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-17 17:10:58] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-17 17:10:58] INFO root fetch - processPackages [fastapi-mqtt]: executing diffoscope
+[2023-05-17 17:10:58] INFO root fetch - processPackages [fastapi-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mqtt-1.0.7.tar.gz tmp/fastapi_mqtt-1.8.tar.gz --markdown 20230517/f/fastapi-mqtt/1.0.7-1.8/diff.md --exclude *.pyd
+[2023-05-17 17:10:58] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-17 17:10:59] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230517] Old Version: [2.14.0.dev20230516]
+[2023-05-17 17:10:59] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/8d/5a/863939ba599b7c5f6fb5352974364e5cb83514ee4c395d3c1e6057e9455b/tensorflow_text_nightly-2.14.0.dev20230516-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 17:10:59] INFO root fetch - main [MainThread]: End processing [pretix-mpesa-mz]: success
+[2023-05-17 17:10:59] INFO root fetch - main [MainThread]: End processing [esmerald-sessions]: success
+[2023-05-17 17:10:59] INFO root fetch - main [MainThread]: End processing [ebbe]: success
+[2023-05-17 17:10:59] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/a8/b6/d66d0069377d103c935a166393b6f89bc4b5db9204b420e9dfc066488550/tensorflow_text_nightly-2.14.0.dev20230517-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-17 17:10:59] INFO root fetch - main [MainThread]: End processing [metobs-toolkit]: success
+[2023-05-17 17:10:59] INFO root fetch - main [MainThread]: End processing [fastapi-mqtt]: success
+[2023-05-17 17:11:00] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-17 17:11:00] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230516-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230517-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230517/t/tensorflow-text-nightly/2.14.0.dev20230516-2.14.0.dev20230517/diff.md --exclude *.pyd
+[2023-05-17 17:11:02] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-17 17:11:03] INFO root fetch - main [MainThread]: End processing [picsellia-tf2]: success
+[2023-05-17 17:11:16] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-17 17:11:16] INFO root fetch - main [MainThread]: Store serial: [18141550]
