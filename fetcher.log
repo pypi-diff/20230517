@@ -14354,3 +14354,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:08:08] INFO root fetch - main [MainThread]: End processing [keystoneauth1]: success
 [2023-05-17 13:08:09] INFO root fetch - main [MainThread]: End processing [glance-store]: success
 [2023-05-17 13:08:09] INFO root fetch - main [MainThread]: Store serial: [18138208]
+[2023-05-17 13:13:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138208]
+[2023-05-17 13:13:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptbuddy
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glance-store
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-enroll
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspose-words-cloud
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: basicclip
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypipr
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windows-control
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omicverse
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: collecting-faces
+[2023-05-17 13:13:18] WARNING root fetch - processPackages [cryptbuddy]: Skipping, unable to determine old version
+[2023-05-17 13:13:18] INFO root fetch - processPackages [cryptbuddy]: Start processing: keystonemiddleware
+[2023-05-17 13:13:18] INFO root fetch - main [MainThread]: End processing [cryptbuddy] error
+[2023-05-17 13:13:18] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: New version: [20230517.11.9.899050] Old Version: [20230515.14.55.856942]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [glance-store]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [basicclip]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [aspose-words-cloud]: New version: [23.4.0] Old Version: [23.3.0]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [collecting-faces]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [omicverse]: New version: [1.2.11] Old Version: [1.2.10]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-05-17 13:13:18] WARNING root fetch - processPackages [windows-control]: Skipping, unable to determine old version
+[2023-05-17 13:13:18] INFO root fetch - processPackages [windows-control]: Start processing: ocellus
+[2023-05-17 13:13:18] INFO root fetch - main [MainThread]: End processing [windows-control] error
+[2023-05-17 13:13:18] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-17 13:13:18] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230517/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-17 13:13:18] INFO root fetch - processPackages [keystonemiddleware]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-05-17 13:13:18] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/e2/9c/a116537383a2843584667f1c13a3880df37386106e6fb95beb9e1ba0f6d0/aspose-words-cloud-23.3.0.tar.gz
+[2023-05-17 13:13:18] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/ba/ec/b567b3f46a8773bb5119057035ccb4f912823536eec9aa2c1f0147f643fe/glance_store-4.3.1.tar.gz
+[2023-05-17 13:13:18] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Downloading https://files.pythonhosted.org/packages/99/1a/371bed3f184a8c3010876db9ba1a4abfa5dfa4e2dddc075913e593ba591f/certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes-20230515.14.55.856942.tar.gz
+[2023-05-17 13:13:18] INFO root fetch - processPackages [collecting-faces]: Downloading https://files.pythonhosted.org/packages/2c/e1/fb7b75aa72dffef4bd7f882f327aba3aeceb7c22fab6da6d6d936fc8863e/collecting_faces-1.0.3.tar.gz
+[2023-05-17 13:13:18] INFO root fetch - processPackages [basicclip]: Downloading https://files.pythonhosted.org/packages/64/09/90db20a6446b18dc7328bda208a077b61aa3d059d2a5219512e9b6830d77/basicclip-0.0.1.tar.gz
+[2023-05-17 13:13:18] INFO root fetch - processPackages [ocellus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 13:13:19] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/2d/a1/7b3d45fbeb06b1010f0dc2008aafa3be1b849ed2e49d59dc08e1d886d42f/pypipr-0.1.88.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/5e/59/d0ac3d45d145cf241c6953d616cec6461dbfeefddb8c906d502554286800/omicverse-1.2.10-py3-none-any.whl
+[2023-05-17 13:13:19] WARNING root fetch - processPackages [collecting-faces]: Skipping package: exceeds size limit 71952429>=10485760
+[2023-05-17 13:13:19] INFO root fetch - processPackages [collecting-faces]: Start processing: cinder
+[2023-05-17 13:13:19] INFO root fetch - main [MainThread]: End processing [collecting-faces] error
+[2023-05-17 13:13:19] WARNING root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Skipping package: exceeds size limit 39437981>=10485760
+[2023-05-17 13:13:19] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Start processing: amsterdam-schema-tools
+[2023-05-17 13:13:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes] error
+[2023-05-17 13:13:19] WARNING root fetch - processPackages [omicverse]: Skipping package: exceeds size limit 16541220>=10485760
+[2023-05-17 13:13:19] INFO root fetch - processPackages [omicverse]: Start processing: report-MR-2018
+[2023-05-17 13:13:19] INFO root fetch - main [MainThread]: End processing [omicverse] error
+[2023-05-17 13:13:19] INFO root fetch - processPackages [keystonemiddleware]: Downloading https://files.pythonhosted.org/packages/47/0e/a8e788d51cd7ab0a888f63cd6ff7883150a164b5ecc0b6682c9270892035/keystonemiddleware-9.4.0.tar.gz
+[2023-05-17 13:13:19] WARNING root fetch - processPackages [report-MR-2018]: Skipping, unable to determine old version
+[2023-05-17 13:13:19] INFO root fetch - processPackages [report-MR-2018]: Start processing: nova
+[2023-05-17 13:13:19] INFO root fetch - main [MainThread]: End processing [report-MR-2018] error
+[2023-05-17 13:13:19] INFO root fetch - processPackages [glance-store]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [glance-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance_store-4.3.1.tar.gz tmp/glance_store-4.4.0.tar.gz --markdown 20230517/g/glance-store/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-05-17 13:13:19] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-17 13:13:19] INFO root fetch - processPackages [cinder]: New version: [22.0.0.0rc2] Old Version: [22.0.0.0rc1]
+[2023-05-17 13:13:19] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/72/ef/a223f62b12bf84e783e7f0eff96182e4184c33ebf4d7ec02218cc74fa0d1/ocellus-0.1.8.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/41/fd/77ed3c836b097eb6c9f7447d5573af4b870222220af83700abf697786942/aspose-words-cloud-23.4.0.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [basicclip]: Downloading https://files.pythonhosted.org/packages/e6/61/186b81e2731273cf7d51b2e549700b53f8250299e8961594a2b80dec9ecc/basicclip-0.0.2.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230517/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-17 13:13:19] INFO root fetch - processPackages [nova]: New version: [27.1.0] Old Version: [27.0.0.0rc1]
+[2023-05-17 13:13:19] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/32/cd/c83422ecc5ba1244068c6dfd0f5e7f794651ea68108be50ec4a3d8392b72/pypipr-0.1.9.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [basicclip]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [basicclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicclip-0.0.1.tar.gz tmp/basicclip-0.0.2.tar.gz --markdown 20230517/b/basicclip/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 13:13:19] INFO root fetch - processPackages [aspose-words-cloud]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [aspose-words-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-words-cloud-23.3.0.tar.gz tmp/aspose-words-cloud-23.4.0.tar.gz --markdown 20230517/a/aspose-words-cloud/23.3.0-23.4.0/diff.md --exclude *.pyd
+[2023-05-17 13:13:19] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.88.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230517/p/pypipr/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:13:19] INFO root fetch - processPackages [keystonemiddleware]: Downloading https://files.pythonhosted.org/packages/60/33/89117cf0d961d6f7142e7a19a8931f194233cf22c0c79acde59607cf1b09/keystonemiddleware-9.5.0.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/66/0c/47e46ae4d464851b560502ad3a6206a2eead9535f56fa8a78a01dce805c0/cinder-22.0.0.0rc1.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/1f/52/69c36dddd8ef916087556276c64da3b06709161dccd22f6e6947e5be5158/nova-27.0.0.0rc1.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/f3/63/285743adccf20de528ee014f0adc6558116e656fd4eb4e90ba81deab4a6e/ocellus-0.1.9.tar.gz
+[2023-05-17 13:13:19] INFO root fetch - processPackages [keystonemiddleware]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [keystonemiddleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keystonemiddleware-9.4.0.tar.gz tmp/keystonemiddleware-9.5.0.tar.gz --markdown 20230517/k/keystonemiddleware/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-05-17 13:13:19] INFO root fetch - processPackages [ocellus]: executing diffoscope
+[2023-05-17 13:13:19] INFO root fetch - processPackages [ocellus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocellus-0.1.8.tar.gz tmp/ocellus-0.1.9.tar.gz --markdown 20230517/o/ocellus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:13:20] INFO root fetch - processPackages [basicclip]: Start processing: decore-base
+[2023-05-17 13:13:20] INFO root fetch - main [MainThread]: End processing [basicclip]: success
+[2023-05-17 13:13:20] INFO root fetch - processPackages [pypipr]: Start processing: aafitrans
+[2023-05-17 13:13:20] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-17 13:13:20] WARNING root fetch - processPackages [decore-base]: Skipping, unable to determine old version
+[2023-05-17 13:13:20] INFO root fetch - processPackages [decore-base]: Start processing: discake
+[2023-05-17 13:13:20] INFO root fetch - main [MainThread]: End processing [decore-base] error
+[2023-05-17 13:13:20] INFO root fetch - processPackages [discake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:13:20] INFO root fetch - processPackages [aafitrans]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 13:13:20] INFO root fetch - processPackages [discake]: executing diffoscope
+[2023-05-17 13:13:20] INFO root fetch - processPackages [discake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discake-0.0.8.tar.gz tmp/discake-0.0.9.tar.gz --markdown 20230517/d/discake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:13:20] INFO root fetch - processPackages [xj-enroll]: Start processing: glance-store
+[2023-05-17 13:13:20] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-17 13:13:20] INFO root fetch - processPackages [glance-store]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-05-17 13:13:21] INFO root fetch - processPackages [aafitrans]: Downloading https://files.pythonhosted.org/packages/f1/7f/5ae1a6a555bfa93a8ebe9d088de2812efd61ca7a024e5a33d83da098487f/aafitrans-0.1.1.tar.gz
+[2023-05-17 13:13:21] INFO root fetch - processPackages [glance-store]: executing diffoscope
+[2023-05-17 13:13:21] INFO root fetch - processPackages [glance-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance_store-4.3.1.tar.gz tmp/glance_store-4.4.0.tar.gz --markdown 20230517/g/glance-store/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-05-17 13:13:21] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/d4/bf/572039ebce20595e29c060d7c6b7eb00ce3c01b84ac453d8014ff7fa0755/nova-27.1.0.tar.gz
+[2023-05-17 13:13:21] INFO root fetch - processPackages [aafitrans]: Downloading https://files.pythonhosted.org/packages/5a/85/26e0f43bc90e8948a0b051680baf83f0921c391ef7f9ca70d650253b3ea4/aafitrans-0.1.2.tar.gz
+[2023-05-17 13:13:21] INFO root fetch - main [MainThread]: End processing [ocellus]: success
+[2023-05-17 13:13:21] INFO root fetch - processPackages [nova]: executing diffoscope
+[2023-05-17 13:13:21] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-27.0.0.0rc1.tar.gz tmp/nova-27.1.0.tar.gz --markdown 20230517/n/nova/27.0.0.0rc1-27.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:13:21] INFO root fetch - processPackages [aafitrans]: executing diffoscope
+[2023-05-17 13:13:21] INFO root fetch - processPackages [aafitrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aafitrans-0.1.1.tar.gz tmp/aafitrans-0.1.2.tar.gz --markdown 20230517/a/aafitrans/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 13:13:21] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/cb/5e/24eeecf76c9af44f5a3ad17c19c0dd48f4bfaa368ed8b6de153ef1d1103c/cinder-22.0.0.0rc2.tar.gz
+[2023-05-17 13:13:21] INFO root fetch - main [MainThread]: End processing [discake]: success
+[2023-05-17 13:13:22] INFO root fetch - main [MainThread]: End processing [aafitrans]: success
+[2023-05-17 13:13:23] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-05-17 13:13:23] INFO root fetch - main [MainThread]: End processing [glance-store]: success
+[2023-05-17 13:13:23] INFO root fetch - main [MainThread]: End processing [keystonemiddleware]: success
+[2023-05-17 13:13:23] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2023-05-17 13:13:23] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-22.0.0.0rc1.tar.gz tmp/cinder-22.0.0.0rc2.tar.gz --markdown 20230517/c/cinder/22.0.0.0rc1-22.0.0.0rc2/diff.md --exclude *.pyd
+[2023-05-17 13:13:25] INFO root fetch - main [MainThread]: End processing [glance-store]: success
+[2023-05-17 13:13:28] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
+[2023-05-17 13:15:06] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2023-05-17 13:16:16] INFO root fetch - main [MainThread]: End processing [nova]: success
+[2023-05-17 13:16:16] INFO root fetch - main [MainThread]: Store serial: [18138273]
