@@ -2223,3 +2223,39 @@
 [2023-05-17 02:51:18] INFO root fetch - main [MainThread]: End processing [oganesson]: success
 [2023-05-17 02:51:19] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-05-17 02:51:19] INFO root fetch - main [MainThread]: Store serial: [18131238]
+[2023-05-17 02:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131238]
+[2023-05-17 02:56:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zensvi
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MakerToolbox
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toolshelf
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-core
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dustgoggles
+[2023-05-17 02:56:27] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-17 02:56:27] INFO root fetch - processPackages [zensvi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 02:56:27] INFO root fetch - processPackages [toolshelf]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 02:56:27] WARNING root fetch - processPackages [MakerToolbox]: Skipping, unable to determine old version
+[2023-05-17 02:56:27] INFO root fetch - processPackages [dustgoggles]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-17 02:56:27] INFO root fetch - main [MainThread]: End processing [MakerToolbox] error
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-05-17 02:56:27] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-17 02:56:27] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230517/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-05-17 02:56:27] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230517/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-05-17 02:56:27] WARNING root fetch - processPackages [toolshelf]: fallback to get urls: [0.2.1]
+[2023-05-17 02:56:27] WARNING root fetch - processPackages [toolshelf]: None
+[2023-05-17 02:56:27] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-05-17 02:56:27] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.1.8.tar.gz tmp/zensvi-0.1.9.tar.gz --markdown 20230517/z/zensvi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 02:56:27] WARNING root fetch - processPackages [toolshelf]: None
+[2023-05-17 02:56:27] INFO root fetch - processPackages [dustgoggles]: Downloading https://files.pythonhosted.org/packages/7b/0e/8d5efc721553b20c6e5a64fcfd52b29b1d3de5bec44841f9185ea7b1b057/dustgoggles-0.6.0.tar.gz
+[2023-05-17 02:56:27] WARNING root fetch - processPackages [toolshelf]: unable to get url for both version [0.2.1]
+[2023-05-17 02:56:27] WARNING root fetch - processPackages [toolshelf]: None
+[2023-05-17 02:56:27] INFO root fetch - main [MainThread]: End processing [toolshelf] error
+[2023-05-17 02:56:28] INFO root fetch - processPackages [dustgoggles]: Downloading https://files.pythonhosted.org/packages/cc/0d/38c1b2ac43347952ea802ee6837007259993c592acf25cee6a8b83eb367f/dustgoggles-0.7.0.tar.gz
+[2023-05-17 02:56:28] INFO root fetch - processPackages [dustgoggles]: executing diffoscope
+[2023-05-17 02:56:28] INFO root fetch - processPackages [dustgoggles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustgoggles-0.6.0.tar.gz tmp/dustgoggles-0.7.0.tar.gz --markdown 20230517/d/dustgoggles/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 02:56:28] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-17 02:56:29] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-05-17 02:56:29] INFO root fetch - main [MainThread]: End processing [dustgoggles]: success
+[2023-05-17 02:56:40] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-05-17 02:56:40] INFO root fetch - main [MainThread]: Store serial: [18131262]
