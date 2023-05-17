@@ -1929,3 +1929,129 @@
 [2023-05-17 02:30:11] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-05-17 02:30:14] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 02:30:14] INFO root fetch - main [MainThread]: Store serial: [18131071]
+[2023-05-17 02:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131071]
+[2023-05-17 02:35:23] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-github-actions
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-jenkins
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coastsat-package
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-ecs-service-extensions
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: criptoMark
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-keyvault-certificates
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-keyvault-administration
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-keyvault-keys
+[2023-05-17 02:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: havoc-clustering
+[2023-05-17 02:35:23] INFO root fetch - processPackages [azure-keyvault-certificates]: New version: [4.8.0b1] Old Version: [4.7.0]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [criptoMark]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [havoc-clustering]: New version: [0.0.9] Old Version: [0.0.4]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [azure-keyvault-keys]: New version: [4.9.0b1] Old Version: [4.8.0b2]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [azure-keyvault-administration]: New version: [4.4.0b1] Old Version: [4.3.0b1]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 02:35:23] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230517/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-certificates]: Downloading https://files.pythonhosted.org/packages/e6/cf/85d521e65557e4dee2cd9c700f518c3a46f6f71068e61c07d0b13b2e0727/azure-keyvault-certificates-4.7.0.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-administration]: Downloading https://files.pythonhosted.org/packages/ec/6d/9af1a700b70cdb1d42c032f3374cc732e40fed5557821b62a0298abb8c9f/azure-keyvault-administration-4.3.0b1.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [criptoMark]: Downloading https://files.pythonhosted.org/packages/f9/ad/2bd1c98d21048eaea65fa4879f7fbcc3b1d2cb9851316bb35d0d94539256/criptoMark-0.0.5.tar.gz
+[2023-05-17 02:35:24] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/06/33/d822dde63f2ad388f4a895cfc3bb851c746d40921cbff3618f959e3233af/havoc_clustering-0.0.4.tar.gz
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-keys]: Downloading https://files.pythonhosted.org/packages/75/8f/d984f31d1c6736e0b81f9ea8e63e57d54995bf5d61de8fe8ab8e131c2e44/azure-keyvault-keys-4.8.0b2.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/c5/b9/bbe0f91e773f2ff00b4883939c25278cb13099ac01d05593e3bae87ad82c/coastsat_package-0.1.8.tar.gz
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230517/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [criptoMark]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [criptoMark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criptoMark-0.0.4.tar.gz tmp/criptoMark-0.0.5.tar.gz --markdown 20230517/c/criptoMark/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230517/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/d7/0a/76e66eb3fb5dc8d1e3667229637b0a771d33cc8e02b789a15e2fa370d928/havoc_clustering-0.0.9.tar.gz
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230517/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32859514>=10485760
+[2023-05-17 02:35:24] INFO root fetch - processPackages [coastsat-package]: Start processing: azure-keyvault-secrets
+[2023-05-17 02:35:24] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2023-05-17 02:35:24] INFO root fetch - processPackages [havoc-clustering]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [havoc-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havoc_clustering-0.0.4.tar.gz tmp/havoc_clustering-0.0.9.tar.gz --markdown 20230517/h/havoc-clustering/0.0.4-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-certificates]: Downloading https://files.pythonhosted.org/packages/f7/9c/bd263f470fc62d6e8a3da3c4dc688c3cae31aa2d67571a260c3596a46c54/azure-keyvault-certificates-4.8.0b1.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-secrets]: New version: [4.8.0b1] Old Version: [4.7.0]
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-administration]: Downloading https://files.pythonhosted.org/packages/49/bb/089fec1b5d2d8011146f1f524e5feac3b2e88281c2d78cb56b236ef5fb84/azure-keyvault-administration-4.4.0b1.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-keys]: Downloading https://files.pythonhosted.org/packages/67/bc/d42d44b39cce47a3002bd814389c8e376acd456db89b3d8f3c0f3b102a18/azure-keyvault-keys-4.9.0b1.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-certificates]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-keyvault-certificates-4.7.0.zip tmp/azure-keyvault-certificates-4.8.0b1.zip --markdown 20230517/a/azure-keyvault-certificates/4.7.0-4.8.0b1/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-administration]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-keyvault-administration-4.3.0b1.zip tmp/azure-keyvault-administration-4.4.0b1.zip --markdown 20230517/a/azure-keyvault-administration/4.3.0b1-4.4.0b1/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-keys]: executing diffoscope
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-keys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-keyvault-keys-4.8.0b2.zip tmp/azure-keyvault-keys-4.9.0b1.zip --markdown 20230517/a/azure-keyvault-keys/4.8.0b2-4.9.0b1/diff.md --exclude *.pyd
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-secrets]: Downloading https://files.pythonhosted.org/packages/5c/a1/78ecabf98e97d600dcac1559ff64b4bc9f84eca126c0aeba859916832b0c/azure-keyvault-secrets-4.7.0.zip
+[2023-05-17 02:35:24] INFO root fetch - processPackages [azure-keyvault-secrets]: Downloading https://files.pythonhosted.org/packages/87/1b/673e4f9efa71b6218889a44304de92024e8acf1366e2f9ba8a1df92902b8/azure-keyvault-secrets-4.8.0b1.zip
+[2023-05-17 02:35:25] INFO root fetch - processPackages [azure-keyvault-secrets]: executing diffoscope
+[2023-05-17 02:35:25] INFO root fetch - processPackages [azure-keyvault-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-keyvault-secrets-4.7.0.zip tmp/azure-keyvault-secrets-4.8.0b1.zip --markdown 20230517/a/azure-keyvault-secrets/4.7.0-4.8.0b1/diff.md --exclude *.pyd
+[2023-05-17 02:35:25] INFO root fetch - processPackages [criptoMark]: Start processing: cdk-aurora-globaldatabase
+[2023-05-17 02:35:25] INFO root fetch - main [MainThread]: End processing [criptoMark]: success
+[2023-05-17 02:35:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-17 02:35:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-05-17 02:35:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230517/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-17 02:35:25] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdktf-proxmox
+[2023-05-17 02:35:25] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-17 02:35:25] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-05-17 02:35:26] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/93/fc/81a9ce02e4480f6cab196aa550cba735c1efa48399765a8104a674aa8e62/cdktf-proxmox-0.0.80.tar.gz
+[2023-05-17 02:35:26] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: airunner
+[2023-05-17 02:35:26] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-05-17 02:35:26] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-17 02:35:26] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-05-17 02:35:26] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.80.tar.gz tmp/cdktf-proxmox-0.0.9.tar.gz --markdown 20230517/c/cdktf-proxmox/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 02:35:26] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-05-17 02:35:26] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230517/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-17 02:35:26] INFO root fetch - processPackages [havoc-clustering]: Start processing: everdrop-aws-cdk-constructs
+[2023-05-17 02:35:26] INFO root fetch - main [MainThread]: End processing [havoc-clustering]: success
+[2023-05-17 02:35:26] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 02:35:26] INFO root fetch - processPackages [cdktf-github-actions]: Start processing: hugchat
+[2023-05-17 02:35:26] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-05-17 02:35:26] INFO root fetch - processPackages [hugchat]: New version: [0.0.6.1] Old Version: [0.0.6]
+[2023-05-17 02:35:26] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-05-17 02:35:26] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230517/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 02:35:27] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/4f/f2/f0e8026e0d54c0dbff2428b6e9c924a4f47c82004d02c60cc14d9c05fb83/hugchat-0.0.6.1.tar.gz
+[2023-05-17 02:35:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: awstuff
+[2023-05-17 02:35:27] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-05-17 02:35:27] INFO root fetch - processPackages [awstuff]: New version: [0.1] Old Version: [0.0]
+[2023-05-17 02:35:27] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-05-17 02:35:27] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.6.tar.gz tmp/hugchat-0.0.6.1.tar.gz --markdown 20230517/h/hugchat/0.0.6-0.0.6.1/diff.md --exclude *.pyd
+[2023-05-17 02:35:27] INFO root fetch - processPackages [awstuff]: Downloading https://files.pythonhosted.org/packages/da/a0/de6b41528a2f2be769cb9a6c5a4c564a86e971b3824a5f3c3d0cddd9a53a/awstuff-0.0.tar.gz
+[2023-05-17 02:35:27] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-17 02:35:27] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-05-17 02:35:27] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 02:35:27] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-17 02:35:27] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230517/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 02:35:27] INFO root fetch - processPackages [awstuff]: Downloading https://files.pythonhosted.org/packages/b3/c1/c2a0af21e07898519a8712ca378180956a3f027ed4c5e90192619e6fbad8/awstuff-0.1.tar.gz
+[2023-05-17 02:35:27] INFO root fetch - processPackages [awstuff]: executing diffoscope
+[2023-05-17 02:35:27] INFO root fetch - processPackages [awstuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awstuff-0.0.tar.gz tmp/awstuff-0.1.tar.gz --markdown 20230517/a/awstuff/0.0-0.1/diff.md --exclude *.pyd
+[2023-05-17 02:35:28] INFO root fetch - processPackages [airunner]: Start processing: aeppl-nightly
+[2023-05-17 02:35:28] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-05-17 02:35:28] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230516] Old Version: [0.1.4.dev20230515]
+[2023-05-17 02:35:28] INFO root fetch - processPackages [azure-keyvault-certificates]: Start processing: gantry
+[2023-05-17 02:35:28] INFO root fetch - main [MainThread]: End processing [azure-keyvault-certificates]: success
+[2023-05-17 02:35:28] INFO root fetch - processPackages [gantry]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-17 02:35:28] INFO root fetch - processPackages [azure-keyvault-secrets]: Start processing: mri-distortion-toolkit
+[2023-05-17 02:35:28] INFO root fetch - main [MainThread]: End processing [azure-keyvault-secrets]: success
+[2023-05-17 02:35:28] INFO root fetch - processPackages [mri-distortion-toolkit]: New version: [0.9.0] Old Version: [0.14.4]
+[2023-05-17 02:35:28] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/45/fc/a0d02b88aba1e76f64c173838dee0376a0aac10a46a39cfa58c5e8c82b5f/aeppl-nightly-0.1.4.dev20230516.tar.gz
+[2023-05-17 02:35:28] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/0d/81/d37ffc60b1b4b9c1d9089c301c7d86d9a24e6f80934b5d6e0a73de079786/gantry-0.6.4.tar.gz
+[2023-05-17 02:35:28] INFO root fetch - main [MainThread]: End processing [azure-keyvault-administration]: success
+[2023-05-17 02:35:28] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-05-17 02:35:28] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230515.tar.gz tmp/aeppl-nightly-0.1.4.dev20230516.tar.gz --markdown 20230517/a/aeppl-nightly/0.1.4.dev20230515-0.1.4.dev20230516/diff.md --exclude *.pyd
+[2023-05-17 02:35:28] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-05-17 02:35:28] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-05-17 02:35:28] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.3.tar.gz tmp/gantry-0.6.4.tar.gz --markdown 20230517/g/gantry/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-17 02:35:28] INFO root fetch - processPackages [mri-distortion-toolkit]: Downloading https://files.pythonhosted.org/packages/59/0e/8aef99175fdecd2e823baec02f607d3ef9b51987091437cf907e41116143/mri_distortion_toolkit-0.14.4.tar.gz
+[2023-05-17 02:35:28] INFO root fetch - main [MainThread]: End processing [awstuff]: success
+[2023-05-17 02:35:29] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-05-17 02:35:29] INFO root fetch - processPackages [mri-distortion-toolkit]: executing diffoscope
+[2023-05-17 02:35:29] INFO root fetch - processPackages [mri-distortion-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mri_distortion_toolkit-0.14.4.tar.gz tmp/mri_distortion_toolkit-0.9.0.tar.gz --markdown 20230517/m/mri-distortion-toolkit/0.14.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 02:35:29] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-17 02:35:29] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-05-17 02:35:30] INFO root fetch - main [MainThread]: End processing [mri-distortion-toolkit]: success
+[2023-05-17 02:35:30] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-05-17 02:35:30] INFO root fetch - main [MainThread]: End processing [azure-keyvault-keys]: success
+[2023-05-17 02:35:32] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-05-17 02:35:32] INFO root fetch - main [MainThread]: Store serial: [18131132]
