@@ -20989,3 +20989,87 @@ EOFError: EOF read where object expected
 [2023-05-17 17:37:45] INFO root fetch - main [MainThread]: End processing [GCNFrame]: success
 [2023-05-17 17:37:52] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
 [2023-05-17 17:37:52] INFO root fetch - main [MainThread]: Store serial: [18141912]
+[2023-05-17 17:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141912]
+[2023-05-17 17:43:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: determined-common
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: determined-cli
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: belvys
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tknodesystem
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a1rnctf
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linushka-serializer
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: formula-dispersion
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RiskLabAI
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usepy
+[2023-05-17 17:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightmotif
+[2023-05-17 17:43:02] INFO root fetch - processPackages [belvys]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-17 17:43:02] WARNING root fetch - processPackages [tknodesystem]: Skipping, unable to determine old version
+[2023-05-17 17:43:02] INFO root fetch - processPackages [tknodesystem]: Start processing: robin-chat-input
+[2023-05-17 17:43:02] INFO root fetch - main [MainThread]: End processing [tknodesystem] error
+[2023-05-17 17:43:02] WARNING root fetch - processPackages [formula-dispersion]: Skipping, unable to determine old version
+[2023-05-17 17:43:02] INFO root fetch - processPackages [formula-dispersion]: Start processing: google-sheets-telegram-utils
+[2023-05-17 17:43:02] INFO root fetch - main [MainThread]: End processing [formula-dispersion] error
+[2023-05-17 17:43:02] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [a1rnctf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [usepy]: New version: [0.2.3a0] Old Version: [0.2.2a0]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [lightmotif]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [linushka-serializer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-cli]: New version: [0.22.1rc0] Old Version: [0.22.0rc2]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-common]: New version: [0.22.1rc0] Old Version: [0.22.0rc2]
+[2023-05-17 17:43:02] WARNING root fetch - processPackages [robin-chat-input]: Skipping, unable to determine old version
+[2023-05-17 17:43:02] INFO root fetch - processPackages [robin-chat-input]: Start processing: anastasia-logging
+[2023-05-17 17:43:02] INFO root fetch - main [MainThread]: End processing [robin-chat-input] error
+[2023-05-17 17:43:02] INFO root fetch - processPackages [anastasia-logging]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [google-sheets-telegram-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 17:43:02] INFO root fetch - processPackages [anastasia-logging]: Downloading https://files.pythonhosted.org/packages/11/79/06b6b96ecc14a9b420804e486a9631031fc43354e66045fb3830d8bc857c/anastasia_logging-1.2.0.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [belvys]: Downloading https://files.pythonhosted.org/packages/84/69/ca5c1eeaa4015348ce9a4a03dc4f8c74acc7c15fe864c5701326b5c18b0d/belvys-0.2.3.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/52/e8/6911b64917cdd322bb7f3f25b4c647868bcdea92688f24fe0ee0203c10c6/usepy-0.2.3a0.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/32/c3/d5db6ca93faf70459ef5977cfd6d618e66fc4493ae2b6203ac5934caeb5b/RiskLabAI-0.0.7.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/71/08/fd1ed292d19d26572ef435eb66466167dbf38f524a24ce8712ea50c3bf02/determined_common-0.22.0rc2-py3-none-any.whl
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/1b/2f/c49720817dc5bfb9d4c016969c85d68af6dd4236102c926fe3a7270fa7ca/determined_cli-0.22.0rc2-py3-none-any.whl
+[2023-05-17 17:43:02] INFO root fetch - processPackages [a1rnctf]: Downloading https://files.pythonhosted.org/packages/0a/15/b10d16ec7390b327c5bbba0b081bcf5e1f0a3f55051e313167076a2668ec/a1rnctf-0.1.1.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [lightmotif]: Downloading https://files.pythonhosted.org/packages/7b/92/ed3917ed4f8d3dd37014d0e6389e5a3fd879d721feeb89939f084ed29c66/lightmotif-0.1.1.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [linushka-serializer]: Downloading https://files.pythonhosted.org/packages/27/41/69b7db17ae29c1ab1aa5e391ccd1d5e6d59c6d23dafa7998f924d6752253/linushka_serializer-0.0.1.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [google-sheets-telegram-utils]: Downloading https://files.pythonhosted.org/packages/46/fb/fbe2bd7c8d4cd47687d68e8c75a224add0498f0838e3bcbc0d4423045592/google-sheets-telegram-utils-0.0.6.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [anastasia-logging]: Downloading https://files.pythonhosted.org/packages/80/85/33bb45711f2dedf0614ba99bb1d3d60477a1357891ac8db2d6a92740b899/anastasia_logging-1.3.0.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [usepy]: executing diffoscope
+[2023-05-17 17:43:02] INFO root fetch - processPackages [usepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy-0.2.2a0.tar.gz tmp/usepy-0.2.3a0.tar.gz --markdown 20230517/u/usepy/0.2.2a0-0.2.3a0/diff.md --exclude *.pyd
+[2023-05-17 17:43:02] INFO root fetch - processPackages [anastasia-logging]: executing diffoscope
+[2023-05-17 17:43:02] INFO root fetch - processPackages [anastasia-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anastasia_logging-1.2.0.tar.gz tmp/anastasia_logging-1.3.0.tar.gz --markdown 20230517/a/anastasia-logging/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/f6/40/c679ea19f32ce3f923a1861c2df472bd575073c454dc15bac3a04d591f5e/determined_common-0.22.1rc0-py3-none-any.whl
+[2023-05-17 17:43:02] INFO root fetch - processPackages [a1rnctf]: Downloading https://files.pythonhosted.org/packages/ad/a8/8f0d384dfdedd76105412fee1a72b4186b4808f99a01b5ff5b35ceb03604/a1rnctf-0.1.2.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [belvys]: Downloading https://files.pythonhosted.org/packages/2b/43/20d99a3e97646a5842924422f11fe111a170a284940bc66a82abdf0809e8/belvys-0.2.4.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/cc/ff/c1d0c1b80be28ca28064c9a4be9a1bb7a191606a8b08c1ccad24911f5b54/RiskLabAI-0.0.8.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [linushka-serializer]: Downloading https://files.pythonhosted.org/packages/cd/09/9d1650af4315a3ffd6caca604ffd56fbac66217f4d1a163a71363e4a2c41/linushka_serializer-0.0.2.tar.gz
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-17 17:43:02] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.22.0rc2-py3-none-any.whl.zip tmp/determined_common-0.22.1rc0-py3-none-any.whl.zip --markdown 20230517/d/determined-common/0.22.0rc2-0.22.1rc0/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [lightmotif]: Downloading https://files.pythonhosted.org/packages/57/b0/ec01c22536824a662a36ca89c813f0a00325d7559991a2a8cd6d6378c240/lightmotif-0.2.0.tar.gz
+[2023-05-17 17:43:03] INFO root fetch - processPackages [belvys]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [belvys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belvys-0.2.3.tar.gz tmp/belvys-0.2.4.tar.gz --markdown 20230517/b/belvys/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.7.tar.gz tmp/RiskLabAI-0.0.8.tar.gz --markdown 20230517/R/RiskLabAI/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [google-sheets-telegram-utils]: Downloading https://files.pythonhosted.org/packages/6d/e3/6415235e8af5d478e509bf7f8cb55e679d96d220c0f19028ed5161531f21/google-sheets-telegram-utils-0.0.7.tar.gz
+[2023-05-17 17:43:03] INFO root fetch - processPackages [linushka-serializer]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [linushka-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linushka_serializer-0.0.1.tar.gz tmp/linushka_serializer-0.0.2.tar.gz --markdown 20230517/l/linushka-serializer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [a1rnctf]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [a1rnctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a1rnctf-0.1.1.tar.gz tmp/a1rnctf-0.1.2.tar.gz --markdown 20230517/a/a1rnctf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [lightmotif]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [lightmotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightmotif-0.1.1.tar.gz tmp/lightmotif-0.2.0.tar.gz --markdown 20230517/l/lightmotif/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [google-sheets-telegram-utils]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [google-sheets-telegram-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-sheets-telegram-utils-0.0.6.tar.gz tmp/google-sheets-telegram-utils-0.0.7.tar.gz --markdown 20230517/g/google-sheets-telegram-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 17:43:03] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/16/ee/c74ca2f8605ac44f6ba8d173dd54679af88cf42156bf4d4a0efb3f4ab2e9/determined_cli-0.22.1rc0-py3-none-any.whl
+[2023-05-17 17:43:03] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-17 17:43:03] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.22.0rc2-py3-none-any.whl.zip tmp/determined_cli-0.22.1rc0-py3-none-any.whl.zip --markdown 20230517/d/determined-cli/0.22.0rc2-0.22.1rc0/diff.md --exclude *.pyd
+[2023-05-17 17:43:04] INFO root fetch - processPackages [determined-common]: Start processing: proto-msg
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-17 17:43:04] WARNING root fetch - processPackages [proto-msg]: Skipping, unable to determine old version
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [proto-msg] error
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [linushka-serializer]: success
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [anastasia-logging]: success
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [belvys]: success
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [lightmotif]: success
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2023-05-17 17:43:04] INFO root fetch - main [MainThread]: End processing [a1rnctf]: success
+[2023-05-17 17:43:05] INFO root fetch - main [MainThread]: End processing [google-sheets-telegram-utils]: success
+[2023-05-17 17:43:06] INFO root fetch - main [MainThread]: End processing [usepy]: success
+[2023-05-17 17:43:06] INFO root fetch - main [MainThread]: Store serial: [18142063]
