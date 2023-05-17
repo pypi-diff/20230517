@@ -9174,3 +9174,79 @@
 [2023-05-17 08:46:41] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: success
 [2023-05-17 08:46:43] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-05-17 08:46:43] INFO root fetch - main [MainThread]: Store serial: [18135091]
+[2023-05-17 08:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135091]
+[2023-05-17 08:51:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedml
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: btcs-crypto-systems
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zensvi
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nef-pipelines
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeepPSD
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ZopeUndo
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nemophoto
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdkms
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: histcite-python
+[2023-05-17 08:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdkms-cli
+[2023-05-17 08:51:52] INFO root fetch - processPackages [sdkms]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2023-05-17 08:51:52] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-05-17 08:51:52] INFO root fetch - processPackages [zensvi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 08:51:52] INFO root fetch - processPackages [sdkms-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2023-05-17 08:51:52] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-17 08:51:53] INFO root fetch - processPackages [ZopeUndo]: New version: [6.0] Old Version: [5.0]
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nemophoto]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-17 08:51:53] INFO root fetch - processPackages [histcite-python]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-17 08:51:53] INFO root fetch - processPackages [btcs-crypto-systems]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/a4/08/96c731024e3ea8dde3891a92643d608242423f76b55a5cf1bed123d49b76/nef_pipelines-0.1.38.tar.gz
+[2023-05-17 08:51:53] WARNING root fetch - processPackages [DeepPSD]: Skipping, unable to determine old version
+[2023-05-17 08:51:53] INFO root fetch - processPackages [DeepPSD]: Start processing: smartkey-cli
+[2023-05-17 08:51:53] INFO root fetch - main [MainThread]: End processing [DeepPSD] error
+[2023-05-17 08:51:53] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/2e/67/260ee656caadb2ac7b9532f00f4bd0c2b9b637c331f7fc3e0c0599ebd95f/zensvi-0.1.8.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [smartkey-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms]: Downloading https://files.pythonhosted.org/packages/0b/12/f154bd6392853b2df37d767d669bc0fd1e1bfe3716307c8f01e9bde82431/sdkms-4.8.2070-py2.py3-none-any.whl
+[2023-05-17 08:51:53] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/2d/89/5e240b8c4bde2ab2881929287116b110fb3b2f843b4e4943c85367ef9518/fedml-0.8.4a8.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [ZopeUndo]: Downloading https://files.pythonhosted.org/packages/c2/56/f4dbb59ebd4f637f247f1b7d6aad91ffa4f835597d2068a64f479cd3dfec/ZopeUndo-5.0.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/ce/df/888a73dc14736bafe467cac490c2a231c34270ef4a248dc7e95c23a21cc6/sdkms_cli-4.8.2070-py2.py3-none-any.whl
+[2023-05-17 08:51:53] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/16/c8/24a3e0dc4746fa2e798dd8f80d86c67a03210af8e50d9baac3f412cae0a5/histcite-python-0.2.1.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nemophoto]: Downloading https://files.pythonhosted.org/packages/84/41/91cf40d501f1e261ac7c70e22e4e9d096838e858fc5101d4224cb2bc010e/nemophoto-0.4.0.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/09/79/06a75bdc138806ec4a378d6c321a7fdc2f4dbf9f0433523219ebf00cd419/btcs_crypto_systems-0.0.4.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/ce/7f/001d24ce2bc35bcbc60039e7661442bdee657d5407a35f7c20b13c28eedf/smartkey_cli-4.8.2070-py2.py3-none-any.whl
+[2023-05-17 08:51:53] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/10/a1/a8f870fef6dac1c8bb5734abbdba08f441b9716e8b39c946ea3daa2c28d2/zensvi-0.1.9.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/63/83/be3e7fe871a890c0578125b671a36b53809f0134fe20c6127ff52bd7aa51/nef_pipelines-0.1.39.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [ZopeUndo]: Downloading https://files.pythonhosted.org/packages/c5/a7/6073e78fa0eb7fe58f29692a785b4a74f056579bd5aff69624ecc37c24d1/ZopeUndo-6.0.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.1.8.tar.gz tmp/zensvi-0.1.9.tar.gz --markdown 20230517/z/zensvi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/1f/62/16344f74e7bd4311a444b0f324e778e7da7abd9047f7880b60537a185563/histcite-python-0.3.0.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.38.tar.gz tmp/nef_pipelines-0.1.39.tar.gz --markdown 20230517/n/nef-pipelines/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [ZopeUndo]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [ZopeUndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZopeUndo-5.0.tar.gz tmp/ZopeUndo-6.0.tar.gz --markdown 20230517/Z/ZopeUndo/5.0-6.0/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/b3/41/aff2198cde4636bb627562bb425406fe42319b6394f04b9e7815e99c5b15/btcs_crypto_systems-0.0.5.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/1d/ab/2ce96f7ea033e0563c2cf90b1912ff4248926a3362c7af09515ba3b6c790/sdkms_cli-4.9.2084-py3-none-any.whl
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms]: Downloading https://files.pythonhosted.org/packages/b4/9b/5511388b0b85a13b4c1ca019c5e0d1ea2278e821fb326de8067eded7eb98/sdkms-4.9.2084-py2.py3-none-any.whl
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nemophoto]: Downloading https://files.pythonhosted.org/packages/f6/2a/6526217ad715b2852d1214379218393b6a34798fcf97cbbb5b7e7eb5b398/nemophoto-0.5.0.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/37/13/b20a475fdb812f59d94fa3522bb4a8625fa1b85c10b0daac1e9eaf549d60/smartkey_cli-4.9.2084-py3-none-any.whl
+[2023-05-17 08:51:53] INFO root fetch - processPackages [btcs-crypto-systems]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [btcs-crypto-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btcs_crypto_systems-0.0.4.tar.gz tmp/btcs_crypto_systems-0.0.5.tar.gz --markdown 20230517/b/btcs-crypto-systems/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [histcite-python]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [histcite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcite-python-0.2.1.tar.gz tmp/histcite-python-0.3.0.tar.gz --markdown 20230517/h/histcite-python/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms-4.9.2084-py2.py3-none-any.whl.zip --markdown 20230517/s/sdkms/4.8.2070-4.9.2084/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms-cli]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [sdkms-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip --markdown 20230517/s/sdkms-cli/4.8.2070-4.9.2084/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nemophoto]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [nemophoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemophoto-0.4.0.tar.gz tmp/nemophoto-0.5.0.tar.gz --markdown 20230517/n/nemophoto/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-17 08:51:53] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-05-17 08:51:53] INFO root fetch - processPackages [smartkey-cli]: executing diffoscope
+[2023-05-17 08:51:53] INFO root fetch - processPackages [smartkey-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip --markdown 20230517/s/smartkey-cli/4.8.2070-4.9.2084/diff.md --exclude *.pyd
+[2023-05-17 08:51:54] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-17 08:51:54] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230517/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-17 08:51:55] INFO root fetch - main [MainThread]: End processing [btcs-crypto-systems]: success
+[2023-05-17 08:51:55] INFO root fetch - main [MainThread]: End processing [ZopeUndo]: success
+[2023-05-17 08:51:56] INFO root fetch - main [MainThread]: End processing [nemophoto]: success
+[2023-05-17 08:51:56] INFO root fetch - main [MainThread]: End processing [histcite-python]: success
+[2023-05-17 08:51:56] INFO root fetch - main [MainThread]: End processing [sdkms-cli]: success
+[2023-05-17 08:51:56] INFO root fetch - main [MainThread]: End processing [smartkey-cli]: success
+[2023-05-17 08:51:56] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-05-17 08:51:59] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2023-05-17 08:52:01] INFO root fetch - main [MainThread]: End processing [sdkms]: success
+[2023-05-17 08:52:10] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-17 08:52:10] INFO root fetch - main [MainThread]: Store serial: [18135150]
