@@ -5063,3 +5063,60 @@
 [2023-05-17 04:47:37] INFO root fetch - main [MainThread]: End processing [dexchange-sms]: success
 [2023-05-17 04:47:53] INFO root fetch - main [MainThread]: End processing [pylebai]: success
 [2023-05-17 04:47:53] INFO root fetch - main [MainThread]: Store serial: [18132915]
+[2023-05-17 04:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132915]
+[2023-05-17 04:53:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toldwords
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-formatter
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastqueue-lib
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ufusion
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-workshop
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyGSTi
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-super-slider
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: disfluency-constituency-parser
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: read-rapidpe
+[2023-05-17 04:53:05] INFO root fetch - processPackages [streamlit-super-slider]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [tree-sitter-formatter]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ufusion]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [toldwords]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [pyGSTi]: New version: [0.9.9.3] Old Version: [0.9.9.2]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-17 04:53:05] INFO root fetch - processPackages [pyGSTi]: Downloading https://files.pythonhosted.org/packages/1f/73/1da571a8bc8086709ddcc16fd3f70e0d0ae89d712b85d46d09b53a36977e/pyGSTi-0.9.9.2.tar.gz
+[2023-05-17 04:53:05] WARNING root fetch - processPackages [pyGSTi]: Skipping package: exceeds size limit 11040458>=10485760
+[2023-05-17 04:53:05] INFO root fetch - main [MainThread]: End processing [pyGSTi] error
+[2023-05-17 04:53:05] WARNING root fetch - processPackages [disfluency-constituency-parser]: Skipping, unable to determine old version
+[2023-05-17 04:53:05] INFO root fetch - main [MainThread]: End processing [disfluency-constituency-parser] error
+[2023-05-17 04:53:05] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/e9/ad/c0b005e75a58ccc5ab669dc67ad93d87b7e19472940cf79bf44cb7a3212d/fastqueue-lib-0.0.8.tar.gz
+[2023-05-17 04:53:05] INFO root fetch - processPackages [streamlit-super-slider]: Downloading https://files.pythonhosted.org/packages/2b/00/b824b9ae864872fc2bf3155081506c75e3f1302b1b8aa7310a115673fdeb/streamlit_super_slider-0.1.0-py3-none-any.whl
+[2023-05-17 04:53:05] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-17 04:53:05] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.0.tar.gz tmp/read_rapidpe-0.5.1.tar.gz --markdown 20230517/r/read-rapidpe/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-17 04:53:05] INFO root fetch - processPackages [tree-sitter-formatter]: Downloading https://files.pythonhosted.org/packages/28/3d/b7972fdc80121df674720668ed3964537da68cee212d15eadfd678f3a8b0/tree_sitter_formatter-0.1.0.dev1.tar.gz
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/25/9f/46d918b0e9fc7402258ffff9680ac43729fe7968e038b0c4e91ab31b15ef/ufusion-1.0.7.tar.gz
+[2023-05-17 04:53:05] INFO root fetch - processPackages [toldwords]: Downloading https://files.pythonhosted.org/packages/6c/da/10dfab622078f0bfd75c238b89412959f6eaeb326e828770f3461eb83368/toldwords-0.6.0.tar.gz
+[2023-05-17 04:53:05] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-05-17 04:53:06] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 04:53:06] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.6.tar.gz tmp/ufusion-1.0.7.tar.gz --markdown 20230517/u/ufusion/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-17 04:53:06] INFO root fetch - processPackages [streamlit-super-slider]: Downloading https://files.pythonhosted.org/packages/97/2b/3c7233346b6a713403ccf3ae12b32d75079cca1fff1a77c2d92d33f9c8f6/streamlit-super-slider-0.1.1.tar.gz
+[2023-05-17 04:53:06] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/90/0e/8d1c85dc3048c9317a1d0c2a09052983b539361fad0929f07f514a609d03/fastqueue-lib-0.0.9.tar.gz
+[2023-05-17 04:53:06] INFO root fetch - processPackages [streamlit-super-slider]: executing diffoscope
+[2023-05-17 04:53:06] INFO root fetch - processPackages [streamlit-super-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_super_slider-0.1.0-py3-none-any.whl.zip tmp/streamlit-super-slider-0.1.1.tar.gz --markdown 20230517/s/streamlit-super-slider/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 04:53:06] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-05-17 04:53:06] INFO root fetch - processPackages [tree-sitter-formatter]: Downloading https://files.pythonhosted.org/packages/08/6b/889b591e2618021751b8900933ac7c42b57ed18e15da0b132857032479fd/tree_sitter_formatter-0.1.0.dev2.tar.gz
+[2023-05-17 04:53:06] INFO root fetch - processPackages [toldwords]: Downloading https://files.pythonhosted.org/packages/62/4c/2dc21bb91475b69b49feaf685dff2493dd09143c3b3e78c7e172ac15a6a6/toldwords-0.7.0.tar.gz
+[2023-05-17 04:53:06] INFO root fetch - processPackages [toldwords]: executing diffoscope
+[2023-05-17 04:53:06] INFO root fetch - processPackages [toldwords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toldwords-0.6.0.tar.gz tmp/toldwords-0.7.0.tar.gz --markdown 20230517/t/toldwords/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 04:53:06] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-05-17 04:53:06] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.8.tar.gz tmp/fastqueue-lib-0.0.9.tar.gz --markdown 20230517/f/fastqueue-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 04:53:06] INFO root fetch - processPackages [tree-sitter-formatter]: executing diffoscope
+[2023-05-17 04:53:06] INFO root fetch - processPackages [tree-sitter-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_formatter-0.1.0.dev1.tar.gz tmp/tree_sitter_formatter-0.1.0.dev2.tar.gz --markdown 20230517/t/tree-sitter-formatter/0.1.0.dev1-0.1.0.dev2/diff.md --exclude *.pyd
+[2023-05-17 04:53:06] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-05-17 04:53:06] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230517/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [streamlit-super-slider]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [toldwords]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [tree-sitter-formatter]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-05-17 04:53:07] INFO root fetch - main [MainThread]: Store serial: [18132967]
