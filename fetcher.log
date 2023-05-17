@@ -7838,3 +7838,26 @@
 [2023-05-17 06:48:45] INFO root fetch - processPackages [nzooherd-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzooherd_torch-0.1.0.tar.gz tmp/nzooherd_torch-0.1.1.tar.gz --markdown 20230517/n/nzooherd-torch/0.1.0-0.1.1/diff.md --exclude *.pyd
 [2023-05-17 06:48:46] INFO root fetch - main [MainThread]: End processing [nzooherd-torch]: success
 [2023-05-17 06:48:46] INFO root fetch - main [MainThread]: Store serial: [18134336]
+[2023-05-17 06:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134336]
+[2023-05-17 06:53:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-17 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quorum-eth-py
+[2023-05-17 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guidance
+[2023-05-17 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: String-Controller
+[2023-05-17 06:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-cron-expression-validator
+[2023-05-17 06:53:55] INFO root fetch - processPackages [quorum-eth-py]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-17 06:53:55] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 06:53:55] WARNING root fetch - processPackages [String-Controller]: Skipping, unable to determine old version
+[2023-05-17 06:53:55] INFO root fetch - main [MainThread]: End processing [String-Controller] error
+[2023-05-17 06:53:55] INFO root fetch - processPackages [aws-cron-expression-validator]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-17 06:53:55] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-17 06:53:55] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230517/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 06:53:55] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/ba/f9/5556a9eb752ec084e223ade2748a9f56da93e28a9acee67be902898931c0/quorum_eth_py-0.3.0.tar.gz
+[2023-05-17 06:53:55] INFO root fetch - processPackages [aws-cron-expression-validator]: Downloading https://files.pythonhosted.org/packages/64/74/c769fd9ee94ae87e373155e3b2fcc756dd2f98c47860d5a21bc5418f0945/aws_cron_expression_validator-1.1.3.tar.gz
+[2023-05-17 06:53:55] INFO root fetch - processPackages [quorum-eth-py]: executing diffoscope
+[2023-05-17 06:53:55] INFO root fetch - processPackages [quorum-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_eth_py-0.2.2.tar.gz tmp/quorum_eth_py-0.3.0.tar.gz --markdown 20230517/q/quorum-eth-py/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 06:53:55] INFO root fetch - processPackages [aws-cron-expression-validator]: executing diffoscope
+[2023-05-17 06:53:55] INFO root fetch - processPackages [aws-cron-expression-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cron_expression_validator-1.1.2.tar.gz tmp/aws_cron_expression_validator-1.1.3.tar.gz --markdown 20230517/a/aws-cron-expression-validator/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-17 06:53:56] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-17 06:53:56] INFO root fetch - main [MainThread]: End processing [aws-cron-expression-validator]: success
+[2023-05-17 06:53:56] INFO root fetch - main [MainThread]: End processing [quorum-eth-py]: success
+[2023-05-17 06:53:56] INFO root fetch - main [MainThread]: Store serial: [18134355]
