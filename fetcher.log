@@ -14289,3 +14289,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:02:50] INFO root fetch - main [MainThread]: End processing [neo4j]: success
 [2023-05-17 13:02:54] INFO root fetch - main [MainThread]: End processing [ChannelAttribution]: success
 [2023-05-17 13:02:54] INFO root fetch - main [MainThread]: Store serial: [18138178]
+[2023-05-17 13:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138178]
+[2023-05-17 13:08:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: restscript
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bnlearn
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-copilot
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keystoneauth1
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btcs-crypto-systems
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discake
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openpecha
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: punctfix
+[2023-05-17 13:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glance-store
+[2023-05-17 13:08:03] INFO root fetch - processPackages [btcs-crypto-systems]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [restscript]: New version: [1.0] Old Version: [0.7]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [bnlearn]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [keystoneauth1]: New version: [5.2.0] Old Version: [5.1.2]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [discake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [punctfix]: New version: [0.10.1] Old Version: [0.10.0]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [openpecha]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [glance-store]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-05-17 13:08:03] INFO root fetch - processPackages [restscript]: Downloading https://files.pythonhosted.org/packages/0e/7f/77e11fc4d8f4ebc1b53de534b4b5881a337686842a6eca4972f12e52f678/restscript-0.7.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [keystoneauth1]: Downloading https://files.pythonhosted.org/packages/2a/3c/6b7882c3f16acdc0321d538db8d4dc79846e7fe93c1729926e91e6512261/keystoneauth1-5.1.2.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/79/10/ed8755b1afd8c6e869229f70eeb68528efbba73bfbf9729f017de70ff230/deep_copilot-0.0.4.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/e3/1a/bf25a1c7159390c5aec8d48c6fe9f2336fa7c1571e9063113bb4c35313ef/btcs_crypto_systems-0.0.6.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [openpecha]: Downloading https://files.pythonhosted.org/packages/dd/d1/cbf2f58ee893aa1a9cc51c9306b87365ca142dcf33930d89873081f76e2e/openpecha-0.9.8.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [punctfix]: Downloading https://files.pythonhosted.org/packages/04/85/71ba504256c328d49d17542acd91404903306aeb16ce84921e159866d4e6/punctfix-0.10.0.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/58/cc/6baf6efbfaa2464d389999b28cc4e9e66f989cc3ed42811bc84d658a0016/bnlearn-0.7.9.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [discake]: Downloading https://files.pythonhosted.org/packages/96/78/2add182c081b3b4f3482a8ba015c0e30061b4861a7ea3287b995149857d2/discake-0.0.8.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/bc/2a/3d8284662a86a204871b6d18407be1a376a174f085234fe65b538dfc0cd3/glance_store-4.3.0.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [btcs-crypto-systems]: executing diffoscope
+[2023-05-17 13:08:03] INFO root fetch - processPackages [btcs-crypto-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btcs_crypto_systems-0.0.5.tar.gz tmp/btcs_crypto_systems-0.0.6.tar.gz --markdown 20230517/b/btcs-crypto-systems/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 13:08:03] INFO root fetch - processPackages [restscript]: Downloading https://files.pythonhosted.org/packages/33/8d/32f21d4cd40ff0d0f4d4ed21d7ff06f380bb2fc7e1459d42e7fc0fa8add6/restscript-1.0.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/17/bf/95259d67d9b8523f4a4f3a4b7e3f04873dfb6d08521345a7d71d64081260/deep_copilot-0.0.5.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [keystoneauth1]: Downloading https://files.pythonhosted.org/packages/56/d4/a7ce27b7363c85e556b3a0e87b90a3cda1e35f5d9d8a0cb6769d6b8ebf88/keystoneauth1-5.2.0.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [punctfix]: Downloading https://files.pythonhosted.org/packages/28/a4/cb064697d0654347854fb0764843ef40a1e70fa775521596419c8773f829/punctfix-0.10.1.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [restscript]: executing diffoscope
+[2023-05-17 13:08:03] INFO root fetch - processPackages [restscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restscript-0.7.tar.gz tmp/restscript-1.0.tar.gz --markdown 20230517/r/restscript/0.7-1.0/diff.md --exclude *.pyd
+[2023-05-17 13:08:03] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/55/46/5331f0b8f633045f865b455838fcfdeef5f2dccf9efa5148069c319f85ba/bnlearn-0.8.0.tar.gz
+[2023-05-17 13:08:03] INFO root fetch - processPackages [punctfix]: executing diffoscope
+[2023-05-17 13:08:03] INFO root fetch - processPackages [punctfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punctfix-0.10.0.tar.gz tmp/punctfix-0.10.1.tar.gz --markdown 20230517/p/punctfix/0.10.0-0.10.1/diff.md --exclude *.pyd
+[2023-05-17 13:08:03] INFO root fetch - processPackages [discake]: Downloading https://files.pythonhosted.org/packages/64/92/32581282c87fd289e649a0e9f81fdc7b04d9d50e8951370af26e2f9246a6/discake-0.0.9.tar.gz
+[2023-05-17 13:08:04] INFO root fetch - processPackages [openpecha]: Downloading https://files.pythonhosted.org/packages/64/7b/542245d4dff1d18c7d29cfa2a80cffe2f28c8168db4019724f7bba73ea72/openpecha-0.9.9.tar.gz
+[2023-05-17 13:08:04] INFO root fetch - processPackages [bnlearn]: executing diffoscope
+[2023-05-17 13:08:04] INFO root fetch - processPackages [bnlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnlearn-0.7.9.tar.gz tmp/bnlearn-0.8.0.tar.gz --markdown 20230517/b/bnlearn/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 13:08:04] INFO root fetch - processPackages [openpecha]: executing diffoscope
+[2023-05-17 13:08:04] INFO root fetch - processPackages [openpecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpecha-0.9.8.tar.gz tmp/openpecha-0.9.9.tar.gz --markdown 20230517/o/openpecha/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 13:08:04] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-17 13:08:04] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.4.tar.gz tmp/deep_copilot-0.0.5.tar.gz --markdown 20230517/d/deep-copilot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 13:08:04] INFO root fetch - processPackages [keystoneauth1]: executing diffoscope
+[2023-05-17 13:08:04] INFO root fetch - processPackages [keystoneauth1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keystoneauth1-5.1.2.tar.gz tmp/keystoneauth1-5.2.0.tar.gz --markdown 20230517/k/keystoneauth1/5.1.2-5.2.0/diff.md --exclude *.pyd
+[2023-05-17 13:08:04] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/68/2d/d6a4484fc8576dec89fd0fed94eb98d3de5021b5a8fe36086d7f55f2777a/glance_store-4.4.0.tar.gz
+[2023-05-17 13:08:04] INFO root fetch - processPackages [discake]: executing diffoscope
+[2023-05-17 13:08:04] INFO root fetch - processPackages [discake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discake-0.0.8.tar.gz tmp/discake-0.0.9.tar.gz --markdown 20230517/d/discake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:08:04] INFO root fetch - processPackages [glance-store]: executing diffoscope
+[2023-05-17 13:08:04] INFO root fetch - processPackages [glance-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance_store-4.3.0.tar.gz tmp/glance_store-4.4.0.tar.gz --markdown 20230517/g/glance-store/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [restscript]: success
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [btcs-crypto-systems]: success
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [punctfix]: success
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [discake]: success
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [bnlearn]: success
+[2023-05-17 13:08:05] INFO root fetch - main [MainThread]: End processing [openpecha]: success
+[2023-05-17 13:08:08] INFO root fetch - main [MainThread]: End processing [keystoneauth1]: success
+[2023-05-17 13:08:09] INFO root fetch - main [MainThread]: End processing [glance-store]: success
+[2023-05-17 13:08:09] INFO root fetch - main [MainThread]: Store serial: [18138208]
