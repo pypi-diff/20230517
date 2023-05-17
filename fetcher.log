@@ -15740,3 +15740,171 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:09:56] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2023-05-17 14:09:56] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2023-05-17 14:09:56] INFO root fetch - main [MainThread]: Store serial: [18138951]
+[2023-05-17 14:15:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138951]
+[2023-05-17 14:15:06] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niceml
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-payment-change
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinja2-jsonschema
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdat
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: todo-by
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cms-general-algorithm
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bimcvcovid19i
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2023-05-17 14:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-agents-nightly
+[2023-05-17 14:15:06] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: New version: [16.0.1.0.0.5] Old Version: [15.0.1.0.0.7]
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [jinja2-jsonschema]: Skipping, unable to determine old version
+[2023-05-17 14:15:06] INFO root fetch - processPackages [jinja2-jsonschema]: Start processing: tala
+[2023-05-17 14:15:06] INFO root fetch - main [MainThread]: End processing [jinja2-jsonschema] error
+[2023-05-17 14:15:06] INFO root fetch - processPackages [qwak-core]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [bimcvcovid19i]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [cms-general-algorithm]: Skipping, unable to determine old version
+[2023-05-17 14:15:06] INFO root fetch - processPackages [cms-general-algorithm]: Start processing: tsaugmentation
+[2023-05-17 14:15:06] INFO root fetch - main [MainThread]: End processing [cms-general-algorithm] error
+[2023-05-17 14:15:06] INFO root fetch - processPackages [niceml]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230517120940] Old Version: [2.0.3.dev20230516080016]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/41/9e/9a3d228c3dc73e40b586199794d0e2c1b2c0da7bb3826e95e3e01ab2de17/qwak_core-0.0.60.tar.gz
+[2023-05-17 14:15:06] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/89/37/2b4f1a2a40576abc77da8b9e43f06bfd00041ddff2179442e0de97f4024e/niceml-0.1.1.tar.gz
+[2023-05-17 14:15:06] INFO root fetch - processPackages [todo-by]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2023-05-17 14:15:06] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230517/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [niceml]: Skipping package: exceeds size limit 25850889>=10485760
+[2023-05-17 14:15:06] INFO root fetch - processPackages [niceml]: Start processing: multidimensionalks
+[2023-05-17 14:15:06] INFO root fetch - main [MainThread]: End processing [niceml] error
+[2023-05-17 14:15:06] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: Downloading https://files.pythonhosted.org/packages/bb/cc/976518b3181b1ce6eaf35e80167cd9b80d9770c4a3e23214eeb8fc0fb24a/odoo_addon_pos_payment_change-15.0.1.0.0.7-py3-none-any.whl
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [todo-by]: fallback to get urls: [1.0.0]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [bimcvcovid19i]: Downloading https://files.pythonhosted.org/packages/bf/df/8c57feb5110ee4c954b9041b74c71fa516a5829efb3243dac01cd5a7a8f3/bimcvcovid19i-0.0.7.tar.gz
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [todo-by]: None
+[2023-05-17 14:15:06] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5e/8b/f43718274716b8da8d0ee4c8051db28855dacb9c73ff859301903b9b0e32/localstack-core-2.0.3.dev20230516080016.tar.gz
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [todo-by]: None
+[2023-05-17 14:15:06] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2023-05-17 14:15:06] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [todo-by]: unable to get url for both version [1.0.0]
+[2023-05-17 14:15:06] WARNING root fetch - processPackages [todo-by]: None
+[2023-05-17 14:15:06] INFO root fetch - processPackages [todo-by]: Start processing: drakaina
+[2023-05-17 14:15:06] INFO root fetch - main [MainThread]: End processing [todo-by] error
+[2023-05-17 14:15:06] INFO root fetch - processPackages [drakaina]: New version: [0.7.0a3] Old Version: [0.7.0a2]
+[2023-05-17 14:15:06] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f9/27/950872eadd1c839a931535790d9be9d4792db6d4c9b1e0ee3a2cab62c2c9/qwak_core-0.0.61.tar.gz
+[2023-05-17 14:15:06] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/39/b4/6d4e852c32a9b7dc5af46aa637e2f671eb9a8106ec221f06599da5360495/multidimensionalks-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 14:15:07] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230517/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: Downloading https://files.pythonhosted.org/packages/0d/44/69a0e10b7a5058e1f9b3d9e6256f1f6ad137fd709939ecef6217d0bbb947/odoo_addon_pos_payment_change-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-17 14:15:07] INFO root fetch - processPackages [bimcvcovid19i]: Downloading https://files.pythonhosted.org/packages/9a/1c/402060d41ca2d5bb5b07cae982d99e6d45acefb5d030fb6b886a36689292/bimcvcovid19i-0.1.0.tar.gz
+[2023-05-17 14:15:07] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-05-17 14:15:07] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.60.tar.gz tmp/qwak_core-0.0.61.tar.gz --markdown 20230517/q/qwak-core/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/18/f2/5f5fc52edf3892955e12b9ecea20dde135c56048247e4f33e158eeb1ecbf/localstack-core-2.0.3.dev20230517120940.tar.gz
+[2023-05-17 14:15:07] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/2e/e0/183808f46915220dbe939e52f53fdf1db8c278b5a391a407fe024df9c7ea/drakaina-0.7.0a2.tar.gz
+[2023-05-17 14:15:07] INFO root fetch - processPackages [bimcvcovid19i]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [bimcvcovid19i]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimcvcovid19i-0.0.7.tar.gz tmp/bimcvcovid19i-0.1.0.tar.gz --markdown 20230517/b/bimcvcovid19i/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/m/multidimensionalks/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-05-17 14:15:07] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230516080016.tar.gz tmp/localstack-core-2.0.3.dev20230517120940.tar.gz --markdown 20230517/l/localstack-core/2.0.3.dev20230516080016-2.0.3.dev20230517120940/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_payment_change-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_pos_payment_change-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-pos-payment-change/15.0.1.0.0.7-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/c9/0e/b35389bcf6dac31eb2b22413a1178572bf118a5d5d01e34d5822d7f71467/drakaina-0.7.0a3.tar.gz
+[2023-05-17 14:15:07] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230517/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.7.0a2.tar.gz tmp/drakaina-0.7.0a3.tar.gz --markdown 20230517/d/drakaina/0.7.0a2-0.7.0a3/diff.md --exclude *.pyd
+[2023-05-17 14:15:07] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-05-17 14:15:07] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-17 14:15:07] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230517/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-17 14:15:08] INFO root fetch - processPackages [bimcvcovid19i]: Start processing: hcai-nova-server-nightly
+[2023-05-17 14:15:08] INFO root fetch - main [MainThread]: End processing [bimcvcovid19i]: success
+[2023-05-17 14:15:08] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202305170804] Old Version: [0.1.3.dev202305170719]
+[2023-05-17 14:15:08] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/c9/00/91b74bc8b2539569c0bee0b3305a45df8a73df7f9960c35442e5f921b8f7/hcai-nova-server-nightly-0.1.3.dev202305170804.tar.gz
+[2023-05-17 14:15:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-17 14:15:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202305170719.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202305170804.tar.gz --markdown 20230517/h/hcai-nova-server-nightly/0.1.3.dev202305170719-0.1.3.dev202305170804/diff.md --exclude *.pyd
+[2023-05-17 14:15:09] INFO root fetch - processPackages [tsaugmentation]: Start processing: valmi-connector-lib
+[2023-05-17 14:15:09] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-17 14:15:09] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:15:09] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/6c/3e/d4275c80e696994002c76ed3675cf9d05ead8792d67ae4d2c1fc5482382e/valmi_connector_lib-0.1.8.tar.gz
+[2023-05-17 14:15:09] INFO root fetch - processPackages [drakaina]: Start processing: PatryksAutoAI
+[2023-05-17 14:15:09] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2023-05-17 14:15:09] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-05-17 14:15:09] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/70/81/122eb1c23072069f6b5b24b7171ebc54114a9104028620fcede5eaa89952/valmi_connector_lib-0.1.9.tar.gz
+[2023-05-17 14:15:09] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-17 14:15:09] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230517/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:15:09] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/09/ad/952dc9cb864504ea0fa528fc3fbab3045ed3e41838692e6337c5a904e4b6/PatryksAutoAI-1.0.0.tar.gz
+[2023-05-17 14:15:09] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 14:15:09] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.9.tar.gz tmp/PatryksAutoAI-1.0.0.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 14:15:10] INFO root fetch - processPackages [odoo-addon-pos-payment-change]: Start processing: projen
+[2023-05-17 14:15:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-payment-change]: success
+[2023-05-17 14:15:10] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-17 14:15:10] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-17 14:15:10] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230517/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-17 14:15:11] INFO root fetch - processPackages [tala]: Start processing: olive-ai
+[2023-05-17 14:15:11] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-17 14:15:11] INFO root fetch - processPackages [olive-ai]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 14:15:11] INFO root fetch - processPackages [xdat]: Start processing: zebrazoom
+[2023-05-17 14:15:11] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-17 14:15:11] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-05-17 14:15:11] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-05-17 14:15:11] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230517/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-17 14:15:11] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: p67-awstools
+[2023-05-17 14:15:11] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-17 14:15:11] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/14/25/2c0e79aad51013ec443e3888f0fc7412c8fb9596dc68357f9c1f8a0ec8c1/olive_ai-0.1.0-py3-none-any.whl
+[2023-05-17 14:15:11] WARNING root fetch - processPackages [p67-awstools]: Skipping, unable to determine old version
+[2023-05-17 14:15:11] INFO root fetch - processPackages [p67-awstools]: Start processing: scikit-rt
+[2023-05-17 14:15:11] INFO root fetch - main [MainThread]: End processing [p67-awstools] error
+[2023-05-17 14:15:11] INFO root fetch - processPackages [scikit-rt]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-17 14:15:11] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: hcai-datasets-nightly
+[2023-05-17 14:15:11] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-17 14:15:11] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.7.dev202305170919] Old Version: [0.1.7.dev202305040643]
+[2023-05-17 14:15:11] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-17 14:15:11] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.7.dev202305040643.tar.gz tmp/hcai-datasets-nightly-0.1.7.dev202305170919.tar.gz --markdown 20230517/h/hcai-datasets-nightly/0.1.7.dev202305040643-0.1.7.dev202305170919/diff.md --exclude *.pyd
+[2023-05-17 14:15:11] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/22/1e/0464df228c6a4c6d1ed69cb2e40ebeb04e9c49d0bd0f849a3bb114387e96/olive_ai-0.2.0-py3-none-any.whl
+[2023-05-17 14:15:11] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/bd/e5/4a1109ba739f72b33ea684a1c692eadbf583a38dd1254733ae4be6f9eb4f/scikit-rt-0.4.5.tar.gz
+[2023-05-17 14:15:11] INFO root fetch - processPackages [olive-ai]: executing diffoscope
+[2023-05-17 14:15:11] INFO root fetch - processPackages [olive-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olive_ai-0.1.0-py3-none-any.whl.zip tmp/olive_ai-0.2.0-py3-none-any.whl.zip --markdown 20230517/o/olive-ai/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 14:15:12] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/82/2c/1c1aea847462d887cfcc19baa4cc16feb1905ec12226fc4f1c0e50557a45/scikit-rt-0.4.6.tar.gz
+[2023-05-17 14:15:12] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: prism-dev
+[2023-05-17 14:15:12] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 14:15:12] INFO root fetch - processPackages [prism-dev]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 14:15:12] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-05-17 14:15:12] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.5.tar.gz tmp/scikit-rt-0.4.6.tar.gz --markdown 20230517/s/scikit-rt/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-17 14:15:12] INFO root fetch - processPackages [prism-dev]: Downloading https://files.pythonhosted.org/packages/0e/ab/1e302c06a14cd00b70f7912554621b7e056eccfd9f74ad22e170dc43067c/prism-dev-0.1.0.tar.gz
+[2023-05-17 14:15:12] INFO root fetch - processPackages [projen]: Start processing: img-prediction
+[2023-05-17 14:15:12] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-17 14:15:12] INFO root fetch - processPackages [img-prediction]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 14:15:12] INFO root fetch - processPackages [prism-dev]: Downloading https://files.pythonhosted.org/packages/2b/9c/2fec5d1397df31647211450d81294f15cf5e873c047a47e808d0c3014781/prism-dev-0.1.1.tar.gz
+[2023-05-17 14:15:12] INFO root fetch - processPackages [prism-dev]: executing diffoscope
+[2023-05-17 14:15:12] INFO root fetch - processPackages [prism-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-dev-0.1.0.tar.gz tmp/prism-dev-0.1.1.tar.gz --markdown 20230517/p/prism-dev/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 14:15:12] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/31/16/7c50b9316938a3b7b87f4bbe0397e81b9c1673d6c60b118337bf402ef2e5/img-prediction-0.0.5.tar.gz
+[2023-05-17 14:15:13] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/3a/74/4d1ed850226228ba66d458ad94a0b9f4f2afba3d848068e92a5d1699663e/img-prediction-0.0.6.tar.gz
+[2023-05-17 14:15:13] INFO root fetch - processPackages [img-prediction]: executing diffoscope
+[2023-05-17 14:15:13] INFO root fetch - processPackages [img-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img-prediction-0.0.5.tar.gz tmp/img-prediction-0.0.6.tar.gz --markdown 20230517/i/img-prediction/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 14:15:13] INFO root fetch - processPackages [hcai-datasets-nightly]: Start processing: CQE
+[2023-05-17 14:15:13] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-17 14:15:13] INFO root fetch - processPackages [CQE]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-17 14:15:14] INFO root fetch - processPackages [CQE]: Downloading https://files.pythonhosted.org/packages/6b/a4/9b8d8f077b1d9eba7b04bc9e3d9aa30d6dfd36fb19eca3f06fded265c747/CQE-1.0.6.tar.gz
+[2023-05-17 14:15:14] INFO root fetch - processPackages [CQE]: Downloading https://files.pythonhosted.org/packages/08/3d/57cc5c7766a0aed8d533065e2d4e00c3e791fb47ff95142d996363b331b8/CQE-1.0.7.tar.gz
+[2023-05-17 14:15:14] INFO root fetch - processPackages [CQE]: executing diffoscope
+[2023-05-17 14:15:14] INFO root fetch - processPackages [CQE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CQE-1.0.6.tar.gz tmp/CQE-1.0.7.tar.gz --markdown 20230517/C/CQE/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-17 14:15:14] INFO root fetch - processPackages [multidimensionalks]: Start processing: pdcom5
+[2023-05-17 14:15:14] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-17 14:15:14] INFO root fetch - processPackages [pdcom5]: New version: [5.0.0b3] Old Version: [5.0.0b2]
+[2023-05-17 14:15:14] INFO root fetch - processPackages [pdcom5]: Downloading https://files.pythonhosted.org/packages/62/26/6eeb1a183b4bc5c44ed46be5da7c6e8c85634518a5972bad745f115422e4/pdcom5-5.0.0b2-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl
+[2023-05-17 14:15:15] INFO root fetch - processPackages [pdcom5]: Downloading https://files.pythonhosted.org/packages/42/df/b3a0735e8689f9e2255b732912b16b1fde443a45e6f9b82a111658d6a8bc/pdcom5-5.0.0b3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 14:15:15] INFO root fetch - main [MainThread]: End processing [img-prediction]: success
+[2023-05-17 14:15:15] INFO root fetch - processPackages [pdcom5]: executing diffoscope
+[2023-05-17 14:15:15] INFO root fetch - processPackages [pdcom5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcom5-5.0.0b2-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl.zip tmp/pdcom5-5.0.0b3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/p/pdcom5/5.0.0b2-5.0.0b3/diff.md --exclude *.pyd
+[2023-05-17 14:15:15] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-05-17 14:15:15] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
+[2023-05-17 14:15:16] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-17 14:15:16] INFO root fetch - main [MainThread]: End processing [prism-dev]: success
+[2023-05-17 14:15:17] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-05-17 14:15:18] INFO root fetch - main [MainThread]: End processing [pdcom5]: success
+[2023-05-17 14:15:18] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-17 14:15:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-17 14:15:20] INFO root fetch - main [MainThread]: End processing [CQE]: success
+[2023-05-17 14:15:20] INFO root fetch - main [MainThread]: Store serial: [18139057]
