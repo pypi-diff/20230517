@@ -7861,3 +7861,23 @@
 [2023-05-17 06:53:56] INFO root fetch - main [MainThread]: End processing [aws-cron-expression-validator]: success
 [2023-05-17 06:53:56] INFO root fetch - main [MainThread]: End processing [quorum-eth-py]: success
 [2023-05-17 06:53:56] INFO root fetch - main [MainThread]: Store serial: [18134355]
+[2023-05-17 06:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134355]
+[2023-05-17 06:59:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-17 06:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-queuey
+[2023-05-17 06:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arxivai
+[2023-05-17 06:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itk-elastix
+[2023-05-17 06:59:05] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 06:59:05] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 06:59:06] INFO root fetch - processPackages [itk-elastix]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 06:59:06] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-17 06:59:06] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230517/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 06:59:06] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-17 06:59:06] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230517/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 06:59:06] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/6e/f5/0de4c1f7ea7a6ecea34ac7303fe9424882723c867037f25a8d05eeb333a3/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl
+[2023-05-17 06:59:07] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-17 06:59:07] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-17 06:59:07] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/7a/41/4832fae79f88a83dc1722b6aba7e1c0a3c084dbfb15cfed44aa620d4d317/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl
+[2023-05-17 06:59:07] INFO root fetch - processPackages [itk-elastix]: executing diffoscope
+[2023-05-17 06:59:07] INFO root fetch - processPackages [itk-elastix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230517/i/itk-elastix/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 06:59:09] INFO root fetch - main [MainThread]: End processing [itk-elastix]: success
+[2023-05-17 06:59:09] INFO root fetch - main [MainThread]: Store serial: [18134371]
