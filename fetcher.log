@@ -12573,3 +12573,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:44:56] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
 [2023-05-17 11:44:57] INFO root fetch - main [MainThread]: End processing [cellfinder-core]: success
 [2023-05-17 11:44:57] INFO root fetch - main [MainThread]: Store serial: [18137267]
+[2023-05-17 11:50:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137267]
+[2023-05-17 11:50:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blobtk
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shieldapi
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minet
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msaBase
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: file-managers
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: filesystem-dict
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xeauth
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minder-research-portal-client
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mobio-admin-sdk-test
+[2023-05-17 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: baba
+[2023-05-17 11:50:06] INFO root fetch - processPackages [file-managers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 11:50:06] WARNING root fetch - processPackages [shieldapi]: Skipping, unable to determine old version
+[2023-05-17 11:50:06] INFO root fetch - processPackages [shieldapi]: Start processing: bagbag
+[2023-05-17 11:50:06] INFO root fetch - main [MainThread]: End processing [shieldapi] error
+[2023-05-17 11:50:06] INFO root fetch - processPackages [baba]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-17 11:50:06] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230517/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:50:06] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/f2/fa/cd89fdd21bf60aab1d94c3f265d1822cc63243fbd93cb7e2bf9857ce686d/bagbag-0.59.7.tar.gz
+[2023-05-17 11:50:06] INFO root fetch - processPackages [file-managers]: executing diffoscope
+[2023-05-17 11:50:06] INFO root fetch - processPackages [file-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-managers-0.8.0.tar.gz tmp/file-managers-0.9.0.tar.gz --markdown 20230517/f/file-managers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 11:50:06] INFO root fetch - processPackages [blobtk]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [mobio-admin-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [minder-research-portal-client]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [filesystem-dict]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [xeauth]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 11:50:06] INFO root fetch - processPackages [baba]: Downloading https://files.pythonhosted.org/packages/2c/3d/ac2396e3160d872e6ffa9c228c57f64ecb26692e01ddb8f37682e078a7fe/baba-0.1.4.tar.gz
+[2023-05-17 11:50:06] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/28/de/70b70b16bf233f9cff93f1225089ad13609bb49101785bfcd03ea372f37f/bagbag-0.59.8.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [baba]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [baba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baba-0.1.3.tar.gz tmp/baba-0.1.4.tar.gz --markdown 20230517/b/baba/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minder-research-portal-client]: Downloading https://files.pythonhosted.org/packages/0d/6d/fbdfb3b63bb37eab9970ba7235515d89701542075bd9422bfc161230ec7f/minder.research_portal_client-0.1.3.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/0f/3d/3410dae563b524ea14714d204b501d8b4d72533ca76373c4db401f62648c/blobtk-0.3.2.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [mobio-admin-sdk-test]: Downloading https://files.pythonhosted.org/packages/4a/af/66d5c1ad16ae3c0f6f49fc358f93be1a8709de9f4be6cad1b95d0be51f3a/mobio-admin-sdk-test-1.0.8.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/eb/6c/ba13d3c8a497f69948fe8365e8ae6bcf2245e698fa615cc2a00dd132077a/filesystem-dict-0.1.3.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [xeauth]: Downloading https://files.pythonhosted.org/packages/f3/6a/06ae7266740cfc7344668297ec566f867600bbe36977dc27f628342062b4/xeauth-0.2.1.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230517/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/8e/a8/8236420d6b100d2c75128d67b86dd434d696f5ae78756c5d2eee130d0242/blobtk-0.3.3.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minder-research-portal-client]: Downloading https://files.pythonhosted.org/packages/4a/ea/778863655ed551467f1a0ea4a016f3eccbdbe5a8d0f009dd8a0674d979b5/minder_research_portal_client-0.1.4-py3-none-any.whl
+[2023-05-17 11:50:07] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/e3/e8/b19a7f5b2a4fddcf9394109d4908b6a71f193a586d3aa497a3983c94610a/filesystem-dict-0.1.4.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [mobio-admin-sdk-test]: Downloading https://files.pythonhosted.org/packages/cd/85/b29cc567d91d8185c68d7aa5b10e350376ea92ce33443fd1b570f9badee3/mobio-admin-sdk-test-1.0.9.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [xeauth]: Downloading https://files.pythonhosted.org/packages/a5/7e/26ff11b053150ea8a80c0a14351a6c59ce1feb1a4bc981583423c70f3f9f/xeauth-0.2.2.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minder-research-portal-client]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minder-research-portal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder.research_portal_client-0.1.3.tar.gz tmp/minder_research_portal_client-0.1.4-py3-none-any.whl.zip --markdown 20230517/m/minder-research-portal-client/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [filesystem-dict]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [filesystem-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesystem-dict-0.1.3.tar.gz tmp/filesystem-dict-0.1.4.tar.gz --markdown 20230517/f/filesystem-dict/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [blobtk]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [blobtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtk-0.3.2.tar.gz tmp/blobtk-0.3.3.tar.gz --markdown 20230517/b/blobtk/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [mobio-admin-sdk-test]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [mobio-admin-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-admin-sdk-test-1.0.8.tar.gz tmp/mobio-admin-sdk-test-1.0.9.tar.gz --markdown 20230517/m/mobio-admin-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [xeauth]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [xeauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeauth-0.2.1.tar.gz tmp/xeauth-0.2.2.tar.gz --markdown 20230517/x/xeauth/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-17 11:50:07] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230517/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-17 11:50:08] INFO root fetch - processPackages [file-managers]: Start processing: PyDust
+[2023-05-17 11:50:08] INFO root fetch - main [MainThread]: End processing [file-managers]: success
+[2023-05-17 11:50:08] INFO root fetch - processPackages [PyDust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 11:50:08] INFO root fetch - processPackages [msaBase]: Start processing: steembase
+[2023-05-17 11:50:08] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-17 11:50:08] WARNING root fetch - processPackages [steembase]: Skipping, unable to determine old version
+[2023-05-17 11:50:08] INFO root fetch - main [MainThread]: End processing [steembase] error
+[2023-05-17 11:50:08] INFO root fetch - processPackages [PyDust]: Downloading https://files.pythonhosted.org/packages/5e/c5/b2590c6d9e296e7c9b3a3b2a200006e00929c0e7d3a0b78f0145febad520/PyDust-0.0.8.tar.gz
+[2023-05-17 11:50:08] INFO root fetch - main [MainThread]: End processing [baba]: success
+[2023-05-17 11:50:08] INFO root fetch - processPackages [PyDust]: Downloading https://files.pythonhosted.org/packages/58/93/01708d13e3c01c57eacb4d18f630e5baf6300c31a451a1a077fc3d9328f6/PyDust-0.0.9.tar.gz
+[2023-05-17 11:50:08] INFO root fetch - main [MainThread]: End processing [xeauth]: success
+[2023-05-17 11:50:08] INFO root fetch - processPackages [PyDust]: executing diffoscope
+[2023-05-17 11:50:08] INFO root fetch - processPackages [PyDust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDust-0.0.8.tar.gz tmp/PyDust-0.0.9.tar.gz --markdown 20230517/P/PyDust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:50:08] INFO root fetch - main [MainThread]: End processing [minder-research-portal-client]: success
+[2023-05-17 11:50:09] INFO root fetch - main [MainThread]: End processing [filesystem-dict]: success
+[2023-05-17 11:50:09] INFO root fetch - main [MainThread]: End processing [blobtk]: success
+[2023-05-17 11:50:09] INFO root fetch - main [MainThread]: End processing [mobio-admin-sdk-test]: success
+[2023-05-17 11:50:09] INFO root fetch - main [MainThread]: End processing [PyDust]: success
+[2023-05-17 11:50:10] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-17 11:50:11] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-17 11:50:11] INFO root fetch - main [MainThread]: Store serial: [18137325]
