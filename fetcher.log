@@ -8509,3 +8509,63 @@
 [2023-05-17 07:48:57] INFO root fetch - main [MainThread]: End processing [toui]: success
 [2023-05-17 07:49:08] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-17 07:49:08] INFO root fetch - main [MainThread]: Store serial: [18134647]
+[2023-05-17 07:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134647]
+[2023-05-17 07:54:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brainextractor
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msaDocModels
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gqt
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyndo
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygame-ce
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citadel-workspace
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mammopy
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toui
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agri-sense
+[2023-05-17 07:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lqcv
+[2023-05-17 07:54:17] INFO root fetch - processPackages [skyndo]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-17 07:54:17] INFO root fetch - processPackages [brainextractor]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 07:54:17] INFO root fetch - processPackages [toui]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-17 07:54:17] INFO root fetch - processPackages [agri-sense]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 07:54:17] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/80/34/e2bbc41fcc63ce0fe53f72b393e57d65e3e17682fc3e5dcb3601e76cb5aa/skyndo-0.7.8.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [gqt]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-17 07:54:17] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-05-17 07:54:17] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-2.0.1.tar.gz tmp/toui-2.1.0.tar.gz --markdown 20230517/t/toui/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 07:54:17] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 07:54:17] WARNING root fetch - processPackages [lqcv]: Skipping, unable to determine old version
+[2023-05-17 07:54:17] INFO root fetch - main [MainThread]: End processing [lqcv] error
+[2023-05-17 07:54:17] WARNING root fetch - processPackages [citadel-workspace]: Skipping, unable to determine old version
+[2023-05-17 07:54:17] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 07:54:17] INFO root fetch - main [MainThread]: End processing [citadel-workspace] error
+[2023-05-17 07:54:17] INFO root fetch - processPackages [pygame-ce]: New version: [2.3.0.dev2] Old Version: [2.2.1]
+[2023-05-17 07:54:17] INFO root fetch - processPackages [brainextractor]: Downloading https://files.pythonhosted.org/packages/3e/27/e709ec8b0f1d4dd3f91e6c6eb7ad370989b73851095ad516e72a9547f852/brainextractor-0.2.1.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/fb/d9/f432d0a081217907372b61bd615b121861b82bf75d318f940c864487f561/agri_sense-1.0.4.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [gqt]: Downloading https://files.pythonhosted.org/packages/59/d7/27597e4c1792fdfc8c7360b9d941ca5b264c9ec1af605727cc16b3f00328/gqt-0.98.0.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [pygame-ce]: Downloading https://files.pythonhosted.org/packages/04/6b/ab4e8131bb74e8922ff53329aa2f14b9360677d3247243d0c20e3d4cf0d4/pygame-ce-2.2.1.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/24/5c/02bf3c5d9dfcf6e6821825ae9ab864ade5f01fc208a66abe0def39a19fcd/mammopy-0.0.8.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/56/0f/69d99cbcb8c722bddeac6aebb0479fa8c7243682c1f6daddd489000439dc/msaDocModels-0.0.8.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/c4/4e/526403975b9ac762ae1502a42af0a93c5785961bd51f97e6c9617b6ac005/skyndo-0.7.9.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 07:54:17] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.0.3.tar.gz tmp/agri_sense-1.0.4.tar.gz --markdown 20230517/a/agri-sense/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 07:54:17] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-17 07:54:17] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.8.tar.gz tmp/skyndo-0.7.9.tar.gz --markdown 20230517/s/skyndo/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-17 07:54:17] WARNING root fetch - processPackages [pygame-ce]: Skipping package: exceeds size limit 13546444>=10485760
+[2023-05-17 07:54:17] INFO root fetch - main [MainThread]: End processing [pygame-ce] error
+[2023-05-17 07:54:17] INFO root fetch - processPackages [brainextractor]: Downloading https://files.pythonhosted.org/packages/29/63/eb0e4e41406480981ae657fff94956b3c1c6c0c79ba2953069f88ea5e4c2/brainextractor-0.2.2.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [gqt]: Downloading https://files.pythonhosted.org/packages/b8/a0/ea874c9fe56a3f91af65f702d5fcbd6d020c6e460fb6a0b0e7d5c59e765a/gqt-0.99.0.tar.gz
+[2023-05-17 07:54:17] INFO root fetch - processPackages [gqt]: executing diffoscope
+[2023-05-17 07:54:17] INFO root fetch - processPackages [gqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqt-0.98.0.tar.gz tmp/gqt-0.99.0.tar.gz --markdown 20230517/g/gqt/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-17 07:54:17] INFO root fetch - processPackages [brainextractor]: executing diffoscope
+[2023-05-17 07:54:17] INFO root fetch - processPackages [brainextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainextractor-0.2.1.tar.gz tmp/brainextractor-0.2.2.tar.gz --markdown 20230517/b/brainextractor/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 07:54:17] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/2f/da/7c36532a600ac292c1fec4f775200d779a44eb48ddc5249e3c2fc70dbf4d/msaDocModels-0.0.9.tar.gz
+[2023-05-17 07:54:18] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-05-17 07:54:18] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230517/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 07:54:18] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/86/f1/55f642a9bd84319511236455fc327834fc5acecd861f4e282433aa8c0fcb/mammopy-0.0.9.tar.gz
+[2023-05-17 07:54:18] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-05-17 07:54:18] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230517/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 07:54:18] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-05-17 07:54:18] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 07:54:19] INFO root fetch - main [MainThread]: End processing [gqt]: success
+[2023-05-17 07:54:19] INFO root fetch - main [MainThread]: End processing [brainextractor]: success
+[2023-05-17 07:54:19] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-05-17 07:54:20] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-05-17 07:54:21] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-17 07:54:21] INFO root fetch - main [MainThread]: Store serial: [18134717]
