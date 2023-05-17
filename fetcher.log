@@ -7676,3 +7676,48 @@
 [2023-05-17 06:11:47] INFO root fetch - main [MainThread]: End processing [picologging]: success
 [2023-05-17 06:11:56] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
 [2023-05-17 06:11:56] INFO root fetch - main [MainThread]: Store serial: [18134210]
+[2023-05-17 06:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134210]
+[2023-05-17 06:17:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: castxml-patch
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello2
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-event
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phonopy
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: canonical
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quorum-mininode-py
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-05-17 06:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-05-17 06:17:05] INFO root fetch - processPackages [hello2]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-17 06:17:05] INFO root fetch - processPackages [quorum-mininode-py]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-17 06:17:05] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [15.0.20230516.0] Old Version: [15.0.20230418.0]
+[2023-05-17 06:17:05] WARNING root fetch - processPackages [castxml-patch]: Skipping, unable to determine old version
+[2023-05-17 06:17:05] INFO root fetch - main [MainThread]: End processing [castxml-patch] error
+[2023-05-17 06:17:05] INFO root fetch - processPackages [canonical]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 06:17:05] INFO root fetch - processPackages [phonopy]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-17 06:17:05] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-17 06:17:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-17 06:17:05] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/0d/bb/8f42ab14be8763c579e11c33fd5995e7e66486ebaace82406872aa79406f/hello2-1.6.8.tar.gz
+[2023-05-17 06:17:05] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/f9/57/9dd57d3a6ae99c5ed3feb0b21ab4ce4d2af1118cfbb79429b377627dda84/odoo_addons_oca_event-15.0.20230418.0-py3-none-any.whl
+[2023-05-17 06:17:05] INFO root fetch - processPackages [quorum-mininode-py]: Downloading https://files.pythonhosted.org/packages/05/00/be6903308f947f2575a650015e2a13f094caba1e8e8d66018a8f902ff587/quorum_mininode_py-1.2.8.tar.gz
+[2023-05-17 06:17:05] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-17 06:17:05] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.6.7.tar.gz tmp/hello2-1.6.8.tar.gz --markdown 20230517/h/hello2/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-17 06:17:05] INFO root fetch - processPackages [quorum-mininode-py]: executing diffoscope
+[2023-05-17 06:17:05] INFO root fetch - processPackages [quorum-mininode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_mininode_py-1.2.7.tar.gz tmp/quorum_mininode_py-1.2.8.tar.gz --markdown 20230517/q/quorum-mininode-py/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-17 06:17:05] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-05-17 06:17:05] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230517/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-17 06:17:06] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/e4/33/e4884854907ac7b3cce2e399455823977eb04e286c60942ef14384aa45b5/odoo_addons_oca_event-15.0.20230516.0-py3-none-any.whl
+[2023-05-17 06:17:06] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-05-17 06:17:06] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230517/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-17 06:17:06] INFO root fetch - processPackages [phonopy]: executing diffoscope
+[2023-05-17 06:17:06] INFO root fetch - processPackages [canonical]: executing diffoscope
+[2023-05-17 06:17:06] INFO root fetch - processPackages [phonopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonopy-2.9.2.tar.gz tmp/phonopy-2.9.3.tar.gz --markdown 20230517/p/phonopy/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-17 06:17:06] INFO root fetch - processPackages [canonical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonical-0.8.0.tar.gz tmp/canonical-0.9.0.tar.gz --markdown 20230517/c/canonical/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 06:17:06] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-05-17 06:17:06] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-15.0.20230418.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-15.0.20230516.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addons-oca-event/15.0.20230418.0-15.0.20230516.0/diff.md --exclude *.pyd
+[2023-05-17 06:17:07] INFO root fetch - main [MainThread]: End processing [quorum-mininode-py]: success
+[2023-05-17 06:17:07] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-05-17 06:17:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2023-05-17 06:17:07] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-17 06:17:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-05-17 06:17:17] INFO root fetch - main [MainThread]: End processing [phonopy]: success
+[2023-05-17 06:17:44] INFO root fetch - main [MainThread]: End processing [canonical]: success
+[2023-05-17 06:17:44] INFO root fetch - main [MainThread]: Store serial: [18134234]
