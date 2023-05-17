@@ -13707,3 +13707,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:30:14] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-17 12:30:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-17 12:30:15] INFO root fetch - main [MainThread]: Store serial: [18137837]
+[2023-05-17 12:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137837]
+[2023-05-17 12:35:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finlogic
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-alexstolr-treeviewpath-hash
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extr-ds
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upsolver-sdk-python
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nteu-corporate-engine
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipelinewise-tap-postgres
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: segmentheepy-test
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recon-lw
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-package
+[2023-05-17 12:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinystream
+[2023-05-17 12:35:25] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: New version: [20230517.5.42.52453] Old Version: [20230517.10.29.206006]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [finlogic]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-17 12:35:25] WARNING root fetch - processPackages [aws-package]: Skipping, unable to determine old version
+[2023-05-17 12:35:25] INFO root fetch - processPackages [aws-package]: Start processing: duckdb-engine
+[2023-05-17 12:35:25] INFO root fetch - main [MainThread]: End processing [aws-package] error
+[2023-05-17 12:35:25] INFO root fetch - processPackages [segmentheepy-test]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [tinystream]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [upsolver-sdk-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5002175725] Old Version: [2.0.0.dev4994573566]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [nteu-corporate-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [pipelinewise-tap-postgres]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [duckdb-engine]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [tinystream]: Downloading https://files.pythonhosted.org/packages/80/c8/ab25ff7c51357780a5852f6da2fd0a8aeec4f8417f8aa59f3a1d459e7df7/tinystream-0.1.0.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Downloading https://files.pythonhosted.org/packages/41/41/8cc407086b905ae975658aeaf1a0718bbd78da6a050cf16763f3f0dcbe49/certora-cli-alpha-alexstolr-treeviewpath_hash-20230517.10.29.206006.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/00/05/9ef121642a7724217fd44ce956637385fdb6fdb46a15e13b09e2d44c145b/recon_lw-2.0.0.dev4994573566.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/8a/f2/fd1e3485bae6ea18f8aac667266bfecb4b2b6c0ebf4350b0ec3b9a7a9d93/finlogic-0.4.2.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [upsolver-sdk-python]: Downloading https://files.pythonhosted.org/packages/a1/35/d44bb716987b1a696c54b35905ad720d42c819882fdb346e46be6ba9ff2b/upsolver_sdk_python-0.1.8.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/d0/b6/1f97ff18530dd4a335af1333917c09fa3bc4e7b66cdf229fdcb1592fa4ec/duckdb_engine-0.7.1.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [pipelinewise-tap-postgres]: Downloading https://files.pythonhosted.org/packages/cf/d5/b2540dbcf0fdfa4f005e7836689ab049d5fb9a9ffaacb5be71e1ca80bd4d/pipelinewise-tap-postgres-2.0.0.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [segmentheepy-test]: Downloading https://files.pythonhosted.org/packages/58/2a/9c1856f7d9807e16970d199397785ecf9fe85e78e17d31c61cd272a14186/segmentheepy_test-0.0.5-py3-none-any.whl
+[2023-05-17 12:35:25] INFO root fetch - processPackages [nteu-corporate-engine]: Downloading https://files.pythonhosted.org/packages/9a/bf/00f87eb74a0e29ffa7acb7cc78bc65a48fea18eedbb196ab07582347adf7/nteu_corporate_engine-0.1.8.tar.gz
+[2023-05-17 12:35:25] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Skipping package: exceeds size limit 38975285>=10485760
+[2023-05-17 12:35:25] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Start processing: py-redis-utils
+[2023-05-17 12:35:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-treeviewpath-hash] error
+[2023-05-17 12:35:25] INFO root fetch - processPackages [tinystream]: Downloading https://files.pythonhosted.org/packages/0d/62/9bce30ac2ddeb436d5e106b962382c7fff2614ee3b9424b8c7f09afa1574/tinystream-0.1.1.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [py-redis-utils]: New version: [1.1] Old Version: [1.0.9a0]
+[2023-05-17 12:35:25] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/97/5b/5d77ec8ad33d38d4c97b499be95ae4c9a9f4269d8878a513de64a5139e6a/recon_lw-2.0.0.dev5002175725.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [upsolver-sdk-python]: Downloading https://files.pythonhosted.org/packages/bd/27/ee579674f68c58811255c28ffd67116a5644bf61d9abc6657946586e9c82/upsolver_sdk_python-0.1.9.tar.gz
+[2023-05-17 12:35:25] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-17 12:35:25] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230517/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [pipelinewise-tap-postgres]: Downloading https://files.pythonhosted.org/packages/c2/bf/b8924b58bfefca08a5b1639aea1a79355dc8bb9b3e4d0707730edc143b3f/pipelinewise-tap-postgres-2.1.0.tar.gz
+[2023-05-17 12:35:26] INFO root fetch - processPackages [tinystream]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [tinystream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinystream-0.1.0.tar.gz tmp/tinystream-0.1.1.tar.gz --markdown 20230517/t/tinystream/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/8a/2d/f41bd271b9d604c1fb6202abe1a3fb0857920ce20e753d7fcd701645686a/finlogic-0.4.3.tar.gz
+[2023-05-17 12:35:26] INFO root fetch - processPackages [segmentheepy-test]: Downloading https://files.pythonhosted.org/packages/68/1a/c80ee34ba6e07d96ff0ac0d156c7f4226ef2cb0d01c48e191852c162307c/segmentheepy_test-0.0.6-py3-none-any.whl
+[2023-05-17 12:35:26] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/13/84/7682cd3c451697911012eb5d6ecaac10d62d930b64461779e8515adf6d83/duckdb_engine-0.7.2.tar.gz
+[2023-05-17 12:35:26] INFO root fetch - processPackages [nteu-corporate-engine]: Downloading https://files.pythonhosted.org/packages/cb/7e/ba5947027fd19e56cb2ba7093ec162a7ab1337816e8faa486a9b1d28ce0e/nteu_corporate_engine-0.1.9.tar.gz
+[2023-05-17 12:35:26] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/fd/52/8c04523b6f6dc3e0c3cd8b1361e764332dee59db9d08513f981a999a0986/py-redis-utils-1.1.tar.gz
+[2023-05-17 12:35:26] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4994573566.tar.gz tmp/recon_lw-2.0.0.dev5002175725.tar.gz --markdown 20230517/r/recon-lw/2.0.0.dev4994573566-2.0.0.dev5002175725/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [segmentheepy-test]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [segmentheepy-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentheepy_test-0.0.5-py3-none-any.whl.zip tmp/segmentheepy_test-0.0.6-py3-none-any.whl.zip --markdown 20230517/s/segmentheepy-test/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [pipelinewise-tap-postgres]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [pipelinewise-tap-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipelinewise-tap-postgres-2.0.0.tar.gz tmp/pipelinewise-tap-postgres-2.1.0.tar.gz --markdown 20230517/p/pipelinewise-tap-postgres/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [duckdb-engine]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [duckdb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb_engine-0.7.1.tar.gz tmp/duckdb_engine-0.7.2.tar.gz --markdown 20230517/d/duckdb-engine/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [nteu-corporate-engine]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [nteu-corporate-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nteu_corporate_engine-0.1.8.tar.gz tmp/nteu_corporate_engine-0.1.9.tar.gz --markdown 20230517/n/nteu-corporate-engine/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [upsolver-sdk-python]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [upsolver-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsolver_sdk_python-0.1.8.tar.gz tmp/upsolver_sdk_python-0.1.9.tar.gz --markdown 20230517/u/upsolver-sdk-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [finlogic]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [finlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.4.2.tar.gz tmp/finlogic-0.4.3.tar.gz --markdown 20230517/f/finlogic/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-17 12:35:26] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-05-17 12:35:26] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-1.0.9a0.tar.gz tmp/py-redis-utils-1.1.tar.gz --markdown 20230517/p/py-redis-utils/1.0.9a0-1.1/diff.md --exclude *.pyd
+[2023-05-17 12:35:27] INFO root fetch - processPackages [tinystream]: Start processing: PatryksAutoAI
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [tinystream]: success
+[2023-05-17 12:35:27] INFO root fetch - processPackages [extr-ds]: Start processing: lingo-fit
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-17 12:35:27] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 12:35:27] INFO root fetch - processPackages [lingo-fit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 12:35:27] INFO root fetch - processPackages [recon-lw]: Start processing: usdm
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-17 12:35:27] INFO root fetch - processPackages [segmentheepy-test]: Start processing: gpt-convo-reader
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [segmentheepy-test]: success
+[2023-05-17 12:35:27] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/6a/47/a00ed515834a55eac05347f5cbf53fde1b62ea7fef633b9d01dc1c1e29ed/PatryksAutoAI-0.8.8.tar.gz
+[2023-05-17 12:35:27] INFO root fetch - processPackages [usdm]: New version: [0.27.0] Old Version: [0.26.0]
+[2023-05-17 12:35:27] INFO root fetch - processPackages [lingo-fit]: Downloading https://files.pythonhosted.org/packages/45/ab/1d2e2fe57471fd2e3ced1899b56f9eea5ed57d384e05e19ed968920da0b0/lingo_fit-0.1.0-py3-none-any.whl
+[2023-05-17 12:35:27] INFO root fetch - processPackages [gpt-convo-reader]: New version: [0.2] Old Version: [0.1.2]
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [upsolver-sdk-python]: success
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [nteu-corporate-engine]: success
+[2023-05-17 12:35:27] INFO root fetch - processPackages [usdm]: Downloading https://files.pythonhosted.org/packages/57/f9/341b7ca40dfb480b56069f0c858cb6d1f6ec92a4d14441182c9c8bb2c004/usdm-0.26.0.tar.gz
+[2023-05-17 12:35:27] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/39/fc/cdb0f15b5770c6963488a111ce8e4ed3c2dd7b0077771f518a6f42617d0b/PatryksAutoAI-0.8.9.tar.gz
+[2023-05-17 12:35:27] INFO root fetch - processPackages [lingo-fit]: Downloading https://files.pythonhosted.org/packages/e5/66/1bd4416cd22618a1c7d08801f3a06b914446c29a2215abb7200cfc02f6c3/lingo_fit-0.2.0-py3-none-any.whl
+[2023-05-17 12:35:27] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/61/be/bce688ce0342568df89f750510c405c860cf8db2e3b6ccf0a71a4da7db02/gpt-convo-reader-0.1.2.tar.gz
+[2023-05-17 12:35:27] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-05-17 12:35:28] INFO root fetch - main [MainThread]: End processing [finlogic]: success
+[2023-05-17 12:35:28] INFO root fetch - main [MainThread]: End processing [pipelinewise-tap-postgres]: success
+[2023-05-17 12:35:28] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 12:35:28] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.8.8.tar.gz tmp/PatryksAutoAI-0.8.9.tar.gz --markdown 20230517/P/PatryksAutoAI/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 12:35:28] INFO root fetch - processPackages [usdm]: Downloading https://files.pythonhosted.org/packages/dc/97/b486610530e6903c741a8e71c761e78a659e306414b4de4126e22cd07978/usdm-0.27.0.tar.gz
+[2023-05-17 12:35:28] INFO root fetch - main [MainThread]: End processing [duckdb-engine]: success
+[2023-05-17 12:35:28] INFO root fetch - processPackages [lingo-fit]: executing diffoscope
+[2023-05-17 12:35:28] INFO root fetch - processPackages [lingo-fit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingo_fit-0.1.0-py3-none-any.whl.zip tmp/lingo_fit-0.2.0-py3-none-any.whl.zip --markdown 20230517/l/lingo-fit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 12:35:28] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/d6/62/da185c83c09218c7cebdb05c1482435ef9b5638651d2140aeb32b80ddf00/gpt-convo-reader-0.2.tar.gz
+[2023-05-17 12:35:28] INFO root fetch - processPackages [usdm]: executing diffoscope
+[2023-05-17 12:35:28] INFO root fetch - processPackages [usdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usdm-0.26.0.tar.gz tmp/usdm-0.27.0.tar.gz --markdown 20230517/u/usdm/0.26.0-0.27.0/diff.md --exclude *.pyd
+[2023-05-17 12:35:28] INFO root fetch - processPackages [gpt-convo-reader]: executing diffoscope
+[2023-05-17 12:35:28] INFO root fetch - processPackages [gpt-convo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-convo-reader-0.1.2.tar.gz tmp/gpt-convo-reader-0.2.tar.gz --markdown 20230517/g/gpt-convo-reader/0.1.2-0.2/diff.md --exclude *.pyd
+[2023-05-17 12:35:29] INFO root fetch - main [MainThread]: End processing [lingo-fit]: success
+[2023-05-17 12:35:29] INFO root fetch - main [MainThread]: End processing [gpt-convo-reader]: success
+[2023-05-17 12:35:29] INFO root fetch - main [MainThread]: End processing [usdm]: success
+[2023-05-17 12:35:30] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 12:35:30] INFO root fetch - main [MainThread]: Store serial: [18137889]
