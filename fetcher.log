@@ -18576,3 +18576,189 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 16:01:27] INFO root fetch - main [MainThread]: End processing [ampel-ztf]: success
 [2023-05-17 16:01:31] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2023-05-17 16:01:31] INFO root fetch - main [MainThread]: Store serial: [18140524]
+[2023-05-17 16:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18140524]
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piicli
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WebtoonScraper
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-nl
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calculus-ratiocinator
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: My-Serializer-For-Json-And-XML-For-Lab3-6
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mrq-custom
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sspqdd
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nci-cidc-ngs-pipeline-api
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bingbong
+[2023-05-17 16:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-17 16:06:40] INFO root fetch - processPackages [piicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [robotframework-nl]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230517.9.43.923211] Old Version: [20230517.7.53.784228]
+[2023-05-17 16:06:40] WARNING root fetch - processPackages [sspqdd]: Skipping, unable to determine old version
+[2023-05-17 16:06:40] INFO root fetch - processPackages [sspqdd]: Start processing: TorchSisso
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: End processing [sspqdd] error
+[2023-05-17 16:06:40] WARNING root fetch - processPackages [My-Serializer-For-Json-And-XML-For-Lab3-6]: Skipping, unable to determine old version
+[2023-05-17 16:06:40] WARNING root fetch - processPackages [calculus-ratiocinator]: Skipping, unable to determine old version
+[2023-05-17 16:06:40] INFO root fetch - processPackages [My-Serializer-For-Json-And-XML-For-Lab3-6]: Start processing: fink-utils
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: End processing [My-Serializer-For-Json-And-XML-For-Lab3-6] error
+[2023-05-17 16:06:40] INFO root fetch - processPackages [calculus-ratiocinator]: Start processing: evergreen-py
+[2023-05-17 16:06:40] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.34.1] Old Version: [0.9.34]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: End processing [calculus-ratiocinator] error
+[2023-05-17 16:06:40] INFO root fetch - processPackages [nci-cidc-ngs-pipeline-api]: New version: [0.1.24] Old Version: [0.1.23]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/f3/28/1cf73daf457042404af369ab2f3e55bcd126e2e6bc15ed2c07970a6754f0/certora-cli-alpha-uri-eradicate_certora_dir-20230517.7.53.784228.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [bingbong]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [piicli]: executing diffoscope
+[2023-05-17 16:06:40] INFO root fetch - processPackages [piicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piicli-0.0.8.tar.gz tmp/piicli-0.0.9.tar.gz --markdown 20230517/p/piicli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:06:40] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38976711>=10485760
+[2023-05-17 16:06:40] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: fwadmin
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-17 16:06:40] WARNING root fetch - processPackages [TorchSisso]: Skipping, unable to determine old version
+[2023-05-17 16:06:40] INFO root fetch - processPackages [TorchSisso]: Start processing: techiaith-tts
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: End processing [TorchSisso] error
+[2023-05-17 16:06:40] INFO root fetch - processPackages [fink-utils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [evergreen-py]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [techiaith-tts]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/2b/51/ebdbc68a5949078cf805bec401d3517162cbd53af4c58e61e80404257a7d/WebtoonScraper-0.0.3.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [robotframework-nl]: Downloading https://files.pythonhosted.org/packages/de/55/6cb898830023b111f0116c646a4cfb5332951c5135eb2a4aecc1065be900/robotframework-nl-2.1.0.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [nci-cidc-ngs-pipeline-api]: Downloading https://files.pythonhosted.org/packages/24/a5/5fce810712542253a3f7b24d0f1292f4e488b16538635f8aad300222ed5f/nci_cidc_ngs_pipeline_api-0.1.23.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/c2/e6/566cc1272d4cccbfbe1843b0ab6f4a1486d5baf6eb09bfbc00fce1c357dc/mrq-custom-0.9.34.1.tar.gz
+[2023-05-17 16:06:40] WARNING root fetch - processPackages [fwadmin]: Skipping, unable to determine old version
+[2023-05-17 16:06:40] INFO root fetch - processPackages [fwadmin]: Start processing: eswrap
+[2023-05-17 16:06:40] INFO root fetch - main [MainThread]: End processing [fwadmin] error
+[2023-05-17 16:06:40] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/ab/7e/ca551ee61756da5f9732ff58eff92f02957453f33af1f4a83dfd2db24e43/bingbong-0.1.9-py3-none-any.whl
+[2023-05-17 16:06:40] INFO root fetch - processPackages [eswrap]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-17 16:06:40] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/b1/4f/39434599634c5c8ebdbc1673e9f23d9af8dccfe107ccf922a907fd1af998/fink-utils-0.8.2.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [evergreen-py]: Downloading https://files.pythonhosted.org/packages/97/de/c79f514c0f1de8e795ff81730bbec7df3c832999178ef1208923e9525c77/evergreen.py-3.6.0.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-17 16:06:40] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.5.tar.gz tmp/eswrap-0.4.6.tar.gz --markdown 20230517/e/eswrap/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-17 16:06:40] INFO root fetch - processPackages [techiaith-tts]: Downloading https://files.pythonhosted.org/packages/0a/7d/bbfe251e02c5d005f9e24c51946713da6213ea7ec3af6d0bd0fe396f4155/techiaith-tts-0.1.4.tar.gz
+[2023-05-17 16:06:40] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-17 16:06:40] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.34.tar.gz tmp/mrq-custom-0.9.34.1.tar.gz --markdown 20230517/m/mrq-custom/0.9.34-0.9.34.1/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [robotframework-nl]: Downloading https://files.pythonhosted.org/packages/89/0e/bcf368f30ed5e28e587518cb6e722df75a9e2e47b5a6fe7ed491ef50c003/robotframework-nl-2.1.1.tar.gz
+[2023-05-17 16:06:41] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/02/1b/6f796859dfa932281d7d364172838b52bf857eb9c3cd049e81e70d77ed72/WebtoonScraper-0.0.4.tar.gz
+[2023-05-17 16:06:41] INFO root fetch - processPackages [techiaith-tts]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [techiaith-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techiaith-tts-0.1.3.tar.gz tmp/techiaith-tts-0.1.4.tar.gz --markdown 20230517/t/techiaith-tts/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/6e/93/bb49eb01fbed5b49a106c752086c19115ae1e63860c944537fc087ea6a44/bingbong-0.2.1-py3-none-any.whl
+[2023-05-17 16:06:41] INFO root fetch - processPackages [robotframework-nl]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [robotframework-nl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-nl-2.1.0.tar.gz tmp/robotframework-nl-2.1.1.tar.gz --markdown 20230517/r/robotframework-nl/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.3.tar.gz tmp/WebtoonScraper-0.0.4.tar.gz --markdown 20230517/W/WebtoonScraper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [evergreen-py]: Downloading https://files.pythonhosted.org/packages/d1/70/b0d20fdb7dd6168b4b7c9a086b7507152069bdb8b47fdf48c1b16d581c1c/evergreen_py-3.6.1.tar.gz
+[2023-05-17 16:06:41] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.9-py3-none-any.whl.zip tmp/bingbong-0.2.1-py3-none-any.whl.zip --markdown 20230517/b/bingbong/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/19/3d/6d51571734a20389d75327fd1fdf9382d5434496cdf8305167424eb6ea5f/fink-utils-0.9.0.tar.gz
+[2023-05-17 16:06:41] INFO root fetch - processPackages [evergreen-py]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [evergreen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evergreen.py-3.6.0.tar.gz tmp/evergreen_py-3.6.1.tar.gz --markdown 20230517/e/evergreen-py/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [nci-cidc-ngs-pipeline-api]: Downloading https://files.pythonhosted.org/packages/b9/51/b775a64f0703a2db8296ff571b65f686e9cae6f8d5f186cff5e2956607d4/nci_cidc_ngs_pipeline_api-0.1.24.tar.gz
+[2023-05-17 16:06:41] INFO root fetch - processPackages [fink-utils]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [fink-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fink-utils-0.8.2.tar.gz tmp/fink-utils-0.9.0.tar.gz --markdown 20230517/f/fink-utils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 16:06:41] INFO root fetch - processPackages [nci-cidc-ngs-pipeline-api]: executing diffoscope
+[2023-05-17 16:06:41] INFO root fetch - processPackages [nci-cidc-ngs-pipeline-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nci_cidc_ngs_pipeline_api-0.1.23.tar.gz tmp/nci_cidc_ngs_pipeline_api-0.1.24.tar.gz --markdown 20230517/n/nci-cidc-ngs-pipeline-api/0.1.23-0.1.24/diff.md --exclude *.pyd
+[2023-05-17 16:06:42] INFO root fetch - processPackages [piicli]: Start processing: tiledb-cloud
+[2023-05-17 16:06:42] INFO root fetch - main [MainThread]: End processing [piicli]: success
+[2023-05-17 16:06:42] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-17 16:06:42] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2023-05-17 16:06:42] INFO root fetch - processPackages [eswrap]: Start processing: Lshengpackage
+[2023-05-17 16:06:42] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-17 16:06:42] INFO root fetch - processPackages [Lshengpackage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 16:06:42] INFO root fetch - processPackages [robotframework-nl]: Start processing: pulumi-opsgenie
+[2023-05-17 16:06:42] INFO root fetch - main [MainThread]: End processing [robotframework-nl]: success
+[2023-05-17 16:06:42] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/35/4a/c94e76e858e56e270930aa4a58fb0bc05903d4bd4bb6594931ed3eeac5c8/Lshengpackage-0.3.8.tar.gz
+[2023-05-17 16:06:42] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1684331251] Old Version: [1.3.0a1684216670]
+[2023-05-17 16:06:42] INFO root fetch - processPackages [bingbong]: Start processing: start-time-estimator
+[2023-05-17 16:06:42] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-05-17 16:06:42] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2023-05-17 16:06:42] INFO root fetch - processPackages [start-time-estimator]: New version: [1.10.6] Old Version: [1.10.4]
+[2023-05-17 16:06:42] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-05-17 16:06:42] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230517/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-17 16:06:42] INFO root fetch - processPackages [WebtoonScraper]: Start processing: splashlab
+[2023-05-17 16:06:42] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-17 16:06:42] INFO root fetch - processPackages [techiaith-tts]: Start processing: ravendb
+[2023-05-17 16:06:42] INFO root fetch - main [MainThread]: End processing [techiaith-tts]: success
+[2023-05-17 16:06:42] INFO root fetch - processPackages [ravendb]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-05-17 16:06:42] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/29/98/23d75291e4b9a4feb73e2092b17d435d4a60f0af73c552285514cb5d54a2/Lshengpackage-0.3.9.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/82/a4/bff8f5d9986c424b91acfe0d17f9b4dfc8afc09ccbcc84a1b045e0024a6c/pulumi_opsgenie-1.3.0a1684216670.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - processPackages [splashlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:06:43] INFO root fetch - processPackages [start-time-estimator]: Downloading https://files.pythonhosted.org/packages/e8/69/e6444498010ae565bdbcbfe38f8cf0bf9c11e7da74a9df38448d0b514b15/start_time_estimator-1.10.4.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-05-17 16:06:43] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.3.8.tar.gz tmp/Lshengpackage-0.3.9.tar.gz --markdown 20230517/L/Lshengpackage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 16:06:43] INFO root fetch - processPackages [fink-utils]: Start processing: protectedCalculator
+[2023-05-17 16:06:43] INFO root fetch - main [MainThread]: End processing [fink-utils]: success
+[2023-05-17 16:06:43] INFO root fetch - processPackages [ravendb]: Downloading https://files.pythonhosted.org/packages/10/a9/ad60f52756a9016be38a160d08538ede879308e27148768e0fc21a4d5eb8/ravendb-5.2.2.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-17 16:06:43] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/2a/6b/a3f1aec3bc033c114f759399efc0b5ccd568dffb440bd95ef2436115acb5/pulumi_opsgenie-1.3.0a1684331251.tar.gz
+[2023-05-17 16:06:43] WARNING root fetch - processPackages [protectedCalculator]: Skipping, unable to determine old version
+[2023-05-17 16:06:43] INFO root fetch - main [MainThread]: End processing [protectedCalculator] error
+[2023-05-17 16:06:43] INFO root fetch - processPackages [start-time-estimator]: Downloading https://files.pythonhosted.org/packages/55/54/9ac03ae10bdb3fcad867430697b929ff42bb81ef854540e1080b34ae7eca/start_time_estimator-1.10.6.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/f4/61/daec8b865651d30336f3f746e1a3498d0da73cda961bcd9f0183cff84477/splashlab-0.0.8.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-05-17 16:06:43] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1684216670.tar.gz tmp/pulumi_opsgenie-1.3.0a1684331251.tar.gz --markdown 20230517/p/pulumi-opsgenie/1.3.0a1684216670-1.3.0a1684331251/diff.md --exclude *.pyd
+[2023-05-17 16:06:43] INFO root fetch - processPackages [start-time-estimator]: executing diffoscope
+[2023-05-17 16:06:43] INFO root fetch - processPackages [start-time-estimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_time_estimator-1.10.4.tar.gz tmp/start_time_estimator-1.10.6.tar.gz --markdown 20230517/s/start-time-estimator/1.10.4-1.10.6/diff.md --exclude *.pyd
+[2023-05-17 16:06:43] INFO root fetch - processPackages [ravendb]: Downloading https://files.pythonhosted.org/packages/2f/59/ba3782b1ce3747bcbfb2ae1e7782861004985bc34da103b0365d89f65f25/ravendb-5.2.3.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - main [MainThread]: End processing [evergreen-py]: success
+[2023-05-17 16:06:43] INFO root fetch - processPackages [ravendb]: executing diffoscope
+[2023-05-17 16:06:43] INFO root fetch - processPackages [ravendb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ravendb-5.2.2.tar.gz tmp/ravendb-5.2.3.tar.gz --markdown 20230517/r/ravendb/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-05-17 16:06:43] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/77/ec/2608c5bae18854b26dbad44a6158ed55a0202163e276a74afb95381acac9/splashlab-0.0.9.tar.gz
+[2023-05-17 16:06:43] INFO root fetch - processPackages [splashlab]: executing diffoscope
+[2023-05-17 16:06:43] INFO root fetch - processPackages [splashlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splashlab-0.0.8.tar.gz tmp/splashlab-0.0.9.tar.gz --markdown 20230517/s/splashlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:06:43] ERROR root fetch - processPackages [ravendb]: Diffoscope failed: Error: error creating container storage: the container name "peaceful_wu" is already in use by "c13960dfccea54c1e6e1e237f5948e659cf4aa03eded5e644d6062e6a4954021". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-17 16:06:43] INFO root fetch - main [MainThread]: End processing [ravendb] error
+[2023-05-17 16:06:44] INFO root fetch - main [MainThread]: End processing [start-time-estimator]: success
+[2023-05-17 16:06:44] INFO root fetch - main [MainThread]: End processing [splashlab]: success
+[2023-05-17 16:06:44] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-05-17 16:06:46] ERROR root fetch - processPackages [nci-cidc-ngs-pipeline-api]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-17 16:06:46] INFO root fetch - main [MainThread]: End processing [nci-cidc-ngs-pipeline-api] error
+[2023-05-17 16:06:46] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-05-17 16:06:48] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-05-17 16:06:48] INFO root fetch - main [MainThread]: Store serial: [18140598]
