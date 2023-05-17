@@ -2090,3 +2090,62 @@
 [2023-05-17 02:40:44] INFO root fetch - main [MainThread]: End processing [ahk]: success
 [2023-05-17 02:40:44] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2023-05-17 02:40:44] INFO root fetch - main [MainThread]: Store serial: [18131158]
+[2023-05-17 02:45:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131158]
+[2023-05-17 02:45:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudsnorkel.cdk-github-runners
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toolshelf
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zoish
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oci-mlflow
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-utils
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfds-nightly
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-activation
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: access-nri-intake
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: humanloop
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [oci-mlflow]: Skipping, unable to determine old version
+[2023-05-17 02:45:53] INFO root fetch - main [MainThread]: End processing [oci-mlflow] error
+[2023-05-17 02:45:53] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [torch-activation]: Skipping, unable to determine old version
+[2023-05-17 02:45:53] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-05-17 02:45:53] INFO root fetch - processPackages [toolshelf]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 02:45:53] INFO root fetch - processPackages [access-nri-intake]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 02:45:53] INFO root fetch - processPackages [zoish]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-05-17 02:45:53] INFO root fetch - main [MainThread]: End processing [torch-activation] error
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [toolshelf]: fallback to get urls: [0.2.1]
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [toolshelf]: None
+[2023-05-17 02:45:53] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305160044] Old Version: [4.9.2.dev202305150044]
+[2023-05-17 02:45:53] INFO root fetch - processPackages [humanloop]: New version: [0.4.0a4] Old Version: [0.4.0]
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [toolshelf]: None
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [toolshelf]: unable to get url for both version [0.2.1]
+[2023-05-17 02:45:53] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: executing diffoscope
+[2023-05-17 02:45:53] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsnorkel.cdk-github-runners-0.9.7.tar.gz tmp/cloudsnorkel.cdk-github-runners-0.9.8.tar.gz --markdown 20230517/c/cloudsnorkel.cdk-github-runners/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-17 02:45:53] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-17 02:45:53] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230517/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 02:45:53] WARNING root fetch - processPackages [toolshelf]: None
+[2023-05-17 02:45:53] INFO root fetch - main [MainThread]: End processing [toolshelf] error
+[2023-05-17 02:45:53] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/12/1d/fb395df4720cccc72e814da7894103b9ad8f16ff8888f6a20a8eb25ba5f9/access_nri_intake-0.0.3.tar.gz
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ovos-utils]: Downloading https://files.pythonhosted.org/packages/d7/4b/e499972fb3bf80dfa8a9dd2f431fcad633697e759fa8f256a9945e45a75e/ovos_utils-0.0.9.tar.gz
+[2023-05-17 02:45:53] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/6a/19/cee98b960c995ed74deaa1b0d8b6d2304df5ebfa2836838803b6cc698bf7/humanloop-0.4.0.tar.gz
+[2023-05-17 02:45:53] INFO root fetch - processPackages [zoish]: Downloading https://files.pythonhosted.org/packages/64/8e/521bacaa28c27156c1c95fd2c6778f8cefd363709be8b899c5478fd64fea/zoish-3.7.1.tar.gz
+[2023-05-17 02:45:53] INFO root fetch - processPackages [zoish]: executing diffoscope
+[2023-05-17 02:45:53] INFO root fetch - processPackages [zoish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoish-3.7.0.tar.gz tmp/zoish-3.7.1.tar.gz --markdown 20230517/z/zoish/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-05-17 02:45:53] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/0e/58/0edaff1587116929593adc72125d69836d8b881d4f1d29938b554540f99d/tfds-nightly-4.9.2.dev202305160044.tar.gz
+[2023-05-17 02:45:53] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-17 02:45:53] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305150044.tar.gz tmp/tfds-nightly-4.9.2.dev202305160044.tar.gz --markdown 20230517/t/tfds-nightly/4.9.2.dev202305150044-4.9.2.dev202305160044/diff.md --exclude *.pyd
+[2023-05-17 02:45:53] INFO root fetch - processPackages [ovos-utils]: Downloading https://files.pythonhosted.org/packages/87/ec/09417f2334058aa6de64c90cd4a839ddd15a671ba16f1bed26c98da17d31/ovos_utils-0.0.9a1.tar.gz
+[2023-05-17 02:45:54] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/05/09/b58947a73b737d9b1d7525d1c919422060dc3f47e2927499d0560c7279c8/access_nri_intake-0.0.4.tar.gz
+[2023-05-17 02:45:54] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-05-17 02:45:54] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.0.tar.gz tmp/humanloop-0.4.0a4.tar.gz --markdown 20230517/h/humanloop/0.4.0-0.4.0a4/diff.md --exclude *.pyd
+[2023-05-17 02:45:54] INFO root fetch - processPackages [access-nri-intake]: executing diffoscope
+[2023-05-17 02:45:54] INFO root fetch - processPackages [access-nri-intake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access_nri_intake-0.0.3.tar.gz tmp/access_nri_intake-0.0.4.tar.gz --markdown 20230517/a/access-nri-intake/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 02:45:54] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-05-17 02:45:54] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230517/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-05-17 02:45:55] INFO root fetch - main [MainThread]: End processing [access-nri-intake]: success
+[2023-05-17 02:45:55] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-05-17 02:45:57] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
+[2023-05-17 02:45:57] INFO root fetch - main [MainThread]: End processing [zoish]: success
+[2023-05-17 02:45:57] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-05-17 02:46:00] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-17 02:46:05] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-17 02:46:05] INFO root fetch - main [MainThread]: Store serial: [18131191]
