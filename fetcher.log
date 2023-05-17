@@ -2259,3 +2259,57 @@
 [2023-05-17 02:56:29] INFO root fetch - main [MainThread]: End processing [dustgoggles]: success
 [2023-05-17 02:56:40] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-05-17 02:56:40] INFO root fetch - main [MainThread]: Store serial: [18131262]
+[2023-05-17 03:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131262]
+[2023-05-17 03:01:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-api-plugin
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runpod
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sns-notify
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyt-gpt
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-wget
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioversions
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aemcmc-nightly
+[2023-05-17 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-unopy
+[2023-05-17 03:01:48] INFO root fetch - processPackages [my-api-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [runpod]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230516] Old Version: [0.0.8.dev20230515]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [types-unopy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230517/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:01:48] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-17 03:01:48] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230517/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 03:01:48] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/fe/5b/8b25b769f91e282ec263611d07d1f0a5fc78f4af7711bf013a8353121aeb/runpod-0.9.7.tar.gz
+[2023-05-17 03:01:48] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-17 03:01:48] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230515.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230516.tar.gz --markdown 20230517/a/aemcmc-nightly/0.0.8.dev20230515-0.0.8.dev20230516/diff.md --exclude *.pyd
+[2023-05-17 03:01:48] INFO root fetch - processPackages [my-api-plugin]: Downloading https://files.pythonhosted.org/packages/ab/01/c8401e9059ef72da99594858a076fc81af62b811cda70cf249b58dd43d58/my-api-plugin-0.1.0.tar.gz
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-17 03:01:48] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230517/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:01:48] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-17 03:01:48] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230517/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-17 03:01:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-17 03:01:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230517/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:01:49] INFO root fetch - processPackages [my-api-plugin]: Downloading https://files.pythonhosted.org/packages/63/67/4e8d3019b53f4e70d49b7a02fc48b551759fc9017cdd203a3c175cda51a9/my-api-plugin-0.1.1.tar.gz
+[2023-05-17 03:01:49] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/65/94/c63ba4e61ac4b062265e923eb0749224ce28e234ea9d1c91dc14ed782b37/runpod-0.9.8.tar.gz
+[2023-05-17 03:01:49] INFO root fetch - processPackages [types-unopy]: Downloading https://files.pythonhosted.org/packages/8e/b6/4a09c791d7ce0e20fa6aec0b50b11c6ec0048ba26cc2cfd20c7846be1e17/types_unopy-1.0.5.tar.gz
+[2023-05-17 03:01:49] INFO root fetch - processPackages [my-api-plugin]: executing diffoscope
+[2023-05-17 03:01:49] INFO root fetch - processPackages [my-api-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-api-plugin-0.1.0.tar.gz tmp/my-api-plugin-0.1.1.tar.gz --markdown 20230517/m/my-api-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 03:01:49] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-05-17 03:01:49] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.7.tar.gz tmp/runpod-0.9.8.tar.gz --markdown 20230517/r/runpod/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-17 03:01:49] INFO root fetch - processPackages [types-unopy]: executing diffoscope
+[2023-05-17 03:01:49] INFO root fetch - processPackages [types-unopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_unopy-1.0.4.tar.gz tmp/types_unopy-1.0.5.tar.gz --markdown 20230517/t/types-unopy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 03:01:50] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-17 03:01:50] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-17 03:01:50] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-17 03:01:50] INFO root fetch - main [MainThread]: End processing [my-api-plugin]: success
+[2023-05-17 03:01:50] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-05-17 03:01:52] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-17 03:01:52] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-17 03:02:10] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-17 03:04:49] ERROR root fetch - processPackages [types-unopy]: Timeout during execution of pkgdiff
+[2023-05-17 03:04:49] INFO root fetch - main [MainThread]: End processing [types-unopy] error
+[2023-05-17 03:04:49] INFO root fetch - main [MainThread]: Store serial: [18131286]
