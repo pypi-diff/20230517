@@ -8225,3 +8225,65 @@
 [2023-05-17 07:28:06] INFO root fetch - main [MainThread]: End processing [zep-python]: success
 [2023-05-17 07:28:08] INFO root fetch - main [MainThread]: End processing [lit]: success
 [2023-05-17 07:28:08] INFO root fetch - main [MainThread]: Store serial: [18134520]
+[2023-05-17 07:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134520]
+[2023-05-17 07:33:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-connector
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bias-adjustment
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-sqlalchemy
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etuples
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsface-python
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsface-cpu-python
+[2023-05-17 07:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agri-sense
+[2023-05-17 07:33:17] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [nsface-python]: New version: [1.1.73] Old Version: [1.1.72]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [bias-adjustment]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.73] Old Version: [1.1.72]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [agri-sense]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [etuples]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [gpt-review]: New version: [0.9.2rc812.post1] Old Version: [0.9.2rc796.post1]
+[2023-05-17 07:33:17] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-17 07:33:17] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230517/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-17 07:33:17] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/d4/39/cac3b1d0b8299f811249d5b21936101bf11e53893db1daf0d26949c3d485/clickzetta-connector-0.6.8.tar.gz
+[2023-05-17 07:33:17] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/93/59/41e5fad05c7e21a3f4f28ab7c52e4bee9750e80d451e72a594b9fa801478/nsface_python-1.1.72-py3-none-any.whl
+[2023-05-17 07:33:17] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/65/49/1e9ad52f5a5708807217d076379dcd3ecd48d55e5ef006ff72b9f454a4cb/nsface_cpu_python-1.1.72-py3-none-any.whl
+[2023-05-17 07:33:17] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/48/21/08cd064a9e7a3b4b4dd7c6251fa05fa3e3e4457336f54d8ba3a8069eb9d3/clickzetta-sqlalchemy-0.6.8.tar.gz
+[2023-05-17 07:33:17] INFO root fetch - processPackages [bias-adjustment]: Downloading https://files.pythonhosted.org/packages/5e/d3/1794f5e5a07c5719dcb09161c97a59d27af95c366baad9217578c00d4872/bias_adjustment-1.0.4.tar.gz
+[2023-05-17 07:33:17] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/d7/c1/3a7400479e6bad38da94e935f06eaecd47d18ef65b2c601cfa9de9f9f034/gpt_review-0.9.2rc812.post1.tar.gz
+[2023-05-17 07:33:17] INFO root fetch - processPackages [etuples]: Downloading https://files.pythonhosted.org/packages/7d/74/d5fea869cf375445a0aea3a4f5e0eebfc660d099712dffe8309cbfe0f8e6/etuples-0.3.8.tar.gz
+[2023-05-17 07:33:17] INFO root fetch - processPackages [bias-adjustment]: executing diffoscope
+[2023-05-17 07:33:17] INFO root fetch - processPackages [bias-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bias_adjustment-1.0.3.tar.gz tmp/bias_adjustment-1.0.4.tar.gz --markdown 20230517/b/bias-adjustment/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/cc/a6/8599edcf47badcaf1b038204e4cb3a0aa4a342eadbfc39dcd9615ba3a5ef/agri_sense-1.0.0.tar.gz
+[2023-05-17 07:33:18] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.2rc796.post1.tar.gz tmp/gpt_review-0.9.2rc812.post1.tar.gz --markdown 20230517/g/gpt-review/0.9.2rc796.post1-0.9.2rc812.post1/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/f8/6f/94891f69bbcde8c5977f39cd1c7d65ad9aae6e8f4305229a8fcf51f5d25a/nsface_python-1.1.73-py3-none-any.whl
+[2023-05-17 07:33:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/71/21/1fddf41f9ced5f3da4b76284986850dc66e0949f5aa076db05b5f095f350/clickzetta-sqlalchemy-0.6.9.tar.gz
+[2023-05-17 07:33:18] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/3a/26/bfb71df78094890d8aedd796d24e2b9578ce42ea29a2bcdf44433c766a71/clickzetta-connector-0.6.9.tar.gz
+[2023-05-17 07:33:18] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/1e/5a/7ebce6f1f465e751f9839889a59755faf0808e870a6b7e51c8531bd813f0/nsface_cpu_python-1.1.73-py3-none-any.whl
+[2023-05-17 07:33:18] INFO root fetch - processPackages [etuples]: Downloading https://files.pythonhosted.org/packages/22/60/134940a09d03786ad7267e53458a749e2f4bfaf1efd672363e87a4a13561/etuples-0.3.9.tar.gz
+[2023-05-17 07:33:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.6.8.tar.gz tmp/clickzetta-sqlalchemy-0.6.9.tar.gz --markdown 20230517/c/clickzetta-sqlalchemy/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.72-py3-none-any.whl.zip tmp/nsface_python-1.1.73-py3-none-any.whl.zip --markdown 20230517/n/nsface-python/1.1.72-1.1.73/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/30/e6/859611f6d8d1fe476821a07a6ef5bc41c31ecc8d982c2a9231388442d5fb/agri_sense-1.0.1.tar.gz
+[2023-05-17 07:33:18] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.6.8.tar.gz tmp/clickzetta-connector-0.6.9.tar.gz --markdown 20230517/c/clickzetta-connector/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [etuples]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [etuples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etuples-0.3.8.tar.gz tmp/etuples-0.3.9.tar.gz --markdown 20230517/e/etuples/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [nsface-cpu-python]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [nsface-cpu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_cpu_python-1.1.72-py3-none-any.whl.zip tmp/nsface_cpu_python-1.1.73-py3-none-any.whl.zip --markdown 20230517/n/nsface-cpu-python/1.1.72-1.1.73/diff.md --exclude *.pyd
+[2023-05-17 07:33:18] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 07:33:18] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.0.0.tar.gz tmp/agri_sense-1.0.1.tar.gz --markdown 20230517/a/agri-sense/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 07:33:19] INFO root fetch - main [MainThread]: End processing [bias-adjustment]: success
+[2023-05-17 07:33:19] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-17 07:33:19] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: End processing [etuples]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python]: success
+[2023-05-17 07:33:20] INFO root fetch - main [MainThread]: Store serial: [18134541]
