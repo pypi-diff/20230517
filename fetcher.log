@@ -12142,3 +12142,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:23:12] INFO root fetch - main [MainThread]: End processing [gamma-facet]: success
 [2023-05-17 11:23:14] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-05-17 11:23:14] INFO root fetch - main [MainThread]: Store serial: [18136992]
+[2023-05-17 11:28:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136992]
+[2023-05-17 11:28:23] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptsubtitler
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-SPODES
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prophecy-build-tool
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastly
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salure-helpers-ftp
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dipex
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grai-client
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gama-config
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gama-cli
+[2023-05-17 11:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dismake
+[2023-05-17 11:28:23] INFO root fetch - processPackages [gptsubtitler]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [fastly]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.1.1] Old Version: [1.1.0.2]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [grai-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-config]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-cli]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-17 11:28:24] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/27/0d/924a708db2c17e8e20e25fadd2bd87dbb1b49d667434cba7cd0d8c56e91e/fastly-2.0.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230517/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230517/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-cli]: Downloading https://files.pythonhosted.org/packages/73/3f/392add37fedb2571be16c97804071d7280b669a6b43d9cc096faccfcc851/gama_cli-1.9.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/2a/4f/993024e3cb4e74bc80f2ead6c8e6e2d0b517c9e9eb10d1125f8891c220ca/grai_client-0.2.8.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/67/0a/d0fa28bc49157de97a50180377ba744dbd14fa357836c21c51618736762c/prophecy-build-tool-1.1.0.2.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/d6/20/64373135526602e7d30e6b19920d0c3cf052d4412acab8e1c78beacda3a2/salure_helpers_ftp-1.2.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/46/08/3ae4c7e16d7637b110f10926d3f716f41bd63c17da7515588e0226862c71/gama_config-1.9.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gptsubtitler]: Downloading https://files.pythonhosted.org/packages/11/69/291c210cf2cf537896eca0d4552eb0e9645f7d368b8dfdce23c89dbdc027/gptsubtitler-0.0.5.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/8b/5a/10eb73bcf023244830877fb0ff0b92509254af9af5c6ff29916180ad4ab5/fastly-2.1.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gptsubtitler]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gptsubtitler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptsubtitler-0.0.4.tar.gz tmp/gptsubtitler-0.0.5.tar.gz --markdown 20230517/g/gptsubtitler/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230517/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-cli]: Downloading https://files.pythonhosted.org/packages/fb/f9/46587089ba8e5bd18d82b4c097c7fc692eaf775a7f24d1210c3c09d7f241/gama_cli-2.0.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/a8/57/6e9b1269cc2b114efd119a3062ffdc014e8cc21d43b364425ee10318a4cd/prophecy-build-tool-1.1.1.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/a8/25/322942a09f700cd03ffe188d9dd5ad672458ceb7bc9b501acb1271b1aa62/salure_helpers_ftp-1.3.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-2.0.0.tar.gz tmp/fastly-2.1.0.tar.gz --markdown 20230517/f/fastly/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/3f/31/16b518b763749e173f96d81f765a11ae0b8d22452f15fea05c4cc8e336cb/gama_config-2.0.0.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/08/44/592e84bb9180375ab41db5cf79838193db14eb8c9927777b03fcdb255d50/grai_client-0.2.9.tar.gz
+[2023-05-17 11:28:24] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.1.0.2.tar.gz tmp/prophecy-build-tool-1.1.1.tar.gz --markdown 20230517/p/prophecy-build-tool/1.1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.9.0.tar.gz tmp/gama_cli-2.0.0.tar.gz --markdown 20230517/g/gama-cli/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.2.8.tar.gz tmp/grai_client-0.2.9.tar.gz --markdown 20230517/g/grai-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.9.0.tar.gz tmp/gama_config-2.0.0.tar.gz --markdown 20230517/g/gama-config/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:24] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-05-17 11:28:24] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.2.0.tar.gz tmp/salure_helpers_ftp-1.3.0.tar.gz --markdown 20230517/s/salure-helpers-ftp/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:25] INFO root fetch - processPackages [gptsubtitler]: Start processing: bmsdna-lakeapi
+[2023-05-17 11:28:25] INFO root fetch - main [MainThread]: End processing [gptsubtitler]: success
+[2023-05-17 11:28:25] WARNING root fetch - processPackages [bmsdna-lakeapi]: Skipping, unable to determine old version
+[2023-05-17 11:28:25] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: agsi
+[2023-05-17 11:28:25] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi] error
+[2023-05-17 11:28:26] INFO root fetch - processPackages [agsi]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [prophecy-build-tool]: Start processing: PyRVCTestD
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2023-05-17 11:28:26] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/17/f0/ee7ec9993252fe23fa52121da6115ce1419b1a557676f29b9fce42367c2b/agsi-1.0.0.tar.gz
+[2023-05-17 11:28:26] WARNING root fetch - processPackages [PyRVCTestD]: Skipping, unable to determine old version
+[2023-05-17 11:28:26] INFO root fetch - processPackages [PyRVCTestD]: Start processing: roboflow-evaluations
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [PyRVCTestD] error
+[2023-05-17 11:28:26] WARNING root fetch - processPackages [roboflow-evaluations]: Skipping, unable to determine old version
+[2023-05-17 11:28:26] INFO root fetch - processPackages [roboflow-evaluations]: Start processing: sphinxcontrib-matlabdomain
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [roboflow-evaluations] error
+[2023-05-17 11:28:26] INFO root fetch - processPackages [salure-helpers-ftp]: Start processing: wordview
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-05-17 11:28:26] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [wordview]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [dismake]: Start processing: vcsc-data-common
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-17 11:28:26] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/a2/a5/2cb5881e080f5d8b001295bac89a5e3c371cce324723c3e72b1f0f5e158a/agsi-1.0.2.tar.gz
+[2023-05-17 11:28:26] INFO root fetch - processPackages [grai-client]: Start processing: roboflow-cvevals
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-05-17 11:28:26] INFO root fetch - processPackages [DLMS-SPODES]: Start processing: smt
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-17 11:28:26] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/4c/71/f07d96adaff7ea76b8f97c1155ff86661417369d7c418e3cfb4d087d5313/wordview-0.1.0.tar.gz
+[2023-05-17 11:28:26] WARNING root fetch - processPackages [roboflow-cvevals]: Skipping, unable to determine old version
+[2023-05-17 11:28:26] INFO root fetch - processPackages [roboflow-cvevals]: Start processing: dismake
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [roboflow-cvevals] error
+[2023-05-17 11:28:26] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-05-17 11:28:26] INFO root fetch - processPackages [smt]: New version: [2.0b3] Old Version: [2.0b2]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-05-17 11:28:26] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230517/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-17 11:28:26] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-17 11:28:26] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.0.tar.gz tmp/agsi-1.0.2.tar.gz --markdown 20230517/a/agsi/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 11:28:26] INFO root fetch - processPackages [gama-config]: Start processing: cloudsmith-api
+[2023-05-17 11:28:26] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-05-17 11:28:26] INFO root fetch - processPackages [cloudsmith-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-17 11:28:26] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-17 11:28:26] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230517/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:28:26] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/ed/1e/8e5979cb4d983c970c2aa18cbc8afa57fc42732f1c5bcd6aed5df5cc491b/smt-2.0b2.tar.gz
+[2023-05-17 11:28:26] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/6a/ca/ea4199f8a6e8ef4ee06a30411a6a144052b5087972fe38bea081477fd609/cloudsmith_api-2.0.2-py2.py3-none-any.whl
+[2023-05-17 11:28:26] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/5e/e5/7e626eba0e65d618fe7348221f5bbb6b1f76d1a8866d1956b3e8388adc9c/wordview-0.2.0.tar.gz
+[2023-05-17 11:28:26] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-05-17 11:28:26] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/78/57/b3bfb76849a224b30afccb916382f6aa39e1bbba9bc488e8f6429deaacd0/smt-2.0b3.tar.gz
+[2023-05-17 11:28:27] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-05-17 11:28:27] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/36/66/e3168ab1bff8b4fcdb3de0f82b73291e4104769044c33b98c7d57f6a1a66/cloudsmith_api-2.0.3-py2.py3-none-any.whl
+[2023-05-17 11:28:27] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-05-17 11:28:27] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230517/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:27] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-05-17 11:28:27] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.1.0.tar.gz tmp/wordview-0.2.0.tar.gz --markdown 20230517/w/wordview/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 11:28:27] INFO root fetch - processPackages [cloudsmith-api]: executing diffoscope
+[2023-05-17 11:28:27] INFO root fetch - processPackages [cloudsmith-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_api-2.0.2-py2.py3-none-any.whl.zip tmp/cloudsmith_api-2.0.3-py2.py3-none-any.whl.zip --markdown 20230517/c/cloudsmith-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-17 11:28:27] INFO root fetch - processPackages [smt]: executing diffoscope
+[2023-05-17 11:28:27] INFO root fetch - processPackages [smt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smt-2.0b2.tar.gz tmp/smt-2.0b3.tar.gz --markdown 20230517/s/smt/2.0b2-2.0b3/diff.md --exclude *.pyd
+[2023-05-17 11:28:28] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-17 11:28:28] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-05-17 11:28:28] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-17 11:28:29] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-05-17 11:28:29] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-17 11:28:30] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-05-17 11:28:31] INFO root fetch - main [MainThread]: End processing [smt]: success
+[2023-05-17 11:28:32] INFO root fetch - main [MainThread]: End processing [cloudsmith-api]: success
+[2023-05-17 11:28:50] INFO root fetch - main [MainThread]: End processing [fastly]: success
+[2023-05-17 11:28:50] INFO root fetch - main [MainThread]: Store serial: [18137057]
