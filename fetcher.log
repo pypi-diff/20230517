@@ -12788,3 +12788,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:55:27] INFO root fetch - main [MainThread]: End processing [robotcode]: success
 [2023-05-17 11:55:31] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-05-17 11:55:31] INFO root fetch - main [MainThread]: Store serial: [18137446]
+[2023-05-17 12:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137446]
+[2023-05-17 12:00:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xedocs
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotcode-core
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xedocs
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-poisson-solver
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoCarver
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zebrazoom
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyLexia
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sfft
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extr-ds
+[2023-05-17 12:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shieldapi
+[2023-05-17 12:00:40] INFO root fetch - processPackages [AutoCarver]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [xedocs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [xedocs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [robotcode-core]: New version: [0.40.0] Old Version: [0.39.0]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [PyLexia]: New version: [1.17] Old Version: [1.16]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [shieldapi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [fast-poisson-solver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [sfft]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [sfft]: Downloading https://files.pythonhosted.org/packages/8a/c4/1d71287dab19554f7dd7da69987bf7eed5e4021214ffe207628bf72ff3f7/sfft-1.3.4.tar.gz
+[2023-05-17 12:00:40] INFO root fetch - processPackages [extr-ds]: Downloading https://files.pythonhosted.org/packages/27/fd/ad61e010e74073f6c5c1f4235d1faab121e1cb9e7e23230f386511a7fe88/extr-ds-0.0.8.tar.gz
+[2023-05-17 12:00:40] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-05-17 12:00:40] INFO root fetch - processPackages [PyLexia]: executing diffoscope
+[2023-05-17 12:00:40] INFO root fetch - processPackages [PyLexia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLexia-1.16.tar.gz tmp/PyLexia-1.17.tar.gz --markdown 20230517/P/PyLexia/1.16-1.17/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/05/d1/af4fb6873a2b0f937fd0baf96564253d4546fa1b4f6dfff5ce65908fac3d/fast_poisson_solver-0.1.1.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/47/33/407bfd91df240194c7352c76a755f721ee8bfe4d85e346f66d94c3b5a22b/AutoCarver-4.1.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/5a/28/78406ff6e652462ade741851d5499aef7e597bac5854c78076b410cc4814/robotcode_core-0.39.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/62/85/73d44546eea10f8ff3903db4cc725b1a1fc5d6f8e542480dda813a591cef/xedocs-0.2.8.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [extr-ds]: Downloading https://files.pythonhosted.org/packages/86/83/bd4be10639f99bd8bfa649379bce5e45f693a0ab8542cdd44cf2fcb3240d/extr-ds-0.0.9.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/62/85/73d44546eea10f8ff3903db4cc725b1a1fc5d6f8e542480dda813a591cef/xedocs-0.2.8.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [shieldapi]: Downloading https://files.pythonhosted.org/packages/64/de/6f02c1587eef9d514e4f3d71fcb0f5f62999766850e6f7750bac5b0b280d/shieldapi-1.0.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [sfft]: Downloading https://files.pythonhosted.org/packages/a3/4d/67de3091c2a4559c1688194f085c3b5bebeb1c052051b5a6eda3d2b2a48b/sfft-1.4.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [sfft]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [sfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfft-1.3.4.tar.gz tmp/sfft-1.4.0.tar.gz --markdown 20230517/s/sfft/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230517/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/2e/4b/ebaa6e4a060582ab96c2426eaaa85c538ca3710e71e45085a2a19b18d502/AutoCarver-4.2.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/b2/c7/6647aae651b0e1ef6e3c6603a4e11c57cbbc3afc45a210a60bd6146ecfca/robotcode_core-0.40.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/c7/78/e1c06e2dcba08772d1310a473356c9ae1f0aa04bd2c576f037b7fef55811/fast_poisson_solver-0.1.2.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/44/a7/8fa4c7553287769dc6c12dbf7bcece560fd0dd124d938a0d31b7a45331e7/xedocs-0.2.9.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/44/a7/8fa4c7553287769dc6c12dbf7bcece560fd0dd124d938a0d31b7a45331e7/xedocs-0.2.9.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.1.0.tar.gz tmp/AutoCarver-4.2.0.tar.gz --markdown 20230517/A/AutoCarver/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [shieldapi]: Downloading https://files.pythonhosted.org/packages/b5/24/3dc3185763a51283138a5f59e3c7a3a2e8e8dfb0755e6c40709a1afd8721/shieldapi-1.1.0.tar.gz
+[2023-05-17 12:00:41] INFO root fetch - processPackages [fast-poisson-solver]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [fast-poisson-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_poisson_solver-0.1.1.tar.gz tmp/fast_poisson_solver-0.1.2.tar.gz --markdown 20230517/f/fast-poisson-solver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [robotcode-core]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [robotcode-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_core-0.39.0.tar.gz tmp/robotcode_core-0.40.0.tar.gz --markdown 20230517/r/robotcode-core/0.39.0-0.40.0/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xedocs-0.2.8.tar.gz tmp/xedocs-0.2.9.tar.gz --markdown 20230517/x/xedocs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [xedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xedocs-0.2.8.tar.gz tmp/xedocs-0.2.9.tar.gz --markdown 20230517/x/xedocs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 12:00:41] INFO root fetch - processPackages [shieldapi]: executing diffoscope
+[2023-05-17 12:00:41] INFO root fetch - processPackages [shieldapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shieldapi-1.0.0.tar.gz tmp/shieldapi-1.1.0.tar.gz --markdown 20230517/s/shieldapi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 12:00:42] INFO root fetch - processPackages [PyLexia]: Start processing: hprint
+[2023-05-17 12:00:42] INFO root fetch - main [MainThread]: End processing [PyLexia]: success
+[2023-05-17 12:00:42] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-05-17 12:00:42] INFO root fetch - processPackages [hprint]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-17 12:00:42] INFO root fetch - processPackages [hprint]: Downloading https://files.pythonhosted.org/packages/73/68/940637599ed453bc32931f4ad63a803544ec4b5282f815e89296ef050bec/hprint-2.0.4.tar.gz
+[2023-05-17 12:00:42] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-17 12:00:42] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver]: success
+[2023-05-17 12:00:42] INFO root fetch - processPackages [hprint]: Downloading https://files.pythonhosted.org/packages/14/42/79a6a6adeb466f28e8792c675d79af36a103ba386e57d8f03b8e161dd46f/hprint-2.0.5.tar.gz
+[2023-05-17 12:00:43] INFO root fetch - processPackages [hprint]: executing diffoscope
+[2023-05-17 12:00:43] INFO root fetch - main [MainThread]: End processing [shieldapi]: success
+[2023-05-17 12:00:43] INFO root fetch - processPackages [hprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hprint-2.0.4.tar.gz tmp/hprint-2.0.5.tar.gz --markdown 20230517/h/hprint/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-17 12:00:43] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-05-17 12:00:43] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230517/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-17 12:00:43] INFO root fetch - main [MainThread]: End processing [xedocs]: success
+[2023-05-17 12:00:43] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-05-17 12:00:43] INFO root fetch - main [MainThread]: End processing [xedocs]: success
+[2023-05-17 12:00:43] INFO root fetch - main [MainThread]: End processing [robotcode-core]: success
+[2023-05-17 12:00:44] INFO root fetch - main [MainThread]: End processing [hprint]: success
+[2023-05-17 12:00:44] INFO root fetch - main [MainThread]: End processing [sfft]: success
+[2023-05-17 12:00:45] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-05-17 12:00:45] INFO root fetch - main [MainThread]: Store serial: [18137483]
