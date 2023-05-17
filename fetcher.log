@@ -10846,3 +10846,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 10:13:06] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
 [2023-05-17 10:13:16] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2023-05-17 10:13:16] INFO root fetch - main [MainThread]: Store serial: [18136080]
+[2023-05-17 10:18:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136080]
+[2023-05-17 10:18:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libcnmc
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: woe-scoring
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tigerblog
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deep-copilot
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dismake
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hoyo-daily-logins-helper
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deep-copilot
+[2023-05-17 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Busanstore
+[2023-05-17 10:18:25] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [Busanstore]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-17 10:18:25] INFO root fetch - processPackages [dismake]: Downloading https://files.pythonhosted.org/packages/86/1c/bb82d8007e71caf872bd3aa20df43606ef6d60935fff653e2f5a9a171f6e/dismake-0.0.8.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [woe-scoring]: Downloading https://files.pythonhosted.org/packages/67/25/58876a56184523e57ade700c83810d516cfbe738bfbe52e7f7f76f9ee0d8/woe_scoring-0.8.0.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [Busanstore]: Downloading https://files.pythonhosted.org/packages/8f/c1/cc69c07d926e51ae5cd2b964bd07d3909f314782603815b1998076d7139a/Busanstore-0.0.2-py3-none-any.whl
+[2023-05-17 10:18:25] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/0f/64/cca48dae687cdcdab011851a19498d9aa0b3a6aa853baf068fe4fc75ad16/hoyo-daily-logins-helper-2.4.0.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [tigerblog]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 10:18:25] WARNING root fetch - processPackages [Busanstore]: Skipping package: exceeds size limit 19774142>=10485760
+[2023-05-17 10:18:25] INFO root fetch - main [MainThread]: End processing [Busanstore] error
+[2023-05-17 10:18:25] INFO root fetch - processPackages [dismake]: Downloading https://files.pythonhosted.org/packages/13/b7/f37f5b87f0c7fb33a899101ee348e33efd1ead6b36633e38c1f321c0d2b9/dismake-0.0.9.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/47/57/07455ea7b1c7f553d3ba58b28421e5f60ab16252a4a51e0a43ed27edcd87/deep_copilot-0.0.1.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/47/57/07455ea7b1c7f553d3ba58b28421e5f60ab16252a4a51e0a43ed27edcd87/deep_copilot-0.0.1.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [woe-scoring]: Downloading https://files.pythonhosted.org/packages/5c/33/00fd7f2d8f8d603aa62affd65598ff1b3c60f6b9dae2245f164e3575fa71/woe_scoring-0.9.0.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/36/dc/1b68cacab840dfc712fae7e38f483f0cd7ab4efddcfc5b7538339c1d636f/tigerblog-0.1.3.tar.gz
+[2023-05-17 10:18:25] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-05-17 10:18:25] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230517/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:18:26] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-17 10:18:26] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230517/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-17 10:18:26] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-17 10:18:26] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230517/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 10:18:26] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/c3/6f/dd03c1c61a825c119a89d39aa9175b2a6b62d14a0bbee90b42ad7a20e8d6/hoyo-daily-logins-helper-2.4.1.tar.gz
+[2023-05-17 10:18:26] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-17 10:18:26] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.4.0.tar.gz tmp/hoyo-daily-logins-helper-2.4.1.tar.gz --markdown 20230517/h/hoyo-daily-logins-helper/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-17 10:18:26] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/45/0d/24d392c306d40048b7f406d0674501b0d213eb30997d59f35925cafaa6af/tigerblog-0.1.4.tar.gz
+[2023-05-17 10:18:26] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/6d/7f/9769dc6f2f76204bd2b4366c8888b6e3dbdde82109fd4fcfe0c259768229/deep_copilot-0.0.2.tar.gz
+[2023-05-17 10:18:26] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/6d/7f/9769dc6f2f76204bd2b4366c8888b6e3dbdde82109fd4fcfe0c259768229/deep_copilot-0.0.2.tar.gz
+[2023-05-17 10:18:26] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-17 10:18:26] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.1.tar.gz tmp/deep_copilot-0.0.2.tar.gz --markdown 20230517/d/deep-copilot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 10:18:26] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-17 10:18:26] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.1.tar.gz tmp/deep_copilot-0.0.2.tar.gz --markdown 20230517/d/deep-copilot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 10:18:26] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-05-17 10:18:26] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.3.tar.gz tmp/tigerblog-0.1.4.tar.gz --markdown 20230517/t/tigerblog/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 10:18:27] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-05-17 10:18:27] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-17 10:18:27] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-17 10:18:27] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-17 10:18:28] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-17 10:18:28] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-17 10:18:29] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-05-17 10:18:29] INFO root fetch - main [MainThread]: Store serial: [18136162]
