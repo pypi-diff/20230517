@@ -10276,3 +10276,98 @@
 [2023-05-17 09:46:43] INFO root fetch - main [MainThread]: End processing [cubicweb-web]: success
 [2023-05-17 09:46:44] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
 [2023-05-17 09:46:44] INFO root fetch - main [MainThread]: Store serial: [18135795]
+[2023-05-17 09:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135795]
+[2023-05-17 09:51:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyLexia
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haobaba
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betterproto-twirp-new
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: locust
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagster-meltano
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-source-mssql
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fc-functions-framework
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-term
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: file-managers
+[2023-05-17 09:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SwissArmyTransformer
+[2023-05-17 09:51:53] INFO root fetch - processPackages [dagster-meltano]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [SwissArmyTransformer]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [betterproto-twirp-new]: New version: [1.2.22] Old Version: [1.2.21]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [macrometa-source-mssql]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/17/1e/b00493861710a899631c6932b76d291e2cbf474cf5085273cb0b463cb4ac/SwissArmyTransformer-0.3.4.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [PyLexia]: New version: [1.11] Old Version: [1.1]
+[2023-05-17 09:51:53] WARNING root fetch - processPackages [haobaba]: Skipping, unable to determine old version
+[2023-05-17 09:51:53] INFO root fetch - processPackages [haobaba]: Start processing: keras-nightly
+[2023-05-17 09:51:53] INFO root fetch - main [MainThread]: End processing [haobaba] error
+[2023-05-17 09:51:53] INFO root fetch - processPackages [fc-functions-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [gpt-term]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [file-managers]: New version: [0.7.0] Old Version: [0.4.0]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-17 09:51:53] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-05-17 09:51:53] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/39/4d/6a5ab1e3a45b63a7550b4e6470777e74108a728133ffb1269651aba3a66f/macrometa-source-mssql-0.0.1.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [betterproto-twirp-new]: Downloading https://files.pythonhosted.org/packages/b3/01/b6b068c5161d1d0375e17bc93aaf67eb256611c3650c1eba38db802763d0/betterproto-twirp-new-1.2.22.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [dagster-meltano]: Downloading https://files.pythonhosted.org/packages/66/85/84da37af2a08a871edc9ac839b5bcc183007701207fdf188f17d407f57d2/dagster_meltano-1.2.0.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [file-managers]: Downloading https://files.pythonhosted.org/packages/a2/7a/d32611f065cc4ada5d068a77649ab4506ca9b4bb75111d846f5f30efdfa5/file-managers-0.4.0.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [gpt-term]: Downloading https://files.pythonhosted.org/packages/13/32/db13ddc8e6ddddb14f590b15b3b3319cbfda1de811165b6d02e206e536a3/gpt-term-1.0.4.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [fc-functions-framework]: Downloading https://files.pythonhosted.org/packages/2d/8c/e2e46f096e173bbb3d0adb49f6debeda24dd5ed5c69b6a2e407970e8fbc1/fc-functions-framework-0.0.8.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [dagster-meltano]: Downloading https://files.pythonhosted.org/packages/3f/eb/d5be33e2ca208c0ba720711ef325ee06f216d307f9c9ec070cccf5ac4a6b/dagster_meltano-1.2.1.tar.gz
+[2023-05-17 09:51:53] INFO root fetch - processPackages [betterproto-twirp-new]: executing diffoscope
+[2023-05-17 09:51:53] INFO root fetch - processPackages [betterproto-twirp-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterproto-twirp-new-1.2.21.tar.gz tmp/betterproto-twirp-new-1.2.22.tar.gz --markdown 20230517/b/betterproto-twirp-new/1.2.21-1.2.22/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [dagster-meltano]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [dagster-meltano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_meltano-1.2.0.tar.gz tmp/dagster_meltano-1.2.1.tar.gz --markdown 20230517/d/dagster-meltano/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [PyLexia]: Downloading https://files.pythonhosted.org/packages/77/25/b09f0a9427b32430137df1781071c4effc92241fed0e356e6066b309b726/PyLexia-1.11.tar.gz
+[2023-05-17 09:51:54] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/cc/17/23971e914083fa9323f4250415955da66acc12ceae9f06dd09e3f4222a76/macrometa-source-mssql-0.0.2.tar.gz
+[2023-05-17 09:51:54] INFO root fetch - processPackages [file-managers]: Downloading https://files.pythonhosted.org/packages/41/16/e8eff9d78b06a66f8f0d4cd0ff3d377ebd98e625dee43c5747dfa270103c/file-managers-0.7.0.tar.gz
+[2023-05-17 09:51:54] INFO root fetch - processPackages [macrometa-source-mssql]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [macrometa-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mssql-0.0.1.tar.gz tmp/macrometa-source-mssql-0.0.2.tar.gz --markdown 20230517/m/macrometa-source-mssql/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [fc-functions-framework]: Downloading https://files.pythonhosted.org/packages/ba/d0/73e09ba76d211d0a294adbef660f135116951a66fac5d6a05723a081ea87/fc-functions-framework-0.0.9.tar.gz
+[2023-05-17 09:51:54] INFO root fetch - processPackages [gpt-term]: Downloading https://files.pythonhosted.org/packages/36/77/bdaa2c5adea69850fb5329d487b6ae65d763f4fc18a8662866012e146f6c/gpt-term-1.0.5.tar.gz
+[2023-05-17 09:51:54] INFO root fetch - processPackages [PyLexia]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [PyLexia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLexia-1.1.tar.gz tmp/PyLexia-1.11.tar.gz --markdown 20230517/P/PyLexia/1.1-1.11/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [fc-functions-framework]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [fc-functions-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-functions-framework-0.0.8.tar.gz tmp/fc-functions-framework-0.0.9.tar.gz --markdown 20230517/f/fc-functions-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [file-managers]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [file-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-managers-0.4.0.tar.gz tmp/file-managers-0.7.0.tar.gz --markdown 20230517/f/file-managers/0.4.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/6f/52/87ccdfc765da88644d3571a9c5afe4e19fb99cc8526c7c81c013e538ce27/SwissArmyTransformer-0.3.5.tar.gz
+[2023-05-17 09:51:54] INFO root fetch - processPackages [SwissArmyTransformer]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [SwissArmyTransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwissArmyTransformer-0.3.4.tar.gz tmp/SwissArmyTransformer-0.3.5.tar.gz --markdown 20230517/S/SwissArmyTransformer/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-05-17 09:51:54] INFO root fetch - processPackages [gpt-term]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [gpt-term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-term-1.0.4.tar.gz tmp/gpt-term-1.0.5.tar.gz --markdown 20230517/g/gpt-term/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-17 09:51:54] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230517/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-17 09:51:54] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-05-17 09:51:55] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-05-17 09:51:55] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230517/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-05-17 09:51:55] INFO root fetch - processPackages [betterproto-twirp-new]: Start processing: betterproto-twirp-new
+[2023-05-17 09:51:55] INFO root fetch - main [MainThread]: End processing [betterproto-twirp-new]: success
+[2023-05-17 09:51:55] INFO root fetch - processPackages [betterproto-twirp-new]: New version: [1.2.24] Old Version: [1.2.23]
+[2023-05-17 09:51:55] INFO root fetch - processPackages [PyLexia]: Start processing: ccxt
+[2023-05-17 09:51:55] INFO root fetch - main [MainThread]: End processing [PyLexia]: success
+[2023-05-17 09:51:55] INFO root fetch - processPackages [dagster-meltano]: Start processing: douze
+[2023-05-17 09:51:55] INFO root fetch - main [MainThread]: End processing [dagster-meltano]: success
+[2023-05-17 09:51:55] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-17 09:51:55] INFO root fetch - processPackages [betterproto-twirp-new]: Downloading https://files.pythonhosted.org/packages/f5/d7/fd4baafb72809118fba900552e3ec0802482c893a484f57c6ec196c056b5/betterproto-twirp-new-1.2.23.tar.gz
+[2023-05-17 09:51:55] INFO root fetch - main [MainThread]: End processing [file-managers]: success
+[2023-05-17 09:51:56] INFO root fetch - processPackages [douze]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 09:51:56] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/72/ff/1354b114369fa772754f1105e77d28b757941f27c8cd19e8b77840cfed48/ccxt-3.0.98.tar.gz
+[2023-05-17 09:51:56] INFO root fetch - main [MainThread]: End processing [macrometa-source-mssql]: success
+[2023-05-17 09:51:56] INFO root fetch - processPackages [betterproto-twirp-new]: Downloading https://files.pythonhosted.org/packages/39/e5/5e6e03e8992875ecaf6f3ee5df9c91f233cb7192c6a1256aa856f59e3d69/betterproto-twirp-new-1.2.24.tar.gz
+[2023-05-17 09:51:56] INFO root fetch - processPackages [douze]: Downloading https://files.pythonhosted.org/packages/b5/93/e0fe7231d9f2e88aedca8c57edf6b82599bf1d724a031f5ecee1cafdecce/douze-0.1.6.tar.gz
+[2023-05-17 09:51:56] INFO root fetch - main [MainThread]: End processing [fc-functions-framework]: success
+[2023-05-17 09:51:56] INFO root fetch - processPackages [betterproto-twirp-new]: executing diffoscope
+[2023-05-17 09:51:56] INFO root fetch - processPackages [betterproto-twirp-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterproto-twirp-new-1.2.23.tar.gz tmp/betterproto-twirp-new-1.2.24.tar.gz --markdown 20230517/b/betterproto-twirp-new/1.2.23-1.2.24/diff.md --exclude *.pyd
+[2023-05-17 09:51:56] INFO root fetch - processPackages [douze]: Downloading https://files.pythonhosted.org/packages/e2/ab/88f17bdaf351eaccb0618c41ae7b45c96cb44e7f5f0d53c18cb7a05093a7/douze-0.1.7.tar.gz
+[2023-05-17 09:51:56] INFO root fetch - processPackages [douze]: executing diffoscope
+[2023-05-17 09:51:56] INFO root fetch - processPackages [douze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/douze-0.1.6.tar.gz tmp/douze-0.1.7.tar.gz --markdown 20230517/d/douze/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 09:51:56] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/89/5b/90a3ef98d8a4aa07396ff16a1a4e855dd5e3f01a4649b7bca3d97cc28519/ccxt-3.0.99.tar.gz
+[2023-05-17 09:51:57] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-17 09:51:57] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230517/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-17 09:51:57] INFO root fetch - main [MainThread]: End processing [betterproto-twirp-new]: success
+[2023-05-17 09:51:57] INFO root fetch - main [MainThread]: End processing [douze]: success
+[2023-05-17 09:51:58] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-05-17 09:51:59] INFO root fetch - main [MainThread]: End processing [gpt-term]: success
+[2023-05-17 09:52:00] INFO root fetch - main [MainThread]: End processing [SwissArmyTransformer]: success
+[2023-05-17 09:52:02] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-17 09:52:06] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-17 09:52:06] INFO root fetch - main [MainThread]: Store serial: [18135844]
