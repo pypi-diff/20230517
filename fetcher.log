@@ -2055,3 +2055,38 @@
 [2023-05-17 02:35:30] INFO root fetch - main [MainThread]: End processing [azure-keyvault-keys]: success
 [2023-05-17 02:35:32] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-05-17 02:35:32] INFO root fetch - main [MainThread]: Store serial: [18131132]
+[2023-05-17 02:40:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131132]
+[2023-05-17 02:40:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahk
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-api-plugin
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: censoredsummarystats
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TriModelSystem
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polvosetups
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sampling-constraints
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ahk]: New version: [1.1.3rc1] Old Version: [1.1.2]
+[2023-05-17 02:40:42] WARNING root fetch - processPackages [my-api-plugin]: Skipping, unable to determine old version
+[2023-05-17 02:40:42] WARNING root fetch - processPackages [TriModelSystem]: Skipping, unable to determine old version
+[2023-05-17 02:40:42] INFO root fetch - main [MainThread]: End processing [my-api-plugin] error
+[2023-05-17 02:40:42] INFO root fetch - main [MainThread]: End processing [TriModelSystem] error
+[2023-05-17 02:40:42] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-17 02:40:42] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 02:40:42] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 02:40:42] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-17 02:40:42] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230517/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-17 02:40:42] WARNING root fetch - processPackages [polvosetups]: Skipping, unable to determine old version
+[2023-05-17 02:40:42] INFO root fetch - main [MainThread]: End processing [polvosetups] error
+[2023-05-17 02:40:42] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-17 02:40:42] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.8.tar.gz tmp/sampling-constraints-0.0.9.tar.gz --markdown 20230517/s/sampling-constraints/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/cd/b5/d005934e89106d0fe38e980f8eb0af2bbb6945f28605db707bfd9ca0d44f/ahk-1.1.2.tar.gz
+[2023-05-17 02:40:42] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/bc/ac/bf5fcb712da5606115e4296a91ea7f3472c5b30c05a6998ece3e5f5026d5/censoredsummarystats-0.0.5.tar.gz
+[2023-05-17 02:40:42] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-05-17 02:40:42] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.0.4.tar.gz tmp/censoredsummarystats-0.0.5.tar.gz --markdown 20230517/c/censoredsummarystats/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 02:40:42] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/9e/74/f25a1836581a778a2003614871e5efa2eff00069ef940f9abffbcf456e96/ahk-1.1.3rc1.tar.gz
+[2023-05-17 02:40:43] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-05-17 02:40:43] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.1.2.tar.gz tmp/ahk-1.1.3rc1.tar.gz --markdown 20230517/a/ahk/1.1.2-1.1.3rc1/diff.md --exclude *.pyd
+[2023-05-17 02:40:43] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-17 02:40:43] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-05-17 02:40:44] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-05-17 02:40:44] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-17 02:40:44] INFO root fetch - main [MainThread]: Store serial: [18131158]
