@@ -10482,3 +10482,84 @@
 [2023-05-17 09:57:22] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-05-17 09:57:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-eas20210701]: success
 [2023-05-17 09:57:22] INFO root fetch - main [MainThread]: Store serial: [18135911]
+[2023-05-17 10:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135911]
+[2023-05-17 10:02:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcsc-data-common
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comai
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumber-sdk
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multidimensionalks
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai21
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Busanstore
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-yuvalbd-function-signature-formatting
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-custom-filter
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyLexia
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cici.tools
+[2023-05-17 10:02:32] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev13]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [PyLexia]: New version: [1.13] Old Version: [1.12]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [multidimensionalks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [lumber-sdk]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: New version: [20230516.22.59.556250] Old Version: [20230516.22.12.754242]
+[2023-05-17 10:02:32] WARNING root fetch - processPackages [Busanstore]: Skipping, unable to determine old version
+[2023-05-17 10:02:32] INFO root fetch - processPackages [Busanstore]: Start processing: up-tamer
+[2023-05-17 10:02:32] INFO root fetch - main [MainThread]: End processing [Busanstore] error
+[2023-05-17 10:02:32] INFO root fetch - processPackages [up-tamer]: New version: [0.3.1.9.dev1] Old Version: [0.3.1.7.dev1]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/a7/60/6433ef4c971174413d5176e83e07155eb0773a7b083e2be59c018380db91/up_tamer-0.3.1.7.dev1.tar.gz
+[2023-05-17 10:02:32] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Downloading https://files.pythonhosted.org/packages/e5/9d/7e542141e96b7e7cf62d9aec76e6c6c4cd3f039ac4d9ae751df3d0481497/certora-cli-alpha-yuvalbd-function_signature_formatting-20230516.22.12.754242.tar.gz
+[2023-05-17 10:02:32] INFO root fetch - processPackages [ai21]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-17 10:02:32] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/m/multidimensionalks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 10:02:32] INFO root fetch - processPackages [PyLexia]: executing diffoscope
+[2023-05-17 10:02:32] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: executing diffoscope
+[2023-05-17 10:02:32] INFO root fetch - processPackages [comai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_custom_filter-14.0.1.0.1.dev13-py3-none-any.whl.zip tmp/odoo14_addon_base_custom_filter-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-base-custom-filter/14.0.1.0.1.dev13-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-17 10:02:32] INFO root fetch - processPackages [PyLexia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLexia-1.12.tar.gz tmp/PyLexia-1.13.tar.gz --markdown 20230517/P/PyLexia/1.12-1.13/diff.md --exclude *.pyd
+[2023-05-17 10:02:32] WARNING root fetch - processPackages [cici.tools]: Skipping, unable to determine old version
+[2023-05-17 10:02:32] INFO root fetch - processPackages [cici.tools]: Start processing: iosense-connect
+[2023-05-17 10:02:32] INFO root fetch - main [MainThread]: End processing [cici.tools] error
+[2023-05-17 10:02:32] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Skipping package: exceeds size limit 38656909>=10485760
+[2023-05-17 10:02:32] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Start processing: quantplay
+[2023-05-17 10:02:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-function-signature-formatting] error
+[2023-05-17 10:02:32] INFO root fetch - processPackages [lumber-sdk]: executing diffoscope
+[2023-05-17 10:02:32] INFO root fetch - processPackages [lumber-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumber-sdk-1.0.0.tar.gz tmp/lumber-sdk-1.1.0.tar.gz --markdown 20230517/l/lumber-sdk/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 10:02:32] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.80]
+[2023-05-17 10:02:32] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/70/3d/ad1cad631cb29bd36eec8a5c72a7d7c4bae495b53f2c992b28fdd9eb3060/iosense_connect-2.1.4.tar.gz
+[2023-05-17 10:02:32] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/da/04/7612a277ea4c1eba3ffb6b9d81b43107ead3478727fb6308c0270c6cad60/up_tamer-0.3.1.9.dev1.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-17 10:02:33] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.80.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230517/q/quantplay/1.2.80-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 10:02:33] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/f4/f0/4ac520f79acf415eb611a9c0c5fbed2fb0aa16585bcfa0398819c5cbefc7/ai21-1.0.4.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/b6/f1/b690aa1b654e145ccf953aa3b71bca51790c0d6d6e2518df5a5c2bc9d8d2/comai-0.0.7.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/59/c3/bef4578cf573ee145432c0193911cbbefa93ad209648c14a282c3f675db4/vcsc_data_common-0.1.7.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2023-05-17 10:02:33] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-0.3.1.7.dev1.tar.gz tmp/up_tamer-0.3.1.9.dev1.tar.gz --markdown 20230517/u/up-tamer/0.3.1.7.dev1-0.3.1.9.dev1/diff.md --exclude *.pyd
+[2023-05-17 10:02:33] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/0c/d9/4c11cd7d80cc63b0667272a2c35c6c2d1309385d5dc74da9c94381142115/iosense_connect-2.1.5.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/8b/fb/205ecbd767ca17eb0c26dd1ae565ccad17c106a3f9c94ef86d0c8cd4e738/comai-0.0.8.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-17 10:02:33] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.4.tar.gz tmp/iosense_connect-2.1.5.tar.gz --markdown 20230517/i/iosense-connect/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-17 10:02:33] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/a3/09/2b1b71c23f3f796ed9c363696a0f4a6b4de2b33c46b536ad37af0fa48cb2/vcsc_data_common-0.1.8.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [comai]: executing diffoscope
+[2023-05-17 10:02:33] INFO root fetch - processPackages [comai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comai-0.0.7.tar.gz tmp/comai-0.0.8.tar.gz --markdown 20230517/c/comai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 10:02:33] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/7e/99/8805e606ae97f72727f9d10075b340e6e4b26381909a757c9b0bb384ccc4/ai21-1.0.5.tar.gz
+[2023-05-17 10:02:33] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-05-17 10:02:33] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230517/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-17 10:02:33] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2023-05-17 10:02:33] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-1.0.4.tar.gz tmp/ai21-1.0.5.tar.gz --markdown 20230517/a/ai21/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 10:02:34] INFO root fetch - processPackages [PyLexia]: Start processing: RobertCommonIO
+[2023-05-17 10:02:34] INFO root fetch - main [MainThread]: End processing [PyLexia]: success
+[2023-05-17 10:02:34] INFO root fetch - processPackages [RobertCommonIO]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-05-17 10:02:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-custom-filter]: success
+[2023-05-17 10:02:34] INFO root fetch - main [MainThread]: End processing [lumber-sdk]: success
+[2023-05-17 10:02:34] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/20/46/ba7420197a9f290a488d84abee11d73f5dfec8f2fae50ab5374a743907ce/RobertCommonIO-0.1.37.tar.gz
+[2023-05-17 10:02:34] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2023-05-17 10:02:34] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-17 10:02:34] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/2b/4a/7c7cbb6e9616c645ba5d12915f38a7d2689f552ace9c804368e0a4de6d29/RobertCommonIO-0.1.38.tar.gz
+[2023-05-17 10:02:35] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-05-17 10:02:35] INFO root fetch - processPackages [RobertCommonIO]: executing diffoscope
+[2023-05-17 10:02:35] INFO root fetch - processPackages [RobertCommonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonIO-0.1.37.tar.gz tmp/RobertCommonIO-0.1.38.tar.gz --markdown 20230517/R/RobertCommonIO/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-05-17 10:02:35] INFO root fetch - main [MainThread]: End processing [comai]: success
+[2023-05-17 10:02:35] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-17 10:02:35] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2023-05-17 10:02:35] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-17 10:02:36] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
+[2023-05-17 10:02:36] INFO root fetch - main [MainThread]: Store serial: [18135964]
