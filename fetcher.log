@@ -17259,3 +17259,171 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 15:11:35] INFO root fetch - main [MainThread]: End processing [mammopy]: success
 [2023-05-17 15:11:35] INFO root fetch - main [MainThread]: End processing [pyTigerGraph]: success
 [2023-05-17 15:11:35] INFO root fetch - main [MainThread]: Store serial: [18139796]
+[2023-05-17 15:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139796]
+[2023-05-17 15:16:45] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PandasProx
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-stock-buffer-route
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ddmrp
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapyuta-io-cli
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-sphinx
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drb-image
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qim3d
+[2023-05-17 15:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dopplrSDK
+[2023-05-17 15:16:45] INFO root fetch - processPackages [PandasProx]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-17 15:16:45] WARNING root fetch - processPackages [dopplrSDK]: Skipping, unable to determine old version
+[2023-05-17 15:16:45] INFO root fetch - processPackages [dopplrSDK]: Start processing: scrapautoscout
+[2023-05-17 15:16:45] INFO root fetch - main [MainThread]: End processing [dopplrSDK] error
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-stock-buffer-route]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev3]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [qim3d]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [drb-image]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [rapyuta-io-cli]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev10933] Old Version: [3.2.4.dev10917]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [scrapautoscout]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/9f/cd/178c1793896f33e530464a918f40e8a29f7c6d8aece78b114a8351f92bdd/rapyuta-io-cli-2.0.2.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [qim3d]: Downloading https://files.pythonhosted.org/packages/6b/df/fdeaa2df74c293ae7ba13312d1547b96611eb32f9e5f826708db5766d9d1/qim3d-0.1.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [drb-image]: Downloading https://files.pythonhosted.org/packages/ac/38/dc35e0dbdc2c8e03e356d923cbff6cd79f747496028c3a9ee00de312a028/drb-image-1.0.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-stock-buffer-route]: Downloading https://files.pythonhosted.org/packages/1f/1a/f24b3eb148535d558f7f079f58628721a86c9eb298f195eb90378226a388/odoo14_addon_stock_buffer_route-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/69/57/dc6b9861a473383294a64580ba554ed4e74520c101c6c37fd132f66a70ae/udata_front-3.2.4.dev10933-py2.py3-none-any.whl
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-05-17 15:16:45] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/cd/2b/264cf668a6dbec6291721a8a7bac79783b0ca7230149efd263e5881ee31c/PandasProx-0.2.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [scrapautoscout]: Downloading https://files.pythonhosted.org/packages/81/a5/2e7618c249802b1a4adb5d75fc12d508fa223521e6cacdfbc48ab7450465/scrapautoscout-1.2.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.9.tar.gz tmp/PandasProx-0.2.0.tar.gz --markdown 20230517/P/PandasProx/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-stock-buffer-route]: Downloading https://files.pythonhosted.org/packages/69/0e/fb60c4340a454626b43c4ff32197d05b708eb635200a19707c7e4a764ee3/odoo14_addon_stock_buffer_route-14.0.1.2.0-py3-none-any.whl
+[2023-05-17 15:16:45] INFO root fetch - processPackages [drb-image]: Downloading https://files.pythonhosted.org/packages/54/72/23baecc99b46be78d3e6d542c4a95f242ca9a201822fbd37d3211cdf88ab/drb-image-1.1.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [qim3d]: Downloading https://files.pythonhosted.org/packages/21/23/c5bfcb19b9babd70c87a8b9ea93b3b157ea2e266c4b1251406c014954f97/qim3d-0.1.1.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/b8/43/3f090b8f46726274ec47f9afdca15d7e57a8eb8fa9913be5f21641dff1d2/rapyuta-io-cli-3.0.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230517/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:16:45] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-stock-buffer-route]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-stock-buffer-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_buffer_route-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_stock_buffer_route-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-stock-buffer-route/14.0.1.1.1.dev3-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:45] INFO root fetch - processPackages [drb-image]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [drb-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-image-1.0.0.tar.gz tmp/drb-image-1.1.0.tar.gz --markdown 20230517/d/drb-image/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:45] INFO root fetch - processPackages [qim3d]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [qim3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qim3d-0.1.0.tar.gz tmp/qim3d-0.1.1.tar.gz --markdown 20230517/q/qim3d/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 15:16:45] INFO root fetch - processPackages [scrapautoscout]: Downloading https://files.pythonhosted.org/packages/a7/2e/b944b22cf79b3444d4f5c9000e02ff4f8599dc0c1937d1112f60266fb73b/scrapautoscout-1.3.0.tar.gz
+[2023-05-17 15:16:45] INFO root fetch - processPackages [rapyuta-io-cli]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [rapyuta-io-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyuta-io-cli-2.0.2.tar.gz tmp/rapyuta-io-cli-3.0.0.tar.gz --markdown 20230517/r/rapyuta-io-cli/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-05-17 15:16:45] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-17 15:16:46] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-17 15:16:46] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230517/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:16:46] INFO root fetch - processPackages [scrapautoscout]: executing diffoscope
+[2023-05-17 15:16:46] INFO root fetch - processPackages [scrapautoscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapautoscout-1.2.0.tar.gz tmp/scrapautoscout-1.3.0.tar.gz --markdown 20230517/s/scrapautoscout/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:46] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-17 15:16:46] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev10917-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev10933-py2.py3-none-any.whl.zip --markdown 20230517/u/udata-front/3.2.4.dev10917-3.2.4.dev10933/diff.md --exclude *.pyd
+[2023-05-17 15:16:47] INFO root fetch - processPackages [PandasProx]: Start processing: scicom
+[2023-05-17 15:16:47] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 15:16:47] INFO root fetch - processPackages [scicom]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-17 15:16:47] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: amuse-mesa
+[2023-05-17 15:16:47] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-17 15:16:47] INFO root fetch - processPackages [amuse-mesa]: New version: [2023.5.1.post1] Old Version: [2023.5.1]
+[2023-05-17 15:16:47] INFO root fetch - processPackages [scicom]: Downloading https://files.pythonhosted.org/packages/ce/4c/b0d384bf3a12d595493c79f5e63f51d9d30d60eed4318fae6a677bb4489e/scicom-0.0.2.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [odoo14-addon-stock-buffer-route]: Start processing: qiskit-nature
+[2023-05-17 15:16:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-buffer-route]: success
+[2023-05-17 15:16:47] INFO root fetch - processPackages [qiskit-nature]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-17 15:16:47] INFO root fetch - processPackages [amuse-mesa]: Downloading https://files.pythonhosted.org/packages/e7/20/81efd57b30e4b291223c3128a35094030e533109646c6b964ebc78a5bc18/amuse-mesa-2023.5.1.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [scicom]: Downloading https://files.pythonhosted.org/packages/fc/ed/23fbba91e386798b69105122e6cdcd9de5c7f8c038024832b3c80ec88a32/scicom-0.1.0.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [qiskit-nature]: Downloading https://files.pythonhosted.org/packages/bc/b2/98e80ff510917d787e8cbd19ee01feacfc5457d423fb8bc05cdf0464aadb/qiskit-nature-0.6.0.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [drb-image]: Start processing: nbdev-django
+[2023-05-17 15:16:47] INFO root fetch - main [MainThread]: End processing [drb-image]: success
+[2023-05-17 15:16:47] INFO root fetch - processPackages [scicom]: executing diffoscope
+[2023-05-17 15:16:47] INFO root fetch - processPackages [scicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scicom-0.0.2.tar.gz tmp/scicom-0.1.0.tar.gz --markdown 20230517/s/scicom/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:47] INFO root fetch - processPackages [qim3d]: Start processing: mattlib
+[2023-05-17 15:16:47] INFO root fetch - main [MainThread]: End processing [qim3d]: success
+[2023-05-17 15:16:47] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 15:16:47] INFO root fetch - processPackages [mattlib]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-17 15:16:47] INFO root fetch - processPackages [amuse-mesa]: Downloading https://files.pythonhosted.org/packages/83/a9/acc8dcc4ebd435321582ca3fb95e4d8813899c7fa8acd8db2880e429faf9/amuse-mesa-2023.5.1.post1.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [amuse-mesa]: executing diffoscope
+[2023-05-17 15:16:47] INFO root fetch - processPackages [amuse-mesa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amuse-mesa-2023.5.1.tar.gz tmp/amuse-mesa-2023.5.1.post1.tar.gz --markdown 20230517/a/amuse-mesa/2023.5.1-2023.5.1.post1/diff.md --exclude *.pyd
+[2023-05-17 15:16:47] INFO root fetch - processPackages [mattlib]: Downloading https://files.pythonhosted.org/packages/f5/35/ad18b6b0adedaf5642b49310db29bad51d4ee7d6d40884b7b371cf2e7634/mattlib-1.1.4.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [qiskit-nature]: Downloading https://files.pythonhosted.org/packages/45/71/c43499cfe17a44b37741f76234912b730c8da99d092be4463b6fd0b16269/qiskit-nature-0.6.1.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-05-17 15:16:47] INFO root fetch - processPackages [scrapautoscout]: Start processing: techiaith-tts
+[2023-05-17 15:16:47] INFO root fetch - main [MainThread]: End processing [scrapautoscout]: success
+[2023-05-17 15:16:47] INFO root fetch - processPackages [techiaith-tts]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-17 15:16:48] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-17 15:16:48] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230517/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 15:16:48] INFO root fetch - processPackages [techiaith-tts]: Downloading https://files.pythonhosted.org/packages/15/43/9846d51a4fb7ec4adf34799fd5ba0f29474de794d7fd681a3affd804e0c3/techiaith-tts-0.1.3.tar.gz
+[2023-05-17 15:16:48] INFO root fetch - processPackages [mattlib]: Downloading https://files.pythonhosted.org/packages/77/9a/6fe4108d9c1b6c91cd0ffcb510cecfc2a900f8f741c059a4bcf9e4b90f51/mattlib-1.1.5.tar.gz
+[2023-05-17 15:16:48] INFO root fetch - processPackages [techiaith-tts]: executing diffoscope
+[2023-05-17 15:16:48] INFO root fetch - processPackages [techiaith-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techiaith-tts-0.1.2.tar.gz tmp/techiaith-tts-0.1.3.tar.gz --markdown 20230517/t/techiaith-tts/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 15:16:48] INFO root fetch - processPackages [mattlib]: executing diffoscope
+[2023-05-17 15:16:48] INFO root fetch - processPackages [mattlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattlib-1.1.4.tar.gz tmp/mattlib-1.1.5.tar.gz --markdown 20230517/m/mattlib/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-17 15:16:48] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Start processing: hydxlib
+[2023-05-17 15:16:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-05-17 15:16:48] INFO root fetch - processPackages [hydxlib]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-17 15:16:48] INFO root fetch - processPackages [hydxlib]: Downloading https://files.pythonhosted.org/packages/a9/c7/bdc30e70ca18fad888ec2b43eed33498ec5a14fedac040982e88f59ead73/hydxlib-1.5.0.tar.gz
+[2023-05-17 15:16:48] INFO root fetch - processPackages [qiskit-nature]: executing diffoscope
+[2023-05-17 15:16:48] INFO root fetch - processPackages [qiskit-nature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-nature-0.6.0.tar.gz tmp/qiskit-nature-0.6.1.tar.gz --markdown 20230517/q/qiskit-nature/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-17 15:16:48] INFO root fetch - processPackages [nbdev-scipy]: Start processing: nbdev-apl
+[2023-05-17 15:16:48] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-17 15:16:48] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.777] Old Version: [0.0.776]
+[2023-05-17 15:16:48] INFO root fetch - processPackages [scicom]: Start processing: plone.staticresources
+[2023-05-17 15:16:48] INFO root fetch - main [MainThread]: End processing [scicom]: success
+[2023-05-17 15:16:48] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/fd/88/c90f28e227dee77594dc8945176e94c08e000cb8699eb9c1b2010eb2d8b7/nbdev-apl-0.0.776.tar.gz
+[2023-05-17 15:16:48] INFO root fetch - processPackages [plone.staticresources]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-17 15:16:49] INFO root fetch - processPackages [hydxlib]: Downloading https://files.pythonhosted.org/packages/f8/8a/6dc5a0d6d1c096d74116cf16dbc8a886c3d4c0eddf8b67e5cd83a00f496f/hydxlib-1.5.1.tar.gz
+[2023-05-17 15:16:49] INFO root fetch - processPackages [plone.staticresources]: Downloading https://files.pythonhosted.org/packages/df/e6/816b8fe49c683c0da774c9dfdd9db3e7a2604157d7ed393ce6eefe76bb2e/plone.staticresources-2.1.0.tar.gz
+[2023-05-17 15:16:49] WARNING root fetch - processPackages [plone.staticresources]: Skipping package: exceeds size limit 10714649>=10485760
+[2023-05-17 15:16:49] INFO root fetch - processPackages [plone.staticresources]: Start processing: odoo14-addon-sale-order-import
+[2023-05-17 15:16:49] INFO root fetch - main [MainThread]: End processing [plone.staticresources] error
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import]: New version: [14.0.1.4.2] Old Version: [14.0.1.4.1.dev1]
+[2023-05-17 15:16:49] INFO root fetch - processPackages [hydxlib]: executing diffoscope
+[2023-05-17 15:16:49] INFO root fetch - processPackages [hydxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydxlib-1.5.0.tar.gz tmp/hydxlib-1.5.1.tar.gz --markdown 20230517/h/hydxlib/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-17 15:16:49] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/78/e3/e7aef2c6e9ef494911f3dbc08b82822cebdd67644e5563e153605bcb009d/nbdev-apl-0.0.777.tar.gz
+[2023-05-17 15:16:49] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-17 15:16:49] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.776.tar.gz tmp/nbdev-apl-0.0.777.tar.gz --markdown 20230517/n/nbdev-apl/0.0.776-0.0.777/diff.md --exclude *.pyd
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import]: Downloading https://files.pythonhosted.org/packages/6a/2b/60589e722369e4398d97c6566c76ed661dd430a2871b6c8b5ef3551d5657/odoo14_addon_sale_order_import-14.0.1.4.1.dev1-py3-none-any.whl
+[2023-05-17 15:16:49] INFO root fetch - processPackages [amuse-mesa]: Start processing: great-components
+[2023-05-17 15:16:49] INFO root fetch - main [MainThread]: End processing [amuse-mesa]: success
+[2023-05-17 15:16:49] INFO root fetch - processPackages [great-components]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-05-17 15:16:49] INFO root fetch - processPackages [mattlib]: Start processing: odoo14-addon-sale-order-import-ubl
+[2023-05-17 15:16:49] INFO root fetch - main [MainThread]: End processing [mattlib]: success
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import]: Downloading https://files.pythonhosted.org/packages/a1/aa/c6197fb13b4a2de3a43ff64c5efaf03ce388f0d4b5ef2e98c1c2e4d79101/odoo14_addon_sale_order_import-14.0.1.4.2-py3-none-any.whl
+[2023-05-17 15:16:49] INFO root fetch - processPackages [techiaith-tts]: Start processing: odoo14-addon-sale-order-import-ubl-line-customer-ref
+[2023-05-17 15:16:49] INFO root fetch - main [MainThread]: End processing [techiaith-tts]: success
+[2023-05-17 15:16:49] INFO root fetch - processPackages [great-components]: Downloading https://files.pythonhosted.org/packages/37/e4/a547c05486cf6b786c120f9cabf5e98ddb166fb6234008c76764e3f8716a/great_components-2.1.3-py3-none-any.whl
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl]: New version: [14.0.1.4.1] Old Version: [14.0.1.4.0]
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl-line-customer-ref]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2]
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import]: executing diffoscope
+[2023-05-17 15:16:49] INFO root fetch - processPackages [odoo14-addon-sale-order-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_import-14.0.1.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_import-14.0.1.4.2-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-sale-order-import/14.0.1.4.1.dev1-14.0.1.4.2/diff.md --exclude *.pyd
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl-line-customer-ref]: Downloading https://files.pythonhosted.org/packages/a6/88/98b97904bfafa4a8a4961555be5e9c4512de525beae7bac292803b376f21/odoo14_addon_sale_order_import_ubl_line_customer_ref-14.0.1.0.2-py3-none-any.whl
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl]: Downloading https://files.pythonhosted.org/packages/ed/95/7e6f034410902913aaaa97053f42da0e7add49dc3857575d8e892753e817/odoo14_addon_sale_order_import_ubl-14.0.1.4.0-py3-none-any.whl
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl]: Downloading https://files.pythonhosted.org/packages/46/0a/129c066ca01a279b4500c95970027621188f3dc619eeca21e34d0178e6aa/odoo14_addon_sale_order_import_ubl-14.0.1.4.1-py3-none-any.whl
+[2023-05-17 15:16:50] INFO root fetch - processPackages [great-components]: Downloading https://files.pythonhosted.org/packages/78/03/a27a92994df85bd4758739466fa14ee894c387f8a0be89d5674383a10a3d/great_components-2.2.0-py3-none-any.whl
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl-line-customer-ref]: Downloading https://files.pythonhosted.org/packages/65/7f/44b1144cf8d2fc30458a69d3d31264d25e6bf868ece92288fa78124d0036/odoo14_addon_sale_order_import_ubl_line_customer_ref-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-05-17 15:16:50] INFO root fetch - processPackages [hydxlib]: Start processing: pulumi-containerregistry
+[2023-05-17 15:16:50] INFO root fetch - main [MainThread]: End processing [hydxlib]: success
+[2023-05-17 15:16:50] INFO root fetch - processPackages [pulumi-containerregistry]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 15:16:50] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl]: executing diffoscope
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_import_ubl-14.0.1.4.0-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_import_ubl-14.0.1.4.1-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-sale-order-import-ubl/14.0.1.4.0-14.0.1.4.1/diff.md --exclude *.pyd
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl-line-customer-ref]: executing diffoscope
+[2023-05-17 15:16:50] INFO root fetch - processPackages [odoo14-addon-sale-order-import-ubl-line-customer-ref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_import_ubl_line_customer_ref-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_import_ubl_line_customer_ref-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230517/o/odoo14-addon-sale-order-import-ubl-line-customer-ref/14.0.1.0.2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-05-17 15:16:50] INFO root fetch - processPackages [pulumi-containerregistry]: Downloading https://files.pythonhosted.org/packages/4f/35/ec3d40a1ecf3ab4107925fc5a4c688785aacbe72a4edfb4623eda37402c8/pulumi_containerregistry-0.0.4.tar.gz
+[2023-05-17 15:16:50] INFO root fetch - processPackages [great-components]: executing diffoscope
+[2023-05-17 15:16:50] INFO root fetch - processPackages [great-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_components-2.1.3-py3-none-any.whl.zip tmp/great_components-2.2.0-py3-none-any.whl.zip --markdown 20230517/g/great-components/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-05-17 15:16:50] INFO root fetch - main [MainThread]: End processing [rapyuta-io-cli]: success
+[2023-05-17 15:16:50] INFO root fetch - processPackages [pulumi-containerregistry]: executing diffoscope
+[2023-05-17 15:16:50] INFO root fetch - processPackages [pulumi-containerregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_containerregistry-0.0.3.tar.gz tmp/pulumi_containerregistry-0.0.4.tar.gz --markdown 20230517/p/pulumi-containerregistry/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 15:16:51] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-17 15:16:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-import]: success
+[2023-05-17 15:16:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-import-ubl]: success
+[2023-05-17 15:16:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-import-ubl-line-customer-ref]: success
+[2023-05-17 15:16:52] INFO root fetch - main [MainThread]: End processing [pulumi-containerregistry]: success
+[2023-05-17 15:17:00] INFO root fetch - main [MainThread]: End processing [great-components]: success
+[2023-05-17 15:17:01] INFO root fetch - main [MainThread]: End processing [qiskit-nature]: success
+[2023-05-17 15:17:04] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-17 15:17:04] INFO root fetch - main [MainThread]: Store serial: [18139864]
