@@ -10563,3 +10563,182 @@
 [2023-05-17 10:02:35] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
 [2023-05-17 10:02:36] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
 [2023-05-17 10:02:36] INFO root fetch - main [MainThread]: Store serial: [18135964]
+[2023-05-17 10:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135964]
+[2023-05-17 10:07:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agri-sense
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HuMobi
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rudder-client
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steam-sdk
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcai-nova-server-nightly
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huntflow-api-client
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai21
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prodiapy
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sciopy
+[2023-05-17 10:07:45] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.81]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [sciopy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202305170719] Old Version: [0.1.3.dev202304261438]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [agri-sense]: New version: [1.2] Old Version: [1.1]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ai21]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [steam-sdk]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-1.0.4.tar.gz tmp/ai21-1.0.5.tar.gz --markdown 20230517/a/ai21/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 10:07:45] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [HuMobi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [prodiapy]: New version: [2.5] Old Version: [2.4]
+[2023-05-17 10:07:45] WARNING root fetch - processPackages [rudder-client]: Skipping, unable to determine old version
+[2023-05-17 10:07:45] INFO root fetch - processPackages [rudder-client]: Start processing: odoo14-addon-account-check-printing-report-base
+[2023-05-17 10:07:45] INFO root fetch - main [MainThread]: End processing [rudder-client] error
+[2023-05-17 10:07:45] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304261438.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202305170719.tar.gz --markdown 20230517/h/hcai-nova-server-nightly/0.1.3.dev202304261438-0.1.3.dev202305170719/diff.md --exclude *.pyd
+[2023-05-17 10:07:45] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/24/35/5a12e15f4f1c897047ab1b8c0d21468d733244798a3b04279a663d7930b3/quantplay-1.2.81.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.5.2.tar.gz tmp/steam-sdk-2023.5.3.tar.gz --markdown 20230517/s/steam-sdk/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-17 10:07:45] INFO root fetch - processPackages [sciopy]: Downloading https://files.pythonhosted.org/packages/60/12/45e91b3e94d72ca9024b40fea3e6933b065cec39ec7207e10801080c4543/sciopy-0.6.2-py3-none-any.whl
+[2023-05-17 10:07:45] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/c8/b6/2509535823862617f4d5c7945a87c9ef677a7d4276a2cfe4e152615005d8/agri_sense-1.2.tar.gz
+[2023-05-17 10:07:45] WARNING root fetch - processPackages [odoo14-addon-account-check-printing-report-base]: Skipping, unable to determine old version
+[2023-05-17 10:07:45] INFO root fetch - processPackages [odoo14-addon-account-check-printing-report-base]: Start processing: pyglove
+[2023-05-17 10:07:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-check-printing-report-base] error
+[2023-05-17 10:07:45] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230516] Old Version: [0.3.1.dev20230515]
+[2023-05-17 10:07:45] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/6a/cd/e7fc0051c41640131ae60884fc007193d80ad2eb8327e2a2f5d882a08920/huntflow_api_client-0.0.2.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [HuMobi]: Downloading https://files.pythonhosted.org/packages/77/4c/807914adc517f5fc07c6c29badafd6eb97c8e720238287164658873bad73/HuMobi-0.1.8.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/3b/b8/923366cb66e570b68b83b059ea00ca39ec011718a336e8e2f686da2cd062/pyglove-0.3.1.dev20230515.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/41/82/31f5c9e6620c71006fce32460cf4a198010fb349c75c206c9b9bd36066bf/prodiapy-2.4.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.1.tar.gz tmp/agri_sense-1.2.tar.gz --markdown 20230517/a/agri-sense/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-17 10:07:45] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.81.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230517/q/quantplay/1.2.81-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 10:07:45] INFO root fetch - processPackages [sciopy]: Downloading https://files.pythonhosted.org/packages/51/e9/0873410e3fe4e541ea7dcc2654f4f81009454d17d8cfb45fb1468d94664a/sciopy-0.6.3-py3-none-any.whl
+[2023-05-17 10:07:45] INFO root fetch - processPackages [sciopy]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [sciopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciopy-0.6.2-py3-none-any.whl.zip tmp/sciopy-0.6.3-py3-none-any.whl.zip --markdown 20230517/s/sciopy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-17 10:07:45] INFO root fetch - processPackages [HuMobi]: Downloading https://files.pythonhosted.org/packages/5e/8e/8fdb075b43bdfc9f08e68e0c6788c286f0f407479c1dd423c93d8a2c1cc6/HuMobi-0.1.9.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/0a/2f/f3116dc8c215285dd54d2f6bc04e44fff2c11292812f2f47b4e2bd7ed9ab/huntflow_api_client-0.0.3.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/62/56/1e698605de8f3e2660ea7be4969d2ad2ce64d4440ba3b95c7eac35872de7/pyglove-0.3.1.dev20230516.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/34/ad/fe41497fb9be3417b94793cc4fa71becee3b1485b8e870a99c1635489fec/prodiapy-2.5.tar.gz
+[2023-05-17 10:07:45] INFO root fetch - processPackages [HuMobi]: executing diffoscope
+[2023-05-17 10:07:45] INFO root fetch - processPackages [HuMobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HuMobi-0.1.8.tar.gz tmp/HuMobi-0.1.9.tar.gz --markdown 20230517/H/HuMobi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 10:07:46] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-17 10:07:46] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230515.tar.gz tmp/pyglove-0.3.1.dev20230516.tar.gz --markdown 20230517/p/pyglove/0.3.1.dev20230515-0.3.1.dev20230516/diff.md --exclude *.pyd
+[2023-05-17 10:07:46] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-05-17 10:07:46] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.2.tar.gz tmp/huntflow_api_client-0.0.3.tar.gz --markdown 20230517/h/huntflow-api-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 10:07:46] INFO root fetch - processPackages [prodiapy]: executing diffoscope
+[2023-05-17 10:07:46] INFO root fetch - processPackages [prodiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodiapy-2.4.tar.gz tmp/prodiapy-2.5.tar.gz --markdown 20230517/p/prodiapy/2.4-2.5/diff.md --exclude *.pyd
+[2023-05-17 10:07:46] INFO root fetch - processPackages [ai21]: Start processing: cici.tools
+[2023-05-17 10:07:46] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2023-05-17 10:07:46] WARNING root fetch - processPackages [cici.tools]: Skipping, unable to determine old version
+[2023-05-17 10:07:46] INFO root fetch - processPackages [cici.tools]: Start processing: vnpy-ctptest
+[2023-05-17 10:07:46] INFO root fetch - main [MainThread]: End processing [cici.tools] error
+[2023-05-17 10:07:46] INFO root fetch - processPackages [vnpy-ctptest]: New version: [6.6.9.0] Old Version: [6.6.7.0]
+[2023-05-17 10:07:46] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 10:07:47] INFO root fetch - processPackages [vnpy-ctptest]: Downloading https://files.pythonhosted.org/packages/e3/87/8d80b9830d5339f987c07c769df92f60e0d8b3a7c0ef46c04b56991b8c92/vnpy_ctptest-6.6.7.0.tar.gz
+[2023-05-17 10:07:47] INFO root fetch - main [MainThread]: End processing [sciopy]: success
+[2023-05-17 10:07:47] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-17 10:07:47] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-17 10:07:47] INFO root fetch - main [MainThread]: End processing [prodiapy]: success
+[2023-05-17 10:07:48] INFO root fetch - main [MainThread]: End processing [HuMobi]: success
+[2023-05-17 10:07:48] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-05-17 10:07:48] INFO root fetch - processPackages [vnpy-ctptest]: Downloading https://files.pythonhosted.org/packages/14/d6/593faf76880b64028341ad295fb93c66096879707d945762f6b9c22f2546/vnpy_ctptest-6.6.9.0.tar.gz
+[2023-05-17 10:07:49] INFO root fetch - processPackages [vnpy-ctptest]: executing diffoscope
+[2023-05-17 10:07:49] INFO root fetch - processPackages [vnpy-ctptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_ctptest-6.6.7.0.tar.gz tmp/vnpy_ctptest-6.6.9.0.tar.gz --markdown 20230517/v/vnpy-ctptest/6.6.7.0-6.6.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:07:50] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-05-17 10:07:50] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-17 10:07:53] ERROR root fetch - processPackages [vnpy-ctptest]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140297522650880)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140297656865040)
+
+[2023-05-17 10:07:53] INFO root fetch - main [MainThread]: End processing [vnpy-ctptest] error
+[2023-05-17 10:07:53] INFO root fetch - main [MainThread]: Store serial: [18136014]
