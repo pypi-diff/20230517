@@ -12654,3 +12654,137 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:50:10] INFO root fetch - main [MainThread]: End processing [minet]: success
 [2023-05-17 11:50:11] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-17 11:50:11] INFO root fetch - main [MainThread]: Store serial: [18137325]
+[2023-05-17 11:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137325]
+[2023-05-17 11:55:21] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragraph
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-antti-prefer-cvc5
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quixstreaming
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncmy
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planarenvs
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xerxes-protocol
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-poisson-solver
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-source-mssql
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dvc
+[2023-05-17 11:55:21] INFO root fetch - processPackages [macrometa-source-mssql]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 11:55:21] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping, unable to determine old version
+[2023-05-17 11:55:21] INFO root fetch - processPackages [fast-poisson-solver]: Start processing: certora-cli-alpha-shays-CERT-1717-b
+[2023-05-17 11:55:21] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ragraph]: New version: [1.17.1] Old Version: [1.17.0]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [asyncmy]: New version: [0.2.8rc1] Old Version: [0.2.7rc6]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [planarenvs]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [certora-cli-alpha-antti-prefer-cvc5]: New version: [20230517.9.51.374495] Old Version: [20230516.8.4.14252]
+[2023-05-17 11:55:21] WARNING root fetch - processPackages [quixstreaming]: Skipping, unable to determine old version
+[2023-05-17 11:55:21] INFO root fetch - processPackages [quixstreaming]: Start processing: robotcode-jsonrpc2
+[2023-05-17 11:55:21] INFO root fetch - processPackages [xerxes-protocol]: New version: [1.4.2a1] Old Version: [1.4.1]
+[2023-05-17 11:55:21] INFO root fetch - main [MainThread]: End processing [quixstreaming] error
+[2023-05-17 11:55:21] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-17 11:55:21] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230517/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-17 11:55:21] INFO root fetch - processPackages [dvc]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: New version: [20230517.9.54.28934] Old Version: [20230515.8.39.685357]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/fd/1f/a8aa9ec12b18fe7ed739347fa7971a9ab5c44ed0748cd0a83177505dfd40/ragraph-1.17.0.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/ae/6d/15a3718fbe7bd2ec8c561676226467809c5f280c27df67e85e431cd036a8/macrometa-source-mssql-0.0.3.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [asyncmy]: Downloading https://files.pythonhosted.org/packages/9a/15/e854350f838e1dec621aaaf00e5796e189e4250205d1280ea1a8568f4201/asyncmy-0.2.7rc6.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/45/a0/44809f7517c6c063f98c1152d6b3ab8f01db7c3e49f1356a86552e8388e7/robotcode_jsonrpc2-0.38.0.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [planarenvs]: Downloading https://files.pythonhosted.org/packages/bc/83/6760b6abb70c0da5dd53a788d1a2cc95f77053721a22eb879683068e0aa9/planarenvs-1.3.2.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [certora-cli-alpha-antti-prefer-cvc5]: Downloading https://files.pythonhosted.org/packages/89/01/db078bb37ba39feff6b9466e8c242dfab3374ccbfda8ee965346ff5a3f29/certora-cli-alpha-antti-prefer-cvc5-20230516.8.4.14252.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [macrometa-source-mssql]: executing diffoscope
+[2023-05-17 11:55:21] INFO root fetch - processPackages [macrometa-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mssql-0.0.2.tar.gz tmp/macrometa-source-mssql-0.0.3.tar.gz --markdown 20230517/m/macrometa-source-mssql/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 11:55:21] WARNING root fetch - processPackages [certora-cli-alpha-antti-prefer-cvc5]: Skipping package: exceeds size limit 38756936>=10485760
+[2023-05-17 11:55:21] INFO root fetch - processPackages [certora-cli-alpha-antti-prefer-cvc5]: Start processing: robotcode-debugger
+[2023-05-17 11:55:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-prefer-cvc5] error
+[2023-05-17 11:55:21] INFO root fetch - processPackages [xerxes-protocol]: Downloading https://files.pythonhosted.org/packages/b9/1f/512acdae45eead34f9f26088016565256e663d34519b0d38f4405d6ddabb/xerxes-protocol-1.4.1.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/25/dd/dcd527ab77f9227220d051e2e27a76a29aecdf262212e46a79a383308090/dvc-2.9.4.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/1f/e1/e14df9db6dedf5db35cde73a2b4ab91059c441743ea30940e1fdddf7511c/robotcode_jsonrpc2-0.39.0.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/12/c1/7c64022529d7f29e1a5da39e6429a2df3811ecb69754842457e76dec30c2/robotcode_debugger-0.38.0.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Downloading https://files.pythonhosted.org/packages/64/27/7d116b8c58d96e64c8ed1e7756cd9788d4e7439aa77a29484d23b3d4d467/certora-cli-alpha-shays-CERT-1717-b-20230515.8.39.685357.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/57/59/48ee56479dce7630172814059cd911b819627f108c3594ab450fa38c23ef/ragraph-1.17.1.tar.gz
+[2023-05-17 11:55:21] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Skipping package: exceeds size limit 39431028>=10485760
+[2023-05-17 11:55:21] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Start processing: robotcode-language-server
+[2023-05-17 11:55:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717-b] error
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: executing diffoscope
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_jsonrpc2-0.38.0.tar.gz tmp/robotcode_jsonrpc2-0.39.0.tar.gz --markdown 20230517/r/robotcode-jsonrpc2/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-language-server]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/00/39/578749665f8bbcb5397556b2366488e126071d970641c8194ef8133ed22f/robotcode_debugger-0.39.0.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/b5/41/0fc34072ee0057a98e46a80b913b8e2891d14197028a6477acd1dd121f99/robotcode_language_server-0.38.0.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ragraph]: executing diffoscope
+[2023-05-17 11:55:21] INFO root fetch - processPackages [ragraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragraph-1.17.0.tar.gz tmp/ragraph-1.17.1.tar.gz --markdown 20230517/r/ragraph/1.17.0-1.17.1/diff.md --exclude *.pyd
+[2023-05-17 11:55:21] INFO root fetch - processPackages [planarenvs]: Downloading https://files.pythonhosted.org/packages/a4/db/8ca049df15f604943ddffcb8398131f694d22442e0bb4c3bcbcb1d38ea1d/planarenvs-1.3.3.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [xerxes-protocol]: Downloading https://files.pythonhosted.org/packages/4a/08/476a0cf79377ed1f9a689f972cc78ebc7336b953d68036058d3f626408c6/xerxes-protocol-1.4.2a1.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [asyncmy]: Downloading https://files.pythonhosted.org/packages/f8/e9/7cb604580480b7a9ace27a1b81f8dc9c417ba44e9f3c159129c85fe044f0/asyncmy-0.2.8rc1.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [xerxes-protocol]: executing diffoscope
+[2023-05-17 11:55:21] INFO root fetch - processPackages [xerxes-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerxes-protocol-1.4.1.tar.gz tmp/xerxes-protocol-1.4.2a1.tar.gz --markdown 20230517/x/xerxes-protocol/1.4.1-1.4.2a1/diff.md --exclude *.pyd
+[2023-05-17 11:55:21] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/e9/46/33ac44445fd6974fe6b52f01ab4794c5b5dda927cfb520ac64382e629905/dvc-2.9.5.tar.gz
+[2023-05-17 11:55:21] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/74/86/c17690a43dd60bd5cf0bc29b7717fe43ab0e504fb98f44549af97e3993b3/robotcode_language_server-0.39.0.tar.gz
+[2023-05-17 11:55:22] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-05-17 11:55:22] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.38.0.tar.gz tmp/robotcode_debugger-0.39.0.tar.gz --markdown 20230517/r/robotcode-debugger/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:22] INFO root fetch - processPackages [planarenvs]: executing diffoscope
+[2023-05-17 11:55:22] INFO root fetch - processPackages [planarenvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planarenvs-1.3.2.tar.gz tmp/planarenvs-1.3.3.tar.gz --markdown 20230517/p/planarenvs/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-17 11:55:22] INFO root fetch - processPackages [asyncmy]: executing diffoscope
+[2023-05-17 11:55:22] INFO root fetch - processPackages [asyncmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncmy-0.2.7rc6.tar.gz tmp/asyncmy-0.2.8rc1.tar.gz --markdown 20230517/a/asyncmy/0.2.7rc6-0.2.8rc1/diff.md --exclude *.pyd
+[2023-05-17 11:55:22] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-17 11:55:22] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-2.9.4.tar.gz tmp/dvc-2.9.5.tar.gz --markdown 20230517/d/dvc/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-17 11:55:22] INFO root fetch - processPackages [robotcode-language-server]: executing diffoscope
+[2023-05-17 11:55:22] INFO root fetch - processPackages [robotcode-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_language_server-0.38.0.tar.gz tmp/robotcode_language_server-0.39.0.tar.gz --markdown 20230517/r/robotcode-language-server/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-jsonrpc2]: Start processing: robotcode
+[2023-05-17 11:55:23] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
+[2023-05-17 11:55:23] INFO root fetch - processPackages [macrometa-source-mssql]: Start processing: libressl
+[2023-05-17 11:55:23] INFO root fetch - main [MainThread]: End processing [macrometa-source-mssql]: success
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-17 11:55:23] WARNING root fetch - processPackages [libressl]: Skipping, unable to determine old version
+[2023-05-17 11:55:23] INFO root fetch - processPackages [libressl]: Start processing: robotcode-analyze
+[2023-05-17 11:55:23] INFO root fetch - main [MainThread]: End processing [libressl] error
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-analyze]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:23] INFO root fetch - processPackages [xerxes-protocol]: Start processing: robotcode-plugin
+[2023-05-17 11:55:23] INFO root fetch - main [MainThread]: End processing [xerxes-protocol]: success
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-plugin]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/bd/f5/357e509e9024de92616741a900637600b9365b14635c9c4e025ba4f8dad0/robotcode_analyze-0.38.0.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/e2/7e/d5a5aab3562b4e784a46b9a19878b348e6684bdc581650800581a7a198b8/robotcode-0.9.5.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/69/a8/ca25a4dea91c4c80ae12d64ab1ecf140813f5b4156f32c35aef95e50aa5a/robotcode_plugin-0.38.0.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [seven-cloudapp-frame]: Start processing: robotcode-robot
+[2023-05-17 11:55:23] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/15/2b/009af2a2fe8904074949cae485b5654fc1ba87ca971e43637e2a61dea207/robotcode_plugin-0.39.0.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-robot]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:23] INFO root fetch - processPackages [asyncmy]: Start processing: robotcode-modifiers
+[2023-05-17 11:55:23] INFO root fetch - main [MainThread]: End processing [asyncmy]: success
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/9e/a3/4870e206df07ff7972054ee05676aa1d0c4448808d9b4abefe961d93853f/robotcode_robot-0.38.0.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/f2/82/64a942b8c027a1c115530d9205144d988f079aa2c3088ec755f9c9dc6da9/robotcode_analyze-0.39.0.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-plugin]: executing diffoscope
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_plugin-0.38.0.tar.gz tmp/robotcode_plugin-0.39.0.tar.gz --markdown 20230517/r/robotcode-plugin/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-analyze]: executing diffoscope
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_analyze-0.38.0.tar.gz tmp/robotcode_analyze-0.39.0.tar.gz --markdown 20230517/r/robotcode-analyze/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/b7/ab/96637a51c1fdfc4ddca0c75fb12ea6dca9295477c4f8a80f501ee7c3b2ec/robotcode-0.9.6.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/29/fe/8274973f17c0052dce77cd9e48f9484b5ea17c407833d1c57e85f4dcd615/robotcode_robot-0.39.0.tar.gz
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-robot]: executing diffoscope
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_robot-0.38.0.tar.gz tmp/robotcode_robot-0.39.0.tar.gz --markdown 20230517/r/robotcode-robot/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:23] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.40.0] Old Version: [0.39.0]
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/57/46/dc68b43de7b1d6daec1d45d0ff5e3db084ba6aac2ddd8303f6466bd3c74d/robotcode_modifiers-0.39.0.tar.gz
+[2023-05-17 11:55:24] INFO root fetch - processPackages [planarenvs]: Start processing: ChemDataExtractor-c
+[2023-05-17 11:55:24] INFO root fetch - main [MainThread]: End processing [planarenvs]: success
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230517/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-debugger]: Start processing: robotcode-runner
+[2023-05-17 11:55:24] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-runner]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/dc/f5/32418965858e9d6ba1019c2d4fac192a71c903505e938d5a0830fe1b4197/robotcode_runner-0.38.0.tar.gz
+[2023-05-17 11:55:24] WARNING root fetch - processPackages [ChemDataExtractor-c]: Skipping, unable to determine old version
+[2023-05-17 11:55:24] INFO root fetch - main [MainThread]: End processing [ChemDataExtractor-c] error
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/c0/41/431e4af1d2fc63a49dd7c9f8a33565635661079582330c2eeaedf22d2560/robotcode_runner-0.39.0.tar.gz
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/6a/1e/9c60e98cdb3070828f4edec1da8cee989140148f11618ff902dcd0891b6f/robotcode_modifiers-0.40.0.tar.gz
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-runner]: executing diffoscope
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_runner-0.38.0.tar.gz tmp/robotcode_runner-0.39.0.tar.gz --markdown 20230517/r/robotcode-runner/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-05-17 11:55:24] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.39.0.tar.gz tmp/robotcode_modifiers-0.40.0.tar.gz --markdown 20230517/r/robotcode-modifiers/0.39.0-0.40.0/diff.md --exclude *.pyd
+[2023-05-17 11:55:24] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
+[2023-05-17 11:55:24] INFO root fetch - main [MainThread]: End processing [robotcode-analyze]: success
+[2023-05-17 11:55:25] INFO root fetch - main [MainThread]: End processing [robotcode-runner]: success
+[2023-05-17 11:55:25] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-05-17 11:55:25] INFO root fetch - main [MainThread]: End processing [robotcode-robot]: success
+[2023-05-17 11:55:25] INFO root fetch - main [MainThread]: End processing [ragraph]: success
+[2023-05-17 11:55:26] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
+[2023-05-17 11:55:27] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-05-17 11:55:31] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-17 11:55:31] INFO root fetch - main [MainThread]: Store serial: [18137446]
