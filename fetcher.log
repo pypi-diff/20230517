@@ -8746,3 +8746,49 @@
 [2023-05-17 08:09:59] INFO root fetch - main [MainThread]: End processing [tnsgrt]: success
 [2023-05-17 08:10:01] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-17 08:10:01] INFO root fetch - main [MainThread]: Store serial: [18134858]
+[2023-05-17 08:15:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134858]
+[2023-05-17 08:15:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daisytuner
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usepy
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlgorithmADTs
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scMet
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scikit-duplo
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-nextion
+[2023-05-17 08:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vstutils
+[2023-05-17 08:15:10] INFO root fetch - processPackages [scMet]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 08:15:10] WARNING root fetch - processPackages [daisytuner]: Skipping, unable to determine old version
+[2023-05-17 08:15:10] INFO root fetch - main [MainThread]: End processing [daisytuner] error
+[2023-05-17 08:15:10] INFO root fetch - processPackages [scikit-duplo]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 08:15:10] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 08:15:10] INFO root fetch - processPackages [usepy]: New version: [0.2.1] Old Version: [0.2.0a0]
+[2023-05-17 08:15:10] INFO root fetch - processPackages [micropython-nextion]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 08:15:10] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/57/90/0cedae282193da7366fc2879c726c72f0ca942fffed1f43281fe5d167e2e/scikit-duplo-0.1.5.tar.gz
+[2023-05-17 08:15:10] INFO root fetch - processPackages [scMet]: Downloading https://files.pythonhosted.org/packages/ae/2a/e3dcb24f9390a2a0742582a1edcb1cb66852ebf9c8fac4b1a33b52cd1c8a/scMet-1.0.1.tar.gz
+[2023-05-17 08:15:10] INFO root fetch - processPackages [vstutils]: New version: [5.4.6] Old Version: [5.4.5]
+[2023-05-17 08:15:11] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/c3/4b/d68ba4036278fc97f75a4146698906ce103b9ffb917347186873b865d403/algorithmadts-0.1.0.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [micropython-nextion]: executing diffoscope
+[2023-05-17 08:15:11] INFO root fetch - processPackages [micropython-nextion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-nextion-0.8.0.tar.gz tmp/micropython-nextion-0.9.0.tar.gz --markdown 20230517/m/micropython-nextion/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 08:15:11] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/70/2e/8fc38434da4b366379cf5f9d8086f9f6c95cdb245b7175ec4a549f112051/usepy-0.2.0a0.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [scMet]: Downloading https://files.pythonhosted.org/packages/b1/69/1eaa2e20b51ad05d32a28d150797fb62e28a25a2a76f6e7f2d0970f14372/scMet-1.0.2.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [scMet]: executing diffoscope
+[2023-05-17 08:15:11] INFO root fetch - processPackages [scMet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scMet-1.0.1.tar.gz tmp/scMet-1.0.2.tar.gz --markdown 20230517/s/scMet/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 08:15:11] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/1e/77/fd3b802e7cd6dbe324c9c922987b357d883d3edf17035bba1a1a911c8d8f/vstutils-5.4.5.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/78/b2/5187da6caaba4a92d1a8e4542e5f25f0391a095c8c2575d773567bd5ac26/scikit-duplo-0.1.6.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/11/92/991a110a540509f6c6d05f9926daedf1594479bdb40cb66c1b70cb834346/usepy-0.2.1.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/66/53/bacc196df73be157e5ae2bb4aad7cf8b10f010e0b6200b6d1c4a878aa499/algorithmadts-0.1.1.tar.gz
+[2023-05-17 08:15:11] INFO root fetch - processPackages [scikit-duplo]: executing diffoscope
+[2023-05-17 08:15:11] INFO root fetch - processPackages [scikit-duplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-duplo-0.1.5.tar.gz tmp/scikit-duplo-0.1.6.tar.gz --markdown 20230517/s/scikit-duplo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 08:15:11] INFO root fetch - processPackages [usepy]: executing diffoscope
+[2023-05-17 08:15:11] INFO root fetch - processPackages [usepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy-0.2.0a0.tar.gz tmp/usepy-0.2.1.tar.gz --markdown 20230517/u/usepy/0.2.0a0-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 08:15:11] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-17 08:15:11] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.1.0.tar.gz tmp/algorithmadts-0.1.1.tar.gz --markdown 20230517/A/AlgorithmADTs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 08:15:11] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/6f/c5/092388a79bbbee7545fae5708ea25ccb904c0b4b2e3ba8caa5691a6f84b8/vstutils-5.4.6-py3-none-any.whl
+[2023-05-17 08:15:12] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-05-17 08:15:12] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.5.tar.gz tmp/vstutils-5.4.6-py3-none-any.whl.zip --markdown 20230517/v/vstutils/5.4.5-5.4.6/diff.md --exclude *.pyd
+[2023-05-17 08:15:12] INFO root fetch - main [MainThread]: End processing [scMet]: success
+[2023-05-17 08:15:12] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
+[2023-05-17 08:15:12] INFO root fetch - main [MainThread]: End processing [micropython-nextion]: success
+[2023-05-17 08:15:12] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-17 08:15:13] INFO root fetch - main [MainThread]: End processing [usepy]: success
+[2023-05-17 08:15:13] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-05-17 08:15:13] INFO root fetch - main [MainThread]: Store serial: [18134888]
