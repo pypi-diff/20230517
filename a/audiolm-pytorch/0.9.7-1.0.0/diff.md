@@ -1,0 +1,4272 @@
+# Comparing `tmp/audiolm-pytorch-0.9.7.tar.gz` & `tmp/audiolm-pytorch-1.0.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "audiolm-pytorch-0.9.7.tar", last modified: Thu Feb  2 20:43:32 2023, max compression
++gzip compressed data, was "audiolm-pytorch-1.0.0.tar", last modified: Wed May 17 14:24:28 2023, max compression
+```
+
+## Comparing `audiolm-pytorch-0.9.7.tar` & `audiolm-pytorch-1.0.0.tar`
+
+### file list
+
+```diff
+@@ -1,23 +1,25 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-02 20:43:32.766771 audiolm-pytorch-0.9.7/
+--rw-r--r--   0 runner    (1001) docker     (123)     1066 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (123)      698 2023-02-02 20:43:32.766771 audiolm-pytorch-0.9.7/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)    13581 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-02 20:43:32.766771 audiolm-pytorch-0.9.7/audiolm_pytorch/
+--rw-r--r--   0 runner    (1001) docker     (123)      632 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)    57921 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/audiolm_pytorch.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4554 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/data.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2370 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/hubert_kmeans.py
+--rw-r--r--   0 runner    (1001) docker     (123)      943 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/optimizer.py
+--rw-r--r--   0 runner    (1001) docker     (123)    18951 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/soundstream.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2548 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/t5.py
+--rw-r--r--   0 runner    (1001) docker     (123)    35059 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/trainer.py
+--rw-r--r--   0 runner    (1001) docker     (123)      307 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/utils.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2236 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/audiolm_pytorch/vq_wav2vec.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-02 20:43:32.766771 audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)      698 2023-02-02 20:43:32.000000 audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      504 2023-02-02 20:43:32.000000 audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-02-02 20:43:32.000000 audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)      195 2023-02-02 20:43:32.000000 audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       16 2023-02-02 20:43:32.000000 audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       38 2023-02-02 20:43:32.766771 audiolm-pytorch-0.9.7/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)     1162 2023-02-02 20:43:21.000000 audiolm-pytorch-0.9.7/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-17 14:24:28.860831 audiolm-pytorch-1.0.0/
++-rw-r--r--   0 runner    (1001) docker     (123)     1066 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)      698 2023-05-17 14:24:28.860831 audiolm-pytorch-1.0.0/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)    18129 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/README.md
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-17 14:24:28.860831 audiolm-pytorch-1.0.0/audiolm_pytorch/
++-rw-r--r--   0 runner    (1001) docker     (123)      932 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)    65627 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/audiolm_pytorch.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4573 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/data.py
++-rw-r--r--   0 runner    (1001) docker     (123)     7067 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/encodec.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2692 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/hubert_kmeans.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1119 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/optimizer.py
++-rw-r--r--   0 runner    (1001) docker     (123)    29957 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/soundstream.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2548 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/t5.py
++-rw-r--r--   0 runner    (1001) docker     (123)    42310 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/trainer.py
++-rw-r--r--   0 runner    (1001) docker     (123)      454 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/utils.py
++-rw-r--r--   0 runner    (1001) docker     (123)       22 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/version.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2236 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/audiolm_pytorch/vq_wav2vec.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-05-17 14:24:28.860831 audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)      698 2023-05-17 14:24:28.000000 audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      558 2023-05-17 14:24:28.000000 audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-05-17 14:24:28.000000 audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)      211 2023-05-17 14:24:28.000000 audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       16 2023-05-17 14:24:28.000000 audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       38 2023-05-17 14:24:28.860831 audiolm-pytorch-1.0.0/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)     1237 2023-05-17 14:24:13.000000 audiolm-pytorch-1.0.0/setup.py
+```
+
+### Comparing `audiolm-pytorch-0.9.7/LICENSE` & `audiolm-pytorch-1.0.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `audiolm-pytorch-0.9.7/PKG-INFO` & `audiolm-pytorch-1.0.0/PKG-INFO`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: audiolm-pytorch
+-Version: 0.9.7
++Version: 1.0.0
+ Summary: AudioLM - Language Modeling Approach to Audio Generation from Google Research - Pytorch
+ Home-page: https://github.com/lucidrains/audiolm-pytorch
+ Author: Phil Wang
+ Author-email: lucidrains@gmail.com
+ License: MIT
+ Keywords: artificial intelligence,deep learning,transformers,attention mechanism,audio generation
+ Classifier: Development Status :: 4 - Beta
+```
+
+### Comparing `audiolm-pytorch-0.9.7/README.md` & `audiolm-pytorch-1.0.0/README.md`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -50,800 +50,1085 @@
+ 00000310: 6e0a 0a54 6869 7320 7265 706f 7369 746f  n..This reposito
+ 00000320: 7279 206e 6f77 2061 6c73 6f20 636f 6e74  ry now also cont
+ 00000330: 6169 6e73 2061 204d 4954 206c 6963 656e  ains a MIT licen
+ 00000340: 7365 6420 7665 7273 696f 6e20 6f66 203c  sed version of <
+ 00000350: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+ 00000360: 6172 7869 762e 6f72 672f 6162 732f 3231  arxiv.org/abs/21
+ 00000370: 3037 2e30 3333 3132 223e 536f 756e 6453  07.03312">SoundS
+-00000380: 7472 6561 6d3c 2f61 3e2e 204f 6e63 6520  tream</a>. Once 
+-00000390: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000003a0: 2f67 6974 6875 622e 636f 6d2f 6661 6365  /github.com/face
+-000003b0: 626f 6f6b 7265 7365 6172 6368 2f65 6e63  bookresearch/enc
+-000003c0: 6f64 6563 223e 456e 436f 6465 633c 2f61  odec">EnCodec</a
+-000003d0: 3e20 6265 636f 6d65 7320 4d49 5420 6c69  > becomes MIT li
+-000003e0: 6365 6e73 6564 2c20 7468 656e 2049 2077  censed, then I w
+-000003f0: 696c 6c20 636f 6e73 6964 6572 2061 6464  ill consider add
+-00000400: 696e 6720 6120 7772 6170 7065 7220 666f  ing a wrapper fo
+-00000410: 7220 7468 6174 2061 7320 7765 6c6c 2066  r that as well f
+-00000420: 6f72 2075 7365 2068 6572 652e 0a0a 5570  or use here...Up
+-00000430: 6461 7465 3a20 4175 6469 6f4c 4d20 7761  date: AudioLM wa
+-00000440: 7320 6573 7365 6e74 6961 6c6c 7920 7573  s essentially us
+-00000450: 6564 2074 6f20 2773 6f6c 7665 2720 6d75  ed to 'solve' mu
+-00000460: 7369 6320 6765 6e65 7261 7469 6f6e 2069  sic generation i
+-00000470: 6e20 7468 6520 6e65 7720 3c61 2068 7265  n the new <a hre
+-00000480: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00000490: 622e 636f 6d2f 6c75 6369 6472 6169 6e73  b.com/lucidrains
+-000004a0: 2f61 7564 696f 6c6d 2d70 7974 6f72 6368  /audiolm-pytorch
+-000004b0: 223e 4d75 7369 634c 4d3c 2f61 3e0a 0a23  ">MusicLM</a>..#
+-000004c0: 2320 496e 7374 616c 6c0a 0a60 6060 6261  # Install..```ba
+-000004d0: 7368 0a24 2070 6970 2069 6e73 7461 6c6c  sh.$ pip install
+-000004e0: 2061 7564 696f 6c6d 2d70 7974 6f72 6368   audiolm-pytorch
+-000004f0: 0a60 6060 0a0a 2323 2055 7361 6765 0a0a  .```..## Usage..
+-00000500: 4669 7273 742c 2060 536f 756e 6453 7472  First, `SoundStr
+-00000510: 6561 6d60 206e 6565 6473 2074 6f20 6265  eam` needs to be
+-00000520: 2074 7261 696e 6564 206f 6e20 6120 6c61   trained on a la
+-00000530: 7267 6520 636f 7270 7573 206f 6620 6175  rge corpus of au
+-00000540: 6469 6f20 6461 7461 0a0a 6060 6070 7974  dio data..```pyt
+-00000550: 686f 6e0a 6672 6f6d 2061 7564 696f 6c6d  hon.from audiolm
+-00000560: 5f70 7974 6f72 6368 2069 6d70 6f72 7420  _pytorch import 
+-00000570: 536f 756e 6453 7472 6561 6d2c 2053 6f75  SoundStream, Sou
+-00000580: 6e64 5374 7265 616d 5472 6169 6e65 720a  ndStreamTrainer.
+-00000590: 0a73 6f75 6e64 7374 7265 616d 203d 2053  .soundstream = S
+-000005a0: 6f75 6e64 5374 7265 616d 280a 2020 2020  oundStream(.    
+-000005b0: 636f 6465 626f 6f6b 5f73 697a 6520 3d20  codebook_size = 
+-000005c0: 3130 3234 2c0a 2020 2020 7271 5f6e 756d  1024,.    rq_num
+-000005d0: 5f71 7561 6e74 697a 6572 7320 3d20 382c  _quantizers = 8,
+-000005e0: 0a29 0a0a 7472 6169 6e65 7220 3d20 536f  .)..trainer = So
+-000005f0: 756e 6453 7472 6561 6d54 7261 696e 6572  undStreamTrainer
+-00000600: 280a 2020 2020 736f 756e 6473 7472 6561  (.    soundstrea
+-00000610: 6d2c 0a20 2020 2066 6f6c 6465 7220 3d20  m,.    folder = 
+-00000620: 272f 7061 7468 2f74 6f2f 6175 6469 6f2f  '/path/to/audio/
+-00000630: 6669 6c65 7327 2c0a 2020 2020 6261 7463  files',.    batc
+-00000640: 685f 7369 7a65 203d 2034 2c0a 2020 2020  h_size = 4,.    
+-00000650: 6772 6164 5f61 6363 756d 5f65 7665 7279  grad_accum_every
+-00000660: 203d 2038 2c20 2020 2020 2020 2020 2320   = 8,         # 
+-00000670: 6566 6665 6374 6976 6520 6261 7463 6820  effective batch 
+-00000680: 7369 7a65 206f 6620 3332 0a20 2020 2064  size of 32.    d
+-00000690: 6174 615f 6d61 785f 6c65 6e67 7468 203d  ata_max_length =
+-000006a0: 2033 3230 202a 2033 322c 0a20 2020 206e   320 * 32,.    n
+-000006b0: 756d 5f74 7261 696e 5f73 7465 7073 203d  um_train_steps =
+-000006c0: 2031 3030 3030 0a29 2e63 7564 6128 290a   10000.).cuda().
+-000006d0: 0a74 7261 696e 6572 2e74 7261 696e 2829  .trainer.train()
+-000006e0: 0a60 6060 0a0a 5468 656e 2074 6872 6565  .```..Then three
+-000006f0: 2073 6570 6172 6174 6520 7472 616e 7366   separate transf
+-00000700: 6f72 6d65 7273 2028 6053 656d 616e 7469  ormers (`Semanti
+-00000710: 6354 7261 6e73 666f 726d 6572 602c 2060  cTransformer`, `
+-00000720: 436f 6172 7365 5472 616e 7366 6f72 6d65  CoarseTransforme
+-00000730: 7260 2c20 6046 696e 6554 7261 6e73 666f  r`, `FineTransfo
+-00000740: 726d 6572 6029 206e 6565 6420 746f 2062  rmer`) need to b
+-00000750: 6520 7472 6169 6e65 640a 0a0a 6578 2e20  e trained...ex. 
+-00000760: 6053 656d 616e 7469 6354 7261 6e73 666f  `SemanticTransfo
+-00000770: 726d 6572 600a 0a60 6060 7079 7468 6f6e  rmer`..```python
+-00000780: 0a69 6d70 6f72 7420 746f 7263 680a 6672  .import torch.fr
+-00000790: 6f6d 2061 7564 696f 6c6d 5f70 7974 6f72  om audiolm_pytor
+-000007a0: 6368 2069 6d70 6f72 7420 4875 6265 7274  ch import Hubert
+-000007b0: 5769 7468 4b6d 6561 6e73 2c20 5365 6d61  WithKmeans, Sema
+-000007c0: 6e74 6963 5472 616e 7366 6f72 6d65 722c  nticTransformer,
+-000007d0: 2053 656d 616e 7469 6354 7261 6e73 666f   SemanticTransfo
+-000007e0: 726d 6572 5472 6169 6e65 720a 0a23 2068  rmerTrainer..# h
+-000007f0: 7562 6572 7420 6368 6563 6b70 6f69 6e74  ubert checkpoint
+-00000800: 7320 6361 6e20 6265 2064 6f77 6e6c 6f61  s can be downloa
+-00000810: 6465 6420 6174 0a23 2068 7474 7073 3a2f  ded at.# https:/
+-00000820: 2f67 6974 6875 622e 636f 6d2f 6661 6365  /github.com/face
+-00000830: 626f 6f6b 7265 7365 6172 6368 2f66 6169  bookresearch/fai
+-00000840: 7273 6571 2f74 7265 652f 6d61 696e 2f65  rseq/tree/main/e
+-00000850: 7861 6d70 6c65 732f 6875 6265 7274 0a0a  xamples/hubert..
+-00000860: 7761 7632 7665 6320 3d20 4875 6265 7274  wav2vec = Hubert
+-00000870: 5769 7468 4b6d 6561 6e73 280a 2020 2020  WithKmeans(.    
+-00000880: 6368 6563 6b70 6f69 6e74 5f70 6174 6820  checkpoint_path 
+-00000890: 3d20 272e 2f68 7562 6572 742f 6875 6265  = './hubert/hube
+-000008a0: 7274 5f62 6173 655f 6c73 3936 302e 7074  rt_base_ls960.pt
+-000008b0: 272c 0a20 2020 206b 6d65 616e 735f 7061  ',.    kmeans_pa
+-000008c0: 7468 203d 2027 2e2f 6875 6265 7274 2f68  th = './hubert/h
+-000008d0: 7562 6572 745f 6261 7365 5f6c 7339 3630  ubert_base_ls960
+-000008e0: 5f4c 395f 6b6d 3530 302e 6269 6e27 0a29  _L9_km500.bin'.)
+-000008f0: 0a0a 7365 6d61 6e74 6963 5f74 7261 6e73  ..semantic_trans
+-00000900: 666f 726d 6572 203d 2053 656d 616e 7469  former = Semanti
+-00000910: 6354 7261 6e73 666f 726d 6572 280a 2020  cTransformer(.  
+-00000920: 2020 6e75 6d5f 7365 6d61 6e74 6963 5f74    num_semantic_t
+-00000930: 6f6b 656e 7320 3d20 7761 7632 7665 632e  okens = wav2vec.
+-00000940: 636f 6465 626f 6f6b 5f73 697a 652c 0a20  codebook_size,. 
+-00000950: 2020 2064 696d 203d 2031 3032 342c 0a20     dim = 1024,. 
+-00000960: 2020 2064 6570 7468 203d 2036 0a29 2e63     depth = 6.).c
+-00000970: 7564 6128 290a 0a0a 7472 6169 6e65 7220  uda()...trainer 
+-00000980: 3d20 5365 6d61 6e74 6963 5472 616e 7366  = SemanticTransf
+-00000990: 6f72 6d65 7254 7261 696e 6572 280a 2020  ormerTrainer(.  
+-000009a0: 2020 7472 616e 7366 6f72 6d65 7220 3d20    transformer = 
+-000009b0: 7365 6d61 6e74 6963 5f74 7261 6e73 666f  semantic_transfo
+-000009c0: 726d 6572 2c0a 2020 2020 7761 7632 7665  rmer,.    wav2ve
+-000009d0: 6320 3d20 7761 7632 7665 632c 0a20 2020  c = wav2vec,.   
+-000009e0: 2066 6f6c 6465 7220 3d27 2f70 6174 682f   folder ='/path/
+-000009f0: 746f 2f61 7564 696f 2f66 696c 6573 272c  to/audio/files',
+-00000a00: 0a20 2020 2062 6174 6368 5f73 697a 6520  .    batch_size 
+-00000a10: 3d20 312c 0a20 2020 2064 6174 615f 6d61  = 1,.    data_ma
+-00000a20: 785f 6c65 6e67 7468 203d 2033 3230 202a  x_length = 320 *
+-00000a30: 2033 322c 0a20 2020 206e 756d 5f74 7261   32,.    num_tra
+-00000a40: 696e 5f73 7465 7073 203d 2031 0a29 0a0a  in_steps = 1.)..
+-00000a50: 7472 6169 6e65 722e 7472 6169 6e28 290a  trainer.train().
+-00000a60: 6060 600a 0a65 782e 2060 436f 6172 7365  ```..ex. `Coarse
+-00000a70: 5472 616e 7366 6f72 6d65 7260 0a0a 6060  Transformer`..``
+-00000a80: 6070 7974 686f 6e0a 696d 706f 7274 2074  `python.import t
+-00000a90: 6f72 6368 0a66 726f 6d20 6175 6469 6f6c  orch.from audiol
+-00000aa0: 6d5f 7079 746f 7263 6820 696d 706f 7274  m_pytorch import
+-00000ab0: 2048 7562 6572 7457 6974 684b 6d65 616e   HubertWithKmean
+-00000ac0: 732c 2053 6f75 6e64 5374 7265 616d 2c20  s, SoundStream, 
+-00000ad0: 436f 6172 7365 5472 616e 7366 6f72 6d65  CoarseTransforme
+-00000ae0: 722c 2043 6f61 7273 6554 7261 6e73 666f  r, CoarseTransfo
+-00000af0: 726d 6572 5772 6170 7065 722c 2043 6f61  rmerWrapper, Coa
+-00000b00: 7273 6554 7261 6e73 666f 726d 6572 5472  rseTransformerTr
+-00000b10: 6169 6e65 720a 0a77 6176 3276 6563 203d  ainer..wav2vec =
+-00000b20: 2048 7562 6572 7457 6974 684b 6d65 616e   HubertWithKmean
+-00000b30: 7328 0a20 2020 2063 6865 636b 706f 696e  s(.    checkpoin
+-00000b40: 745f 7061 7468 203d 2027 2e2f 6875 6265  t_path = './hube
+-00000b50: 7274 2f68 7562 6572 745f 6261 7365 5f6c  rt/hubert_base_l
+-00000b60: 7339 3630 2e70 7427 2c0a 2020 2020 6b6d  s960.pt',.    km
+-00000b70: 6561 6e73 5f70 6174 6820 3d20 272e 2f68  eans_path = './h
+-00000b80: 7562 6572 742f 6875 6265 7274 5f62 6173  ubert/hubert_bas
+-00000b90: 655f 6c73 3936 305f 4c39 5f6b 6d35 3030  e_ls960_L9_km500
+-00000ba0: 2e62 696e 270a 290a 0a73 6f75 6e64 7374  .bin'.)..soundst
+-00000bb0: 7265 616d 203d 2053 6f75 6e64 5374 7265  ream = SoundStre
+-00000bc0: 616d 280a 2020 2020 636f 6465 626f 6f6b  am(.    codebook
+-00000bd0: 5f73 697a 6520 3d20 3130 3234 2c0a 2020  _size = 1024,.  
+-00000be0: 2020 7271 5f6e 756d 5f71 7561 6e74 697a    rq_num_quantiz
+-00000bf0: 6572 7320 3d20 382c 0a29 0a0a 736f 756e  ers = 8,.)..soun
+-00000c00: 6473 7472 6561 6d2e 6c6f 6164 2827 2f70  dstream.load('/p
+-00000c10: 6174 682f 746f 2f74 7261 696e 6564 2f73  ath/to/trained/s
+-00000c20: 6f75 6e64 7374 7265 616d 2e70 7427 290a  oundstream.pt').
+-00000c30: 0a63 6f61 7273 655f 7472 616e 7366 6f72  .coarse_transfor
+-00000c40: 6d65 7220 3d20 436f 6172 7365 5472 616e  mer = CoarseTran
+-00000c50: 7366 6f72 6d65 7228 0a20 2020 206e 756d  sformer(.    num
+-00000c60: 5f73 656d 616e 7469 635f 746f 6b65 6e73  _semantic_tokens
+-00000c70: 203d 2077 6176 3276 6563 2e63 6f64 6562   = wav2vec.codeb
+-00000c80: 6f6f 6b5f 7369 7a65 2c0a 2020 2020 636f  ook_size,.    co
+-00000c90: 6465 626f 6f6b 5f73 697a 6520 3d20 3130  debook_size = 10
+-00000ca0: 3234 2c0a 2020 2020 6e75 6d5f 636f 6172  24,.    num_coar
+-00000cb0: 7365 5f71 7561 6e74 697a 6572 7320 3d20  se_quantizers = 
+-00000cc0: 332c 0a20 2020 2064 696d 203d 2035 3132  3,.    dim = 512
+-00000cd0: 2c0a 2020 2020 6465 7074 6820 3d20 360a  ,.    depth = 6.
+-00000ce0: 290a 0a74 7261 696e 6572 203d 2043 6f61  )..trainer = Coa
+-00000cf0: 7273 6554 7261 6e73 666f 726d 6572 5472  rseTransformerTr
+-00000d00: 6169 6e65 7228 0a20 2020 2074 7261 6e73  ainer(.    trans
+-00000d10: 666f 726d 6572 203d 2063 6f61 7273 655f  former = coarse_
+-00000d20: 7472 616e 7366 6f72 6d65 722c 0a20 2020  transformer,.   
+-00000d30: 2073 6f75 6e64 7374 7265 616d 203d 2073   soundstream = s
+-00000d40: 6f75 6e64 7374 7265 616d 2c0a 2020 2020  oundstream,.    
+-00000d50: 7761 7632 7665 6320 3d20 7761 7632 7665  wav2vec = wav2ve
+-00000d60: 632c 0a20 2020 2066 6f6c 6465 7220 3d20  c,.    folder = 
+-00000d70: 272f 7061 7468 2f74 6f2f 6175 6469 6f2f  '/path/to/audio/
+-00000d80: 6669 6c65 7327 2c0a 2020 2020 6261 7463  files',.    batc
+-00000d90: 685f 7369 7a65 203d 2031 2c0a 2020 2020  h_size = 1,.    
+-00000da0: 6461 7461 5f6d 6178 5f6c 656e 6774 6820  data_max_length 
+-00000db0: 3d20 3332 3020 2a20 3332 2c0a 2020 2020  = 320 * 32,.    
+-00000dc0: 6e75 6d5f 7472 6169 6e5f 7374 6570 7320  num_train_steps 
+-00000dd0: 3d20 3130 3030 300a 290a 0a74 7261 696e  = 10000.)..train
+-00000de0: 6572 2e74 7261 696e 2829 0a60 6060 0a0a  er.train().```..
+-00000df0: 6578 2e20 6046 696e 6554 7261 6e73 666f  ex. `FineTransfo
+-00000e00: 726d 6572 600a 0a60 6060 7079 7468 6f6e  rmer`..```python
+-00000e10: 0a69 6d70 6f72 7420 746f 7263 680a 6672  .import torch.fr
+-00000e20: 6f6d 2061 7564 696f 6c6d 5f70 7974 6f72  om audiolm_pytor
+-00000e30: 6368 2069 6d70 6f72 7420 536f 756e 6453  ch import SoundS
+-00000e40: 7472 6561 6d2c 2046 696e 6554 7261 6e73  tream, FineTrans
+-00000e50: 666f 726d 6572 2c20 4669 6e65 5472 616e  former, FineTran
+-00000e60: 7366 6f72 6d65 7257 7261 7070 6572 2c20  sformerWrapper, 
+-00000e70: 4669 6e65 5472 616e 7366 6f72 6d65 7254  FineTransformerT
+-00000e80: 7261 696e 6572 0a0a 736f 756e 6473 7472  rainer..soundstr
+-00000e90: 6561 6d20 3d20 536f 756e 6453 7472 6561  eam = SoundStrea
+-00000ea0: 6d28 0a20 2020 2063 6f64 6562 6f6f 6b5f  m(.    codebook_
+-00000eb0: 7369 7a65 203d 2031 3032 342c 0a20 2020  size = 1024,.   
+-00000ec0: 2072 715f 6e75 6d5f 7175 616e 7469 7a65   rq_num_quantize
+-00000ed0: 7273 203d 2038 2c0a 290a 0a73 6f75 6e64  rs = 8,.)..sound
+-00000ee0: 7374 7265 616d 2e6c 6f61 6428 272f 7061  stream.load('/pa
+-00000ef0: 7468 2f74 6f2f 7472 6169 6e65 642f 736f  th/to/trained/so
+-00000f00: 756e 6473 7472 6561 6d2e 7074 2729 0a0a  undstream.pt')..
+-00000f10: 6669 6e65 5f74 7261 6e73 666f 726d 6572  fine_transformer
+-00000f20: 203d 2046 696e 6554 7261 6e73 666f 726d   = FineTransform
+-00000f30: 6572 280a 2020 2020 6e75 6d5f 636f 6172  er(.    num_coar
+-00000f40: 7365 5f71 7561 6e74 697a 6572 7320 3d20  se_quantizers = 
+-00000f50: 332c 0a20 2020 206e 756d 5f66 696e 655f  3,.    num_fine_
+-00000f60: 7175 616e 7469 7a65 7273 203d 2035 2c0a  quantizers = 5,.
+-00000f70: 2020 2020 636f 6465 626f 6f6b 5f73 697a      codebook_siz
+-00000f80: 6520 3d20 3130 3234 2c0a 2020 2020 6469  e = 1024,.    di
+-00000f90: 6d20 3d20 3531 322c 0a20 2020 2064 6570  m = 512,.    dep
+-00000fa0: 7468 203d 2036 0a29 0a0a 7472 6169 6e65  th = 6.)..traine
+-00000fb0: 7220 3d20 4669 6e65 5472 616e 7366 6f72  r = FineTransfor
+-00000fc0: 6d65 7254 7261 696e 6572 280a 2020 2020  merTrainer(.    
+-00000fd0: 7472 616e 7366 6f72 6d65 7220 3d20 6669  transformer = fi
+-00000fe0: 6e65 5f74 7261 6e73 666f 726d 6572 2c0a  ne_transformer,.
+-00000ff0: 2020 2020 736f 756e 6473 7472 6561 6d20      soundstream 
+-00001000: 3d20 736f 756e 6473 7472 6561 6d2c 0a20  = soundstream,. 
+-00001010: 2020 2066 6f6c 6465 7220 3d20 272f 7061     folder = '/pa
+-00001020: 7468 2f74 6f2f 6175 6469 6f2f 6669 6c65  th/to/audio/file
+-00001030: 7327 2c0a 2020 2020 6261 7463 685f 7369  s',.    batch_si
+-00001040: 7a65 203d 2031 2c0a 2020 2020 6461 7461  ze = 1,.    data
+-00001050: 5f6d 6178 5f6c 656e 6774 6820 3d20 3332  _max_length = 32
+-00001060: 3020 2a20 3332 2c0a 2020 2020 6e75 6d5f  0 * 32,.    num_
+-00001070: 7472 6169 6e5f 7374 6570 7320 3d20 3130  train_steps = 10
+-00001080: 3030 300a 290a 0a74 7261 696e 6572 2e74  000.)..trainer.t
+-00001090: 7261 696e 2829 0a60 6060 0a0a 416c 6c20  rain().```..All 
+-000010a0: 746f 6765 7468 6572 206e 6f77 0a0a 6060  together now..``
+-000010b0: 6070 7974 686f 6e0a 6672 6f6d 2061 7564  `python.from aud
+-000010c0: 696f 6c6d 5f70 7974 6f72 6368 2069 6d70  iolm_pytorch imp
+-000010d0: 6f72 7420 4175 6469 6f4c 4d0a 0a61 7564  ort AudioLM..aud
+-000010e0: 696f 6c6d 203d 2041 7564 696f 4c4d 280a  iolm = AudioLM(.
+-000010f0: 2020 2020 7761 7632 7665 6320 3d20 7761      wav2vec = wa
+-00001100: 7632 7665 632c 0a20 2020 2073 6f75 6e64  v2vec,.    sound
+-00001110: 7374 7265 616d 203d 2073 6f75 6e64 7374  stream = soundst
+-00001120: 7265 616d 2c0a 2020 2020 7365 6d61 6e74  ream,.    semant
+-00001130: 6963 5f74 7261 6e73 666f 726d 6572 203d  ic_transformer =
+-00001140: 2073 656d 616e 7469 635f 7472 616e 7366   semantic_transf
+-00001150: 6f72 6d65 722c 0a20 2020 2063 6f61 7273  ormer,.    coars
+-00001160: 655f 7472 616e 7366 6f72 6d65 7220 3d20  e_transformer = 
+-00001170: 636f 6172 7365 5f74 7261 6e73 666f 726d  coarse_transform
+-00001180: 6572 2c0a 2020 2020 6669 6e65 5f74 7261  er,.    fine_tra
+-00001190: 6e73 666f 726d 6572 203d 2066 696e 655f  nsformer = fine_
+-000011a0: 7472 616e 7366 6f72 6d65 720a 290a 0a67  transformer.)..g
+-000011b0: 656e 6572 6174 6564 5f77 6176 203d 2061  enerated_wav = a
+-000011c0: 7564 696f 6c6d 2862 6174 6368 5f73 697a  udiolm(batch_siz
+-000011d0: 6520 3d20 3129 0a0a 2320 6f72 2077 6974  e = 1)..# or wit
+-000011e0: 6820 7072 696d 696e 670a 0a67 656e 6572  h priming..gener
+-000011f0: 6174 6564 5f77 6176 5f77 6974 685f 7072  ated_wav_with_pr
+-00001200: 696d 6520 3d20 6175 6469 6f6c 6d28 7072  ime = audiolm(pr
+-00001210: 696d 655f 7761 7665 203d 2074 6f72 6368  ime_wave = torch
+-00001220: 2e72 616e 646e 2831 2c20 3332 3020 2a20  .randn(1, 320 * 
+-00001230: 3829 290a 0a23 206f 7220 7769 7468 2074  8))..# or with t
+-00001240: 6578 7420 636f 6e64 6974 696f 6e2c 2069  ext condition, i
+-00001250: 6620 6769 7665 6e0a 0a67 656e 6572 6174  f given..generat
+-00001260: 6564 5f77 6176 5f77 6974 685f 7465 7874  ed_wav_with_text
+-00001270: 5f63 6f6e 6469 7469 6f6e 203d 2061 7564  _condition = aud
+-00001280: 696f 6c6d 2874 6578 7420 3d20 5b27 6368  iolm(text = ['ch
+-00001290: 6972 7069 6e67 206f 6620 6269 7264 7320  irping of birds 
+-000012a0: 616e 6420 7468 6520 6469 7374 616e 7420  and the distant 
+-000012b0: 6563 686f 7320 6f66 2062 656c 6c73 275d  echos of bells']
+-000012c0: 290a 0a60 6060 0a0a 2323 2054 6578 7420  )..```..## Text 
+-000012d0: 436f 6e64 6974 696f 6e65 6420 4175 6469  Conditioned Audi
+-000012e0: 6f20 5379 6e74 6865 7369 730a 0a55 7064  o Synthesis..Upd
+-000012f0: 6174 653a 204c 6f6f 6b73 206c 696b 6520  ate: Looks like 
+-00001300: 7468 6973 2077 696c 6c20 776f 726b 2c20  this will work, 
+-00001310: 6769 7665 6e20 3c61 2068 7265 663d 2268  given <a href="h
+-00001320: 7474 7073 3a2f 2f76 616c 6c65 2d64 656d  ttps://valle-dem
+-00001330: 6f2e 6769 7468 7562 2e69 6f2f 223e 2756  o.github.io/">'V
+-00001340: 414c 4c2d 4527 3c2f 613e 0a0a 6578 2e20  ALL-E'</a>..ex. 
+-00001350: 5365 6d61 6e74 6963 2054 7261 6e73 666f  Semantic Transfo
+-00001360: 726d 6572 0a0a 6060 6070 7974 686f 6e0a  rmer..```python.
+-00001370: 696d 706f 7274 2074 6f72 6368 0a66 726f  import torch.fro
+-00001380: 6d20 6175 6469 6f6c 6d5f 7079 746f 7263  m audiolm_pytorc
+-00001390: 6820 696d 706f 7274 2048 7562 6572 7457  h import HubertW
+-000013a0: 6974 684b 6d65 616e 732c 2053 656d 616e  ithKmeans, Seman
+-000013b0: 7469 6354 7261 6e73 666f 726d 6572 2c20  ticTransformer, 
+-000013c0: 5365 6d61 6e74 6963 5472 616e 7366 6f72  SemanticTransfor
+-000013d0: 6d65 7254 7261 696e 6572 0a0a 7761 7632  merTrainer..wav2
+-000013e0: 7665 6320 3d20 4875 6265 7274 5769 7468  vec = HubertWith
+-000013f0: 4b6d 6561 6e73 280a 2020 2020 6368 6563  Kmeans(.    chec
+-00001400: 6b70 6f69 6e74 5f70 6174 6820 3d20 272e  kpoint_path = '.
+-00001410: 2f68 7562 6572 742f 6875 6265 7274 5f62  /hubert/hubert_b
+-00001420: 6173 655f 6c73 3936 302e 7074 272c 0a20  ase_ls960.pt',. 
+-00001430: 2020 206b 6d65 616e 735f 7061 7468 203d     kmeans_path =
+-00001440: 2027 2e2f 6875 6265 7274 2f68 7562 6572   './hubert/huber
+-00001450: 745f 6261 7365 5f6c 7339 3630 5f4c 395f  t_base_ls960_L9_
+-00001460: 6b6d 3530 302e 6269 6e27 0a29 0a0a 7365  km500.bin'.)..se
+-00001470: 6d61 6e74 6963 5f74 7261 6e73 666f 726d  mantic_transform
+-00001480: 6572 203d 2053 656d 616e 7469 6354 7261  er = SemanticTra
+-00001490: 6e73 666f 726d 6572 280a 2020 2020 6e75  nsformer(.    nu
+-000014a0: 6d5f 7365 6d61 6e74 6963 5f74 6f6b 656e  m_semantic_token
+-000014b0: 7320 3d20 3530 302c 0a20 2020 2064 696d  s = 500,.    dim
+-000014c0: 203d 2031 3032 342c 0a20 2020 2064 6570   = 1024,.    dep
+-000014d0: 7468 203d 2036 2c0a 2020 2020 6861 735f  th = 6,.    has_
+-000014e0: 636f 6e64 6974 696f 6e20 3d20 5472 7565  condition = True
+-000014f0: 2c20 2020 2020 2020 2020 2020 2020 2020  ,               
+-00001500: 2320 7468 6973 2077 696c 6c20 6861 7665  # this will have
+-00001510: 2074 6f20 6265 2073 6574 2074 6f20 5472   to be set to Tr
+-00001520: 7565 0a20 2020 2063 6f6e 645f 6173 5f73  ue.    cond_as_s
+-00001530: 656c 665f 6174 746e 5f70 7265 6669 7820  elf_attn_prefix 
+-00001540: 3d20 5472 7565 2020 2020 2023 2077 6865  = True     # whe
+-00001550: 7468 6572 2074 6f20 636f 6e64 6974 696f  ther to conditio
+-00001560: 6e20 6173 2070 7265 6669 7820 746f 2073  n as prefix to s
+-00001570: 656c 6620 6174 7465 6e74 696f 6e2c 2069  elf attention, i
+-00001580: 6e73 7465 6164 206f 6620 6372 6f73 7320  nstead of cross 
+-00001590: 6174 7465 6e74 696f 6e2c 2061 7320 7761  attention, as wa
+-000015a0: 7320 646f 6e65 2069 6e20 2756 414c 4c2d  s done in 'VALL-
+-000015b0: 4527 2070 6170 6572 0a29 2e63 7564 6128  E' paper.).cuda(
+-000015c0: 290a 0a23 206d 6f63 6b20 7465 7874 2076  )..# mock text v
+-000015d0: 6964 656f 2064 6174 6173 6574 2028 6173  ideo dataset (as
+-000015e0: 2061 6e20 6578 616d 706c 6529 0a0a 2320   an example)..# 
+-000015f0: 796f 7520 7769 6c6c 2068 6176 6520 746f  you will have to
+-00001600: 2065 7874 656e 6420 796f 7572 206f 776e   extend your own
+-00001610: 2066 726f 6d20 6044 6174 6173 6574 602c   from `Dataset`,
+-00001620: 2061 6e64 2072 6574 7572 6e20 616e 2061   and return an a
+-00001630: 7564 696f 2074 656e 736f 7220 6173 2077  udio tensor as w
+-00001640: 656c 6c20 6173 2061 2073 7472 696e 6720  ell as a string 
+-00001650: 2874 6865 2061 7564 696f 2064 6573 6372  (the audio descr
+-00001660: 6970 7469 6f6e 2920 696e 2061 6e79 206f  iption) in any o
+-00001670: 7264 6572 2028 7468 6520 6672 616d 6577  rder (the framew
+-00001680: 6f72 6b20 7769 6c6c 2061 7574 6f64 6574  ork will autodet
+-00001690: 6563 7420 616e 6420 726f 7574 6520 6974  ect and route it
+-000016a0: 2069 6e74 6f20 7468 6520 7472 616e 7366   into the transf
+-000016b0: 6f72 6d65 7229 0a0a 6672 6f6d 2074 6f72  ormer)..from tor
+-000016c0: 6368 2e75 7469 6c73 2e64 6174 6120 696d  ch.utils.data im
+-000016d0: 706f 7274 2044 6174 6173 6574 0a0a 636c  port Dataset..cl
+-000016e0: 6173 7320 4d6f 636b 5465 7874 4175 6469  ass MockTextAudi
+-000016f0: 6f44 6174 6173 6574 2844 6174 6173 6574  oDataset(Dataset
+-00001700: 293a 0a20 2020 2064 6566 205f 5f69 6e69  ):.    def __ini
+-00001710: 745f 5f28 7365 6c66 2c20 6c65 6e67 7468  t__(self, length
+-00001720: 203d 2031 3030 2c20 6175 6469 6f5f 6c65   = 100, audio_le
+-00001730: 6e67 7468 203d 2033 3230 202a 2033 3229  ngth = 320 * 32)
+-00001740: 3a0a 2020 2020 2020 2020 7375 7065 7228  :.        super(
+-00001750: 292e 5f5f 696e 6974 5f5f 2829 0a20 2020  ).__init__().   
+-00001760: 2020 2020 2073 656c 662e 6175 6469 6f5f       self.audio_
+-00001770: 6c65 6e67 7468 203d 2061 7564 696f 5f6c  length = audio_l
+-00001780: 656e 6774 680a 2020 2020 2020 2020 7365  ength.        se
+-00001790: 6c66 2e6c 656e 203d 206c 656e 6774 680a  lf.len = length.
+-000017a0: 0a20 2020 2064 6566 205f 5f6c 656e 5f5f  .    def __len__
+-000017b0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-000017c0: 7265 7475 726e 2073 656c 662e 6c65 6e0a  return self.len.
+-000017d0: 0a20 2020 2064 6566 205f 5f67 6574 6974  .    def __getit
+-000017e0: 656d 5f5f 2873 656c 662c 2069 6478 293a  em__(self, idx):
+-000017f0: 0a20 2020 2020 2020 206d 6f63 6b5f 6175  .        mock_au
+-00001800: 6469 6f20 3d20 746f 7263 682e 7261 6e64  dio = torch.rand
+-00001810: 6e28 7365 6c66 2e61 7564 696f 5f6c 656e  n(self.audio_len
+-00001820: 6774 6829 0a20 2020 2020 2020 206d 6f63  gth).        moc
+-00001830: 6b5f 6361 7074 696f 6e20 3d20 2761 7564  k_caption = 'aud
+-00001840: 696f 2063 6170 7469 6f6e 270a 2020 2020  io caption'.    
+-00001850: 2020 2020 7265 7475 726e 206d 6f63 6b5f      return mock_
+-00001860: 6361 7074 696f 6e2c 206d 6f63 6b5f 6175  caption, mock_au
+-00001870: 6469 6f0a 0a64 6174 6173 6574 203d 204d  dio..dataset = M
+-00001880: 6f63 6b54 6578 7441 7564 696f 4461 7461  ockTextAudioData
+-00001890: 7365 7428 290a 0a23 2069 6e73 7461 6e74  set()..# instant
+-000018a0: 6961 7465 2073 656d 616e 7469 6320 7472  iate semantic tr
+-000018b0: 616e 7366 6f72 6d65 7220 7472 6169 6e65  ansformer traine
+-000018c0: 7220 616e 6420 7472 6169 6e0a 0a74 7261  r and train..tra
+-000018d0: 696e 6572 203d 2053 656d 616e 7469 6354  iner = SemanticT
+-000018e0: 7261 6e73 666f 726d 6572 5472 6169 6e65  ransformerTraine
+-000018f0: 7228 0a20 2020 2074 7261 6e73 666f 726d  r(.    transform
+-00001900: 6572 203d 2073 656d 616e 7469 635f 7472  er = semantic_tr
+-00001910: 616e 7366 6f72 6d65 722c 0a20 2020 2077  ansformer,.    w
+-00001920: 6176 3276 6563 203d 2077 6176 3276 6563  av2vec = wav2vec
+-00001930: 2c0a 2020 2020 6461 7461 7365 7420 3d20  ,.    dataset = 
+-00001940: 6461 7461 7365 742c 0a20 2020 2062 6174  dataset,.    bat
+-00001950: 6368 5f73 697a 6520 3d20 342c 0a20 2020  ch_size = 4,.   
+-00001960: 2067 7261 645f 6163 6375 6d5f 6576 6572   grad_accum_ever
+-00001970: 7920 3d20 382c 0a20 2020 2064 6174 615f  y = 8,.    data_
+-00001980: 6d61 785f 6c65 6e67 7468 203d 2033 3230  max_length = 320
+-00001990: 202a 2033 322c 0a20 2020 206e 756d 5f74   * 32,.    num_t
+-000019a0: 7261 696e 5f73 7465 7073 203d 2031 3030  rain_steps = 100
+-000019b0: 3030 300a 290a 0a74 7261 696e 6572 2e74  000.)..trainer.t
+-000019c0: 7261 696e 2829 0a0a 2320 6166 7465 7220  rain()..# after 
+-000019d0: 6d75 6368 2074 7261 696e 696e 6720 6162  much training ab
+-000019e0: 6f76 650a 0a73 616d 706c 6520 3d20 7472  ove..sample = tr
+-000019f0: 6169 6e65 722e 6765 6e65 7261 7465 2874  ainer.generate(t
+-00001a00: 6578 7420 3d20 5b27 736f 756e 6420 6f66  ext = ['sound of
+-00001a10: 2072 6169 6e20 6472 6f70 7320 6f6e 2074   rain drops on t
+-00001a20: 6865 2072 6f6f 6674 6f70 7327 5d2c 2062  he rooftops'], b
+-00001a30: 6174 6368 5f73 697a 6520 3d20 312c 206d  atch_size = 1, m
+-00001a40: 6178 5f6c 656e 6774 6820 3d20 3229 2023  ax_length = 2) #
+-00001a50: 2028 312c 203c 2031 3238 2920 2d20 6d61   (1, < 128) - ma
+-00001a60: 7920 7465 726d 696e 6174 6520 6561 726c  y terminate earl
+-00001a70: 7920 6966 2069 7420 6465 7465 6374 7320  y if it detects 
+-00001a80: 5b65 6f73 5d0a 0a60 6060 0a0a 2323 2041  [eos]..```..## A
+-00001a90: 7070 7265 6369 6174 696f 6e0a 0a2d 203c  ppreciation..- <
+-00001aa0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001ab0: 7374 6162 696c 6974 792e 6169 2f22 3e53  stability.ai/">S
+-00001ac0: 7461 6269 6c69 7479 2e61 693c 2f61 3e20  tability.ai</a> 
+-00001ad0: 666f 7220 7468 6520 6765 6e65 726f 7573  for the generous
+-00001ae0: 2073 706f 6e73 6f72 7368 6970 2074 6f20   sponsorship to 
+-00001af0: 776f 726b 2061 6e64 206f 7065 6e20 736f  work and open so
+-00001b00: 7572 6365 2063 7574 7469 6e67 2065 6467  urce cutting edg
+-00001b10: 6520 6172 7469 6669 6369 616c 2069 6e74  e artificial int
+-00001b20: 656c 6c69 6765 6e63 6520 7265 7365 6172  elligence resear
+-00001b30: 6368 0a0a 2d20 3c61 2068 7265 663d 2268  ch..- <a href="h
+-00001b40: 7474 7073 3a2f 2f68 7567 6769 6e67 6661  ttps://huggingfa
+-00001b50: 6365 2e63 6f2f 223e f09f a497 2048 7567  ce.co/">.... Hug
+-00001b60: 6769 6e67 6661 6365 3c2f 613e 2066 6f72  gingface</a> for
+-00001b70: 2074 6865 6972 2061 6d61 7a69 6e67 2061   their amazing a
+-00001b80: 6363 656c 6572 6174 6520 616e 6420 7472  ccelerate and tr
+-00001b90: 616e 7366 6f72 6d65 7273 206c 6962 7261  ansformers libra
+-00001ba0: 7269 6573 0a0a 2d20 3c61 2068 7265 663d  ries..- <a href=
+-00001bb0: 2268 7474 7073 3a2f 2f61 692e 6661 6365  "https://ai.face
+-00001bc0: 626f 6f6b 2e63 6f6d 2f22 3e4d 6574 6141  book.com/">MetaA
+-00001bd0: 493c 2f61 3e20 666f 7220 3c61 2068 7265  I</a> for <a hre
+-00001be0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00001bf0: 622e 636f 6d2f 6661 6365 626f 6f6b 7265  b.com/facebookre
+-00001c00: 7365 6172 6368 2f66 6169 7273 6571 223e  search/fairseq">
+-00001c10: 4661 6972 7365 713c 2f61 3e20 616e 6420  Fairseq</a> and 
+-00001c20: 7468 6520 6c69 6265 7261 6c20 6c69 6365  the liberal lice
+-00001c30: 6e73 650a 0a2d 203c 6120 6872 6566 3d22  nse..- <a href="
+-00001c40: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00001c50: 6f6d 2f65 6f6e 676c 696e 7473 223e 4065  om/eonglints">@e
+-00001c60: 6f6e 676c 696e 7473 3c2f 613e 2066 6f72  onglints</a> for
+-00001c70: 206f 6666 6572 696e 6720 6869 7320 7072   offering his pr
+-00001c80: 6f66 6573 7369 6f6e 616c 2061 6476 6963  ofessional advic
+-00001c90: 6520 616e 6420 6578 7065 7274 6973 6520  e and expertise 
+-00001ca0: 6173 2077 656c 6c20 6173 2070 756c 6c20  as well as pull 
+-00001cb0: 7265 7175 6573 7473 210a 0a2d 203c 6120  requests!..- <a 
+-00001cc0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00001cd0: 7468 7562 2e63 6f6d 2f64 6a71 7561 6c69  thub.com/djquali
+-00001ce0: 6122 3e40 646a 7175 616c 6961 3c2f 613e  a">@djqualia</a>
+-00001cf0: 2c20 3c61 2068 7265 663d 2268 7474 7073  , <a href="https
+-00001d00: 3a2f 2f67 6974 6875 622e 636f 6d2f 7969  ://github.com/yi
+-00001d10: 6769 7479 7522 3e40 7969 6769 7479 753c  gityu">@yigityu<
+-00001d20: 2f61 3e2c 203c 6120 6872 6566 3d22 6874  /a>, <a href="ht
+-00001d30: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00001d40: 2f69 6e73 7069 7269 7422 3e40 696e 7370  /inspirit">@insp
+-00001d50: 6972 6974 3c2f 613e 2c20 616e 6420 3c61  irit</a>, and <a
+-00001d60: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00001d70: 6974 6875 622e 636f 6d2f 426c 6163 6b46  ithub.com/BlackF
+-00001d80: 6f78 3131 3937 223e 4042 6c61 636b 466f  ox1197">@BlackFo
+-00001d90: 7831 3139 373c 2f61 3e20 666f 7220 6865  x1197</a> for he
+-00001da0: 6c70 696e 6720 7769 7468 2074 6865 2064  lping with the d
+-00001db0: 6562 7567 6769 6e67 206f 6620 736f 756e  ebugging of soun
+-00001dc0: 6473 7472 6561 6d0a 0a23 2320 546f 646f  dstream..## Todo
+-00001dd0: 0a0a 2d20 5b78 5d20 636f 6d70 6c65 7465  ..- [x] complete
+-00001de0: 2043 6f61 7273 6554 7261 6e73 666f 726d   CoarseTransform
+-00001df0: 6572 0a2d 205b 785d 2075 7365 2066 6169  er.- [x] use fai
+-00001e00: 7273 6571 2076 712d 7761 7632 7665 6320  rseq vq-wav2vec 
+-00001e10: 666f 7220 656d 6265 6464 696e 6773 0a2d  for embeddings.-
+-00001e20: 205b 785d 2061 6464 2063 6f6e 6469 7469   [x] add conditi
+-00001e30: 6f6e 696e 670a 2d20 5b78 5d20 6164 6420  oning.- [x] add 
+-00001e40: 636c 6173 7369 6669 6572 2066 7265 6520  classifier free 
+-00001e50: 6775 6964 616e 6365 0a2d 205b 785d 2061  guidance.- [x] a
+-00001e60: 6464 2075 6e69 7175 6520 636f 6e73 6563  dd unique consec
+-00001e70: 7574 6976 6520 666f 7220 0a2d 205b 785d  utive for .- [x]
+-00001e80: 2069 6e63 6f72 706f 7261 7465 2061 6269   incorporate abi
+-00001e90: 6c69 7479 2074 6f20 7573 6520 6875 6265  lity to use hube
+-00001ea0: 7274 2069 6e74 6572 6d65 6469 6174 6520  rt intermediate 
+-00001eb0: 6665 6174 7572 6573 2061 7320 7365 6d61  features as sema
+-00001ec0: 6e74 6963 2074 6f6b 656e 732c 2072 6563  ntic tokens, rec
+-00001ed0: 6f6d 6d65 6e64 6564 2062 7920 3c61 2068  ommended by <a h
+-00001ee0: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00001ef0: 6875 622e 636f 6d2f 6c75 6369 6472 6169  hub.com/lucidrai
+-00001f00: 6e73 2f61 7564 696f 6c6d 2d70 7974 6f72  ns/audiolm-pytor
+-00001f10: 6368 2f64 6973 6375 7373 696f 6e73 2f31  ch/discussions/1
+-00001f20: 3322 3e65 6f6e 676c 696e 7473 3c2f 613e  3">eonglints</a>
+-00001f30: 0a2d 205b 785d 2061 6363 6f6d 6d6f 6461  .- [x] accommoda
+-00001f40: 7465 2076 6172 6961 626c 6520 6c65 6e67  te variable leng
+-00001f50: 7468 6564 2061 7564 696f 2c20 6272 696e  thed audio, brin
+-00001f60: 6720 696e 2065 6f73 2074 6f6b 656e 0a2d  g in eos token.-
+-00001f70: 205b 785d 206d 616b 6520 7375 7265 2075   [x] make sure u
+-00001f80: 6e69 7175 6520 636f 6e73 6563 7574 6976  nique consecutiv
+-00001f90: 6520 776f 726b 7320 7769 7468 2063 6f61  e works with coa
+-00001fa0: 7273 6520 7472 616e 7366 6f72 6d65 720a  rse transformer.
+-00001fb0: 2d20 5b78 5d20 7072 6574 7479 2070 7269  - [x] pretty pri
+-00001fc0: 6e74 696e 6720 616c 6c20 6469 7363 7269  nting all discri
+-00001fd0: 6d69 6e61 746f 7220 6c6f 7373 6573 2074  minator losses t
+-00001fe0: 6f20 6c6f 670a 2d20 5b78 5d20 6861 6e64  o log.- [x] hand
+-00001ff0: 6c65 2077 6865 6e20 6765 6e65 7261 7469  le when generati
+-00002000: 6e67 2073 656d 616e 7469 6320 746f 6b65  ng semantic toke
+-00002010: 6e73 2c20 7468 6174 206c 6173 7420 6c6f  ns, that last lo
+-00002020: 6769 7473 206d 6179 206e 6f74 2062 6520  gits may not be 
+-00002030: 6e65 6365 7373 6172 696c 7920 7468 6520  necessarily the 
+-00002040: 6c61 7374 2069 6e20 7468 6520 7365 7175  last in the sequ
+-00002050: 656e 6365 2067 6976 656e 2075 6e69 7175  ence given uniqu
+-00002060: 6520 636f 6e73 6563 7574 6976 6520 7072  e consecutive pr
+-00002070: 6f63 6573 7369 6e67 0a2d 205b 785d 2063  ocessing.- [x] c
+-00002080: 6f6d 706c 6574 6520 7361 6d70 6c69 6e67  omplete sampling
+-00002090: 2063 6f64 6520 666f 7220 626f 7468 2043   code for both C
+-000020a0: 6f61 7273 6520 616e 6420 4669 6e65 2054  oarse and Fine T
+-000020b0: 7261 6e73 666f 726d 6572 732c 2077 6869  ransformers, whi
+-000020c0: 6368 2077 696c 6c20 6265 2074 7269 636b  ch will be trick
+-000020d0: 790a 2d20 5b78 5d20 6d61 6b65 2073 7572  y.- [x] make sur
+-000020e0: 6520 6675 6c6c 2069 6e66 6572 656e 6365  e full inference
+-000020f0: 2077 6974 6820 6f72 2077 6974 686f 7574   with or without
+-00002100: 2070 726f 6d70 7469 6e67 2077 6f72 6b73   prompting works
+-00002110: 206f 6e20 7468 6520 6041 7564 696f 4c4d   on the `AudioLM
+-00002120: 6020 636c 6173 730a 2d20 5b78 5d20 636f  ` class.- [x] co
+-00002130: 6d70 6c65 7465 2066 756c 6c20 7472 6169  mplete full trai
+-00002140: 6e69 6e67 2063 6f64 6520 666f 7220 736f  ning code for so
+-00002150: 756e 6473 7472 6561 6d2c 2074 616b 696e  undstream, takin
+-00002160: 6720 6361 7265 206f 6620 6469 7363 7269  g care of discri
+-00002170: 6d69 6e61 746f 7220 7472 6169 6e69 6e67  minator training
+-00002180: 0a2d 205b 785d 2061 6464 2065 6666 6963  .- [x] add effic
+-00002190: 6965 6e74 2067 7261 6469 656e 7420 7065  ient gradient pe
+-000021a0: 6e61 6c74 7920 666f 7220 6469 7363 7269  nalty for discri
+-000021b0: 6d69 6e61 746f 7273 2066 6f72 2073 6f75  minators for sou
+-000021c0: 6e64 7374 7265 616d 0a2d 205b 785d 2077  ndstream.- [x] w
+-000021d0: 6972 6520 7570 2073 616d 706c 6520 687a  ire up sample hz
+-000021e0: 2066 726f 6d20 736f 756e 6420 6461 7461   from sound data
+-000021f0: 7365 7420 2d3e 2074 7261 6e73 666f 726d  set -> transform
+-00002200: 6572 732c 2061 6e64 2068 6176 6520 7072  ers, and have pr
+-00002210: 6f70 6572 2072 6573 616d 706c 696e 6720  oper resampling 
+-00002220: 7769 7468 696e 2064 7572 696e 6720 7472  within during tr
+-00002230: 6169 6e69 6e67 202d 2074 6869 6e6b 2061  aining - think a
+-00002240: 626f 7574 2077 6865 7468 6572 2074 6f20  bout whether to 
+-00002250: 616c 6c6f 7720 666f 7220 6461 7461 7365  allow for datase
+-00002260: 7420 746f 2068 6176 6520 736f 756e 6420  t to have sound 
+-00002270: 6669 6c65 7320 6f66 2076 6172 7969 6e67  files of varying
+-00002280: 206f 7220 656e 666f 7263 6520 7361 6d65   or enforce same
+-00002290: 2073 616d 706c 6520 687a 0a2d 205b 785d   sample hz.- [x]
+-000022a0: 2066 756c 6c20 7472 616e 7366 6f72 6d65   full transforme
+-000022b0: 7220 7472 6169 6e69 6e67 2063 6f64 6520  r training code 
+-000022c0: 666f 7220 616c 6c20 7468 7265 6520 7472  for all three tr
+-000022d0: 616e 7366 6f72 6d65 7273 0a2d 205b 785d  ansformers.- [x]
+-000022e0: 2072 6566 6163 746f 7220 736f 2073 656d   refactor so sem
+-000022f0: 616e 7469 6320 7472 616e 7366 6f72 6d65  antic transforme
+-00002300: 7220 6861 7320 6120 7772 6170 7065 7220  r has a wrapper 
+-00002310: 746f 2074 6861 7420 6861 6e64 6c65 7320  to that handles 
+-00002320: 756e 6971 7565 2063 6f6e 7365 6375 7469  unique consecuti
+-00002330: 7665 7320 6173 2077 656c 6c20 6173 2077  ves as well as w
+-00002340: 6176 2074 6f20 6875 6265 7274 206f 7220  av to hubert or 
+-00002350: 7671 2d77 6176 3276 6563 0a2d 205b 785d  vq-wav2vec.- [x]
+-00002360: 2073 696d 706c 7920 6e6f 7420 7365 6c66   simply not self
+-00002370: 2061 7474 656e 6420 746f 2065 6f73 2074   attend to eos t
+-00002380: 6f6b 656e 206f 6e20 7468 6520 7072 6f6d  oken on the prom
+-00002390: 7074 696e 6720 7369 6465 2028 7365 6d61  pting side (sema
+-000023a0: 6e74 6963 2066 6f72 2063 6f61 7273 6520  ntic for coarse 
+-000023b0: 7472 616e 7366 6f72 6d65 722c 2063 6f61  transformer, coa
+-000023c0: 7273 6520 666f 7220 6669 6e65 2074 7261  rse for fine tra
+-000023d0: 6e73 666f 726d 6572 290a 2d20 5b78 5d20  nsformer).- [x] 
+-000023e0: 6164 6420 7374 7275 6374 7572 6564 2064  add structured d
+-000023f0: 726f 706f 7574 2066 726f 6d20 666f 7267  ropout from forg
+-00002400: 6574 6675 6c20 6361 7573 616c 206d 6173  etful causal mas
+-00002410: 6b69 6e67 2c20 6661 7220 6265 7474 6572  king, far better
+-00002420: 2074 6861 6e20 7472 6164 6974 696f 6e61   than traditiona
+-00002430: 6c20 6472 6f70 6f75 7473 0a2d 205b 785d  l dropouts.- [x]
+-00002440: 2066 6967 7572 6520 6f75 7420 686f 7720   figure out how 
+-00002450: 746f 2073 7570 7072 6573 7320 6c6f 6767  to suppress logg
+-00002460: 696e 6720 696e 2066 6169 7273 6571 0a2d  ing in fairseq.-
+-00002470: 205b 785d 2061 7373 6572 7420 7468 6174   [x] assert that
+-00002480: 2061 6c6c 2074 6872 6565 2074 7261 6e73   all three trans
+-00002490: 666f 726d 6572 7320 7061 7373 6564 2069  formers passed i
+-000024a0: 6e74 6f20 6175 6469 6f6c 6d20 6973 2063  nto audiolm is c
+-000024b0: 6f6d 7061 7469 626c 650a 0a2d 205b 205d  ompatible..- [ ]
+-000024c0: 2066 6967 7572 6520 6f75 7420 686f 7720   figure out how 
+-000024d0: 746f 2064 6f20 7468 6520 6e6f 726d 616c  to do the normal
+-000024e0: 697a 6174 696f 6e20 6163 726f 7373 2065  ization across e
+-000024f0: 6163 6820 6469 6d65 6e73 696f 6e20 6d65  ach dimension me
+-00002500: 6e74 696f 6e65 6420 696e 2074 6865 2070  ntioned in the p
+-00002510: 6170 6572 2c20 6275 7420 6967 6e6f 7265  aper, but ignore
+-00002520: 2069 7420 666f 7220 7631 206f 6620 7468   it for v1 of th
+-00002530: 6520 6672 616d 6577 6f72 6b0a 2d20 5b20  e framework.- [ 
+-00002540: 5d20 4452 5920 6120 6c69 7474 6c65 2061  ] DRY a little a
+-00002550: 7420 7468 6520 656e 640a 2d20 5b20 5d20  t the end.- [ ] 
+-00002560: 7465 7374 2077 6974 6820 7370 6565 6368  test with speech
+-00002570: 2073 796e 7468 6573 6973 2066 6f72 2073   synthesis for s
+-00002580: 7461 7274 6572 730a 2d20 5b20 5d20 6164  tarters.- [ ] ad
+-00002590: 6420 6f70 7469 6f6e 2074 6f20 7573 6520  d option to use 
+-000025a0: 666c 6173 6820 6174 7465 6e74 696f 6e0a  flash attention.
+-000025b0: 2d20 5b20 5d20 7369 6d70 6c69 6679 2074  - [ ] simplify t
+-000025c0: 7261 696e 696e 6720 6576 656e 206d 6f72  raining even mor
+-000025d0: 6520 7769 7468 696e 2041 7564 696f 4c4d  e within AudioLM
+-000025e0: 2063 6c61 7373 0a2d 205b 205d 2063 6c69   class.- [ ] cli
+-000025f0: 2074 6f6f 6c2c 2073 6f6d 6574 6869 6e67   tool, something
+-00002600: 206c 696b 6520 6061 7564 696f 6c6d 2067   like `audiolm g
+-00002610: 656e 6572 6174 6520 3c77 6176 2e66 696c  enerate <wav.fil
+-00002620: 6520 7c20 7465 7874 3e60 2061 6e64 2073  e | text>` and s
+-00002630: 6176 6520 6765 6e65 7261 7465 6420 7761  ave generated wa
+-00002640: 7620 6669 6c65 2074 6f20 6c6f 6361 6c20  v file to local 
+-00002650: 6469 7265 6374 6f72 790a 2d20 5b20 5d20  directory.- [ ] 
+-00002660: 7265 7475 726e 2061 206c 6973 7420 6f66  return a list of
+-00002670: 2077 6176 6573 2069 6e20 7468 6520 6361   waves in the ca
+-00002680: 7365 206f 6620 7661 7269 6162 6c65 206c  se of variable l
+-00002690: 656e 6774 6865 6420 6175 6469 6f0a 2d20  engthed audio.- 
+-000026a0: 5b20 5d20 6a75 7374 2074 616b 6520 6361  [ ] just take ca
+-000026b0: 7265 206f 6620 7468 6520 6564 6765 2063  re of the edge c
+-000026c0: 6173 6520 696e 2063 6f61 7273 6520 7472  ase in coarse tr
+-000026d0: 616e 7366 6f72 6d65 7220 7465 7874 2063  ansformer text c
+-000026e0: 6f6e 6469 7469 6f6e 6564 2074 7261 696e  onditioned train
+-000026f0: 696e 672c 2077 6865 7265 2074 6865 2072  ing, where the r
+-00002700: 6177 2077 6176 6520 6973 2072 6573 616d  aw wave is resam
+-00002710: 706c 6564 2061 7420 6469 6666 6572 656e  pled at differen
+-00002720: 7420 6672 6571 7565 6e63 6965 732e 2061  t frequencies. a
+-00002730: 7574 6f64 6574 6572 6d69 6e65 2068 6f77  utodetermine how
+-00002740: 2074 6f20 726f 7574 6520 6261 7365 6420   to route based 
+-00002750: 6f6e 206c 656e 6774 680a 0a23 2320 4369  on length..## Ci
+-00002760: 7461 7469 6f6e 730a 0a60 6060 6269 6274  tations..```bibt
+-00002770: 6578 0a40 696e 7072 6f63 6565 6469 6e67  ex.@inproceeding
+-00002780: 737b 426f 7273 6f73 3230 3232 4175 6469  s{Borsos2022Audi
+-00002790: 6f4c 4d41 4c2c 0a20 2074 6974 6c65 2020  oLMAL,.  title  
+-000027a0: 3d20 7b41 7564 696f 4c4d 3a20 6120 4c61  = {AudioLM: a La
+-000027b0: 6e67 7561 6765 204d 6f64 656c 696e 6720  nguage Modeling 
+-000027c0: 4170 7072 6f61 6368 2074 6f20 4175 6469  Approach to Audi
+-000027d0: 6f20 4765 6e65 7261 7469 6f6e 7d2c 0a20  o Generation},. 
+-000027e0: 2061 7574 686f 7220 3d20 7b5a 616c 7b5c   author = {Zal{\
+-000027f0: 2761 7d6e 2042 6f72 736f 7320 616e 6420  'a}n Borsos and 
+-00002800: 5261 7068 617b 5c22 657d 6c20 4d61 7269  Rapha{\"e}l Mari
+-00002810: 6e69 6572 2061 6e64 2044 616d 6965 6e20  nier and Damien 
+-00002820: 5669 6e63 656e 7420 616e 6420 4575 6765  Vincent and Euge
+-00002830: 6e65 204b 6861 7269 746f 6e6f 7620 616e  ne Kharitonov an
+-00002840: 6420 4f6c 6976 6965 7220 5069 6574 7175  d Olivier Pietqu
+-00002850: 696e 2061 6e64 204d 6174 7468 6577 2053  in and Matthew S
+-00002860: 6861 7269 6669 2061 6e64 204f 6c69 7669  harifi and Olivi
+-00002870: 6572 2054 6562 6f75 6c20 616e 6420 4461  er Teboul and Da
+-00002880: 7669 6420 4772 616e 6769 6572 2061 6e64  vid Grangier and
+-00002890: 204d 6172 636f 2054 6167 6c69 6173 6163   Marco Tagliasac
+-000028a0: 6368 6920 616e 6420 4e65 696c 205a 6567  chi and Neil Zeg
+-000028b0: 6869 646f 7572 7d2c 0a20 2079 6561 7220  hidour},.  year 
+-000028c0: 2020 3d20 7b32 3032 327d 0a7d 0a60 6060    = {2022}.}.```
+-000028d0: 0a0a 6060 6062 6962 7465 780a 406d 6973  ..```bibtex.@mis
+-000028e0: 637b 6874 7470 733a 2f2f 646f 692e 6f72  c{https://doi.or
+-000028f0: 672f 3130 2e34 3835 3530 2f61 7278 6976  g/10.48550/arxiv
+-00002900: 2e32 3130 372e 3033 3331 322c 0a20 2074  .2107.03312,.  t
+-00002910: 6974 6c65 2020 3d20 7b53 6f75 6e64 5374  itle  = {SoundSt
+-00002920: 7265 616d 3a20 416e 2045 6e64 2d74 6f2d  ream: An End-to-
+-00002930: 456e 6420 4e65 7572 616c 2041 7564 696f  End Neural Audio
+-00002940: 2043 6f64 6563 7d2c 0a20 2061 7574 686f   Codec},.  autho
+-00002950: 7220 3d20 7b5a 6567 6869 646f 7572 2c20  r = {Zeghidour, 
+-00002960: 4e65 696c 2061 6e64 204c 7565 6273 2c20  Neil and Luebs, 
+-00002970: 416c 656a 616e 6472 6f20 616e 6420 4f6d  Alejandro and Om
+-00002980: 7261 6e2c 2041 686d 6564 2061 6e64 2053  ran, Ahmed and S
+-00002990: 6b6f 676c 756e 642c 204a 616e 2061 6e64  koglund, Jan and
+-000029a0: 2054 6167 6c69 6173 6163 6368 692c 204d   Tagliasacchi, M
+-000029b0: 6172 636f 7d2c 0a20 2070 7562 6c69 7368  arco},.  publish
+-000029c0: 6572 203d 207b 6172 5869 767d 2c0a 2020  er = {arXiv},.  
+-000029d0: 7572 6c20 2020 203d 207b 6874 7470 733a  url    = {https:
+-000029e0: 2f2f 6172 7869 762e 6f72 672f 6162 732f  //arxiv.org/abs/
+-000029f0: 3231 3037 2e30 3333 3132 7d2c 0a20 2079  2107.03312},.  y
+-00002a00: 6561 7220 2020 3d20 7b32 3032 317d 0a7d  ear   = {2021}.}
+-00002a10: 0a60 6060 0a0a 6060 6062 6962 7465 780a  .```..```bibtex.
+-00002a20: 406d 6973 637b 7368 617a 6565 7232 3032  @misc{shazeer202
+-00002a30: 3067 6c75 2c0a 2020 2020 7469 746c 6520  0glu,.    title 
+-00002a40: 2020 3d20 7b47 4c55 2056 6172 6961 6e74    = {GLU Variant
+-00002a50: 7320 496d 7072 6f76 6520 5472 616e 7366  s Improve Transf
+-00002a60: 6f72 6d65 727d 2c0a 2020 2020 6175 7468  ormer},.    auth
+-00002a70: 6f72 2020 3d20 7b4e 6f61 6d20 5368 617a  or  = {Noam Shaz
+-00002a80: 6565 727d 2c0a 2020 2020 7965 6172 2020  eer},.    year  
+-00002a90: 2020 3d20 7b32 3032 307d 2c0a 2020 2020    = {2020},.    
+-00002aa0: 7572 6c20 2020 2020 3d20 7b68 7474 7073  url     = {https
+-00002ab0: 3a2f 2f61 7278 6976 2e6f 7267 2f61 6273  ://arxiv.org/abs
+-00002ac0: 2f32 3030 322e 3035 3230 327d 0a7d 0a60  /2002.05202}.}.`
+-00002ad0: 6060 0a0a 6060 6062 6962 7465 780a 4061  ``..```bibtex.@a
+-00002ae0: 7274 6963 6c65 7b53 6861 7a65 6572 3230  rticle{Shazeer20
+-00002af0: 3139 4661 7374 5444 2c0a 2020 2020 7469  19FastTD,.    ti
+-00002b00: 746c 6520 2020 3d20 7b46 6173 7420 5472  tle   = {Fast Tr
+-00002b10: 616e 7366 6f72 6d65 7220 4465 636f 6469  ansformer Decodi
+-00002b20: 6e67 3a20 4f6e 6520 5772 6974 652d 4865  ng: One Write-He
+-00002b30: 6164 2069 7320 416c 6c20 596f 7520 4e65  ad is All You Ne
+-00002b40: 6564 7d2c 0a20 2020 2061 7574 686f 7220  ed},.    author 
+-00002b50: 203d 207b 4e6f 616d 204d 2e20 5368 617a   = {Noam M. Shaz
+-00002b60: 6565 727d 2c0a 2020 2020 6a6f 7572 6e61  eer},.    journa
+-00002b70: 6c20 3d20 7b41 7258 6976 7d2c 0a20 2020  l = {ArXiv},.   
+-00002b80: 2079 6561 7220 2020 203d 207b 3230 3139   year    = {2019
+-00002b90: 7d2c 0a20 2020 2076 6f6c 756d 6520 203d  },.    volume  =
+-00002ba0: 207b 6162 732f 3139 3131 2e30 3231 3530   {abs/1911.02150
+-00002bb0: 7d0a 7d0a 6060 600a 0a60 6060 6269 6274  }.}.```..```bibt
+-00002bc0: 6578 0a40 6172 7469 636c 657b 486f 3230  ex.@article{Ho20
+-00002bd0: 3232 436c 6173 7369 6669 6572 4672 6565  22ClassifierFree
+-00002be0: 4447 2c0a 2020 2020 7469 746c 6520 2020  DG,.    title   
+-00002bf0: 3d20 7b43 6c61 7373 6966 6965 722d 4672  = {Classifier-Fr
+-00002c00: 6565 2044 6966 6675 7369 6f6e 2047 7569  ee Diffusion Gui
+-00002c10: 6461 6e63 657d 2c0a 2020 2020 6175 7468  dance},.    auth
+-00002c20: 6f72 2020 3d20 7b4a 6f6e 6174 6861 6e20  or  = {Jonathan 
+-00002c30: 486f 7d2c 0a20 2020 206a 6f75 726e 616c  Ho},.    journal
+-00002c40: 203d 207b 4172 5869 767d 2c0a 2020 2020   = {ArXiv},.    
+-00002c50: 7965 6172 2020 2020 3d20 7b32 3032 327d  year    = {2022}
+-00002c60: 2c0a 2020 2020 766f 6c75 6d65 2020 3d20  ,.    volume  = 
+-00002c70: 7b61 6273 2f32 3230 372e 3132 3539 387d  {abs/2207.12598}
+-00002c80: 0a7d 0a60 6060 0a0a 6060 6062 6962 7465  .}.```..```bibte
+-00002c90: 780a 406d 6973 637b 6372 6f77 736f 6e32  x.@misc{crowson2
+-00002ca0: 3032 322c 0a20 2020 2061 7574 686f 7220  022,.    author 
+-00002cb0: 203d 207b 4b61 7468 6572 696e 6520 4372   = {Katherine Cr
+-00002cc0: 6f77 736f 6e7d 2c0a 2020 2020 7572 6c20  owson},.    url 
+-00002cd0: 2020 2020 3d20 7b68 7474 7073 3a2f 2f74      = {https://t
+-00002ce0: 7769 7474 6572 2e63 6f6d 2f72 6976 6572  witter.com/river
+-00002cf0: 7368 6176 6577 696e 6773 7d0a 7d0a 6060  shavewings}.}.``
+-00002d00: 600a 0a60 6060 6269 6274 6578 0a40 6d69  `..```bibtex.@mi
+-00002d10: 7363 7b64 696e 6732 3032 3163 6f67 7669  sc{ding2021cogvi
+-00002d20: 6577 2c0a 2020 2020 7469 746c 6520 2020  ew,.    title   
+-00002d30: 3d20 7b43 6f67 5669 6577 3a20 4d61 7374  = {CogView: Mast
+-00002d40: 6572 696e 6720 5465 7874 2d74 6f2d 496d  ering Text-to-Im
+-00002d50: 6167 6520 4765 6e65 7261 7469 6f6e 2076  age Generation v
+-00002d60: 6961 2054 7261 6e73 666f 726d 6572 737d  ia Transformers}
+-00002d70: 2c0a 2020 2020 6175 7468 6f72 2020 3d20  ,.    author  = 
+-00002d80: 7b4d 696e 6720 4469 6e67 2061 6e64 205a  {Ming Ding and Z
+-00002d90: 6875 6f79 6920 5961 6e67 2061 6e64 2057  huoyi Yang and W
+-00002da0: 656e 7969 2048 6f6e 6720 616e 6420 5765  enyi Hong and We
+-00002db0: 6e64 6920 5a68 656e 6720 616e 6420 4368  ndi Zheng and Ch
+-00002dc0: 616e 6720 5a68 6f75 2061 6e64 2044 6120  ang Zhou and Da 
+-00002dd0: 5969 6e20 616e 6420 4a75 6e79 616e 6720  Yin and Junyang 
+-00002de0: 4c69 6e20 616e 6420 5875 205a 6f75 2061  Lin and Xu Zou a
+-00002df0: 6e64 205a 686f 7520 5368 616f 2061 6e64  nd Zhou Shao and
+-00002e00: 2048 6f6e 6778 6961 2059 616e 6720 616e   Hongxia Yang an
+-00002e10: 6420 4a69 6520 5461 6e67 7d2c 0a20 2020  d Jie Tang},.   
+-00002e20: 2079 6561 7220 2020 203d 207b 3230 3231   year    = {2021
+-00002e30: 7d2c 0a20 2020 2065 7072 696e 7420 203d  },.    eprint  =
+-00002e40: 207b 3231 3035 2e31 3332 3930 7d2c 0a20   {2105.13290},. 
+-00002e50: 2020 2061 7263 6869 7665 5072 6566 6978     archivePrefix
+-00002e60: 203d 207b 6172 5869 767d 2c0a 2020 2020   = {arXiv},.    
+-00002e70: 7072 696d 6172 7943 6c61 7373 203d 207b  primaryClass = {
+-00002e80: 6373 2e43 567d 0a7d 0a60 6060 0a0a 6060  cs.CV}.}.```..``
+-00002e90: 6062 6962 7465 780a 4061 7274 6963 6c65  `bibtex.@article
+-00002ea0: 7b4c 6975 3230 3232 4643 4d46 432c 0a20  {Liu2022FCMFC,. 
+-00002eb0: 2020 2074 6974 6c65 2020 203d 207b 4643     title   = {FC
+-00002ec0: 4d3a 2046 6f72 6765 7466 756c 2043 6175  M: Forgetful Cau
+-00002ed0: 7361 6c20 4d61 736b 696e 6720 4d61 6b65  sal Masking Make
+-00002ee0: 7320 4361 7573 616c 204c 616e 6775 6167  s Causal Languag
+-00002ef0: 6520 4d6f 6465 6c73 2042 6574 7465 7220  e Models Better 
+-00002f00: 5a65 726f 2d53 686f 7420 4c65 6172 6e65  Zero-Shot Learne
+-00002f10: 7273 7d2c 0a20 2020 2061 7574 686f 7220  rs},.    author 
+-00002f20: 203d 207b 4861 6f20 4c69 7520 616e 6420   = {Hao Liu and 
+-00002f30: 5869 6e79 616e 6720 4765 6e67 2061 6e64  Xinyang Geng and
+-00002f40: 204c 6973 6120 4c65 6520 616e 6420 4967   Lisa Lee and Ig
+-00002f50: 6f72 204d 6f72 6461 7463 6820 616e 6420  or Mordatch and 
+-00002f60: 5365 7267 6579 204c 6576 696e 6520 616e  Sergey Levine an
+-00002f70: 6420 5368 6172 616e 204e 6172 616e 6720  d Sharan Narang 
+-00002f80: 616e 6420 502e 2041 6262 6565 6c7d 2c0a  and P. Abbeel},.
+-00002f90: 2020 2020 6a6f 7572 6e61 6c20 3d20 7b41      journal = {A
+-00002fa0: 7258 6976 7d2c 0a20 2020 2079 6561 7220  rXiv},.    year 
+-00002fb0: 2020 203d 207b 3230 3232 7d2c 0a20 2020     = {2022},.   
+-00002fc0: 2076 6f6c 756d 6520 203d 207b 6162 732f   volume  = {abs/
+-00002fd0: 3232 3130 2e31 3334 3332 7d0a 7d0a 6060  2210.13432}.}.``
+-00002fe0: 600a 0a60 6060 6269 6274 6578 0a40 696e  `..```bibtex.@in
+-00002ff0: 7072 6f63 6565 6469 6e67 737b 616e 6f6e  proceedings{anon
+-00003000: 796d 6f75 7332 3032 326e 6f72 6d66 6f72  ymous2022normfor
+-00003010: 6d65 722c 0a20 2020 2074 6974 6c65 2020  mer,.    title  
+-00003020: 203d 207b 4e6f 726d 466f 726d 6572 3a20   = {NormFormer: 
+-00003030: 496d 7072 6f76 6564 2054 7261 6e73 666f  Improved Transfo
+-00003040: 726d 6572 2050 7265 7472 6169 6e69 6e67  rmer Pretraining
+-00003050: 2077 6974 6820 4578 7472 6120 4e6f 726d   with Extra Norm
+-00003060: 616c 697a 6174 696f 6e7d 2c0a 2020 2020  alization},.    
+-00003070: 6175 7468 6f72 2020 3d20 7b41 6e6f 6e79  author  = {Anony
+-00003080: 6d6f 7573 7d2c 0a20 2020 2062 6f6f 6b74  mous},.    bookt
+-00003090: 6974 6c65 203d 207b 5375 626d 6974 7465  itle = {Submitte
+-000030a0: 6420 746f 2054 6865 2054 656e 7468 2049  d to The Tenth I
+-000030b0: 6e74 6572 6e61 7469 6f6e 616c 2043 6f6e  nternational Con
+-000030c0: 6665 7265 6e63 6520 6f6e 204c 6561 726e  ference on Learn
+-000030d0: 696e 6720 5265 7072 6573 656e 7461 7469  ing Representati
+-000030e0: 6f6e 7320 7d2c 0a20 2020 2079 6561 7220  ons },.    year 
+-000030f0: 2020 203d 207b 3230 3232 7d2c 0a20 2020     = {2022},.   
+-00003100: 2075 726c 2020 2020 203d 207b 6874 7470   url     = {http
+-00003110: 733a 2f2f 6f70 656e 7265 7669 6577 2e6e  s://openreview.n
+-00003120: 6574 2f66 6f72 756d 3f69 643d 474d 5957  et/forum?id=GMYW
+-00003130: 7a57 7a74 4478 357d 2c0a 2020 2020 6e6f  zWztDx5},.    no
+-00003140: 7465 2020 2020 3d20 7b75 6e64 6572 2072  te    = {under r
+-00003150: 6576 6965 777d 0a7d 0a60 6060 0a0a 6060  eview}.}.```..``
+-00003160: 6062 6962 7465 780a 4061 7274 6963 6c65  `bibtex.@article
+-00003170: 7b4c 6932 3032 314c 6f63 616c 5669 5442  {Li2021LocalViTB
+-00003180: 4c2c 0a20 2020 2074 6974 6c65 2020 203d  L,.    title   =
+-00003190: 207b 4c6f 6361 6c56 6954 3a20 4272 696e   {LocalViT: Brin
+-000031a0: 6769 6e67 204c 6f63 616c 6974 7920 746f  ging Locality to
+-000031b0: 2056 6973 696f 6e20 5472 616e 7366 6f72   Vision Transfor
+-000031c0: 6d65 7273 7d2c 0a20 2020 2061 7574 686f  mers},.    autho
+-000031d0: 7220 203d 207b 5961 7765 6920 4c69 2061  r  = {Yawei Li a
+-000031e0: 6e64 204b 2e20 5a68 616e 6720 616e 6420  nd K. Zhang and 
+-000031f0: 4a69 6520 4361 6f20 616e 6420 5261 6475  Jie Cao and Radu
+-00003200: 2054 696d 6f66 7465 2061 6e64 204c 7563   Timofte and Luc
+-00003210: 2056 616e 2047 6f6f 6c7d 2c0a 2020 2020   Van Gool},.    
+-00003220: 6a6f 7572 6e61 6c20 3d20 7b41 7258 6976  journal = {ArXiv
+-00003230: 7d2c 0a20 2020 2079 6561 7220 2020 203d  },.    year    =
+-00003240: 207b 3230 3231 7d2c 0a20 2020 2076 6f6c   {2021},.    vol
+-00003250: 756d 6520 203d 207b 6162 732f 3231 3034  ume  = {abs/2104
+-00003260: 2e30 3537 3037 7d0a 7d0a 6060 600a 0a60  .05707}.}.```..`
+-00003270: 6060 6269 6274 6578 0a40 6d69 7363 7b6c  ``bibtex.@misc{l
+-00003280: 6975 3230 3231 7377 696e 2c0a 2020 2020  iu2021swin,.    
+-00003290: 7469 746c 6520 2020 3d20 7b53 7769 6e20  title   = {Swin 
+-000032a0: 5472 616e 7366 6f72 6d65 7220 5632 3a20  Transformer V2: 
+-000032b0: 5363 616c 696e 6720 5570 2043 6170 6163  Scaling Up Capac
+-000032c0: 6974 7920 616e 6420 5265 736f 6c75 7469  ity and Resoluti
+-000032d0: 6f6e 7d2c 0a20 2020 2061 7574 686f 7220  on},.    author 
+-000032e0: 203d 207b 5a65 204c 6975 2061 6e64 2048   = {Ze Liu and H
+-000032f0: 616e 2048 7520 616e 6420 5975 746f 6e67  an Hu and Yutong
+-00003300: 204c 696e 2061 6e64 205a 6875 6c69 616e   Lin and Zhulian
+-00003310: 6720 5961 6f20 616e 6420 5a68 656e 6461  g Yao and Zhenda
+-00003320: 2058 6965 2061 6e64 2059 6978 7561 6e20   Xie and Yixuan 
+-00003330: 5765 6920 616e 6420 4a69 6120 4e69 6e67  Wei and Jia Ning
+-00003340: 2061 6e64 2059 7565 2043 616f 2061 6e64   and Yue Cao and
+-00003350: 205a 6865 6e67 205a 6861 6e67 2061 6e64   Zheng Zhang and
+-00003360: 204c 6920 446f 6e67 2061 6e64 2046 7572   Li Dong and Fur
+-00003370: 7520 5765 6920 616e 6420 4261 696e 696e  u Wei and Bainin
+-00003380: 6720 4775 6f7d 2c0a 2020 2020 7965 6172  g Guo},.    year
+-00003390: 2020 2020 3d20 7b32 3032 317d 2c0a 2020      = {2021},.  
+-000033a0: 2020 6570 7269 6e74 2020 3d20 7b32 3131    eprint  = {211
+-000033b0: 312e 3039 3838 337d 2c0a 2020 2020 6172  1.09883},.    ar
+-000033c0: 6368 6976 6550 7265 6669 7820 3d20 7b61  chivePrefix = {a
+-000033d0: 7258 6976 7d2c 0a20 2020 2070 7269 6d61  rXiv},.    prima
+-000033e0: 7279 436c 6173 7320 3d20 7b63 732e 4356  ryClass = {cs.CV
+-000033f0: 7d0a 7d0a 6060 600a 0a60 6060 6269 6274  }.}.```..```bibt
+-00003400: 6578 0a40 696e 7072 6f63 6565 6469 6e67  ex.@inproceeding
+-00003410: 737b 4d61 3230 3232 4d65 6761 4d41 2c0a  s{Ma2022MegaMA,.
+-00003420: 2020 2020 7469 746c 6520 2020 3d20 7b4d      title   = {M
+-00003430: 6567 613a 204d 6f76 696e 6720 4176 6572  ega: Moving Aver
+-00003440: 6167 6520 4571 7569 7070 6564 2047 6174  age Equipped Gat
+-00003450: 6564 2041 7474 656e 7469 6f6e 7d2c 0a20  ed Attention},. 
+-00003460: 2020 2061 7574 686f 7220 203d 207b 5875     author  = {Xu
+-00003470: 657a 6865 204d 6120 616e 6420 4368 756e  ezhe Ma and Chun
+-00003480: 7469 6e67 205a 686f 7520 616e 6420 5869  ting Zhou and Xi
+-00003490: 616e 6720 4b6f 6e67 2061 6e64 204a 756e  ang Kong and Jun
+-000034a0: 7869 616e 2048 6520 616e 6420 4c69 616e  xian He and Lian
+-000034b0: 676b 6520 4775 6920 616e 6420 4772 6168  gke Gui and Grah
+-000034c0: 616d 204e 6575 6269 6720 616e 6420 4a6f  am Neubig and Jo
+-000034d0: 6e61 7468 616e 204d 6179 2061 6e64 204c  nathan May and L
+-000034e0: 756b 6520 5a65 7474 6c65 6d6f 7965 727d  uke Zettlemoyer}
+-000034f0: 2c0a 2020 2020 7965 6172 2020 2020 3d20  ,.    year    = 
+-00003500: 7b32 3032 327d 0a7d 0a60 6060 0a         {2022}.}.```.
++00000380: 7472 6561 6d3c 2f61 3e2e 2049 7420 6973  tream</a>. It is
++00000390: 2061 6c73 6f20 636f 6d70 6174 6962 6c65   also compatible
++000003a0: 2077 6974 6820 3c61 2068 7265 663d 2268   with <a href="h
++000003b0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++000003c0: 6d2f 6661 6365 626f 6f6b 7265 7365 6172  m/facebookresear
++000003d0: 6368 2f65 6e63 6f64 6563 223e 456e 436f  ch/encodec">EnCo
++000003e0: 6465 633c 2f61 3e2c 2077 6869 6368 2069  dec</a>, which i
++000003f0: 7320 616c 736f 205b 4d49 542d 6c69 6365  s also [MIT-lice
++00000400: 6e73 6564 5d28 6874 7470 733a 2f2f 6769  nsed](https://gi
++00000410: 7468 7562 2e63 6f6d 2f66 6163 6562 6f6f  thub.com/faceboo
++00000420: 6b72 6573 6561 7263 682f 656e 636f 6465  kresearch/encode
++00000430: 632f 636f 6d6d 6974 2f33 3439 6237 3239  c/commit/349b729
++00000440: 3339 6635 3763 6233 6263 3762 3630 3930  39f57cb3bc7b6090
++00000450: 3663 3065 6538 3232 3863 3834 3934 3835  6c0ee8228c849485
++00000460: 6429 2061 7420 7468 6520 7469 6d65 206f  d) at the time o
++00000470: 6620 7772 6974 696e 672e 0a0a 5570 6461  f writing...Upda
++00000480: 7465 3a20 4175 6469 6f4c 4d20 7761 7320  te: AudioLM was 
++00000490: 6573 7365 6e74 6961 6c6c 7920 7573 6564  essentially used
++000004a0: 2074 6f20 2773 6f6c 7665 2720 6d75 7369   to 'solve' musi
++000004b0: 6320 6765 6e65 7261 7469 6f6e 2069 6e20  c generation in 
++000004c0: 7468 6520 6e65 7720 3c61 2068 7265 663d  the new <a href=
++000004d0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++000004e0: 636f 6d2f 6c75 6369 6472 6169 6e73 2f6d  com/lucidrains/m
++000004f0: 7573 6963 6c6d 2d70 7974 6f72 6368 223e  usiclm-pytorch">
++00000500: 4d75 7369 634c 4d3c 2f61 3e0a 0a49 6e20  MusicLM</a>..In 
++00000510: 7468 6520 6675 7475 7265 2c20 3c61 2068  the future, <a h
++00000520: 7265 663d 2268 7474 7073 3a2f 2f77 7777  ref="https://www
++00000530: 2e79 6f75 7475 6265 2e63 6f6d 2f77 6174  .youtube.com/wat
++00000540: 6368 3f76 3d6f 6c4e 766d 5543 6d59 386f  ch?v=olNvmUCmY8o
++00000550: 223e 7468 6973 206d 6f76 6965 2063 6c69  ">this movie cli
++00000560: 703c 2f61 3e20 776f 756c 6420 6e6f 206c  p</a> would no l
++00000570: 6f6e 6765 7220 6d61 6b65 2061 6e79 2073  onger make any s
++00000580: 656e 7365 2e20 596f 7520 776f 756c 6420  ense. You would 
++00000590: 6a75 7374 2070 726f 6d70 7420 616e 2041  just prompt an A
++000005a0: 4920 696e 7374 6561 642e 0a0a 2323 2041  I instead...## A
++000005b0: 7070 7265 6369 6174 696f 6e0a 0a2d 203c  ppreciation..- <
++000005c0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++000005d0: 7374 6162 696c 6974 792e 6169 2f22 3e53  stability.ai/">S
++000005e0: 7461 6269 6c69 7479 2e61 693c 2f61 3e20  tability.ai</a> 
++000005f0: 666f 7220 7468 6520 6765 6e65 726f 7573  for the generous
++00000600: 2073 706f 6e73 6f72 7368 6970 2074 6f20   sponsorship to 
++00000610: 776f 726b 2061 6e64 206f 7065 6e20 736f  work and open so
++00000620: 7572 6365 2063 7574 7469 6e67 2065 6467  urce cutting edg
++00000630: 6520 6172 7469 6669 6369 616c 2069 6e74  e artificial int
++00000640: 656c 6c69 6765 6e63 6520 7265 7365 6172  elligence resear
++00000650: 6368 0a0a 2d20 3c61 2068 7265 663d 2268  ch..- <a href="h
++00000660: 7474 7073 3a2f 2f68 7567 6769 6e67 6661  ttps://huggingfa
++00000670: 6365 2e63 6f2f 223e f09f a497 2048 7567  ce.co/">.... Hug
++00000680: 6769 6e67 6661 6365 3c2f 613e 2066 6f72  gingface</a> for
++00000690: 2074 6865 6972 2061 6d61 7a69 6e67 2061   their amazing a
++000006a0: 6363 656c 6572 6174 6520 616e 6420 7472  ccelerate and tr
++000006b0: 616e 7366 6f72 6d65 7273 206c 6962 7261  ansformers libra
++000006c0: 7269 6573 0a0a 2d20 3c61 2068 7265 663d  ries..- <a href=
++000006d0: 2268 7474 7073 3a2f 2f61 692e 6661 6365  "https://ai.face
++000006e0: 626f 6f6b 2e63 6f6d 2f22 3e4d 6574 6141  book.com/">MetaA
++000006f0: 493c 2f61 3e20 666f 7220 3c61 2068 7265  I</a> for <a hre
++00000700: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00000710: 622e 636f 6d2f 6661 6365 626f 6f6b 7265  b.com/facebookre
++00000720: 7365 6172 6368 2f66 6169 7273 6571 223e  search/fairseq">
++00000730: 4661 6972 7365 713c 2f61 3e20 616e 6420  Fairseq</a> and 
++00000740: 7468 6520 6c69 6265 7261 6c20 6c69 6365  the liberal lice
++00000750: 6e73 650a 0a2d 203c 6120 6872 6566 3d22  nse..- <a href="
++00000760: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00000770: 6f6d 2f65 6f6e 676c 696e 7473 223e 4065  om/eonglints">@e
++00000780: 6f6e 676c 696e 7473 3c2f 613e 2061 6e64  onglints</a> and
++00000790: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
++000007a0: 2f2f 6769 7468 7562 2e63 6f6d 2f74 7572  //github.com/tur
++000007b0: 6961 6e22 3e4a 6f73 6570 683c 2f61 3e20  ian">Joseph</a> 
++000007c0: 666f 7220 6f66 6665 7269 6e67 2074 6865  for offering the
++000007d0: 6972 2070 726f 6665 7373 696f 6e61 6c20  ir professional 
++000007e0: 6164 7669 6365 2061 6e64 2065 7870 6572  advice and exper
++000007f0: 7469 7365 2061 7320 7765 6c6c 2061 7320  tise as well as 
++00000800: 7075 6c6c 2072 6571 7565 7374 7321 0a0a  pull requests!..
++00000810: 2d20 3c61 2068 7265 663d 2268 7474 7073  - <a href="https
++00000820: 3a2f 2f67 6974 6875 622e 636f 6d2f 646a  ://github.com/dj
++00000830: 7175 616c 6961 223e 4064 6a71 7561 6c69  qualia">@djquali
++00000840: 613c 2f61 3e2c 203c 6120 6872 6566 3d22  a</a>, <a href="
++00000850: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00000860: 6f6d 2f79 6967 6974 7975 223e 4079 6967  om/yigityu">@yig
++00000870: 6974 7975 3c2f 613e 2c20 3c61 2068 7265  ityu</a>, <a hre
++00000880: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00000890: 622e 636f 6d2f 696e 7370 6972 6974 223e  b.com/inspirit">
++000008a0: 4069 6e73 7069 7269 743c 2f61 3e2c 2061  @inspirit</a>, a
++000008b0: 6e64 203c 6120 6872 6566 3d22 6874 7470  nd <a href="http
++000008c0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f42  s://github.com/B
++000008d0: 6c61 636b 466f 7831 3139 3722 3e40 426c  lackFox1197">@Bl
++000008e0: 6163 6b46 6f78 3131 3937 3c2f 613e 2066  ackFox1197</a> f
++000008f0: 6f72 2068 656c 7069 6e67 2077 6974 6820  or helping with 
++00000900: 7468 6520 6465 6275 6767 696e 6720 6f66  the debugging of
++00000910: 2073 6f75 6e64 7374 7265 616d 0a0a 2d20   soundstream..- 
++00000920: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00000930: 2f67 6974 6875 622e 636f 6d2f 7a68 766e  /github.com/zhvn
++00000940: 6722 3e41 6c6c 656e 3c2f 613e 2061 6e64  g">Allen</a> and
++00000950: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
++00000960: 2f2f 6769 7468 7562 2e63 6f6d 2f4c 5770  //github.com/LWp
++00000970: 726f 6772 616d 6d69 6e67 223e 4c57 7072  rogramming">LWpr
++00000980: 6f67 7261 6d6d 696e 673c 2f61 3e20 666f  ogramming</a> fo
++00000990: 7220 7265 7669 6577 696e 6720 7468 6520  r reviewing the 
++000009a0: 636f 6465 2061 6e64 2073 7562 6d69 7474  code and submitt
++000009b0: 696e 6720 6275 6720 6669 7865 7321 0a0a  ing bug fixes!..
++000009c0: 2d20 3c61 2068 7265 663d 2268 7474 7073  - <a href="https
++000009d0: 3a2f 2f67 6974 6875 622e 636f 6d2f 696c  ://github.com/il
++000009e0: 7961 3136 223e 496c 7961 3c2f 613e 2066  ya16">Ilya</a> f
++000009f0: 6f72 2066 696e 6469 6e67 2061 6e20 6973  or finding an is
++00000a00: 7375 6520 7769 7468 206d 756c 7469 2d73  sue with multi-s
++00000a10: 6361 6c65 2064 6973 6372 696d 696e 6174  cale discriminat
++00000a20: 6f72 2064 6f77 6e73 616d 706c 696e 6720  or downsampling 
++00000a30: 616e 6420 666f 7220 736f 756e 6473 7472  and for soundstr
++00000a40: 6561 6d20 7472 6169 6e65 7220 696d 7072  eam trainer impr
++00000a50: 6f76 656d 656e 7473 0a0a 2d20 3c61 2068  ovements..- <a h
++00000a60: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00000a70: 6875 622e 636f 6d2f 416e 6472 6579 426f  hub.com/AndreyBo
++00000a80: 6368 6172 6e69 6b6f 7622 3e41 6e64 7265  charnikov">Andre
++00000a90: 793c 2f61 3e20 666f 7220 6964 656e 7469  y</a> for identi
++00000aa0: 6679 696e 6720 6120 6d69 7373 696e 6720  fying a missing 
++00000ab0: 6c6f 7373 2069 6e20 736f 756e 6473 7472  loss in soundstr
++00000ac0: 6561 6d20 616e 6420 6775 6964 696e 6720  eam and guiding 
++00000ad0: 6d65 2074 6872 6f75 6768 2074 6865 2070  me through the p
++00000ae0: 726f 7065 7220 6d65 6c20 7370 6563 7472  roper mel spectr
++00000af0: 6f67 7261 6d20 6879 7065 7270 6172 616d  ogram hyperparam
++00000b00: 6574 6572 730a 0a2d 203c 6120 6872 6566  eters..- <a href
++00000b10: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00000b20: 2e63 6f6d 2f61 6c65 7864 656d 6172 746f  .com/alexdemarto
++00000b30: 7322 3e41 6c65 6a61 6e64 726f 3c2f 613e  s">Alejandro</a>
++00000b40: 2061 6e64 203c 6120 6872 6566 3d22 6874   and <a href="ht
++00000b50: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00000b60: 2f69 6c79 6131 3622 3e49 6c79 613c 2f61  /ilya16">Ilya</a
++00000b70: 3e20 666f 7220 7368 6172 696e 6720 7468  > for sharing th
++00000b80: 6569 7220 7265 7375 6c74 7320 7769 7468  eir results with
++00000b90: 2074 7261 696e 696e 6720 736f 756e 6473   training sounds
++00000ba0: 7472 6561 6d2c 2061 6e64 2066 6f72 2077  tream, and for w
++00000bb0: 6f72 6b69 6e67 2074 6872 6f75 6768 2061  orking through a
++00000bc0: 2066 6577 2069 7373 7565 7320 7769 7468   few issues with
++00000bd0: 2074 6865 206c 6f63 616c 2061 7474 656e   the local atten
++00000be0: 7469 6f6e 2070 6f73 6974 696f 6e61 6c20  tion positional 
++00000bf0: 656d 6265 6464 696e 6773 0a0a 2d20 3c61  embeddings..- <a
++00000c00: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00000c10: 6974 6875 622e 636f 6d2f 4c57 7072 6f67  ithub.com/LWprog
++00000c20: 7261 6d6d 696e 6722 3e4c 5770 726f 6772  ramming">LWprogr
++00000c30: 616d 6d69 6e67 3c2f 613e 2066 6f72 2061  amming</a> for a
++00000c40: 6464 696e 6720 456e 636f 6465 6320 636f  dding Encodec co
++00000c50: 6d70 6174 6962 696c 6974 7921 0a0a 2d20  mpatibility!..- 
++00000c60: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00000c70: 2f67 6974 6875 622e 636f 6d2f 596f 756e  /github.com/Youn
++00000c80: 676c 6f4c 6565 223e 4059 6f75 6e67 6c6f  gloLee">@Younglo
++00000c90: 4c65 653c 2f61 3e20 666f 7220 6964 656e  Lee</a> for iden
++00000ca0: 7469 6679 696e 6720 6120 6269 6720 6275  tifying a big bu
++00000cb0: 6720 696e 2074 6865 2031 6420 6361 7573  g in the 1d caus
++00000cc0: 616c 2063 6f6e 766f 6c75 7469 6f6e 2066  al convolution f
++00000cd0: 6f72 2073 6f75 6e64 7374 7265 616d 2072  or soundstream r
++00000ce0: 656c 6174 6564 2074 6f20 7061 6464 696e  elated to paddin
++00000cf0: 6720 6e6f 7420 6163 636f 756e 7469 6e67  g not accounting
++00000d00: 2066 6f72 2073 7472 6964 6573 210a 0a23   for strides!..#
++00000d10: 2320 496e 7374 616c 6c0a 0a60 6060 6261  # Install..```ba
++00000d20: 7368 0a24 2070 6970 2069 6e73 7461 6c6c  sh.$ pip install
++00000d30: 2061 7564 696f 6c6d 2d70 7974 6f72 6368   audiolm-pytorch
++00000d40: 0a60 6060 0a0a 2323 2055 7361 6765 0a0a  .```..## Usage..
++00000d50: 2323 2320 536f 756e 6453 7472 6561 6d20  ### SoundStream 
++00000d60: 2620 456e 636f 6465 630a 0a54 6865 7265  & Encodec..There
++00000d70: 2061 7265 2074 776f 206f 7074 696f 6e73   are two options
++00000d80: 2066 6f72 2074 6865 206e 6575 7261 6c20   for the neural 
++00000d90: 636f 6465 632e 2049 6620 796f 7520 7761  codec. If you wa
++00000da0: 6e74 2074 6f20 7573 6520 7468 6520 7072  nt to use the pr
++00000db0: 6574 7261 696e 6564 2032 346b 487a 2045  etrained 24kHz E
++00000dc0: 6e63 6f64 6563 2c20 6a75 7374 2063 7265  ncodec, just cre
++00000dd0: 6174 6520 616e 2045 6e63 6f64 6563 206f  ate an Encodec o
++00000de0: 626a 6563 7420 6173 2066 6f6c 6c6f 7773  bject as follows
++00000df0: 3a0a 6060 6070 7974 686f 6e0a 6672 6f6d  :.```python.from
++00000e00: 2061 7564 696f 6c6d 5f70 7974 6f72 6368   audiolm_pytorch
++00000e10: 2069 6d70 6f72 7420 456e 636f 6465 6357   import EncodecW
++00000e20: 7261 7070 6572 0a65 6e63 6f64 6563 203d  rapper.encodec =
++00000e30: 2045 6e63 6f64 6563 5772 6170 7065 7228   EncodecWrapper(
++00000e40: 290a 2320 4e6f 7720 796f 7520 6361 6e20  ).# Now you can 
++00000e50: 7573 6520 7468 6520 656e 636f 6465 6320  use the encodec 
++00000e60: 7661 7269 6162 6c65 2069 6e20 7468 6520  variable in the 
++00000e70: 7361 6d65 2077 6179 2079 6f75 2764 2075  same way you'd u
++00000e80: 7365 2074 6865 2073 6f75 6e64 7374 7265  se the soundstre
++00000e90: 616d 2076 6172 6961 626c 6573 2062 656c  am variables bel
++00000ea0: 6f77 2e0a 6060 600a 0a4f 7468 6572 7769  ow..```..Otherwi
++00000eb0: 7365 2c20 746f 2073 7461 7920 6d6f 7265  se, to stay more
++00000ec0: 2074 7275 6520 746f 2074 6865 206f 7269   true to the ori
++00000ed0: 6769 6e61 6c20 7061 7065 722c 2079 6f75  ginal paper, you
++00000ee0: 2063 616e 2075 7365 2060 536f 756e 6453   can use `SoundS
++00000ef0: 7472 6561 6d60 2e20 4669 7273 742c 2060  tream`. First, `
++00000f00: 536f 756e 6453 7472 6561 6d60 206e 6565  SoundStream` nee
++00000f10: 6473 2074 6f20 6265 2074 7261 696e 6564  ds to be trained
++00000f20: 206f 6e20 6120 6c61 7267 6520 636f 7270   on a large corp
++00000f30: 7573 206f 6620 6175 6469 6f20 6461 7461  us of audio data
++00000f40: 0a0a 6060 6070 7974 686f 6e0a 6672 6f6d  ..```python.from
++00000f50: 2061 7564 696f 6c6d 5f70 7974 6f72 6368   audiolm_pytorch
++00000f60: 2069 6d70 6f72 7420 536f 756e 6453 7472   import SoundStr
++00000f70: 6561 6d2c 2053 6f75 6e64 5374 7265 616d  eam, SoundStream
++00000f80: 5472 6169 6e65 720a 0a73 6f75 6e64 7374  Trainer..soundst
++00000f90: 7265 616d 203d 2053 6f75 6e64 5374 7265  ream = SoundStre
++00000fa0: 616d 280a 2020 2020 636f 6465 626f 6f6b  am(.    codebook
++00000fb0: 5f73 697a 6520 3d20 3130 3234 2c0a 2020  _size = 1024,.  
++00000fc0: 2020 7271 5f6e 756d 5f71 7561 6e74 697a    rq_num_quantiz
++00000fd0: 6572 7320 3d20 382c 0a20 2020 2072 715f  ers = 8,.    rq_
++00000fe0: 6772 6f75 7073 203d 2032 2c20 2020 2020  groups = 2,     
++00000ff0: 2020 2020 2020 2020 2020 2023 2074 6869             # thi
++00001000: 7320 7061 7065 7220 7072 6f70 6f73 6573  s paper proposes
++00001010: 2075 7369 6e67 206d 756c 7469 2d68 6561   using multi-hea
++00001020: 6465 6420 7265 7369 6475 616c 2076 6563  ded residual vec
++00001030: 746f 7220 7175 616e 7469 7a61 7469 6f6e  tor quantization
++00001040: 202d 2068 7474 7073 3a2f 2f61 7278 6976   - https://arxiv
++00001050: 2e6f 7267 2f61 6273 2f32 3330 352e 3032  .org/abs/2305.02
++00001060: 3736 350a 2020 2020 6174 746e 5f77 696e  765.    attn_win
++00001070: 646f 775f 7369 7a65 203d 2031 3238 2c20  dow_size = 128, 
++00001080: 2020 2020 2020 2320 6c6f 6361 6c20 6174        # local at
++00001090: 7465 6e74 696f 6e20 7265 6365 7074 6976  tention receptiv
++000010a0: 6520 6669 656c 6420 6174 2062 6f74 746c  e field at bottl
++000010b0: 656e 6563 6b0a 2020 2020 6174 746e 5f64  eneck.    attn_d
++000010c0: 6570 7468 203d 2032 2020 2020 2020 2020  epth = 2        
++000010d0: 2020 2020 2020 2020 2320 3220 6c6f 6361          # 2 loca
++000010e0: 6c20 6174 7465 6e74 696f 6e20 7472 616e  l attention tran
++000010f0: 7366 6f72 6d65 7220 626c 6f63 6b73 202d  sformer blocks -
++00001100: 2074 6865 2073 6f75 6e64 7374 7265 616d   the soundstream
++00001110: 2066 6f6c 6b73 2077 6572 6520 6e6f 7420   folks were not 
++00001120: 6578 7065 7274 7320 7769 7468 2061 7474  experts with att
++00001130: 656e 7469 6f6e 2c20 736f 2069 2074 6f6f  ention, so i too
++00001140: 6b20 7468 6520 6c69 6265 7274 7920 746f  k the liberty to
++00001150: 2061 6464 2073 6f6d 652e 2065 6e63 6f64   add some. encod
++00001160: 6563 2077 656e 7420 7769 7468 206c 7374  ec went with lst
++00001170: 6d73 2c20 6275 7420 6174 7465 6e74 696f  ms, but attentio
++00001180: 6e20 7368 6f75 6c64 2062 6520 6265 7474  n should be bett
++00001190: 6572 0a29 0a0a 7472 6169 6e65 7220 3d20  er.)..trainer = 
++000011a0: 536f 756e 6453 7472 6561 6d54 7261 696e  SoundStreamTrain
++000011b0: 6572 280a 2020 2020 736f 756e 6473 7472  er(.    soundstr
++000011c0: 6561 6d2c 0a20 2020 2066 6f6c 6465 7220  eam,.    folder 
++000011d0: 3d20 272f 7061 7468 2f74 6f2f 6175 6469  = '/path/to/audi
++000011e0: 6f2f 6669 6c65 7327 2c0a 2020 2020 6261  o/files',.    ba
++000011f0: 7463 685f 7369 7a65 203d 2034 2c0a 2020  tch_size = 4,.  
++00001200: 2020 6772 6164 5f61 6363 756d 5f65 7665    grad_accum_eve
++00001210: 7279 203d 2038 2c20 2020 2020 2020 2020  ry = 8,         
++00001220: 2320 6566 6665 6374 6976 6520 6261 7463  # effective batc
++00001230: 6820 7369 7a65 206f 6620 3332 0a20 2020  h size of 32.   
++00001240: 2064 6174 615f 6d61 785f 6c65 6e67 7468   data_max_length
++00001250: 5f73 6563 6f6e 6473 203d 2032 2c20 2023  _seconds = 2,  #
++00001260: 2074 7261 696e 206f 6e20 3220 7365 636f   train on 2 seco
++00001270: 6e64 2061 7564 696f 0a20 2020 206e 756d  nd audio.    num
++00001280: 5f74 7261 696e 5f73 7465 7073 203d 2031  _train_steps = 1
++00001290: 5f30 3030 5f30 3030 0a29 2e63 7564 6128  _000_000.).cuda(
++000012a0: 290a 0a74 7261 696e 6572 2e74 7261 696e  )..trainer.train
++000012b0: 2829 0a0a 2320 6166 7465 7220 6120 6c6f  ()..# after a lo
++000012c0: 7420 6f66 2074 7261 696e 696e 672c 2079  t of training, y
++000012d0: 6f75 2063 616e 2074 6573 7420 7468 6520  ou can test the 
++000012e0: 6175 746f 656e 636f 6469 6e67 2061 7320  autoencoding as 
++000012f0: 736f 0a0a 6175 6469 6f20 3d20 746f 7263  so..audio = torc
++00001300: 682e 7261 6e64 6e28 3130 3038 3029 2e63  h.randn(10080).c
++00001310: 7564 6128 290a 7265 636f 6e73 203d 2073  uda().recons = s
++00001320: 6f75 6e64 7374 7265 616d 2861 7564 696f  oundstream(audio
++00001330: 2c20 7265 7475 726e 5f72 6563 6f6e 735f  , return_recons_
++00001340: 6f6e 6c79 203d 2054 7275 6529 2023 2028  only = True) # (
++00001350: 312c 2031 3030 3830 2920 2d20 3120 6368  1, 10080) - 1 ch
++00001360: 616e 6e65 6c0a 6060 600a 0a59 6f75 2063  annel.```..You c
++00001370: 616e 2061 6c73 6f20 7573 6520 736f 756e  an also use soun
++00001380: 6473 7472 6561 6d73 2074 6861 7420 6172  dstreams that ar
++00001390: 6520 7370 6563 6966 6963 2074 6f20 6041  e specific to `A
++000013a0: 7564 696f 4c4d 6020 616e 6420 604d 7573  udioLM` and `Mus
++000013b0: 6963 4c4d 6020 6279 2069 6d70 6f72 7469  icLM` by importi
++000013c0: 6e67 2060 4175 6469 6f4c 4d53 6f75 6e64  ng `AudioLMSound
++000013d0: 5374 7265 616d 6020 616e 6420 604d 7573  Stream` and `Mus
++000013e0: 6963 4c4d 536f 756e 6453 7472 6561 6d60  icLMSoundStream`
++000013f0: 2072 6573 7065 6374 6976 656c 790a 0a60   respectively..`
++00001400: 6060 7079 7468 6f6e 0a66 726f 6d20 6175  ``python.from au
++00001410: 6469 6f6c 6d5f 7079 746f 7263 6820 696d  diolm_pytorch im
++00001420: 706f 7274 2041 7564 696f 4c4d 536f 756e  port AudioLMSoun
++00001430: 6453 7472 6561 6d2c 204d 7573 6963 4c4d  dStream, MusicLM
++00001440: 536f 756e 6453 7472 6561 6d0a 0a73 6f75  SoundStream..sou
++00001450: 6e64 7374 7265 616d 203d 2041 7564 696f  ndstream = Audio
++00001460: 4c4d 536f 756e 6453 7472 6561 6d28 2e2e  LMSoundStream(..
++00001470: 2e29 2023 2073 6179 2079 6f75 2077 616e  .) # say you wan
++00001480: 7420 7468 6520 6879 7065 7270 6172 616d  t the hyperparam
++00001490: 6574 6572 7320 6173 2069 6e20 4175 6469  eters as in Audi
++000014a0: 6f20 4c4d 2070 6170 6572 0a0a 2320 7265  o LM paper..# re
++000014b0: 7374 2069 7320 7468 6520 7361 6d65 2061  st is the same a
++000014c0: 7320 6162 6f76 650a 6060 600a 0a41 7320  s above.```..As 
++000014d0: 6f66 2076 6572 7369 6f6e 2060 302e 3137  of version `0.17
++000014e0: 2e30 602c 2079 6f75 2063 616e 206e 6f77  .0`, you can now
++000014f0: 2069 6e76 6f6b 6520 7468 6520 636c 6173   invoke the clas
++00001500: 7320 6d65 7468 6f64 206f 6e20 6053 6f75  s method on `Sou
++00001510: 6e64 5374 7265 616d 6020 746f 206c 6f61  ndStream` to loa
++00001520: 6420 6672 6f6d 2063 6865 636b 706f 696e  d from checkpoin
++00001530: 7420 6669 6c65 732c 2077 6974 686f 7574  t files, without
++00001540: 2068 6176 696e 6720 746f 2072 656d 656d   having to remem
++00001550: 6265 7220 796f 7572 2063 6f6e 6669 6775  ber your configu
++00001560: 7261 7469 6f6e 732e 0a0a 6060 6070 7974  rations...```pyt
++00001570: 686f 6e0a 6672 6f6d 2061 7564 696f 6c6d  hon.from audiolm
++00001580: 5f70 7974 6f72 6368 2069 6d70 6f72 7420  _pytorch import 
++00001590: 536f 756e 6453 7472 6561 6d0a 0a73 6f75  SoundStream..sou
++000015a0: 6e64 7374 7265 616d 203d 2053 6f75 6e64  ndstream = Sound
++000015b0: 5374 7265 616d 2e69 6e69 745f 616e 645f  Stream.init_and_
++000015c0: 6c6f 6164 5f66 726f 6d28 272e 2f70 6174  load_from('./pat
++000015d0: 682f 746f 2f63 6865 636b 706f 696e 742e  h/to/checkpoint.
++000015e0: 7074 2729 0a60 6060 0a0a 2323 2320 4869  pt').```..### Hi
++000015f0: 6572 6172 6368 6963 616c 2054 7261 6e73  erarchical Trans
++00001600: 666f 726d 6572 730a 0a54 6865 6e20 7468  formers..Then th
++00001610: 7265 6520 7365 7061 7261 7465 2074 7261  ree separate tra
++00001620: 6e73 666f 726d 6572 7320 2860 5365 6d61  nsformers (`Sema
++00001630: 6e74 6963 5472 616e 7366 6f72 6d65 7260  nticTransformer`
++00001640: 2c20 6043 6f61 7273 6554 7261 6e73 666f  , `CoarseTransfo
++00001650: 726d 6572 602c 2060 4669 6e65 5472 616e  rmer`, `FineTran
++00001660: 7366 6f72 6d65 7260 2920 6e65 6564 2074  sformer`) need t
++00001670: 6f20 6265 2074 7261 696e 6564 0a0a 0a65  o be trained...e
++00001680: 782e 2060 5365 6d61 6e74 6963 5472 616e  x. `SemanticTran
++00001690: 7366 6f72 6d65 7260 0a0a 6060 6070 7974  sformer`..```pyt
++000016a0: 686f 6e0a 696d 706f 7274 2074 6f72 6368  hon.import torch
++000016b0: 0a66 726f 6d20 6175 6469 6f6c 6d5f 7079  .from audiolm_py
++000016c0: 746f 7263 6820 696d 706f 7274 2048 7562  torch import Hub
++000016d0: 6572 7457 6974 684b 6d65 616e 732c 2053  ertWithKmeans, S
++000016e0: 656d 616e 7469 6354 7261 6e73 666f 726d  emanticTransform
++000016f0: 6572 2c20 5365 6d61 6e74 6963 5472 616e  er, SemanticTran
++00001700: 7366 6f72 6d65 7254 7261 696e 6572 0a0a  sformerTrainer..
++00001710: 2320 6875 6265 7274 2063 6865 636b 706f  # hubert checkpo
++00001720: 696e 7473 2063 616e 2062 6520 646f 776e  ints can be down
++00001730: 6c6f 6164 6564 2061 740a 2320 6874 7470  loaded at.# http
++00001740: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f66  s://github.com/f
++00001750: 6163 6562 6f6f 6b72 6573 6561 7263 682f  acebookresearch/
++00001760: 6661 6972 7365 712f 7472 6565 2f6d 6169  fairseq/tree/mai
++00001770: 6e2f 6578 616d 706c 6573 2f68 7562 6572  n/examples/huber
++00001780: 740a 0a77 6176 3276 6563 203d 2048 7562  t..wav2vec = Hub
++00001790: 6572 7457 6974 684b 6d65 616e 7328 0a20  ertWithKmeans(. 
++000017a0: 2020 2063 6865 636b 706f 696e 745f 7061     checkpoint_pa
++000017b0: 7468 203d 2027 2e2f 6875 6265 7274 2f68  th = './hubert/h
++000017c0: 7562 6572 745f 6261 7365 5f6c 7339 3630  ubert_base_ls960
++000017d0: 2e70 7427 2c0a 2020 2020 6b6d 6561 6e73  .pt',.    kmeans
++000017e0: 5f70 6174 6820 3d20 272e 2f68 7562 6572  _path = './huber
++000017f0: 742f 6875 6265 7274 5f62 6173 655f 6c73  t/hubert_base_ls
++00001800: 3936 305f 4c39 5f6b 6d35 3030 2e62 696e  960_L9_km500.bin
++00001810: 270a 290a 0a73 656d 616e 7469 635f 7472  '.)..semantic_tr
++00001820: 616e 7366 6f72 6d65 7220 3d20 5365 6d61  ansformer = Sema
++00001830: 6e74 6963 5472 616e 7366 6f72 6d65 7228  nticTransformer(
++00001840: 0a20 2020 206e 756d 5f73 656d 616e 7469  .    num_semanti
++00001850: 635f 746f 6b65 6e73 203d 2077 6176 3276  c_tokens = wav2v
++00001860: 6563 2e63 6f64 6562 6f6f 6b5f 7369 7a65  ec.codebook_size
++00001870: 2c0a 2020 2020 6469 6d20 3d20 3130 3234  ,.    dim = 1024
++00001880: 2c0a 2020 2020 6465 7074 6820 3d20 360a  ,.    depth = 6.
++00001890: 292e 6375 6461 2829 0a0a 0a74 7261 696e  ).cuda()...train
++000018a0: 6572 203d 2053 656d 616e 7469 6354 7261  er = SemanticTra
++000018b0: 6e73 666f 726d 6572 5472 6169 6e65 7228  nsformerTrainer(
++000018c0: 0a20 2020 2074 7261 6e73 666f 726d 6572  .    transformer
++000018d0: 203d 2073 656d 616e 7469 635f 7472 616e   = semantic_tran
++000018e0: 7366 6f72 6d65 722c 0a20 2020 2077 6176  sformer,.    wav
++000018f0: 3276 6563 203d 2077 6176 3276 6563 2c0a  2vec = wav2vec,.
++00001900: 2020 2020 666f 6c64 6572 203d 272f 7061      folder ='/pa
++00001910: 7468 2f74 6f2f 6175 6469 6f2f 6669 6c65  th/to/audio/file
++00001920: 7327 2c0a 2020 2020 6261 7463 685f 7369  s',.    batch_si
++00001930: 7a65 203d 2031 2c0a 2020 2020 6461 7461  ze = 1,.    data
++00001940: 5f6d 6178 5f6c 656e 6774 6820 3d20 3332  _max_length = 32
++00001950: 3020 2a20 3332 2c0a 2020 2020 6e75 6d5f  0 * 32,.    num_
++00001960: 7472 6169 6e5f 7374 6570 7320 3d20 310a  train_steps = 1.
++00001970: 290a 0a74 7261 696e 6572 2e74 7261 696e  )..trainer.train
++00001980: 2829 0a60 6060 0a0a 6578 2e20 6043 6f61  ().```..ex. `Coa
++00001990: 7273 6554 7261 6e73 666f 726d 6572 600a  rseTransformer`.
++000019a0: 0a60 6060 7079 7468 6f6e 0a69 6d70 6f72  .```python.impor
++000019b0: 7420 746f 7263 680a 6672 6f6d 2061 7564  t torch.from aud
++000019c0: 696f 6c6d 5f70 7974 6f72 6368 2069 6d70  iolm_pytorch imp
++000019d0: 6f72 7420 4875 6265 7274 5769 7468 4b6d  ort HubertWithKm
++000019e0: 6561 6e73 2c20 536f 756e 6453 7472 6561  eans, SoundStrea
++000019f0: 6d2c 2043 6f61 7273 6554 7261 6e73 666f  m, CoarseTransfo
++00001a00: 726d 6572 2c20 436f 6172 7365 5472 616e  rmer, CoarseTran
++00001a10: 7366 6f72 6d65 7254 7261 696e 6572 0a0a  sformerTrainer..
++00001a20: 7761 7632 7665 6320 3d20 4875 6265 7274  wav2vec = Hubert
++00001a30: 5769 7468 4b6d 6561 6e73 280a 2020 2020  WithKmeans(.    
++00001a40: 6368 6563 6b70 6f69 6e74 5f70 6174 6820  checkpoint_path 
++00001a50: 3d20 272e 2f68 7562 6572 742f 6875 6265  = './hubert/hube
++00001a60: 7274 5f62 6173 655f 6c73 3936 302e 7074  rt_base_ls960.pt
++00001a70: 272c 0a20 2020 206b 6d65 616e 735f 7061  ',.    kmeans_pa
++00001a80: 7468 203d 2027 2e2f 6875 6265 7274 2f68  th = './hubert/h
++00001a90: 7562 6572 745f 6261 7365 5f6c 7339 3630  ubert_base_ls960
++00001aa0: 5f4c 395f 6b6d 3530 302e 6269 6e27 0a29  _L9_km500.bin'.)
++00001ab0: 0a0a 736f 756e 6473 7472 6561 6d20 3d20  ..soundstream = 
++00001ac0: 536f 756e 6453 7472 6561 6d2e 696e 6974  SoundStream.init
++00001ad0: 5f61 6e64 5f6c 6f61 645f 6672 6f6d 2827  _and_load_from('
++00001ae0: 2f70 6174 682f 746f 2f74 7261 696e 6564  /path/to/trained
++00001af0: 2f73 6f75 6e64 7374 7265 616d 2e70 7427  /soundstream.pt'
++00001b00: 290a 0a63 6f61 7273 655f 7472 616e 7366  )..coarse_transf
++00001b10: 6f72 6d65 7220 3d20 436f 6172 7365 5472  ormer = CoarseTr
++00001b20: 616e 7366 6f72 6d65 7228 0a20 2020 206e  ansformer(.    n
++00001b30: 756d 5f73 656d 616e 7469 635f 746f 6b65  um_semantic_toke
++00001b40: 6e73 203d 2077 6176 3276 6563 2e63 6f64  ns = wav2vec.cod
++00001b50: 6562 6f6f 6b5f 7369 7a65 2c0a 2020 2020  ebook_size,.    
++00001b60: 636f 6465 626f 6f6b 5f73 697a 6520 3d20  codebook_size = 
++00001b70: 3130 3234 2c0a 2020 2020 6e75 6d5f 636f  1024,.    num_co
++00001b80: 6172 7365 5f71 7561 6e74 697a 6572 7320  arse_quantizers 
++00001b90: 3d20 332c 0a20 2020 2064 696d 203d 2035  = 3,.    dim = 5
++00001ba0: 3132 2c0a 2020 2020 6465 7074 6820 3d20  12,.    depth = 
++00001bb0: 360a 290a 0a74 7261 696e 6572 203d 2043  6.)..trainer = C
++00001bc0: 6f61 7273 6554 7261 6e73 666f 726d 6572  oarseTransformer
++00001bd0: 5472 6169 6e65 7228 0a20 2020 2074 7261  Trainer(.    tra
++00001be0: 6e73 666f 726d 6572 203d 2063 6f61 7273  nsformer = coars
++00001bf0: 655f 7472 616e 7366 6f72 6d65 722c 0a20  e_transformer,. 
++00001c00: 2020 2063 6f64 6563 203d 2073 6f75 6e64     codec = sound
++00001c10: 7374 7265 616d 2c0a 2020 2020 7761 7632  stream,.    wav2
++00001c20: 7665 6320 3d20 7761 7632 7665 632c 0a20  vec = wav2vec,. 
++00001c30: 2020 2066 6f6c 6465 7220 3d20 272f 7061     folder = '/pa
++00001c40: 7468 2f74 6f2f 6175 6469 6f2f 6669 6c65  th/to/audio/file
++00001c50: 7327 2c0a 2020 2020 6261 7463 685f 7369  s',.    batch_si
++00001c60: 7a65 203d 2031 2c0a 2020 2020 6461 7461  ze = 1,.    data
++00001c70: 5f6d 6178 5f6c 656e 6774 6820 3d20 3332  _max_length = 32
++00001c80: 3020 2a20 3332 2c0a 2020 2020 6e75 6d5f  0 * 32,.    num_
++00001c90: 7472 6169 6e5f 7374 6570 7320 3d20 315f  train_steps = 1_
++00001ca0: 3030 305f 3030 300a 290a 0a74 7261 696e  000_000.)..train
++00001cb0: 6572 2e74 7261 696e 2829 0a60 6060 0a0a  er.train().```..
++00001cc0: 6578 2e20 6046 696e 6554 7261 6e73 666f  ex. `FineTransfo
++00001cd0: 726d 6572 600a 0a60 6060 7079 7468 6f6e  rmer`..```python
++00001ce0: 0a69 6d70 6f72 7420 746f 7263 680a 6672  .import torch.fr
++00001cf0: 6f6d 2061 7564 696f 6c6d 5f70 7974 6f72  om audiolm_pytor
++00001d00: 6368 2069 6d70 6f72 7420 536f 756e 6453  ch import SoundS
++00001d10: 7472 6561 6d2c 2046 696e 6554 7261 6e73  tream, FineTrans
++00001d20: 666f 726d 6572 2c20 4669 6e65 5472 616e  former, FineTran
++00001d30: 7366 6f72 6d65 7254 7261 696e 6572 0a0a  sformerTrainer..
++00001d40: 736f 756e 6473 7472 6561 6d20 3d20 536f  soundstream = So
++00001d50: 756e 6453 7472 6561 6d2e 696e 6974 5f61  undStream.init_a
++00001d60: 6e64 5f6c 6f61 645f 6672 6f6d 2827 2f70  nd_load_from('/p
++00001d70: 6174 682f 746f 2f74 7261 696e 6564 2f73  ath/to/trained/s
++00001d80: 6f75 6e64 7374 7265 616d 2e70 7427 290a  oundstream.pt').
++00001d90: 0a66 696e 655f 7472 616e 7366 6f72 6d65  .fine_transforme
++00001da0: 7220 3d20 4669 6e65 5472 616e 7366 6f72  r = FineTransfor
++00001db0: 6d65 7228 0a20 2020 206e 756d 5f63 6f61  mer(.    num_coa
++00001dc0: 7273 655f 7175 616e 7469 7a65 7273 203d  rse_quantizers =
++00001dd0: 2033 2c0a 2020 2020 6e75 6d5f 6669 6e65   3,.    num_fine
++00001de0: 5f71 7561 6e74 697a 6572 7320 3d20 352c  _quantizers = 5,
++00001df0: 0a20 2020 2063 6f64 6562 6f6f 6b5f 7369  .    codebook_si
++00001e00: 7a65 203d 2031 3032 342c 0a20 2020 2064  ze = 1024,.    d
++00001e10: 696d 203d 2035 3132 2c0a 2020 2020 6465  im = 512,.    de
++00001e20: 7074 6820 3d20 360a 290a 0a74 7261 696e  pth = 6.)..train
++00001e30: 6572 203d 2046 696e 6554 7261 6e73 666f  er = FineTransfo
++00001e40: 726d 6572 5472 6169 6e65 7228 0a20 2020  rmerTrainer(.   
++00001e50: 2074 7261 6e73 666f 726d 6572 203d 2066   transformer = f
++00001e60: 696e 655f 7472 616e 7366 6f72 6d65 722c  ine_transformer,
++00001e70: 0a20 2020 2063 6f64 6563 203d 2073 6f75  .    codec = sou
++00001e80: 6e64 7374 7265 616d 2c0a 2020 2020 666f  ndstream,.    fo
++00001e90: 6c64 6572 203d 2027 2f70 6174 682f 746f  lder = '/path/to
++00001ea0: 2f61 7564 696f 2f66 696c 6573 272c 0a20  /audio/files',. 
++00001eb0: 2020 2062 6174 6368 5f73 697a 6520 3d20     batch_size = 
++00001ec0: 312c 0a20 2020 2064 6174 615f 6d61 785f  1,.    data_max_
++00001ed0: 6c65 6e67 7468 203d 2033 3230 202a 2033  length = 320 * 3
++00001ee0: 322c 0a20 2020 206e 756d 5f74 7261 696e  2,.    num_train
++00001ef0: 5f73 7465 7073 203d 2031 5f30 3030 5f30  _steps = 1_000_0
++00001f00: 3030 0a29 0a0a 7472 6169 6e65 722e 7472  00.)..trainer.tr
++00001f10: 6169 6e28 290a 6060 600a 0a41 6c6c 2074  ain().```..All t
++00001f20: 6f67 6574 6865 7220 6e6f 770a 0a60 6060  ogether now..```
++00001f30: 7079 7468 6f6e 0a66 726f 6d20 6175 6469  python.from audi
++00001f40: 6f6c 6d5f 7079 746f 7263 6820 696d 706f  olm_pytorch impo
++00001f50: 7274 2041 7564 696f 4c4d 0a0a 6175 6469  rt AudioLM..audi
++00001f60: 6f6c 6d20 3d20 4175 6469 6f4c 4d28 0a20  olm = AudioLM(. 
++00001f70: 2020 2077 6176 3276 6563 203d 2077 6176     wav2vec = wav
++00001f80: 3276 6563 2c0a 2020 2020 636f 6465 6320  2vec,.    codec 
++00001f90: 3d20 736f 756e 6473 7472 6561 6d2c 0a20  = soundstream,. 
++00001fa0: 2020 2073 656d 616e 7469 635f 7472 616e     semantic_tran
++00001fb0: 7366 6f72 6d65 7220 3d20 7365 6d61 6e74  sformer = semant
++00001fc0: 6963 5f74 7261 6e73 666f 726d 6572 2c0a  ic_transformer,.
++00001fd0: 2020 2020 636f 6172 7365 5f74 7261 6e73      coarse_trans
++00001fe0: 666f 726d 6572 203d 2063 6f61 7273 655f  former = coarse_
++00001ff0: 7472 616e 7366 6f72 6d65 722c 0a20 2020  transformer,.   
++00002000: 2066 696e 655f 7472 616e 7366 6f72 6d65   fine_transforme
++00002010: 7220 3d20 6669 6e65 5f74 7261 6e73 666f  r = fine_transfo
++00002020: 726d 6572 0a29 0a0a 6765 6e65 7261 7465  rmer.)..generate
++00002030: 645f 7761 7620 3d20 6175 6469 6f6c 6d28  d_wav = audiolm(
++00002040: 6261 7463 685f 7369 7a65 203d 2031 290a  batch_size = 1).
++00002050: 0a23 206f 7220 7769 7468 2070 7269 6d69  .# or with primi
++00002060: 6e67 0a0a 6765 6e65 7261 7465 645f 7761  ng..generated_wa
++00002070: 765f 7769 7468 5f70 7269 6d65 203d 2061  v_with_prime = a
++00002080: 7564 696f 6c6d 2870 7269 6d65 5f77 6176  udiolm(prime_wav
++00002090: 6520 3d20 746f 7263 682e 7261 6e64 6e28  e = torch.randn(
++000020a0: 312c 2033 3230 202a 2038 2929 0a0a 2320  1, 320 * 8))..# 
++000020b0: 6f72 2077 6974 6820 7465 7874 2063 6f6e  or with text con
++000020c0: 6469 7469 6f6e 2c20 6966 2067 6976 656e  dition, if given
++000020d0: 0a0a 6765 6e65 7261 7465 645f 7761 765f  ..generated_wav_
++000020e0: 7769 7468 5f74 6578 745f 636f 6e64 6974  with_text_condit
++000020f0: 696f 6e20 3d20 6175 6469 6f6c 6d28 7465  ion = audiolm(te
++00002100: 7874 203d 205b 2763 6869 7270 696e 6720  xt = ['chirping 
++00002110: 6f66 2062 6972 6473 2061 6e64 2074 6865  of birds and the
++00002120: 2064 6973 7461 6e74 2065 6368 6f73 206f   distant echos o
++00002130: 6620 6265 6c6c 7327 5d29 0a0a 6060 600a  f bells'])..```.
++00002140: 0a23 2320 5465 7874 2043 6f6e 6469 7469  .## Text Conditi
++00002150: 6f6e 6564 2041 7564 696f 2053 796e 7468  oned Audio Synth
++00002160: 6573 6973 0a0a 5570 6461 7465 3a20 4c6f  esis..Update: Lo
++00002170: 6f6b 7320 6c69 6b65 2074 6869 7320 7769  oks like this wi
++00002180: 6c6c 2077 6f72 6b2c 2067 6976 656e 203c  ll work, given <
++00002190: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++000021a0: 7661 6c6c 652d 6465 6d6f 2e67 6974 6875  valle-demo.githu
++000021b0: 622e 696f 2f22 3e27 5641 4c4c 2d45 273c  b.io/">'VALL-E'<
++000021c0: 2f61 3e0a 0a65 782e 2053 656d 616e 7469  /a>..ex. Semanti
++000021d0: 6320 5472 616e 7366 6f72 6d65 720a 0a60  c Transformer..`
++000021e0: 6060 7079 7468 6f6e 0a69 6d70 6f72 7420  ``python.import 
++000021f0: 746f 7263 680a 6672 6f6d 2061 7564 696f  torch.from audio
++00002200: 6c6d 5f70 7974 6f72 6368 2069 6d70 6f72  lm_pytorch impor
++00002210: 7420 4875 6265 7274 5769 7468 4b6d 6561  t HubertWithKmea
++00002220: 6e73 2c20 5365 6d61 6e74 6963 5472 616e  ns, SemanticTran
++00002230: 7366 6f72 6d65 722c 2053 656d 616e 7469  sformer, Semanti
++00002240: 6354 7261 6e73 666f 726d 6572 5472 6169  cTransformerTrai
++00002250: 6e65 720a 0a77 6176 3276 6563 203d 2048  ner..wav2vec = H
++00002260: 7562 6572 7457 6974 684b 6d65 616e 7328  ubertWithKmeans(
++00002270: 0a20 2020 2063 6865 636b 706f 696e 745f  .    checkpoint_
++00002280: 7061 7468 203d 2027 2e2f 6875 6265 7274  path = './hubert
++00002290: 2f68 7562 6572 745f 6261 7365 5f6c 7339  /hubert_base_ls9
++000022a0: 3630 2e70 7427 2c0a 2020 2020 6b6d 6561  60.pt',.    kmea
++000022b0: 6e73 5f70 6174 6820 3d20 272e 2f68 7562  ns_path = './hub
++000022c0: 6572 742f 6875 6265 7274 5f62 6173 655f  ert/hubert_base_
++000022d0: 6c73 3936 305f 4c39 5f6b 6d35 3030 2e62  ls960_L9_km500.b
++000022e0: 696e 270a 290a 0a73 656d 616e 7469 635f  in'.)..semantic_
++000022f0: 7472 616e 7366 6f72 6d65 7220 3d20 5365  transformer = Se
++00002300: 6d61 6e74 6963 5472 616e 7366 6f72 6d65  manticTransforme
++00002310: 7228 0a20 2020 206e 756d 5f73 656d 616e  r(.    num_seman
++00002320: 7469 635f 746f 6b65 6e73 203d 2035 3030  tic_tokens = 500
++00002330: 2c0a 2020 2020 6469 6d20 3d20 3130 3234  ,.    dim = 1024
++00002340: 2c0a 2020 2020 6465 7074 6820 3d20 362c  ,.    depth = 6,
++00002350: 0a20 2020 2068 6173 5f63 6f6e 6469 7469  .    has_conditi
++00002360: 6f6e 203d 2054 7275 652c 2020 2020 2020  on = True,      
++00002370: 2020 2020 2020 2020 2023 2074 6869 7320           # this 
++00002380: 7769 6c6c 2068 6176 6520 746f 2062 6520  will have to be 
++00002390: 7365 7420 746f 2054 7275 650a 2020 2020  set to True.    
++000023a0: 636f 6e64 5f61 735f 7365 6c66 5f61 7474  cond_as_self_att
++000023b0: 6e5f 7072 6566 6978 203d 2054 7275 6520  n_prefix = True 
++000023c0: 2020 2020 2320 7768 6574 6865 7220 746f      # whether to
++000023d0: 2063 6f6e 6469 7469 6f6e 2061 7320 7072   condition as pr
++000023e0: 6566 6978 2074 6f20 7365 6c66 2061 7474  efix to self att
++000023f0: 656e 7469 6f6e 2c20 696e 7374 6561 6420  ention, instead 
++00002400: 6f66 2063 726f 7373 2061 7474 656e 7469  of cross attenti
++00002410: 6f6e 2c20 6173 2077 6173 2064 6f6e 6520  on, as was done 
++00002420: 696e 2027 5641 4c4c 2d45 2720 7061 7065  in 'VALL-E' pape
++00002430: 720a 292e 6375 6461 2829 0a0a 2320 6d6f  r.).cuda()..# mo
++00002440: 636b 2074 6578 7420 7669 6465 6f20 6461  ck text video da
++00002450: 7461 7365 7420 2861 7320 616e 2065 7861  taset (as an exa
++00002460: 6d70 6c65 290a 0a23 2079 6f75 2077 696c  mple)..# you wil
++00002470: 6c20 6861 7665 2074 6f20 6578 7465 6e64  l have to extend
++00002480: 2079 6f75 7220 6f77 6e20 6672 6f6d 2060   your own from `
++00002490: 4461 7461 7365 7460 2c20 616e 6420 7265  Dataset`, and re
++000024a0: 7475 726e 2061 6e20 6175 6469 6f20 7465  turn an audio te
++000024b0: 6e73 6f72 2061 7320 7765 6c6c 2061 7320  nsor as well as 
++000024c0: 6120 7374 7269 6e67 2028 7468 6520 6175  a string (the au
++000024d0: 6469 6f20 6465 7363 7269 7074 696f 6e29  dio description)
++000024e0: 2069 6e20 616e 7920 6f72 6465 7220 2874   in any order (t
++000024f0: 6865 2066 7261 6d65 776f 726b 2077 696c  he framework wil
++00002500: 6c20 6175 746f 6465 7465 6374 2061 6e64  l autodetect and
++00002510: 2072 6f75 7465 2069 7420 696e 746f 2074   route it into t
++00002520: 6865 2074 7261 6e73 666f 726d 6572 290a  he transformer).
++00002530: 0a66 726f 6d20 746f 7263 682e 7574 696c  .from torch.util
++00002540: 732e 6461 7461 2069 6d70 6f72 7420 4461  s.data import Da
++00002550: 7461 7365 740a 0a63 6c61 7373 204d 6f63  taset..class Moc
++00002560: 6b54 6578 7441 7564 696f 4461 7461 7365  kTextAudioDatase
++00002570: 7428 4461 7461 7365 7429 3a0a 2020 2020  t(Dataset):.    
++00002580: 6465 6620 5f5f 696e 6974 5f5f 2873 656c  def __init__(sel
++00002590: 662c 206c 656e 6774 6820 3d20 3130 302c  f, length = 100,
++000025a0: 2061 7564 696f 5f6c 656e 6774 6820 3d20   audio_length = 
++000025b0: 3332 3020 2a20 3332 293a 0a20 2020 2020  320 * 32):.     
++000025c0: 2020 2073 7570 6572 2829 2e5f 5f69 6e69     super().__ini
++000025d0: 745f 5f28 290a 2020 2020 2020 2020 7365  t__().        se
++000025e0: 6c66 2e61 7564 696f 5f6c 656e 6774 6820  lf.audio_length 
++000025f0: 3d20 6175 6469 6f5f 6c65 6e67 7468 0a20  = audio_length. 
++00002600: 2020 2020 2020 2073 656c 662e 6c65 6e20         self.len 
++00002610: 3d20 6c65 6e67 7468 0a0a 2020 2020 6465  = length..    de
++00002620: 6620 5f5f 6c65 6e5f 5f28 7365 6c66 293a  f __len__(self):
++00002630: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++00002640: 7365 6c66 2e6c 656e 0a0a 2020 2020 6465  self.len..    de
++00002650: 6620 5f5f 6765 7469 7465 6d5f 5f28 7365  f __getitem__(se
++00002660: 6c66 2c20 6964 7829 3a0a 2020 2020 2020  lf, idx):.      
++00002670: 2020 6d6f 636b 5f61 7564 696f 203d 2074    mock_audio = t
++00002680: 6f72 6368 2e72 616e 646e 2873 656c 662e  orch.randn(self.
++00002690: 6175 6469 6f5f 6c65 6e67 7468 290a 2020  audio_length).  
++000026a0: 2020 2020 2020 6d6f 636b 5f63 6170 7469        mock_capti
++000026b0: 6f6e 203d 2027 6175 6469 6f20 6361 7074  on = 'audio capt
++000026c0: 696f 6e27 0a20 2020 2020 2020 2072 6574  ion'.        ret
++000026d0: 7572 6e20 6d6f 636b 5f63 6170 7469 6f6e  urn mock_caption
++000026e0: 2c20 6d6f 636b 5f61 7564 696f 0a0a 6461  , mock_audio..da
++000026f0: 7461 7365 7420 3d20 4d6f 636b 5465 7874  taset = MockText
++00002700: 4175 6469 6f44 6174 6173 6574 2829 0a0a  AudioDataset()..
++00002710: 2320 696e 7374 616e 7469 6174 6520 7365  # instantiate se
++00002720: 6d61 6e74 6963 2074 7261 6e73 666f 726d  mantic transform
++00002730: 6572 2074 7261 696e 6572 2061 6e64 2074  er trainer and t
++00002740: 7261 696e 0a0a 7472 6169 6e65 7220 3d20  rain..trainer = 
++00002750: 5365 6d61 6e74 6963 5472 616e 7366 6f72  SemanticTransfor
++00002760: 6d65 7254 7261 696e 6572 280a 2020 2020  merTrainer(.    
++00002770: 7472 616e 7366 6f72 6d65 7220 3d20 7365  transformer = se
++00002780: 6d61 6e74 6963 5f74 7261 6e73 666f 726d  mantic_transform
++00002790: 6572 2c0a 2020 2020 7761 7632 7665 6320  er,.    wav2vec 
++000027a0: 3d20 7761 7632 7665 632c 0a20 2020 2064  = wav2vec,.    d
++000027b0: 6174 6173 6574 203d 2064 6174 6173 6574  ataset = dataset
++000027c0: 2c0a 2020 2020 6261 7463 685f 7369 7a65  ,.    batch_size
++000027d0: 203d 2034 2c0a 2020 2020 6772 6164 5f61   = 4,.    grad_a
++000027e0: 6363 756d 5f65 7665 7279 203d 2038 2c0a  ccum_every = 8,.
++000027f0: 2020 2020 6461 7461 5f6d 6178 5f6c 656e      data_max_len
++00002800: 6774 6820 3d20 3332 3020 2a20 3332 2c0a  gth = 320 * 32,.
++00002810: 2020 2020 6e75 6d5f 7472 6169 6e5f 7374      num_train_st
++00002820: 6570 7320 3d20 315f 3030 305f 3030 300a  eps = 1_000_000.
++00002830: 290a 0a74 7261 696e 6572 2e74 7261 696e  )..trainer.train
++00002840: 2829 0a0a 2320 6166 7465 7220 6d75 6368  ()..# after much
++00002850: 2074 7261 696e 696e 6720 6162 6f76 650a   training above.
++00002860: 0a73 616d 706c 6520 3d20 7472 6169 6e65  .sample = traine
++00002870: 722e 6765 6e65 7261 7465 2874 6578 7420  r.generate(text 
++00002880: 3d20 5b27 736f 756e 6420 6f66 2072 6169  = ['sound of rai
++00002890: 6e20 6472 6f70 7320 6f6e 2074 6865 2072  n drops on the r
++000028a0: 6f6f 6674 6f70 7327 5d2c 2062 6174 6368  ooftops'], batch
++000028b0: 5f73 697a 6520 3d20 312c 206d 6178 5f6c  _size = 1, max_l
++000028c0: 656e 6774 6820 3d20 3229 2023 2028 312c  ength = 2) # (1,
++000028d0: 203c 2031 3238 2920 2d20 6d61 7920 7465   < 128) - may te
++000028e0: 726d 696e 6174 6520 6561 726c 7920 6966  rminate early if
++000028f0: 2069 7420 6465 7465 6374 7320 5b65 6f73   it detects [eos
++00002900: 5d0a 0a60 6060 0a0a 2323 204d 756c 7469  ]..```..## Multi
++00002910: 2d47 5055 0a0a 4265 6361 7573 6520 616c  -GPU..Because al
++00002920: 6c20 7468 6520 7472 6169 6e65 7220 636c  l the trainer cl
++00002930: 6173 7365 7320 7573 6573 203c 6120 6872  asses uses <a hr
++00002940: 6566 3d22 6874 7470 733a 2f2f 6875 6767  ef="https://hugg
++00002950: 696e 6766 6163 652e 636f 2f64 6f63 732f  ingface.co/docs/
++00002960: 6163 6365 6c65 7261 7465 2f61 6363 656c  accelerate/accel
++00002970: 6572 6174 6f72 223e f09f a497 2041 6363  erator">.... Acc
++00002980: 656c 6572 6174 6f72 3c2f 613e 2c20 796f  elerator</a>, yo
++00002990: 7520 6361 6e20 6561 7369 6c79 2064 6f20  u can easily do 
++000029a0: 6d75 6c74 6920 6770 7520 7472 6169 6e69  multi gpu traini
++000029b0: 6e67 2062 7920 7573 696e 6720 7468 6520  ng by using the 
++000029c0: 6061 6363 656c 6572 6174 6560 2063 6f6d  `accelerate` com
++000029d0: 6d61 6e64 2061 7320 736f 0a0a 4174 2074  mand as so..At t
++000029e0: 6865 2070 726f 6a65 6374 2072 6f6f 740a  he project root.
++000029f0: 0a60 6060 7079 7468 6f6e 0a24 2061 6363  .```python.$ acc
++00002a00: 656c 6572 6174 6520 636f 6e66 6967 0a60  elerate config.`
++00002a10: 6060 0a0a 5468 656e 2c20 696e 2074 6865  ``..Then, in the
++00002a20: 2073 616d 6520 6469 7265 6374 6f72 790a   same directory.
++00002a30: 0a60 6060 7079 7468 6f6e 0a24 2061 6363  .```python.$ acc
++00002a40: 656c 6572 6174 6520 6c61 756e 6368 2074  elerate launch t
++00002a50: 7261 696e 2e70 790a 6060 600a 0a23 2320  rain.py.```..## 
++00002a60: 546f 646f 0a0a 2d20 5b78 5d20 636f 6d70  Todo..- [x] comp
++00002a70: 6c65 7465 2043 6f61 7273 6554 7261 6e73  lete CoarseTrans
++00002a80: 666f 726d 6572 0a2d 205b 785d 2075 7365  former.- [x] use
++00002a90: 2066 6169 7273 6571 2076 712d 7761 7632   fairseq vq-wav2
++00002aa0: 7665 6320 666f 7220 656d 6265 6464 696e  vec for embeddin
++00002ab0: 6773 0a2d 205b 785d 2061 6464 2063 6f6e  gs.- [x] add con
++00002ac0: 6469 7469 6f6e 696e 670a 2d20 5b78 5d20  ditioning.- [x] 
++00002ad0: 6164 6420 636c 6173 7369 6669 6572 2066  add classifier f
++00002ae0: 7265 6520 6775 6964 616e 6365 0a2d 205b  ree guidance.- [
++00002af0: 785d 2061 6464 2075 6e69 7175 6520 636f  x] add unique co
++00002b00: 6e73 6563 7574 6976 6520 666f 7220 0a2d  nsecutive for .-
++00002b10: 205b 785d 2069 6e63 6f72 706f 7261 7465   [x] incorporate
++00002b20: 2061 6269 6c69 7479 2074 6f20 7573 6520   ability to use 
++00002b30: 6875 6265 7274 2069 6e74 6572 6d65 6469  hubert intermedi
++00002b40: 6174 6520 6665 6174 7572 6573 2061 7320  ate features as 
++00002b50: 7365 6d61 6e74 6963 2074 6f6b 656e 732c  semantic tokens,
++00002b60: 2072 6563 6f6d 6d65 6e64 6564 2062 7920   recommended by 
++00002b70: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00002b80: 2f67 6974 6875 622e 636f 6d2f 6c75 6369  /github.com/luci
++00002b90: 6472 6169 6e73 2f61 7564 696f 6c6d 2d70  drains/audiolm-p
++00002ba0: 7974 6f72 6368 2f64 6973 6375 7373 696f  ytorch/discussio
++00002bb0: 6e73 2f31 3322 3e65 6f6e 676c 696e 7473  ns/13">eonglints
++00002bc0: 3c2f 613e 0a2d 205b 785d 2061 6363 6f6d  </a>.- [x] accom
++00002bd0: 6d6f 6461 7465 2076 6172 6961 626c 6520  modate variable 
++00002be0: 6c65 6e67 7468 6564 2061 7564 696f 2c20  lengthed audio, 
++00002bf0: 6272 696e 6720 696e 2065 6f73 2074 6f6b  bring in eos tok
++00002c00: 656e 0a2d 205b 785d 206d 616b 6520 7375  en.- [x] make su
++00002c10: 7265 2075 6e69 7175 6520 636f 6e73 6563  re unique consec
++00002c20: 7574 6976 6520 776f 726b 7320 7769 7468  utive works with
++00002c30: 2063 6f61 7273 6520 7472 616e 7366 6f72   coarse transfor
++00002c40: 6d65 720a 2d20 5b78 5d20 7072 6574 7479  mer.- [x] pretty
++00002c50: 2070 7269 6e74 696e 6720 616c 6c20 6469   printing all di
++00002c60: 7363 7269 6d69 6e61 746f 7220 6c6f 7373  scriminator loss
++00002c70: 6573 2074 6f20 6c6f 670a 2d20 5b78 5d20  es to log.- [x] 
++00002c80: 6861 6e64 6c65 2077 6865 6e20 6765 6e65  handle when gene
++00002c90: 7261 7469 6e67 2073 656d 616e 7469 6320  rating semantic 
++00002ca0: 746f 6b65 6e73 2c20 7468 6174 206c 6173  tokens, that las
++00002cb0: 7420 6c6f 6769 7473 206d 6179 206e 6f74  t logits may not
++00002cc0: 2062 6520 6e65 6365 7373 6172 696c 7920   be necessarily 
++00002cd0: 7468 6520 6c61 7374 2069 6e20 7468 6520  the last in the 
++00002ce0: 7365 7175 656e 6365 2067 6976 656e 2075  sequence given u
++00002cf0: 6e69 7175 6520 636f 6e73 6563 7574 6976  nique consecutiv
++00002d00: 6520 7072 6f63 6573 7369 6e67 0a2d 205b  e processing.- [
++00002d10: 785d 2063 6f6d 706c 6574 6520 7361 6d70  x] complete samp
++00002d20: 6c69 6e67 2063 6f64 6520 666f 7220 626f  ling code for bo
++00002d30: 7468 2043 6f61 7273 6520 616e 6420 4669  th Coarse and Fi
++00002d40: 6e65 2054 7261 6e73 666f 726d 6572 732c  ne Transformers,
++00002d50: 2077 6869 6368 2077 696c 6c20 6265 2074   which will be t
++00002d60: 7269 636b 790a 2d20 5b78 5d20 6d61 6b65  ricky.- [x] make
++00002d70: 2073 7572 6520 6675 6c6c 2069 6e66 6572   sure full infer
++00002d80: 656e 6365 2077 6974 6820 6f72 2077 6974  ence with or wit
++00002d90: 686f 7574 2070 726f 6d70 7469 6e67 2077  hout prompting w
++00002da0: 6f72 6b73 206f 6e20 7468 6520 6041 7564  orks on the `Aud
++00002db0: 696f 4c4d 6020 636c 6173 730a 2d20 5b78  ioLM` class.- [x
++00002dc0: 5d20 636f 6d70 6c65 7465 2066 756c 6c20  ] complete full 
++00002dd0: 7472 6169 6e69 6e67 2063 6f64 6520 666f  training code fo
++00002de0: 7220 736f 756e 6473 7472 6561 6d2c 2074  r soundstream, t
++00002df0: 616b 696e 6720 6361 7265 206f 6620 6469  aking care of di
++00002e00: 7363 7269 6d69 6e61 746f 7220 7472 6169  scriminator trai
++00002e10: 6e69 6e67 0a2d 205b 785d 2061 6464 2065  ning.- [x] add e
++00002e20: 6666 6963 6965 6e74 2067 7261 6469 656e  fficient gradien
++00002e30: 7420 7065 6e61 6c74 7920 666f 7220 6469  t penalty for di
++00002e40: 7363 7269 6d69 6e61 746f 7273 2066 6f72  scriminators for
++00002e50: 2073 6f75 6e64 7374 7265 616d 0a2d 205b   soundstream.- [
++00002e60: 785d 2077 6972 6520 7570 2073 616d 706c  x] wire up sampl
++00002e70: 6520 687a 2066 726f 6d20 736f 756e 6420  e hz from sound 
++00002e80: 6461 7461 7365 7420 2d3e 2074 7261 6e73  dataset -> trans
++00002e90: 666f 726d 6572 732c 2061 6e64 2068 6176  formers, and hav
++00002ea0: 6520 7072 6f70 6572 2072 6573 616d 706c  e proper resampl
++00002eb0: 696e 6720 7769 7468 696e 2064 7572 696e  ing within durin
++00002ec0: 6720 7472 6169 6e69 6e67 202d 2074 6869  g training - thi
++00002ed0: 6e6b 2061 626f 7574 2077 6865 7468 6572  nk about whether
++00002ee0: 2074 6f20 616c 6c6f 7720 666f 7220 6461   to allow for da
++00002ef0: 7461 7365 7420 746f 2068 6176 6520 736f  taset to have so
++00002f00: 756e 6420 6669 6c65 7320 6f66 2076 6172  und files of var
++00002f10: 7969 6e67 206f 7220 656e 666f 7263 6520  ying or enforce 
++00002f20: 7361 6d65 2073 616d 706c 6520 687a 0a2d  same sample hz.-
++00002f30: 205b 785d 2066 756c 6c20 7472 616e 7366   [x] full transf
++00002f40: 6f72 6d65 7220 7472 6169 6e69 6e67 2063  ormer training c
++00002f50: 6f64 6520 666f 7220 616c 6c20 7468 7265  ode for all thre
++00002f60: 6520 7472 616e 7366 6f72 6d65 7273 0a2d  e transformers.-
++00002f70: 205b 785d 2072 6566 6163 746f 7220 736f   [x] refactor so
++00002f80: 2073 656d 616e 7469 6320 7472 616e 7366   semantic transf
++00002f90: 6f72 6d65 7220 6861 7320 6120 7772 6170  ormer has a wrap
++00002fa0: 7065 7220 746f 2074 6861 7420 6861 6e64  per to that hand
++00002fb0: 6c65 7320 756e 6971 7565 2063 6f6e 7365  les unique conse
++00002fc0: 6375 7469 7665 7320 6173 2077 656c 6c20  cutives as well 
++00002fd0: 6173 2077 6176 2074 6f20 6875 6265 7274  as wav to hubert
++00002fe0: 206f 7220 7671 2d77 6176 3276 6563 0a2d   or vq-wav2vec.-
++00002ff0: 205b 785d 2073 696d 706c 7920 6e6f 7420   [x] simply not 
++00003000: 7365 6c66 2061 7474 656e 6420 746f 2065  self attend to e
++00003010: 6f73 2074 6f6b 656e 206f 6e20 7468 6520  os token on the 
++00003020: 7072 6f6d 7074 696e 6720 7369 6465 2028  prompting side (
++00003030: 7365 6d61 6e74 6963 2066 6f72 2063 6f61  semantic for coa
++00003040: 7273 6520 7472 616e 7366 6f72 6d65 722c  rse transformer,
++00003050: 2063 6f61 7273 6520 666f 7220 6669 6e65   coarse for fine
++00003060: 2074 7261 6e73 666f 726d 6572 290a 2d20   transformer).- 
++00003070: 5b78 5d20 6164 6420 7374 7275 6374 7572  [x] add structur
++00003080: 6564 2064 726f 706f 7574 2066 726f 6d20  ed dropout from 
++00003090: 666f 7267 6574 6675 6c20 6361 7573 616c  forgetful causal
++000030a0: 206d 6173 6b69 6e67 2c20 6661 7220 6265   masking, far be
++000030b0: 7474 6572 2074 6861 6e20 7472 6164 6974  tter than tradit
++000030c0: 696f 6e61 6c20 6472 6f70 6f75 7473 0a2d  ional dropouts.-
++000030d0: 205b 785d 2066 6967 7572 6520 6f75 7420   [x] figure out 
++000030e0: 686f 7720 746f 2073 7570 7072 6573 7320  how to suppress 
++000030f0: 6c6f 6767 696e 6720 696e 2066 6169 7273  logging in fairs
++00003100: 6571 0a2d 205b 785d 2061 7373 6572 7420  eq.- [x] assert 
++00003110: 7468 6174 2061 6c6c 2074 6872 6565 2074  that all three t
++00003120: 7261 6e73 666f 726d 6572 7320 7061 7373  ransformers pass
++00003130: 6564 2069 6e74 6f20 6175 6469 6f6c 6d20  ed into audiolm 
++00003140: 6973 2063 6f6d 7061 7469 626c 650a 2d20  is compatible.- 
++00003150: 5b78 5d20 616c 6c6f 7720 666f 7220 7370  [x] allow for sp
++00003160: 6563 6961 6c69 7a65 6420 7265 6c61 7469  ecialized relati
++00003170: 7665 2070 6f73 6974 696f 6e61 6c20 656d  ve positional em
++00003180: 6265 6464 696e 6773 2069 6e20 6669 6e65  beddings in fine
++00003190: 2074 7261 6e73 666f 726d 6572 2062 6173   transformer bas
++000031a0: 6564 206f 6e20 6162 736f 6c75 7465 206d  ed on absolute m
++000031b0: 6174 6368 696e 6720 706f 7369 7469 6f6e  atching position
++000031c0: 7320 6f66 2071 7561 6e74 697a 6572 7320  s of quantizers 
++000031d0: 6265 7477 6565 6e20 636f 6172 7365 2061  between coarse a
++000031e0: 6e64 2066 696e 650a 2d20 5b78 5d20 616c  nd fine.- [x] al
++000031f0: 6c6f 7720 666f 7220 6772 6f75 7065 6420  low for grouped 
++00003200: 7265 7369 6475 616c 2076 7120 696e 2073  residual vq in s
++00003210: 6f75 6e64 7374 7265 616d 2028 7573 6520  oundstream (use 
++00003220: 6047 726f 7570 6564 5265 7369 6475 616c  `GroupedResidual
++00003230: 5651 6020 6672 6f6d 2076 6563 746f 722d  VQ` from vector-
++00003240: 7175 616e 7469 7a65 2d70 7974 6f72 6368  quantize-pytorch
++00003250: 206c 6962 292c 2066 726f 6d20 3c61 2068   lib), from <a h
++00003260: 7265 663d 2268 7474 7073 3a2f 2f61 7278  ref="https://arx
++00003270: 6976 2e6f 7267 2f61 6273 2f32 3330 352e  iv.org/abs/2305.
++00003280: 3032 3736 3522 3e68 6966 692d 636f 6465  02765">hifi-code
++00003290: 633c 2f61 3e0a 0a2d 205b 205d 2072 6564  c</a>..- [ ] red
++000032a0: 6f20 7468 6520 706f 7369 7469 6f6e 616c  o the positional
++000032b0: 2065 6d62 6564 6469 6e67 7320 696e 2074   embeddings in t
++000032c0: 6865 2070 7265 7365 6e63 6520 6f66 2067  he presence of g
++000032d0: 726f 7570 7320 696e 2072 6573 6964 7561  roups in residua
++000032e0: 6c20 7671 0a2d 205b 205d 2074 6573 7420  l vq.- [ ] test 
++000032f0: 7769 7468 2073 7065 6563 6820 7379 6e74  with speech synt
++00003300: 6865 7369 7320 666f 7220 7374 6172 7465  hesis for starte
++00003310: 7273 0a2d 205b 205d 2063 6c69 2074 6f6f  rs.- [ ] cli too
++00003320: 6c2c 2073 6f6d 6574 6869 6e67 206c 696b  l, something lik
++00003330: 6520 6061 7564 696f 6c6d 2067 656e 6572  e `audiolm gener
++00003340: 6174 6520 3c77 6176 2e66 696c 6520 7c20  ate <wav.file | 
++00003350: 7465 7874 3e60 2061 6e64 2073 6176 6520  text>` and save 
++00003360: 6765 6e65 7261 7465 6420 7761 7620 6669  generated wav fi
++00003370: 6c65 2074 6f20 6c6f 6361 6c20 6469 7265  le to local dire
++00003380: 6374 6f72 790a 2d20 5b20 5d20 7265 7475  ctory.- [ ] retu
++00003390: 726e 2061 206c 6973 7420 6f66 2077 6176  rn a list of wav
++000033a0: 6573 2069 6e20 7468 6520 6361 7365 206f  es in the case o
++000033b0: 6620 7661 7269 6162 6c65 206c 656e 6774  f variable lengt
++000033c0: 6865 6420 6175 6469 6f0a 2d20 5b20 5d20  hed audio.- [ ] 
++000033d0: 6a75 7374 2074 616b 6520 6361 7265 206f  just take care o
++000033e0: 6620 7468 6520 6564 6765 2063 6173 6520  f the edge case 
++000033f0: 696e 2063 6f61 7273 6520 7472 616e 7366  in coarse transf
++00003400: 6f72 6d65 7220 7465 7874 2063 6f6e 6469  ormer text condi
++00003410: 7469 6f6e 6564 2074 7261 696e 696e 672c  tioned training,
++00003420: 2077 6865 7265 2074 6865 2072 6177 2077   where the raw w
++00003430: 6176 6520 6973 2072 6573 616d 706c 6564  ave is resampled
++00003440: 2061 7420 6469 6666 6572 656e 7420 6672   at different fr
++00003450: 6571 7565 6e63 6965 732e 2061 7574 6f64  equencies. autod
++00003460: 6574 6572 6d69 6e65 2068 6f77 2074 6f20  etermine how to 
++00003470: 726f 7574 6520 6261 7365 6420 6f6e 206c  route based on l
++00003480: 656e 6774 680a 0a23 2320 4369 7461 7469  ength..## Citati
++00003490: 6f6e 730a 0a60 6060 6269 6274 6578 0a40  ons..```bibtex.@
++000034a0: 696e 7072 6f63 6565 6469 6e67 737b 426f  inproceedings{Bo
++000034b0: 7273 6f73 3230 3232 4175 6469 6f4c 4d41  rsos2022AudioLMA
++000034c0: 4c2c 0a20 2074 6974 6c65 2020 3d20 7b41  L,.  title  = {A
++000034d0: 7564 696f 4c4d 3a20 6120 4c61 6e67 7561  udioLM: a Langua
++000034e0: 6765 204d 6f64 656c 696e 6720 4170 7072  ge Modeling Appr
++000034f0: 6f61 6368 2074 6f20 4175 6469 6f20 4765  oach to Audio Ge
++00003500: 6e65 7261 7469 6f6e 7d2c 0a20 2061 7574  neration},.  aut
++00003510: 686f 7220 3d20 7b5a 616c 7b5c 2761 7d6e  hor = {Zal{\'a}n
++00003520: 2042 6f72 736f 7320 616e 6420 5261 7068   Borsos and Raph
++00003530: 617b 5c22 657d 6c20 4d61 7269 6e69 6572  a{\"e}l Marinier
++00003540: 2061 6e64 2044 616d 6965 6e20 5669 6e63   and Damien Vinc
++00003550: 656e 7420 616e 6420 4575 6765 6e65 204b  ent and Eugene K
++00003560: 6861 7269 746f 6e6f 7620 616e 6420 4f6c  haritonov and Ol
++00003570: 6976 6965 7220 5069 6574 7175 696e 2061  ivier Pietquin a
++00003580: 6e64 204d 6174 7468 6577 2053 6861 7269  nd Matthew Shari
++00003590: 6669 2061 6e64 204f 6c69 7669 6572 2054  fi and Olivier T
++000035a0: 6562 6f75 6c20 616e 6420 4461 7669 6420  eboul and David 
++000035b0: 4772 616e 6769 6572 2061 6e64 204d 6172  Grangier and Mar
++000035c0: 636f 2054 6167 6c69 6173 6163 6368 6920  co Tagliasacchi 
++000035d0: 616e 6420 4e65 696c 205a 6567 6869 646f  and Neil Zeghido
++000035e0: 7572 7d2c 0a20 2079 6561 7220 2020 3d20  ur},.  year   = 
++000035f0: 7b32 3032 327d 0a7d 0a60 6060 0a0a 6060  {2022}.}.```..``
++00003600: 6062 6962 7465 780a 406d 6973 637b 6874  `bibtex.@misc{ht
++00003610: 7470 733a 2f2f 646f 692e 6f72 672f 3130  tps://doi.org/10
++00003620: 2e34 3835 3530 2f61 7278 6976 2e32 3130  .48550/arxiv.210
++00003630: 372e 3033 3331 322c 0a20 2074 6974 6c65  7.03312,.  title
++00003640: 2020 3d20 7b53 6f75 6e64 5374 7265 616d    = {SoundStream
++00003650: 3a20 416e 2045 6e64 2d74 6f2d 456e 6420  : An End-to-End 
++00003660: 4e65 7572 616c 2041 7564 696f 2043 6f64  Neural Audio Cod
++00003670: 6563 7d2c 0a20 2061 7574 686f 7220 3d20  ec},.  author = 
++00003680: 7b5a 6567 6869 646f 7572 2c20 4e65 696c  {Zeghidour, Neil
++00003690: 2061 6e64 204c 7565 6273 2c20 416c 656a   and Luebs, Alej
++000036a0: 616e 6472 6f20 616e 6420 4f6d 7261 6e2c  andro and Omran,
++000036b0: 2041 686d 6564 2061 6e64 2053 6b6f 676c   Ahmed and Skogl
++000036c0: 756e 642c 204a 616e 2061 6e64 2054 6167  und, Jan and Tag
++000036d0: 6c69 6173 6163 6368 692c 204d 6172 636f  liasacchi, Marco
++000036e0: 7d2c 0a20 2070 7562 6c69 7368 6572 203d  },.  publisher =
++000036f0: 207b 6172 5869 767d 2c0a 2020 7572 6c20   {arXiv},.  url 
++00003700: 2020 203d 207b 6874 7470 733a 2f2f 6172     = {https://ar
++00003710: 7869 762e 6f72 672f 6162 732f 3231 3037  xiv.org/abs/2107
++00003720: 2e30 3333 3132 7d2c 0a20 2079 6561 7220  .03312},.  year 
++00003730: 2020 3d20 7b32 3032 317d 0a7d 0a60 6060    = {2021}.}.```
++00003740: 0a0a 6060 6062 6962 7465 780a 406d 6973  ..```bibtex.@mis
++00003750: 637b 7368 617a 6565 7232 3032 3067 6c75  c{shazeer2020glu
++00003760: 2c0a 2020 2020 7469 746c 6520 2020 3d20  ,.    title   = 
++00003770: 7b47 4c55 2056 6172 6961 6e74 7320 496d  {GLU Variants Im
++00003780: 7072 6f76 6520 5472 616e 7366 6f72 6d65  prove Transforme
++00003790: 727d 2c0a 2020 2020 6175 7468 6f72 2020  r},.    author  
++000037a0: 3d20 7b4e 6f61 6d20 5368 617a 6565 727d  = {Noam Shazeer}
++000037b0: 2c0a 2020 2020 7965 6172 2020 2020 3d20  ,.    year    = 
++000037c0: 7b32 3032 307d 2c0a 2020 2020 7572 6c20  {2020},.    url 
++000037d0: 2020 2020 3d20 7b68 7474 7073 3a2f 2f61      = {https://a
++000037e0: 7278 6976 2e6f 7267 2f61 6273 2f32 3030  rxiv.org/abs/200
++000037f0: 322e 3035 3230 327d 0a7d 0a60 6060 0a0a  2.05202}.}.```..
++00003800: 6060 6062 6962 7465 780a 4061 7274 6963  ```bibtex.@artic
++00003810: 6c65 7b53 6861 7a65 6572 3230 3139 4661  le{Shazeer2019Fa
++00003820: 7374 5444 2c0a 2020 2020 7469 746c 6520  stTD,.    title 
++00003830: 2020 3d20 7b46 6173 7420 5472 616e 7366    = {Fast Transf
++00003840: 6f72 6d65 7220 4465 636f 6469 6e67 3a20  ormer Decoding: 
++00003850: 4f6e 6520 5772 6974 652d 4865 6164 2069  One Write-Head i
++00003860: 7320 416c 6c20 596f 7520 4e65 6564 7d2c  s All You Need},
++00003870: 0a20 2020 2061 7574 686f 7220 203d 207b  .    author  = {
++00003880: 4e6f 616d 204d 2e20 5368 617a 6565 727d  Noam M. Shazeer}
++00003890: 2c0a 2020 2020 6a6f 7572 6e61 6c20 3d20  ,.    journal = 
++000038a0: 7b41 7258 6976 7d2c 0a20 2020 2079 6561  {ArXiv},.    yea
++000038b0: 7220 2020 203d 207b 3230 3139 7d2c 0a20  r    = {2019},. 
++000038c0: 2020 2076 6f6c 756d 6520 203d 207b 6162     volume  = {ab
++000038d0: 732f 3139 3131 2e30 3231 3530 7d0a 7d0a  s/1911.02150}.}.
++000038e0: 6060 600a 0a60 6060 6269 6274 6578 0a40  ```..```bibtex.@
++000038f0: 6172 7469 636c 657b 486f 3230 3232 436c  article{Ho2022Cl
++00003900: 6173 7369 6669 6572 4672 6565 4447 2c0a  assifierFreeDG,.
++00003910: 2020 2020 7469 746c 6520 2020 3d20 7b43      title   = {C
++00003920: 6c61 7373 6966 6965 722d 4672 6565 2044  lassifier-Free D
++00003930: 6966 6675 7369 6f6e 2047 7569 6461 6e63  iffusion Guidanc
++00003940: 657d 2c0a 2020 2020 6175 7468 6f72 2020  e},.    author  
++00003950: 3d20 7b4a 6f6e 6174 6861 6e20 486f 7d2c  = {Jonathan Ho},
++00003960: 0a20 2020 206a 6f75 726e 616c 203d 207b  .    journal = {
++00003970: 4172 5869 767d 2c0a 2020 2020 7965 6172  ArXiv},.    year
++00003980: 2020 2020 3d20 7b32 3032 327d 2c0a 2020      = {2022},.  
++00003990: 2020 766f 6c75 6d65 2020 3d20 7b61 6273    volume  = {abs
++000039a0: 2f32 3230 372e 3132 3539 387d 0a7d 0a60  /2207.12598}.}.`
++000039b0: 6060 0a0a 6060 6062 6962 7465 780a 406d  ``..```bibtex.@m
++000039c0: 6973 637b 6372 6f77 736f 6e32 3032 322c  isc{crowson2022,
++000039d0: 0a20 2020 2061 7574 686f 7220 203d 207b  .    author  = {
++000039e0: 4b61 7468 6572 696e 6520 4372 6f77 736f  Katherine Crowso
++000039f0: 6e7d 2c0a 2020 2020 7572 6c20 2020 2020  n},.    url     
++00003a00: 3d20 7b68 7474 7073 3a2f 2f74 7769 7474  = {https://twitt
++00003a10: 6572 2e63 6f6d 2f72 6976 6572 7368 6176  er.com/rivershav
++00003a20: 6577 696e 6773 7d0a 7d0a 6060 600a 0a60  ewings}.}.```..`
++00003a30: 6060 6269 6274 6578 0a40 6d69 7363 7b64  ``bibtex.@misc{d
++00003a40: 696e 6732 3032 3163 6f67 7669 6577 2c0a  ing2021cogview,.
++00003a50: 2020 2020 7469 746c 6520 2020 3d20 7b43      title   = {C
++00003a60: 6f67 5669 6577 3a20 4d61 7374 6572 696e  ogView: Masterin
++00003a70: 6720 5465 7874 2d74 6f2d 496d 6167 6520  g Text-to-Image 
++00003a80: 4765 6e65 7261 7469 6f6e 2076 6961 2054  Generation via T
++00003a90: 7261 6e73 666f 726d 6572 737d 2c0a 2020  ransformers},.  
++00003aa0: 2020 6175 7468 6f72 2020 3d20 7b4d 696e    author  = {Min
++00003ab0: 6720 4469 6e67 2061 6e64 205a 6875 6f79  g Ding and Zhuoy
++00003ac0: 6920 5961 6e67 2061 6e64 2057 656e 7969  i Yang and Wenyi
++00003ad0: 2048 6f6e 6720 616e 6420 5765 6e64 6920   Hong and Wendi 
++00003ae0: 5a68 656e 6720 616e 6420 4368 616e 6720  Zheng and Chang 
++00003af0: 5a68 6f75 2061 6e64 2044 6120 5969 6e20  Zhou and Da Yin 
++00003b00: 616e 6420 4a75 6e79 616e 6720 4c69 6e20  and Junyang Lin 
++00003b10: 616e 6420 5875 205a 6f75 2061 6e64 205a  and Xu Zou and Z
++00003b20: 686f 7520 5368 616f 2061 6e64 2048 6f6e  hou Shao and Hon
++00003b30: 6778 6961 2059 616e 6720 616e 6420 4a69  gxia Yang and Ji
++00003b40: 6520 5461 6e67 7d2c 0a20 2020 2079 6561  e Tang},.    yea
++00003b50: 7220 2020 203d 207b 3230 3231 7d2c 0a20  r    = {2021},. 
++00003b60: 2020 2065 7072 696e 7420 203d 207b 3231     eprint  = {21
++00003b70: 3035 2e31 3332 3930 7d2c 0a20 2020 2061  05.13290},.    a
++00003b80: 7263 6869 7665 5072 6566 6978 203d 207b  rchivePrefix = {
++00003b90: 6172 5869 767d 2c0a 2020 2020 7072 696d  arXiv},.    prim
++00003ba0: 6172 7943 6c61 7373 203d 207b 6373 2e43  aryClass = {cs.C
++00003bb0: 567d 0a7d 0a60 6060 0a0a 6060 6062 6962  V}.}.```..```bib
++00003bc0: 7465 780a 4061 7274 6963 6c65 7b4c 6975  tex.@article{Liu
++00003bd0: 3230 3232 4643 4d46 432c 0a20 2020 2074  2022FCMFC,.    t
++00003be0: 6974 6c65 2020 203d 207b 4643 4d3a 2046  itle   = {FCM: F
++00003bf0: 6f72 6765 7466 756c 2043 6175 7361 6c20  orgetful Causal 
++00003c00: 4d61 736b 696e 6720 4d61 6b65 7320 4361  Masking Makes Ca
++00003c10: 7573 616c 204c 616e 6775 6167 6520 4d6f  usal Language Mo
++00003c20: 6465 6c73 2042 6574 7465 7220 5a65 726f  dels Better Zero
++00003c30: 2d53 686f 7420 4c65 6172 6e65 7273 7d2c  -Shot Learners},
++00003c40: 0a20 2020 2061 7574 686f 7220 203d 207b  .    author  = {
++00003c50: 4861 6f20 4c69 7520 616e 6420 5869 6e79  Hao Liu and Xiny
++00003c60: 616e 6720 4765 6e67 2061 6e64 204c 6973  ang Geng and Lis
++00003c70: 6120 4c65 6520 616e 6420 4967 6f72 204d  a Lee and Igor M
++00003c80: 6f72 6461 7463 6820 616e 6420 5365 7267  ordatch and Serg
++00003c90: 6579 204c 6576 696e 6520 616e 6420 5368  ey Levine and Sh
++00003ca0: 6172 616e 204e 6172 616e 6720 616e 6420  aran Narang and 
++00003cb0: 502e 2041 6262 6565 6c7d 2c0a 2020 2020  P. Abbeel},.    
++00003cc0: 6a6f 7572 6e61 6c20 3d20 7b41 7258 6976  journal = {ArXiv
++00003cd0: 7d2c 0a20 2020 2079 6561 7220 2020 203d  },.    year    =
++00003ce0: 207b 3230 3232 7d2c 0a20 2020 2076 6f6c   {2022},.    vol
++00003cf0: 756d 6520 203d 207b 6162 732f 3232 3130  ume  = {abs/2210
++00003d00: 2e31 3334 3332 7d0a 7d0a 6060 600a 0a60  .13432}.}.```..`
++00003d10: 6060 6269 6274 6578 0a40 696e 7072 6f63  ``bibtex.@inproc
++00003d20: 6565 6469 6e67 737b 616e 6f6e 796d 6f75  eedings{anonymou
++00003d30: 7332 3032 326e 6f72 6d66 6f72 6d65 722c  s2022normformer,
++00003d40: 0a20 2020 2074 6974 6c65 2020 203d 207b  .    title   = {
++00003d50: 4e6f 726d 466f 726d 6572 3a20 496d 7072  NormFormer: Impr
++00003d60: 6f76 6564 2054 7261 6e73 666f 726d 6572  oved Transformer
++00003d70: 2050 7265 7472 6169 6e69 6e67 2077 6974   Pretraining wit
++00003d80: 6820 4578 7472 6120 4e6f 726d 616c 697a  h Extra Normaliz
++00003d90: 6174 696f 6e7d 2c0a 2020 2020 6175 7468  ation},.    auth
++00003da0: 6f72 2020 3d20 7b41 6e6f 6e79 6d6f 7573  or  = {Anonymous
++00003db0: 7d2c 0a20 2020 2062 6f6f 6b74 6974 6c65  },.    booktitle
++00003dc0: 203d 207b 5375 626d 6974 7465 6420 746f   = {Submitted to
++00003dd0: 2054 6865 2054 656e 7468 2049 6e74 6572   The Tenth Inter
++00003de0: 6e61 7469 6f6e 616c 2043 6f6e 6665 7265  national Confere
++00003df0: 6e63 6520 6f6e 204c 6561 726e 696e 6720  nce on Learning 
++00003e00: 5265 7072 6573 656e 7461 7469 6f6e 7320  Representations 
++00003e10: 7d2c 0a20 2020 2079 6561 7220 2020 203d  },.    year    =
++00003e20: 207b 3230 3232 7d2c 0a20 2020 2075 726c   {2022},.    url
++00003e30: 2020 2020 203d 207b 6874 7470 733a 2f2f       = {https://
++00003e40: 6f70 656e 7265 7669 6577 2e6e 6574 2f66  openreview.net/f
++00003e50: 6f72 756d 3f69 643d 474d 5957 7a57 7a74  orum?id=GMYWzWzt
++00003e60: 4478 357d 2c0a 2020 2020 6e6f 7465 2020  Dx5},.    note  
++00003e70: 2020 3d20 7b75 6e64 6572 2072 6576 6965    = {under revie
++00003e80: 777d 0a7d 0a60 6060 0a0a 6060 6062 6962  w}.}.```..```bib
++00003e90: 7465 780a 4061 7274 6963 6c65 7b4c 6932  tex.@article{Li2
++00003ea0: 3032 314c 6f63 616c 5669 5442 4c2c 0a20  021LocalViTBL,. 
++00003eb0: 2020 2074 6974 6c65 2020 203d 207b 4c6f     title   = {Lo
++00003ec0: 6361 6c56 6954 3a20 4272 696e 6769 6e67  calViT: Bringing
++00003ed0: 204c 6f63 616c 6974 7920 746f 2056 6973   Locality to Vis
++00003ee0: 696f 6e20 5472 616e 7366 6f72 6d65 7273  ion Transformers
++00003ef0: 7d2c 0a20 2020 2061 7574 686f 7220 203d  },.    author  =
++00003f00: 207b 5961 7765 6920 4c69 2061 6e64 204b   {Yawei Li and K
++00003f10: 2e20 5a68 616e 6720 616e 6420 4a69 6520  . Zhang and Jie 
++00003f20: 4361 6f20 616e 6420 5261 6475 2054 696d  Cao and Radu Tim
++00003f30: 6f66 7465 2061 6e64 204c 7563 2056 616e  ofte and Luc Van
++00003f40: 2047 6f6f 6c7d 2c0a 2020 2020 6a6f 7572   Gool},.    jour
++00003f50: 6e61 6c20 3d20 7b41 7258 6976 7d2c 0a20  nal = {ArXiv},. 
++00003f60: 2020 2079 6561 7220 2020 203d 207b 3230     year    = {20
++00003f70: 3231 7d2c 0a20 2020 2076 6f6c 756d 6520  21},.    volume 
++00003f80: 203d 207b 6162 732f 3231 3034 2e30 3537   = {abs/2104.057
++00003f90: 3037 7d0a 7d0a 6060 600a 0a60 6060 6269  07}.}.```..```bi
++00003fa0: 6274 6578 0a40 6d69 7363 7b6c 6975 3230  btex.@misc{liu20
++00003fb0: 3231 7377 696e 2c0a 2020 2020 7469 746c  21swin,.    titl
++00003fc0: 6520 2020 3d20 7b53 7769 6e20 5472 616e  e   = {Swin Tran
++00003fd0: 7366 6f72 6d65 7220 5632 3a20 5363 616c  sformer V2: Scal
++00003fe0: 696e 6720 5570 2043 6170 6163 6974 7920  ing Up Capacity 
++00003ff0: 616e 6420 5265 736f 6c75 7469 6f6e 7d2c  and Resolution},
++00004000: 0a20 2020 2061 7574 686f 7220 203d 207b  .    author  = {
++00004010: 5a65 204c 6975 2061 6e64 2048 616e 2048  Ze Liu and Han H
++00004020: 7520 616e 6420 5975 746f 6e67 204c 696e  u and Yutong Lin
++00004030: 2061 6e64 205a 6875 6c69 616e 6720 5961   and Zhuliang Ya
++00004040: 6f20 616e 6420 5a68 656e 6461 2058 6965  o and Zhenda Xie
++00004050: 2061 6e64 2059 6978 7561 6e20 5765 6920   and Yixuan Wei 
++00004060: 616e 6420 4a69 6120 4e69 6e67 2061 6e64  and Jia Ning and
++00004070: 2059 7565 2043 616f 2061 6e64 205a 6865   Yue Cao and Zhe
++00004080: 6e67 205a 6861 6e67 2061 6e64 204c 6920  ng Zhang and Li 
++00004090: 446f 6e67 2061 6e64 2046 7572 7520 5765  Dong and Furu We
++000040a0: 6920 616e 6420 4261 696e 696e 6720 4775  i and Baining Gu
++000040b0: 6f7d 2c0a 2020 2020 7965 6172 2020 2020  o},.    year    
++000040c0: 3d20 7b32 3032 317d 2c0a 2020 2020 6570  = {2021},.    ep
++000040d0: 7269 6e74 2020 3d20 7b32 3131 312e 3039  rint  = {2111.09
++000040e0: 3838 337d 2c0a 2020 2020 6172 6368 6976  883},.    archiv
++000040f0: 6550 7265 6669 7820 3d20 7b61 7258 6976  ePrefix = {arXiv
++00004100: 7d2c 0a20 2020 2070 7269 6d61 7279 436c  },.    primaryCl
++00004110: 6173 7320 3d20 7b63 732e 4356 7d0a 7d0a  ass = {cs.CV}.}.
++00004120: 6060 600a 0a60 6060 6269 6274 6578 0a40  ```..```bibtex.@
++00004130: 696e 7072 6f63 6565 6469 6e67 737b 4d61  inproceedings{Ma
++00004140: 3230 3232 4d65 6761 4d41 2c0a 2020 2020  2022MegaMA,.    
++00004150: 7469 746c 6520 2020 3d20 7b4d 6567 613a  title   = {Mega:
++00004160: 204d 6f76 696e 6720 4176 6572 6167 6520   Moving Average 
++00004170: 4571 7569 7070 6564 2047 6174 6564 2041  Equipped Gated A
++00004180: 7474 656e 7469 6f6e 7d2c 0a20 2020 2061  ttention},.    a
++00004190: 7574 686f 7220 203d 207b 5875 657a 6865  uthor  = {Xuezhe
++000041a0: 204d 6120 616e 6420 4368 756e 7469 6e67   Ma and Chunting
++000041b0: 205a 686f 7520 616e 6420 5869 616e 6720   Zhou and Xiang 
++000041c0: 4b6f 6e67 2061 6e64 204a 756e 7869 616e  Kong and Junxian
++000041d0: 2048 6520 616e 6420 4c69 616e 676b 6520   He and Liangke 
++000041e0: 4775 6920 616e 6420 4772 6168 616d 204e  Gui and Graham N
++000041f0: 6575 6269 6720 616e 6420 4a6f 6e61 7468  eubig and Jonath
++00004200: 616e 204d 6179 2061 6e64 204c 756b 6520  an May and Luke 
++00004210: 5a65 7474 6c65 6d6f 7965 727d 2c0a 2020  Zettlemoyer},.  
++00004220: 2020 7965 6172 2020 2020 3d20 7b32 3032    year    = {202
++00004230: 327d 0a7d 0a60 6060 0a0a 6060 6062 6962  2}.}.```..```bib
++00004240: 7465 780a 406d 6973 637b 6769 6c6d 6572  tex.@misc{gilmer
++00004250: 3230 3233 696e 7472 6967 7569 6e67 0a20  2023intriguing. 
++00004260: 2020 2074 6974 6c65 2020 3d20 7b49 6e74     title  = {Int
++00004270: 7269 6775 696e 6720 5072 6f70 6572 7469  riguing Properti
++00004280: 6573 206f 6620 5472 616e 7366 6f72 6d65  es of Transforme
++00004290: 7220 5472 6169 6e69 6e67 2049 6e73 7461  r Training Insta
++000042a0: 6269 6c69 7469 6573 7d2c 0a20 2020 2061  bilities},.    a
++000042b0: 7574 686f 7220 3d20 7b4a 7573 7469 6e20  uthor = {Justin 
++000042c0: 4769 6c6d 6572 2c20 416e 6472 6561 2053  Gilmer, Andrea S
++000042d0: 6368 696f 7070 612c 2061 6e64 204a 6572  chioppa, and Jer
++000042e0: 656d 7920 436f 6865 6e7d 2c0a 2020 2020  emy Cohen},.    
++000042f0: 7965 6172 2020 203d 207b 3230 3233 7d2c  year   = {2023},
++00004300: 0a20 2020 2073 7461 7475 7320 3d20 7b74  .    status = {t
++00004310: 6f20 6265 2070 7562 6c69 7368 6564 202d  o be published -
++00004320: 206f 6e65 2061 7474 656e 7469 6f6e 2073   one attention s
++00004330: 7461 6269 6c69 7a61 7469 6f6e 2074 6563  tabilization tec
++00004340: 686e 6971 7565 2069 7320 6369 7263 756c  hnique is circul
++00004350: 6174 696e 6720 7769 7468 696e 2047 6f6f  ating within Goo
++00004360: 676c 6520 4272 6169 6e2c 2062 6569 6e67  gle Brain, being
++00004370: 2075 7365 6420 6279 206d 756c 7469 706c   used by multipl
++00004380: 6520 7465 616d 737d 0a7d 0a60 6060 0a0a  e teams}.}.```..
++00004390: 6060 6062 6962 7465 780a 4061 7274 6963  ```bibtex.@artic
++000043a0: 6c65 7b44 6566 6f73 7365 7a32 3032 3248  le{Defossez2022H
++000043b0: 6967 6846 4e2c 0a20 2020 2074 6974 6c65  ighFN,.    title
++000043c0: 2020 203d 207b 4869 6768 2046 6964 656c     = {High Fidel
++000043d0: 6974 7920 4e65 7572 616c 2041 7564 696f  ity Neural Audio
++000043e0: 2043 6f6d 7072 6573 7369 6f6e 7d2c 0a20   Compression},. 
++000043f0: 2020 2061 7574 686f 7220 203d 207b 416c     author  = {Al
++00004400: 6578 616e 6472 6520 4427 6566 6f73 7365  exandre D'efosse
++00004410: 7a20 616e 6420 4a61 6465 2043 6f70 6574  z and Jade Copet
++00004420: 2061 6e64 2047 6162 7269 656c 2053 796e   and Gabriel Syn
++00004430: 6e61 6576 6520 616e 6420 596f 7373 6920  naeve and Yossi 
++00004440: 4164 697d 2c0a 2020 2020 6a6f 7572 6e61  Adi},.    journa
++00004450: 6c20 3d20 7b41 7258 6976 7d2c 0a20 2020  l = {ArXiv},.   
++00004460: 2079 6561 7220 2020 203d 207b 3230 3232   year    = {2022
++00004470: 7d2c 0a20 2020 2076 6f6c 756d 6520 203d  },.    volume  =
++00004480: 207b 6162 732f 3232 3130 2e31 3334 3338   {abs/2210.13438
++00004490: 7d0a 7d0a 6060 600a 0a60 6060 6269 6274  }.}.```..```bibt
++000044a0: 6578 0a40 6172 7469 636c 657b 4875 3230  ex.@article{Hu20
++000044b0: 3137 5371 7565 657a 6561 6e64 4578 6369  17SqueezeandExci
++000044c0: 7461 7469 6f6e 4e2c 0a20 2020 2074 6974  tationN,.    tit
++000044d0: 6c65 2020 203d 207b 5371 7565 657a 652d  le   = {Squeeze-
++000044e0: 616e 642d 4578 6369 7461 7469 6f6e 204e  and-Excitation N
++000044f0: 6574 776f 726b 737d 2c0a 2020 2020 6175  etworks},.    au
++00004500: 7468 6f72 2020 3d20 7b4a 6965 2048 7520  thor  = {Jie Hu 
++00004510: 616e 6420 4c69 2053 6865 6e20 616e 6420  and Li Shen and 
++00004520: 4761 6e67 2053 756e 7d2c 0a20 2020 206a  Gang Sun},.    j
++00004530: 6f75 726e 616c 203d 207b 3230 3138 2049  ournal = {2018 I
++00004540: 4545 452f 4356 4620 436f 6e66 6572 656e  EEE/CVF Conferen
++00004550: 6365 206f 6e20 436f 6d70 7574 6572 2056  ce on Computer V
++00004560: 6973 696f 6e20 616e 6420 5061 7474 6572  ision and Patter
++00004570: 6e20 5265 636f 676e 6974 696f 6e7d 2c0a  n Recognition},.
++00004580: 2020 2020 7965 6172 2020 2020 3d20 7b32      year    = {2
++00004590: 3031 377d 2c0a 2020 2020 7061 6765 7320  017},.    pages 
++000045a0: 2020 3d20 7b37 3133 322d 3731 3431 7d0a    = {7132-7141}.
++000045b0: 7d0a 6060 600a 0a60 6060 6269 6274 6578  }.```..```bibtex
++000045c0: 0a40 696e 7072 6f63 6565 6469 6e67 737b  .@inproceedings{
++000045d0: 5961 6e67 3230 3233 4869 4669 436f 6465  Yang2023HiFiCode
++000045e0: 6347 562c 0a20 2020 2074 6974 6c65 2020  cGV,.    title  
++000045f0: 203d 207b 4869 4669 2d43 6f64 6563 3a20   = {HiFi-Codec: 
++00004600: 4772 6f75 702d 7265 7369 6475 616c 2056  Group-residual V
++00004610: 6563 746f 7220 7175 616e 7469 7a61 7469  ector quantizati
++00004620: 6f6e 2066 6f72 2048 6967 6820 4669 6465  on for High Fide
++00004630: 6c69 7479 2041 7564 696f 2043 6f64 6563  lity Audio Codec
++00004640: 7d2c 0a20 2020 2061 7574 686f 7220 203d  },.    author  =
++00004650: 207b 446f 6e67 6368 616f 2059 616e 6720   {Dongchao Yang 
++00004660: 616e 6420 536f 6e67 7869 616e 6720 4c69  and Songxiang Li
++00004670: 7520 616e 6420 526f 6e67 6a69 6520 4875  u and Rongjie Hu
++00004680: 616e 6720 616e 6420 4a69 6e63 6875 616e  ang and Jinchuan
++00004690: 2054 6961 6e20 616e 6420 4368 616f 2057   Tian and Chao W
++000046a0: 656e 6720 616e 6420 5975 6578 6961 6e20  eng and Yuexian 
++000046b0: 5a6f 757d 2c0a 2020 2020 7965 6172 2020  Zou},.    year  
++000046c0: 2020 3d20 7b32 3032 337d 0a7d 0a60 6060    = {2023}.}.```
++000046d0: 0a                                       .
+```
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/audiolm_pytorch.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/audiolm_pytorch.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -17,27 +17,36 @@
+ from audiolm_pytorch.hubert_kmeans import HubertWithKmeans
+ 
+ from audiolm_pytorch.t5 import t5_encode_text, get_encoded_dim, DEFAULT_T5_NAME
+ 
+ from torchaudio.functional import resample
+ 
+ from audiolm_pytorch.soundstream import SoundStream
++from audiolm_pytorch.encodec import EncodecWrapper
+ from audiolm_pytorch.utils import AudioConditionerBase
+ 
+ from tqdm import tqdm
+ 
+ # helper functions
+ 
+ def exists(val):
+     return val is not None
+ 
+ def default(val, d):
+     return val if exists(val) else d
+ 
++def always(val):
++    def inner(*args, **kwargs):
++        return val
++    return inner
++
+ def maybe(fn):
++    if not exists(fn):
++        return always(None)
++
+     @wraps(fn)
+     def inner(x, *args, **kwargs):
+         if not exists(x):
+             return x
+         return fn(x, *args, **kwargs)
+     return inner
+ 
+@@ -76,14 +85,17 @@
+     return t * alpha + t.detach() * (1 - alpha)
+ 
+ # sampling helpers
+ 
+ def log(t, eps = 1e-20):
+     return torch.log(t + eps)
+ 
++def l2norm(t):
++    return F.normalize(t, dim = -1)
++
+ def gumbel_noise(t):
+     noise = torch.zeros_like(t).uniform_(0, 1)
+     return -log(-log(noise))
+ 
+ def gumbel_sample(t, temperature = 1., dim = -1):
+     return ((t / temperature) + gumbel_noise(t)).argmax(dim = dim)
+ 
+@@ -183,15 +195,20 @@
+         self.net.append(nn.Sequential(nn.Linear(1, dim), nn.SiLU()))
+ 
+         for _ in range(layers - 1):
+             self.net.append(nn.Sequential(nn.Linear(dim, dim), nn.SiLU()))
+ 
+         self.net.append(nn.Linear(dim, heads))
+ 
+-    def forward(self, n, device = torch.device('cpu')):
++    @property
++    def device(self):
++        return next(self.parameters()).device
++
++    def forward(self, n):
++        device = self.device
+         pos = torch.arange(n, device = device)
+         rel_pos = (rearrange(pos, 'i -> i 1') - rearrange(pos, 'j -> 1 j'))
+         rel_pos += (n - 1)
+ 
+         x = torch.arange(-n + 1, n, device = device).float()
+         x = rearrange(x, '... -> ... 1')
+ 
+@@ -239,19 +256,20 @@
+         dim,
+         causal = False,
+         dim_head = 64,
+         dim_context = None,
+         heads = 8,
+         norm_context = False,
+         num_null_kv = 0,
+-        dropout = 0.1
++        dropout = 0.1,
++        scale = 8
+     ):
+         super().__init__()
+         self.heads = heads
+-        self.scale = dim_head ** -0.5
++        self.scale = scale
+         self.causal = causal
+         inner_dim = dim_head * heads
+ 
+         dim_context = default(dim_context, dim)
+ 
+         self.norm = LayerNorm(dim)
+         self.context_norm = LayerNorm(dim_context) if norm_context else nn.Identity()
+@@ -259,14 +277,18 @@
+         self.attn_dropout = nn.Dropout(dropout)
+ 
+         self.num_null_kv = num_null_kv
+         self.null_kv = nn.Parameter(torch.randn(2, num_null_kv, dim_head))
+ 
+         self.to_q = nn.Linear(dim, inner_dim, bias = False)
+         self.to_kv = nn.Linear(dim_context, dim_head * 2, bias = False)
++
++        self.q_scale = nn.Parameter(torch.ones(dim_head))
++        self.k_scale = nn.Parameter(torch.ones(dim_head))
++
+         self.to_out = nn.Sequential(
+             nn.Linear(inner_dim, dim, bias = False),
+             nn.Dropout(dropout)
+         )
+ 
+     def forward(
+         self,
+@@ -317,19 +339,23 @@
+             k = torch.cat((null_k, k), dim = -2)
+             v = torch.cat((null_v, v), dim = -2)
+ 
+         # split for multi-headed attention
+ 
+         q = rearrange(q, 'b n (h d) -> b h n d', h = self.heads)
+ 
+-        q = q * self.scale
++        # new technique, rmsnormed queries and keys, first used by 22B parameter model successfully https://arxiv.org/abs/2302.05442
++
++        q, k = map(l2norm, (q, k))
++        q = q * self.q_scale
++        k = k * self.k_scale
+ 
+         # similarities
+ 
+-        sim = einsum('b h i d, b j d -> b h i j', q, k)
++        sim = einsum('b h i d, b j d -> b h i j', q, k) * self.scale
+ 
+         if exists(attn_bias):
+             attn_bias = F.pad(attn_bias, (self.num_null_kv, 0), value = 0.)
+             sim = sim + attn_bias
+ 
+         if exists(mask):
+             mask = F.pad(mask, (self.num_null_kv, 0), value = True)
+@@ -366,27 +392,28 @@
+         heads,
+         dim_context = None,
+         cross_attend = False,
+         attn_dropout = 0.,
+         ff_dropout = 0.,
+         grad_shrink_alpha = 0.1,
+         cond_as_self_attn_prefix = False,
++        rel_pos_bias = True,
+         **kwargs
+     ):
+         super().__init__()
+         assert not (cross_attend and cond_as_self_attn_prefix)
+         self.dim_context = default(dim_context, dim)
+ 
+         self.cond_as_self_attn_prefix = cond_as_self_attn_prefix
+ 
+         self.grad_shrink = partial(grad_shrink, alpha = grad_shrink_alpha)
+ 
+         self.layers = nn.ModuleList([])
+ 
+-        self.rel_pos_bias = RelativePositionBias(dim = dim // 2, heads = heads)
++        self.rel_pos_bias = RelativePositionBias(dim = dim // 2, heads = heads) if rel_pos_bias else None
+ 
+         for _ in range(depth):
+             self.layers.append(nn.ModuleList([
+                 Attention(dim = dim, heads = heads, dropout = attn_dropout, causal = True, **kwargs),
+                 Attention(dim = dim, heads = heads, dropout = attn_dropout, dim_context = dim_context, num_null_kv = 1, norm_context = True, **kwargs) if cross_attend else None,
+                 FeedForward(dim = dim, dropout = ff_dropout)
+             ]))
+@@ -394,48 +421,52 @@
+         self.norm = LayerNorm(dim)
+ 
+     def forward(
+         self,
+         x,
+         self_attn_mask = None,
+         context = None,
+-        context_mask = None
++        context_mask = None,
++        attn_bias = None
+     ):
+         assert not (self.cond_as_self_attn_prefix and not exists(context))
+         assert not (exists(context) and context.shape[-1] != self.dim_context), f'you had specified a conditioning dimension of {self.dim_context}, yet what was received by the transformer has dimension of {context.shape[-1]}'
+ 
+         n, device = x.shape[1], x.device
+ 
+         x = self.grad_shrink(x) # from cogview paper, adopted by GLM 130B LLM, decreases likelihood of attention net instability
+ 
+-        rel_pos_bias = self.rel_pos_bias(n, device = device)
++        if exists(attn_bias):
++            rel_pos_bias = attn_bias
++        else:
++            rel_pos_bias = maybe(self.rel_pos_bias)(n)
+ 
+         self_attn_kwargs = dict()
+         if self.cond_as_self_attn_prefix:
+             self_attn_kwargs = dict(
+                 prefix_context = context,
+                 prefix_context_mask = context_mask
+             )
+ 
+         for attn, cross_attn, ff in self.layers:
+             x = attn(x, attn_bias = rel_pos_bias, mask = self_attn_mask, **self_attn_kwargs) + x
+ 
+             if exists(cross_attn):
+                 assert exists(context)
+ 
+-                x = cross_attn(x, context = context, mask = context_mask)
++                x = cross_attn(x, context = context, mask = context_mask) + x
+ 
+             x = ff(x) + x
+ 
+         return self.norm(x)
+ 
+ # the three hierarchical transformers
+ 
+-@beartype
+ class SemanticTransformer(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         *,
+         dim,
+         depth,
+         num_semantic_tokens,
+         heads = 8,
+@@ -444,15 +475,14 @@
+         t5_name = DEFAULT_T5_NAME,
+         cond_dim = None,
+         has_condition = False,
+         audio_text_condition = False,
+         cond_as_self_attn_prefix = False,
+         cond_drop_prob = 0.5,
+         grad_shrink_alpha = 0.1,
+-        pad_id = -1,
+         **kwargs
+     ):
+         super().__init__()
+         self.num_semantic_tokens = num_semantic_tokens
+ 
+         if audio_text_condition:
+             has_condition = True
+@@ -462,15 +492,14 @@
+         self.embed_text = partial(t5_encode_text, name = t5_name)
+         self.cond_drop_prob = cond_drop_prob
+ 
+         self.start_token = nn.Parameter(torch.randn(dim))
+ 
+         self.semantic_embedding = nn.Embedding(num_semantic_tokens + 1, dim)
+         self.eos_id = num_semantic_tokens
+-        self.pad_id = pad_id
+ 
+         text_dim = default(cond_dim, get_encoded_dim(t5_name))
+         self.proj_text_embed = nn.Linear(text_dim, dim, bias = False) if text_dim != dim else nn.Identity()
+ 
+         self.transformer = Transformer(
+             dim = dim,
+             depth = depth,
+@@ -499,14 +528,15 @@
+ 
+         if cond_scale == 1 or not self.has_condition:
+             return logits
+ 
+         null_logits = self.forward(*args, cond_drop_prob = 1., **kwargs)
+         return null_logits + (logits - null_logits) * cond_scale
+ 
++    @beartype
+     def forward(
+         self,
+         *,
+         ids = None,
+         return_loss = False,
+         text: Optional[List[str]] = None,
+         text_embeds = None,
+@@ -547,16 +577,16 @@
+ 
+         if exists(self_attn_mask):
+             self_attn_mask = F.pad(self_attn_mask, (1, 0), value = True)
+ 
+         tokens = self.transformer(tokens, context = text_embeds, self_attn_mask = self_attn_mask, context_mask = text_mask)
+         return self.to_logits(tokens)
+ 
+-@beartype
+ class CoarseTransformer(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         *,
+         codebook_size,
+         num_coarse_quantizers,
+         dim,
+         depth,
+@@ -589,19 +619,23 @@
+         self.coarse_start_token = nn.Parameter(torch.randn(dim))
+ 
+         self.semantic_eos_id = num_semantic_tokens
+         self.semantic_embedding = nn.Embedding(num_semantic_tokens + 1, dim)
+ 
+         self.coarse_eos_id = codebook_size
+         codebook_size_with_eos = codebook_size + 1
++
+         self.coarse_embedding = nn.Embedding(num_coarse_quantizers * codebook_size_with_eos, dim)
++        self.coarse_quantize_embedding = nn.Embedding(num_coarse_quantizers, dim)
+ 
+         text_dim = default(cond_dim, get_encoded_dim(t5_name))
+         self.proj_text_embed = nn.Linear(text_dim, dim, bias = False) if text_dim != dim else nn.Identity()
+ 
++        self.cross_attn_bias = nn.Parameter(torch.zeros(heads, 1, 1))
++
+         self.transformer = Transformer(
+             dim = dim,
+             depth = depth,
+             heads = heads,
+             attn_dropout = attn_dropout,
+             ff_dropout = ff_dropout,
+             cross_attend = has_condition and not cond_as_self_attn_prefix,
+@@ -636,26 +670,28 @@
+         scaled_semantic_logits = None
+         if exists(null_semantic_logits):
+             scaled_semantic_logits = null_semantic_logits + (semantic_logits - null_semantic_logits) * cond_scale
+ 
+         scaled_coarse_logits = null_coarse_logits + (coarse_logits - null_coarse_logits) * cond_scale
+         return scaled_semantic_logits, scaled_coarse_logits
+ 
++    @beartype
+     def forward(
+         self,
+         *,
+         semantic_token_ids,
+         coarse_token_ids,
+         self_attn_mask = None,
+         text: Optional[List[str]] = None,
+         text_embeds = None,
+         cond_drop_prob = None,
+         return_only_coarse_logits = False
+     ):
+         b, device = semantic_token_ids.shape[0], semantic_token_ids.device
++        arange = partial(torch.arange, device = device)
+ 
+         has_text = exists(text) or exists(text_embeds)
+         assert not (self.has_condition ^ has_text)
+ 
+         if not exists(text_embeds) and exists(text):
+             with torch.no_grad():
+                 text_embeds = self.embed_text(text, output_device = device)
+@@ -670,35 +706,61 @@
+ 
+         if exists(text_mask) and cond_drop_prob > 0:
+             keep_mask = prob_mask_like((b,), 1 - cond_drop_prob, device = device)
+             text_mask = rearrange(keep_mask, 'b -> b 1') & text_mask
+ 
+         coarse_token_ids, semantic_token_ids = map(lambda t: rearrange(t, 'b ... -> b (...)'), (coarse_token_ids, semantic_token_ids))
+ 
+-        offsets = self.codebook_size * torch.arange(self.num_coarse_quantizers, device = device)
++        offsets = self.codebook_size * arange(self.num_coarse_quantizers)
+         offsets = repeat(offsets, 'q -> 1 (n q)', n = ceil_div(coarse_token_ids.shape[-1], self.num_coarse_quantizers))
+         offsets = offsets[:, :coarse_token_ids.shape[-1]]
+         coarse_token_ids = coarse_token_ids + offsets
+ 
+-        semantic_tokens = self.semantic_embedding(semantic_token_ids)
++        semantic_tokens = get_embeds(self.semantic_embedding, semantic_token_ids)
+         coarse_tokens = self.coarse_embedding(coarse_token_ids)
+ 
++        coarse_quantize_tokens = repeat(self.coarse_quantize_embedding.weight, 'q d -> (n q) d', n = ceil_div(coarse_token_ids.shape[-1], self.num_coarse_quantizers))
++        coarse_quantize_tokens = coarse_quantize_tokens[:coarse_token_ids.shape[-1], ...]
++        coarse_tokens = coarse_tokens + coarse_quantize_tokens
++
+         semantic_seq_len = semantic_tokens.shape[1]
+ 
+         semantic_start_tokens = repeat(self.semantic_start_token, 'd -> b 1 d', b = b)
+         coarse_start_tokens = repeat(self.coarse_start_token, 'd -> b 1 d', b = b)
+ 
+         tokens = torch.cat((
+             semantic_start_tokens,
+             semantic_tokens,
+             coarse_start_tokens,
+             coarse_tokens
+         ), dim = 1)
+ 
+-        tokens = self.transformer(tokens, context = text_embeds, self_attn_mask = self_attn_mask, context_mask = text_mask)
++        # engineer the attention bias so that cross attention is not dominated by relative positions
++
++        seq_len = tokens.shape[-2]
++        attn_bias = self.transformer.rel_pos_bias(seq_len)
++
++        is_semantic = arange(seq_len) < (semantic_seq_len + 1) # semantic seq len + start token
++        is_cross_attn = rearrange(is_semantic, 'i -> i 1') ^ rearrange(is_semantic, 'j -> 1 j')
++
++        attn_bias = torch.where(
++            is_cross_attn,
++            self.cross_attn_bias,
++            attn_bias
++        )
++
++        # attend
++
++        tokens = self.transformer(
++            tokens,
++            context = text_embeds,
++            attn_bias = attn_bias,
++            self_attn_mask = self_attn_mask,
++            context_mask = text_mask
++        )
+ 
+         pred_semantic_tokens, pred_coarse_tokens = tokens[:, :semantic_seq_len], tokens[:, (semantic_seq_len + 1):]
+ 
+         # semantic logits
+ 
+         semantic_logits = self.to_semantic_logits(pred_semantic_tokens) if not return_only_coarse_logits and exists(self.to_semantic_logits) else None
+ 
+@@ -759,42 +821,57 @@
+         self.cond_drop_prob = cond_drop_prob
+ 
+         self.num_coarse_quantizers = num_coarse_quantizers
+ 
+         self.coarse_start_token = nn.Parameter(torch.randn(dim))
+         self.fine_start_token = nn.Parameter(torch.randn(dim))
+ 
+-        codebook_size_with_eos = codebook_size + 1
++        self.coarse_embedding = nn.Embedding(num_coarse_quantizers * codebook_size, dim)
++        self.fine_embedding = nn.Embedding(num_fine_quantizers * codebook_size, dim)
+ 
+-        self.coarse_embedding = nn.Embedding(num_coarse_quantizers * codebook_size_with_eos, dim)
+-        self.fine_embedding = nn.Embedding(num_fine_quantizers * codebook_size_with_eos, dim)
++        self.coarse_quantize_embedding = nn.Embedding(num_coarse_quantizers, dim)
++        self.fine_quantize_embedding = nn.Embedding(num_fine_quantizers, dim)
+ 
+         self.eos_id = codebook_size
+ 
+         text_dim = default(cond_dim, get_encoded_dim(t5_name))
+         self.proj_text_embed = nn.Linear(text_dim, dim, bias = False) if text_dim != dim else nn.Identity()
+ 
+         self.transformer = Transformer(
+             dim = dim,
+             depth = depth,
+             heads = heads,
+             attn_dropout = attn_dropout,
+             ff_dropout = ff_dropout,
+             cross_attend = has_condition and not cond_as_self_attn_prefix,
+             cond_as_self_attn_prefix = cond_as_self_attn_prefix,
++            rel_pos_bias = False,
+             grad_shrink_alpha = grad_shrink_alpha,
+             **kwargs
+         )
+ 
++        # doing a specialized attn bias so that corresponding time steps at fine and coarse sequences attend to each other better
++
++        self.null_pos_bias = nn.Parameter(torch.randn(heads, 1, 1))
++
++        pos_bias_mlp_dim = dim // 2
++        self.pos_bias_mlp = nn.Sequential(
++            nn.Linear(2, pos_bias_mlp_dim),
++            nn.SiLU(),
++            nn.Linear(pos_bias_mlp_dim, pos_bias_mlp_dim),
++            nn.SiLU(),
++            nn.Linear(pos_bias_mlp_dim, heads)
++        )
++
+         self.codebook_size = codebook_size
+         self.num_coarse_quantizers = num_coarse_quantizers
+         self.num_fine_quantizers = num_fine_quantizers
+ 
+-        self.coarse_logit_weights = nn.Parameter(torch.randn(num_coarse_quantizers, codebook_size_with_eos, dim)) if project_coarse_logits else None
+-        self.fine_logit_weights = nn.Parameter(torch.randn(num_fine_quantizers, codebook_size_with_eos, dim))
++        self.coarse_logit_weights = nn.Parameter(torch.randn(num_coarse_quantizers, codebook_size, dim)) if project_coarse_logits else None
++        self.fine_logit_weights = nn.Parameter(torch.randn(num_fine_quantizers, codebook_size, dim))
+ 
+     @property
+     def device(self):
+         return next(self.parameters()).device
+ 
+     def forward_with_cond_scale(
+         self,
+@@ -845,38 +922,130 @@
+             keep_mask = prob_mask_like((b,), 1 - cond_drop_prob, device = device)
+             text_mask = rearrange(keep_mask, 'b -> b 1') & text_mask
+ 
+         coarse_token_ids, fine_token_ids = map(lambda t: rearrange(t, 'b ... -> b (...)'), (coarse_token_ids, fine_token_ids))
+ 
+         b, n = coarse_token_ids.shape
+ 
+-        coarse_offsets = self.codebook_size * torch.arange(self.num_coarse_quantizers, device = device)
+-        coarse_offsets = repeat(coarse_offsets, 'q -> 1 (n q)', n = ceil_div(coarse_token_ids.shape[-1], self.num_coarse_quantizers))
+-        coarse_offsets = coarse_offsets[:, :coarse_token_ids.shape[-1]]
+-        coarse_token_ids = coarse_token_ids + coarse_offsets
+-
+-        fine_offsets = self.codebook_size * torch.arange(self.num_fine_quantizers, device = device)
+-        fine_offsets = repeat(fine_offsets, 'q -> 1 (n q)', n = ceil_div(fine_token_ids.shape[-1], self.num_fine_quantizers))
+-        fine_offsets = fine_offsets[:, :fine_token_ids.shape[-1]]
+-        fine_token_ids = fine_token_ids + fine_offsets
++        coarse_length = coarse_token_ids.shape[-1]
++        coarse_offsets = torch.arange(self.num_coarse_quantizers, device = device)
++        coarse_seq_length = ceil_div(coarse_token_ids.shape[-1], self.num_coarse_quantizers)
++        coarse_offsets = repeat(coarse_offsets, 'q -> (n q)', n = coarse_seq_length)
++        coarse_offsets = coarse_offsets[:coarse_length]
++        coarse_token_ids = coarse_token_ids + rearrange(coarse_offsets, '... -> 1 ...') * self.codebook_size
++
++        fine_length = fine_token_ids.shape[-1]
++        fine_offsets = torch.arange(self.num_fine_quantizers, device = device)
++        fine_seq_length = ceil_div(fine_token_ids.shape[-1], self.num_fine_quantizers)
++        fine_offsets = repeat(fine_offsets, 'q -> (n q)', n = fine_seq_length)
++        fine_offsets = fine_offsets[:fine_length]
++        fine_token_ids = fine_token_ids + rearrange(fine_offsets, '... -> 1 ...') * self.codebook_size
+ 
+         coarse_tokens = self.coarse_embedding(coarse_token_ids)
+         fine_tokens = self.fine_embedding(fine_token_ids)
+ 
++        coarse_quantize_tokens = repeat(self.coarse_quantize_embedding.weight, 'q d -> (n q) d', n = ceil_div(coarse_token_ids.shape[-1], self.num_coarse_quantizers))
++        coarse_quantize_tokens = coarse_quantize_tokens[:coarse_token_ids.shape[-1], ...]
++        coarse_tokens = coarse_tokens + coarse_quantize_tokens
++
++        fine_quantize_tokens = repeat(self.fine_quantize_embedding.weight, 'q d -> (n q) d', n = ceil_div(fine_token_ids.shape[-1], self.num_fine_quantizers))
++        fine_quantize_tokens = fine_quantize_tokens[:fine_token_ids.shape[-1], ...]
++        fine_tokens = fine_tokens + fine_quantize_tokens
++
+         coarse_start_tokens = repeat(self.coarse_start_token, 'd -> b 1 d', b = b)
+         fine_start_tokens = repeat(self.fine_start_token, 'd -> b 1 d', b = b)
+ 
+         tokens = torch.cat((
+             coarse_start_tokens,
+             coarse_tokens,
+             fine_start_tokens,
+             fine_tokens
+         ), dim = 1)
+ 
+-        tokens = self.transformer(tokens, context = text_embeds, self_attn_mask = self_attn_mask, context_mask = text_mask)
++        # an engineered attention bias so coarse and fine sequences attend to each other better
++
++        max_seq_len = max(coarse_seq_length, fine_seq_length)
++
++        coarse_pos = torch.arange(coarse_seq_length, device = device)
++        fine_pos = torch.arange(fine_seq_length, device = device)
++
++        coarse_pos = repeat(coarse_pos, 'n -> (n q)', q = self.num_coarse_quantizers)[:coarse_length]
++        fine_pos = repeat(fine_pos, 'n -> (n q)', q = self.num_fine_quantizers)[:fine_length]
++
++        coarse_pos = F.pad(coarse_pos, (1, 0), value = -1)
++        fine_pos = F.pad(fine_pos, (1, 0), value = -1)
++
++        seq_positions = torch.cat((coarse_pos, fine_pos), dim = -1)
++
++        coarse_offsets = F.pad(coarse_offsets, (1, 0), value = 0)
++        fine_offsets = fine_offsets + self.num_coarse_quantizers
++        fine_offsets = F.pad(fine_offsets, (1, 0), value = 0)
++
++        seq_offsets = torch.cat((coarse_offsets, fine_offsets), dim = -1)
++
++        pos_mlp_input = torch.stack((seq_positions.clamp(min = 0), seq_offsets), dim = -1)
++
++        num_offsets = self.num_fine_quantizers + self.num_coarse_quantizers
++
++        # relative positions are always (2 * N - 1), where N is the length of the dimension
++
++        rel_seq_len, rel_offsets = map(lambda n: 2 * n - 1, (max_seq_len, num_offsets))
++
++        # get all relative distances
++
++        rel_dist = (rearrange(pos_mlp_input, 'i c -> i 1 c') - rearrange(pos_mlp_input, 'j c -> 1 j c'))
++
++        # get all possible relative distances for the attention bias to be computed from the mlp
++        # which would be - (2 * N - 1) * (2 * Q - 1) - where N = sequence length and Q = total quantizers
++
++        rel_seq_len_range = repeat(torch.arange(rel_seq_len, device = device), 'n -> (n q)', q = rel_offsets)
++        rel_offset_range = repeat(torch.arange(rel_offsets, device = device), 'q -> (n q)', n = rel_seq_len)
++
++        mlp_inputs = torch.stack((rel_seq_len_range, rel_offset_range), dim = -1)
++
++        # implicitly parameterized relative distances, by sequence and quantizer positions
++
++        attn_bias = self.pos_bias_mlp(mlp_inputs.float())
++
++        # translate coordinates of (rel_seq_pos, rel_quantizer_offset) -> positive index to select from attn bias
++
++        rel_dist_seq_pos, rel_dist_seq_offset = rel_dist.unbind(dim = -1)
++
++        rel_dist_seq_pos += max_seq_len - 1
++        rel_dist_seq_offset += num_offsets - 1
++
++        rel_dist_indices = rel_dist_seq_pos * rel_offsets + rel_dist_seq_offset
++
++        # select the relative positional attention bias outputted by the MLP
++        # savings go from (N * Q) ^ 2 -> ~ (4 * N * Q)
++
++        attn_bias = attn_bias[rel_dist_indices]
++
++        attn_bias = rearrange(attn_bias, '... h -> h ...')
++
++        # need to make sure start token has a custom positional bias
++
++        is_start_token_seq = seq_positions == -1
++        start_token_mask = rearrange(is_start_token_seq, 'i -> i 1') | rearrange(is_start_token_seq, 'j -> 1 j')
++
++        attn_bias = torch.where(
++            start_token_mask,
++            self.null_pos_bias,
++            attn_bias,
++        )
++
++        # attention
++
++        tokens = self.transformer(
++            tokens,
++            context = text_embeds,
++            self_attn_mask = self_attn_mask,
++            context_mask = text_mask,
++            attn_bias = attn_bias
++        )
+ 
+         pred_coarse_tokens, pred_fine_tokens = tokens[:, :n], tokens[:, (n + 1):]
+ 
+         # get coarse logits
+ 
+         pred_coarse_seq_len = pred_coarse_tokens.shape[1]
+ 
+@@ -918,16 +1087,16 @@
+         else:
+             fine_logits = fine_logits_groupable
+ 
+         return coarse_logits, fine_logits
+ 
+ # training wrappers
+ 
+-@beartype
+ class SemanticTransformerWrapper(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         *,
+         transformer: SemanticTransformer,
+         wav2vec: Optional[Union[FairseqVQWav2Vec, HubertWithKmeans]] = None,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         pad_id = -1,
+@@ -1012,14 +1181,15 @@
+         # sample from transformer
+ 
+         for ind in tqdm(range(start_length, max_length), desc = 'generating semantic'):
+ 
+             logits = self.transformer.forward_with_cond_scale(
+                 ids = sample_semantic_ids,
+                 text_embeds = text_embeds,
++                cond_scale = cond_scale,
+                 **kwargs
+             )
+ 
+             last_logit_indices_expanded = repeat(last_logit_indices, 'b -> b 1 c', b = batch, c = logits.shape[-1])
+             last_logits = logits.gather(1, last_logit_indices_expanded)
+ 
+             last_logits = rearrange(last_logits, 'b 1 c -> b c')
+@@ -1031,15 +1201,15 @@
+             sample_semantic_ids = torch.cat((sample_semantic_ids, sampled), dim = -1)
+ 
+             if all_rows_have_eos_id(sample_semantic_ids, self.eos_id):
+                 break
+ 
+             last_logit_indices += 1
+ 
+-        sample_semantic_ids = mask_out_after_eos_id(sample_semantic_ids, self.pad_id, keep_eos = False)
++        sample_semantic_ids = mask_out_after_eos_id(sample_semantic_ids, self.eos_id, keep_eos = False)
+ 
+         return sample_semantic_ids
+ 
+     def forward(
+         self,
+         *,
+         semantic_token_ids = None,
+@@ -1091,43 +1261,43 @@
+             rearrange(logits, 'b n c -> b c n'),
+             semantic_token_ids,
+             ignore_index = self.pad_id
+         )
+ 
+         return loss
+ 
+-@beartype
+ class CoarseTransformerWrapper(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         *,
+         transformer: CoarseTransformer,
+-        soundstream: Optional[SoundStream]  = None,
++        codec: Optional[Union[SoundStream, EncodecWrapper]]  = None,
+         wav2vec: Optional[Union[FairseqVQWav2Vec, HubertWithKmeans]] = None,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         pad_id = -1,
+         unique_consecutive = True,
+         semantic_cross_entropy_loss_weight = 1.,
+         mask_prob = 0.15
+     ):
+         super().__init__()
+-        self.soundstream = soundstream
++        self.codec = codec
+         self.wav2vec = wav2vec
+ 
+         self.transformer = transformer
+         self.audio_conditioner = audio_conditioner
+ 
+         assert not (exists(audio_conditioner) and not transformer.has_condition), 'if conditioning on audio embeddings from mulan, transformer has_condition must be set to True'
+ 
+         self.unique_consecutive = unique_consecutive
+         self.pad_id = pad_id
+ 
+         self.semantic_cross_entropy_loss_weight = semantic_cross_entropy_loss_weight
+ 
+-        self.num_coarse_quantizers = transformer.num_coarse_quantizers
++        self.num_coarse_quantizers = transformer.num_coarse_quantizers * codec.rq_groups
+         self.semantic_eos_id = transformer.semantic_eos_id
+         self.coarse_eos_id = transformer.coarse_eos_id
+ 
+         self.mask_prob = mask_prob
+ 
+     @property
+     def device(self):
+@@ -1160,25 +1330,28 @@
+         has_text = exists(text) or exists(text_embeds)
+         assert not (self.transformer.has_condition ^ has_text)
+ 
+         if not exists(text_embeds) and exists(text):
+             with torch.no_grad():
+                 text_embeds = self.transformer.embed_text(text, output_device = device)
+ 
++        if self.unique_consecutive:
++            semantic_token_ids = batch_unique_consecutive(semantic_token_ids, pad_value=self.pad_id)
++
+         # initialize
+ 
+         init_coarse_time_step = coarse_token_ids.shape[-1]
+         sampled_coarse_token_ids = coarse_token_ids.clone()
+ 
+         for time_step in tqdm(range(init_coarse_time_step, max_time_steps), desc = 'generating coarse'):
+             for ind in range(self.num_coarse_quantizers):
+                 is_last_step = ind == (self.num_coarse_quantizers - 1)
+ 
+                 _, coarse_logits = self.transformer.forward_with_cond_scale(
+-                    coarse_token_ids = coarse_token_ids,
++                    coarse_token_ids = sampled_coarse_token_ids,
+                     semantic_token_ids = semantic_token_ids,
+                     text_embeds = text_embeds,
+                     cond_scale = cond_scale,
+                     return_only_coarse_logits = True,
+                     **kwargs
+                 )
+ 
+@@ -1195,53 +1368,58 @@
+ 
+         sampled_coarse_token_ids = mask_out_after_eos_id(sampled_coarse_token_ids, self.coarse_eos_id, keep_eos = False)
+         sampled_coarse_token_ids = rearrange(sampled_coarse_token_ids, 'b (n q) -> b n q', q = self.num_coarse_quantizers)
+ 
+         if not reconstruct_wave:
+             return sampled_coarse_token_ids
+ 
+-        assert exists(self.soundstream)
++        assert exists(self.codec)
+ 
+-        wav = self.soundstream.decode_from_codebook_indices(sampled_coarse_token_ids)
++        wav = self.codec.decode_from_codebook_indices(sampled_coarse_token_ids)
+         return rearrange(wav, 'b 1 n -> b n')
+ 
+     def forward(
+         self,
+         *,
+         semantic_token_ids = None,
+         raw_wave = None,
+-        raw_wave_for_soundstream = None,
++        raw_wave_for_codec = None,
+         text = None,
+         text_embeds = None,
+         coarse_token_ids = None,
+         return_loss = False,
+         **kwargs
+     ):
+         assert exists(raw_wave) or exists(semantic_token_ids), 'either raw waveform (raw_wave) is given or semantic token ids are given (semantic_token_ids)'
+ 
+-        raw_wave_for_soundstream = default(raw_wave_for_soundstream, raw_wave)
+-        assert exists(raw_wave_for_soundstream) or exists(coarse_token_ids), 'either raw waveform (raw_wav) is given, or coarse and fine token ids (coarse_token_ids, fine_token_ids)'
++        raw_wave_for_codec = default(raw_wave_for_codec, raw_wave)
++        assert exists(raw_wave_for_codec) or exists(coarse_token_ids), 'either raw waveform (raw_wav) is given, or coarse and fine token ids (coarse_token_ids, fine_token_ids)'
+ 
+-        assert not all(map(exists, (raw_wave, raw_wave_for_soundstream, semantic_token_ids, coarse_token_ids)))
++        assert not all(map(exists, (raw_wave, raw_wave_for_codec, semantic_token_ids, coarse_token_ids)))
+ 
+         if exists(self.audio_conditioner):
+             assert exists(raw_wave)
+             assert not exists(text) and not exists(text_embeds)
+             text_embeds = self.audio_conditioner(wavs = raw_wave, namespace = 'coarse') # technically audio embeds, but shared text-audio joint embedding space for mulan
+ 
+         if not exists(semantic_token_ids):
+             assert exists(self.wav2vec), 'VQWav2Vec must be be provided if given raw wave for training'
+             semantic_token_ids = self.wav2vec(raw_wave, flatten = False)
+ 
+         if not exists(coarse_token_ids):
+-            assert exists(self.soundstream), 'SoundStream must be provided if given raw wave for training'
++            assert exists(self.codec), 'Codec must be provided if given raw wave for training'
+ 
+             with torch.no_grad():
+-                self.soundstream.eval()
+-                _, indices, _ = self.soundstream(raw_wave_for_soundstream, return_encoded = True)
++                self.codec.eval()
++                _, indices, _ = self.codec(raw_wave_for_codec, return_encoded = True)
++                batch = raw_wave_for_codec.shape[0]
++                num_timesteps = raw_wave_for_codec.shape[1]
++                num_frames = int(num_timesteps / self.codec.seq_len_multiple_of)
++                assert indices.shape[0] == batch and indices.shape[1] == num_frames, \
++                    f'Expected indices to have shape (batch, num_frames, num_coarse_quantizers + num_fine_quantizers), but got {indices.shape}'
+                 coarse_token_ids, _ = indices[..., :self.num_coarse_quantizers], indices[..., self.num_coarse_quantizers:]
+ 
+         semantic_token_ids = rearrange(semantic_token_ids, 'b ... -> b (...)')
+         coarse_token_ids = rearrange(coarse_token_ids, 'b ... -> b (...)')
+ 
+         if self.training:
+             semantic_token_ids = append_eos_id(semantic_token_ids, self.transformer.semantic_eos_id)
+@@ -1281,58 +1459,67 @@
+ 
+         if not return_loss:
+             return semantic_logits, coarse_logits
+ 
+         coarse_logits, semantic_logits = map(lambda t: maybe(rearrange)(t, 'b n c -> b c n'), (coarse_logits, semantic_logits))
+ 
+         if self.unique_consecutive:
+-            num_coarse_logits, num_semantic_logits = coarse_labels.numel(), (semantic_labels != self.pad_id).sum()
++            num_coarse_logits, _num_semantic_logits = coarse_labels.numel(), (semantic_labels != self.pad_id).sum()
+         else:
+-            num_coarse_logits, num_semantic_logits = coarse_logits.shape[-1], semantic_logits.shape[-1]
++            num_coarse_logits, _num_semantic_logits = coarse_logits.shape[-1], semantic_logits.shape[-1]
+ 
+         semantic_loss = 0.
++        num_semantic_logits = 0
++
+         if self.semantic_cross_entropy_loss_weight > 0 and exists(semantic_logits):
++            num_semantic_logits = _num_semantic_logits
++
+             semantic_loss = F.cross_entropy(
+                 semantic_logits,
+                 semantic_labels,
+                 ignore_index = self.pad_id
+             )
+ 
+         coarse_loss = F.cross_entropy(
+             coarse_logits,
+-            coarse_labels
++            coarse_labels,
++            ignore_index = self.pad_id
+         )
+ 
+         return (
+             semantic_loss * num_semantic_logits * self.semantic_cross_entropy_loss_weight +
+             coarse_loss * num_coarse_logits
+         ) / (num_semantic_logits + num_coarse_logits)
+ 
+-@beartype
+ class FineTransformerWrapper(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         *,
+         transformer: FineTransformer,
+-        soundstream: Optional[SoundStream] = None,
++        codec: Optional[Union[SoundStream, EncodecWrapper]] = None,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         coarse_cross_entropy_loss_weight = 1.,
+         pad_id = -1,
+         mask_prob = 0.15
+     ):
+         super().__init__()
+-        self.soundstream = soundstream
++        self.codec = codec
+ 
+         self.transformer = transformer
+         self.audio_conditioner = audio_conditioner
+ 
+         assert not (exists(audio_conditioner) and not transformer.has_condition), 'if conditioning on audio embeddings from mulan, transformer has_condition must be set to True'
+ 
+-        self.num_fine_quantizers = transformer.num_fine_quantizers
+-        self.num_coarse_quantizers = transformer.num_coarse_quantizers
++        self.num_fine_quantizers = transformer.num_fine_quantizers * codec.rq_groups
++        self.num_coarse_quantizers = transformer.num_coarse_quantizers * codec.rq_groups
++
++        if exists(codec):
++            assert (self.num_fine_quantizers + self.num_coarse_quantizers) == (codec.num_quantizers * codec.rq_groups), 'number of fine and coarse quantizers on fine transformer must add up to total number of quantizers on codec'
++
+         self.eos_id = transformer.eos_id
+ 
+         assert self.num_coarse_quantizers > 0
+ 
+         self.pad_id = pad_id
+         self.coarse_cross_entropy_loss_weight = coarse_cross_entropy_loss_weight
+ 
+@@ -1384,26 +1571,23 @@
+ 
+         for time_step in tqdm(range(init_fine_time_step, max_time_steps), desc = 'generating fine'):
+             for ind in range(self.num_fine_quantizers):
+                 is_last_step = ind == (self.num_fine_quantizers - 1)
+ 
+                 _, fine_logits = self.transformer.forward_with_cond_scale(
+                     coarse_token_ids = coarse_token_ids,
+-                    fine_token_ids = fine_token_ids,
++                    fine_token_ids = sampled_fine_token_ids,
+                     text_embeds = text_embeds,
+                     cond_scale = cond_scale,
+                     return_only_fine_logits = True,
+                     **kwargs
+                 )
+ 
+                 last_fine_logits = fine_logits[:, -1]
+ 
+-                if not is_last_step:
+-                    last_fine_logits[:, -1] = float('-inf') # prevent from eos if not last quantizer step, but move this to masking logic within the transformer at some point, for both training and eval
+-
+                 filtered_logits = top_k(last_fine_logits, thres = filter_thres)
+                 sampled = gumbel_sample(filtered_logits, temperature = temperature, dim = -1)
+ 
+                 sampled = rearrange(sampled, 'b -> b 1')
+                 sampled_fine_token_ids = torch.cat((sampled_fine_token_ids, sampled), dim = -1)
+ 
+         sampled_fine_token_ids = mask_out_after_eos_id(sampled_fine_token_ids, self.eos_id, keep_eos = False)
+@@ -1413,30 +1597,28 @@
+         sampled_fine_token_ids = rearrange(sampled_fine_token_ids, 'b (n q) -> b n q', q = self.num_fine_quantizers)
+         coarse_token_ids = rearrange(coarse_token_ids, 'b (n q) -> b n q', q = self.num_coarse_quantizers)
+ 
+         # whether to mask out fine token positions where the coarse token ids are all padding (variable lengthed training)
+ 
+         if mask_out_generated_fine_tokens:
+             pos_is_all_padding = (coarse_token_ids == self.pad_id).all(dim = -1, keepdim = True)
+-            seq_lengths = reduce(~pos_is_all_padding, 'b n 1 -> b', 'sum')
+-
+             sampled_fine_token_ids = sampled_fine_token_ids.masked_fill(pos_is_all_padding, self.pad_id)
+ 
+         # if not reconstructing wave, return just the fine token ids
+ 
+         if not reconstruct_wave:
+             return sampled_fine_token_ids
+ 
+-        # reconstruct the wave using soundstream, concatting the fine and coarse token ids together first across quantization dimension
++        # reconstruct the wave using codec, concatting the fine and coarse token ids together first across quantization dimension
+ 
+-        assert exists(self.soundstream)
++        assert exists(self.codec)
+ 
+         coarse_and_fine_ids = torch.cat((coarse_token_ids, sampled_fine_token_ids), dim = -1)
+ 
+-        wav = self.soundstream.decode_from_codebook_indices(coarse_and_fine_ids)
++        wav = self.codec.decode_from_codebook_indices(coarse_and_fine_ids)
+         return rearrange(wav, 'b 1 n -> b n')
+ 
+     def forward(
+         self,
+         *,
+         raw_wave = None,
+         text = None,
+@@ -1451,37 +1633,41 @@
+ 
+         if exists(self.audio_conditioner):
+             assert exists(raw_wave)
+             assert not exists(text) and not exists(text_embeds)
+             text_embeds = self.audio_conditioner(wavs = raw_wave, namespace = 'fine') # technically audio embeds, but shared text-audio joint embedding space for mulan
+ 
+         if exists(raw_wave):
+-            assert exists(self.soundstream), 'SoundStream must be provided if given raw wave for training'
++            assert exists(self.codec), 'Codec must be provided if given raw wave for training'
+ 
+             with torch.no_grad():
+-                self.soundstream.eval()
+-                _, token_ids, _ = self.soundstream(raw_wave, return_encoded = True)
++                self.codec.eval()
++                _, token_ids, _ = self.codec(raw_wave, return_encoded = True)
++                batch = raw_wave.shape[0]
++                num_timesteps = raw_wave.shape[1]
++                num_frames = int(num_timesteps / self.codec.seq_len_multiple_of)
++                assert token_ids.shape == torch.Size((batch, num_frames, self.num_coarse_quantizers + self.num_fine_quantizers)), \
++                    f'Expected token ids to have shape (batch, num_frames, num_coarse_quantizers + num_fine_quantizers), but got {token_ids.shape}'
+ 
+         if exists(token_ids):
+             coarse_token_ids, fine_token_ids = token_ids[..., :self.num_coarse_quantizers], token_ids[..., self.num_coarse_quantizers:]
+ 
+         coarse_token_ids = rearrange(coarse_token_ids, 'b ... -> b (...)')
+         fine_token_ids = rearrange(fine_token_ids, 'b ... -> b (...)')
+ 
+-        if self.training:
+-            coarse_token_ids = append_eos_id(coarse_token_ids, self.transformer.eos_id)
+-            fine_token_ids = append_eos_id(fine_token_ids, self.transformer.eos_id)
++        # if training, determine labels, should remove one from fine token ids
+ 
+         if return_loss:
+-            coarse_labels, fine_labels = coarse_token_ids, fine_token_ids.clone()
++            coarse_labels = coarse_token_ids
++            fine_labels = fine_token_ids
+             fine_token_ids = fine_token_ids[:, :-1]
+ 
+         # do not attend to any of the coarse padding tokens or coarse end token either
+ 
+-        self_attn_mask = (coarse_token_ids != self.pad_id) & (coarse_token_ids != self.eos_id)
++        self_attn_mask = coarse_token_ids != self.pad_id
+         coarse_token_ids = coarse_token_ids.masked_fill(~self_attn_mask, 0)
+ 
+         fine_token_seq_len = fine_token_ids.shape[-1]
+         self_attn_mask = F.pad(self_attn_mask, (1, fine_token_seq_len + 1), value = True)
+ 
+         # forgetful causal mask - structured dropout
+ 
+@@ -1510,49 +1696,52 @@
+         coarse_loss = 0.
+ 
+         if self.coarse_cross_entropy_loss_weight > 0 and exists(coarse_logits):
+             num_coarse_logits = coarse_logits.shape[-1]
+ 
+             coarse_loss = F.cross_entropy(
+                 coarse_logits,
+-                coarse_labels
++                coarse_labels,
++                ignore_index = self.pad_id
+             )
+ 
+         fine_loss = F.cross_entropy(
+             fine_logits,
+-            fine_labels
++            fine_labels,
++            ignore_index = self.pad_id
+         )
+ 
+         return (
+             coarse_loss * num_coarse_logits * self.coarse_cross_entropy_loss_weight +
+             fine_loss * num_fine_logits
+         ) / (num_coarse_logits + num_fine_logits)
+ 
+ # audio LM
+ 
+-@beartype
+ class AudioLM(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         *,
+         wav2vec: Optional[Union[FairseqVQWav2Vec, HubertWithKmeans]], 
+-        soundstream: SoundStream,
++        codec: Union[SoundStream, EncodecWrapper],
+         semantic_transformer: SemanticTransformer,
+         coarse_transformer: CoarseTransformer,
+         fine_transformer: FineTransformer,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         unique_consecutive = True
+     ):
+         super().__init__()
+ 
+         self.audio_conditioner = audio_conditioner
+ 
+         assert semantic_transformer.num_semantic_tokens == coarse_transformer.num_semantic_tokens
+         assert coarse_transformer.codebook_size == fine_transformer.codebook_size
+         assert coarse_transformer.num_coarse_quantizers == fine_transformer.num_coarse_quantizers
++        assert (fine_transformer.num_coarse_quantizers + fine_transformer.num_fine_quantizers) == codec.num_quantizers
+ 
+         self.semantic_has_condition = semantic_transformer.has_condition
+         self.coarse_has_condition = coarse_transformer.has_condition
+         self.fine_has_condition = fine_transformer.has_condition
+         self.needs_text = any([self.semantic_has_condition, self.coarse_has_condition, self.fine_has_condition])
+ 
+         self.semantic = SemanticTransformerWrapper(
+@@ -1560,22 +1749,22 @@
+             transformer = semantic_transformer,
+             audio_conditioner = audio_conditioner,
+             unique_consecutive = unique_consecutive
+         )
+ 
+         self.coarse = CoarseTransformerWrapper(
+             wav2vec = wav2vec,
+-            soundstream = soundstream,
++            codec= codec,
+             transformer = coarse_transformer,
+             audio_conditioner = audio_conditioner,
+             unique_consecutive = unique_consecutive
+         )
+ 
+         self.fine = FineTransformerWrapper(
+-            soundstream = soundstream,
++            codec= codec,
+             transformer = fine_transformer,
+             audio_conditioner = audio_conditioner
+         )
+ 
+     @property
+     def device(self):
+         return next(self.parameters()).device
+@@ -1593,15 +1782,15 @@
+         return_coarse_generated_wave = False,
+         mask_out_generated_fine_tokens = False
+     ):
+         assert not (self.needs_text and (not exists(text) and not exists(text_embeds))), 'text needs to be passed in if one of the transformer requires conditioning'
+ 
+         if self.needs_text:
+             if exists(text):
+-                text_embeds = self.semantic.embed_text(texts)
++                text_embeds = self.semantic.embed_text(text)
+ 
+         if exists(prime_wave):
+             prime_wave = prime_wave.to(self.device)
+ 
+         semantic_token_ids = self.semantic.generate(
+             text_embeds = text_embeds if self.semantic_has_condition else None,
+             batch_size = batch_size,
+```
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/data.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/data.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -27,20 +27,20 @@
+ 
+ # type
+ 
+ OptionalIntOrTupleInt = Optional[Union[int, Tuple[Optional[int], ...]]]
+ 
+ # dataset functions
+ 
+-@beartype
+ class SoundDataset(Dataset):
++    @beartype
+     def __init__(
+         self,
+         folder,
+-        exts = ['flac', 'wav'],
++        exts = ['flac', 'wav', 'mp3', 'webm'],
+         max_length: OptionalIntOrTupleInt = None,
+         target_sample_hz: OptionalIntOrTupleInt = None,
+         seq_len_multiple_of: OptionalIntOrTupleInt = None
+     ):
+         super().__init__()
+         path = Path(folder)
+         assert path.exists(), 'folder does not exist'
+```
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/hubert_kmeans.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/hubert_kmeans.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -14,30 +14,35 @@
+ 
+ import logging
+ logging.root.setLevel(logging.ERROR)
+ 
+ def exists(val):
+     return val is not None
+ 
++def default(val, d):
++    return val if exists(val) else d
++
+ class HubertWithKmeans(nn.Module):
+     """
+     checkpoint and kmeans can be downloaded at https://github.com/facebookresearch/fairseq/tree/main/examples/hubert
+     or you can train your own
+     """
+ 
+     def __init__(
+         self,
+         checkpoint_path,
+         kmeans_path,
+-        target_sample_hz = 50000,
+-        seq_len_multiple_of = None
++        target_sample_hz = 16000,
++        seq_len_multiple_of = None,
++        output_layer = 9
+     ):
+         super().__init__()
+         self.target_sample_hz = target_sample_hz
+         self.seq_len_multiple_of = seq_len_multiple_of
++        self.output_layer = output_layer
+ 
+         model_path = Path(checkpoint_path)
+         kmeans_path = Path(kmeans_path)
+ 
+         assert model_path.exists(), f'path {checkpoint_path} does not exist'
+         assert kmeans_path.exists(), f'path {kmeans_path} does not exist'
+ 
+@@ -70,15 +75,21 @@
+ 
+         if exists(input_sample_hz):
+             wav_input = resample(wav_input, input_sample_hz, self.target_sample_hz)
+ 
+         if exists(self.seq_len_multiple_of):
+             wav_input = curtail_to_multiple(wav_input, self.seq_len_multiple_of)
+ 
+-        embed = self.model(wav_input, features_only = True)
++        embed = self.model(
++            wav_input,
++            features_only = True,
++            mask = False,  # thanks to @maitycyrus for noticing that mask is defaulted to True in the fairseq code
++            output_layer = self.output_layer
++        )
++
+         embed, packed_shape = pack([embed['x']], '* d')
+ 
+         codebook_indices = self.kmeans.predict(embed.cpu().detach().numpy())
+ 
+         codebook_indices = torch.from_numpy(codebook_indices).to(device).long()
+ 
+         if flatten:
+```
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/optimizer.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/optimizer.py`
+
+ * *Files 27% similar despite different names*
+
+```diff
+@@ -1,7 +1,8 @@
++from lion_pytorch import Lion
+ from torch.optim import AdamW, Adam
+ 
+ def separate_weight_decayable_params(params):
+     wd_params, no_wd_params = [], []
+     for param in params:
+         param_list = no_wd_params if param.ndim < 2 else wd_params
+         param_list.append(param)
+@@ -11,24 +12,30 @@
+     params,
+     lr = 1e-4,
+     wd = 1e-2,
+     betas = (0.9, 0.99),
+     eps = 1e-8,
+     filter_by_requires_grad = False,
+     group_wd_params = True,
++    use_lion = False,
+     **kwargs
+ ):
++    has_wd = wd > 0
++
+     if filter_by_requires_grad:
+         params = list(filter(lambda t: t.requires_grad, params))
+ 
+-    if wd == 0:
+-        return Adam(params, lr = lr, betas = betas, eps = eps)
+-
+-    if group_wd_params:
++    if group_wd_params and has_wd:
+         wd_params, no_wd_params = separate_weight_decayable_params(params)
+ 
+         params = [
+             {'params': wd_params},
+             {'params': no_wd_params, 'weight_decay': 0},
+         ]
+ 
++    if use_lion:
++        return Lion(params, lr = lr, betas = betas, weight_decay = wd)
++
++    if not has_wd:
++        return Adam(params, lr = lr, betas = betas, eps = eps)
++
+     return AdamW(params, lr = lr, weight_decay = wd, betas = betas, eps = eps)
+```
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/t5.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/t5.py`
+
+ * *Files identical despite different names*
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/trainer.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/trainer.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -1,7 +1,8 @@
++import re
+ from math import sqrt
+ import copy
+ from random import choice
+ from pathlib import Path
+ from shutil import rmtree
+ 
+ from beartype.typing import Union, List, Optional, Tuple
+@@ -19,14 +20,15 @@
+ from einops import rearrange
+ 
+ from audiolm_pytorch.optimizer import get_optimizer
+ 
+ from ema_pytorch import EMA
+ 
+ from audiolm_pytorch.soundstream import SoundStream
++from audiolm_pytorch.encodec import EncodecWrapper
+ 
+ from audiolm_pytorch.audiolm_pytorch import (
+     SemanticTransformer,
+     SemanticTransformerWrapper,
+     CoarseTransformer,
+     CoarseTransformerWrapper,
+     FineTransformer,
+@@ -34,15 +36,19 @@
+     FairseqVQWav2Vec,
+     HubertWithKmeans
+ )
+ 
+ from audiolm_pytorch.data import SoundDataset, get_dataloader
+ from audiolm_pytorch.utils import AudioConditionerBase
+ 
++from audiolm_pytorch.version import __version__
++from packaging import version
++
+ from accelerate import Accelerator
++from accelerate.utils import DistributedDataParallelKwargs
+ 
+ # constants
+ 
+ DEFAULT_SAMPLE_RATE = 16000
+ 
+ # for automatically routing data emitted from a dataset to keywords of the transformer wrappers
+ 
+@@ -102,109 +108,162 @@
+                 output.append(name)
+                 break
+         else:
+             raise TypeError(f'unable to determine type of {data}')
+ 
+     return tuple(output)
+ 
++def checkpoint_num_steps(checkpoint_path):
++    """Returns the number of steps trained from a checkpoint based on the filename.
++
++    Filename format assumed to be something like "/path/to/semantic.transformer.20000.pt" which is
++    for 20k train steps. Returns 20000 in that case.
++    """
++    return int(re.findall(r'\d+', str(checkpoint_path))[-1])
++
+ # main trainer class
+ 
+ class SoundStreamTrainer(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         soundstream: SoundStream,
+         *,
+-        num_train_steps,
+-        batch_size,
+-        data_max_length = None,
+-        folder,
+-        lr = 2e-4,
+-        grad_accum_every = 4,
+-        wd = 0.,
+-        max_grad_norm = 0.5,
+-        discr_max_grad_norm = None,
+-        save_results_every = 100,
+-        save_model_every = 1000,
+-        results_folder = './results',
+-        valid_frac = 0.05,
+-        random_split_seed = 42,
+-        ema_beta = 0.995,
+-        ema_update_after_step = 500,
+-        ema_update_every = 10,
+-        apply_grad_penalty_every = 4,
+-        dl_num_workers = 0,
+-        accelerate_kwargs: dict = dict()
++        num_train_steps: int,
++        batch_size: int,
++        data_max_length: int = None,
++        data_max_length_seconds: Union[int, float] = None,
++        folder: str = None,
++        train_dataloader: DataLoader = None,
++        val_dataloader: DataLoader = None,
++        lr: float = 2e-4,
++        grad_accum_every: int = 4,
++        wd: float = 0.,
++        max_grad_norm: float = 0.5,
++        discr_max_grad_norm: float = None,
++        save_results_every: int = 100,
++        save_model_every: int= 1000,
++        log_losses_every: int= 1,
++        results_folder: str = './results',
++        valid_frac: float = 0.05,
++        random_split_seed: int = 42,
++        use_ema: bool = True,
++        ema_beta: float = 0.995,
++        ema_update_after_step: int = 500,
++        ema_update_every: int = 10,
++        apply_grad_penalty_every: int = 4,
++        dl_num_workers: int = 0,
++        accelerator: Accelerator = None,
++        accelerate_kwargs: dict = dict(),
++        use_lion: bool = False,
++        force_clear_prev_results: bool = None  # set to True | False to skip the prompt
+     ):
++        """
++        Initialize with a SoundStream instance and either a folder containing audio data or
++        train/val DataLoader instances.
++        """
+         super().__init__()
+-        self.accelerator = Accelerator(**accelerate_kwargs)
++
++        if accelerator:
++            self.accelerator = accelerator
++            assert len(accelerate_kwargs) == 0
++        else:
++            kwargs = DistributedDataParallelKwargs(find_unused_parameters = True)
++            self.accelerator = Accelerator(kwargs_handlers = [kwargs], **accelerate_kwargs)
+ 
+         self.soundstream = soundstream
+-        self.ema_soundstream = EMA(soundstream, beta = ema_beta, update_after_step = ema_update_after_step, update_every = ema_update_every)
++
++        self.use_ema = use_ema
++        if self.use_ema:
++            self.ema_soundstream = EMA(soundstream, beta = ema_beta, update_after_step = ema_update_after_step, update_every = ema_update_every)
+ 
+         self.register_buffer('steps', torch.Tensor([0]))
+ 
+         self.num_train_steps = num_train_steps
+         self.batch_size = batch_size
+         self.grad_accum_every = grad_accum_every
+ 
++        hyperparameters = {
++            "num_train_steps": num_train_steps,
++            "batch_size": batch_size,
++            "gradient_accum_every": grad_accum_every,
++            "learning_rate": lr,
++            "target_sample_hz": soundstream.target_sample_hz,
++        }
++
+         # optimizers
+ 
+         self.optim = get_optimizer(soundstream.non_discr_parameters(), lr = lr, wd = wd)
+ 
+         for discr_optimizer_key, discr in self.multiscale_discriminator_iter():
+             one_multiscale_discr_optimizer = get_optimizer(discr.parameters(), lr = lr, wd = wd)
+             setattr(self, discr_optimizer_key, one_multiscale_discr_optimizer)
+ 
+-        self.discr_optim = get_optimizer(soundstream.stft_discriminator.parameters(), lr = lr, wd = wd)
++        self.discr_optim = get_optimizer(soundstream.stft_discriminator.parameters(), lr = lr, wd = wd, use_lion = use_lion)
+ 
+         # max grad norm
+ 
+         self.max_grad_norm = max_grad_norm
+         self.discr_max_grad_norm = discr_max_grad_norm
+ 
+-        # create dataset
++        if folder is None:
++            assert train_dataloader is not None
++            assert val_dataloader is not None
++            self.dl = train_dataloader
++            self.valid_dl = val_dataloader
++        else:
++            assert train_dataloader is None
++            assert val_dataloader is None
+ 
+-        self.ds = SoundDataset(
+-            folder,
+-            max_length = data_max_length,
+-            target_sample_hz = soundstream.target_sample_hz,
+-            seq_len_multiple_of = soundstream.seq_len_multiple_of
+-        )
++            # create dataset
+ 
+-        # split for validation
++            if exists(data_max_length_seconds):
++                assert not exists(data_max_length)
++                data_max_length = int(data_max_length_seconds * soundstream.target_sample_hz)
++            else:
++                assert exists(data_max_length)
+ 
+-        if valid_frac > 0:
+-            train_size = int((1 - valid_frac) * len(self.ds))
+-            valid_size = len(self.ds) - train_size
+-            self.ds, self.valid_ds = random_split(self.ds, [train_size, valid_size], generator = torch.Generator().manual_seed(random_split_seed))
+-            self.print(f'training with dataset of {len(self.ds)} samples and validating with randomly splitted {len(self.valid_ds)} samples')
+-        else:
+-            self.valid_ds = self.ds
+-            self.print(f'training with shared training and valid dataset of {len(self.ds)} samples')
++            hyperparameters['data_max_length'] = data_max_length
+ 
+-        # dataloader
++            self.ds = SoundDataset(
++                folder,
++                max_length = data_max_length,
++                target_sample_hz = soundstream.target_sample_hz,
++                seq_len_multiple_of = soundstream.seq_len_multiple_of
++            )
++
++            # split for validation
++
++            if valid_frac > 0:
++                train_size = int((1 - valid_frac) * len(self.ds))
++                valid_size = len(self.ds) - train_size
++                self.ds, self.valid_ds = random_split(self.ds, [train_size, valid_size], generator = torch.Generator().manual_seed(random_split_seed))
++                self.print(f'training with dataset of {len(self.ds)} samples and validating with randomly splitted {len(self.valid_ds)} samples')
++            else:
++                self.valid_ds = self.ds
++                self.print(f'training with shared training and valid dataset of {len(self.ds)} samples')
+ 
+-        self.dl = get_dataloader(self.ds, batch_size = batch_size, num_workers = dl_num_workers, shuffle = True)
++            # dataloader
+ 
+-        self.valid_dl = get_dataloader(self.valid_ds, batch_size = batch_size, num_workers = dl_num_workers, shuffle = True)
++            self.dl = get_dataloader(self.ds, batch_size = batch_size, num_workers = dl_num_workers, shuffle = True)
++
++            self.valid_dl = get_dataloader(self.valid_ds, batch_size = batch_size, num_workers = dl_num_workers, shuffle = True)
+ 
+         # prepare with accelerator
+ 
+         (
+             self.soundstream,
+             self.optim,
+             self.discr_optim,
+-            self.dl,
+-            self.valid_dl
++            self.dl
+         ) = self.accelerator.prepare(
+             self.soundstream,
+             self.optim,
+             self.discr_optim,
+-            self.dl,
+-            self.valid_dl
++            self.dl
+         )
+ 
+         # prepare the multiscale discriminators with accelerator
+ 
+         for name, _ in self.multiscale_discriminator_iter():
+             optimizer = getattr(self, name)
+             optimizer = self.accelerator.prepare(optimizer)
+@@ -213,59 +272,91 @@
+         # dataloader iterators
+ 
+         self.dl_iter = cycle(self.dl)
+         self.valid_dl_iter = cycle(self.valid_dl)
+ 
+         self.save_model_every = save_model_every
+         self.save_results_every = save_results_every
++        self.log_losses_every = log_losses_every
+ 
+         self.apply_grad_penalty_every = apply_grad_penalty_every
+ 
+         self.results_folder = Path(results_folder)
+ 
+-        if len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?'):
++        if self.is_main and force_clear_prev_results is True or (not exists(force_clear_prev_results) and len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?')):
+             rmtree(str(self.results_folder))
+ 
+         self.results_folder.mkdir(parents = True, exist_ok = True)
+ 
+-        hps = {"num_train_steps": num_train_steps, "data_max_length": data_max_length, "learning_rate": lr}
+-        self.accelerator.init_trackers("soundstream", config=hps)        
++        # Initialize experiment trackers if an external Accelerator is not passed in
++        if not accelerator:
++            self.accelerator.init_trackers("soundstream", config=hyperparameters)        
++
++    def set_model_as_ema_model_(self):
++        """ this will force the main 'online' model to have same parameters as the exponentially moving averaged model """
++        assert self.use_ema
++        self.ema_soundstream.ema_model.load_state_dict(self.soundstream.state_dict())
+ 
+     def save(self, path):
+         pkg = dict(
+             model = self.accelerator.get_state_dict(self.soundstream),
+-            ema_model = self.ema_soundstream.state_dict(),
+             optim = self.optim.state_dict(),
+-            discr_optim = self.discr_optim.state_dict()
++            config = self.unwrapped_soundstream._configs,
++            discr_optim = self.discr_optim.state_dict(),
++            version = __version__
+         )
+ 
++        if self.use_ema:
++            pkg['ema_model'] = self.ema_soundstream.state_dict()
++
+         for key, _ in self.multiscale_discriminator_iter():
+             discr_optim = getattr(self, key)
+             pkg[key] = discr_optim.state_dict()
+ 
+         torch.save(pkg, path)
+ 
+     @property
+     def unwrapped_soundstream(self):
+         return self.accelerator.unwrap_model(self.soundstream)
+ 
+     def load(self, path):
+         path = Path(path)
+         assert path.exists()
+-        pkg = torch.load(str(path))
++        pkg = torch.load(str(path), map_location = 'cpu')
++
++        # if loading from old version, make a hacky guess
++
++        if len(pkg.keys()) > 20:
++            self.unwrapped_soundstream.load_state_dict(pkg)
++
++            if self.use_ema:
++                self.ema_soundstream.ema_model.load_state_dict(pkg)
++            return
++
++        # check version
++
++        if 'version' in pkg and version.parse(pkg['version']) < version.parse(__version__):
++            print(f'model was trained on older version {pkg["version"]} of audiolm-pytorch')
++
++        # otherwise load things normally
+ 
+         self.unwrapped_soundstream.load_state_dict(pkg['model'])
+ 
+-        self.ema_soundstream.load_state_dict(pkg['ema_model'])
++        if self.use_ema:
++            assert 'ema_model' in pkg
++            self.ema_soundstream.load_state_dict(pkg['ema_model'])
++
+         self.optim.load_state_dict(pkg['optim'])
+         self.discr_optim.load_state_dict(pkg['discr_optim'])
+ 
+         for key, _ in self.multiscale_discriminator_iter():
+             discr_optim = getattr(self, key)
+             discr_optim.load_state_dict(pkg[key])
++        # + 1 to start from the next step and avoid overwriting the last checkpoint
++        self.steps = torch.tensor([checkpoint_num_steps(path) + 1], device=self.device)
+ 
+     def multiscale_discriminator_iter(self):
+         for ind, discr in enumerate(self.unwrapped_soundstream.discriminators):
+             yield f'multiscale_discr_optimizer_{ind}', discr
+ 
+     def multiscale_discriminator_optim_iter(self):
+         for name, _ in self.multiscale_discriminator_iter():
+@@ -290,37 +381,46 @@
+     def is_local_main(self):
+         return self.accelerator.is_local_main_process
+ 
+     def train_step(self):
+         device = self.device
+ 
+         steps = int(self.steps.item())
+-        apply_grad_penalty = not (steps % self.apply_grad_penalty_every)
++        apply_grad_penalty = self.apply_grad_penalty_every > 0 and not (steps % self.apply_grad_penalty_every)
++        log_losses = self.log_losses_every > 0 and not (steps % self.log_losses_every)
+ 
+         self.soundstream.train()
+ 
+         # logs
+ 
+         logs = {}
+ 
+         # update vae (generator)
+ 
+         for _ in range(self.grad_accum_every):
+             wave, = next(self.dl_iter)
+             wave = wave.to(device)
+ 
+-            loss, (recon_loss, *_) = self.soundstream(wave, return_loss_breakdown = True)
++            loss, (recon_loss, multi_spectral_recon_loss, adversarial_loss, feature_loss, all_commitment_loss) = self.soundstream(wave, return_loss_breakdown = True)
+ 
+             self.accelerator.backward(loss / self.grad_accum_every)
+ 
+             accum_log(logs, dict(
+                 loss = loss.item() / self.grad_accum_every,
+-                recon_loss = recon_loss.item() / self.grad_accum_every
++                recon_loss = recon_loss.item() / self.grad_accum_every,
+             ))
+ 
++            if log_losses:
++                accum_log(logs, dict(
++                    multi_spectral_recon_loss = multi_spectral_recon_loss.item() / self.grad_accum_every,
++                    adversarial_loss = adversarial_loss.item() / self.grad_accum_every,
++                    feature_loss = feature_loss.item() / self.grad_accum_every,
++                    all_commitment_loss = all_commitment_loss.item() / self.grad_accum_every,
++                ))
++
+         if exists(self.max_grad_norm):
+             self.accelerator.clip_grad_norm_(self.soundstream.parameters(), self.max_grad_norm)
+ 
+         self.optim.step()
+         self.optim.zero_grad()
+ 
+         # update discriminator
+@@ -354,62 +454,76 @@
+ 
+         for name, multiscale_discr_optim in self.multiscale_discriminator_optim_iter():
+             multiscale_discr_optim.step()
+ 
+         # build pretty printed losses
+ 
+         losses_str = f"{steps}: soundstream total loss: {logs['loss']:.3f}, soundstream recon loss: {logs['recon_loss']:.3f}"
+-        self.accelerator.log({"total_loss": logs['loss'], "recon_loss": logs['recon_loss']}, step=steps)
++        if log_losses:
++            self.accelerator.log({
++                "total_loss": logs['loss'],
++                "recon_loss": logs['recon_loss'],
++                "multi_spectral_recon_loss": logs['multi_spectral_recon_loss'],
++                "adversarial_loss": logs['adversarial_loss'],
++                "feature_loss": logs['feature_loss'],
++                "all_commitment_loss": logs['all_commitment_loss'],
++                "stft_discr_loss": logs['stft']
++            }, step=steps)
+ 
+         for key, loss in logs.items():
+             if not key.startswith('scale:'):
+                 continue
+             _, scale_factor = key.split(':')
+ 
+             losses_str += f" | discr (scale {scale_factor}) loss: {loss:.3f}"
+-            self.accelerator.log({f"discr_loss (scale {scale_factor})": loss}, step=steps)
++            if log_losses:
++                self.accelerator.log({f"discr_loss (scale {scale_factor})": loss}, step=steps)
+ 
+         # log
+ 
+         self.print(losses_str)
+ 
+         # update exponential moving averaged generator
+ 
+-        if self.is_main:
++        self.accelerator.wait_for_everyone()
++
++        if self.is_main and self.use_ema:
+             self.ema_soundstream.update()
+ 
+         # sample results every so often
+ 
++        self.accelerator.wait_for_everyone()
++
+         if self.is_main and not (steps % self.save_results_every):
+-            for model, filename in ((self.ema_soundstream.ema_model, f'{steps}.ema'), (self.soundstream, str(steps))):
+-                model.eval()
++            models = [(self.unwrapped_soundstream, str(steps))]
++            if self.use_ema:
++                models.append((self.ema_soundstream.ema_model if self.use_ema else self.unwrapped_soundstream, f'{steps}.ema'))
+ 
+-                wave, = next(self.valid_dl_iter)
+-                wave = wave.to(device)
++            wave, = next(self.valid_dl_iter)
++            wave = wave.to(device)
+ 
+-                recons = model(wave, return_recons_only = True)
++            for model, label in models:
++                model.eval()
+ 
+-                milestone = steps // self.save_results_every
++                with torch.no_grad():
++                    recons = model(wave, return_recons_only = True)
+ 
+                 for ind, recon in enumerate(recons.unbind(dim = 0)):
+-                    filename = str(self.results_folder / f'sample_{steps}.flac')
+-                    torchaudio.save(filename, recon.cpu().detach(), DEFAULT_SAMPLE_RATE)
++                    filename = str(self.results_folder / f'sample_{label}.flac')
++                    torchaudio.save(filename, recon.cpu().detach(), self.unwrapped_soundstream.target_sample_hz)
+ 
+             self.print(f'{steps}: saving to {str(self.results_folder)}')
+ 
+         # save model every so often
+ 
++        self.accelerator.wait_for_everyone()
++
+         if self.is_main and not (steps % self.save_model_every):
+-            state_dict = self.soundstream.state_dict()
+             model_path = str(self.results_folder / f'soundstream.{steps}.pt')
+-            torch.save(state_dict, model_path)
+-
+-            ema_state_dict = self.ema_soundstream.state_dict()
+-            model_path = str(self.results_folder / f'soundstream.{steps}.ema.pt')
+-            torch.save(ema_state_dict, model_path)
++            self.save(model_path)
+ 
+             self.print(f'{steps}: saving model to {str(self.results_folder)}')
+ 
+         self.steps += 1
+         return logs
+ 
+     def train(self, log_fn = noop):
+@@ -418,37 +532,39 @@
+             logs = self.train_step()
+             log_fn(logs)
+ 
+         self.print('training complete')
+ 
+ # semantic transformer trainer
+ 
+-@beartype
+ class SemanticTransformerTrainer(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         wav2vec: Optional[Union[FairseqVQWav2Vec, HubertWithKmeans]],
+         transformer: SemanticTransformer,
+         *,
+         num_train_steps,
+         batch_size,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         dataset: Optional[Dataset] = None,
+         data_max_length = None,
++        data_max_length_seconds = None,
+         folder = None,
+         lr = 3e-4,
+         grad_accum_every = 1,
+         wd = 0.,
+         max_grad_norm = 0.5,
+         valid_frac = 0.05,
+         random_split_seed = 42,
+         save_results_every = 100,
+         save_model_every = 1000,
+         results_folder = './results',
+-        accelerate_kwargs: dict = dict()
++        accelerate_kwargs: dict = dict(),
++        force_clear_prev_results = None
+     ):
+         super().__init__()
+         self.accelerator = Accelerator(**accelerate_kwargs)
+ 
+         self.wav2vec = wav2vec
+         self.transformer = transformer
+         self.audio_conditioner = audio_conditioner
+@@ -475,14 +591,19 @@
+ 
+         # create dataset
+ 
+         self.ds = dataset
+         if not exists(self.ds):
+             assert exists(folder), 'folder must be passed in, if not passing in a custom dataset for text conditioned audio synthesis training'
+ 
++            assert not (exists(data_max_length) and exists(data_max_length_seconds))
++
++            if exists(data_max_length_seconds):
++                data_max_length = data_max_length_seconds * wav2vec.target_sample_hz
++
+             self.ds = SoundDataset(
+                 folder,
+                 max_length = data_max_length,
+                 target_sample_hz = wav2vec.target_sample_hz,
+                 seq_len_multiple_of = wav2vec.seq_len_multiple_of
+             )
+ 
+@@ -525,37 +646,46 @@
+         self.valid_dl_iter = cycle(self.valid_dl)
+ 
+         self.save_model_every = save_model_every
+         self.save_results_every = save_results_every    
+ 
+         self.results_folder = Path(results_folder)
+ 
+-        if len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?'):
++        if self.is_main and force_clear_prev_results is True or (not exists(force_clear_prev_results) and len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?')):
+             rmtree(str(self.results_folder))
+ 
+         self.results_folder.mkdir(parents = True, exist_ok = True)
+         
+         hps = {"num_train_steps": num_train_steps, "data_max_length": data_max_length, "learning_rate": lr}
+         self.accelerator.init_trackers("semantic", config=hps)
+ 
+     def save(self, path):
+         pkg = dict(
+             model = self.accelerator.get_state_dict(self.transformer),
+-            optim = self.optim.state_dict()
++            optim = self.optim.state_dict(),
++            version = __version__
+         )
+         torch.save(pkg, path)
+ 
+     def load(self, path):
+         path = Path(path)
+         assert path.exists()
+-        pkg = torch.load(str(path))
++        pkg = torch.load(str(path), map_location = 'cpu')
++
++        # check version
++
++        if 'version' in pkg and version.parse(pkg['version']) < version.parse(__version__):
++            print(f'model was trained on older version {pkg["version"]} of audiolm-pytorch')
+ 
+         transformer = self.accelerator.unwrap_model(self.transformer)
+         transformer.load_state_dict(pkg['model'])
+         self.optim.load_state_dict(pkg['optim'])
++        # + 1 to start from the next step and avoid overwriting the last checkpoint
++        self.steps = torch.tensor([checkpoint_num_steps(path) + 1], device=self.device)
++
+ 
+     def print(self, msg):
+         self.accelerator.print(msg)
+ 
+     def generate(self, *args, **kwargs):
+         return self.train_wrapper.generate(*args, **kwargs)
+ 
+@@ -626,17 +756,16 @@
+ 
+             self.print(f'{steps}: valid loss {valid_loss}')
+             self.accelerator.log({"valid_loss": valid_loss}, step=steps)
+ 
+         # save model every so often
+ 
+         if self.is_main and not (steps % self.save_model_every):
+-            state_dict = self.transformer.state_dict()
+             model_path = str(self.results_folder / f'semantic.transformer.{steps}.pt')
+-            torch.save(state_dict, model_path)
++            self.save(model_path)
+ 
+             self.print(f'{steps}: saving model to {str(self.results_folder)}')
+ 
+         self.steps += 1
+         return logs
+ 
+     def train(self, log_fn = noop):
+@@ -645,50 +774,52 @@
+             logs = self.train_step()
+             log_fn(logs)
+ 
+         self.print('training complete')
+ 
+ # fine transformer trainer
+ 
+-@beartype
+ class CoarseTransformerTrainer(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         transformer: CoarseTransformer,
+-        soundstream: SoundStream,
++        codec: Union[SoundStream, EncodecWrapper],
+         wav2vec: Optional[Union[FairseqVQWav2Vec, HubertWithKmeans]],
+         *,
+         num_train_steps,
+         batch_size,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         dataset: Optional[Dataset] = None,
+-        ds_fields: Tuple[str, ...] = ('raw_wave', 'raw_wave_for_soundstream', 'text'),
++        ds_fields: Tuple[str, ...] = ('raw_wave', 'raw_wave_for_codec', 'text'),
+         data_max_length = None,
++        data_max_length_seconds = None,
+         folder = None,
+         lr = 3e-4,
+         grad_accum_every = 1,
+         wd = 0.,
+         max_grad_norm = 0.5,
+         valid_frac = 0.05,
+         random_split_seed = 42,
+         save_results_every = 100,
+         save_model_every = 1000,
+         results_folder = './results',
+-        accelerate_kwargs: dict = dict()
++        accelerate_kwargs: dict = dict(),
++        force_clear_prev_results = None
+     ):
+         super().__init__()
+         self.accelerator = Accelerator(**accelerate_kwargs)
+ 
+         self.transformer = transformer
+-        self.soundstream = soundstream
++        self.codec = codec
+         self.wav2vec = wav2vec
+         self.audio_conditioner = audio_conditioner
+ 
+         self.train_wrapper = CoarseTransformerWrapper(
+-            soundstream = soundstream,
++            codec = codec,
+             wav2vec = wav2vec,
+             transformer = transformer,
+             audio_conditioner = audio_conditioner
+         )
+ 
+         self.register_buffer('steps', torch.Tensor([0]))
+ 
+@@ -707,22 +838,27 @@
+         # create dataset
+ 
+         self.ds = dataset
+ 
+         if not exists(self.ds):
+             assert exists(folder), 'folder must be passed in, if not passing in a custom dataset for text conditioned audio synthesis training'
+ 
++            assert not (exists(data_max_length) and exists(data_max_length_seconds))
++
++            if exists(data_max_length_seconds):
++                data_max_length = tuple(data_max_length_seconds * hz for hz in (wav2vec.target_sample_hz, codec.target_sample_hz))
++
+             self.ds = SoundDataset(
+                 folder,
+                 max_length = data_max_length,
+                 target_sample_hz = (
+                     wav2vec.target_sample_hz,
+-                    soundstream.target_sample_hz
++                    codec.target_sample_hz
+                 ), # need 2 waves resampled differently here
+-                seq_len_multiple_of = soundstream.seq_len_multiple_of
++                seq_len_multiple_of = codec.seq_len_multiple_of
+             )
+ 
+         self.ds_fields = ds_fields
+ 
+         # split for validation
+ 
+         if valid_frac > 0:
+@@ -760,40 +896,49 @@
+         self.valid_dl_iter = cycle(self.valid_dl)
+ 
+         self.save_model_every = save_model_every
+         self.save_results_every = save_results_every    
+ 
+         self.results_folder = Path(results_folder)
+ 
+-        if len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?'):
++        if self.is_main and force_clear_prev_results is True or (not exists(force_clear_prev_results) and len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?')):
+             rmtree(str(self.results_folder))
+ 
+         self.results_folder.mkdir(parents = True, exist_ok = True)
+ 
+         hps = {"num_train_steps": num_train_steps, "data_max_length": data_max_length, "learning_rate": lr}
+         self.accelerator.init_trackers("coarse", config=hps)        
+ 
+         self.train_wrapper.to(self.device)
+ 
+     def save(self, path):
+         pkg = dict(
+             model = self.accelerator.get_state_dict(self.transformer),
+-            optim = self.optim.state_dict()
++            optim = self.optim.state_dict(),
++            version = __version__
+         )
+         torch.save(pkg, path)
+ 
+     def load(self, path):
+         path = Path(path)
+         assert path.exists()
+-        pkg = torch.load(str(path))
++        pkg = torch.load(str(path), map_location = 'cpu')
++
++        # check version
++
++        if 'version' in pkg and version.parse(pkg['version']) < version.parse(__version__):
++            print(f'model was trained on older version {pkg["version"]} of audiolm-pytorch')
+ 
+         transformer = self.accelerator.unwrap_model(self.transformer)
+         transformer.load_state_dict(pkg['model'])
+ 
+         self.optim.load_state_dict(pkg['optim'])
++        # + 1 to start from the next step and avoid overwriting the last checkpoint
++        self.steps = torch.tensor([checkpoint_num_steps(path) + 1], device=self.device)
++
+ 
+     def print(self, msg):
+         self.accelerator.print(msg)
+ 
+     def generate(self, *args, **kwargs):
+         return self.train_wrapper.generate(*args, **kwargs)
+ 
+@@ -864,17 +1009,16 @@
+ 
+             self.print(f'{steps}: valid loss {valid_loss}')
+             self.accelerator.log({"valid_loss": valid_loss}, step=steps)
+ 
+         # save model every so often
+ 
+         if self.is_main and not (steps % self.save_model_every):
+-            state_dict = self.transformer.state_dict()
+-            model_path = str(self.results_folder / f'fine.transformer.{steps}.pt')
+-            torch.save(state_dict, model_path)
++            model_path = str(self.results_folder / f'coarse.transformer.{steps}.pt')
++            self.save(model_path)
+ 
+             self.print(f'{steps}: saving model to {str(self.results_folder)}')
+ 
+         self.steps += 1
+         return logs
+ 
+     def train(self, log_fn = noop):
+@@ -883,47 +1027,50 @@
+             logs = self.train_step()
+             log_fn(logs)
+ 
+         self.print('training complete')
+ 
+ # fine transformer trainer
+ 
+-@beartype
+ class FineTransformerTrainer(nn.Module):
++    @beartype
+     def __init__(
+         self,
+         transformer: FineTransformer,
+-        soundstream: SoundStream,
++        codec: Union[SoundStream, EncodecWrapper],
+         *,
+         num_train_steps,
+         batch_size,
+         audio_conditioner: Optional[AudioConditionerBase] = None,
+         dataset: Optional[Dataset] = None,
+         data_max_length = None,
++        data_max_length_seconds = None,
++        dataset_normalize = False,
+         folder = None,
+         lr = 3e-4,
+         grad_accum_every = 1,
+         wd = 0.,
+         max_grad_norm = 0.5,
+         valid_frac = 0.05,
+         random_split_seed = 42,
+         save_results_every = 100,
+         save_model_every = 1000,
+         results_folder = './results',
+-        accelerate_kwargs: dict = dict()
++        accelerate_kwargs: dict = dict(),
++        force_clear_prev_results = None
+     ):
+         super().__init__()
+         self.accelerator = Accelerator(**accelerate_kwargs)
+ 
+         self.transformer = transformer
+-        self.soundstream = soundstream
++        self.codec = codec
+         self.audio_conditioner = audio_conditioner
+ 
+         self.train_wrapper = FineTransformerWrapper(
+-            soundstream = soundstream,
++            codec = codec,
+             transformer = transformer,
+             audio_conditioner = audio_conditioner
+         )
+ 
+         self.register_buffer('steps', torch.Tensor([0]))
+ 
+         self.num_train_steps = num_train_steps
+@@ -941,19 +1088,24 @@
+         # create dataset
+ 
+         self.ds = dataset
+ 
+         if not exists(self.ds):
+             assert exists(folder), 'folder must be passed in, if not passing in a custom dataset for text conditioned audio synthesis training'
+ 
++            assert not (exists(data_max_length) and exists(data_max_length_seconds))
++
++            if exists(data_max_length_seconds):
++                data_max_length = data_max_length_seconds * codec.target_sample_hz
++
+             self.ds = SoundDataset(
+                 folder,
+                 max_length = data_max_length,
+-                target_sample_hz = soundstream.target_sample_hz,
+-                seq_len_multiple_of = soundstream.seq_len_multiple_of
++                target_sample_hz = codec.target_sample_hz,
++                seq_len_multiple_of = codec.seq_len_multiple_of
+             )
+ 
+         self.ds_fields = None
+ 
+         # split for validation
+ 
+         if valid_frac > 0:
+@@ -991,40 +1143,49 @@
+         self.valid_dl_iter = cycle(self.valid_dl)
+ 
+         self.save_model_every = save_model_every
+         self.save_results_every = save_results_every    
+ 
+         self.results_folder = Path(results_folder)
+ 
+-        if len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?'):
++        if force_clear_prev_results is True or (not exists(force_clear_prev_results) and len([*self.results_folder.glob('**/*')]) > 0 and yes_or_no('do you want to clear previous experiment checkpoints and results?')):
+             rmtree(str(self.results_folder))
+ 
+         self.results_folder.mkdir(parents = True, exist_ok = True)
+ 
+         hps = {"num_train_steps": num_train_steps, "data_max_length": data_max_length, "learning_rate": lr}
+         self.accelerator.init_trackers("fine", config=hps)        
+ 
+         self.train_wrapper.to(self.device)
+ 
+     def save(self, path):
+         pkg = dict(
+             model = self.accelerator.get_state_dict(self.transformer),
+-            optim = self.optim.state_dict()
++            optim = self.optim.state_dict(),
++            version = __version__
+         )
+         torch.save(pkg, path)
+ 
+     def load(self, path):
+         path = Path(path)
+         assert path.exists()
+-        pkg = torch.load(str(path))
++        pkg = torch.load(str(path), map_location = 'cpu')
++
++        # check version
++
++        if 'version' in pkg and version.parse(pkg['version']) < version.parse(__version__):
++            print(f'model was trained on older version {pkg["version"]} of audiolm-pytorch')
+ 
+         transformer = self.accelerator.unwrap_model(self.transformer)
+         transformer.load_state_dict(pkg['model'])
+ 
+         self.optim.load_state_dict(pkg['optim'])
++        # + 1 to start from the next step and avoid overwriting the last checkpoint
++        self.steps = torch.tensor([checkpoint_num_steps(path) + 1], device=self.device)
++
+ 
+     def print(self, msg):
+         self.accelerator.print(msg)
+ 
+     def generate(self, *args, **kwargs):
+         return self.train_wrapper.generate(*args, **kwargs)
+ 
+@@ -1094,17 +1255,16 @@
+ 
+             self.print(f'{steps}: valid loss {valid_loss}')
+             self.accelerator.log({"valid_loss": valid_loss}, step=steps)
+ 
+         # save model every so often
+ 
+         if self.is_main and not (steps % self.save_model_every):
+-            state_dict = self.transformer.state_dict()
+             model_path = str(self.results_folder / f'fine.transformer.{steps}.pt')
+-            torch.save(state_dict, model_path)
++            self.save(model_path)
+ 
+             self.print(f'{steps}: saving model to {str(self.results_folder)}')
+ 
+         self.steps += 1
+         return logs
+ 
+     def train(self, log_fn = noop):
+```
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch/vq_wav2vec.py` & `audiolm-pytorch-1.0.0/audiolm_pytorch/vq_wav2vec.py`
+
+ * *Files identical despite different names*
+
+### Comparing `audiolm-pytorch-0.9.7/audiolm_pytorch.egg-info/PKG-INFO` & `audiolm-pytorch-1.0.0/audiolm_pytorch.egg-info/PKG-INFO`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: audiolm-pytorch
+-Version: 0.9.7
++Version: 1.0.0
+ Summary: AudioLM - Language Modeling Approach to Audio Generation from Google Research - Pytorch
+ Home-page: https://github.com/lucidrains/audiolm-pytorch
+ Author: Phil Wang
+ Author-email: lucidrains@gmail.com
+ License: MIT
+ Keywords: artificial intelligence,deep learning,transformers,attention mechanism,audio generation
+ Classifier: Development Status :: 4 - Beta
+```
+
+### Comparing `audiolm-pytorch-0.9.7/setup.py` & `audiolm-pytorch-1.0.0/setup.py`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -1,13 +1,14 @@
+ from setuptools import setup, find_packages
++exec(open('audiolm_pytorch/version.py').read())
+ 
+ setup(
+   name = 'audiolm-pytorch',
+   packages = find_packages(exclude=[]),
+-  version = '0.9.7',
++  version = __version__,
+   license='MIT',
+   description = 'AudioLM - Language Modeling Approach to Audio Generation from Google Research - Pytorch',
+   author = 'Phil Wang',
+   author_email = 'lucidrains@gmail.com',
+   long_description_content_type = 'text/markdown',
+   url = 'https://github.com/lucidrains/audiolm-pytorch',
+   keywords = [
+@@ -16,27 +17,28 @@
+     'transformers',
+     'attention mechanism',
+     'audio generation'
+   ],
+   install_requires=[
+     'accelerate',
+     'beartype',
+-    'einops>=0.6',
+-    'ema-pytorch',
++    'einops>=0.6.1',
++    'ema-pytorch>=0.2.2',
++    'encodec',
+     'fairseq',
+     'joblib',
+-    'local-attention>=1.5.7',
+-    'Mega-pytorch',
++    'lion-pytorch',
++    'local-attention>=1.8.4',
+     'scikit-learn',
+     'sentencepiece',
+-    'torch>=1.6',
++    'torch>=1.12',
+     'torchaudio',
+     'transformers',
+     'tqdm',
+-    'vector-quantize-pytorch>=0.10.15'
++    'vector-quantize-pytorch>=1.4.1'
+   ],
+   classifiers=[
+     'Development Status :: 4 - Beta',
+     'Intended Audience :: Developers',
+     'Topic :: Scientific/Engineering :: Artificial Intelligence',
+     'License :: OSI Approved :: MIT License',
+     'Programming Language :: Python :: 3.6',
+```
+

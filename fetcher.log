@@ -19199,3 +19199,151 @@ EOFError: EOF read where object expected
 [2023-05-17 16:22:54] INFO root fetch - main [MainThread]: End processing [ibis-substrait]: success
 [2023-05-17 16:22:55] INFO root fetch - main [MainThread]: End processing [apis-core]: success
 [2023-05-17 16:22:55] INFO root fetch - main [MainThread]: Store serial: [18140832]
+[2023-05-17 16:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18140832]
+[2023-05-17 16:28:05] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AL-Khatma-lib
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WebtoonScraper
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifd-python
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meg-qc
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimseq
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-core
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mattermost-API
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RiskLabAI
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audiolm-pytorch
+[2023-05-17 16:28:05] WARNING root fetch - processPackages [Mattermost-API]: Skipping, unable to determine old version
+[2023-05-17 16:28:05] INFO root fetch - processPackages [Mattermost-API]: Start processing: FileInfo-Video-Audio
+[2023-05-17 16:28:05] INFO root fetch - main [MainThread]: End processing [Mattermost-API] error
+[2023-05-17 16:28:05] INFO root fetch - processPackages [meg-qc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [ifd-python]: New version: [10.1.3] Old Version: [10.1.2]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [AL-Khatma-lib]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [mimseq]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [FileInfo-Video-Audio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.0.0] Old Version: [0.9.7]
+[2023-05-17 16:28:05] INFO root fetch - processPackages [xklb]: New version: [1.28.3] Old Version: [1.28.2]
+[2023-05-17 16:28:06] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.4]
+[2023-05-17 16:28:06] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/57/21/63fb9fa7a04e55d67abbb077d03c59a9bd9a4cd730e6d78517751823c72b/xklb-1.28.2.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/55/73/d7da16fe66ad5d72644595a873b27c8157def3f912653c4e5dfaa3b8e36b/audiolm-pytorch-0.9.7.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [meg-qc]: Downloading https://files.pythonhosted.org/packages/bc/f7/aa537889da7f52cbaf353ea7a5b0ce71e68ac9d57d76cba5b0d11facc079/meg_qc-0.0.4.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [AL-Khatma-lib]: Downloading https://files.pythonhosted.org/packages/27/45/18bafd6cc7c07a0855a28e365416e4678aa871518dddfd641178d09b05d9/AL_Khatma_lib-2.0.2.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/4a/bc/174b55d4f034297cd419876533b341d7d05df03e5a3b26f267298a31dcf9/RiskLabAI-0.0.6.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/56/4d/ab30425426ac22413485f62f51e66b3b5fe0b027c5e4a3466794a86603e9/WebtoonScraper-0.0.9.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mimseq]: Downloading https://files.pythonhosted.org/packages/68/0b/14b1b0a310535bef623f276f80e7f863f1e1c32e39b945626749b3d479e3/mimseq-1.3.3.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/34/79/25257ae8c7abe5f58c05821c3ab8c352b362a649f54219460991e5d49db3/ifd_python-10.1.3.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [FileInfo-Video-Audio]: Downloading https://files.pythonhosted.org/packages/14/05/cbfe14a3f02d1956d04e9be7e4fb71f09cb46b4e264f90b181a417910a5e/FileInfo_Video_Audio-0.1.1.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/1c/d4/866a7d463bbc0167c8fe4b520c6d1c2fdeaee6af46f8c0e52c632477d494/OpenGeode_core-14.1.4-cp311-cp311-manylinux2014_x86_64.whl
+[2023-05-17 16:28:06] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.4.tar.gz tmp/RiskLabAI-0.0.6.tar.gz --markdown 20230517/R/RiskLabAI/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 15455154>=10485760
+[2023-05-17 16:28:06] INFO root fetch - processPackages [OpenGeode-core]: Start processing: mir-ml-utils
+[2023-05-17 16:28:06] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-17 16:28:06] WARNING root fetch - processPackages [mir-ml-utils]: Skipping, unable to determine old version
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mir-ml-utils]: Start processing: mse-lib-sgx
+[2023-05-17 16:28:06] INFO root fetch - main [MainThread]: End processing [mir-ml-utils] error
+[2023-05-17 16:28:06] INFO root fetch - processPackages [FileInfo-Video-Audio]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [FileInfo-Video-Audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileInfo_Video_Audio-0.1.0.tar.gz tmp/FileInfo_Video_Audio-0.1.1.tar.gz --markdown 20230517/F/FileInfo-Video-Audio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.0a2] Old Version: [2.0a1]
+[2023-05-17 16:28:06] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230517/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/f5/cd/2f492af5924adfd9c1abe3949c732cd55c2ddeebae2c9c498c0d2869ff6d/xklb-1.28.3.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.2.tar.gz tmp/ifd_python-10.1.3.tar.gz --markdown 20230517/i/ifd-python/10.1.2-10.1.3/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [AL-Khatma-lib]: Downloading https://files.pythonhosted.org/packages/ee/37/382bbf1bb35ed1e3654739807054c97daa25c44d4b4e242f0e8ebe1b263a/AL_Khatma_lib-2.0.3.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/ed/e9/92c9cc134282724ae1cd5ebe0a78b471586d643652422b18b3f0f23d8e57/audiolm-pytorch-1.0.0.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mimseq]: Downloading https://files.pythonhosted.org/packages/02/ac/77407ec7529b95e3d0b7241ad2ff3935c2f97faa703628cf51881dc4c5af/mimseq-1.3.4.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [meg-qc]: Downloading https://files.pythonhosted.org/packages/77/18/34790b470234464aae89c35d740b48efe2845e66c0557aad4abb9cdc35f5/meg_qc-0.0.5.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.7.tar.gz tmp/audiolm-pytorch-1.0.0.tar.gz --markdown 20230517/a/audiolm-pytorch/0.9.7-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/01/8e/512fcdcad4408a55ca7be1ee96b196c530dbd8bb7b0ee9ba15df09ff310b/mse_lib_sgx-2.0a2.tar.gz
+[2023-05-17 16:28:06] INFO root fetch - processPackages [AL-Khatma-lib]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [AL-Khatma-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AL_Khatma_lib-2.0.2.tar.gz tmp/AL_Khatma_lib-2.0.3.tar.gz --markdown 20230517/A/AL-Khatma-lib/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [meg-qc]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [meg-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meg_qc-0.0.4.tar.gz tmp/meg_qc-0.0.5.tar.gz --markdown 20230517/m/meg-qc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.0a1.tar.gz tmp/mse_lib_sgx-2.0a2.tar.gz --markdown 20230517/m/mse-lib-sgx/2.0a1-2.0a2/diff.md --exclude *.pyd
+[2023-05-17 16:28:06] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-17 16:28:06] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.28.2.tar.gz tmp/xklb-1.28.3.tar.gz --markdown 20230517/x/xklb/1.28.2-1.28.3/diff.md --exclude *.pyd
+[2023-05-17 16:28:07] INFO root fetch - processPackages [mimseq]: executing diffoscope
+[2023-05-17 16:28:07] INFO root fetch - processPackages [mimseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimseq-1.3.3.tar.gz tmp/mimseq-1.3.4.tar.gz --markdown 20230517/m/mimseq/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-17 16:28:07] INFO root fetch - processPackages [RiskLabAI]: Start processing: bioumlsim
+[2023-05-17 16:28:07] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2023-05-17 16:28:07] WARNING root fetch - processPackages [bioumlsim]: Skipping, unable to determine old version
+[2023-05-17 16:28:07] INFO root fetch - processPackages [bioumlsim]: Start processing: mcmc-statphys
+[2023-05-17 16:28:07] INFO root fetch - main [MainThread]: End processing [bioumlsim] error
+[2023-05-17 16:28:07] INFO root fetch - processPackages [mcmc-statphys]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [WebtoonScraper]: Start processing: pynterface
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [pynterface]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [FileInfo-Video-Audio]: Start processing: audioldm-eval
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [FileInfo-Video-Audio]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [audioldm-eval]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [pynterface]: Downloading https://files.pythonhosted.org/packages/92/3b/d5830b30c1384e9cdf077e4d7be7367a0609705680e319cefc48c51e087c/pynterface-0.0.4.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [mcmc-statphys]: Downloading https://files.pythonhosted.org/packages/81/45/8fe6ad6984222d35838180996f79ecaa3e8294be53bacda19cb710d64c48/mcmc_statphys-0.1.2.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [ifd-python]: Start processing: crackerjack
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [crackerjack]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [audioldm-eval]: Downloading https://files.pythonhosted.org/packages/06/d1/7db86d7c56ed324ed231727691b03e0a2f5bf1f2fbd3ef7026e4e72ab5c4/audioldm_eval-0.0.1.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [AL-Khatma-lib]: Start processing: bowtie-json-schema
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [AL-Khatma-lib]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [pynterface]: Downloading https://files.pythonhosted.org/packages/ab/5f/885b8f5260ef3e72b2d1008c9d03975f0191bc7276bb4ef64f3d28929cb6/pynterface-0.1.0.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.5.1] Old Version: [0.9.1]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [mcmc-statphys]: Downloading https://files.pythonhosted.org/packages/bc/1c/d573221030c098c8f89abbaaa68953a778879591b531605267a2d8d124dc/mcmc_statphys-0.2.1.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [meg-qc]: Start processing: certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [meg-qc]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: New version: [20230516.20.52.233729] Old Version: [20230516.19.55.453602]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [pynterface]: executing diffoscope
+[2023-05-17 16:28:08] INFO root fetch - processPackages [pynterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynterface-0.0.4.tar.gz tmp/pynterface-0.1.0.tar.gz --markdown 20230517/p/pynterface/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 16:28:08] INFO root fetch - processPackages [mcmc-statphys]: executing diffoscope
+[2023-05-17 16:28:08] INFO root fetch - processPackages [mcmc-statphys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcmc_statphys-0.1.2.tar.gz tmp/mcmc_statphys-0.2.1.tar.gz --markdown 20230517/m/mcmc-statphys/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 16:28:08] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/7a/5a/724339b47a05bafc1e32b27e3ef5f39d352032dd9e82269df945c4d878b7/crackerjack-0.1.8.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/bf/c7/c686e7eab7c29189750df4ad4b94d5be441de878e4e9b82b220088800e88/bowtie_json_schema-0.9.1.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [mse-lib-sgx]: Start processing: hera
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [audiolm-pytorch]: Start processing: hera-workflows
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [audioldm-eval]: Downloading https://files.pythonhosted.org/packages/1d/37/644b082499111bc8b8a666beed923727410ac2e9020b0e0d7326d526899b/audioldm_eval-0.0.2.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Downloading https://files.pythonhosted.org/packages/e2/cc/ac428cde8647016b0f656eb5f8104b83f4e24e9b38b63d613df882b2d519/certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta-20230516.19.55.453602.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [hera]: New version: [5.2.0] Old Version: [5.1.7]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [hera-workflows]: New version: [5.2.0] Old Version: [5.1.7]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [audioldm-eval]: executing diffoscope
+[2023-05-17 16:28:08] INFO root fetch - processPackages [audioldm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm_eval-0.0.1.tar.gz tmp/audioldm_eval-0.0.2.tar.gz --markdown 20230517/a/audioldm-eval/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 16:28:08] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Skipping package: exceeds size limit 38959751>=10485760
+[2023-05-17 16:28:08] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Start processing: atom-db
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta] error
+[2023-05-17 16:28:08] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/0e/b0/b99c9b1d0e0243c496b67a874b935c95cf96af209b411dc6e29ff0d5d389/bowtie_json_schema-2023.5.1.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [xklb]: Start processing: xmqt
+[2023-05-17 16:28:08] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-17 16:28:08] INFO root fetch - processPackages [xmqt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/b5/38/eeb9532c4bb6d1d15d871484171dd2401029632b83102d28a4aafb98e813/hera_workflows-5.1.7.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/17/90/e1759585a9585c68fda13449f9abbe150425feea05b6413e6fd090d11650/hera-5.1.7.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/a8/3e/87cedab18cf6007223d05d8f0d5446d2d34dd27ca6a03f2792f833765bc6/crackerjack-0.1.9.tar.gz
+[2023-05-17 16:28:08] INFO root fetch - processPackages [atom-db]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-05-17 16:28:08] INFO root fetch - processPackages [xmqt]: executing diffoscope
+[2023-05-17 16:28:08] INFO root fetch - processPackages [xmqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmqt-1.0.8.tar.gz tmp/xmqt-1.0.9-py3.6.egg --markdown 20230517/x/xmqt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:28:09] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-05-17 16:28:09] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-0.9.1.tar.gz tmp/bowtie_json_schema-2023.5.1.tar.gz --markdown 20230517/b/bowtie-json-schema/0.9.1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-17 16:28:09] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-05-17 16:28:09] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.1.8.tar.gz tmp/crackerjack-0.1.9.tar.gz --markdown 20230517/c/crackerjack/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 16:28:09] INFO root fetch - processPackages [atom-db]: Downloading https://files.pythonhosted.org/packages/45/98/48e17877e1cc54bbd9b898245487cbe8fd084416f129c75aac9832c42d9d/atom_db-0.7.9-py3-none-any.whl
+[2023-05-17 16:28:09] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/5d/e8/efaafcceb6bda8fa9e8d0fde14ec1ec3bc10f43fc4c6954b784c5242e6e5/hera-5.2.0.tar.gz
+[2023-05-17 16:28:09] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/22/8b/350b6d249e8661944694d09bbdff79fec2f044647746af46fc3f20e44435/hera_workflows-5.2.0.tar.gz
+[2023-05-17 16:28:09] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-05-17 16:28:09] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.1.7.tar.gz tmp/hera-5.2.0.tar.gz --markdown 20230517/h/hera/5.1.7-5.2.0/diff.md --exclude *.pyd
+[2023-05-17 16:28:09] INFO root fetch - processPackages [atom-db]: Downloading https://files.pythonhosted.org/packages/3c/49/c024b73df297019083ed95d520275bbb053964182df780fc059a733662e1/atom_db-0.8.0-py3-none-any.whl
+[2023-05-17 16:28:09] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-05-17 16:28:09] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.1.7.tar.gz tmp/hera_workflows-5.2.0.tar.gz --markdown 20230517/h/hera-workflows/5.1.7-5.2.0/diff.md --exclude *.pyd
+[2023-05-17 16:28:09] INFO root fetch - processPackages [atom-db]: executing diffoscope
+[2023-05-17 16:28:09] INFO root fetch - processPackages [atom-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atom_db-0.7.9-py3-none-any.whl.zip tmp/atom_db-0.8.0-py3-none-any.whl.zip --markdown 20230517/a/atom-db/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 16:28:09] INFO root fetch - main [MainThread]: End processing [pynterface]: success
+[2023-05-17 16:28:10] INFO root fetch - main [MainThread]: End processing [xmqt]: success
+[2023-05-17 16:28:10] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-05-17 16:28:10] INFO root fetch - main [MainThread]: End processing [mcmc-statphys]: success
+[2023-05-17 16:28:10] INFO root fetch - main [MainThread]: End processing [atom-db]: success
+[2023-05-17 16:28:11] INFO root fetch - main [MainThread]: End processing [mimseq]: success
+[2023-05-17 16:28:11] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-05-17 16:28:11] INFO root fetch - main [MainThread]: End processing [audioldm-eval]: success
+[2023-05-17 16:28:12] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-05-17 16:28:12] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-05-17 16:28:12] INFO root fetch - main [MainThread]: Store serial: [18140909]
