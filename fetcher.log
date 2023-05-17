@@ -9705,3 +9705,80 @@
 [2023-05-17 09:14:46] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-17 09:14:48] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-17 09:14:48] INFO root fetch - main [MainThread]: Store serial: [18135424]
+[2023-05-17 09:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135424]
+[2023-05-17 09:19:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadog-checks-dev
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CUQIpy
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: offlinerllib
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Busanstore
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfq-nightly
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Alpha-Rabbit
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: probabilistic-word-embeddings
+[2023-05-17 09:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycvc
+[2023-05-17 09:19:58] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [CUQIpy]: New version: [0.3.0.post0.dev7] Old Version: [0.3.0.post0.dev5]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [offlinerllib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pycvc]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230516] Old Version: [0.7.3.dev20230515]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.86]
+[2023-05-17 09:19:58] WARNING root fetch - processPackages [Busanstore]: Skipping, unable to determine old version
+[2023-05-17 09:19:58] INFO root fetch - processPackages [Busanstore]: Start processing: grokspeechrec
+[2023-05-17 09:19:58] INFO root fetch - main [MainThread]: End processing [Busanstore] error
+[2023-05-17 09:19:58] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2023-05-17 09:19:58] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-0.3.0.post0.dev5.tar.gz tmp/CUQIpy-0.3.0.post0.dev7.tar.gz --markdown 20230517/C/CUQIpy/0.3.0.post0.dev5-0.3.0.post0.dev7/diff.md --exclude *.pyd
+[2023-05-17 09:19:58] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2023-05-17 09:19:58] INFO root fetch - processPackages [grokspeechrec]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/e8/62/9bf65fc2a4d0e443c300c1a8cf3aaf80be741ea0f1b1481507795952540a/pycvc-1.2.3-py3-none-any.whl
+[2023-05-17 09:19:58] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/f8/3d/f1f9d703e32324ce577556237c44f52d186de6c8c90552d63ef1361eaf6c/akshare-1.9.86.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/78/a1/fd06f1a0c76d17803d16b5aa7c89847f5894140f81fa934d648afb8b633c/tfq_nightly-0.7.3.dev20230515-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 09:19:58] INFO root fetch - processPackages [offlinerllib]: Downloading https://files.pythonhosted.org/packages/f8/8f/f839d23ef0b6e5a4787e66be51a2df57532e83b71261f4c04ef35a01f83e/offlinerllib-0.0.6.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-05-17 09:19:58] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819849>=10485760
+[2023-05-17 09:19:58] INFO root fetch - processPackages [tfq-nightly]: Start processing: betterproto-twirp-new
+[2023-05-17 09:19:58] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-17 09:19:58] INFO root fetch - processPackages [betterproto-twirp-new]: New version: [1.2.19] Old Version: [1.2.18]
+[2023-05-17 09:19:58] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/ba/4d/f0bf4fe498c9a8ad072e672a3332f84410fd578d5b4959b881c0c685b8df/probabilistic_word_embeddings-1.5.0.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-17 09:19:58] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230517/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-17 09:19:58] INFO root fetch - processPackages [grokspeechrec]: Downloading https://files.pythonhosted.org/packages/4c/63/0f9b9b33c007fa293735e53f6f129d1c49a41de6e7e5258f16f94c6ef6e4/grokspeechrec-0.0.1.tar.gz
+[2023-05-17 09:19:58] INFO root fetch - processPackages [betterproto-twirp-new]: executing diffoscope
+[2023-05-17 09:19:58] INFO root fetch - processPackages [betterproto-twirp-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterproto-twirp-new-1.2.18.tar.gz tmp/betterproto-twirp-new-1.2.19.tar.gz --markdown 20230517/b/betterproto-twirp-new/1.2.18-1.2.19/diff.md --exclude *.pyd
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-17 09:19:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230517/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 09:19:59] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2023-05-17 09:19:59] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/29/4b/8779e374333bdb68dd7ddd5ca736d9be1f8566cf88b63664519184666eeb/pycvc-1.2.4-py3-none-any.whl
+[2023-05-17 09:19:59] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/af/80/d2a7805b6c253291bde359e7b3a5ebf02b64ccc0658879c0cf7913a39eef/probabilistic_word_embeddings-1.6.0-py3-none-any.whl
+[2023-05-17 09:19:59] INFO root fetch - processPackages [offlinerllib]: Downloading https://files.pythonhosted.org/packages/9f/e3/d2f7768fab1a774ef4cfde306a44fc0154162cfdd708b8fcb087997befe1/offlinerllib-0.0.7.tar.gz
+[2023-05-17 09:19:59] INFO root fetch - processPackages [grokspeechrec]: Downloading https://files.pythonhosted.org/packages/31/ec/62e0f91449fc4fd62878bc5b7af286b2024762e284e5953a63089c4f521d/grokspeechrec-0.0.2.tar.gz
+[2023-05-17 09:19:59] INFO root fetch - processPackages [pycvc]: executing diffoscope
+[2023-05-17 09:19:59] INFO root fetch - processPackages [pycvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycvc-1.2.3-py3-none-any.whl.zip tmp/pycvc-1.2.4-py3-none-any.whl.zip --markdown 20230517/p/pycvc/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-17 09:19:59] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2023-05-17 09:19:59] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20230517/d/datadog-checks-dev/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-05-17 09:19:59] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-05-17 09:19:59] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.5.0.tar.gz tmp/probabilistic_word_embeddings-1.6.0-py3-none-any.whl.zip --markdown 20230517/p/probabilistic-word-embeddings/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-17 09:19:59] INFO root fetch - processPackages [offlinerllib]: executing diffoscope
+[2023-05-17 09:19:59] INFO root fetch - processPackages [offlinerllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinerllib-0.0.6.tar.gz tmp/offlinerllib-0.0.7.tar.gz --markdown 20230517/o/offlinerllib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 09:19:59] INFO root fetch - processPackages [grokspeechrec]: executing diffoscope
+[2023-05-17 09:19:59] INFO root fetch - processPackages [grokspeechrec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grokspeechrec-0.0.1.tar.gz tmp/grokspeechrec-0.0.2.tar.gz --markdown 20230517/g/grokspeechrec/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 09:20:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/27/53/8689df1a9a49e3b8ac2951c57f49b57e27de41c067ec4709bdc8dbfebab1/akshare-1.9.9.tar.gz
+[2023-05-17 09:20:00] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-17 09:20:00] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.86.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230517/a/akshare/1.9.86-1.9.9/diff.md --exclude *.pyd
+[2023-05-17 09:20:00] INFO root fetch - main [MainThread]: End processing [betterproto-twirp-new]: success
+[2023-05-17 09:20:00] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-17 09:20:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-17 09:20:01] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2023-05-17 09:20:01] INFO root fetch - main [MainThread]: End processing [pycvc]: success
+[2023-05-17 09:20:01] INFO root fetch - main [MainThread]: End processing [grokspeechrec]: success
+[2023-05-17 09:20:01] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-05-17 09:20:01] INFO root fetch - main [MainThread]: End processing [offlinerllib]: success
+[2023-05-17 09:20:03] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2023-05-17 09:20:08] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-17 09:20:08] INFO root fetch - main [MainThread]: Store serial: [18135498]
