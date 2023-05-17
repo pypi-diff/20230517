@@ -22834,3 +22834,102 @@ EOFError: EOF read where object expected
 [2023-05-17 18:40:55] INFO root fetch - main [MainThread]: End processing [aws-cdk-secure-api]: success
 [2023-05-17 18:40:57] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
 [2023-05-17 18:40:57] INFO root fetch - main [MainThread]: Store serial: [18142858]
+[2023-05-17 18:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142858]
+[2023-05-17 18:46:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bamread
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neurobank
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dopplrSDK
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckduckgo-search
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itk-elastix
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcTrackClient
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sealights-python-agent
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-order-type
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decore-base
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-salesforce
+[2023-05-17 18:46:06] INFO root fetch - processPackages [neurobank]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [bamread]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [itk-elastix]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 18:46:06] WARNING root fetch - processPackages [dopplrSDK]: Skipping, unable to determine old version
+[2023-05-17 18:46:06] INFO root fetch - processPackages [dopplrSDK]: Start processing: flattrs
+[2023-05-17 18:46:06] INFO root fetch - main [MainThread]: End processing [dopplrSDK] error
+[2023-05-17 18:46:06] INFO root fetch - processPackages [dcTrackClient]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [duckduckgo-search]: New version: [3.0.0] Old Version: [2.9.5]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [sealights-python-agent]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/6e/f5/0de4c1f7ea7a6ecea34ac7303fe9424882723c867037f25a8d05eeb333a3/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl
+[2023-05-17 18:46:06] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/de/88/34b7edae9bdaef7fc619be085a8e25e637502822627106aeaee327ee9b02/dctrackclient-0.3.0.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [sealights-python-agent]: executing diffoscope
+[2023-05-17 18:46:06] INFO root fetch - processPackages [odoo-addon-sale-order-type]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.6]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [sealights-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sealights-python-agent-1.0.5.tar.gz tmp/sealights-python-agent-1.0.6.tar.gz --markdown 20230517/s/sealights-python-agent/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-17 18:46:06] WARNING root fetch - processPackages [decore-base]: Skipping, unable to determine old version
+[2023-05-17 18:46:06] INFO root fetch - processPackages [decore-base]: Start processing: ojitos369
+[2023-05-17 18:46:06] INFO root fetch - main [MainThread]: End processing [decore-base] error
+[2023-05-17 18:46:06] INFO root fetch - processPackages [simple-salesforce]: New version: [1.12.4] Old Version: [1.12.3]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [flattrs]: New version: [23.1.0b9] Old Version: [23.1.0b8]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [neurobank]: Downloading https://files.pythonhosted.org/packages/e4/65/81928006b8883809c12a2a495f0692f1f6a7b479c2203a67ffb85e3e660c/neurobank-0.9.6-py2.py3-none-any.whl
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ojitos369]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 18:46:06] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/35/f3/8928c5b0def690a093c44639e19d6e5772880694229c52d8f346af52a0a2/duckduckgo_search-2.9.5.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [simple-salesforce]: Downloading https://files.pythonhosted.org/packages/1a/10/0a2b9a5e18c5a5a47013547647ca5736c9db49abd7c3b58b60df78a9bdf0/simple-salesforce-1.12.3.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [itk-elastix]: Downloading https://files.pythonhosted.org/packages/7a/41/4832fae79f88a83dc1722b6aba7e1c0a3c084dbfb15cfed44aa620d4d317/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl
+[2023-05-17 18:46:06] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/76/c7/3ee21246fbc1d17c6f18df4c8ea76ad87fa67e3ac52e8e7478980ab89191/dctrackclient-0.3.1.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/c1/d8/47b94f035f9089d562ada9a62d005cec9a605fbaf63795725781a3034f4f/odoo_addon_sale_order_type-16.0.1.0.1.6-py3-none-any.whl
+[2023-05-17 18:46:06] INFO root fetch - processPackages [flattrs]: Downloading https://files.pythonhosted.org/packages/8d/e0/91b64bc831baf77f07470a1b854bc76657d6a3ecb3a9e6e7cce8bf736c5e/flattrs-23.1.0b8.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [bamread]: executing diffoscope
+[2023-05-17 18:46:06] INFO root fetch - processPackages [bamread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamread-0.0.8.tar.gz tmp/bamread-0.0.9.tar.gz --markdown 20230517/b/bamread/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 18:46:06] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-05-17 18:46:06] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.3.0.tar.gz tmp/dctrackclient-0.3.1.tar.gz --markdown 20230517/d/dcTrackClient/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 18:46:06] INFO root fetch - processPackages [ojitos369]: Downloading https://files.pythonhosted.org/packages/6d/13/ce96e63cba4f8cea5a242d97a83db707fa94a32a60578a79d42c134360c3/ojitos369-0.8.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [itk-elastix]: executing diffoscope
+[2023-05-17 18:46:06] INFO root fetch - processPackages [itk-elastix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230517/i/itk-elastix/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 18:46:06] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/3c/d3/82b9964ab3f8907e82394643c099056e3905920fbdb2701a95ae870433f9/duckduckgo_search-3.0.0.tar.gz
+[2023-05-17 18:46:06] INFO root fetch - processPackages [neurobank]: Downloading https://files.pythonhosted.org/packages/8b/6d/d522f49dd62862c91bdc302d2225eb2b6c4d629d28098fe2e093e0795220/neurobank-0.9.7.tar.gz
+[2023-05-17 18:46:07] INFO root fetch - processPackages [simple-salesforce]: Downloading https://files.pythonhosted.org/packages/b8/c3/a90b2f9db1bf3df3a6f6545207be15377e2f40860073e3717ed7153fe09e/simple-salesforce-1.12.4.tar.gz
+[2023-05-17 18:46:07] INFO root fetch - processPackages [neurobank]: executing diffoscope
+[2023-05-17 18:46:07] INFO root fetch - processPackages [neurobank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurobank-0.9.6-py2.py3-none-any.whl.zip tmp/neurobank-0.9.7.tar.gz --markdown 20230517/n/neurobank/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-17 18:46:07] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2023-05-17 18:46:07] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-2.9.5.tar.gz tmp/duckduckgo_search-3.0.0.tar.gz --markdown 20230517/d/duckduckgo-search/2.9.5-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 18:46:07] INFO root fetch - processPackages [simple-salesforce]: executing diffoscope
+[2023-05-17 18:46:07] INFO root fetch - processPackages [simple-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-salesforce-1.12.3.tar.gz tmp/simple-salesforce-1.12.4.tar.gz --markdown 20230517/s/simple-salesforce/1.12.3-1.12.4/diff.md --exclude *.pyd
+[2023-05-17 18:46:07] INFO root fetch - processPackages [flattrs]: Downloading https://files.pythonhosted.org/packages/fa/a7/b04e39e2b9f86b1c5302b341057cc6831cb6e4e804698688df4206af4b84/flattrs-23.1.0b9.tar.gz
+[2023-05-17 18:46:07] INFO root fetch - processPackages [ojitos369]: Downloading https://files.pythonhosted.org/packages/6a/cb/fc84baca96e4aefc75c835e20864c4e533169bbbf8f2e1c3faeacbe2fd07/ojitos369-0.9.tar.gz
+[2023-05-17 18:46:07] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/b4/f1/9fcb7cf0bda9995999de1ee87dc3c1c74eb582ebdc7aca75b3bbf5c97391/odoo_addon_sale_order_type-16.0.1.0.2-py3-none-any.whl
+[2023-05-17 18:46:07] INFO root fetch - processPackages [ojitos369]: executing diffoscope
+[2023-05-17 18:46:07] INFO root fetch - processPackages [ojitos369]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ojitos369-0.8.tar.gz tmp/ojitos369-0.9.tar.gz --markdown 20230517/o/ojitos369/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 18:46:07] INFO root fetch - processPackages [flattrs]: executing diffoscope
+[2023-05-17 18:46:07] INFO root fetch - processPackages [flattrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flattrs-23.1.0b8.tar.gz tmp/flattrs-23.1.0b9.tar.gz --markdown 20230517/f/flattrs/23.1.0b8-23.1.0b9/diff.md --exclude *.pyd
+[2023-05-17 18:46:07] INFO root fetch - processPackages [odoo-addon-sale-order-type]: executing diffoscope
+[2023-05-17 18:46:07] INFO root fetch - processPackages [odoo-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_type-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_sale_order_type-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-sale-order-type/16.0.1.0.1.6-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-17 18:46:08] INFO root fetch - processPackages [dcTrackClient]: Start processing: fern-belvo
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-05-17 18:46:08] INFO root fetch - processPackages [itk-elastix]: Start processing: simplisafe-python
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [itk-elastix]: success
+[2023-05-17 18:46:08] INFO root fetch - processPackages [simplisafe-python]: New version: [9.6.9] Old Version: [9.6.8]
+[2023-05-17 18:46:08] INFO root fetch - processPackages [neurobank]: Start processing: wizata-dsapi
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [neurobank]: success
+[2023-05-17 18:46:08] INFO root fetch - processPackages [fern-belvo]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-05-17 18:46:08] INFO root fetch - processPackages [duckduckgo-search]: Start processing: AnyArgs
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2023-05-17 18:46:08] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 18:46:08] WARNING root fetch - processPackages [AnyArgs]: Skipping, unable to determine old version
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [AnyArgs] error
+[2023-05-17 18:46:08] INFO root fetch - processPackages [simplisafe-python]: Downloading https://files.pythonhosted.org/packages/bb/f1/5ed90d54b5bfdc13f22fa3bbcbe0469fd714f8dfeec62eaf41787a18f0d2/simplisafe-python-9.6.8.tar.gz
+[2023-05-17 18:46:08] INFO root fetch - processPackages [fern-belvo]: Downloading https://files.pythonhosted.org/packages/30/77/cee9304309459e3fe7b2db0532bc319d7d1502f2df54ce2244699d1ded84/fern_belvo-0.0.30.tar.gz
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [ojitos369]: success
+[2023-05-17 18:46:08] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-05-17 18:46:08] INFO root fetch - main [MainThread]: End processing [flattrs]: success
+[2023-05-17 18:46:09] INFO root fetch - processPackages [simplisafe-python]: Downloading https://files.pythonhosted.org/packages/e7/dc/85595681038a6049c91f6d835e478a98f11b7d82841c4e94adb7c1e19ce4/simplisafe-python-9.6.9.tar.gz
+[2023-05-17 18:46:09] INFO root fetch - processPackages [fern-belvo]: Downloading https://files.pythonhosted.org/packages/77/99/c5a3203c7a4e200083d705161c008dd6b9c3d7094e22e961e5e029472501/fern_belvo-0.0.31.tar.gz
+[2023-05-17 18:46:09] INFO root fetch - processPackages [fern-belvo]: executing diffoscope
+[2023-05-17 18:46:09] INFO root fetch - processPackages [fern-belvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_belvo-0.0.30.tar.gz tmp/fern_belvo-0.0.31.tar.gz --markdown 20230517/f/fern-belvo/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-05-17 18:46:09] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-05-17 18:46:09] INFO root fetch - processPackages [simplisafe-python]: executing diffoscope
+[2023-05-17 18:46:09] INFO root fetch - processPackages [simplisafe-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplisafe-python-9.6.8.tar.gz tmp/simplisafe-python-9.6.9.tar.gz --markdown 20230517/s/simplisafe-python/9.6.8-9.6.9/diff.md --exclude *.pyd
+[2023-05-17 18:46:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-type]: success
+[2023-05-17 18:46:09] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-17 18:46:09] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230517/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 18:46:09] INFO root fetch - main [MainThread]: End processing [simple-salesforce]: success
+[2023-05-17 18:46:10] INFO root fetch - main [MainThread]: End processing [simplisafe-python]: success
+[2023-05-17 18:46:10] INFO root fetch - main [MainThread]: End processing [bamread]: success
+[2023-05-17 18:46:10] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-17 18:46:10] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
+[2023-05-17 18:46:12] INFO root fetch - main [MainThread]: End processing [fern-belvo]: success
+[2023-05-17 18:46:12] INFO root fetch - main [MainThread]: Store serial: [18142971]
