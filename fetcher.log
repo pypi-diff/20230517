@@ -5120,3 +5120,53 @@
 [2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
 [2023-05-17 04:53:07] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
 [2023-05-17 04:53:07] INFO root fetch - main [MainThread]: Store serial: [18132967]
+[2023-05-17 04:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132967]
+[2023-05-17 04:58:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markata-gh
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dexchange-sms
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newspaper-scraper
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: excel-models
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moredata
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: askCO
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ufusion
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anything2image
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kwamehealthtoolboxpublic
+[2023-05-17 04:58:16] INFO root fetch - processPackages [moredata]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-17 04:58:16] WARNING root fetch - processPackages [anything2image]: Skipping, unable to determine old version
+[2023-05-17 04:58:16] INFO root fetch - main [MainThread]: End processing [anything2image] error
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ufusion]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-17 04:58:16] INFO root fetch - processPackages [newspaper-scraper]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-17 04:58:16] INFO root fetch - processPackages [markata-gh]: New version: [0.7.0.dev1] Old Version: [0.7.0.dev0]
+[2023-05-17 04:58:16] WARNING root fetch - processPackages [excel-models]: Skipping, unable to determine old version
+[2023-05-17 04:58:16] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-17 04:58:16] INFO root fetch - main [MainThread]: End processing [excel-models] error
+[2023-05-17 04:58:16] INFO root fetch - processPackages [dexchange-sms]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-17 04:58:16] WARNING root fetch - processPackages [askCO]: Skipping, unable to determine old version
+[2023-05-17 04:58:16] INFO root fetch - main [MainThread]: End processing [askCO] error
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 04:58:16] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.6.tar.gz tmp/ufusion-1.0.7.tar.gz --markdown 20230517/u/ufusion/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-17 04:58:17] INFO root fetch - processPackages [moredata]: Downloading https://files.pythonhosted.org/packages/ec/0a/7f8f9afdaaccb7b48dd9c9fed58a1b701899682f8358f401fa7535a174f3/moredata-0.2.3.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [markata-gh]: Downloading https://files.pythonhosted.org/packages/e4/61/55f7e2a65fe6d4430670d09af05cde3636366c512da26c7ce2be7ad987e9/markata_gh-0.7.0.dev0.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [newspaper-scraper]: Downloading https://files.pythonhosted.org/packages/15/a0/e6dc8135daa2d773ccd6857d9e367da17fe3280147906e2c95ed80ba148a/newspaper_scraper-0.2.0.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: Downloading https://files.pythonhosted.org/packages/27/e1/dc15e5ca33cc5fc7434ffabef3ebfe6f9bc2a9ca732876ee036d7cb75544/kwamehealthtoolboxpublic-1.2.0.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [moredata]: executing diffoscope
+[2023-05-17 04:58:17] INFO root fetch - processPackages [moredata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moredata-0.2.2.tar.gz tmp/moredata-0.2.3.tar.gz --markdown 20230517/m/moredata/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-17 04:58:17] INFO root fetch - processPackages [dexchange-sms]: Downloading https://files.pythonhosted.org/packages/ca/1d/b15b56667d89fccc500e2b2f105b0a20f722b369ee72334ddcba9bd26289/dexchange-sms-1.0.2.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [markata-gh]: Downloading https://files.pythonhosted.org/packages/52/39/1dc21a16b45b242d92cffe103ee4246cb5a926580ee53d8d4078c35b0150/markata_gh-0.7.0.dev1.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [dexchange-sms]: executing diffoscope
+[2023-05-17 04:58:17] INFO root fetch - processPackages [dexchange-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexchange-sms-1.0.0.tar.gz tmp/dexchange-sms-1.0.2.tar.gz --markdown 20230517/d/dexchange-sms/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 04:58:17] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: Downloading https://files.pythonhosted.org/packages/bb/a2/1c405d566671366ca01a1717d9670e9e48a2230598bf0d79247e4433a21c/kwamehealthtoolboxpublic-1.3.0.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [newspaper-scraper]: Downloading https://files.pythonhosted.org/packages/e1/2d/592a27f65aba43a1efd4e2861e1418f112aac5ad7241dd0d6b82ceaa0627/newspaper_scraper-0.2.1.tar.gz
+[2023-05-17 04:58:17] INFO root fetch - processPackages [markata-gh]: executing diffoscope
+[2023-05-17 04:58:17] INFO root fetch - processPackages [markata-gh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markata_gh-0.7.0.dev0.tar.gz tmp/markata_gh-0.7.0.dev1.tar.gz --markdown 20230517/m/markata-gh/0.7.0.dev0-0.7.0.dev1/diff.md --exclude *.pyd
+[2023-05-17 04:58:17] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: executing diffoscope
+[2023-05-17 04:58:17] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwamehealthtoolboxpublic-1.2.0.tar.gz tmp/kwamehealthtoolboxpublic-1.3.0.tar.gz --markdown 20230517/k/kwamehealthtoolboxpublic/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 04:58:17] INFO root fetch - processPackages [newspaper-scraper]: executing diffoscope
+[2023-05-17 04:58:17] INFO root fetch - processPackages [newspaper-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newspaper_scraper-0.2.0.tar.gz tmp/newspaper_scraper-0.2.1.tar.gz --markdown 20230517/n/newspaper-scraper/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 04:58:18] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 04:58:18] INFO root fetch - main [MainThread]: End processing [moredata]: success
+[2023-05-17 04:58:18] INFO root fetch - main [MainThread]: End processing [dexchange-sms]: success
+[2023-05-17 04:58:18] INFO root fetch - main [MainThread]: End processing [markata-gh]: success
+[2023-05-17 04:58:18] INFO root fetch - main [MainThread]: End processing [kwamehealthtoolboxpublic]: success
+[2023-05-17 04:58:57] INFO root fetch - main [MainThread]: End processing [newspaper-scraper]: success
+[2023-05-17 04:58:57] INFO root fetch - main [MainThread]: Store serial: [18132999]
