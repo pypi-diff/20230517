@@ -11019,3 +11019,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 10:23:44] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-05-17 10:23:45] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
 [2023-05-17 10:23:45] INFO root fetch - main [MainThread]: Store serial: [18136216]
+[2023-05-17 10:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136216]
+[2023-05-17 10:28:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyansys
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ncnn
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semisup-segmentation
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptsubtitler
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: expl-perf-drop
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipegraph2
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arelle-release
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brinthan-psd
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sccca
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: expl-perf-drop
+[2023-05-17 10:28:54] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-17 10:28:54] WARNING root fetch - processPackages [brinthan-psd]: Skipping, unable to determine old version
+[2023-05-17 10:28:54] INFO root fetch - processPackages [brinthan-psd]: Start processing: daisytuner-llvm
+[2023-05-17 10:28:54] INFO root fetch - main [MainThread]: End processing [brinthan-psd] error
+[2023-05-17 10:28:54] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 10:28:54] INFO root fetch - processPackages [expl-perf-drop]: New version: [0.4] Old Version: [0.3]
+[2023-05-17 10:28:54] INFO root fetch - processPackages [sccca]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-17 10:28:54] INFO root fetch - processPackages [expl-perf-drop]: New version: [0.4] Old Version: [0.3]
+[2023-05-17 10:28:54] WARNING root fetch - processPackages [gptsubtitler]: Skipping, unable to determine old version
+[2023-05-17 10:28:54] INFO root fetch - processPackages [pypipegraph2]: New version: [3.0.0] Old Version: [2.4.2]
+[2023-05-17 10:28:54] INFO root fetch - processPackages [gptsubtitler]: Start processing: gptsubtitler
+[2023-05-17 10:28:54] INFO root fetch - main [MainThread]: End processing [gptsubtitler] error
+[2023-05-17 10:28:54] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ncnn]: New version: [1.0.20230517] Old Version: [1.0.20230223]
+[2023-05-17 10:28:54] WARNING root fetch - processPackages [gptsubtitler]: Skipping, unable to determine old version
+[2023-05-17 10:28:54] INFO root fetch - processPackages [gptsubtitler]: Start processing: Busanstore
+[2023-05-17 10:28:54] INFO root fetch - main [MainThread]: End processing [gptsubtitler] error
+[2023-05-17 10:28:54] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/47/c7/dcd7d163ee4e75390d85b7ff16e81547bebceaef7f581b2ce74e55663566/semisup-segmentation-0.0.8.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [Busanstore]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 10:28:54] WARNING root fetch - processPackages [daisytuner-llvm]: Skipping, unable to determine old version
+[2023-05-17 10:28:54] INFO root fetch - processPackages [daisytuner-llvm]: Start processing: publish-calculator
+[2023-05-17 10:28:54] INFO root fetch - main [MainThread]: End processing [daisytuner-llvm] error
+[2023-05-17 10:28:54] WARNING root fetch - processPackages [publish-calculator]: Skipping, unable to determine old version
+[2023-05-17 10:28:54] INFO root fetch - processPackages [publish-calculator]: Start processing: comai
+[2023-05-17 10:28:54] INFO root fetch - main [MainThread]: End processing [publish-calculator] error
+[2023-05-17 10:28:54] INFO root fetch - processPackages [expl-perf-drop]: Downloading https://files.pythonhosted.org/packages/14/f3/f7d3903e71ee5ec7ca6a8e6854a8e4eab4b731d2bda5a3fd6f9858deb81e/expl_perf_drop-0.3.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [expl-perf-drop]: Downloading https://files.pythonhosted.org/packages/14/f3/f7d3903e71ee5ec7ca6a8e6854a8e4eab4b731d2bda5a3fd6f9858deb81e/expl_perf_drop-0.3.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/0f/08/e18d525873c4014f434582cc1b1178204dde15b356f544acd67545377665/semisup-segmentation-0.0.9.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [Busanstore]: Downloading https://files.pythonhosted.org/packages/0c/4c/36ffa4a4472a9c405872c46c2a82d81b4240e252a15fc4d30b66fb0252f1/Busanstore-0.0.4-py3-none-any.whl
+[2023-05-17 10:28:54] INFO root fetch - processPackages [sccca]: Downloading https://files.pythonhosted.org/packages/28/27/550f0a9dd32ac827dfa7c6cb4e6b466f2428b117034835d9e89a49d6e296/scCCA-0.1.3.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [pypipegraph2]: Downloading https://files.pythonhosted.org/packages/e9/4a/3d8b532e7bf65d1393e5f97d66a0492348ab037ee728d36e437de34472c7/pypipegraph2-2.4.2-py2.py3-none-any.whl
+[2023-05-17 10:28:54] INFO root fetch - processPackages [comai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 10:28:54] INFO root fetch - processPackages [ncnn]: Downloading https://files.pythonhosted.org/packages/27/fc/c88e891b93801a4320e9201bb3ee049c2039ee7f8dc93224a9a314615457/ncnn-1.0.20230223.tar.gz
+[2023-05-17 10:28:54] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-05-17 10:28:54] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230517/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-05-17 10:28:54] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-17 10:28:54] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230517/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [comai]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [comai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comai-0.0.7.tar.gz tmp/comai-0.0.8.tar.gz --markdown 20230517/c/comai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [expl-perf-drop]: Downloading https://files.pythonhosted.org/packages/2a/56/7503c2872349a7bdbd3dff64c299bd2f76d232527e155ece15ebad209f06/expl_perf_drop-0.4.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [expl-perf-drop]: Downloading https://files.pythonhosted.org/packages/2a/56/7503c2872349a7bdbd3dff64c299bd2f76d232527e155ece15ebad209f06/expl_perf_drop-0.4.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [pypipegraph2]: Downloading https://files.pythonhosted.org/packages/a8/ce/72c22b8fca7e0a463e9697bfc73c03232e62514a07dc8e30ca75002b238d/pypipegraph2-3.0.0.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [sccca]: Downloading https://files.pythonhosted.org/packages/c3/c7/68066c3e1686aa466558d3198dc92309a686c169cb7b3e111672bf276ee5/sccca-0.2.0.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230517/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [sccca]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [sccca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCCA-0.1.3.tar.gz tmp/sccca-0.2.0.tar.gz --markdown 20230517/s/sccca/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] WARNING root fetch - processPackages [Busanstore]: Skipping package: exceeds size limit 19774118>=10485760
+[2023-05-17 10:28:55] INFO root fetch - processPackages [Busanstore]: Start processing: blaster-server
+[2023-05-17 10:28:55] INFO root fetch - main [MainThread]: End processing [Busanstore] error
+[2023-05-17 10:28:55] INFO root fetch - processPackages [blaster-server]: New version: [0.0.431] Old Version: [0.0.430b0]
+[2023-05-17 10:28:55] INFO root fetch - processPackages [expl-perf-drop]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [expl-perf-drop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expl_perf_drop-0.3.tar.gz tmp/expl_perf_drop-0.4.tar.gz --markdown 20230517/e/expl-perf-drop/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [expl-perf-drop]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [expl-perf-drop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expl_perf_drop-0.3.tar.gz tmp/expl_perf_drop-0.4.tar.gz --markdown 20230517/e/expl-perf-drop/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [ncnn]: Downloading https://files.pythonhosted.org/packages/1d/8c/137de9f5f208fbbe2065803e985b8635e8ea085e481487316600e26c630f/ncnn-1.0.20230517.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [pypipegraph2]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [pypipegraph2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipegraph2-2.4.2-py2.py3-none-any.whl.zip tmp/pypipegraph2-3.0.0.tar.gz --markdown 20230517/p/pypipegraph2/2.4.2-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/20/57/7b18d254080f73fc361d679aef3999c4ff9daf241ac86b1f10ff6288aec7/blaster-server-0.0.430b0.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [ncnn]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [ncnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncnn-1.0.20230223.tar.gz tmp/ncnn-1.0.20230517.tar.gz --markdown 20230517/n/ncnn/1.0.20230223-1.0.20230517/diff.md --exclude *.pyd
+[2023-05-17 10:28:55] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/be/d9/0fb976f6f42aa1be7c973f194b88ec3c160813980d349259dfc5a4a8a38a/blaster-server-0.0.431.tar.gz
+[2023-05-17 10:28:55] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-17 10:28:55] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.430b0.tar.gz tmp/blaster-server-0.0.431.tar.gz --markdown 20230517/b/blaster-server/0.0.430b0-0.0.431/diff.md --exclude *.pyd
+[2023-05-17 10:28:56] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-05-17 10:28:56] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-17 10:28:56] INFO root fetch - main [MainThread]: End processing [sccca]: success
+[2023-05-17 10:28:56] INFO root fetch - main [MainThread]: End processing [comai]: success
+[2023-05-17 10:28:57] INFO root fetch - main [MainThread]: End processing [pypipegraph2]: success
+[2023-05-17 10:28:57] INFO root fetch - main [MainThread]: End processing [ncnn]: success
+[2023-05-17 10:28:57] INFO root fetch - main [MainThread]: End processing [expl-perf-drop]: success
+[2023-05-17 10:28:57] INFO root fetch - main [MainThread]: End processing [expl-perf-drop]: success
+[2023-05-17 10:28:58] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-17 10:29:09] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-05-17 10:29:09] INFO root fetch - main [MainThread]: Store serial: [18136376]
