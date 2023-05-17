@@ -16823,3 +16823,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:54:24] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
 [2023-05-17 14:54:25] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2023-05-17 14:54:25] INFO root fetch - main [MainThread]: Store serial: [18139554]
+[2023-05-17 14:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139554]
+[2023-05-17 14:59:34] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perceval-opnfv
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PandasProx
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slcl1butils
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdfizer
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfizer
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PatryksAutoAI
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remoulade
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vdk-control-service-api
+[2023-05-17 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnx2kerastl
+[2023-05-17 14:59:34] INFO root fetch - processPackages [PandasProx]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.9.2] Old Version: [2023.5.9]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [remoulade]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [vdk-control-service-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.90] Old Version: [0.0.89]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-17 14:59:34] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/f7/65/592d1ff8ea46189469f0cd49750f3fe82576c0e9f360a413ca1716b67bf9/remoulade-1.1.2.tar.gz
+[2023-05-17 14:59:34] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-17 14:59:34] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230517/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-17 14:59:34] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-17 14:59:34] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230517/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-17 14:59:34] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-17 14:59:34] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230517/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 14:59:34] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/f0/e6/41ebd38c2007dbc3f7dade0ce2232406c3609fd29abe16498998ddacafa2/onnx2kerastl-0.0.89.tar.gz
+[2023-05-17 14:59:34] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/c5/23/5d0e9e3495563fb787c1150c06d8eda31e67e687dc13788776110e20a8c6/PandasProx-0.1.6.tar.gz
+[2023-05-17 14:59:34] INFO root fetch - processPackages [slcl1butils]: Downloading https://files.pythonhosted.org/packages/97/88/674c0e89bbaa1e6b1c8a7c4c3fc7ee614ab6d1c31bc484722bae2fd2c52c/slcl1butils-2023.5.9.tar.gz
+[2023-05-17 14:59:34] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/fd/de/f282664c2fead4598a30713f79751c4fd040ecbb0a95a3d2503abed392f6/vdk-control-service-api-1.0.8.tar.gz
+[2023-05-17 14:59:34] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/5c/77/9530594bf6c3822d57cc3519d7038f264d3ec68563d282c09a41cacfcd8b/perceval_opnfv-0.2.8rc2.tar.gz
+[2023-05-17 14:59:34] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/50/36/0917650c7b15f79b69d454b2a0550c00308ac66797c5a7b012d398a38675/PatryksAutoAI-1.0.1.tar.gz
+[2023-05-17 14:59:35] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-0.1.5.tar.gz tmp/PandasProx-0.1.6.tar.gz --markdown 20230517/P/PandasProx/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 14:59:35] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.1.2.tar.gz tmp/remoulade-1.2.0.tar.gz --markdown 20230517/r/remoulade/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-17 14:59:35] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.0.0.tar.gz tmp/PatryksAutoAI-1.0.1.tar.gz --markdown 20230517/P/PatryksAutoAI/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 14:59:35] INFO root fetch - processPackages [slcl1butils]: Downloading https://files.pythonhosted.org/packages/3b/c8/5552781dd5ede061890dfcd4a2084a595ae166478aef745b2f0822a71365/slcl1butils-2023.5.9.2.tar.gz
+[2023-05-17 14:59:35] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.9.tar.gz tmp/slcl1butils-2023.5.9.2.tar.gz --markdown 20230517/s/slcl1butils/2023.5.9-2023.5.9.2/diff.md --exclude *.pyd
+[2023-05-17 14:59:35] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/45/31/4d8e7afbe78e4396469b939734a808a0073335f82e0dbcbebef94a25b892/perceval_opnfv-0.2.9.tar.gz
+[2023-05-17 14:59:35] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/8e/8c/1e107af23b6d9d27f0e04a9e55f2fe63dbbb2b90aca1cf9514859dc0fa7c/onnx2kerastl-0.0.90.tar.gz
+[2023-05-17 14:59:35] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.8rc2.tar.gz tmp/perceval_opnfv-0.2.9.tar.gz --markdown 20230517/p/perceval-opnfv/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 14:59:35] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/8f/85/63c91b9b1dac940c70db5e1fe37456bacb656f06eb472511c412269be3f6/vdk-control-service-api-1.0.9.tar.gz
+[2023-05-17 14:59:35] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.89.tar.gz tmp/onnx2kerastl-0.0.90.tar.gz --markdown 20230517/o/onnx2kerastl/0.0.89-0.0.90/diff.md --exclude *.pyd
+[2023-05-17 14:59:35] INFO root fetch - processPackages [vdk-control-service-api]: executing diffoscope
+[2023-05-17 14:59:35] INFO root fetch - processPackages [vdk-control-service-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-service-api-1.0.8.tar.gz tmp/vdk-control-service-api-1.0.9.tar.gz --markdown 20230517/v/vdk-control-service-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 14:59:36] INFO root fetch - processPackages [PandasProx]: Start processing: filesystem-dict
+[2023-05-17 14:59:36] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-17 14:59:36] INFO root fetch - processPackages [filesystem-dict]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 14:59:36] INFO root fetch - processPackages [perceval-opnfv]: Start processing: pulumi-containerregistry
+[2023-05-17 14:59:36] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-05-17 14:59:36] INFO root fetch - processPackages [pulumi-containerregistry]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 14:59:36] INFO root fetch - processPackages [slcl1butils]: Start processing: tomoscan
+[2023-05-17 14:59:36] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-17 14:59:36] INFO root fetch - processPackages [tomoscan]: New version: [1.3.0a0] Old Version: [1.2.2]
+[2023-05-17 14:59:36] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/87/76/6d45966659d65cf2f30365e5931bd9071244eff8cbb23173a2dce262aa12/filesystem-dict-0.1.6.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pulumi-containerregistry]: Downloading https://files.pythonhosted.org/packages/98/72/c6acb14cf06fd13e35e91629f44b76042ceb10f1768b6dc94c564be3e94c/pulumi_containerregistry-0.0.2.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: pytboss
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pytboss]: New version: [2023.5.0] Old Version: [2023.4.2]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [tomoscan]: Downloading https://files.pythonhosted.org/packages/8a/9a/34f517612f3a88bd35ec9034156eff41121ea25769501061d2ce3e5dd578/tomoscan-1.2.2.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [filesystem-dict]: executing diffoscope
+[2023-05-17 14:59:37] INFO root fetch - processPackages [filesystem-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesystem-dict-0.1.5.tar.gz tmp/filesystem-dict-0.1.6.tar.gz --markdown 20230517/f/filesystem-dict/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 14:59:37] INFO root fetch - processPackages [onnx2kerastl]: Start processing: RecordKeeper-Client
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [RecordKeeper-Client]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pulumi-containerregistry]: Downloading https://files.pythonhosted.org/packages/d2/f1/bfe875b533fd32dea0761897093941cabaab9ba954886391c58c06c5b612/pulumi_containerregistry-0.0.3.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [rdfizer]: Start processing: certora-cli-alpha-master
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [rdfizer]: Start processing: hubspot-api-client
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pytboss]: Downloading https://files.pythonhosted.org/packages/b7/4b/c07375a54bddf3fe7ba10242528d83fbce4af0f9c287dd766c7e746e1902/pytboss-2023.4.2.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b6] Old Version: [8.0.0b5]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230517.12.58.607215] Old Version: [20230517.10.10.811415]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pulumi-containerregistry]: executing diffoscope
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pulumi-containerregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_containerregistry-0.0.2.tar.gz tmp/pulumi_containerregistry-0.0.3.tar.gz --markdown 20230517/p/pulumi-containerregistry/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 14:59:37] INFO root fetch - processPackages [tomoscan]: Downloading https://files.pythonhosted.org/packages/ab/95/a92cd6ad48ed0180aca3b634b6cd60dd0eeb3a94177f9c059432783daec7/tomoscan-1.3.0a0.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [RecordKeeper-Client]: Downloading https://files.pythonhosted.org/packages/b1/95/bc30a7679b67e1235285debd1e0966c0980327c3683efd4f8f22b9a21e1b/RecordKeeper_Client-3.0.1.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pytboss]: Downloading https://files.pythonhosted.org/packages/5e/01/61066418065ad70248a6dd3c3c9ee8c925c1b0a42b23b99e7ec0da9cd98a/pytboss-2023.5.0.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/ff/67/f7319c578c2c192bfe491510169acc8c6d27d5b6c03ab473ceff4b1b43e7/hubspot-api-client-8.0.0b5.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/22/4f/a8ac735d06d2e7150e9454c86ec957d844b1bee4b25235a7b2a016ea1a56/certora-cli-alpha-master-20230517.10.10.811415.tar.gz
+[2023-05-17 14:59:37] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38976564>=10485760
+[2023-05-17 14:59:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pyschlage
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pyschlage]: New version: [2023.5.0] Old Version: [2023.4.2]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [tomoscan]: executing diffoscope
+[2023-05-17 14:59:37] INFO root fetch - processPackages [tomoscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomoscan-1.2.2.tar.gz tmp/tomoscan-1.3.0a0.tar.gz --markdown 20230517/t/tomoscan/1.2.2-1.3.0a0/diff.md --exclude *.pyd
+[2023-05-17 14:59:37] INFO root fetch - processPackages [vdk-control-service-api]: Start processing: rome-ways
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [vdk-control-service-api]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [RecordKeeper-Client]: Downloading https://files.pythonhosted.org/packages/69/f4/e75decd3cb3179649b72f4661fad38ef4267edd81d10b5a21fbe4616b421/RecordKeeper_Client-3.1.0.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [rome-ways]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pytboss]: executing diffoscope
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pytboss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytboss-2023.4.2.tar.gz tmp/pytboss-2023.5.0.tar.gz --markdown 20230517/p/pytboss/2023.4.2-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 14:59:37] INFO root fetch - processPackages [RecordKeeper-Client]: executing diffoscope
+[2023-05-17 14:59:37] INFO root fetch - processPackages [RecordKeeper-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RecordKeeper_Client-3.0.1.tar.gz tmp/RecordKeeper_Client-3.1.0.tar.gz --markdown 20230517/R/RecordKeeper-Client/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-17 14:59:37] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: pydrawise
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/4f/af/fc7c91b50c85b94bffbd561efd46fe00c5e4ccd5411749d756b217bc5e93/pyschlage-2023.4.2.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pydrawise]: New version: [2023.5.1] Old Version: [2023.5.0]
+[2023-05-17 14:59:37] INFO root fetch - processPackages [remoulade]: Start processing: jina
+[2023-05-17 14:59:37] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-05-17 14:59:37] INFO root fetch - processPackages [rome-ways]: Downloading https://files.pythonhosted.org/packages/80/c1/5fa4adfb64bda12749afca8d9a4a774912346faa3ecbb2ca88520380d020/rome_ways-0.1.1.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [pydrawise]: Downloading https://files.pythonhosted.org/packages/cc/ea/2e0780bf50671491816b16f5732f509deef0df3e6b3caeb2137adf00cb2b/pydrawise-2023.5.0.tar.gz
+[2023-05-17 14:59:37] INFO root fetch - processPackages [rome-ways]: Downloading https://files.pythonhosted.org/packages/9a/a8/4b89ad9479f0be8ae3a5caf25ae7db2c3ae5746a0efe3e6c9b04061c70cd/rome_ways-0.1.2.tar.gz
+[2023-05-17 14:59:38] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/6a/26/0eb48c577bd955cb3ae3348a59359ff4e13ed3d0da0eb3c948214462e6e8/hubspot-api-client-8.0.0b6.tar.gz
+[2023-05-17 14:59:38] INFO root fetch - processPackages [rome-ways]: executing diffoscope
+[2023-05-17 14:59:38] INFO root fetch - processPackages [rome-ways]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rome_ways-0.1.1.tar.gz tmp/rome_ways-0.1.2.tar.gz --markdown 20230517/r/rome-ways/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 14:59:38] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/9a/51/f205fb8e4847cf368291f88eeb81b6fd7d5802c2210f2ec4a74e8881fda8/pyschlage-2023.5.0.tar.gz
+[2023-05-17 14:59:38] INFO root fetch - processPackages [pyschlage]: executing diffoscope
+[2023-05-17 14:59:38] INFO root fetch - processPackages [pyschlage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschlage-2023.4.2.tar.gz tmp/pyschlage-2023.5.0.tar.gz --markdown 20230517/p/pyschlage/2023.4.2-2023.5.0/diff.md --exclude *.pyd
+[2023-05-17 14:59:38] INFO root fetch - processPackages [pydrawise]: Downloading https://files.pythonhosted.org/packages/38/a6/3a487d46a8ea85c8d43d93a6ae5bc4584b4f4e90eb4e70a13e34e3e7036c/pydrawise-2023.5.1.tar.gz
+[2023-05-17 14:59:38] INFO root fetch - processPackages [pydrawise]: executing diffoscope
+[2023-05-17 14:59:38] INFO root fetch - processPackages [pydrawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydrawise-2023.5.0.tar.gz tmp/pydrawise-2023.5.1.tar.gz --markdown 20230517/p/pydrawise/2023.5.0-2023.5.1/diff.md --exclude *.pyd
+[2023-05-17 14:59:38] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-05-17 14:59:38] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b5.tar.gz tmp/hubspot-api-client-8.0.0b6.tar.gz --markdown 20230517/h/hubspot-api-client/8.0.0b5-8.0.0b6/diff.md --exclude *.pyd
+[2023-05-17 14:59:38] INFO root fetch - main [MainThread]: End processing [filesystem-dict]: success
+[2023-05-17 14:59:38] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-17 14:59:38] INFO root fetch - main [MainThread]: End processing [pulumi-containerregistry]: success
+[2023-05-17 14:59:39] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-05-17 14:59:39] INFO root fetch - main [MainThread]: End processing [RecordKeeper-Client]: success
+[2023-05-17 14:59:39] INFO root fetch - main [MainThread]: End processing [pytboss]: success
+[2023-05-17 14:59:39] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-05-17 14:59:39] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-17 14:59:39] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230517/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-17 14:59:39] INFO root fetch - main [MainThread]: End processing [rome-ways]: success
+[2023-05-17 14:59:39] INFO root fetch - main [MainThread]: End processing [pyschlage]: success
+[2023-05-17 14:59:39] INFO root fetch - main [MainThread]: End processing [tomoscan]: success
+[2023-05-17 14:59:40] INFO root fetch - main [MainThread]: End processing [pydrawise]: success
+[2023-05-17 14:59:41] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-17 15:00:12] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-05-17 15:00:12] INFO root fetch - main [MainThread]: Store serial: [18139619]
