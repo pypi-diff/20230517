@@ -14792,3 +14792,143 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:29:48] INFO root fetch - main [MainThread]: End processing [aws-cfn-update]: success
 [2023-05-17 13:29:53] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-17 13:29:53] INFO root fetch - main [MainThread]: Store serial: [18138470]
+[2023-05-17 13:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138470]
+[2023-05-17 13:35:06] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fenjing
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irispreppy
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xkivy
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dipex
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipr
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-archiver-nightly
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-workflow-archiver-nightly
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scmdata
+[2023-05-17 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfed
+[2023-05-17 13:35:06] WARNING root fetch - processPackages [xkivy]: Skipping, unable to determine old version
+[2023-05-17 13:35:06] INFO root fetch - processPackages [xkivy]: Start processing: pyfed-macos
+[2023-05-17 13:35:06] INFO root fetch - main [MainThread]: End processing [xkivy] error
+[2023-05-17 13:35:06] INFO root fetch - processPackages [fenjing]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.89]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [scmdata]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/28/be/2fa33687a55b658bd4f93636e506af45f7b1ea0894a3424f7c1e7d660e6a/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/bd/a9/03b80eb9353184dc3d312e985e22dc69d65c449643d5d5ec8ccd09008782/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl
+[2023-05-17 13:35:06] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-17 13:35:06] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230517/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-17 13:35:06] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torchserve-nightly]: Start processing: cohere
+[2023-05-17 13:35:06] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-17 13:35:06] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/b8/08/a0fef07bfdfc0321830d531b7702a635cb71a59d6fd5d751a59becc9e05d/pypipr-0.1.89.tar.gz
+[2023-05-17 13:35:06] INFO root fetch - processPackages [cohere]: New version: [4.5.0] Old Version: [4.4.2]
+[2023-05-17 13:35:06] INFO root fetch - processPackages [scmdata]: Downloading https://files.pythonhosted.org/packages/96/e2/2a31bad4f609323de6758b3a1b7aa1fc198d42c74247a44313a412ca3c65/scmdata-0.9.0.tar.gz
+[2023-05-17 13:35:06] INFO root fetch - processPackages [pyfed-macos]: Downloading https://files.pythonhosted.org/packages/73/8a/f5c4dacf7358de90191f59f9e1a046c7a4d984c2455094a1613c6d9c5622/pyfed_macos-0.0.8.tar.gz
+[2023-05-17 13:35:06] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-05-17 13:35:06] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230517/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/42/4c/e930f43a6b8053b4557bf1f85c3789e4088d98bb437d4a2790089abb7699/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl
+[2023-05-17 13:35:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b0/b3/2d52ec1bd0dd1dae05bbb5823675d0ef4fe27885ba7d4bc77942b66af6c2/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl
+[2023-05-17 13:35:06] INFO root fetch - processPackages [pyfed]: Downloading https://files.pythonhosted.org/packages/79/5c/90ddfb5c0b08460b042f1cb453833c6a95e14ed872ffb7172170754b6c19/pyfed-0.0.8.tar.gz
+[2023-05-17 13:35:07] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/5c/7d/178eef6bc62696a37d0a98e0bb43a987e0e06d4aee93d666a0a39a48bdb5/fenjing-0.3.1.tar.gz
+[2023-05-17 13:35:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230517/t/torch-workflow-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/c5/ba/f50d33f52ff68da517de8f0eafb0e336e2b0f7d34ca6fac841f2f0626c4e/cohere-4.5.0.tar.gz
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.89.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230517/p/pypipr/0.1.89-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230517/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pyfed-macos]: Downloading https://files.pythonhosted.org/packages/c1/4a/93258f81a2088b1dcadd78e2ea95922387eeeae684836035acfea3054e6e/pyfed_macos-0.0.9.tar.gz
+[2023-05-17 13:35:07] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.3.0.tar.gz tmp/fenjing-0.3.1.tar.gz --markdown 20230517/f/fenjing/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [scmdata]: Downloading https://files.pythonhosted.org/packages/b5/35/219b380dd6a3b1e58906cdc2e7d475a36fbc9610295a22dd000cb8cb3d46/scmdata-0.9.1.tar.gz
+[2023-05-17 13:35:07] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.4.2.tar.gz tmp/cohere-4.5.0.tar.gz --markdown 20230517/c/cohere/4.4.2-4.5.0/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [scmdata]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [scmdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmdata-0.9.0.tar.gz tmp/scmdata-0.9.1.tar.gz --markdown 20230517/s/scmdata/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pyfed]: Downloading https://files.pythonhosted.org/packages/32/ef/3eec7df30b9e58f3c1f83576fb66074636104f03d66280061e608e1a0990/pyfed-0.0.9.tar.gz
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230517/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-05-17 13:35:07] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230517/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:08] INFO root fetch - processPackages [pypipr]: Start processing: bigdl-nano
+[2023-05-17 13:35:08] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-17 13:35:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: bigdl-chronos
+[2023-05-17 13:35:08] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-17 13:35:08] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230517] Old Version: [2.4.0b20230516]
+[2023-05-17 13:35:08] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230517] Old Version: [2.4.0b20230516]
+[2023-05-17 13:35:08] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: bigdl-serving
+[2023-05-17 13:35:08] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-17 13:35:08] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230517] Old Version: [2.4.0b20230516]
+[2023-05-17 13:35:08] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/52/34/9e5337fbfcc42e073883cffcfbc34f2a2c150de3bc5bc7d8a12ba04da461/bigdl_chronos-2.4.0b20230516-py3-none-win_amd64.whl
+[2023-05-17 13:35:08] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/45/36/ac060c055c211d69a3b03d47f613c53080a0eba5f82e0553a281a87302d8/bigdl_serving-2.4.0b20230516-py2.py3-none-any.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [fenjing]: Start processing: e2enetworks
+[2023-05-17 13:35:09] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-17 13:35:09] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:35:09] INFO root fetch - processPackages [pyfed-macos]: Start processing: odoo13-addon-ddmrp
+[2023-05-17 13:35:09] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-05-17 13:35:09] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-17 13:35:09] INFO root fetch - processPackages [scmdata]: Start processing: torchx-nightly
+[2023-05-17 13:35:09] INFO root fetch - main [MainThread]: End processing [scmdata]: success
+[2023-05-17 13:35:09] INFO root fetch - processPackages [pyfed]: Start processing: decore-base
+[2023-05-17 13:35:09] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-05-17 13:35:09] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5d/c0/936e2d16ed8814480ce1fd4f55ed5deca21aba179b03a859659614bd6e69/bigdl_nano-2.4.0b20230516-py3-none-win_amd64.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-17 13:35:09] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.8.tar.gz tmp/e2enetworks-0.0.9.tar.gz --markdown 20230517/e/e2enetworks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:09] INFO root fetch - processPackages [decore-base]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/f9/e3/a395281c86164a99e8e76033ab1ff4b4622406da09490b45cadf72adcde6/bigdl_serving-2.4.0b20230517-py2.py3-none-any.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/39/56/85359bbc4d07a0bf2f96e46953b9f2e3d48448fc027fdea5d9ae5b12f25a/bigdl_chronos-2.4.0b20230517-py3-none-win_amd64.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/dc/95/950a4a2a5a258222e5237488d199eb7d07de47b5f5c6474af8b60e6a7a69/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6d/b7/ed69c31a8036a3dc777d8b47929adf15a85a8936d0f2a3ac0d9beacefe86/torchx_nightly-2023.5.8-py3-none-any.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [decore-base]: Downloading https://files.pythonhosted.org/packages/74/87/53fa05611b6f8c84150ddc362b4e4d6dbb669e654f6ed682ad845f40f866/decore_base-0.0.10.tar.gz
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230516-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230517-py2.py3-none-any.whl.zip --markdown 20230517/b/bigdl-serving/2.4.0b20230516-2.4.0b20230517/diff.md --exclude *.pyd
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/36/0a/d83c54de046db43ad8abb2145b0abd378f8321059142c4ffcaf5d567f5ee/bigdl_nano-2.4.0b20230517-py3-none-win_amd64.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230516-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230517-py3-none-win_amd64.whl.zip --markdown 20230517/b/bigdl-chronos/2.4.0b20230516-2.4.0b20230517/diff.md --exclude *.pyd
+[2023-05-17 13:35:09] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/f1/e682a43d6521ca41456243a79d1e5d7102f586e0b44f357ad5a1b8a40965/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/47/b3/6e7994c7dcbddb791c906a4b7e7510035fd4e41d79c97f47b34ba6fb41af/torchx_nightly-2023.5.9-py3-none-any.whl
+[2023-05-17 13:35:09] INFO root fetch - processPackages [cohere]: Start processing: PyroFork
+[2023-05-17 13:35:09] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-05-17 13:35:09] INFO root fetch - processPackages [PyroFork]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-17 13:35:09] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-17 13:35:09] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230517/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-17 13:35:09] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-17 13:35:09] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230517/t/torchx-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 13:35:09] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/b4/58/b3355ebb0aa03f888a5e07371126f7c571d7a0bfc4d13f655e97d66885da/PyroFork-2.1.7.tar.gz
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-17 13:35:09] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230516-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230517-py3-none-win_amd64.whl.zip --markdown 20230517/b/bigdl-nano/2.4.0b20230516-2.4.0b20230517/diff.md --exclude *.pyd
+[2023-05-17 13:35:09] INFO root fetch - processPackages [dipex]: Start processing: OctoBot-Commons
+[2023-05-17 13:35:09] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-17 13:35:10] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-17 13:35:10] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/e2/cd/de9a38ae01b364cadac0ef3b5fee1a7086a274e964e87915ae98824a9851/PyroFork-2.1.8.tar.gz
+[2023-05-17 13:35:10] INFO root fetch - processPackages [decore-base]: Downloading https://files.pythonhosted.org/packages/30/79/63bf91bd281fef5b1c68fdbe8897aae0ac0dd1e4fb9ad4fbe930c5f55b5e/decore-base-0.0.11.tar.gz
+[2023-05-17 13:35:10] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/ec/98/2b19e5c5e92fe15231a495087611dd76b030dab2102f646ba62e9988c9e3/OctoBot-Commons-1.9.4.tar.gz
+[2023-05-17 13:35:10] INFO root fetch - processPackages [PyroFork]: executing diffoscope
+[2023-05-17 13:35:10] INFO root fetch - processPackages [PyroFork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-2.1.7.tar.gz tmp/PyroFork-2.1.8.tar.gz --markdown 20230517/P/PyroFork/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-17 13:35:10] INFO root fetch - processPackages [decore-base]: executing diffoscope
+[2023-05-17 13:35:10] INFO root fetch - processPackages [decore-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_base-0.0.10.tar.gz tmp/decore-base-0.0.11.tar.gz --markdown 20230517/d/decore-base/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-05-17 13:35:10] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/fd/2d/a7e8d7a42db4a339faaa1a10004e5dafa2f1e9d60c1e0f35d06c23e6e7fd/OctoBot-Commons-1.9.5.tar.gz
+[2023-05-17 13:35:10] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-05-17 13:35:10] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.4.tar.gz tmp/OctoBot-Commons-1.9.5.tar.gz --markdown 20230517/O/OctoBot-Commons/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-17 13:35:10] INFO root fetch - processPackages [e2enetworks]: Start processing: DLMS-SPODES
+[2023-05-17 13:35:10] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-17 13:35:10] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-17 13:35:10] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-17 13:35:10] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230517/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 13:35:11] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-17 13:35:12] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-17 13:35:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-17 13:35:12] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-17 13:35:12] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-17 13:35:12] INFO root fetch - main [MainThread]: End processing [decore-base]: success
+[2023-05-17 13:35:13] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-17 13:35:14] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-05-17 13:35:15] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-05-17 13:35:15] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
+[2023-05-17 13:35:15] INFO root fetch - main [MainThread]: Store serial: [18138534]
