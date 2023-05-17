@@ -8569,3 +8569,34 @@
 [2023-05-17 07:54:20] INFO root fetch - main [MainThread]: End processing [mammopy]: success
 [2023-05-17 07:54:21] INFO root fetch - main [MainThread]: End processing [skyndo]: success
 [2023-05-17 07:54:21] INFO root fetch - main [MainThread]: Store serial: [18134717]
+[2023-05-17 07:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134717]
+[2023-05-17 07:59:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-17 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manifest-ml
+[2023-05-17 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrq-custom
+[2023-05-17 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mangadex-downloader
+[2023-05-17 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskbase
+[2023-05-17 07:59:31] INFO root fetch - processPackages [taskbase]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mrq-custom]: New version: [0.9.33.5] Old Version: [0.9.33.4]
+[2023-05-17 07:59:31] INFO root fetch - processPackages [taskbase]: Downloading https://files.pythonhosted.org/packages/c7/6c/02cfec4d8f640bb7f49e7c32a86e88467386d538583867bfb34125aa1688/taskbase-0.1.5.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/0d/55/72934c75731936ce1521fcf9093652e998c4c8767f6469d2fd39da3848a3/mrq-custom-0.9.33.4.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mangadex-downloader]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-17 07:59:31] INFO root fetch - processPackages [manifest-ml]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 07:59:31] INFO root fetch - processPackages [taskbase]: Downloading https://files.pythonhosted.org/packages/47/8d/899dc92cc063d2d11bb0a2ccd45e80039c9362718e4d7abb890630816edb/taskbase-0.1.6.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mrq-custom]: Downloading https://files.pythonhosted.org/packages/62/18/6373cdc1af502e3521e3ef15e3a2d4a5bcb2bf4ecdc866596a87cee8c4f2/mrq-custom-0.9.33.5.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [taskbase]: executing diffoscope
+[2023-05-17 07:59:31] INFO root fetch - processPackages [taskbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskbase-0.1.5.tar.gz tmp/taskbase-0.1.6.tar.gz --markdown 20230517/t/taskbase/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/24/06/7d739d7f41e4ae780f74dd540596ac75c623c21984d58976a00f6bb9191b/mangadex-downloader-2.9.0.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mrq-custom]: executing diffoscope
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mrq-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrq-custom-0.9.33.4.tar.gz tmp/mrq-custom-0.9.33.5.tar.gz --markdown 20230517/m/mrq-custom/0.9.33.4-0.9.33.5/diff.md --exclude *.pyd
+[2023-05-17 07:59:31] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/d2/9a/93c85a4b3bd46822a925eab5cb23da1970a505a3711ca6c09a2811ba9b81/manifest-ml-0.1.5.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/5b/65/b7b74e3d6571b3cc3af1ec959abb3c1e169868a5c3fde9ed37946ddd9de0/manifest-ml-0.1.6.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/b5/11/34eb8f10519d917a24f7b838c7bb8a9361ce4685f99dbae9dbb4938b02e2/mangadex-downloader-2.9.1.tar.gz
+[2023-05-17 07:59:31] INFO root fetch - processPackages [manifest-ml]: executing diffoscope
+[2023-05-17 07:59:31] INFO root fetch - processPackages [manifest-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifest-ml-0.1.5.tar.gz tmp/manifest-ml-0.1.6.tar.gz --markdown 20230517/m/manifest-ml/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 07:59:32] INFO root fetch - processPackages [mangadex-downloader]: executing diffoscope
+[2023-05-17 07:59:32] INFO root fetch - processPackages [mangadex-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangadex-downloader-2.9.0.tar.gz tmp/mangadex-downloader-2.9.1.tar.gz --markdown 20230517/m/mangadex-downloader/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-17 07:59:32] INFO root fetch - main [MainThread]: End processing [taskbase]: success
+[2023-05-17 07:59:33] INFO root fetch - main [MainThread]: End processing [manifest-ml]: success
+[2023-05-17 07:59:33] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
+[2023-05-17 07:59:34] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
+[2023-05-17 07:59:34] INFO root fetch - main [MainThread]: Store serial: [18134774]
