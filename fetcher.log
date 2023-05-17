@@ -17616,3 +17616,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 15:27:32] INFO root fetch - main [MainThread]: End processing [carefree-learn]: success
 [2023-05-17 15:27:32] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2023-05-17 15:27:32] INFO root fetch - main [MainThread]: Store serial: [18139977]
+[2023-05-17 15:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139977]
+[2023-05-17 15:32:41] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cool
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: planqk-quantum
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osmconflator
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grimoire-elk
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioswitcher
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyTermGUI
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elementary-data
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bx-django-utils
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-stock-scanner
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ev-fleet-sim
+[2023-05-17 15:32:41] WARNING root fetch - processPackages [osmconflator]: Skipping, unable to determine old version
+[2023-05-17 15:32:41] INFO root fetch - processPackages [osmconflator]: Start processing: jina-now
+[2023-05-17 15:32:41] INFO root fetch - main [MainThread]: End processing [osmconflator] error
+[2023-05-17 15:32:41] INFO root fetch - processPackages [django-cool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [aioswitcher]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [PyTermGUI]: New version: [7.4.0] Old Version: [7.3.0]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [odoo12-addon-stock-scanner]: New version: [12.0.1.0.2] Old Version: [12.0.1.0.1.99.dev4]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [planqk-quantum]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [elementary-data]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-17 15:32:41] INFO root fetch - processPackages [bx-django-utils]: New version: [9] Old Version: [8]
+[2023-05-17 15:32:42] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230517/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [odoo12-addon-stock-scanner]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [odoo12-addon-stock-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_scanner-12.0.1.0.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_stock_scanner-12.0.1.0.2-py3-none-any.whl.zip --markdown 20230517/o/odoo12-addon-stock-scanner/12.0.1.0.1.99.dev4-12.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [PyTermGUI]: Downloading https://files.pythonhosted.org/packages/97/3d/f1e215b379759faed454a7ad62c798e200c0824b2bfea93f0faf0fde326b/pytermgui-7.3.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [aioswitcher]: Downloading https://files.pythonhosted.org/packages/94/fc/a467027e6a50c70bf86d865e0397ed8145f4a4bb20f7f0b5c218729fbfb6/aioswitcher-3.3.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/1b/02/8487e9ea77170414b83d71f04e13a0033be829b90ad12f75d9f6431b1f62/planqk-quantum-1.6.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/23/c9/8ad372c650c1632ddf4c068f45dbaa1c9c0843d057feb9977996f24162c8/elementary-data-0.7.8.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [django-cool]: Downloading https://files.pythonhosted.org/packages/46/9e/389521bb2ebd615afc45d66ce71760fd628047c2ff409f39ee8a8f23fe1e/django-cool-1.2.8.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/1e/0c/ff3d5a5c26c498b48bf149a2a08540a5812c585c9bfb59f4e303198aa123/bx_django_utils-8.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [django-cool]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [django-cool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cool-1.2.7.tar.gz tmp/django-cool-1.2.8.tar.gz --markdown 20230517/d/django-cool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [ev-fleet-sim]: Downloading https://files.pythonhosted.org/packages/9f/fa/97e1842a6936621deff659e680b528d87d2eb818019b674006332f84a1c6/ev-fleet-sim-1.9.post2.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/6a/39/07a0b0d9aa5fbe66e434facd6e4529eb47ef21645cd9ef1569dda274446d/planqk-quantum-1.7.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [aioswitcher]: Downloading https://files.pythonhosted.org/packages/12/3b/c842af26a6359ef3d798a1686804fcd550e89c19950d12263b4c508f2856/aioswitcher-3.4.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.6.0.tar.gz tmp/planqk-quantum-1.7.0.tar.gz --markdown 20230517/p/planqk-quantum/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [PyTermGUI]: Downloading https://files.pythonhosted.org/packages/66/de/579d4e6ebf2330ee2243dc8ba6a60e7573b06e7fc23c3b7e4dcd923ff823/pytermgui-7.4.0.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [aioswitcher]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [aioswitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioswitcher-3.3.0.tar.gz tmp/aioswitcher-3.4.0.tar.gz --markdown 20230517/a/aioswitcher/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230517/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/2b/63/3e7d67b2f7c3cbfbf0e086e97103b8d3e82088f05b5c20e488922c2fe0f7/bx_django_utils-9.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [PyTermGUI]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [PyTermGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytermgui-7.3.0.tar.gz tmp/pytermgui-7.4.0.tar.gz --markdown 20230517/P/PyTermGUI/7.3.0-7.4.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/75/60/3fa2a4cf528b6fbe025e9ad2418fe56aade320806bd21ab1e3705ec461d8/elementary-data-0.7.9.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [ev-fleet-sim]: Downloading https://files.pythonhosted.org/packages/a7/1d/a279a9aa98276f3d9d5c318a702dfc338e938dc6f69ac685509fd0f5bef2/ev-fleet-sim-1.9.post3.tar.gz
+[2023-05-17 15:32:42] INFO root fetch - processPackages [elementary-data]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [elementary-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementary-data-0.7.8.tar.gz tmp/elementary-data-0.7.9.tar.gz --markdown 20230517/e/elementary-data/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230517/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-05-17 15:32:42] INFO root fetch - processPackages [bx-django-utils]: executing diffoscope
+[2023-05-17 15:32:42] INFO root fetch - processPackages [bx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_django_utils-8.tar.gz tmp/bx_django_utils-9.tar.gz --markdown 20230517/b/bx-django-utils/8-9/diff.md --exclude *.pyd
+[2023-05-17 15:32:43] INFO root fetch - processPackages [odoo12-addon-stock-scanner]: Start processing: dvc
+[2023-05-17 15:32:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-scanner]: success
+[2023-05-17 15:32:43] INFO root fetch - processPackages [dvc]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-17 15:32:44] INFO root fetch - processPackages [planqk-quantum]: Start processing: pyodc
+[2023-05-17 15:32:44] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-05-17 15:32:44] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-17 15:32:44] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-2.9.4.tar.gz tmp/dvc-2.9.5.tar.gz --markdown 20230517/d/dvc/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pyodc]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pyodc]: Downloading https://files.pythonhosted.org/packages/67/1f/cfe51153c9aaa5f8d33baf40515bae3d0e116e6c805f533d6729c038f987/pyodc-1.2.0.tar.gz
+[2023-05-17 15:32:44] INFO root fetch - processPackages [grimoire-elk]: Start processing: django-common-task-system
+[2023-05-17 15:32:44] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-05-17 15:32:44] INFO root fetch - processPackages [bx-django-utils]: Start processing: pip-setting
+[2023-05-17 15:32:44] INFO root fetch - main [MainThread]: End processing [bx-django-utils]: success
+[2023-05-17 15:32:44] INFO root fetch - processPackages [django-common-task-system]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pyodc]: Downloading https://files.pythonhosted.org/packages/ba/64/d747e20965aa5daed34606d66df586656f609b6927bd0edc4c8f72c120eb/pyodc-1.3.0.tar.gz
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pip-setting]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pyodc]: executing diffoscope
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pyodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodc-1.2.0.tar.gz tmp/pyodc-1.3.0.tar.gz --markdown 20230517/p/pyodc/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:44] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/cd/2d/8a9925d217673c0d016c8e7325ac00612ca06d97105a4c8de51df696a0b8/django-common-task-system-1.2.8.tar.gz
+[2023-05-17 15:32:44] INFO root fetch - processPackages [PyTermGUI]: Start processing: djangoviz
+[2023-05-17 15:32:44] INFO root fetch - main [MainThread]: End processing [PyTermGUI]: success
+[2023-05-17 15:32:44] INFO root fetch - processPackages [pip-setting]: Downloading https://files.pythonhosted.org/packages/25/3c/46064026c2f913f2c68be4846b53e1f7ae411d6625a9352b63dd868f9c84/pip-setting-0.0.9.tar.gz
+[2023-05-17 15:32:44] WARNING root fetch - processPackages [djangoviz]: Skipping, unable to determine old version
+[2023-05-17 15:32:44] INFO root fetch - processPackages [djangoviz]: Start processing: primestg
+[2023-05-17 15:32:44] INFO root fetch - main [MainThread]: End processing [djangoviz] error
+[2023-05-17 15:32:44] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/94/78/719efb3c1965581782145b50778bf55fba33c619d0ea3a248336ba2972dc/django-common-task-system-1.2.9.tar.gz
+[2023-05-17 15:32:45] INFO root fetch - processPackages [primestg]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-17 15:32:45] INFO root fetch - processPackages [pip-setting]: Downloading https://files.pythonhosted.org/packages/f6/f2/f727619d7bb1cb3b89f77d88a216cb8792d11e4017ecdf53a3ed43877ace/pip-setting-1.0.0.tar.gz
+[2023-05-17 15:32:45] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-05-17 15:32:45] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.2.8.tar.gz tmp/django-common-task-system-1.2.9.tar.gz --markdown 20230517/d/django-common-task-system/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 15:32:45] INFO root fetch - processPackages [pip-setting]: executing diffoscope
+[2023-05-17 15:32:45] INFO root fetch - processPackages [pip-setting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-setting-0.0.9.tar.gz tmp/pip-setting-1.0.0.tar.gz --markdown 20230517/p/pip-setting/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:45] INFO root fetch - processPackages [primestg]: Downloading https://files.pythonhosted.org/packages/f5/06/6b4f53d32ba3629a273be0af7836c915bdb0912d3c097dc7cd3a20cdc3dd/primestg-1.8.0.tar.gz
+[2023-05-17 15:32:45] INFO root fetch - processPackages [jina-now]: Start processing: simplesystray
+[2023-05-17 15:32:45] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-05-17 15:32:45] INFO root fetch - processPackages [simplesystray]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 15:32:45] INFO root fetch - processPackages [primestg]: Downloading https://files.pythonhosted.org/packages/e1/c1/3ac2fc975d5839b72d7ba440abaee9c5d478970eecdfdc342dde30086daa/primestg-1.9.0.tar.gz
+[2023-05-17 15:32:45] ERROR root fetch - processPackages [simplesystray]: Unable to fetch info: No such project/version 'simplesystray' 0.0.7
+[2023-05-17 15:32:45] INFO root fetch - processPackages [simplesystray]: Start processing: alchemy-graph
+[2023-05-17 15:32:45] INFO root fetch - main [MainThread]: End processing [simplesystray] error
+[2023-05-17 15:32:45] INFO root fetch - processPackages [primestg]: executing diffoscope
+[2023-05-17 15:32:45] INFO root fetch - processPackages [primestg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primestg-1.8.0.tar.gz tmp/primestg-1.9.0.tar.gz --markdown 20230517/p/primestg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 15:32:45] INFO root fetch - processPackages [ev-fleet-sim]: Start processing: aytch
+[2023-05-17 15:32:45] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-05-17 15:32:45] WARNING root fetch - processPackages [alchemy-graph]: Skipping, unable to determine old version
+[2023-05-17 15:32:45] INFO root fetch - processPackages [alchemy-graph]: Start processing: qdax
+[2023-05-17 15:32:45] INFO root fetch - main [MainThread]: End processing [alchemy-graph] error
+[2023-05-17 15:32:45] INFO root fetch - processPackages [qdax]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 15:32:45] WARNING root fetch - processPackages [aytch]: Skipping, unable to determine old version
+[2023-05-17 15:32:45] INFO root fetch - main [MainThread]: End processing [aytch] error
+[2023-05-17 15:32:45] INFO root fetch - processPackages [qdax]: Downloading https://files.pythonhosted.org/packages/c0/5a/bf25e6acb6ed23ad35a95e89273367ec23ada9e944c534687139b4e4c7c0/qdax-0.2.1.tar.gz
+[2023-05-17 15:32:46] INFO root fetch - main [MainThread]: End processing [pyodc]: success
+[2023-05-17 15:32:46] INFO root fetch - main [MainThread]: End processing [pip-setting]: success
+[2023-05-17 15:32:46] INFO root fetch - processPackages [qdax]: Downloading https://files.pythonhosted.org/packages/73/81/c4cf0ed9751b30fb220ebf1ba591535bde8fb0fc32f08a533b1109033435/qdax-0.2.2.tar.gz
+[2023-05-17 15:32:46] INFO root fetch - processPackages [qdax]: executing diffoscope
+[2023-05-17 15:32:46] INFO root fetch - processPackages [qdax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdax-0.2.1.tar.gz tmp/qdax-0.2.2.tar.gz --markdown 20230517/q/qdax/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 15:32:46] INFO root fetch - main [MainThread]: End processing [primestg]: success
+[2023-05-17 15:32:47] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-05-17 15:32:47] INFO root fetch - main [MainThread]: End processing [qdax]: success
+[2023-05-17 15:32:47] INFO root fetch - main [MainThread]: End processing [aioswitcher]: success
+[2023-05-17 15:32:48] INFO root fetch - main [MainThread]: End processing [django-cool]: success
+[2023-05-17 15:32:49] INFO root fetch - main [MainThread]: End processing [elementary-data]: success
+[2023-05-17 15:32:51] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-17 15:32:51] INFO root fetch - main [MainThread]: Store serial: [18140060]
