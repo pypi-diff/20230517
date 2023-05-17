@@ -19948,3 +19948,109 @@ EOFError: EOF read where object expected
 [2023-05-17 16:54:47] INFO root fetch - main [MainThread]: End processing [pvbm]: success
 [2023-05-17 16:54:59] INFO root fetch - main [MainThread]: End processing [plotoptix]: success
 [2023-05-17 16:54:59] INFO root fetch - main [MainThread]: Store serial: [18141265]
+[2023-05-17 17:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141265]
+[2023-05-17 17:00:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drift-protocol
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akida
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-provider-vdk
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mir-ml-utils
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cnn2snn
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-eigen-ingenuity
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bodosdk
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gunicorn_environmentconfig
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gunicorn_environmentconfig
+[2023-05-17 17:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapidpro-flow-generator
+[2023-05-17 17:00:12] WARNING root fetch - processPackages [mir-ml-utils]: Skipping, unable to determine old version
+[2023-05-17 17:00:12] INFO root fetch - processPackages [mir-ml-utils]: Start processing: numina-data-client
+[2023-05-17 17:00:12] INFO root fetch - main [MainThread]: End processing [mir-ml-utils] error
+[2023-05-17 17:00:12] INFO root fetch - processPackages [drift-protocol]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [airflow-provider-vdk]: New version: [0.0.870487610] Old Version: [0.0.758850982]
+[2023-05-17 17:00:12] WARNING root fetch - processPackages [gunicorn_environmentconfig]: Skipping, unable to determine old version
+[2023-05-17 17:00:12] INFO root fetch - processPackages [cnn2snn]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [akida]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-17 17:00:12] WARNING root fetch - processPackages [gunicorn_environmentconfig]: Skipping, unable to determine old version
+[2023-05-17 17:00:12] INFO root fetch - processPackages [gunicorn_environmentconfig]: Start processing: python-eigen-ingenuity
+[2023-05-17 17:00:12] INFO root fetch - main [MainThread]: End processing [gunicorn_environmentconfig] error
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.7.1] Old Version: [0.4.7]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [gunicorn_environmentconfig]: Start processing: kcli
+[2023-05-17 17:00:12] WARNING root fetch - processPackages [rapidpro-flow-generator]: Skipping, unable to determine old version
+[2023-05-17 17:00:12] INFO root fetch - processPackages [bodosdk]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-17 17:00:12] INFO root fetch - main [MainThread]: End processing [gunicorn_environmentconfig] error
+[2023-05-17 17:00:12] INFO root fetch - processPackages [numina-data-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [rapidpro-flow-generator]: Start processing: dopplrSDK
+[2023-05-17 17:00:12] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-generator] error
+[2023-05-17 17:00:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202305171342] Old Version: [99.0.202305162016]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.7.1] Old Version: [0.4.7]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [drift-protocol]: executing diffoscope
+[2023-05-17 17:00:12] INFO root fetch - processPackages [drift-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_protocol-0.3.0-py3-none-any.whl.zip tmp/drift_protocol-0.4.0-py3-none-any.whl.zip --markdown 20230517/d/drift-protocol/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 17:00:12] WARNING root fetch - processPackages [dopplrSDK]: Skipping, unable to determine old version
+[2023-05-17 17:00:12] INFO root fetch - processPackages [dopplrSDK]: Start processing: eptlsoot
+[2023-05-17 17:00:12] INFO root fetch - main [MainThread]: End processing [dopplrSDK] error
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/70/6f/94d1536d01822e9062a53ff2a3a6a9d10b3c696b77f0267f8d3a549e673b/python-eigen-ingenuity-0.4.7.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/70/6f/94d1536d01822e9062a53ff2a3a6a9d10b3c696b77f0267f8d3a549e673b/python-eigen-ingenuity-0.4.7.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/96/63/729e772bc57691b7c3400873dc01f661623ebb7d2aa8eb9d00f143f359e2/cnn2snn-2.3.5.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [eptlsoot]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 17:00:12] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/28/b4/e11bc90d2cd24e48d31fb3c4154385c8f719553e1d7aa98f159b1faa6a3e/akida-2.3.5-cp39-cp39-win_amd64.whl
+[2023-05-17 17:00:12] INFO root fetch - processPackages [bodosdk]: Downloading https://files.pythonhosted.org/packages/d9/65/6ed78daa5e9209b87de9988e57ac20c11f4d13fcb9070d62a1c0df7018f6/bodosdk-1.3.1.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [eptlsoot]: Downloading https://files.pythonhosted.org/packages/cb/99/0c779af686c1b80caba11eafa652df7df6df6317fdccfaf98df0c5be1473/eptlsoot-0.0.6-cp39-cp39-win_amd64.whl
+[2023-05-17 17:00:12] INFO root fetch - processPackages [airflow-provider-vdk]: Downloading https://files.pythonhosted.org/packages/37/ff/93ae32e9edad0d4f8c65959d553bee98732693184bf50adc36d233f929ca/airflow-provider-vdk-0.0.758850982.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [numina-data-client]: Downloading https://files.pythonhosted.org/packages/22/11/36f6e2cc96a091b277834b51144e52bc1cf68bb59592442c5b3a4abb348f/numina-data-client-0.8.0.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/6e/1b/efc1ed722a34998abcfbcc2284333d9f4ae5aa5c508530b492e360cf6bf3/kcli-99.0.202305171342-py3-none-any.whl
+[2023-05-17 17:00:12] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/bd/cf/c8afccbeca503df447e5361d55d0def9d92a79ece481088dfed7839a9ccd/cnn2snn-2.3.6.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/91/4f/a5fdadee5b00dc7219462f0db7ce483fcf8475beac0f9447794d4e97c457/python-eigen-ingenuity-0.4.7.1.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/c1/9a/3b7ae5d292bc06780cdd116ce7712907259d7c1140fa4cfd4aaf5f21767d/akida-2.3.6-cp39-cp39-win_amd64.whl
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/91/4f/a5fdadee5b00dc7219462f0db7ce483fcf8475beac0f9447794d4e97c457/python-eigen-ingenuity-0.4.7.1.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [bodosdk]: Downloading https://files.pythonhosted.org/packages/a3/51/b41911955c227efff60d8bd30409f7bdcf53935b434f4b2376706bea7c03/bodosdk-1.3.2.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [airflow-provider-vdk]: Downloading https://files.pythonhosted.org/packages/f3/0b/264bc2444105d392e9d02d944168fafaa41d6fabd6ff15452852028e10eb/airflow-provider-vdk-0.0.870487610.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.7.tar.gz tmp/python-eigen-ingenuity-0.4.7.1.tar.gz --markdown 20230517/p/python-eigen-ingenuity/0.4.7-0.4.7.1/diff.md --exclude *.pyd
+[2023-05-17 17:00:12] INFO root fetch - processPackages [cnn2snn]: executing diffoscope
+[2023-05-17 17:00:12] INFO root fetch - processPackages [cnn2snn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnn2snn-2.3.5.tar.gz tmp/cnn2snn-2.3.6.tar.gz --markdown 20230517/c/cnn2snn/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-05-17 17:00:12] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-17 17:00:12] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305162016-py3-none-any.whl.zip tmp/kcli-99.0.202305171342-py3-none-any.whl.zip --markdown 20230517/k/kcli/99.0.202305162016-99.0.202305171342/diff.md --exclude *.pyd
+[2023-05-17 17:00:12] INFO root fetch - processPackages [eptlsoot]: Downloading https://files.pythonhosted.org/packages/aa/e4/2b508df46ad0449c5cf244cc088378fbc82b628062e3fa518eda744716c4/eptlsoot-0.0.7-cp39-cp39-win_amd64.whl
+[2023-05-17 17:00:12] INFO root fetch - processPackages [numina-data-client]: Downloading https://files.pythonhosted.org/packages/0b/61/05fa6802da7a313764ee7ec48a774a4fdd7fb501309209d2c47d6511e3f2/numina-data-client-0.9.0.tar.gz
+[2023-05-17 17:00:12] INFO root fetch - processPackages [airflow-provider-vdk]: executing diffoscope
+[2023-05-17 17:00:12] INFO root fetch - processPackages [airflow-provider-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-vdk-0.0.758850982.tar.gz tmp/airflow-provider-vdk-0.0.870487610.tar.gz --markdown 20230517/a/airflow-provider-vdk/0.0.758850982-0.0.870487610/diff.md --exclude *.pyd
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-05-17 17:00:12] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.7.tar.gz tmp/python-eigen-ingenuity-0.4.7.1.tar.gz --markdown 20230517/p/python-eigen-ingenuity/0.4.7-0.4.7.1/diff.md --exclude *.pyd
+[2023-05-17 17:00:12] INFO root fetch - processPackages [bodosdk]: executing diffoscope
+[2023-05-17 17:00:13] INFO root fetch - processPackages [bodosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodosdk-1.3.1.tar.gz tmp/bodosdk-1.3.2.tar.gz --markdown 20230517/b/bodosdk/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-17 17:00:13] INFO root fetch - processPackages [eptlsoot]: executing diffoscope
+[2023-05-17 17:00:13] INFO root fetch - processPackages [eptlsoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptlsoot-0.0.6-cp39-cp39-win_amd64.whl.zip tmp/eptlsoot-0.0.7-cp39-cp39-win_amd64.whl.zip --markdown 20230517/e/eptlsoot/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 17:00:13] INFO root fetch - processPackages [numina-data-client]: executing diffoscope
+[2023-05-17 17:00:13] INFO root fetch - processPackages [numina-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numina-data-client-0.8.0.tar.gz tmp/numina-data-client-0.9.0.tar.gz --markdown 20230517/n/numina-data-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 17:00:13] INFO root fetch - processPackages [akida]: executing diffoscope
+[2023-05-17 17:00:13] INFO root fetch - processPackages [akida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akida-2.3.5-cp39-cp39-win_amd64.whl.zip tmp/akida-2.3.6-cp39-cp39-win_amd64.whl.zip --markdown 20230517/a/akida/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-05-17 17:00:13] INFO root fetch - processPackages [drift-protocol]: Start processing: fajrGPT
+[2023-05-17 17:00:13] INFO root fetch - main [MainThread]: End processing [drift-protocol]: success
+[2023-05-17 17:00:13] WARNING root fetch - processPackages [fajrGPT]: Skipping, unable to determine old version
+[2023-05-17 17:00:13] INFO root fetch - processPackages [fajrGPT]: Start processing: pulumi-opsgenie
+[2023-05-17 17:00:13] INFO root fetch - main [MainThread]: End processing [fajrGPT] error
+[2023-05-17 17:00:13] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1684331251] Old Version: [1.3.0a1684216670]
+[2023-05-17 17:00:13] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-05-17 17:00:13] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1684216670.tar.gz tmp/pulumi_opsgenie-1.3.0a1684331251.tar.gz --markdown 20230517/p/pulumi-opsgenie/1.3.0a1684216670-1.3.0a1684331251/diff.md --exclude *.pyd
+[2023-05-17 17:00:14] INFO root fetch - processPackages [eptlsoot]: Start processing: kfish
+[2023-05-17 17:00:14] INFO root fetch - main [MainThread]: End processing [eptlsoot]: success
+[2023-05-17 17:00:14] INFO root fetch - processPackages [kfish]: New version: [99.0.202305171345] Old Version: [99.0.202305162018]
+[2023-05-17 17:00:14] INFO root fetch - processPackages [airflow-provider-vdk]: Start processing: returnn
+[2023-05-17 17:00:14] INFO root fetch - main [MainThread]: End processing [airflow-provider-vdk]: success
+[2023-05-17 17:00:14] INFO root fetch - processPackages [returnn]: New version: [1.20230517.155144] Old Version: [1.20230517.132505]
+[2023-05-17 17:00:14] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-17 17:00:14] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305162018-py3-none-any.whl.zip tmp/kfish-99.0.202305171345-py3-none-any.whl.zip --markdown 20230517/k/kfish/99.0.202305162018-99.0.202305171345/diff.md --exclude *.pyd
+[2023-05-17 17:00:14] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-17 17:00:14] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230517.132505.tar.gz tmp/returnn-1.20230517.155144.tar.gz --markdown 20230517/r/returnn/1.20230517.132505-1.20230517.155144/diff.md --exclude *.pyd
+[2023-05-17 17:00:14] INFO root fetch - processPackages [python-eigen-ingenuity]: Start processing: payok.io
+[2023-05-17 17:00:14] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-05-17 17:00:14] INFO root fetch - main [MainThread]: End processing [bodosdk]: success
+[2023-05-17 17:00:15] WARNING root fetch - processPackages [payok.io]: Skipping, unable to determine old version
+[2023-05-17 17:00:15] INFO root fetch - main [MainThread]: End processing [payok.io] error
+[2023-05-17 17:00:15] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-05-17 17:00:15] INFO root fetch - main [MainThread]: End processing [numina-data-client]: success
+[2023-05-17 17:00:15] INFO root fetch - main [MainThread]: End processing [cnn2snn]: success
+[2023-05-17 17:00:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-17 17:00:17] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-05-17 17:00:18] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-17 17:00:20] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-17 17:00:23] INFO root fetch - main [MainThread]: End processing [akida]: success
+[2023-05-17 17:00:23] INFO root fetch - main [MainThread]: Store serial: [18141348]
