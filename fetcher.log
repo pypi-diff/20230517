@@ -14171,3 +14171,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:57:31] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-17 12:57:33] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-17 12:57:33] INFO root fetch - main [MainThread]: Store serial: [18138096]
+[2023-05-17 13:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138096]
+[2023-05-17 13:02:42] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-redis-utils
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-ec2-best-instance
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FileInfo-Video-Audio
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cli
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: savant-rs
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-adjutantclient
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crunch-cli
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anomalyapp
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PatryksAutoAI
+[2023-05-17 13:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proliantutils
+[2023-05-17 13:02:42] INFO root fetch - processPackages [amazon-ec2-best-instance]: New version: [3.0.0] Old Version: [2.5.0]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [FileInfo-Video-Audio]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [proliantutils]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [savant-rs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [py-redis-utils]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-17 13:02:42] WARNING root fetch - processPackages [anomalyapp]: Skipping, unable to determine old version
+[2023-05-17 13:02:42] INFO root fetch - processPackages [anomalyapp]: Start processing: xj-enroll
+[2023-05-17 13:02:42] INFO root fetch - main [MainThread]: End processing [anomalyapp] error
+[2023-05-17 13:02:42] INFO root fetch - processPackages [python-adjutantclient]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [crunch-cli]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-17 13:02:42] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-17 13:02:42] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230517/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-17 13:02:42] INFO root fetch - processPackages [amazon-ec2-best-instance]: Downloading https://files.pythonhosted.org/packages/a0/ef/99e2caad4515264974d25093ddc4ec41a33c69e37b2d396a006b952d8aab/amazon-ec2-best-instance-2.5.0.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [FileInfo-Video-Audio]: Downloading https://files.pythonhosted.org/packages/20/8a/322d13587fc7a5b6ba93802f25fd35646f57bc13a15ac446b1256682c01e/FileInfo_Video_Audio-0.0.5.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-17 13:02:42] INFO root fetch - processPackages [proliantutils]: Downloading https://files.pythonhosted.org/packages/e1/41/3f189f4dc06af18a1bab09c0e9d7f37978a06fe0bf34a7dc8eb61b636cf8/proliantutils-2.9.4.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230517/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-17 13:02:42] INFO root fetch - processPackages [python-adjutantclient]: Downloading https://files.pythonhosted.org/packages/5e/0b/995ae376788f480ab4d863616a09848e73129bb3df31c731890823f757c0/python-adjutantclient-0.9.0.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/c4/a7/fe24fcfa6f45736166c5b39e46773a89a1e128ffc9a5f6b4468f51b59cb6/PatryksAutoAI-0.9.4.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/4a/9c/0a7b419f95429085990015115d7d25efbb0d2cc7ca97ba99fefd5610436a/crunch-cli-1.3.0.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/10/20/419bfc7888932abd05a3b630ee67d3b2ef11d2614de190b89d83817738e4/py-redis-utils-1.1.1.tar.gz
+[2023-05-17 13:02:42] INFO root fetch - processPackages [amazon-ec2-best-instance]: Downloading https://files.pythonhosted.org/packages/86/83/d351ef288b0cce82c07d02fa80295286e84e967ca5c79c9b5e0cb12a8cfb/amazon-ec2-best-instance-3.0.0.tar.gz
+[2023-05-17 13:02:43] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.3.tar.gz tmp/PatryksAutoAI-0.9.4.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.6.tar.gz tmp/savant_rs-0.1.7.tar.gz --markdown 20230517/s/savant-rs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [FileInfo-Video-Audio]: Downloading https://files.pythonhosted.org/packages/90/13/b7339ec152b8b77f9a951eb7d4f3996cdd1df7c953f70c35ee300b6b3279/FileInfo_Video_Audio-0.1.0.tar.gz
+[2023-05-17 13:02:43] INFO root fetch - processPackages [python-adjutantclient]: Downloading https://files.pythonhosted.org/packages/fa/02/0e29b19d382e8e6c1c59d76f8f5bb9de54f79bed37fa88e2d16a2abe8d57/python-adjutantclient-1.0.0.tar.gz
+[2023-05-17 13:02:43] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/ee/17/d6cb5897a05ea09909f0af418992585d917367c6cf6a0f67f29fa94a9e33/crunch-cli-1.4.0.tar.gz
+[2023-05-17 13:02:43] INFO root fetch - processPackages [proliantutils]: Downloading https://files.pythonhosted.org/packages/97/b4/55c47fcb4b6de912e65d1ef95764f68a5d77b10f7b330926e50f10054da6/proliantutils-2.9.5.tar.gz
+[2023-05-17 13:02:43] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-1.1.tar.gz tmp/py-redis-utils-1.1.1.tar.gz --markdown 20230517/p/py-redis-utils/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [FileInfo-Video-Audio]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [FileInfo-Video-Audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileInfo_Video_Audio-0.0.5.tar.gz tmp/FileInfo_Video_Audio-0.1.0.tar.gz --markdown 20230517/F/FileInfo-Video-Audio/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [python-adjutantclient]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [python-adjutantclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-adjutantclient-0.9.0.tar.gz tmp/python-adjutantclient-1.0.0.tar.gz --markdown 20230517/p/python-adjutantclient/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [amazon-ec2-best-instance]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [amazon-ec2-best-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-ec2-best-instance-2.5.0.tar.gz tmp/amazon-ec2-best-instance-3.0.0.tar.gz --markdown 20230517/a/amazon-ec2-best-instance/2.5.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [proliantutils]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [proliantutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proliantutils-2.9.4.tar.gz tmp/proliantutils-2.9.5.tar.gz --markdown 20230517/p/proliantutils/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-17 13:02:43] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-17 13:02:43] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.3.0.tar.gz tmp/crunch-cli-1.4.0.tar.gz --markdown 20230517/c/crunch-cli/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:45] INFO root fetch - processPackages [py-redis-utils]: Start processing: pytest-inmanta-lsm
+[2023-05-17 13:02:45] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-05-17 13:02:45] INFO root fetch - processPackages [FileInfo-Video-Audio]: Start processing: neo4j-driver
+[2023-05-17 13:02:45] INFO root fetch - main [MainThread]: End processing [FileInfo-Video-Audio]: success
+[2023-05-17 13:02:45] INFO root fetch - processPackages [pytest-inmanta-lsm]: New version: [3.0.0] Old Version: [1.9.1]
+[2023-05-17 13:02:45] INFO root fetch - processPackages [neo4j-driver]: New version: [5.8.1] Old Version: [5.8.0]
+[2023-05-17 13:02:45] INFO root fetch - processPackages [pytest-inmanta-lsm]: Downloading https://files.pythonhosted.org/packages/36/74/261a2a278f122ede3042789b0ab9262620d40a5d5b4c10e5cb9cdc4c2dca/pytest-inmanta-lsm-1.9.1.tar.gz
+[2023-05-17 13:02:45] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: neo4j
+[2023-05-17 13:02:45] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 13:02:45] INFO root fetch - processPackages [neo4j]: New version: [5.8.1] Old Version: [5.8.0]
+[2023-05-17 13:02:45] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/85/67/89f30369dd0a1f9f5d325369d91b57bce96e8bca88ffa2bbbbd9dc663143/neo4j-driver-5.8.0.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - processPackages [xj-enroll]: Start processing: clevertable
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/6a/86/8045ef105ecbc1069d36856e0fe52b0f9b7838a55277908034b4bef0f9dc/neo4j-5.8.0.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - processPackages [crunch-cli]: Start processing: ChannelAttribution
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-17 13:02:46] INFO root fetch - processPackages [clevertable]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-17 13:02:46] INFO root fetch - processPackages [amazon-ec2-best-instance]: Start processing: sphinxcontrib-matlabdomain
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [amazon-ec2-best-instance]: success
+[2023-05-17 13:02:46] INFO root fetch - processPackages [pytest-inmanta-lsm]: Downloading https://files.pythonhosted.org/packages/f3/35/c462afe1840ff9711fd1546ef96861628bd6b580df2a94a0703ac4e14e43/pytest-inmanta-lsm-3.0.0.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - processPackages [tinybird-cli]: Start processing: rudderclient
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-17 13:02:46] INFO root fetch - processPackages [ChannelAttribution]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-17 13:02:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-17 13:02:46] WARNING root fetch - processPackages [rudderclient]: Skipping, unable to determine old version
+[2023-05-17 13:02:46] INFO root fetch - processPackages [rudderclient]: Start processing: pdfgpt
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [rudderclient] error
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/ee/b7/871ed94df9f20f81b87dc6ed0be9e4820ce99103bd15080ec1cc7c514009/neo4j-driver-5.8.1.tar.gz
+[2023-05-17 13:02:46] WARNING root fetch - processPackages [pdfgpt]: Skipping, unable to determine old version
+[2023-05-17 13:02:46] INFO root fetch - processPackages [pdfgpt]: Start processing: cryptbuddy
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [pdfgpt] error
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [python-adjutantclient]: success
+[2023-05-17 13:02:46] INFO root fetch - processPackages [pytest-inmanta-lsm]: executing diffoscope
+[2023-05-17 13:02:46] INFO root fetch - processPackages [pytest-inmanta-lsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-inmanta-lsm-1.9.1.tar.gz tmp/pytest-inmanta-lsm-3.0.0.tar.gz --markdown 20230517/p/pytest-inmanta-lsm/1.9.1-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-05-17 13:02:46] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230517/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:46] INFO root fetch - processPackages [clevertable]: Downloading https://files.pythonhosted.org/packages/25/b4/2a8618215a0a6e01c077c00bbb241ce474898c602296a928d6d44c7d9032/clevertable-2.1.1.tar.gz
+[2023-05-17 13:02:46] WARNING root fetch - processPackages [cryptbuddy]: Skipping, unable to determine old version
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [cryptbuddy] error
+[2023-05-17 13:02:46] INFO root fetch - processPackages [ChannelAttribution]: Downloading https://files.pythonhosted.org/packages/6d/00/0ff384b01cd195966f82727c3e4c087887609e9524a3d17b78e6b62b1a78/ChannelAttribution-2.1.3.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/97/9f/8f04fe1e04c832d87283ede166290cc29c1c3aa0d274946f88361d42a9d3/neo4j-5.8.1.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j-driver]: executing diffoscope
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-driver-5.8.0.tar.gz tmp/neo4j-driver-5.8.1.tar.gz --markdown 20230517/n/neo4j-driver/5.8.0-5.8.1/diff.md --exclude *.pyd
+[2023-05-17 13:02:46] INFO root fetch - processPackages [clevertable]: Downloading https://files.pythonhosted.org/packages/50/a8/8307cf770213d9db2aaef87d93937d112e37ec6f0f3b6619d947d7b39d2f/clevertable-2.2.0.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j]: executing diffoscope
+[2023-05-17 13:02:46] INFO root fetch - processPackages [neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-5.8.0.tar.gz tmp/neo4j-5.8.1.tar.gz --markdown 20230517/n/neo4j/5.8.0-5.8.1/diff.md --exclude *.pyd
+[2023-05-17 13:02:46] INFO root fetch - processPackages [ChannelAttribution]: Downloading https://files.pythonhosted.org/packages/fc/cd/f8d898dfd004666bcc1b02295e8d52473d7fce1b0f3732234658dd56a88b/ChannelAttribution-2.1.4.tar.gz
+[2023-05-17 13:02:46] INFO root fetch - processPackages [clevertable]: executing diffoscope
+[2023-05-17 13:02:46] INFO root fetch - processPackages [clevertable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clevertable-2.1.1.tar.gz tmp/clevertable-2.2.0.tar.gz --markdown 20230517/c/clevertable/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-17 13:02:46] INFO root fetch - processPackages [ChannelAttribution]: executing diffoscope
+[2023-05-17 13:02:46] INFO root fetch - processPackages [ChannelAttribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChannelAttribution-2.1.3.tar.gz tmp/ChannelAttribution-2.1.4.tar.gz --markdown 20230517/C/ChannelAttribution/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-17 13:02:48] INFO root fetch - main [MainThread]: End processing [pytest-inmanta-lsm]: success
+[2023-05-17 13:02:48] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-05-17 13:02:48] INFO root fetch - main [MainThread]: End processing [proliantutils]: success
+[2023-05-17 13:02:48] INFO root fetch - main [MainThread]: End processing [neo4j-driver]: success
+[2023-05-17 13:02:49] INFO root fetch - main [MainThread]: End processing [clevertable]: success
+[2023-05-17 13:02:50] INFO root fetch - main [MainThread]: End processing [neo4j]: success
+[2023-05-17 13:02:54] INFO root fetch - main [MainThread]: End processing [ChannelAttribution]: success
+[2023-05-17 13:02:54] INFO root fetch - main [MainThread]: Store serial: [18138178]
