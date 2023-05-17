@@ -14639,3 +14639,156 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:24:29] ERROR root fetch - processPackages [nova]: Timeout during execution of pkgdiff
 [2023-05-17 13:24:29] INFO root fetch - main [MainThread]: End processing [nova] error
 [2023-05-17 13:24:29] INFO root fetch - main [MainThread]: Store serial: [18138358]
+[2023-05-17 13:29:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138358]
+[2023-05-17 13:29:40] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-workflows-tugraz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: darmo
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensordict-nightly
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PatryksAutoAI
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-alexstolr-treeviewpath-hash
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tb-nightly
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-editor-dev
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: copier-template-tester
+[2023-05-17 13:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swibots
+[2023-05-17 13:29:40] INFO root fetch - processPackages [copier-template-tester]: New version: [1.2.3rc0] Old Version: [1.2.2]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: New version: [20230517.5.42.52453] Old Version: [20230517.11.22.602940]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [darmo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [swibots]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/2b/55/7eaea74a7e093d3eaea6187f98e429e768545e01f5e9bfd02dcfde664168/swibots-1.1.6.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Downloading https://files.pythonhosted.org/packages/28/b3/e99a11474dd1cd2014f9ad9c536e75e4efd4eccaa3ef8e850abf4dba07e6/certora-cli-alpha-alexstolr-treeviewpath_hash-20230517.11.22.602940.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [copier-template-tester]: Downloading https://files.pythonhosted.org/packages/e4/f3/df052cafe3c83eda7276d87e14369dca667b022f3260748a7b0a5a0919b9/copier_template_tester-1.2.2-py3-none-any.whl
+[2023-05-17 13:29:40] INFO root fetch - processPackages [darmo]: Downloading https://files.pythonhosted.org/packages/c0/cb/ea03ce405e9f2d9e51e647ca22e04dd9b7ee173bf2a517384e0d4923509e/darmo-0.1.8.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/d0/b0/6fc1ee39082738a49985e7bb3414e56beaabc8e73051f921a1b5db18c510/invenio-workflows-tugraz-0.1.8.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/b2/9e/fb94e3475576700c29b739a2c5e15d8cdec19b71ad4720793151bfefa39e/torchtnt-nightly-2023.5.8.tar.gz
+[2023-05-17 13:29:40] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Skipping package: exceeds size limit 38975931>=10485760
+[2023-05-17 13:29:40] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Start processing: dcspy
+[2023-05-17 13:29:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-treeviewpath-hash] error
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/62/33/9250703fd4c8e0207d7769383c0270233abc90f1561de61a72fefc4fb81a/tensordict_nightly-2023.5.8-py39-none-any.whl
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-05-17 13:29:40] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/97/09/cfc36a19eb22cc5543e2c43ad66cbf0326f08b2854ecc68cf3d92a55f616/PatryksAutoAI-0.9.7.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [dcspy]: New version: [2.0.0] Old Version: [1.9.5]
+[2023-05-17 13:29:40] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/c3/e0/73eec9b16ff47e52105348a94bb227eaeba315ecde167137e7de13fd28ab/swibots-1.1.7.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [copier-template-tester]: Downloading https://files.pythonhosted.org/packages/31/2b/dbafcfa086230ab93b11db8938454eba6d8bf28f207eb75b8993333c321e/copier_template_tester-1.2.3rc0.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230517/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.6.tar.gz tmp/PatryksAutoAI-0.9.7.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [copier-template-tester]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [copier-template-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copier_template_tester-1.2.2-py3-none-any.whl.zip tmp/copier_template_tester-1.2.3rc0.tar.gz --markdown 20230517/c/copier-template-tester/1.2.2-1.2.3rc0/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/c8/71/bb8ae9a9f134d1c1ad70a199c5b112e9f11b47f30e8b45fe7f5c916dd4b9/invenio-workflows-tugraz-0.1.9.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/84/58/d92a7f6b5272f00573f228299b167e2475aa768066980df79d4f10ea20ba/torchtnt-nightly-2023.5.9.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [darmo]: Downloading https://files.pythonhosted.org/packages/85/70/9d3fc6aa84a58f691ff3b2689679812e972d145c6bf2d4a25d77c7935c99/darmo-0.1.9.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.1.6.tar.gz tmp/swibots-1.1.7.tar.gz --markdown 20230517/s/swibots/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/4f/cc/1d29e945f893c60ae0af69e7e2c01328d34d3c5d3a044ff3b8ec49ad2872/dcspy-1.9.5.tar.gz
+[2023-05-17 13:29:40] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230517/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [darmo]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [darmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darmo-0.1.8.tar.gz tmp/darmo-0.1.9.tar.gz --markdown 20230517/d/darmo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/7c/a0/7c1245486e3080bdd8d23ef40da1a4f7e1e24f48905890ee9e0fb9e779e1/tensordict_nightly-2023.5.9-py39-none-any.whl
+[2023-05-17 13:29:40] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230517/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-17 13:29:40] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230517/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:41] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/9f/b8/7e63e1fcee26296247ed2aaa661939ccac4a7516fbe8ef267589a32774e1/dcspy-2.0.0.tar.gz
+[2023-05-17 13:29:41] INFO root fetch - processPackages [dcspy]: executing diffoscope
+[2023-05-17 13:29:41] INFO root fetch - processPackages [dcspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcspy-1.9.5.tar.gz tmp/dcspy-2.0.0.tar.gz --markdown 20230517/d/dcspy/1.9.5-2.0.0/diff.md --exclude *.pyd
+[2023-05-17 13:29:41] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-05-17 13:29:42] INFO root fetch - processPackages [copier-template-tester]: Start processing: mwxlib
+[2023-05-17 13:29:42] INFO root fetch - main [MainThread]: End processing [copier-template-tester]: success
+[2023-05-17 13:29:42] INFO root fetch - processPackages [mwxlib]: New version: [0.83.3] Old Version: [0.83.2]
+[2023-05-17 13:29:42] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/eb/2d/9dc0eb6d9dcd9e0d799050c9cc044b9e44cfa11205d6b8cca56d4ef94418/mwxlib-0.83.2-py3-none-any.whl
+[2023-05-17 13:29:42] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/c4/90/eff81df1ff7ea04c9d1c628ba2fe01c5396ae776e4cb22b276ac163de0ec/mwxlib-0.83.3-py3-none-any.whl
+[2023-05-17 13:29:42] INFO root fetch - processPackages [invenio-workflows-tugraz]: Start processing: areixio
+[2023-05-17 13:29:42] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-17 13:29:42] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 13:29:42] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/c4/91/5a3b1feda3385e907a43cbf462c489d3515930893925430b210d5c7cf7ec/areixio-0.2.8.tar.gz
+[2023-05-17 13:29:42] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-17 13:29:42] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230517/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-17 13:29:42] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-05-17 13:29:42] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.83.2-py3-none-any.whl.zip tmp/mwxlib-0.83.3-py3-none-any.whl.zip --markdown 20230517/m/mwxlib/0.83.2-0.83.3/diff.md --exclude *.pyd
+[2023-05-17 13:29:43] INFO root fetch - processPackages [je-editor-dev]: Start processing: microsoft-kiota-serialization-json
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-17 13:29:43] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-17 13:29:43] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: pyradiomics
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 13:29:43] INFO root fetch - processPackages [pyradiomics]: New version: [3.1.0] Old Version: [3.0.1a3]
+[2023-05-17 13:29:43] INFO root fetch - processPackages [darmo]: Start processing: sequana-fastqc
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [darmo]: success
+[2023-05-17 13:29:43] INFO root fetch - processPackages [sequana-fastqc]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-05-17 13:29:43] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Downloading https://files.pythonhosted.org/packages/52/76/bc28a88edc29dd98c15aa9f37a911365e8b31112922837ac83c991fdaa63/microsoft-kiota-serialization-json-0.3.3.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: report-mr-2018
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-17 13:29:43] INFO root fetch - processPackages [report-mr-2018]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 13:29:43] INFO root fetch - processPackages [sequana-fastqc]: Downloading https://files.pythonhosted.org/packages/7b/41/cfd1bcc6c90729872de4b6766b06c937c389a90b18b87ab0755246e2d3ba/sequana_fastqc-1.6.1.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [tensordict-nightly]: Start processing: mkdocs-flavorwheel-plugin
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-17 13:29:43] INFO root fetch - processPackages [mkdocs-flavorwheel-plugin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 13:29:43] INFO root fetch - processPackages [report-mr-2018]: Downloading https://files.pythonhosted.org/packages/da/6f/0ef4a3e64ea0bffdc21e0e6ac6a397d3033226aebcf72ef087f5ad68d5d8/report_mr_2018-1.0.1.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Downloading https://files.pythonhosted.org/packages/e0/85/27310af25a9a52417d670df01e2565b4faf447082827eb2efe23cbb35d6d/microsoft_kiota_serialization_json-0.3.4.tar.gz
+[2023-05-17 13:29:43] ERROR root fetch - processPackages [mkdocs-flavorwheel-plugin]: Unable to fetch info: No such project/version 'mkdocs-flavorwheel-plugin' 0.0.1
+[2023-05-17 13:29:43] INFO root fetch - processPackages [mkdocs-flavorwheel-plugin]: Start processing: PatryksAutoAI
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [mkdocs-flavorwheel-plugin] error
+[2023-05-17 13:29:43] INFO root fetch - processPackages [pyradiomics]: Downloading https://files.pythonhosted.org/packages/de/fd/6e6fb356ed95eb9b4a13fd4c4e65efb211977d799342ce8d2320da82d211/pyradiomics-3.0.1a3.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-17 13:29:43] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230517/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:43] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-17 13:29:43] WARNING root fetch - processPackages [pyradiomics]: Skipping package: exceeds size limit 34463311>=10485760
+[2023-05-17 13:29:43] INFO root fetch - processPackages [pyradiomics]: Start processing: torchrl-nightly
+[2023-05-17 13:29:43] INFO root fetch - main [MainThread]: End processing [pyradiomics] error
+[2023-05-17 13:29:43] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: executing diffoscope
+[2023-05-17 13:29:43] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft-kiota-serialization-json-0.3.3.tar.gz tmp/microsoft_kiota_serialization_json-0.3.4.tar.gz --markdown 20230517/m/microsoft-kiota-serialization-json/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-17 13:29:43] INFO root fetch - processPackages [report-mr-2018]: Downloading https://files.pythonhosted.org/packages/b1/30/7089c369ddbad0c6a0a67caefbdb1771c2e88e8cc6850f23a00acae1d85b/report_mr_2018-1.0.2.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [sequana-fastqc]: Downloading https://files.pythonhosted.org/packages/97/9a/204be5f5bc15c63563fd1c97b75ae5dbea218dedfa7872b6aa7db9b64a8d/sequana_fastqc-1.7.0.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/59/a7/07dbd0e8b8d40cdaed866bf10c844b788796b11d9d7ba0f79f0ad779b330/PatryksAutoAI-0.9.8.tar.gz
+[2023-05-17 13:29:43] INFO root fetch - processPackages [sequana-fastqc]: executing diffoscope
+[2023-05-17 13:29:43] INFO root fetch - processPackages [sequana-fastqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_fastqc-1.6.1.tar.gz tmp/sequana_fastqc-1.7.0.tar.gz --markdown 20230517/s/sequana-fastqc/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-05-17 13:29:44] INFO root fetch - processPackages [report-mr-2018]: executing diffoscope
+[2023-05-17 13:29:44] INFO root fetch - processPackages [report-mr-2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_mr_2018-1.0.1.tar.gz tmp/report_mr_2018-1.0.2.tar.gz --markdown 20230517/r/report-mr-2018/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 13:29:44] INFO root fetch - processPackages [dcspy]: Start processing: aws-cfn-update
+[2023-05-17 13:29:44] INFO root fetch - main [MainThread]: End processing [dcspy]: success
+[2023-05-17 13:29:44] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 13:29:44] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.7.tar.gz tmp/PatryksAutoAI-0.9.8.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-17 13:29:44] INFO root fetch - processPackages [aws-cfn-update]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-17 13:29:44] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-17 13:29:44] INFO root fetch - processPackages [mwxlib]: Start processing: cid-cmd
+[2023-05-17 13:29:44] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-05-17 13:29:44] INFO root fetch - processPackages [aws-cfn-update]: Downloading https://files.pythonhosted.org/packages/44/25/5c43e43f12dce1d12b9d909f051c23a5c5bc56f6d9062b4b2ae7d58750fb/aws-cfn-update-0.8.2.tar.gz
+[2023-05-17 13:29:44] INFO root fetch - processPackages [cid-cmd]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 13:29:44] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/70/13/8cbe47345c0e418e44de0be9cfdb382877a55f35fb6df8e6ebdf8bbece3f/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl
+[2023-05-17 13:29:44] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/fe/a0/5dd619b961c8d1d90c05d9d9c3ef6c6df786df4198eb728acb3362743acc/cid-cmd-0.2.8.tar.gz
+[2023-05-17 13:29:44] INFO root fetch - processPackages [aws-cfn-update]: Downloading https://files.pythonhosted.org/packages/8a/9e/4e302c23641e60deb73614a6cc0e09dfd670422e64b7ef0a7edbb8782fbc/aws-cfn-update-0.8.3.tar.gz
+[2023-05-17 13:29:44] INFO root fetch - processPackages [swibots]: Start processing: sentry-sdk
+[2023-05-17 13:29:44] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-05-17 13:29:44] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-17 13:29:44] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/c6/41/e1cddf7875baadaeeb390de1a900e03e19b03adc9413503cdd83419ab093/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl
+[2023-05-17 13:29:44] INFO root fetch - processPackages [aws-cfn-update]: executing diffoscope
+[2023-05-17 13:29:44] INFO root fetch - processPackages [aws-cfn-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cfn-update-0.8.2.tar.gz tmp/aws-cfn-update-0.8.3.tar.gz --markdown 20230517/a/aws-cfn-update/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-17 13:29:44] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-05-17 13:29:45] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/32/6d/2a17b0502b559cee495f4e07224f56ff0eb2a35fba5a62fb74eacc0381ec/cid-cmd-0.2.9.tar.gz
+[2023-05-17 13:29:45] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-17 13:29:45] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20230517/t/torchrl-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:45] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2023-05-17 13:29:45] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid-cmd-0.2.8.tar.gz tmp/cid-cmd-0.2.9.tar.gz --markdown 20230517/c/cid-cmd/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:45] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-05-17 13:29:45] INFO root fetch - main [MainThread]: End processing [report-mr-2018]: success
+[2023-05-17 13:29:45] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-05-17 13:29:45] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230517/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-17 13:29:45] INFO root fetch - main [MainThread]: End processing [sequana-fastqc]: success
+[2023-05-17 13:29:45] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-serialization-json]: success
+[2023-05-17 13:29:45] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 13:29:47] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-17 13:29:47] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2023-05-17 13:29:47] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-05-17 13:29:47] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-17 13:29:48] INFO root fetch - main [MainThread]: End processing [aws-cfn-update]: success
+[2023-05-17 13:29:53] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-17 13:29:53] INFO root fetch - main [MainThread]: Store serial: [18138470]
