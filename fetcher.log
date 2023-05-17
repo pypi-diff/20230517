@@ -16161,3 +16161,156 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 14:25:56] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
 [2023-05-17 14:26:10] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-17 14:26:10] INFO root fetch - main [MainThread]: Store serial: [18139210]
+[2023-05-17 14:31:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18139210]
+[2023-05-17 14:31:19] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.staticresources
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diligence-fuzzing
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elemento-cli
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nzooherd-torch
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamineml
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RegScale-CLI
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: p67-awstools
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultra-bioinformatics
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neuralhydrology
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dipex
+[2023-05-17 14:31:19] INFO root fetch - processPackages [nzooherd-torch]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [elemento-cli]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [diligence-fuzzing]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [p67-awstools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [neuralhydrology]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [plone.staticresources]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.3.0] Old Version: [5.2.1]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [lamineml]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ultra-bioinformatics]: New version: [0.1] Old Version: [0.0.4.2]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [nzooherd-torch]: Downloading https://files.pythonhosted.org/packages/22/a3/673029aefdc0acf575eb75dc750d4f3a61f0cd417f5268cbab9b3969b617/nzooherd_torch-0.1.2.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [elemento-cli]: Downloading https://files.pythonhosted.org/packages/88/19/035d5d75aa75bd1a699c1470d75e3e5548312d30699f980b335c4b9fac7e/elemento-cli-0.1.1.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-17 14:31:19] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230517/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-17 14:31:19] INFO root fetch - processPackages [p67-awstools]: Downloading https://files.pythonhosted.org/packages/ea/42/ca0b02183ba0b23b0f3012a5df4e83db246ad8756164d223ba0c6d02da0b/p67_awstools-0.1.1.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [diligence-fuzzing]: Downloading https://files.pythonhosted.org/packages/c1/28/b687d74c7da4caafcaab43ac427a10d4b6638078707dcf4ccef1b093e5f4/diligence-fuzzing-0.9.8.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ultra-bioinformatics]: Downloading https://files.pythonhosted.org/packages/d7/a2/a1721df4bd6ff24985055d8b8c0bea595f3f78d5dfda228d8babd1b8d817/ultra_bioinformatics-0.0.4.2.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [plone.staticresources]: Downloading https://files.pythonhosted.org/packages/df/e6/816b8fe49c683c0da774c9dfdd9db3e7a2604157d7ed393ce6eefe76bb2e/plone.staticresources-2.1.0.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/05/01/abda748fe3b151ac95884d4144fa015e56f4a8631ea09ab12fb7e4ca74cd/lamineml-0.0.56.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [neuralhydrology]: Downloading https://files.pythonhosted.org/packages/a8/eb/23e4786c4abaa0a1a5e80bed0711c5feae3a07df82a2a33dd9d41f05eed6/neuralhydrology-1.6.0.tar.gz
+[2023-05-17 14:31:19] WARNING root fetch - processPackages [plone.staticresources]: Skipping package: exceeds size limit 10714649>=10485760
+[2023-05-17 14:31:19] INFO root fetch - processPackages [plone.staticresources]: Start processing: gmdh
+[2023-05-17 14:31:19] INFO root fetch - main [MainThread]: End processing [plone.staticresources] error
+[2023-05-17 14:31:19] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/4f/03/8798d0ae982d365f52347427b117655aa0e7b4b3f2ebe488f8a2f0641208/RegScale_CLI-5.2.1-py3-none-any.whl
+[2023-05-17 14:31:19] INFO root fetch - processPackages [gmdh]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 14:31:19] INFO root fetch - processPackages [nzooherd-torch]: Downloading https://files.pythonhosted.org/packages/1d/9f/3e8d282085b24a1b06590cb62a871c763e72a6d22249d46d9ab65c67c65b/nzooherd_torch-0.1.3.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [elemento-cli]: Downloading https://files.pythonhosted.org/packages/96/cd/1ddb939e77070f717e10002cfa44e2d7211934bf86a0784732279d4ac351/elemento-cli-0.1.3.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [p67-awstools]: Downloading https://files.pythonhosted.org/packages/1a/31/32bd781a4f480d82a82ecd7b66a41b2c0b3a54917937a87b0ff2c6012bf6/p67_awstools-0.1.2.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [nzooherd-torch]: executing diffoscope
+[2023-05-17 14:31:19] INFO root fetch - processPackages [nzooherd-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzooherd_torch-0.1.2.tar.gz tmp/nzooherd_torch-0.1.3.tar.gz --markdown 20230517/n/nzooherd-torch/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 14:31:19] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/1a/c9/43d48532b9df035e281efe4da197994178308c1c8247757ccd5616e548be/lamineml-0.0.57.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [ultra-bioinformatics]: Downloading https://files.pythonhosted.org/packages/e2/3a/fe1e24c89ea48d45c10418466527979d68bd6383c749ea4dc33e0fab18dd/ultra_bioinformatics-0.1.tar.gz
+[2023-05-17 14:31:19] INFO root fetch - processPackages [elemento-cli]: executing diffoscope
+[2023-05-17 14:31:19] INFO root fetch - processPackages [elemento-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elemento-cli-0.1.1.tar.gz tmp/elemento-cli-0.1.3.tar.gz --markdown 20230517/e/elemento-cli/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 14:31:19] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/51/0f/9fd2d7e060a1fb86ee5aaea775055fe6f5c03a02101f3b84c5681bb8b9c2/RegScale_CLI-5.3.0-py3-none-any.whl
+[2023-05-17 14:31:19] INFO root fetch - processPackages [p67-awstools]: executing diffoscope
+[2023-05-17 14:31:19] INFO root fetch - processPackages [p67-awstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p67_awstools-0.1.1.tar.gz tmp/p67_awstools-0.1.2.tar.gz --markdown 20230517/p/p67-awstools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 14:31:20] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-17 14:31:20] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.56.tar.gz tmp/lamineml-0.0.57.tar.gz --markdown 20230517/l/lamineml/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-17 14:31:20] INFO root fetch - processPackages [ultra-bioinformatics]: executing diffoscope
+[2023-05-17 14:31:20] INFO root fetch - processPackages [ultra-bioinformatics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultra_bioinformatics-0.0.4.2.tar.gz tmp/ultra_bioinformatics-0.1.tar.gz --markdown 20230517/u/ultra-bioinformatics/0.0.4.2-0.1/diff.md --exclude *.pyd
+[2023-05-17 14:31:20] INFO root fetch - processPackages [neuralhydrology]: Downloading https://files.pythonhosted.org/packages/1a/80/74bb9e32bc089160053756548b87dc285a2609c2084017021a1f80690020/neuralhydrology-1.7.0.tar.gz
+[2023-05-17 14:31:20] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-05-17 14:31:20] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.2.1-py3-none-any.whl.zip tmp/RegScale_CLI-5.3.0-py3-none-any.whl.zip --markdown 20230517/R/RegScale-CLI/5.2.1-5.3.0/diff.md --exclude *.pyd
+[2023-05-17 14:31:20] INFO root fetch - processPackages [neuralhydrology]: executing diffoscope
+[2023-05-17 14:31:20] INFO root fetch - processPackages [neuralhydrology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralhydrology-1.6.0.tar.gz tmp/neuralhydrology-1.7.0.tar.gz --markdown 20230517/n/neuralhydrology/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-17 14:31:20] INFO root fetch - processPackages [gmdh]: Downloading https://files.pythonhosted.org/packages/c7/b1/73c3e693fd5e931d7674f662dc0b80037fc4f532fdef0bb4d0dd4bde82c9/gmdh-1.0.2.tar.gz
+[2023-05-17 14:31:20] WARNING root fetch - processPackages [gmdh]: Skipping package: exceeds size limit 14356558>=10485760
+[2023-05-17 14:31:20] INFO root fetch - processPackages [gmdh]: Start processing: doblib
+[2023-05-17 14:31:20] INFO root fetch - main [MainThread]: End processing [gmdh] error
+[2023-05-17 14:31:20] INFO root fetch - processPackages [doblib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-17 14:31:20] INFO root fetch - processPackages [diligence-fuzzing]: Downloading https://files.pythonhosted.org/packages/e9/e7/beb1c42c3d9d8ab6cf0cf3d7d46cc78f8fefce9ce53bcc9b20c8e747951c/diligence-fuzzing-0.9.9.tar.gz
+[2023-05-17 14:31:20] INFO root fetch - processPackages [doblib]: Downloading https://files.pythonhosted.org/packages/8c/f4/c55fff535cba24fc344bdd9fd909d8b3a4c8d653956450925abfacc6531d/doblib-0.9.0-py3-none-any.whl
+[2023-05-17 14:31:20] INFO root fetch - processPackages [doblib]: Downloading https://files.pythonhosted.org/packages/e3/9d/3bdbd800045aa48f8a80df87ba3c36b2dee944d7940a2fe598421affd1ad/doblib-0.9.1-py3-none-any.whl
+[2023-05-17 14:31:21] INFO root fetch - processPackages [diligence-fuzzing]: executing diffoscope
+[2023-05-17 14:31:21] INFO root fetch - processPackages [diligence-fuzzing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diligence-fuzzing-0.9.8.tar.gz tmp/diligence-fuzzing-0.9.9.tar.gz --markdown 20230517/d/diligence-fuzzing/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 14:31:21] INFO root fetch - processPackages [doblib]: executing diffoscope
+[2023-05-17 14:31:21] INFO root fetch - processPackages [doblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doblib-0.9.0-py3-none-any.whl.zip tmp/doblib-0.9.1-py3-none-any.whl.zip --markdown 20230517/d/doblib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 14:31:22] INFO root fetch - processPackages [nzooherd-torch]: Start processing: usseg
+[2023-05-17 14:31:22] INFO root fetch - main [MainThread]: End processing [nzooherd-torch]: success
+[2023-05-17 14:31:22] WARNING root fetch - processPackages [usseg]: Skipping, unable to determine old version
+[2023-05-17 14:31:22] INFO root fetch - processPackages [usseg]: Start processing: PrSpiders
+[2023-05-17 14:31:22] INFO root fetch - main [MainThread]: End processing [usseg] error
+[2023-05-17 14:31:22] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-17 14:31:22] INFO root fetch - processPackages [p67-awstools]: Start processing: pyikarus
+[2023-05-17 14:31:22] INFO root fetch - main [MainThread]: End processing [p67-awstools]: success
+[2023-05-17 14:31:22] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/16/c9/e1777a7dcaa659d10b7b659d8c5064dd87c60d24dd91c4c6acd7052fc02f/PrSpiders-0.4.4.tar.gz
+[2023-05-17 14:31:22] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000083] Old Version: [0.3.0.dev202310000082]
+[2023-05-17 14:31:22] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz
+[2023-05-17 14:31:22] INFO root fetch - processPackages [lamineml]: Start processing: piicli
+[2023-05-17 14:31:22] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-17 14:31:22] INFO root fetch - processPackages [piicli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 14:31:22] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/11/8b/1e211088f095aa2057dbf9ad5e6b33c5361218ea11d3cae7f2890bfc160d/PrSpiders-0.4.5-py3-none-any.whl
+[2023-05-17 14:31:22] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-17 14:31:22] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.4.tar.gz tmp/PrSpiders-0.4.5-py3-none-any.whl.zip --markdown 20230517/P/PrSpiders/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-17 14:31:22] INFO root fetch - processPackages [piicli]: Downloading https://files.pythonhosted.org/packages/4d/89/35192d272a80a20849e08db0e28b3d32a3c94c40b334dec563546e2c1fb8/piicli-0.0.1.tar.gz
+[2023-05-17 14:31:22] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/1a/79/740337f70457b900685d77310d60e97cc03b13220441b49e6c3ca842b291/pyikarus-0.3.0.dev202310000083.tar.gz
+[2023-05-17 14:31:23] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-17 14:31:23] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000082.tar.gz tmp/pyikarus-0.3.0.dev202310000083.tar.gz --markdown 20230517/p/pyikarus/0.3.0.dev202310000082-0.3.0.dev202310000083/diff.md --exclude *.pyd
+[2023-05-17 14:31:23] INFO root fetch - processPackages [piicli]: Downloading https://files.pythonhosted.org/packages/36/1d/49fc7303e55ac91b864e4dc48381b149e4b19c48620d71a29583c1f6b688/piicli-0.0.2.tar.gz
+[2023-05-17 14:31:23] INFO root fetch - processPackages [piicli]: executing diffoscope
+[2023-05-17 14:31:23] INFO root fetch - processPackages [piicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piicli-0.0.1.tar.gz tmp/piicli-0.0.2.tar.gz --markdown 20230517/p/piicli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 14:31:23] INFO root fetch - processPackages [doblib]: Start processing: PrSpiders
+[2023-05-17 14:31:23] INFO root fetch - main [MainThread]: End processing [doblib]: success
+[2023-05-17 14:31:23] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-17 14:31:23] INFO root fetch - processPackages [RegScale-CLI]: Start processing: cg-pytest-reporter
+[2023-05-17 14:31:23] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-05-17 14:31:23] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/9b/e6/3459c669414839fe6ce75663bab277cf7b501eed7afd3543ef50ba858819/PrSpiders-0.4.6.tar.gz
+[2023-05-17 14:31:24] INFO root fetch - processPackages [cg-pytest-reporter]: New version: [2023.5.17.942] Old Version: [2023.5.17.1227]
+[2023-05-17 14:31:24] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-17 14:31:24] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.5-py3-none-any.whl.zip tmp/PrSpiders-0.4.6.tar.gz --markdown 20230517/P/PrSpiders/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-17 14:31:24] INFO root fetch - processPackages [dipex]: Start processing: certora-cli-alpha-dudi-CERT-2090
+[2023-05-17 14:31:24] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-17 14:31:24] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/f3/ae/fecb244d06612a402cacb3127eda4d1d45247c86523be590cbe75b18e727/cg_pytest_reporter-2023.5.17.1227.tar.gz
+[2023-05-17 14:31:24] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: New version: [20230517.7.41.774654] Old Version: [20230517.6.4.37877]
+[2023-05-17 14:31:24] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Downloading https://files.pythonhosted.org/packages/1b/7a/0ab22d0a1d4948f3c4bbbb942c043a73236d506427709f87431660e6482d/certora-cli-alpha-dudi-CERT-2090-20230517.6.4.37877.tar.gz
+[2023-05-17 14:31:24] INFO root fetch - processPackages [ultra-bioinformatics]: Start processing: ccpem-utils
+[2023-05-17 14:31:24] INFO root fetch - main [MainThread]: End processing [ultra-bioinformatics]: success
+[2023-05-17 14:31:24] WARNING root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Skipping package: exceeds size limit 38976261>=10485760
+[2023-05-17 14:31:24] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Start processing: e2enetworks
+[2023-05-17 14:31:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dudi-CERT-2090] error
+[2023-05-17 14:31:24] INFO root fetch - processPackages [cg-pytest-reporter]: executing diffoscope
+[2023-05-17 14:31:24] INFO root fetch - processPackages [cg-pytest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_pytest_reporter-2023.5.17.1227.tar.gz tmp/cg_pytest_reporter-2023.5.17.942.tar.gz --markdown 20230517/c/cg-pytest-reporter/2023.5.17.1227-2023.5.17.942/diff.md --exclude *.pyd
+[2023-05-17 14:31:24] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 14:31:24] INFO root fetch - processPackages [ccpem-utils]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-17 14:31:24] INFO root fetch - processPackages [elemento-cli]: Start processing: xumm-sdk-py
+[2023-05-17 14:31:24] INFO root fetch - main [MainThread]: End processing [elemento-cli]: success
+[2023-05-17 14:31:24] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-17 14:31:24] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.8.tar.gz tmp/e2enetworks-0.0.9.tar.gz --markdown 20230517/e/e2enetworks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 14:31:24] INFO root fetch - processPackages [xumm-sdk-py]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 14:31:24] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/28/ef/2fadc871f695378f40d8a5af23a883fce8f7b1eea3c54116bbd51e708bfd/ccpem_utils-0.0.1.dev8.tar.gz
+[2023-05-17 14:31:24] INFO root fetch - processPackages [xumm-sdk-py]: Downloading https://files.pythonhosted.org/packages/a9/7a/46f94b63bafeda237c42aa204f288191445ac1d2850f532e776f17186064/xumm-sdk-py-1.0.3.tar.gz
+[2023-05-17 14:31:25] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/4e/6d/3501aaba0ccbd3a2387ee204c009b9dffd42e3701b620715388af67f3cf5/ccpem_utils-0.0.1.dev9.tar.gz
+[2023-05-17 14:31:25] INFO root fetch - processPackages [PrSpiders]: Start processing: pyntcli
+[2023-05-17 14:31:25] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-17 14:31:25] INFO root fetch - processPackages [xumm-sdk-py]: Downloading https://files.pythonhosted.org/packages/f2/91/e2f44d07f6e8e163ecd280139b59b27b7faaf4ef9c3a61ecfa1c85f3825f/xumm-sdk-py-1.0.4.tar.gz
+[2023-05-17 14:31:25] INFO root fetch - processPackages [pyntcli]: New version: [0.1.46] Old Version: [0.1.45]
+[2023-05-17 14:31:25] INFO root fetch - processPackages [ccpem-utils]: executing diffoscope
+[2023-05-17 14:31:25] INFO root fetch - processPackages [ccpem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpem_utils-0.0.1.dev8.tar.gz tmp/ccpem_utils-0.0.1.dev9.tar.gz --markdown 20230517/c/ccpem-utils/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-17 14:31:25] INFO root fetch - processPackages [neuralhydrology]: Start processing: mypylib
+[2023-05-17 14:31:25] INFO root fetch - main [MainThread]: End processing [neuralhydrology]: success
+[2023-05-17 14:31:25] INFO root fetch - processPackages [xumm-sdk-py]: executing diffoscope
+[2023-05-17 14:31:25] INFO root fetch - processPackages [xumm-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xumm-sdk-py-1.0.3.tar.gz tmp/xumm-sdk-py-1.0.4.tar.gz --markdown 20230517/x/xumm-sdk-py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 14:31:25] INFO root fetch - processPackages [mypylib]: New version: [0.1.73] Old Version: [0.1.72]
+[2023-05-17 14:31:25] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-05-17 14:31:25] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.45-py3-none-any.whl.zip tmp/pyntcli-0.1.46-py3-none-any.whl.zip --markdown 20230517/p/pyntcli/0.1.45-0.1.46/diff.md --exclude *.pyd
+[2023-05-17 14:31:25] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/9c/b5/03f4ef6c0a68e38fb2707e6ff17457f214d19eeb7dfd14f94c61bcab3b3b/mypylib-0.1.72.tar.gz
+[2023-05-17 14:31:25] INFO root fetch - main [MainThread]: End processing [piicli]: success
+[2023-05-17 14:31:26] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/45/4c/daa830b2d9c21856a6efee4a766c40851ebc3868d699a4d9db4dd7325699/mypylib-0.1.73.tar.gz
+[2023-05-17 14:31:26] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-05-17 14:31:26] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.72.tar.gz tmp/mypylib-0.1.73.tar.gz --markdown 20230517/m/mypylib/0.1.72-0.1.73/diff.md --exclude *.pyd
+[2023-05-17 14:31:26] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-17 14:31:26] INFO root fetch - main [MainThread]: End processing [cg-pytest-reporter]: success
+[2023-05-17 14:31:27] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-17 14:31:28] INFO root fetch - main [MainThread]: End processing [diligence-fuzzing]: success
+[2023-05-17 14:31:28] INFO root fetch - main [MainThread]: End processing [xumm-sdk-py]: success
+[2023-05-17 14:31:28] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-05-17 14:31:28] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-17 14:31:30] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
+[2023-05-17 14:31:32] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-05-17 14:31:32] INFO root fetch - main [MainThread]: Store serial: [18139289]
