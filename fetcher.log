@@ -4523,3 +4523,84 @@
 [2023-05-17 03:53:20] INFO root fetch - main [MainThread]: End processing [pypreql]: success
 [2023-05-17 03:53:21] INFO root fetch - main [MainThread]: End processing [episoder]: success
 [2023-05-17 03:53:21] INFO root fetch - main [MainThread]: Store serial: [18132628]
+[2023-05-17 03:58:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132628]
+[2023-05-17 03:58:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gandai
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bytez
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: angap
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazytransform
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolena-client
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iconoclast
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AISAPLibrary
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moredata
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: latch-postgres
+[2023-05-17 03:58:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pandora-ChatGPT
+[2023-05-17 03:58:30] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.87]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [AISAPLibrary]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [moredata]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [gandai]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.87.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230517/b/bytez/0.1.87-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [iconoclast]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [kolena-client]: New version: [0.69.0] Old Version: [0.68.0]
+[2023-05-17 03:58:30] WARNING root fetch - processPackages [angap]: Skipping, unable to determine old version
+[2023-05-17 03:58:30] INFO root fetch - processPackages [angap]: Start processing: XS-treatment
+[2023-05-17 03:58:30] INFO root fetch - main [MainThread]: End processing [angap] error
+[2023-05-17 03:58:30] INFO root fetch - processPackages [moredata]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [moredata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moredata-0.2.1.tar.gz tmp/moredata-0.2.2.tar.gz --markdown 20230517/m/moredata/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [latch-postgres]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [lazytransform]: New version: [1.1] Old Version: [1.0]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.8.tar.gz tmp/gandai-1.1.9.tar.gz --markdown 20230517/g/gandai/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [XS-treatment]: New version: [0.0.5.5] Old Version: [0.0.5.4]
+[2023-05-17 03:58:30] INFO root fetch - processPackages [AISAPLibrary]: Downloading https://files.pythonhosted.org/packages/ee/fb/88b01c6d6e068cd5807430b2bc440e25828bd8ae2bd6214a183fe9019781/AISAPLibrary-1.0.7.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a6/a9/3001c8596d87519634dd8a8ae1e90db7f216a739d34a229a86c1a4cd5401/kolena_client-0.68.0.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [latch-postgres]: Downloading https://files.pythonhosted.org/packages/14/23/51cec23553fd89151d9bf7e5134024394b45ffb2f8602c2d45aaf032b2cc/latch_postgres-0.1.6.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [lazytransform]: Downloading https://files.pythonhosted.org/packages/88/a7/b0b9018b2414688b52c251f7892b8a632eb3c913e464fb1e858e805d0eae/lazytransform-1.0.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [AISAPLibrary]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [AISAPLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AISAPLibrary-1.0.6.tar.gz tmp/AISAPLibrary-1.0.7.tar.gz --markdown 20230517/A/AISAPLibrary/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [XS-treatment]: Downloading https://files.pythonhosted.org/packages/50/68/83cb0fe14f62abf305c47e9a738b5fbbb8826ebf71d1d335bf545f697fd1/XS-treatment-0.0.5.4.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [iconoclast]: Downloading https://files.pythonhosted.org/packages/ef/87/6a51c3643735c64626dfd451a935deb3398971f7ce299cf591ca40bd03b1/iconoclast-2.0.2.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/70/94/936448be49eb4a8ae7b8985e1d99a056bc038fc3a0ec1b6fb6c53f1326e4/Pandora-ChatGPT-1.1.2.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [latch-postgres]: Downloading https://files.pythonhosted.org/packages/5c/22/9781e32451f81b4b54ff01cd50327f19b64ba3d4bdda70714754f06438b8/latch_postgres-0.1.7.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [lazytransform]: Downloading https://files.pythonhosted.org/packages/eb/e9/ef2fda35cce5a764bdd8e1d54a043ccbb203df9c29bee0d9cbd4e41c830c/lazytransform-1.1.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [iconoclast]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [iconoclast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iconoclast-2.0.1.tar.gz tmp/iconoclast-2.0.2.tar.gz --markdown 20230517/i/iconoclast/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/6e/ea/937f2d50a32cc43bea01caad03f33f0512e9bb26d3764e117d49ae383249/kolena_client-0.69.0.tar.gz
+[2023-05-17 03:58:30] INFO root fetch - processPackages [latch-postgres]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [latch-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_postgres-0.1.6.tar.gz tmp/latch_postgres-0.1.7.tar.gz --markdown 20230517/l/latch-postgres/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [lazytransform]: executing diffoscope
+[2023-05-17 03:58:30] INFO root fetch - processPackages [lazytransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazytransform-1.0.tar.gz tmp/lazytransform-1.1.tar.gz --markdown 20230517/l/lazytransform/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-17 03:58:30] INFO root fetch - processPackages [XS-treatment]: Downloading https://files.pythonhosted.org/packages/97/2f/515edbf3b73d554275ff5d02d312a4ec067a8afe590e8f5d495aa44e1285/XS-treatment-0.0.5.5.tar.gz
+[2023-05-17 03:58:31] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2023-05-17 03:58:31] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-0.68.0.tar.gz tmp/kolena_client-0.69.0.tar.gz --markdown 20230517/k/kolena-client/0.68.0-0.69.0/diff.md --exclude *.pyd
+[2023-05-17 03:58:31] INFO root fetch - processPackages [XS-treatment]: executing diffoscope
+[2023-05-17 03:58:31] INFO root fetch - processPackages [XS-treatment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XS-treatment-0.0.5.4.tar.gz tmp/XS-treatment-0.0.5.5.tar.gz --markdown 20230517/X/XS-treatment/0.0.5.4-0.0.5.5/diff.md --exclude *.pyd
+[2023-05-17 03:58:31] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-17 03:58:31] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.1.tar.gz tmp/Pandora-ChatGPT-1.1.2.tar.gz --markdown 20230517/P/Pandora-ChatGPT/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-17 03:58:31] INFO root fetch - processPackages [bytez]: Start processing: rsoup
+[2023-05-17 03:58:31] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-17 03:58:31] INFO root fetch - processPackages [rsoup]: New version: [2.5.3] Old Version: [2.5.1]
+[2023-05-17 03:58:31] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/8b/7e/5577bc6e4ed122eee029c090e926e29672f72232e14aebfbcd544fd4819a/rsoup-2.5.1.tar.gz
+[2023-05-17 03:58:32] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/c0/18/27184a3f3bd3ace9bd0675a125b86f59a82e9bfad5e6b695bd6a0e643220/rsoup-2.5.3-cp39-none-win_amd64.whl
+[2023-05-17 03:58:32] INFO root fetch - processPackages [AISAPLibrary]: Start processing: pythonfinder
+[2023-05-17 03:58:32] INFO root fetch - main [MainThread]: End processing [AISAPLibrary]: success
+[2023-05-17 03:58:32] INFO root fetch - main [MainThread]: End processing [iconoclast]: success
+[2023-05-17 03:58:32] INFO root fetch - processPackages [rsoup]: executing diffoscope
+[2023-05-17 03:58:32] INFO root fetch - processPackages [rsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsoup-2.5.1.tar.gz tmp/rsoup-2.5.3-cp39-none-win_amd64.whl.zip --markdown 20230517/r/rsoup/2.5.1-2.5.3/diff.md --exclude *.pyd
+[2023-05-17 03:58:32] INFO root fetch - processPackages [pythonfinder]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-17 03:58:32] INFO root fetch - main [MainThread]: End processing [moredata]: success
+[2023-05-17 03:58:32] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-05-17 03:58:32] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/b9/61/67ae39f9cce65f5bdc206c1dddfa228f2982ce8db88bc999ecdfdfb16ee7/pythonfinder-2.0.0.tar.gz
+[2023-05-17 03:58:32] INFO root fetch - main [MainThread]: End processing [latch-postgres]: success
+[2023-05-17 03:58:32] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/e5/d7/fdfe4dc6b0479fa84a18e5a0d734e73fe5c494dae2015b5f8e121fa488a3/pythonfinder-2.0.1.tar.gz
+[2023-05-17 03:58:32] INFO root fetch - processPackages [pythonfinder]: executing diffoscope
+[2023-05-17 03:58:32] INFO root fetch - processPackages [pythonfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonfinder-2.0.0.tar.gz tmp/pythonfinder-2.0.1.tar.gz --markdown 20230517/p/pythonfinder/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-17 03:58:33] INFO root fetch - main [MainThread]: End processing [lazytransform]: success
+[2023-05-17 03:58:33] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-17 03:58:33] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2023-05-17 03:58:33] INFO root fetch - main [MainThread]: End processing [XS-treatment]: success
+[2023-05-17 03:58:33] INFO root fetch - main [MainThread]: End processing [rsoup]: success
+[2023-05-17 03:58:41] INFO root fetch - main [MainThread]: End processing [pythonfinder]: success
+[2023-05-17 03:58:41] INFO root fetch - main [MainThread]: Store serial: [18132668]
