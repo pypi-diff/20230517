@@ -19046,3 +19046,156 @@ EOFError: EOF read where object expected
 [2023-05-17 16:17:37] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-05-17 16:17:38] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-17 16:17:38] INFO root fetch - main [MainThread]: Store serial: [18140756]
+[2023-05-17 16:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18140756]
+[2023-05-17 16:22:47] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: negf
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-sphinx-theme
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: returnn
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycanon
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WebtoonScraper
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-common
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-core
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kraken-std
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kraken-wrapper
+[2023-05-17 16:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: o7cli
+[2023-05-17 16:22:47] INFO root fetch - processPackages [pycanon]: New version: [1.0.1] Old Version: [1.0.0.post5]
+[2023-05-17 16:22:47] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-17 16:22:48] WARNING root fetch - processPackages [negf]: Skipping, unable to determine old version
+[2023-05-17 16:22:48] INFO root fetch - processPackages [negf]: Start processing: BTKSorgu
+[2023-05-17 16:22:48] INFO root fetch - processPackages [qiskit-sphinx-theme]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.20.2] Old Version: [0.20.1]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [o7cli]: New version: [0.1.95] Old Version: [0.1.85]
+[2023-05-17 16:22:48] INFO root fetch - main [MainThread]: End processing [negf] error
+[2023-05-17 16:22:48] INFO root fetch - processPackages [BTKSorgu]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [returnn]: New version: [1.20230517.155144] Old Version: [1.20230517.132505]
+[2023-05-17 16:22:48] INFO root fetch - processPackages [pycanon]: Downloading https://files.pythonhosted.org/packages/3f/25/ae5cee61df88321bde6711a9756c035967c2621a9c5628ae6aff6a40eaf4/pycanon-1.0.0.post5.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/34/f7/719058aaee4b8e67bbb09317533b519e1753769f19fac8897b90c38e13a5/WebtoonScraper-0.0.8.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [qiskit-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/65/60/7f48b06d88ef75954453994dfc90f8e027ca0f90739639c3d33ed9fd3331/qiskit_sphinx_theme-1.8.7.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/c8/b8/097e1cdc04d24a6c8c052f0fc0bf95c64a1f8fc655fe49e8675b75c757e7/BTKSorgu-1.0.1.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/20/8f/260be028b80a4c164ce0774eccf5b1e6b1273a94a350c660e0e418c161e4/kraken_wrapper-0.20.1.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [o7cli]: Downloading https://files.pythonhosted.org/packages/5c/88/e6bd77d53a3cc8fc650b95dec3450386a753b6d8792d54f5b684657cf340/o7cli-0.1.85-py3-none-any.whl
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/67/7f/bcb0cfcdcfac2cf7e72fa09c945ac019e670942a85fae5fcafe56de4bbe2/returnn-1.20230517.155144.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.7.tar.gz tmp/WebtoonScraper-0.0.8.tar.gz --markdown 20230517/W/WebtoonScraper/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230517.132505.tar.gz tmp/returnn-1.20230517.155144.tar.gz --markdown 20230517/r/returnn/1.20230517.132505-1.20230517.155144/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [pycanon]: Downloading https://files.pythonhosted.org/packages/6c/53/6612aa942a6a6e6f8991ac1b6e1d30ee60736f181d9ae2fd46c09d9ee7bb/pycanon-1.0.1.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [qiskit-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/63/8d/046b1ebc46a281ef956ad4ebefd9ee291e43ab2c506e15713b2913f95ad4/qiskit_sphinx_theme-1.9.0.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/d9/57/0d4c5e6ed9fad7dfad2bca0fb2fe446390eeb0e03b9e173caa85abad34ff/kraken_wrapper-0.20.2.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [o7cli]: Downloading https://files.pythonhosted.org/packages/2d/74/c8d8a45daa5e8e20a8537bf973d1999b2acfbf156402ac817e841111ffde/o7cli-0.1.95-py3-none-any.whl
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/e8/dc/8dae778d71b408c9d2b4f763b5c4c54ec9a4c4b477799ea56337ef7d7814/BTKSorgu-1.0.2.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [pycanon]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [pycanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycanon-1.0.0.post5.tar.gz tmp/pycanon-1.0.1.tar.gz --markdown 20230517/p/pycanon/1.0.0.post5-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-05-17 16:22:48] INFO root fetch - processPackages [qiskit-sphinx-theme]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [qiskit-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_sphinx_theme-1.8.7.tar.gz tmp/qiskit_sphinx_theme-1.9.0.tar.gz --markdown 20230517/q/qiskit-sphinx-theme/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.20.1.tar.gz tmp/kraken_wrapper-0.20.2.tar.gz --markdown 20230517/k/kraken-wrapper/0.20.1-0.20.2/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [o7cli]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [o7cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o7cli-0.1.85-py3-none-any.whl.zip tmp/o7cli-0.1.95-py3-none-any.whl.zip --markdown 20230517/o/o7cli/0.1.85-0.1.95/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230517/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230517/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.0.1.tar.gz tmp/BTKSorgu-1.0.2.tar.gz --markdown 20230517/B/BTKSorgu/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-05-17 16:22:48] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230517/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 16:22:49] INFO root fetch - processPackages [WebtoonScraper]: Start processing: openai-pygenerator
+[2023-05-17 16:22:49] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-17 16:22:49] WARNING root fetch - processPackages [openai-pygenerator]: Skipping, unable to determine old version
+[2023-05-17 16:22:49] INFO root fetch - processPackages [openai-pygenerator]: Start processing: windpyutils
+[2023-05-17 16:22:49] INFO root fetch - main [MainThread]: End processing [openai-pygenerator] error
+[2023-05-17 16:22:49] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-17 16:22:50] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-05-17 16:22:50] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230517/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:22:50] INFO root fetch - processPackages [kraken-common]: Start processing: ibis-substrait
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-05-17 16:22:50] INFO root fetch - processPackages [ibis-substrait]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-05-17 16:22:50] INFO root fetch - processPackages [kraken-wrapper]: Start processing: My-Serializer-For-Json-And-XML-For-Lab3-9
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-05-17 16:22:50] WARNING root fetch - processPackages [My-Serializer-For-Json-And-XML-For-Lab3-9]: Skipping, unable to determine old version
+[2023-05-17 16:22:50] INFO root fetch - processPackages [My-Serializer-For-Json-And-XML-For-Lab3-9]: Start processing: certora-cli-alpha-shays-CERT-1717-b
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [My-Serializer-For-Json-And-XML-For-Lab3-9] error
+[2023-05-17 16:22:50] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: New version: [20230517.9.54.28934] Old Version: [20230517.14.20.616146]
+[2023-05-17 16:22:50] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Downloading https://files.pythonhosted.org/packages/23/bf/4a77d232bc2de977687d30cc2e594cbdea190d4858ce0f664dba570541e9/certora-cli-alpha-shays-CERT-1717-b-20230517.14.20.616146.tar.gz
+[2023-05-17 16:22:50] INFO root fetch - processPackages [o7cli]: Start processing: minari
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [o7cli]: success
+[2023-05-17 16:22:50] INFO root fetch - processPackages [ibis-substrait]: Downloading https://files.pythonhosted.org/packages/a2/e4/ca46253b03380afa8393d3118cb5128df1ca0247f1b4740543531522b58c/ibis-substrait-2.9.7.tar.gz
+[2023-05-17 16:22:50] INFO root fetch - processPackages [minari]: New version: [0.3.0b0] Old Version: [0.2.1]
+[2023-05-17 16:22:50] INFO root fetch - processPackages [BTKSorgu]: Start processing: python-lectio
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-17 16:22:50] INFO root fetch - processPackages [pycanon]: Start processing: prose
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [pycanon]: success
+[2023-05-17 16:22:50] INFO root fetch - processPackages [python-lectio]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-17 16:22:50] INFO root fetch - processPackages [prose]: New version: [3.0.0] Old Version: [2.3.0]
+[2023-05-17 16:22:50] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Skipping package: exceeds size limit 38757445>=10485760
+[2023-05-17 16:22:50] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-1717-b]: Start processing: BTKSorgu
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-1717-b] error
+[2023-05-17 16:22:50] INFO root fetch - processPackages [BTKSorgu]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 16:22:50] INFO root fetch - processPackages [prose]: executing diffoscope
+[2023-05-17 16:22:50] INFO root fetch - processPackages [prose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prose-2.3.0.tar.gz tmp/prose-3.0.0.tar.gz --markdown 20230517/p/prose/2.3.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-17 16:22:50] INFO root fetch - processPackages [minari]: Downloading https://files.pythonhosted.org/packages/47/63/41502feb6517e70f1432c14f38fd09e59550337e82f9b4faf4093ce04dd9/minari-0.2.1.tar.gz
+[2023-05-17 16:22:50] INFO root fetch - processPackages [kraken-core]: Start processing: spanishconjugator
+[2023-05-17 16:22:50] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-05-17 16:22:50] INFO root fetch - processPackages [ibis-substrait]: Downloading https://files.pythonhosted.org/packages/d2/eb/d68a66dfc1240a214dcedf0974bd55bffedd9fccd134696b6c272a9e1bf5/ibis-substrait-2.9.8.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [python-lectio]: Downloading https://files.pythonhosted.org/packages/55/09/a6e1d9a92dcd1dcf4c9f9d8167b39e9c79d8def4f18f5394b3e31cbb82a3/python-lectio-1.9.0.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/6c/32/eafe68e505888e4455a3144595370bd2ef936115cbfcac656966c4b22804/BTKSorgu-1.0.3.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-17 16:22:51] INFO root fetch - processPackages [minari]: Downloading https://files.pythonhosted.org/packages/9f/4e/610310189c7010bddf09028e32a2a80688164407d8e87501377ba3ac2751/minari-0.3.0b0.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [ibis-substrait]: executing diffoscope
+[2023-05-17 16:22:51] INFO root fetch - processPackages [ibis-substrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis-substrait-2.9.7.tar.gz tmp/ibis-substrait-2.9.8.tar.gz --markdown 20230517/i/ibis-substrait/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-05-17 16:22:51] INFO root fetch - processPackages [windpyutils]: Start processing: torch-uncertainty
+[2023-05-17 16:22:51] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-05-17 16:22:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-17 16:22:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230517/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-17 16:22:51] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-17 16:22:51] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.0.2.tar.gz tmp/BTKSorgu-1.0.3.tar.gz --markdown 20230517/B/BTKSorgu/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 16:22:51] INFO root fetch - processPackages [minari]: executing diffoscope
+[2023-05-17 16:22:51] INFO root fetch - processPackages [minari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minari-0.2.1.tar.gz tmp/minari-0.3.0b0.tar.gz --markdown 20230517/m/minari/0.2.1-0.3.0b0/diff.md --exclude *.pyd
+[2023-05-17 16:22:51] INFO root fetch - processPackages [python-lectio]: Downloading https://files.pythonhosted.org/packages/c7/18/bd771dd9622178f49b76ed0e080e101372de052fcd1bf929ebff470243fd/python-lectio-1.9.1.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [torch-uncertainty]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-17 16:22:51] INFO root fetch - processPackages [python-lectio]: executing diffoscope
+[2023-05-17 16:22:51] INFO root fetch - processPackages [python-lectio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lectio-1.9.0.tar.gz tmp/python-lectio-1.9.1.tar.gz --markdown 20230517/p/python-lectio/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-17 16:22:51] INFO root fetch - processPackages [torch-uncertainty]: Downloading https://files.pythonhosted.org/packages/c9/96/f6139d8fc85c217bf41285a9b4463eb344af84cbdc6c8c0c723779783efa/torch_uncertainty-0.1.0.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [kraken-std]: Start processing: pyjedai
+[2023-05-17 16:22:51] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-05-17 16:22:51] INFO root fetch - processPackages [torch-uncertainty]: Downloading https://files.pythonhosted.org/packages/25/44/d655142565c4b48c764c6f644b6f3bdabad411c9dfcb04ed4ce13a9e196b/torch_uncertainty-0.1.1.tar.gz
+[2023-05-17 16:22:51] INFO root fetch - processPackages [pyjedai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 16:22:51] INFO root fetch - processPackages [qiskit-sphinx-theme]: Start processing: spanishconjugator
+[2023-05-17 16:22:51] INFO root fetch - main [MainThread]: End processing [qiskit-sphinx-theme]: success
+[2023-05-17 16:22:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-17 16:22:52] INFO root fetch - processPackages [torch-uncertainty]: executing diffoscope
+[2023-05-17 16:22:52] INFO root fetch - processPackages [torch-uncertainty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_uncertainty-0.1.0.tar.gz tmp/torch_uncertainty-0.1.1.tar.gz --markdown 20230517/t/torch-uncertainty/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-17 16:22:52] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/8a/98/bb3b5efa14efe5882917d57b44e0a9d4d26a771734c12396766ddc03ac7b/pyjedai-0.0.4.tar.gz
+[2023-05-17 16:22:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-17 16:22:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230517/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-17 16:22:52] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/fd/e2/5123e6130d274554a15cb9f49de9e260d3f9d1e23dfd0cfdf641a9989bbf/pyjedai-0.0.5.tar.gz
+[2023-05-17 16:22:52] INFO root fetch - processPackages [pyjedai]: executing diffoscope
+[2023-05-17 16:22:52] INFO root fetch - processPackages [pyjedai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjedai-0.0.4.tar.gz tmp/pyjedai-0.0.5.tar.gz --markdown 20230517/p/pyjedai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 16:22:52] INFO root fetch - processPackages [python-lectio]: Start processing: apis-core
+[2023-05-17 16:22:52] INFO root fetch - main [MainThread]: End processing [python-lectio]: success
+[2023-05-17 16:22:52] INFO root fetch - main [MainThread]: End processing [minari]: success
+[2023-05-17 16:22:52] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-17 16:22:52] INFO root fetch - processPackages [apis-core]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 16:22:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-17 16:22:53] INFO root fetch - processPackages [apis-core]: Downloading https://files.pythonhosted.org/packages/bf/ef/7c9244f667738f4240348a784968064cbf0a39d8d1ced31148d8070fa3c9/apis-core-0.9.8.tar.gz
+[2023-05-17 16:22:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-17 16:22:53] INFO root fetch - processPackages [apis-core]: Downloading https://files.pythonhosted.org/packages/75/67/6c84e7402fdcb297cf50c43dc5acaaad6ba54a9881a0ec85ca0c28e89411/apis-core-0.9.9.tar.gz
+[2023-05-17 16:22:53] INFO root fetch - main [MainThread]: End processing [prose]: success
+[2023-05-17 16:22:53] INFO root fetch - main [MainThread]: End processing [torch-uncertainty]: success
+[2023-05-17 16:22:53] INFO root fetch - processPackages [apis-core]: executing diffoscope
+[2023-05-17 16:22:53] INFO root fetch - processPackages [apis-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis-core-0.9.8.tar.gz tmp/apis-core-0.9.9.tar.gz --markdown 20230517/a/apis-core/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 16:22:53] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-17 16:22:53] INFO root fetch - main [MainThread]: End processing [pyjedai]: success
+[2023-05-17 16:22:54] INFO root fetch - main [MainThread]: End processing [ibis-substrait]: success
+[2023-05-17 16:22:55] INFO root fetch - main [MainThread]: End processing [apis-core]: success
+[2023-05-17 16:22:55] INFO root fetch - main [MainThread]: Store serial: [18140832]
