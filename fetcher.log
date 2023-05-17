@@ -4378,3 +4378,59 @@
 [2023-05-17 03:37:45] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-05-17 03:37:45] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
 [2023-05-17 03:37:45] INFO root fetch - main [MainThread]: Store serial: [18132544]
+[2023-05-17 03:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132544]
+[2023-05-17 03:42:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pytorch
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xklb
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botxbingxuser
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aihandler
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-django
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyalgotrader-protocols
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive
+[2023-05-17 03:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-05-17 03:42:54] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-17 03:42:54] WARNING root fetch - processPackages [botxbingxuser]: Skipping, unable to determine old version
+[2023-05-17 03:42:54] INFO root fetch - main [MainThread]: End processing [botxbingxuser] error
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.776] Old Version: [0.0.775]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [pyalgotrader-protocols]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 03:42:54] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-17 03:42:54] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-17 03:42:54] INFO root fetch - processPackages [xklb]: New version: [1.28.2] Old Version: [1.28.1]
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230517/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230517/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:42:54] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230517/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230517/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230517/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:42:54] INFO root fetch - processPackages [pyalgotrader-protocols]: Downloading https://files.pythonhosted.org/packages/6a/3b/81ebfb9d58305f33426779fdd856b059e715c8feb40f0bcf4b377f01fb7a/pyalgotrader-protocols-0.0.1.tar.gz
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/fd/88/c90f28e227dee77594dc8945176e94c08e000cb8699eb9c1b2010eb2d8b7/nbdev-apl-0.0.776.tar.gz
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.775.tar.gz tmp/nbdev-apl-0.0.776.tar.gz --markdown 20230517/n/nbdev-apl/0.0.775-0.0.776/diff.md --exclude *.pyd
+[2023-05-17 03:42:54] INFO root fetch - processPackages [pyalgotrader-protocols]: Downloading https://files.pythonhosted.org/packages/d6/27/865123cac811e7f808e85ab40dd8c060e5c3137f50b7dd2441f0960c38da/pyalgotrader-protocols-0.0.2.tar.gz
+[2023-05-17 03:42:54] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/3a/9d/bdce7ebe922440f694419a5945009553fcb4df61bfa345ed4017b9b30946/xklb-1.28.1.tar.gz
+[2023-05-17 03:42:54] INFO root fetch - processPackages [pyalgotrader-protocols]: executing diffoscope
+[2023-05-17 03:42:54] INFO root fetch - processPackages [pyalgotrader-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalgotrader-protocols-0.0.1.tar.gz tmp/pyalgotrader-protocols-0.0.2.tar.gz --markdown 20230517/p/pyalgotrader-protocols/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 03:42:55] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/57/21/63fb9fa7a04e55d67abbb077d03c59a9bd9a4cd730e6d78517751823c72b/xklb-1.28.2.tar.gz
+[2023-05-17 03:42:55] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-17 03:42:55] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.28.1.tar.gz tmp/xklb-1.28.2.tar.gz --markdown 20230517/x/xklb/1.28.1-1.28.2/diff.md --exclude *.pyd
+[2023-05-17 03:42:55] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-17 03:42:55] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-17 03:42:55] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-17 03:42:56] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-17 03:42:56] INFO root fetch - main [MainThread]: End processing [pyalgotrader-protocols]: success
+[2023-05-17 03:42:56] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-17 03:42:56] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-17 03:42:57] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-17 03:42:57] INFO root fetch - main [MainThread]: Store serial: [18132579]
