@@ -7484,3 +7484,60 @@
 [2023-05-17 05:50:21] INFO root fetch - main [MainThread]: End processing [ibis-genome]: success
 [2023-05-17 05:50:57] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-05-17 05:50:57] INFO root fetch - main [MainThread]: Store serial: [18134059]
+[2023-05-17 05:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134059]
+[2023-05-17 05:56:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paper-qa
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-sls-lambda-toolkit
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: segment-geospatial
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpg-workflows
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mathactive
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-source-postgres
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hue-color-converter
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dashtable-ext
+[2023-05-17 05:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pystemd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [segment-geospatial]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [paper-qa]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-17 05:56:07] WARNING root fetch - processPackages [dashtable-ext]: Skipping, unable to determine old version
+[2023-05-17 05:56:07] INFO root fetch - main [MainThread]: End processing [dashtable-ext] error
+[2023-05-17 05:56:07] INFO root fetch - processPackages [segment-geospatial]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [segment-geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-geospatial-0.5.0.tar.gz tmp/segment-geospatial-0.6.0.tar.gz --markdown 20230517/s/segment-geospatial/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [mathactive]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [pystemd]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [hue-color-converter]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-17 05:56:07] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/15/4f/d98ddbf5b45d9b010f0a96cce6c6425078186b53df986f24585a5d9d66a1/py-sls-lambda-toolkit-0.1.6.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/14/6d/b9fbd65e83812da47cc879d4332ce0de86bd2e167faf98eebe6b4631fb9c/mathactive-0.0.3.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [pystemd]: Downloading https://files.pythonhosted.org/packages/c3/1a/6ec2ac628eabdce55f317f7ba560a8f14daebf86187cd6075c50054d528b/pystemd-0.7.0.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [hue-color-converter]: Downloading https://files.pythonhosted.org/packages/3e/0b/d924f60b4d97d5efb7a70c25f62244b2a9cd5d23add61a3d37d6fd33336f/hue-color-converter-0.2.3.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/7b/1e/c595fca5f8fd5688f962b99c09ad2634eb32d202103c9852379f466f3702/paper-qa-1.6.1.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.1.5.tar.gz tmp/py-sls-lambda-toolkit-0.1.6.tar.gz --markdown 20230517/p/py-sls-lambda-toolkit/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/ee/68/4afc3f7fed334ba2c11004b5df20c88cd8bcb60fa21b7858a32e0a23ffda/macrometa-source-postgres-0.0.48.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-1.6.0.tar.gz tmp/paper-qa-1.6.1.tar.gz --markdown 20230517/p/paper-qa/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/0b/61/67aa3a8413a69b443a8d6770cc5f13710d13788f0f5e9f946f883aaf039f/mathactive-0.0.4.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [pystemd]: Downloading https://files.pythonhosted.org/packages/6b/e9/4d8a73dccd2e3f093496778af4c3f8d0b0ef8617868e015660b083919f34/pystemd-0.8.0.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.47.tar.gz tmp/macrometa-source-postgres-0.0.48.tar.gz --markdown 20230517/m/macrometa-source-postgres/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [mathactive]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [mathactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathactive-0.0.3.tar.gz tmp/mathactive-0.0.4.tar.gz --markdown 20230517/m/mathactive/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [hue-color-converter]: Downloading https://files.pythonhosted.org/packages/7e/8c/7ee53b8303c291a53cf704a877cf8e77d70e23abec23f63fc6fc28b0baa8/hue_color_converter-0.2.4.tar.gz
+[2023-05-17 05:56:07] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230517/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-17 05:56:07] INFO root fetch - processPackages [pystemd]: executing diffoscope
+[2023-05-17 05:56:07] INFO root fetch - processPackages [pystemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystemd-0.7.0.tar.gz tmp/pystemd-0.8.0.tar.gz --markdown 20230517/p/pystemd/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-17 05:56:08] INFO root fetch - processPackages [hue-color-converter]: executing diffoscope
+[2023-05-17 05:56:08] INFO root fetch - processPackages [hue-color-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue-color-converter-0.2.3.tar.gz tmp/hue_color_converter-0.2.4.tar.gz --markdown 20230517/h/hue-color-converter/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-17 05:56:08] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [segment-geospatial]: success
+[2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [mathactive]: success
+[2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [hue-color-converter]: success
+[2023-05-17 05:56:09] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-05-17 05:56:11] INFO root fetch - main [MainThread]: End processing [pystemd]: success
+[2023-05-17 05:56:11] INFO root fetch - main [MainThread]: Store serial: [18134094]
