@@ -7777,3 +7777,35 @@
 [2023-05-17 06:33:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
 [2023-05-17 06:33:14] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-05-17 06:33:14] INFO root fetch - main [MainThread]: Store serial: [18134262]
+[2023-05-17 06:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134262]
+[2023-05-17 06:38:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-17 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyvcf2
+[2023-05-17 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automation-common-test
+[2023-05-17 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prepup
+[2023-05-17 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BusanStore
+[2023-05-17 06:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oapi
+[2023-05-17 06:38:22] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-17 06:38:22] WARNING root fetch - processPackages [BusanStore]: Skipping, unable to determine old version
+[2023-05-17 06:38:22] INFO root fetch - main [MainThread]: End processing [BusanStore] error
+[2023-05-17 06:38:22] INFO root fetch - processPackages [oapi]: New version: [1.59.3] Old Version: [1.59.0]
+[2023-05-17 06:38:22] INFO root fetch - processPackages [prepup]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 06:38:22] INFO root fetch - processPackages [cyvcf2]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-17 06:38:22] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-17 06:38:22] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230517/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 06:38:23] INFO root fetch - processPackages [oapi]: Downloading https://files.pythonhosted.org/packages/28/34/dd5e1dd22c66b04995851e504197c2f2923288733eb92c13191f4b063839/oapi-1.59.0.tar.gz
+[2023-05-17 06:38:23] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/f0/2e/73a6ffed199477dd8ea8d658cd889e26d08405be343609164494b331869f/prepup-0.1.1.tar.gz
+[2023-05-17 06:38:23] INFO root fetch - processPackages [cyvcf2]: Downloading https://files.pythonhosted.org/packages/e4/42/f2016a5d158dc0ab205929d74d510214c8845557d4cd8ab366dcfcb6a3da/cyvcf2-0.8.9.tar.gz
+[2023-05-17 06:38:23] INFO root fetch - processPackages [oapi]: Downloading https://files.pythonhosted.org/packages/51/04/49de405fe95518eadc0a4630718a034ad21a7cf12afc18ad9098d09e676b/oapi-1.59.3.tar.gz
+[2023-05-17 06:38:23] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/64/4c/8c451829c4bb33c20b84de7a9cfdbddf2fe2356c6b5a12cde9ecd79acc14/prepup-0.1.2.tar.gz
+[2023-05-17 06:38:23] INFO root fetch - processPackages [oapi]: executing diffoscope
+[2023-05-17 06:38:23] INFO root fetch - processPackages [oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oapi-1.59.0.tar.gz tmp/oapi-1.59.3.tar.gz --markdown 20230517/o/oapi/1.59.0-1.59.3/diff.md --exclude *.pyd
+[2023-05-17 06:38:23] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-05-17 06:38:23] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.1.1.tar.gz tmp/prepup-0.1.2.tar.gz --markdown 20230517/p/prepup/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 06:38:23] INFO root fetch - processPackages [cyvcf2]: Downloading https://files.pythonhosted.org/packages/3f/21/29c8dc12e91d55e953f230bf9e96af779b224f6d59f4eacc3dcb80753d34/cyvcf2-0.9.0.tar.gz
+[2023-05-17 06:38:24] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-17 06:38:24] INFO root fetch - processPackages [cyvcf2]: executing diffoscope
+[2023-05-17 06:38:24] INFO root fetch - processPackages [cyvcf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyvcf2-0.8.9.tar.gz tmp/cyvcf2-0.9.0.tar.gz --markdown 20230517/c/cyvcf2/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 06:38:24] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-05-17 06:38:24] INFO root fetch - main [MainThread]: End processing [oapi]: success
+[2023-05-17 06:38:26] INFO root fetch - main [MainThread]: End processing [cyvcf2]: success
+[2023-05-17 06:38:26] INFO root fetch - main [MainThread]: Store serial: [18134312]
