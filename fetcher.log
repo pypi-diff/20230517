@@ -4492,3 +4492,34 @@
 [2023-05-17 03:48:08] INFO root fetch - main [MainThread]: End processing [makeprojects]: success
 [2023-05-17 03:48:10] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-17 03:48:10] INFO root fetch - main [MainThread]: Store serial: [18132607]
+[2023-05-17 03:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132607]
+[2023-05-17 03:53:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-17 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emoji-regex
+[2023-05-17 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: veilcord
+[2023-05-17 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyview-web
+[2023-05-17 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ufusion
+[2023-05-17 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypreql
+[2023-05-17 03:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: episoder
+[2023-05-17 03:53:18] WARNING root fetch - processPackages [pyview-web]: Skipping, unable to determine old version
+[2023-05-17 03:53:18] INFO root fetch - main [MainThread]: End processing [pyview-web] error
+[2023-05-17 03:53:19] WARNING root fetch - processPackages [veilcord]: Skipping, unable to determine old version
+[2023-05-17 03:53:19] INFO root fetch - main [MainThread]: End processing [veilcord] error
+[2023-05-17 03:53:19] WARNING root fetch - processPackages [ufusion]: Skipping, unable to determine old version
+[2023-05-17 03:53:19] INFO root fetch - main [MainThread]: End processing [ufusion] error
+[2023-05-17 03:53:19] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-17 03:53:19] INFO root fetch - processPackages [emoji-regex]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 03:53:19] INFO root fetch - processPackages [episoder]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-17 03:53:19] INFO root fetch - processPackages [emoji-regex]: Downloading https://files.pythonhosted.org/packages/2e/06/321c526c23d45af85d5cf7785975b3bb0ebd10328f435e5d65200bc90ff5/emoji_regex-0.1.1.tar.gz
+[2023-05-17 03:53:19] INFO root fetch - processPackages [episoder]: Downloading https://files.pythonhosted.org/packages/3e/34/ce09892c56a9734337a35c08050f261764eb51533deb6cb4572227efecf5/episoder-0.9.1.tar.gz
+[2023-05-17 03:53:19] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2023-05-17 03:53:19] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20230517/p/pypreql/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-05-17 03:53:19] INFO root fetch - processPackages [episoder]: Downloading https://files.pythonhosted.org/packages/e3/a5/aac873ff10f4bc56679c42ac6188c44999e51c54f03bf88ae52320ee55ce/episoder-0.9.2.tar.gz
+[2023-05-17 03:53:19] INFO root fetch - processPackages [emoji-regex]: Downloading https://files.pythonhosted.org/packages/fa/39/4cb4af2cee1eed53cf446b9f1c5d51ae1d4063f2445d21da9c64f7c6bc59/emoji_regex-0.1.2.tar.gz
+[2023-05-17 03:53:19] INFO root fetch - processPackages [emoji-regex]: executing diffoscope
+[2023-05-17 03:53:19] INFO root fetch - processPackages [emoji-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emoji_regex-0.1.1.tar.gz tmp/emoji_regex-0.1.2.tar.gz --markdown 20230517/e/emoji-regex/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 03:53:19] INFO root fetch - processPackages [episoder]: executing diffoscope
+[2023-05-17 03:53:19] INFO root fetch - processPackages [episoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/episoder-0.9.1.tar.gz tmp/episoder-0.9.2.tar.gz --markdown 20230517/e/episoder/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-17 03:53:20] INFO root fetch - main [MainThread]: End processing [emoji-regex]: success
+[2023-05-17 03:53:20] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2023-05-17 03:53:21] INFO root fetch - main [MainThread]: End processing [episoder]: success
+[2023-05-17 03:53:21] INFO root fetch - main [MainThread]: Store serial: [18132628]
