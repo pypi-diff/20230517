@@ -2313,3 +2313,77 @@
 [2023-05-17 03:04:49] ERROR root fetch - processPackages [types-unopy]: Timeout during execution of pkgdiff
 [2023-05-17 03:04:49] INFO root fetch - main [MainThread]: End processing [types-unopy] error
 [2023-05-17 03:04:49] INFO root fetch - main [MainThread]: Store serial: [18131286]
+[2023-05-17 03:09:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18131286]
+[2023-05-17 03:09:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampling-constraints
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iga
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: structure-py
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlakeyset
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GoogleBard
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: experimenthq
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: covalent-gcpbatch-plugin
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MakerToolbox
+[2023-05-17 03:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iFusion
+[2023-05-17 03:09:58] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [iga]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [experimenthq]: New version: [0.0.0.dev5] Old Version: [0.0.0.dev4]
+[2023-05-17 03:09:58] WARNING root fetch - processPackages [iFusion]: Skipping, unable to determine old version
+[2023-05-17 03:09:58] INFO root fetch - processPackages [iFusion]: Start processing: cz-legacy
+[2023-05-17 03:09:58] WARNING root fetch - processPackages [MakerToolbox]: Skipping, unable to determine old version
+[2023-05-17 03:09:58] INFO root fetch - main [MainThread]: End processing [iFusion] error
+[2023-05-17 03:09:58] INFO root fetch - processPackages [sqlakeyset]: New version: [2.0.1684285512] Old Version: [2.0.1681021882]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [MakerToolbox]: Start processing: reportbro-fpdf2
+[2023-05-17 03:09:58] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [GoogleBard]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 03:09:58] INFO root fetch - main [MainThread]: End processing [MakerToolbox] error
+[2023-05-17 03:09:58] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [reportbro-fpdf2]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [cz-legacy]: New version: [1.0.0rc0] Old Version: [0.1.7]
+[2023-05-17 03:09:58] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: Downloading https://files.pythonhosted.org/packages/71/6e/f06d9ee1c470d9dedd707f62466274b2066ba56315eae5f09d8cd5e6fd30/covalent-gcpbatch-plugin-0.9.0.tar.gz
+[2023-05-17 03:09:58] INFO root fetch - processPackages [experimenthq]: Downloading https://files.pythonhosted.org/packages/c8/66/394945e846c468545f9042313e1706b6d768ada6a5fe290e1ea8148693b7/experimenthq-0.0.0.dev5.tar.gz
+[2023-05-17 03:09:58] INFO root fetch - processPackages [sqlakeyset]: Downloading https://files.pythonhosted.org/packages/6e/e1/066a804c9d31b583e97c87cb8d8a25d7a8a3f3736d04eab7c718d383f533/sqlakeyset-2.0.1681021882.tar.gz
+[2023-05-17 03:09:58] INFO root fetch - processPackages [iga]: executing diffoscope
+[2023-05-17 03:09:58] INFO root fetch - processPackages [iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iga-0.0.8.tar.gz tmp/iga-0.0.9.tar.gz --markdown 20230517/i/iga/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 03:09:58] INFO root fetch - processPackages [cz-legacy]: Downloading https://files.pythonhosted.org/packages/34/02/3600ece24082fd2c4bebf189e6d50670856c146b2d3a715c5ff124bbe308/cz_legacy-0.1.7.tar.gz
+[2023-05-17 03:09:58] INFO root fetch - processPackages [reportbro-fpdf2]: Downloading https://files.pythonhosted.org/packages/f0/a5/12b7040f61f7eb563302c466c029b45a1c6dca07ce4a6b12e2c3fa182ab4/reportbro_fpdf2-2.7.1-py2.py3-none-any.whl
+[2023-05-17 03:09:58] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-17 03:09:58] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.8.tar.gz tmp/sampling-constraints-0.0.9.tar.gz --markdown 20230517/s/sampling-constraints/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/a9/91/240b5830244e1254318298015311f0c375c258ffe9596e3032b9f2ff45e6/GoogleBard-1.0.3.tar.gz
+[2023-05-17 03:09:59] INFO root fetch - processPackages [experimenthq]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [experimenthq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimenthq-0.0.0.dev4.tar.gz tmp/experimenthq-0.0.0.dev5.tar.gz --markdown 20230517/e/experimenthq/0.0.0.dev4-0.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230517/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230517/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [sqlakeyset]: Downloading https://files.pythonhosted.org/packages/ba/15/05b53183aa47e5c48ff98af1cfe0a3af536125b947c1aa36a32ebf78b63e/sqlakeyset-2.0.1684285512.tar.gz
+[2023-05-17 03:09:59] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: Downloading https://files.pythonhosted.org/packages/dc/42/8e9970aa841ef55fcb7c262a252590ec0a36b2f81bc86dcbfba196ec4d3e/covalent-gcpbatch-plugin-0.9.0rc0.tar.gz
+[2023-05-17 03:09:59] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.0.2.tar.gz tmp/GoogleBard-1.0.3.tar.gz --markdown 20230517/G/GoogleBard/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [cz-legacy]: Downloading https://files.pythonhosted.org/packages/a7/8c/0e44bd1a8749c1f135b87eae74907fed996bac63f2e34b0159313162543b/cz_legacy-1.0.0rc0.tar.gz
+[2023-05-17 03:09:59] INFO root fetch - processPackages [reportbro-fpdf2]: Downloading https://files.pythonhosted.org/packages/4f/81/1348732561e696e504b9715fc214fdd2b44646bafee94205dcff9d546ef8/reportbro_fpdf2-2.7.2-py2.py3-none-any.whl
+[2023-05-17 03:09:59] INFO root fetch - processPackages [sqlakeyset]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [sqlakeyset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlakeyset-2.0.1681021882.tar.gz tmp/sqlakeyset-2.0.1684285512.tar.gz --markdown 20230517/s/sqlakeyset/2.0.1681021882-2.0.1684285512/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-gcpbatch-plugin-0.9.0.tar.gz tmp/covalent-gcpbatch-plugin-0.9.0rc0.tar.gz --markdown 20230517/c/covalent-gcpbatch-plugin/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [cz-legacy]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [cz-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_legacy-0.1.7.tar.gz tmp/cz_legacy-1.0.0rc0.tar.gz --markdown 20230517/c/cz-legacy/0.1.7-1.0.0rc0/diff.md --exclude *.pyd
+[2023-05-17 03:09:59] INFO root fetch - processPackages [reportbro-fpdf2]: executing diffoscope
+[2023-05-17 03:09:59] INFO root fetch - processPackages [reportbro-fpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportbro_fpdf2-2.7.1-py2.py3-none-any.whl.zip tmp/reportbro_fpdf2-2.7.2-py2.py3-none-any.whl.zip --markdown 20230517/r/reportbro-fpdf2/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-05-17 03:10:00] INFO root fetch - processPackages [sampling-constraints]: Start processing: quantconnect-stubs
+[2023-05-17 03:10:00] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-17 03:10:00] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-17 03:10:00] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-17 03:10:00] INFO root fetch - main [MainThread]: End processing [experimenthq]: success
+[2023-05-17 03:10:00] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-05-17 03:10:00] INFO root fetch - main [MainThread]: End processing [cz-legacy]: success
+[2023-05-17 03:10:00] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-17 03:10:00] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230517/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-17 03:10:01] INFO root fetch - main [MainThread]: End processing [covalent-gcpbatch-plugin]: success
+[2023-05-17 03:10:01] INFO root fetch - main [MainThread]: End processing [sqlakeyset]: success
+[2023-05-17 03:10:01] INFO root fetch - main [MainThread]: End processing [reportbro-fpdf2]: success
+[2023-05-17 03:10:02] INFO root fetch - main [MainThread]: End processing [iga]: success
+[2023-05-17 03:10:02] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-17 03:10:08] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-17 03:10:08] INFO root fetch - main [MainThread]: Store serial: [18131327]
