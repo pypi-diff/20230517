@@ -14466,3 +14466,176 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 13:15:06] INFO root fetch - main [MainThread]: End processing [cinder]: success
 [2023-05-17 13:16:16] INFO root fetch - main [MainThread]: End processing [nova]: success
 [2023-05-17 13:16:16] INFO root fetch - main [MainThread]: Store serial: [18138273]
+[2023-05-17 13:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18138273]
+[2023-05-17 13:21:28] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nova
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irispreppy
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heat-dashboard
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geovisio_cli
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nova
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zcbot-predict-sdk
+[2023-05-17 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cinder
+[2023-05-17 13:21:28] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [geovisio_cli]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [heat-dashboard]: New version: [9.0.0.0rc1] Old Version: [9.0.0]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [nova]: New version: [27.1.0] Old Version: [27.0.0.0rc1]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev29]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [cinder]: New version: [22.1.0] Old Version: [22.0.0.0rc2]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:21:28] INFO root fetch - processPackages [nova]: New version: [27.1.0] Old Version: [27.0.0.0rc1]
+[2023-05-17 13:21:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f2/89/85324aa6c6d5dcbd0cff336acb22b1f088243c0de54359af016b9d44fe93/khoj_assistant-0.6.2.dev29.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-05-17 13:21:29] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/58/c1/2b186b76a24bea442af1b6b819cc7b8a7e21795ff8f9ba7cb568c16635e6/geovisio_cli-0.0.5.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/a4/a1/faa0f73e83864af383ee835116afaa6d22a73f5a7407b9c0fa4f988f090c/PatryksAutoAI-0.9.5.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/67/4c/b3fa0737a2d28640bc6f4d57616057c784c109521bf949922bc9918382ee/cinder-22.1.0.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [heat-dashboard]: Downloading https://files.pythonhosted.org/packages/e3/60/ea2df3e33c3a6513880df979be9568ca526edf75b72706ecc8332c09aed9/heat-dashboard-9.0.0.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [nova]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-27.0.0.0rc1.tar.gz tmp/nova-27.1.0.tar.gz --markdown 20230517/n/nova/27.0.0.0rc1-27.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [nova]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-27.0.0.0rc1.tar.gz tmp/nova-27.1.0.tar.gz --markdown 20230517/n/nova/27.0.0.0rc1-27.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-05-17 13:21:29] INFO root fetch - processPackages [irispreppy]: Downloading https://files.pythonhosted.org/packages/39/93/04fff2af743c71f380d93f2f85a9c3c005b20f13018ff51fac9eceb85376/irispreppy-1.1.8.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-22.0.0.0rc2.tar.gz tmp/cinder-22.1.0.tar.gz --markdown 20230517/c/cinder/22.0.0.0rc2-22.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/79/f9/4b3fae3fc0aa8fe82dc8ca21d74dfdda1e3b3f063d6aeeb633c9193e5abc/PatryksAutoAI-0.9.6.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230517/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.5.tar.gz tmp/PatryksAutoAI-0.9.6.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [heat-dashboard]: Downloading https://files.pythonhosted.org/packages/e3/86/c02cd2555ff7d8044663605158e11b9d4df38bab993c3c4c289a43ccbf79/heat-dashboard-9.0.0.0rc1.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/ef/d8/f926fd98226aea2639df87b5062fc136dca420f92cd1e8d5d586e4265215/khoj_assistant-0.6.2.dev6.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [heat-dashboard]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [heat-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heat-dashboard-9.0.0.tar.gz tmp/heat-dashboard-9.0.0.0rc1.tar.gz --markdown 20230517/h/heat-dashboard/9.0.0-9.0.0.0rc1/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/d7/bf/4abe5a6d68c2c730bcff4a12f95053d15cfff1ee42c7fb923e3c44226856/geovisio_cli-0.1.0.tar.gz
+[2023-05-17 13:21:29] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.2.dev29.tar.gz tmp/khoj_assistant-0.6.2.dev6.tar.gz --markdown 20230517/k/khoj-assistant/0.6.2.dev29-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2023-05-17 13:21:29] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.0.5.tar.gz tmp/geovisio_cli-0.1.0.tar.gz --markdown 20230517/g/geovisio_cli/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:29] INFO root fetch - processPackages [irispreppy]: Downloading https://files.pythonhosted.org/packages/6d/fd/0a33174ba3b02921f9fad58a9ed6fcfb9fd975ade4b7d33e0957ff862724/irispreppy-1.1.9.tar.gz
+[2023-05-17 13:21:30] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-05-17 13:21:30] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230517/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-17 13:21:31] INFO root fetch - processPackages [reytool]: Start processing: python-heatclient
+[2023-05-17 13:21:31] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-17 13:21:31] INFO root fetch - processPackages [python-heatclient]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-17 13:21:31] INFO root fetch - processPackages [zcbot-predict-sdk]: Start processing: mlfoundry
+[2023-05-17 13:21:31] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-17 13:21:31] INFO root fetch - processPackages [mlfoundry]: New version: [0.8.0rc2] Old Version: [0.8.0rc1]
+[2023-05-17 13:21:31] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: PatryksAutoAI
+[2023-05-17 13:21:31] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 13:21:31] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-17 13:21:31] INFO root fetch - processPackages [python-heatclient]: Downloading https://files.pythonhosted.org/packages/21/a3/03ba1273b5576fe0006233e5f4bed246a74bffbb7dae10ed4ca7e139d92f/python-heatclient-3.2.0.tar.gz
+[2023-05-17 13:21:31] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/a3/86/f384598f0187c75c42181a27a759a4f73a0442e7a4bef47f27c9c45bd6df/mlfoundry-0.8.0rc1.tar.gz
+[2023-05-17 13:21:31] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 13:21:31] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.5.tar.gz tmp/PatryksAutoAI-0.9.6.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-17 13:21:31] INFO root fetch - processPackages [python-heatclient]: Downloading https://files.pythonhosted.org/packages/09/ac/6707625482f57612aaeee9b39c5b830b8cb6c10a937b1574867e5c70acd4/python-heatclient-3.3.0.tar.gz
+[2023-05-17 13:21:32] INFO root fetch - processPackages [python-heatclient]: executing diffoscope
+[2023-05-17 13:21:32] INFO root fetch - processPackages [python-heatclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-heatclient-3.2.0.tar.gz tmp/python-heatclient-3.3.0.tar.gz --markdown 20230517/p/python-heatclient/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:32] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/a6/8f/15469e4cf25c1b80d1ec1b7155a753ba42283fee413994c9f8a0ecddcc1b/mlfoundry-0.8.0rc2.tar.gz
+[2023-05-17 13:21:32] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-05-17 13:21:32] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.8.0rc1.tar.gz tmp/mlfoundry-0.8.0rc2.tar.gz --markdown 20230517/m/mlfoundry/0.8.0rc1-0.8.0rc2/diff.md --exclude *.pyd
+[2023-05-17 13:21:33] INFO root fetch - processPackages [irispreppy]: Start processing: fpcmci
+[2023-05-17 13:21:33] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-05-17 13:21:33] INFO root fetch - processPackages [fpcmci]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-05-17 13:21:33] INFO root fetch - processPackages [khoj-assistant]: Start processing: cc-py-commons
+[2023-05-17 13:21:33] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-05-17 13:21:33] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 13:21:33] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-05-17 13:21:33] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/c1/00/8acdc3d1f6626cab44295ea10cfe3f5ae54e9c8bee0b2e615878f679caeb/fpcmci-4.2.1.tar.gz
+[2023-05-17 13:21:33] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: zcbot-celery-sdk
+[2023-05-17 13:21:33] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 13:21:33] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:21:33] INFO root fetch - processPackages [fpcmci]: executing diffoscope
+[2023-05-17 13:21:33] INFO root fetch - processPackages [fpcmci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpcmci-4.2.0.tar.gz tmp/fpcmci-4.2.1.tar.gz --markdown 20230517/f/fpcmci/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-05-17 13:21:33] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-05-17 13:21:33] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-05-17 13:21:33] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:21:33] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-17 13:21:33] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230517/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 13:21:34] INFO root fetch - processPackages [mlfoundry]: Start processing: zcbot-predict-sdk
+[2023-05-17 13:21:34] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-05-17 13:21:34] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 13:21:34] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-17 13:21:34] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 13:21:35] INFO root fetch - processPackages [geovisio_cli]: Start processing: cinder
+[2023-05-17 13:21:35] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2023-05-17 13:21:35] INFO root fetch - processPackages [cinder]: New version: [22.1.0] Old Version: [22.0.0.0rc2]
+[2023-05-17 13:21:35] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2023-05-17 13:21:35] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-22.0.0.0rc2.tar.gz tmp/cinder-22.1.0.tar.gz --markdown 20230517/c/cinder/22.0.0.0rc2-22.1.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:35] INFO root fetch - processPackages [zcbot-celery-sdk]: Start processing: coiled
+[2023-05-17 13:21:35] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-05-17 13:21:35] INFO root fetch - processPackages [coiled]: New version: [0.6.5.dev6] Old Version: [0.6.5.dev5]
+[2023-05-17 13:21:35] INFO root fetch - processPackages [fpcmci]: Start processing: lttbc
+[2023-05-17 13:21:35] INFO root fetch - main [MainThread]: End processing [fpcmci]: success
+[2023-05-17 13:21:35] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/2e/fd/7197848d9e97e1ebde40eff534fa9ab47d954618b6983c5257165d855814/coiled-0.6.5.dev5.tar.gz
+[2023-05-17 13:21:35] INFO root fetch - processPackages [lttbc]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 13:21:36] INFO root fetch - processPackages [python-heatclient]: Start processing: ensmallen
+[2023-05-17 13:21:36] INFO root fetch - main [MainThread]: End processing [python-heatclient]: success
+[2023-05-17 13:21:36] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 13:21:36] INFO root fetch - processPackages [lttbc]: Downloading https://files.pythonhosted.org/packages/52/cd/e2967ba6757a614c9b8ff103c82b8c05e5a3ac88fb263283a73042e48920/lttbc-0.2.1.tar.gz
+[2023-05-17 13:21:36] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/f7/51/bb5dec809e22b7965773a25cec6c29cda515bb87ea0dbee1e2439d482ca0/coiled-0.6.5.dev6.tar.gz
+[2023-05-17 13:21:36] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-17 13:21:36] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-17 13:21:36] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.5.dev5.tar.gz tmp/coiled-0.6.5.dev6.tar.gz --markdown 20230517/c/coiled/0.6.5.dev5-0.6.5.dev6/diff.md --exclude *.pyd
+[2023-05-17 13:21:36] INFO root fetch - processPackages [zcbot-predict-sdk]: Start processing: asimtote
+[2023-05-17 13:21:36] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-17 13:21:36] INFO root fetch - processPackages [asimtote]: New version: [0.16.7] Old Version: [0.16.6]
+[2023-05-17 13:21:36] INFO root fetch - processPackages [cc-py-commons]: Start processing: sd-meh
+[2023-05-17 13:21:36] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-17 13:21:36] INFO root fetch - processPackages [sd-meh]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-17 13:21:36] INFO root fetch - processPackages [asimtote]: Downloading https://files.pythonhosted.org/packages/23/50/6df4f92edeee75710d7d0156996ba41b123987293ebb54fbc6d762d9a85a/asimtote-0.16.6.tar.gz
+[2023-05-17 13:21:36] INFO root fetch - processPackages [lttbc]: Downloading https://files.pythonhosted.org/packages/97/ca/a675e1c8db550c7d64b154b4b0fdaa1c2e3b6bbe180a425f02fc26ef6cda/lttbc-0.2.2.tar.gz
+[2023-05-17 13:21:36] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/ce/e8/f999d50846085f8963dffbdab1cbe31710ad4256edafc687871af4025ab6/sd_meh-0.1.1.tar.gz
+[2023-05-17 13:21:36] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-05-17 13:21:36] INFO root fetch - processPackages [ensmallen]: Start processing: deep-copilot
+[2023-05-17 13:21:36] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-05-17 13:21:36] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 13:21:36] INFO root fetch - processPackages [lttbc]: executing diffoscope
+[2023-05-17 13:21:36] INFO root fetch - processPackages [lttbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lttbc-0.2.1.tar.gz tmp/lttbc-0.2.2.tar.gz --markdown 20230517/l/lttbc/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 13:21:37] INFO root fetch - processPackages [deep-copilot]: Downloading https://files.pythonhosted.org/packages/f5/fd/24e96f150b7ea3a1e160bce03ca150705e311b0f02b6f0702ffbc654d119/deep_copilot-0.0.6.tar.gz
+[2023-05-17 13:21:37] INFO root fetch - processPackages [asimtote]: Downloading https://files.pythonhosted.org/packages/a2/3d/4c016d1a5c5c9a3cd726bcebde849f67e18dbec224d7a5c0bdf4dd972b6b/asimtote-0.16.7.tar.gz
+[2023-05-17 13:21:37] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/e9/4c/1594f4b23811e9e6ff58f8e25c32c3572012157747e9b215a0ee7edfac9b/sd_meh-0.2.0.tar.gz
+[2023-05-17 13:21:37] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-05-17 13:21:37] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.1.1.tar.gz tmp/sd_meh-0.2.0.tar.gz --markdown 20230517/s/sd-meh/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 13:21:37] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-17 13:21:37] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.5.tar.gz tmp/deep_copilot-0.0.6.tar.gz --markdown 20230517/d/deep-copilot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 13:21:37] INFO root fetch - processPackages [asimtote]: executing diffoscope
+[2023-05-17 13:21:37] INFO root fetch - processPackages [asimtote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimtote-0.16.6.tar.gz tmp/asimtote-0.16.7.tar.gz --markdown 20230517/a/asimtote/0.16.6-0.16.7/diff.md --exclude *.pyd
+[2023-05-17 13:21:38] INFO root fetch - processPackages [heat-dashboard]: Start processing: huntflow-api-client
+[2023-05-17 13:21:38] INFO root fetch - main [MainThread]: End processing [heat-dashboard]: success
+[2023-05-17 13:21:38] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-17 13:21:38] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/e2/d343759e3d95d96e952af83acf9e5666c0dc52ea44539f8ebaec7350bd0e/huntflow_api_client-0.0.4.tar.gz
+[2023-05-17 13:21:38] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-05-17 13:21:38] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.2.tar.gz tmp/huntflow_api_client-0.0.4.tar.gz --markdown 20230517/h/huntflow-api-client/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 13:21:38] INFO root fetch - processPackages [lttbc]: Start processing: dissect.target
+[2023-05-17 13:21:38] INFO root fetch - main [MainThread]: End processing [lttbc]: success
+[2023-05-17 13:21:38] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-17 13:21:38] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-17 13:21:38] INFO root fetch - processPackages [sd-meh]: Start processing: pm-slack
+[2023-05-17 13:21:38] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-05-17 13:21:38] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-17 13:21:38] INFO root fetch - processPackages [dissect.target]: Start processing: certora-cli-alpha-andrew-satisfy
+[2023-05-17 13:21:38] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-17 13:21:38] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: New version: [20230517.10.42.869699] Old Version: [20230516.8.26.706308]
+[2023-05-17 13:21:38] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Downloading https://files.pythonhosted.org/packages/13/a0/3a5db13233e63de21723e3ee13952249624c52dbe70390365947f637580b/certora-cli-alpha-andrew-satisfy-20230516.8.26.706308.tar.gz
+[2023-05-17 13:21:38] WARNING root fetch - processPackages [pm-slack]: Skipping, unable to determine old version
+[2023-05-17 13:21:38] INFO root fetch - main [MainThread]: End processing [pm-slack] error
+[2023-05-17 13:21:39] WARNING root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Skipping package: exceeds size limit 39017252>=10485760
+[2023-05-17 13:21:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-andrew-satisfy] error
+[2023-05-17 13:21:39] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-17 13:21:40] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-17 13:21:40] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-05-17 13:21:40] INFO root fetch - main [MainThread]: End processing [asimtote]: success
+[2023-05-17 13:23:30] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2023-05-17 13:23:32] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2023-05-17 13:24:29] ERROR root fetch - processPackages [nova]: Timeout during execution of pkgdiff
+[2023-05-17 13:24:29] INFO root fetch - main [MainThread]: End processing [nova] error
+[2023-05-17 13:24:29] ERROR root fetch - processPackages [nova]: Timeout during execution of pkgdiff
+[2023-05-17 13:24:29] INFO root fetch - main [MainThread]: End processing [nova] error
+[2023-05-17 13:24:29] INFO root fetch - main [MainThread]: Store serial: [18138358]
