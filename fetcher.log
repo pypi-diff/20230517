@@ -22933,3 +22933,117 @@ EOFError: EOF read where object expected
 [2023-05-17 18:46:10] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
 [2023-05-17 18:46:12] INFO root fetch - main [MainThread]: End processing [fern-belvo]: success
 [2023-05-17 18:46:12] INFO root fetch - main [MainThread]: Store serial: [18142971]
+[2023-05-17 18:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142971]
+[2023-05-17 18:51:22] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lackadaisical
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-mike-consolidate-errors
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usearch
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlp-models
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifescale-utils
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: saldet
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-homeassistant-skill
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databend
+[2023-05-17 18:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: decore-base
+[2023-05-17 18:51:22] INFO root fetch - processPackages [databend]: New version: [1.1.39] Old Version: [1.1.38]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lackadaisical]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lifescale-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [certora-cli-alpha-mike-consolidate-errors]: New version: [20230517.16.46.709533] Old Version: [20230516.20.22.643741]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [nlp-models]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [saldet]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [neon-homeassistant-skill]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [decore-base]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [usearch]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230517] Old Version: [2.14.0.dev20230516]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [decore-base]: Downloading https://files.pythonhosted.org/packages/eb/0b/21f88360ec9ed23922f3f34ecd0d25d52ea532efa555daef83c91bafd251/decore-base-0.0.1.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [certora-cli-alpha-mike-consolidate-errors]: Downloading https://files.pythonhosted.org/packages/49/e8/cd138fbfb86432f05b72552fda4e59629df233e343b216c045a4f28301a2/certora-cli-alpha-mike-consolidate-errors-20230516.20.22.643741.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lackadaisical]: Downloading https://files.pythonhosted.org/packages/3a/dc/344ae0603b8210fff83f9195a6fe71f3d456360296f227805f5aa0918e59/lackadaisical-1.0.0a0-py3-none-any.whl
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lifescale-utils]: Downloading https://files.pythonhosted.org/packages/55/61/3dda5fc0f47876d9a68ab2a96dd9d0afa5d87559d4c624b8d20c83602b4f/lifescale-utils-0.0.6.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/10/42/cc215b5801ccefb72cb053078ebade5bcc62de13349541e154e9ba42df65/nlp-models-1.1.0.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/4b/3f/fa61fe1f9eb3ef542b26fcb3b18f71834abf6d16f55e14ca8ded9f7999b2/usearch-0.2.3-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-05-17 18:51:22] INFO root fetch - processPackages [saldet]: Downloading https://files.pythonhosted.org/packages/03/1b/236b88e6b548082dcb40d3cd003eebcc021a643ac8be834e985ca96a89a7/saldet-0.5.3.tar.gz
+[2023-05-17 18:51:22] WARNING root fetch - processPackages [certora-cli-alpha-mike-consolidate-errors]: Skipping package: exceeds size limit 44658881>=10485760
+[2023-05-17 18:51:22] INFO root fetch - processPackages [certora-cli-alpha-mike-consolidate-errors]: Start processing: imaginepy
+[2023-05-17 18:51:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-mike-consolidate-errors] error
+[2023-05-17 18:51:22] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/bd/4b/24e19891c807f15491437823f7aa12f386fcd19c714173867344c6e94bc7/tf_nightly_intel-2.14.0.dev20230516-cp39-cp39-win_amd64.whl
+[2023-05-17 18:51:22] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/58/1b/54f479bb79708685b57366bda10ebd88d305ea2390716aadd77585b00cc5/databend-1.1.38.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [neon-homeassistant-skill]: Downloading https://files.pythonhosted.org/packages/43/f5/55b8a45285ba5562b4bd5610d412869df0c9524a80930f046427bd05f6fe/neon_homeassistant_skill-0.0.8.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [imaginepy]: New version: [1.0.5] Old Version: [1.0.1]
+[2023-05-17 18:51:22] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 180714833>=10485760
+[2023-05-17 18:51:22] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: mongodol
+[2023-05-17 18:51:22] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-17 18:51:22] INFO root fetch - processPackages [saldet]: executing diffoscope
+[2023-05-17 18:51:22] INFO root fetch - processPackages [saldet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saldet-0.5.2.tar.gz tmp/saldet-0.5.3.tar.gz --markdown 20230517/s/saldet/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-17 18:51:22] INFO root fetch - processPackages [mongodol]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lackadaisical]: Downloading https://files.pythonhosted.org/packages/20/90/4f110a93686ea8f5a3a7917e611a184d0049d04859b950f19dc260b7f11c/lackadaisical-1.0.0a1-py3-none-any.whl
+[2023-05-17 18:51:22] INFO root fetch - processPackages [decore-base]: Downloading https://files.pythonhosted.org/packages/b9/72/0bb8c7c8995637703eaff20b3d323fba1ca51f3a25d9848aeb558bad5447/decore-base-0.0.2.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lifescale-utils]: Downloading https://files.pythonhosted.org/packages/81/ee/dd4c62930bd7fa92f0211151801eea9e4c5282c9edbfd78187c31ef205fe/lifescale-utils-0.0.7.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [mongodol]: executing diffoscope
+[2023-05-17 18:51:22] INFO root fetch - processPackages [imaginepy]: Downloading https://files.pythonhosted.org/packages/14/c0/08576a30d3475b3f7a269615d3503b5b300e71b13b4b96468b1e8e8e452c/imaginepy-1.0.1.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [mongodol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodol-0.0.8.tar.gz tmp/mongodol-0.0.9.tar.gz --markdown 20230517/m/mongodol/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 18:51:22] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/da/2a/f7c12cea0d6d5cf43611392429e1c8ab94761a5e733d27cb432c4d30831e/usearch-0.2.4-cp39-cp39-win_amd64.whl
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lackadaisical]: executing diffoscope
+[2023-05-17 18:51:22] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/30/b2/29c48f2f0b3af4d9ea25863812e66e4332628e7d8643f3a2d419a67a3f04/nlp-models-1.1.1.tar.gz
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lackadaisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lackadaisical-1.0.0a0-py3-none-any.whl.zip tmp/lackadaisical-1.0.0a1-py3-none-any.whl.zip --markdown 20230517/l/lackadaisical/1.0.0a0-1.0.0a1/diff.md --exclude *.pyd
+[2023-05-17 18:51:22] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/f6/bf/ff25e71f820bc8e57d0f4bddf7c9557b31344a6d75cc44d5edebcb64b62a/databend-1.1.39-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lifescale-utils]: executing diffoscope
+[2023-05-17 18:51:22] INFO root fetch - processPackages [lifescale-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifescale-utils-0.0.6.tar.gz tmp/lifescale-utils-0.0.7.tar.gz --markdown 20230517/l/lifescale-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 18:51:23] INFO root fetch - processPackages [decore-base]: executing diffoscope
+[2023-05-17 18:51:23] INFO root fetch - processPackages [decore-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore-base-0.0.1.tar.gz tmp/decore-base-0.0.2.tar.gz --markdown 20230517/d/decore-base/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 18:51:23] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 24055681>=10485760
+[2023-05-17 18:51:23] INFO root fetch - processPackages [databend]: Start processing: openlane
+[2023-05-17 18:51:23] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-05-17 18:51:23] INFO root fetch - processPackages [neon-homeassistant-skill]: Downloading https://files.pythonhosted.org/packages/ed/cd/d57fc3688c6ff44460374912e50042853099587df2b98373e338db8e1385/neon_homeassistant_skill-0.0.9.tar.gz
+[2023-05-17 18:51:23] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-05-17 18:51:23] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-1.1.0.tar.gz tmp/nlp-models-1.1.1.tar.gz --markdown 20230517/n/nlp-models/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-17 18:51:23] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-17 18:51:23] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-17 18:51:23] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.2.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/usearch-0.2.4-cp39-cp39-win_amd64.whl.zip --markdown 20230517/u/usearch/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-17 18:51:23] INFO root fetch - processPackages [neon-homeassistant-skill]: executing diffoscope
+[2023-05-17 18:51:23] INFO root fetch - processPackages [neon-homeassistant-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_homeassistant_skill-0.0.8.tar.gz tmp/neon_homeassistant_skill-0.0.9.tar.gz --markdown 20230517/n/neon-homeassistant-skill/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 18:51:23] INFO root fetch - processPackages [imaginepy]: Downloading https://files.pythonhosted.org/packages/58/ed/992e36df92b2b75dfacf3341e62cbfe5fb5ef68ce80ac4d9cc91e9310374/imaginepy-1.0.5.tar.gz
+[2023-05-17 18:51:23] INFO root fetch - processPackages [imaginepy]: executing diffoscope
+[2023-05-17 18:51:23] INFO root fetch - processPackages [imaginepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginepy-1.0.1.tar.gz tmp/imaginepy-1.0.5.tar.gz --markdown 20230517/i/imaginepy/1.0.1-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 18:51:23] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-05-17 18:51:23] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-05-17 18:51:23] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-05-17 18:51:23] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230517/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-17 18:51:24] INFO root fetch - processPackages [saldet]: Start processing: fmldk
+[2023-05-17 18:51:24] INFO root fetch - main [MainThread]: End processing [saldet]: success
+[2023-05-17 18:51:24] INFO root fetch - processPackages [fmldk]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-17 18:51:24] INFO root fetch - processPackages [lackadaisical]: Start processing: ovos-core
+[2023-05-17 18:51:24] INFO root fetch - main [MainThread]: End processing [lackadaisical]: success
+[2023-05-17 18:51:24] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-05-17 18:51:24] INFO root fetch - processPackages [fmldk]: Downloading https://files.pythonhosted.org/packages/fa/fc/6f0334367d11dd55cf7afd53e748154c770b701b8a836436a8e4818f5019/fmldk-1.2.3.tar.gz
+[2023-05-17 18:51:24] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-05-17 18:51:24] INFO root fetch - processPackages [mongodol]: Start processing: khloraascaf-utils
+[2023-05-17 18:51:24] INFO root fetch - main [MainThread]: End processing [mongodol]: success
+[2023-05-17 18:51:24] INFO root fetch - processPackages [nlp-models]: Start processing: covalent-gcpbatch-plugin
+[2023-05-17 18:51:24] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-05-17 18:51:24] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-05-17 18:51:24] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-17 18:51:24] INFO root fetch - processPackages [khloraascaf-utils]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-17 18:51:24] INFO root fetch - main [MainThread]: End processing [neon-homeassistant-skill]: success
+[2023-05-17 18:51:24] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-17 18:51:24] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-05-17 18:51:24] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230517/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-05-17 18:51:24] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: Downloading https://files.pythonhosted.org/packages/71/6e/f06d9ee1c470d9dedd707f62466274b2066ba56315eae5f09d8cd5e6fd30/covalent-gcpbatch-plugin-0.9.0.tar.gz
+[2023-05-17 18:51:24] INFO root fetch - processPackages [fmldk]: Downloading https://files.pythonhosted.org/packages/b5/a9/63320249e5d4ae0012abe43bdd58e652417cf54b0adf1cb0b8c1272276b0/fmldk-1.2.4.tar.gz
+[2023-05-17 18:51:24] INFO root fetch - processPackages [khloraascaf-utils]: Downloading https://files.pythonhosted.org/packages/f3/52/2b75bad2236e3df526ee102fa4c3d61102a044f88c3869e6eaad565064c5/khloraascaf_utils-0.8.0.tar.gz
+[2023-05-17 18:51:24] INFO root fetch - processPackages [fmldk]: executing diffoscope
+[2023-05-17 18:51:24] INFO root fetch - processPackages [fmldk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmldk-1.2.3.tar.gz tmp/fmldk-1.2.4.tar.gz --markdown 20230517/f/fmldk/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-17 18:51:24] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: Downloading https://files.pythonhosted.org/packages/dc/42/8e9970aa841ef55fcb7c262a252590ec0a36b2f81bc86dcbfba196ec4d3e/covalent-gcpbatch-plugin-0.9.0rc0.tar.gz
+[2023-05-17 18:51:25] INFO root fetch - main [MainThread]: End processing [imaginepy]: success
+[2023-05-17 18:51:25] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: executing diffoscope
+[2023-05-17 18:51:25] INFO root fetch - processPackages [covalent-gcpbatch-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-gcpbatch-plugin-0.9.0.tar.gz tmp/covalent-gcpbatch-plugin-0.9.0rc0.tar.gz --markdown 20230517/c/covalent-gcpbatch-plugin/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-17 18:51:25] INFO root fetch - processPackages [khloraascaf-utils]: Downloading https://files.pythonhosted.org/packages/75/c7/7eea6a62bd197ecaf4c3662d5af0b35547e355bd0399c9309e3e511dcf26/khloraascaf_utils-0.8.1.tar.gz
+[2023-05-17 18:51:25] INFO root fetch - main [MainThread]: End processing [lifescale-utils]: success
+[2023-05-17 18:51:25] INFO root fetch - processPackages [khloraascaf-utils]: executing diffoscope
+[2023-05-17 18:51:25] INFO root fetch - processPackages [khloraascaf-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khloraascaf_utils-0.8.0.tar.gz tmp/khloraascaf_utils-0.8.1.tar.gz --markdown 20230517/k/khloraascaf-utils/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-17 18:51:26] INFO root fetch - main [MainThread]: End processing [covalent-gcpbatch-plugin]: success
+[2023-05-17 18:51:26] INFO root fetch - main [MainThread]: End processing [fmldk]: success
+[2023-05-17 18:51:27] INFO root fetch - main [MainThread]: End processing [khloraascaf-utils]: success
+[2023-05-17 18:51:28] INFO root fetch - main [MainThread]: End processing [decore-base]: success
+[2023-05-17 18:51:36] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-05-17 18:52:04] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-05-17 18:52:04] INFO root fetch - main [MainThread]: Store serial: [18143076]
