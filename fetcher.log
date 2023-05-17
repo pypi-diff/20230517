@@ -7881,3 +7881,37 @@
 [2023-05-17 06:59:07] INFO root fetch - processPackages [itk-elastix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_elastix-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/itk_elastix-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230517/i/itk-elastix/0.8.0-0.9.0/diff.md --exclude *.pyd
 [2023-05-17 06:59:09] INFO root fetch - main [MainThread]: End processing [itk-elastix]: success
 [2023-05-17 06:59:09] INFO root fetch - main [MainThread]: Store serial: [18134371]
+[2023-05-17 07:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134371]
+[2023-05-17 07:04:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-17 07:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anything2image
+[2023-05-17 07:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pawnlib
+[2023-05-17 07:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-05-17 07:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-serve
+[2023-05-17 07:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coacd
+[2023-05-17 07:04:17] INFO root fetch - processPackages [anything2image]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 07:04:17] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-17 07:04:17] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230516] Old Version: [23.6.0a230515]
+[2023-05-17 07:04:17] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 07:04:17] INFO root fetch - processPackages [coacd]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 07:04:17] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/f3/86/051e9a4d6641b31e6c81ecd1eb8666293f729c950dad866bba82ab00fb88/anything2image-1.0.3.tar.gz
+[2023-05-17 07:04:17] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/a8/cb/7634b1c7ed6d9e45660fa8b6470f28587fe4cfd16ad19beb5c54c4b9a41c/pawnlib-1.0.8-py3-none-any.whl
+[2023-05-17 07:04:18] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-17 07:04:18] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230517/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-17 07:04:18] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/0c/45/ab4c8fd0410575ac87aede5825a50c09713d8fa97246a1999692d80c852a/dask-cuda-23.6.0a230516.tar.gz
+[2023-05-17 07:04:18] INFO root fetch - processPackages [anything2image]: executing diffoscope
+[2023-05-17 07:04:18] INFO root fetch - processPackages [anything2image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anything2image-1.0.2.tar.gz tmp/anything2image-1.0.3.tar.gz --markdown 20230517/a/anything2image/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 07:04:18] INFO root fetch - processPackages [coacd]: Downloading https://files.pythonhosted.org/packages/2b/7f/7511e482a76077a9af2d7f9b53a818fc16af62763491606831a73b890300/coacd-0.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-17 07:04:18] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-17 07:04:18] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230515.tar.gz tmp/dask-cuda-23.6.0a230516.tar.gz --markdown 20230517/d/dask-cuda/23.6.0a230515-23.6.0a230516/diff.md --exclude *.pyd
+[2023-05-17 07:04:18] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/e5/1a/be9c0c6b988781b2019b731f112202f032371d0b5b489297fb2912c7d8ca/pawnlib-1.0.9-py3-none-any.whl
+[2023-05-17 07:04:18] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-17 07:04:18] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230517/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 07:04:18] INFO root fetch - processPackages [coacd]: Downloading https://files.pythonhosted.org/packages/d4/7a/84bbf9d342a7727b6b4c6e7e538984a1c779ee0ffa0cfd8bbb67abfc548a/coacd-0.0.3-py3-none-win_amd64.whl
+[2023-05-17 07:04:19] INFO root fetch - main [MainThread]: End processing [anything2image]: success
+[2023-05-17 07:04:19] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-17 07:04:19] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-17 07:04:19] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-17 07:04:21] INFO root fetch - processPackages [coacd]: executing diffoscope
+[2023-05-17 07:04:21] INFO root fetch - processPackages [coacd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coacd-0.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/coacd-0.0.3-py3-none-win_amd64.whl.zip --markdown 20230517/c/coacd/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 07:04:23] INFO root fetch - main [MainThread]: End processing [coacd]: success
+[2023-05-17 07:04:23] INFO root fetch - main [MainThread]: Store serial: [18134381]
