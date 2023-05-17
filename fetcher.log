@@ -9018,3 +9018,47 @@
 [2023-05-17 08:31:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
 [2023-05-17 08:31:04] INFO root fetch - main [MainThread]: End processing [query-toolkits]: success
 [2023-05-17 08:31:04] INFO root fetch - main [MainThread]: Store serial: [18135007]
+[2023-05-17 08:36:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135007]
+[2023-05-17 08:36:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-coreplus
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrchef
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stonecharioteer
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ubiquity-student
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: badi-users
+[2023-05-17 08:36:13] INFO root fetch - processPackages [stonecharioteer]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-17 08:36:13] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230515.0] Old Version: [16.0.20230508.0]
+[2023-05-17 08:36:13] INFO root fetch - processPackages [ubiquity-student]: New version: [1.0.1] Old Version: [0.8.2]
+[2023-05-17 08:36:13] INFO root fetch - processPackages [mrchef]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-17 08:36:13] INFO root fetch - processPackages [django-coreplus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 08:36:13] INFO root fetch - processPackages [badi-users]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 08:36:13] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/b0/1d/a0219aa16f5036d00b08c325f008dfc9cbaf89944c797bd778c334fc25f4/odoo_addons_oca_purchase_workflow-16.0.20230508.0-py3-none-any.whl
+[2023-05-17 08:36:14] INFO root fetch - processPackages [stonecharioteer]: Downloading https://files.pythonhosted.org/packages/fd/02/8a043f8dee9667bba4cf6b8bf3d9ecc985142215e3f209408f5c5151a6f2/stonecharioteer-0.7.4.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/20/98/51cfadb00c4e3b5e6e79962999b2fb8ffbfc36032f2149a413689a77cc0c/mrchef-0.4.0.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [django-coreplus]: Downloading https://files.pythonhosted.org/packages/b1/58/4314c68ec20b596e8282d672931fafa9babeec69d219eb661a9d0367bdd3/django-coreplus-0.3.8.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/d5/fa/d8e4ea24d4180a039f310f03a3360f848f3d7a06c03bee82c67f8f33b3f7/badi_users-1.0.2.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [ubiquity-student]: Downloading https://files.pythonhosted.org/packages/15/37/9e7a4aaba34b725e2b796e0f89b7dbc002757a9ab28faf31b8416a0c6805/ubiquity-student-1.0.1.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/7b/9a/ac8e548cf516a6aae976fc6d79865c6e58312cb72166cdac9ac0e6734c50/odoo_addons_oca_purchase_workflow-16.0.20230515.0-py3-none-any.whl
+[2023-05-17 08:36:14] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/1f/f7/aa9f3ed4587ceed23a477c9c939a0d964c7909967ef1ec5eabe3a5839c0d/mrchef-0.5.0.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-05-17 08:36:14] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230508.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230517/o/odoo-addons-oca-purchase-workflow/16.0.20230508.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-17 08:36:14] INFO root fetch - processPackages [django-coreplus]: Downloading https://files.pythonhosted.org/packages/c8/ee/302cf2b4c74443d5573ae3a671cbcaf5ad9661498c3c58b8402897eb48d5/django-coreplus-0.3.9.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [mrchef]: executing diffoscope
+[2023-05-17 08:36:14] INFO root fetch - processPackages [mrchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrchef-0.4.0.tar.gz tmp/mrchef-0.5.0.tar.gz --markdown 20230517/m/mrchef/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-17 08:36:14] INFO root fetch - processPackages [stonecharioteer]: Downloading https://files.pythonhosted.org/packages/ac/4a/42dacb32405133ecadb897d9a1c4fa0c2158f4897969a8d651094cd69379/stonecharioteer-0.7.5.tar.gz
+[2023-05-17 08:36:14] INFO root fetch - processPackages [ubiquity-student]: executing diffoscope
+[2023-05-17 08:36:14] INFO root fetch - processPackages [ubiquity-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiquity-student-0.8.2.tar.gz tmp/ubiquity-student-1.0.1.tar.gz --markdown 20230517/u/ubiquity-student/0.8.2-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 08:36:14] INFO root fetch - processPackages [stonecharioteer]: executing diffoscope
+[2023-05-17 08:36:14] INFO root fetch - processPackages [stonecharioteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonecharioteer-0.7.4.tar.gz tmp/stonecharioteer-0.7.5.tar.gz --markdown 20230517/s/stonecharioteer/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-17 08:36:14] INFO root fetch - processPackages [django-coreplus]: executing diffoscope
+[2023-05-17 08:36:14] INFO root fetch - processPackages [django-coreplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-coreplus-0.3.8.tar.gz tmp/django-coreplus-0.3.9.tar.gz --markdown 20230517/d/django-coreplus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 08:36:14] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/7c/49/ad7a08ec4a86cec204723d78f065533716af84b41032b55547b09b597e55/badi_users-1.0.3.tar.gz
+[2023-05-17 08:36:15] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-05-17 08:36:15] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.0.2.tar.gz tmp/badi_users-1.0.3.tar.gz --markdown 20230517/b/badi-users/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 08:36:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-05-17 08:36:15] INFO root fetch - main [MainThread]: End processing [mrchef]: success
+[2023-05-17 08:36:15] INFO root fetch - main [MainThread]: End processing [stonecharioteer]: success
+[2023-05-17 08:36:16] INFO root fetch - main [MainThread]: End processing [ubiquity-student]: success
+[2023-05-17 08:36:17] INFO root fetch - main [MainThread]: End processing [django-coreplus]: success
+[2023-05-17 08:36:18] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-05-17 08:36:18] INFO root fetch - main [MainThread]: Store serial: [18135023]
