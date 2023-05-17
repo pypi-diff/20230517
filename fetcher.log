@@ -21188,3 +21188,104 @@ EOFError: EOF read where object expected
 [2023-05-17 17:48:19] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-05-17 17:48:23] INFO root fetch - main [MainThread]: End processing [covalent]: success
 [2023-05-17 17:48:23] INFO root fetch - main [MainThread]: Store serial: [18142119]
+[2023-05-17 17:53:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142119]
+[2023-05-17 17:53:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dr-import
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyrics-translator
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FedArtML
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pvbm
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robin-chat-input
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qcs-sdk-python
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ProtoMsg
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kidash
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digital-experiments
+[2023-05-17 17:53:32] INFO root fetch - processPackages [robin-chat-input]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [pvbm]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [lyrics-translator]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [dr-import]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [kidash]: New version: [0.5.6rc1] Old Version: [0.5.5]
+[2023-05-17 17:53:32] WARNING root fetch - processPackages [ProtoMsg]: Skipping, unable to determine old version
+[2023-05-17 17:53:32] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [ProtoMsg]: Start processing: jmcomic
+[2023-05-17 17:53:32] INFO root fetch - main [MainThread]: End processing [ProtoMsg] error
+[2023-05-17 17:53:32] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.6.0rc3] Old Version: [0.6.0rc2]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [digital-experiments]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-05-17 17:53:32] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.5.tar.gz tmp/kidash-0.5.6rc1.tar.gz --markdown 20230517/k/kidash/0.5.5-0.5.6rc1/diff.md --exclude *.pyd
+[2023-05-17 17:53:32] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-17 17:53:32] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230517/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-17 17:53:32] INFO root fetch - processPackages [robin-chat-input]: Downloading https://files.pythonhosted.org/packages/f2/f1/544e4e10cd5c13d88435778158f3c9055b4857c958c88b677ac92a9e6bc2/robin-chat-input-0.0.3.tar.gz
+[2023-05-17 17:53:32] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/34/24/a5403be3b9e8367cea3c92e92e667464cfba468b97d227bc2ccaa1930168/pvbm-2.1.1.tar.gz
+[2023-05-17 17:53:32] INFO root fetch - processPackages [jmcomic]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-17 17:53:32] INFO root fetch - processPackages [lyrics-translator]: Downloading https://files.pythonhosted.org/packages/48/1e/1cfd8ba5f75ad83df68ac940c9969326b4040299d8ef886b8977dfdd1893/lyrics-translator-0.3.0.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/12/db/952c2e51bc5095045cec476b99f42a6af302879de1328bb5fdcdd049f896/qcs_sdk_python-0.6.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 17:53:33] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/8d/58/2b46fb0f8c71b0fce2ff39d97894a0134205dafb64e989c313445b6c1919/digital-experiments-1.1.2.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230517/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/d7/16/bccb35694adc3666170c6a126043627cbe42d4ac3ca95b7bab647024edba/jmcomic-2.0.0.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [dr-import]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [dr-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dr_import-0.2.8-py3-none-any.whl.zip tmp/dr_import-0.2.9-py3-none-any.whl.zip --markdown 20230517/d/dr-import/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [robin-chat-input]: Downloading https://files.pythonhosted.org/packages/13/73/e06875dc68127564643d3381cfb2e57937d26c0aed11d36e111e34cc10c9/robin-chat-input-0.0.4.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/27/61/14e52a47d15e6a48a755ef78547550b9ae4b1cb4e55da1ed6b9f810741ec/pvbm-2.1.2.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/ac/7e/b18102888c2b8da0b57374157e7c5c77edb06404ff3477818af69b404c08/digital-experiments-1.1.3.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [lyrics-translator]: Downloading https://files.pythonhosted.org/packages/a6/d7/7f8a25bc4e0e049bd4fef1e2668b61c9b3aeda52fd3844775b577c3d32d1/lyrics_translator-0.4.0.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [robin-chat-input]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [robin-chat-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin-chat-input-0.0.3.tar.gz tmp/robin-chat-input-0.0.4.tar.gz --markdown 20230517/r/robin-chat-input/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/e6/36/61936389d950a977a71673060a940fb0f12372a5a6d147a45b7d977b612a/jmcomic-2.0.1.tar.gz
+[2023-05-17 17:53:33] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-2.1.1.tar.gz tmp/pvbm-2.1.2.tar.gz --markdown 20230517/p/pvbm/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [digital-experiments]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [digital-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-experiments-1.1.2.tar.gz tmp/digital-experiments-1.1.3.tar.gz --markdown 20230517/d/digital-experiments/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [lyrics-translator]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [lyrics-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics-translator-0.3.0.tar.gz tmp/lyrics_translator-0.4.0.tar.gz --markdown 20230517/l/lyrics-translator/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-05-17 17:53:33] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.0.tar.gz tmp/jmcomic-2.0.1.tar.gz --markdown 20230517/j/jmcomic/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-17 17:53:33] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ef/06/676fb95278032b4bf947bf03a374ec6810bed840b30a4e2932eaecb345da/qcs_sdk_python-0.6.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 17:53:34] INFO root fetch - processPackages [dr-import]: Start processing: certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta
+[2023-05-17 17:53:34] INFO root fetch - main [MainThread]: End processing [dr-import]: success
+[2023-05-17 17:53:34] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: New version: [20230517.15.7.97510] Old Version: [20230517.14.27.894626]
+[2023-05-17 17:53:34] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-05-17 17:53:34] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.6.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.6.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/q/qcs-sdk-python/0.6.0rc2-0.6.0rc3/diff.md --exclude *.pyd
+[2023-05-17 17:53:34] INFO root fetch - processPackages [kidash]: Start processing: perceval
+[2023-05-17 17:53:34] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-05-17 17:53:34] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-05-17 17:53:34] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Downloading https://files.pythonhosted.org/packages/02/9d/8ee04f8d12cc2aa73ec6f85f5693c4bdc291fa939e9a65dada367e6a033b/certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta-20230517.14.27.894626.tar.gz
+[2023-05-17 17:53:34] INFO root fetch - processPackages [FedArtML]: Start processing: rime-sdk
+[2023-05-17 17:53:34] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-05-17 17:53:34] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2023-05-17 17:53:34] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Skipping package: exceeds size limit 38991211>=10485760
+[2023-05-17 17:53:34] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Start processing: PatryksAutoAI
+[2023-05-17 17:53:34] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta] error
+[2023-05-17 17:53:34] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-05-17 17:53:34] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230517/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 17:53:34] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-17 17:53:34] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/25/79/ba7681364317f1cc1fcb8d61cb09bf0beead08e3c305d2ecebd3f397d6b8/rime_sdk-2.1.0rc2.tar.gz
+[2023-05-17 17:53:34] INFO root fetch - processPackages [robin-chat-input]: Start processing: rdapy
+[2023-05-17 17:53:34] INFO root fetch - main [MainThread]: End processing [robin-chat-input]: success
+[2023-05-17 17:53:34] INFO root fetch - processPackages [pvbm]: Start processing: broker
+[2023-05-17 17:53:34] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-05-17 17:53:34] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 17:53:34] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.0.5.tar.gz tmp/PatryksAutoAI-1.0.6.tar.gz --markdown 20230517/P/PatryksAutoAI/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-17 17:53:35] INFO root fetch - main [MainThread]: End processing [lyrics-translator]: success
+[2023-05-17 17:53:35] WARNING root fetch - processPackages [rdapy]: Skipping, unable to determine old version
+[2023-05-17 17:53:35] INFO root fetch - main [MainThread]: End processing [rdapy] error
+[2023-05-17 17:53:35] INFO root fetch - processPackages [broker]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-17 17:53:35] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5b/e4/2d242e234215bc8c2e4c1a23debfcb605d55e6b455b738fc1ab06c8ad0b1/rime_sdk-2.1.0rc3.tar.gz
+[2023-05-17 17:53:35] INFO root fetch - main [MainThread]: End processing [digital-experiments]: success
+[2023-05-17 17:53:35] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-17 17:53:35] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc2.tar.gz tmp/rime_sdk-2.1.0rc3.tar.gz --markdown 20230517/r/rime-sdk/2.1.0rc2-2.1.0rc3/diff.md --exclude *.pyd
+[2023-05-17 17:53:35] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-05-17 17:53:35] INFO root fetch - processPackages [broker]: Downloading https://files.pythonhosted.org/packages/a1/7e/c3f2abd4410c59f812ce7b350c80ea0431bbcc6f2b196e8943730ba939bf/broker-0.3.1.tar.gz
+[2023-05-17 17:53:35] INFO root fetch - processPackages [broker]: Downloading https://files.pythonhosted.org/packages/41/7e/6a9ccb48c8ec52c5a9b5fd50977f3eba4f8ebd52916de126fdd11a4ade32/broker-0.3.2.tar.gz
+[2023-05-17 17:53:35] INFO root fetch - processPackages [broker]: executing diffoscope
+[2023-05-17 17:53:35] INFO root fetch - processPackages [broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broker-0.3.1.tar.gz tmp/broker-0.3.2.tar.gz --markdown 20230517/b/broker/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-17 17:53:36] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 17:53:37] INFO root fetch - main [MainThread]: End processing [broker]: success
+[2023-05-17 17:53:37] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-05-17 17:53:38] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-17 17:53:39] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-17 17:55:45] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-05-17 17:55:45] INFO root fetch - main [MainThread]: Store serial: [18142187]
