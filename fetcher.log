@@ -13986,3 +13986,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:45:58] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
 [2023-05-17 12:46:49] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-05-17 12:46:49] INFO root fetch - main [MainThread]: Store serial: [18137983]
+[2023-05-17 12:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137983]
+[2023-05-17 12:51:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telemulator3
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pineboo
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grepsr-cli
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EthTx
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zcbot-predict-sdk
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proteinflow
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baba
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudPackage
+[2023-05-17 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-upsolver
+[2023-05-17 12:51:58] INFO root fetch - processPackages [pineboo]: New version: [1.0.5] Old Version: [1.0.4.6]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [telemulator3]: New version: [1.3] Old Version: [1.2]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230517.9.18.788519] Old Version: [20230517.8.8.983554]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [baba]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [grepsr-cli]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [proteinflow]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-17 12:51:58] WARNING root fetch - processPackages [cloudPackage]: Skipping, unable to determine old version
+[2023-05-17 12:51:58] INFO root fetch - processPackages [cloudPackage]: Start processing: zcbot-celery-sdk
+[2023-05-17 12:51:58] INFO root fetch - processPackages [dbt-upsolver]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-17 12:51:58] INFO root fetch - main [MainThread]: End processing [cloudPackage] error
+[2023-05-17 12:51:58] INFO root fetch - processPackages [EthTx]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-17 12:51:58] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:51:58] INFO root fetch - processPackages [grepsr-cli]: Downloading https://files.pythonhosted.org/packages/e9/a8/b3c5511f74dafb2d4fae785c2599b5ddacba8eb80d28cfde217f7c66d952/grepsr-cli-0.7.4.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/8d/08/acb8a971a4909568d7639fb0462d07930fa86f0a0b42067afe5ec17dfce9/dbt-upsolver-0.2.0.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [baba]: Downloading https://files.pythonhosted.org/packages/86/99/b8d8aaf0522dee7b7f11eb9ec683b3c8ba7ad52a58c8f526747ab4110663/baba-0.1.7.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [telemulator3]: Downloading https://files.pythonhosted.org/packages/7a/d2/e98b569ff37fc74a0958fd2ba0351f93991eb688622804e7cba4508c2af9/telemulator3-1.2.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9f/d3/e75116e3066040e6f5ef899f464bcf93093dc2eef95bd0f4e9dc80377a95/pineboo-1.0.4.6.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [EthTx]: Downloading https://files.pythonhosted.org/packages/2f/b0/50c4cb9851be8adcd211c1f784450ce705b2a187b82b80092d6898c08970/EthTx-0.3.8.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/16/99/3a77b2964f75e5f260a790fd59c19c0ddc9b012682699201a5ef067ed072/proteinflow-1.3.1.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/4c/b5/afb2bfe70b2370676ef969e320b714a06c96a1bba3cad13f5f5040450b48/zcbot-celery-sdk-0.0.8.tar.gz
+[2023-05-17 12:51:58] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/9e/84/f07432b85b416afa4d460b998ccdd7b55651df9c624170e80896e937e052/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230517.8.8.983554.tar.gz
+[2023-05-17 12:51:58] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 38742514>=10485760
+[2023-05-17 12:51:58] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Start processing: zcbot-predict-sdk
+[2023-05-17 12:51:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-17 12:51:58] INFO root fetch - processPackages [baba]: executing diffoscope
+[2023-05-17 12:51:58] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:51:58] INFO root fetch - processPackages [baba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baba-0.1.6.tar.gz tmp/baba-0.1.7.tar.gz --markdown 20230517/b/baba/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 12:51:58] INFO root fetch - processPackages [grepsr-cli]: Downloading https://files.pythonhosted.org/packages/be/5c/eec01d2d1d0096b733f410aad2598e3f9b6481f3a0d03eca4c4d4d25533e/grepsr-cli-0.7.5.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [EthTx]: Downloading https://files.pythonhosted.org/packages/ff/e2/415a6d29aa85ed163cb1186d3d91b26e9a470435f6b6cd8c8919ec92adb5/EthTx-0.3.9.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [grepsr-cli]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [grepsr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grepsr-cli-0.7.4.tar.gz tmp/grepsr-cli-0.7.5.tar.gz --markdown 20230517/g/grepsr-cli/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/f9/4a/c4cbb9e4aa836bc736f3b2d7c68358c40e66baaf72d830f668d704c8e9bb/proteinflow-1.3.2.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/f6/97/0fce640c6270585402b537c79f54b5c9bcaec7be94ccc3418051ec2e4bba/dbt-upsolver-0.2.1.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [telemulator3]: Downloading https://files.pythonhosted.org/packages/04/78/59c9d38df5992370ea1e2b712adc6224514e2efa520baf98e6923f938fe4/telemulator3-1.3.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [EthTx]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [EthTx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EthTx-0.3.8.tar.gz tmp/EthTx-0.3.9.tar.gz --markdown 20230517/E/EthTx/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cf/3c/e968fa0b3cd2758d3aeb916a82dd58e778fb393ea83ad998f97c1cca773b/pineboo-1.0.5.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [dbt-upsolver]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [dbt-upsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-upsolver-0.2.0.tar.gz tmp/dbt-upsolver-0.2.1.tar.gz --markdown 20230517/d/dbt-upsolver/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [telemulator3]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [telemulator3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telemulator3-1.2.tar.gz tmp/telemulator3-1.3.tar.gz --markdown 20230517/t/telemulator3/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.3.1.tar.gz tmp/proteinflow-1.3.2.tar.gz --markdown 20230517/p/proteinflow/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/9a/d8/42b0d82e5095896d6ec2775f0d727ce292ea46e9948fb4aebbbd7ff44280/zcbot-celery-sdk-0.0.9.tar.gz
+[2023-05-17 12:51:59] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:51:59] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-17 12:51:59] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.6.tar.gz tmp/pineboo-1.0.5.tar.gz --markdown 20230517/p/pineboo/1.0.4.6-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 12:52:00] INFO root fetch - processPackages [baba]: Start processing: PatryksAutoAI
+[2023-05-17 12:52:00] INFO root fetch - main [MainThread]: End processing [baba]: success
+[2023-05-17 12:52:00] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-17 12:52:00] INFO root fetch - processPackages [zcbot-predict-sdk]: Start processing: grepsr-cli
+[2023-05-17 12:52:00] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-17 12:52:00] INFO root fetch - processPackages [grepsr-cli]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-17 12:52:00] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/51/ae/3f55cfc14779409dbee6b4c044d24a037cb00631f25b0f4219eba8afd3ca/PatryksAutoAI-0.9.2.tar.gz
+[2023-05-17 12:52:00] INFO root fetch - processPackages [grepsr-cli]: executing diffoscope
+[2023-05-17 12:52:00] INFO root fetch - processPackages [grepsr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grepsr-cli-0.7.4.tar.gz tmp/grepsr-cli-0.7.5.tar.gz --markdown 20230517/g/grepsr-cli/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-17 12:52:00] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 12:52:00] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.1.tar.gz tmp/PatryksAutoAI-0.9.2.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-17 12:52:00] INFO root fetch - processPackages [zcbot-predict-sdk]: Start processing: health-calc-pack-py
+[2023-05-17 12:52:00] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-17 12:52:00] INFO root fetch - processPackages [health-calc-pack-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 12:52:00] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/a7/48/944f1f979abe7195eef5e86cce6077bed19b7b0f3de61ce0b27f08181188/health_calc_pack_py-0.3.0.tar.gz
+[2023-05-17 12:52:00] INFO root fetch - processPackages [zcbot-celery-sdk]: Start processing: eswrap
+[2023-05-17 12:52:00] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-05-17 12:52:01] INFO root fetch - processPackages [dbt-upsolver]: Start processing: vulners
+[2023-05-17 12:52:01] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
+[2023-05-17 12:52:01] INFO root fetch - processPackages [eswrap]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-17 12:52:01] INFO root fetch - processPackages [vulners]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-17 12:52:01] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/e8/3e/3b386ec4e1854d1b4d7654974ac617ea16971e84fe18d79612dd9d5123f8/health_calc_pack_py-0.3.1.tar.gz
+[2023-05-17 12:52:01] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-05-17 12:52:01] INFO root fetch - processPackages [health-calc-pack-py]: executing diffoscope
+[2023-05-17 12:52:01] INFO root fetch - processPackages [health-calc-pack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/health_calc_pack_py-0.3.0.tar.gz tmp/health_calc_pack_py-0.3.1.tar.gz --markdown 20230517/h/health-calc-pack-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 12:52:01] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/e6/0b/6f10b1fdb58f1086c0ca55e715176c7c0b8b09faf3b040a31a5daa91a1ac/eswrap-0.4.5.tar.gz
+[2023-05-17 12:52:01] INFO root fetch - main [MainThread]: End processing [grepsr-cli]: success
+[2023-05-17 12:52:01] INFO root fetch - processPackages [vulners]: Downloading https://files.pythonhosted.org/packages/2f/05/801cbabb1acc32f7e4ea29325e78e0cc2c18b45078aac3da095af56c5ce4/vulners-2.0.8.tar.gz
+[2023-05-17 12:52:01] INFO root fetch - main [MainThread]: End processing [telemulator3]: success
+[2023-05-17 12:52:01] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/5e/ed/2b9dd79d6c96330c0522d2430dec614d516c01fed0fd82ea30c012525af2/eswrap-0.4.6.tar.gz
+[2023-05-17 12:52:01] INFO root fetch - processPackages [vulners]: Downloading https://files.pythonhosted.org/packages/0f/3d/7684b73e36482fb88030b3fb0adcc12f54a728ca41ccf1d3395559863290/vulners-2.0.9.tar.gz
+[2023-05-17 12:52:01] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-17 12:52:01] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.5.tar.gz tmp/eswrap-0.4.6.tar.gz --markdown 20230517/e/eswrap/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-17 12:52:01] INFO root fetch - processPackages [vulners]: executing diffoscope
+[2023-05-17 12:52:01] INFO root fetch - processPackages [vulners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulners-2.0.8.tar.gz tmp/vulners-2.0.9.tar.gz --markdown 20230517/v/vulners/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:52:01] INFO root fetch - main [MainThread]: End processing [grepsr-cli]: success
+[2023-05-17 12:52:02] INFO root fetch - main [MainThread]: End processing [health-calc-pack-py]: success
+[2023-05-17 12:52:02] INFO root fetch - main [MainThread]: End processing [EthTx]: success
+[2023-05-17 12:52:02] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-17 12:52:02] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 12:52:02] INFO root fetch - main [MainThread]: End processing [vulners]: success
+[2023-05-17 12:52:07] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-17 12:52:07] INFO root fetch - main [MainThread]: Store serial: [18138038]
