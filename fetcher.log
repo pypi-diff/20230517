@@ -21289,3 +21289,188 @@ EOFError: EOF read where object expected
 [2023-05-17 17:53:39] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-05-17 17:55:45] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2023-05-17 17:55:45] INFO root fetch - main [MainThread]: Store serial: [18142187]
+[2023-05-17 18:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142187]
+[2023-05-17 18:01:12] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: broker
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usepy
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: convocations
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngsfragments
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: config-patterns
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-add-python
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pvbm
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-organization-python
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aihandler
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robin-chat-input
+[2023-05-17 18:01:12] INFO root fetch - processPackages [ngsfragments]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [convocations]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [test-add-python]: New version: [0.7] Old Version: [0.6]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [broker]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [usepy]: New version: [0.2.3a0] Old Version: [0.2.3]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [config-patterns]: New version: [1.0.1] Old Version: [0.4.1]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [pvbm]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [robin-chat-input]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 18:01:12] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-05-17 18:01:12] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-17 18:01:12] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230517/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:12] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/3b/da/6b39c1def170c96a9a6c689c3e57d12530c8f42e88b6f3aa4ec51777a9f4/usepy-0.2.3.tar.gz
+[2023-05-17 18:01:12] INFO root fetch - processPackages [robin-chat-input]: Downloading https://files.pythonhosted.org/packages/40/f1/e6f4d2fa122bc4db7115209fd93942773515f6fd38dc85c471a4a3f1033e/robin-chat-input-0.0.5.tar.gz
+[2023-05-17 18:01:12] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/89/ce/2d19543b26d195805bdab5420c20f93e8f3d5f6a9954648589996718fcb0/convocations-0.8.tar.gz
+[2023-05-17 18:01:12] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/92/7a/fc5eb714a723e844872e70e0464cb7c03df8241b361c33cb99696dc9639a/pvbm-2.1.3.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/d4/2e/3c512be1e515630845ccf4831ebfa30ca894a37217c267e6c0cb96de57ce/test_add_python-0.7.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [ngsfragments]: Downloading https://files.pythonhosted.org/packages/13/fa/04b7b245cf2f81211e7c5b6e6bda7b4f66c564d8e73307bf1a91a506730c/ngsfragments-2.0.2.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [config-patterns]: Downloading https://files.pythonhosted.org/packages/2b/aa/d3573954ec25ae349df6c3bc86ffd1b6aeab64f2638d9b20251de8aed55f/config_patterns-0.4.1.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [broker]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broker-0.3.1.tar.gz tmp/broker-0.3.2.tar.gz --markdown 20230517/b/broker/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-2.1.2.tar.gz tmp/pvbm-2.1.3.tar.gz --markdown 20230517/p/pvbm/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [test-add-python]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [test-add-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_add_python-0.6.tar.gz tmp/test_add_python-0.7.tar.gz --markdown 20230517/t/test-add-python/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230517/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [usepy]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [usepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy-0.2.3.tar.gz tmp/usepy-0.2.3a0.tar.gz --markdown 20230517/u/usepy/0.2.3-0.2.3a0/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/90/d1/1369957dcb347a73705514eb53550d2f2c602373a0719cbd1796c4a74827/convocations-0.9.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [config-patterns]: Downloading https://files.pythonhosted.org/packages/90/e5/569a3def95e90d3e4dd9cdcf449206f4ab69630927964bb136dd45ca552e/config_patterns-1.0.1.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [ngsfragments]: Downloading https://files.pythonhosted.org/packages/aa/c5/8bb773586b6bd12ccb5ceb58647385a95ede767ed59edf01f159a02fd1e8/ngsfragments-2.0.3.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [config-patterns]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [config-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_patterns-0.4.1.tar.gz tmp/config_patterns-1.0.1.tar.gz --markdown 20230517/c/config-patterns/0.4.1-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [robin-chat-input]: Downloading https://files.pythonhosted.org/packages/ef/d7/e7425272876ba6039644cd09c116e322aff44945039bc64ab35d9fb970aa/robin-chat-input-0.0.6.tar.gz
+[2023-05-17 18:01:13] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-0.8.tar.gz tmp/convocations-0.9.tar.gz --markdown 20230517/c/convocations/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:13] INFO root fetch - processPackages [robin-chat-input]: executing diffoscope
+[2023-05-17 18:01:13] INFO root fetch - processPackages [robin-chat-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin-chat-input-0.0.5.tar.gz tmp/robin-chat-input-0.0.6.tar.gz --markdown 20230517/r/robin-chat-input/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 18:01:14] INFO root fetch - processPackages [ngsfragments]: executing diffoscope
+[2023-05-17 18:01:14] INFO root fetch - processPackages [ngsfragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngsfragments-2.0.2.tar.gz tmp/ngsfragments-2.0.3.tar.gz --markdown 20230517/n/ngsfragments/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-17 18:01:14] INFO root fetch - processPackages [test-add-python]: Start processing: sortinghat
+[2023-05-17 18:01:14] INFO root fetch - main [MainThread]: End processing [test-add-python]: success
+[2023-05-17 18:01:14] INFO root fetch - processPackages [pvbm]: Start processing: cybrid-api-id-python
+[2023-05-17 18:01:14] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-05-17 18:01:14] INFO root fetch - processPackages [sortinghat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-17 18:01:14] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 18:01:14] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-17 18:01:14] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230517/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:14] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-05-17 18:01:14] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.9.2.tar.gz tmp/sortinghat-0.9.3.tar.gz --markdown 20230517/s/sortinghat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-17 18:01:14] INFO root fetch - processPackages [broker]: Start processing: va-mvg
+[2023-05-17 18:01:14] INFO root fetch - main [MainThread]: End processing [broker]: success
+[2023-05-17 18:01:14] INFO root fetch - processPackages [va-mvg]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-17 18:01:14] INFO root fetch - processPackages [usepy]: Start processing: appian-locust
+[2023-05-17 18:01:14] INFO root fetch - main [MainThread]: End processing [usepy]: success
+[2023-05-17 18:01:14] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-05-17 18:01:15] INFO root fetch - processPackages [va-mvg]: Downloading https://files.pythonhosted.org/packages/57/e5/8a131acd4891a6ae496c1e4b5caeceda1051ce9820d7382394d901c01065/va_mvg-0.9.6-py3-none-any.whl
+[2023-05-17 18:01:15] INFO root fetch - processPackages [robin-chat-input]: Start processing: cybrid-api-bank-python
+[2023-05-17 18:01:15] INFO root fetch - main [MainThread]: End processing [robin-chat-input]: success
+[2023-05-17 18:01:15] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/18/44/2b5fe3cd85cb42c660fd9e78bb6c317a81d290ea1fe601e612b2bd7c6492/appian-locust-2.0.0a2.tar.gz
+[2023-05-17 18:01:15] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-17 18:01:15] INFO root fetch - processPackages [aihandler]: Start processing: lackadaisical
+[2023-05-17 18:01:15] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-17 18:01:15] WARNING root fetch - processPackages [lackadaisical]: Skipping, unable to determine old version
+[2023-05-17 18:01:15] INFO root fetch - processPackages [lackadaisical]: Start processing: robin-chat-input
+[2023-05-17 18:01:15] INFO root fetch - main [MainThread]: End processing [lackadaisical] error
+[2023-05-17 18:01:15] INFO root fetch - processPackages [robin-chat-input]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 18:01:15] INFO root fetch - processPackages [config-patterns]: Start processing: perceval-puppet
+[2023-05-17 18:01:15] INFO root fetch - main [MainThread]: End processing [config-patterns]: success
+[2023-05-17 18:01:15] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230517/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-puppet]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-05-17 18:01:15] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: perceval-mozilla
+[2023-05-17 18:01:15] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-17 18:01:15] INFO root fetch - processPackages [robin-chat-input]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/10/cb/1a76cb7751f36a3e07ca248f155967b70ed61e0c352b0b01c7271be1aefa/appian-locust-2.0.0a3.tar.gz
+[2023-05-17 18:01:15] INFO root fetch - processPackages [robin-chat-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin-chat-input-0.0.5.tar.gz tmp/robin-chat-input-0.0.6.tar.gz --markdown 20230517/r/robin-chat-input/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-mozilla]: New version: [0.3.9] Old Version: [0.3.8rc2]
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-0.2.8rc2.tar.gz tmp/perceval_puppet-0.2.9.tar.gz --markdown 20230517/p/perceval-puppet/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:15] INFO root fetch - processPackages [va-mvg]: Downloading https://files.pythonhosted.org/packages/11/d8/90537956f20d010d337ab365b4009d1e91f53b685d16ec5104aa21bb6b6a/va_mvg-0.9.7-py3-none-any.whl
+[2023-05-17 18:01:15] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-2.0.0a2.tar.gz tmp/appian-locust-2.0.0a3.tar.gz --markdown 20230517/a/appian-locust/2.0.0a2-2.0.0a3/diff.md --exclude *.pyd
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-0.3.8rc2.tar.gz tmp/perceval_mozilla-0.3.9.tar.gz --markdown 20230517/p/perceval-mozilla/0.3.8rc2-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:15] INFO root fetch - processPackages [convocations]: Start processing: perceval-weblate
+[2023-05-17 18:01:15] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-weblate]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-05-17 18:01:15] INFO root fetch - processPackages [va-mvg]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [va-mvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/va_mvg-0.9.6-py3-none-any.whl.zip tmp/va_mvg-0.9.7-py3-none-any.whl.zip --markdown 20230517/v/va-mvg/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2023-05-17 18:01:15] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-0.2.8rc2.tar.gz tmp/perceval_weblate-0.2.9.tar.gz --markdown 20230517/p/perceval-weblate/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:16] INFO root fetch - processPackages [perceval-puppet]: Start processing: langchain
+[2023-05-17 18:01:16] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2023-05-17 18:01:16] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-17 18:01:17] INFO root fetch - processPackages [va-mvg]: Start processing: remoulade
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [va-mvg]: success
+[2023-05-17 18:01:17] INFO root fetch - processPackages [remoulade]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-17 18:01:17] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-05-17 18:01:17] INFO root fetch - processPackages [robin-chat-input]: Start processing: perceval-opnfv
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [robin-chat-input]: success
+[2023-05-17 18:01:17] INFO root fetch - processPackages [appian-locust]: Start processing: robot-package
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-05-17 18:01:17] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-05-17 18:01:17] WARNING root fetch - processPackages [robot-package]: Skipping, unable to determine old version
+[2023-05-17 18:01:17] INFO root fetch - processPackages [robot-package]: Start processing: databricks-sdk
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [robot-package] error
+[2023-05-17 18:01:17] INFO root fetch - processPackages [databricks-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-17 18:01:17] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/6c/66/0b8d2db9a1d60f4ef59e358a526ecf89dfa8c68273e9b223cf232b927b0a/remoulade-1.2.1.tar.gz
+[2023-05-17 18:01:17] INFO root fetch - processPackages [perceval-mozilla]: Start processing: ProtoMsg
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2023-05-17 18:01:17] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-05-17 18:01:17] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.8rc2.tar.gz tmp/perceval_opnfv-0.2.9.tar.gz --markdown 20230517/p/perceval-opnfv/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 18:01:17] INFO root fetch - processPackages [ProtoMsg]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 18:01:17] INFO root fetch - processPackages [perceval-weblate]: Start processing: nucliadb-contributor-assets
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2023-05-17 18:01:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post789] Old Version: [1.0.0.post787]
+[2023-05-17 18:01:17] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-05-17 18:01:17] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.2.0.tar.gz tmp/remoulade-1.2.1.tar.gz --markdown 20230517/r/remoulade/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-17 18:01:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/a8/94/eb3843606a03f8dcf3239c5183ef33856bbdc9844d8c9954965e75f870ab/nucliadb_contributor_assets-1.0.0.post787-py3-none-any.whl
+[2023-05-17 18:01:17] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/e4/b0/de1779894ce5c78396f16f9ad2bda68bb726a15a538c89bbe0ed7dabb8fd/databricks-sdk-0.1.6.tar.gz
+[2023-05-17 18:01:17] INFO root fetch - processPackages [ProtoMsg]: Downloading https://files.pythonhosted.org/packages/4e/72/3cbc31713e24a2d9fbc4907580d6416a5c08a168cf5084e29c2230b54622/ProtoMsg-1.0.0.tar.gz
+[2023-05-17 18:01:17] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/36/55/42b51066df84238b63f2b775b7c877694cbe7ed3af1abcbf4d1483ae7ee8/databricks-sdk-0.1.7.tar.gz
+[2023-05-17 18:01:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/f2/67/13407c04ca2264a1f1f817ecabe88cdfb010aced97017f277840019cd829/nucliadb_contributor_assets-1.0.0.post789-py3-none-any.whl
+[2023-05-17 18:01:17] INFO root fetch - processPackages [ProtoMsg]: Downloading https://files.pythonhosted.org/packages/1d/6d/451ceed8b06da19946c6a4889c5cc9c9f8b7ba3e72f9bd51d587c3de314a/ProtoMsg-1.0.1.tar.gz
+[2023-05-17 18:01:17] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: mpan
+[2023-05-17 18:01:17] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-17 18:01:17] INFO root fetch - processPackages [ProtoMsg]: executing diffoscope
+[2023-05-17 18:01:17] INFO root fetch - processPackages [ProtoMsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProtoMsg-1.0.0.tar.gz tmp/ProtoMsg-1.0.1.tar.gz --markdown 20230517/P/ProtoMsg/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 18:01:17] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2023-05-17 18:01:17] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-sdk-0.1.6.tar.gz tmp/databricks-sdk-0.1.7.tar.gz --markdown 20230517/d/databricks-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-17 18:01:17] INFO root fetch - processPackages [mpan]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-17 18:01:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-17 18:01:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post787-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post789-py3-none-any.whl.zip --markdown 20230517/n/nucliadb-contributor-assets/1.0.0.post787-1.0.0.post789/diff.md --exclude *.pyd
+[2023-05-17 18:01:17] INFO root fetch - processPackages [mpan]: Downloading https://files.pythonhosted.org/packages/15/b9/a364231c28c8adee63f814fe8399687ed3e76e3ae23e0e2cbddaf50f6050/mpan-2.0.0.tar.gz
+[2023-05-17 18:01:18] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-05-17 18:01:18] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-17 18:01:18] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230517/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-17 18:01:18] INFO root fetch - processPackages [mpan]: Downloading https://files.pythonhosted.org/packages/8a/71/e2f79a81857cf6e4e930601ed9b2ab7072483e3130b6c1b86e2800a9dc50/mpan-2.1.0.tar.gz
+[2023-05-17 18:01:18] INFO root fetch - processPackages [ngsfragments]: Start processing: google-sheets-telegram-utils
+[2023-05-17 18:01:18] INFO root fetch - main [MainThread]: End processing [ngsfragments]: success
+[2023-05-17 18:01:18] INFO root fetch - processPackages [google-sheets-telegram-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 18:01:18] INFO root fetch - processPackages [mpan]: executing diffoscope
+[2023-05-17 18:01:18] INFO root fetch - processPackages [mpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpan-2.0.0.tar.gz tmp/mpan-2.1.0.tar.gz --markdown 20230517/m/mpan/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 18:01:18] INFO root fetch - processPackages [google-sheets-telegram-utils]: executing diffoscope
+[2023-05-17 18:01:18] INFO root fetch - processPackages [google-sheets-telegram-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-sheets-telegram-utils-0.0.6.tar.gz tmp/google-sheets-telegram-utils-0.0.7.tar.gz --markdown 20230517/g/google-sheets-telegram-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 18:01:18] INFO root fetch - processPackages [perceval-opnfv]: Start processing: raya
+[2023-05-17 18:01:18] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-05-17 18:01:18] INFO root fetch - processPackages [raya]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-05-17 18:01:18] INFO root fetch - processPackages [ProtoMsg]: Start processing: test-add-python
+[2023-05-17 18:01:18] INFO root fetch - main [MainThread]: End processing [ProtoMsg]: success
+[2023-05-17 18:01:18] INFO root fetch - processPackages [test-add-python]: New version: [0.8] Old Version: [0.7]
+[2023-05-17 18:01:19] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/e6/86/03875822917fabae7f8380ab973f8ff724ee9b2fabb7364ad861eca1e38c/raya-0.8.1.tar.gz
+[2023-05-17 18:01:19] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-05-17 18:01:19] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/88/9c/8a87ceef2d244bb6e45e1d6b3c7df31aece37f9a6ff9c9b86913900e17f8/test_add_python-0.8.tar.gz
+[2023-05-17 18:01:19] INFO root fetch - processPackages [test-add-python]: executing diffoscope
+[2023-05-17 18:01:19] INFO root fetch - processPackages [test-add-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_add_python-0.7.tar.gz tmp/test_add_python-0.8.tar.gz --markdown 20230517/t/test-add-python/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-17 18:01:19] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/4f/86/94c27b45b257064fefeb969edb04a9af81b577ce17bf95fe3ef2cfb21fd2/raya-0.9.1.tar.gz
+[2023-05-17 18:01:19] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-05-17 18:01:19] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-0.8.1.tar.gz tmp/raya-0.9.1.tar.gz --markdown 20230517/r/raya/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 18:01:19] INFO root fetch - main [MainThread]: End processing [google-sheets-telegram-utils]: success
+[2023-05-17 18:01:20] INFO root fetch - main [MainThread]: End processing [mpan]: success
+[2023-05-17 18:01:20] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2023-05-17 18:01:20] INFO root fetch - main [MainThread]: End processing [test-add-python]: success
+[2023-05-17 18:01:20] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-05-17 18:01:20] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-05-17 18:01:20] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-17 18:01:21] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-17 18:01:32] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-17 18:01:32] INFO root fetch - main [MainThread]: Store serial: [18142290]
