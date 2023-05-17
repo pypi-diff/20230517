@@ -11963,3 +11963,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:12:41] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-05-17 11:12:43] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-05-17 11:12:43] INFO root fetch - main [MainThread]: Store serial: [18136893]
+[2023-05-17 11:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136893]
+[2023-05-17 11:17:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waveformtools
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serl
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dismake
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-eytan-view-reentrency
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openxlab-test
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-naftali-CERT-2194-hook-inlining-bad-call-index
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UnlimitedChatGPTWebAPI
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cards
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openshift-cluster-management-python-wrapper
+[2023-05-17 11:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geonode-importer
+[2023-05-17 11:17:53] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [serl]: New version: [0.3.0b0] Old Version: [0.2.2b0]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: New version: [20230517.9.15.91422] Old Version: [20230516.11.35.842069]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [waveformtools]: New version: [2023.5.17] Old Version: [2023.5.14]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openxlab-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 11:17:53] WARNING root fetch - processPackages [UnlimitedChatGPTWebAPI]: Skipping, unable to determine old version
+[2023-05-17 11:17:53] INFO root fetch - processPackages [UnlimitedChatGPTWebAPI]: Start processing: autoretouch
+[2023-05-17 11:17:53] INFO root fetch - processPackages [geonode-importer]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-17 11:17:53] INFO root fetch - main [MainThread]: End processing [UnlimitedChatGPTWebAPI] error
+[2023-05-17 11:17:53] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-2194-hook-inlining-bad-call-index]: New version: [20230517.9.15.682006] Old Version: [20230516.21.37.112221]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230517/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:17:53] INFO root fetch - processPackages [django-cards]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/43/e5/82fe0b2635eaaf4a1c2a061fc21e9fa6576b89f7ccb360954c0130dc39a2/geonode_importer-0.0.1-py3-none-any.whl
+[2023-05-17 11:17:53] INFO root fetch - processPackages [autoretouch]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 11:17:53] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Downloading https://files.pythonhosted.org/packages/f5/09/6e014ff3a5d8db09ac8cf6db1902208c17f3dc2c5c3583a98229205a6fd2/certora-cli-alpha-eytan-view_reentrency-20230516.11.35.842069.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/5e/89/d58991808ff783b050d30884fae24eb2162d1e595d63124b6a005ccf6664/serl-0.2.2b0.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openxlab-test]: Downloading https://files.pythonhosted.org/packages/3a/56/fa3eff38c15c7718174f038a4022a6aac74f9da8013f70bb317e031d9076/openxlab-test-0.0.1.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [waveformtools]: Downloading https://files.pythonhosted.org/packages/0a/f7/783d9f4abe83280a36203595bc6022b1838a49fd395367c8943550d3fe0a/waveformtools-2023.5.14.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-2194-hook-inlining-bad-call-index]: Downloading https://files.pythonhosted.org/packages/f5/69/2607052b9d50dfcf3b0b09b8b73b3407cb835be88be1210edaab60509514/certora-cli-alpha-naftali-CERT-2194_hook_inlining_bad_call_index-20230516.21.37.112221.tar.gz
+[2023-05-17 11:17:53] WARNING root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Skipping package: exceeds size limit 39009614>=10485760
+[2023-05-17 11:17:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-view-reentrency] error
+[2023-05-17 11:17:53] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/9c/48/98bb454b07d36ed80a78e212dd7b619cb6a597af5918e2283d5ef6ecfcb7/django-cards-0.8.9.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c4/00/080ef5dd094ce238dea7428d87f981afa486ff6fb8b6087ca896071d3e9b/openshift-cluster-management-python-wrapper-1.0.8.tar.gz
+[2023-05-17 11:17:53] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-2194-hook-inlining-bad-call-index]: Skipping package: exceeds size limit 38976407>=10485760
+[2023-05-17 11:17:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-2194-hook-inlining-bad-call-index] error
+[2023-05-17 11:17:53] INFO root fetch - processPackages [autoretouch]: Downloading https://files.pythonhosted.org/packages/16/8b/b0396d8905bf66fedf6be0707c8be62aea447320a47c1e077694895b3f0c/autoretouch-0.1.0.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/b2/bf/f25f7878c1be27f96f791a9613dced8c691b967af4c7c3de0be5ead784a2/geonode_importer-1.0.0-py3-none-any.whl
+[2023-05-17 11:17:53] INFO root fetch - processPackages [waveformtools]: Downloading https://files.pythonhosted.org/packages/1d/d1/3d01c457b0f20ed47198c5b14480cc63fa2db05435bb064c196e0b021fb6/waveformtools-2023.5.17.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openxlab-test]: Downloading https://files.pythonhosted.org/packages/12/f7/a101201eb8cf748c8620e5dcafd8133fe072fd032e27f7db73cd36586aea/openxlab-test-0.0.2.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [geonode-importer]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [geonode-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonode_importer-0.0.1-py3-none-any.whl.zip tmp/geonode_importer-1.0.0-py3-none-any.whl.zip --markdown 20230517/g/geonode-importer/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 11:17:53] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/cc/8a/d975fd8283d10b7bd7ec001cd20bfa253ec6e6e07ea4be4fec727d84a045/serl-0.3.0b0.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [waveformtools]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [waveformtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveformtools-2023.5.14.tar.gz tmp/waveformtools-2023.5.17.tar.gz --markdown 20230517/w/waveformtools/2023.5.14-2023.5.17/diff.md --exclude *.pyd
+[2023-05-17 11:17:53] INFO root fetch - processPackages [autoretouch]: Downloading https://files.pythonhosted.org/packages/b5/c0/0e8ee91acf2bbd68ac93a508346ce30d8b2edc37778814499f740a97b1b7/autoretouch-0.2.0.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c5/ff/2a7dc53e940f4cf01cba78091f8503bd24ebe8b716139738212ed5473bde/openshift-cluster-management-python-wrapper-1.0.9.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230517/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:17:53] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/31/b8/760d3334e4e29cb6b54d97106fa684c9184f87164024892cb0b25c7da0ae/django-cards-0.9.0.tar.gz
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openxlab-test]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [openxlab-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-test-0.0.1.tar.gz tmp/openxlab-test-0.0.2.tar.gz --markdown 20230517/o/openxlab-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 11:17:53] INFO root fetch - processPackages [serl]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [serl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serl-0.2.2b0.tar.gz tmp/serl-0.3.0b0.tar.gz --markdown 20230517/s/serl/0.2.2b0-0.3.0b0/diff.md --exclude *.pyd
+[2023-05-17 11:17:53] INFO root fetch - processPackages [autoretouch]: executing diffoscope
+[2023-05-17 11:17:53] INFO root fetch - processPackages [autoretouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoretouch-0.1.0.tar.gz tmp/autoretouch-0.2.0.tar.gz --markdown 20230517/a/autoretouch/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 11:17:54] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-05-17 11:17:54] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.8.9.tar.gz tmp/django-cards-0.9.0.tar.gz --markdown 20230517/d/django-cards/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 11:17:55] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-17 11:17:56] INFO root fetch - main [MainThread]: End processing [serl]: success
+[2023-05-17 11:17:56] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-05-17 11:17:56] INFO root fetch - main [MainThread]: End processing [waveformtools]: success
+[2023-05-17 11:17:56] INFO root fetch - main [MainThread]: End processing [geonode-importer]: success
+[2023-05-17 11:17:56] INFO root fetch - main [MainThread]: End processing [autoretouch]: success
+[2023-05-17 11:17:57] INFO root fetch - main [MainThread]: End processing [openxlab-test]: success
+[2023-05-17 11:17:57] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-05-17 11:17:57] INFO root fetch - main [MainThread]: Store serial: [18136937]
