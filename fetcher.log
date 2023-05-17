@@ -23047,3 +23047,99 @@ EOFError: EOF read where object expected
 [2023-05-17 18:51:36] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-05-17 18:52:04] INFO root fetch - main [MainThread]: End processing [openlane]: success
 [2023-05-17 18:52:04] INFO root fetch - main [MainThread]: Store serial: [18143076]
+[2023-05-17 18:57:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18143076]
+[2023-05-17 18:57:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fern-belvo
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantuloop-quest
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EnergyCapSdk
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psfam
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cosapp
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicutils
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dopplrSDK
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: synced-collections
+[2023-05-17 18:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantuloop-simulator
+[2023-05-17 18:57:13] INFO root fetch - processPackages [fern-belvo]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [quantuloop-quest]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: New version: [20230517.16.51.822516] Old Version: [20230517.15.7.97510]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [psfam]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [dopplrSDK]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-17 18:57:13] WARNING root fetch - processPackages [synced-collections]: Skipping, unable to determine old version
+[2023-05-17 18:57:13] INFO root fetch - processPackages [synced-collections]: Start processing: edx-event-bus-kafka
+[2023-05-17 18:57:13] INFO root fetch - main [MainThread]: End processing [synced-collections] error
+[2023-05-17 18:57:13] INFO root fetch - processPackages [cosapp]: New version: [0.14.0] Old Version: [0.13.1]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2302.4548] Old Version: [8.2302.4538]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [dcicutils]: New version: [7.4.2.1b0] Old Version: [7.4.2]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [edx-event-bus-kafka]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [quantuloop-simulator]: New version: [2023.5] Old Version: [2023.4.1]
+[2023-05-17 18:57:13] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Downloading https://files.pythonhosted.org/packages/b2/cf/68b6d497c16f9a0be842c481ade0127d3c0c93a36322213b1d582cd981c3/certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta-20230517.15.7.97510.tar.gz
+[2023-05-17 18:57:13] INFO root fetch - processPackages [edx-event-bus-kafka]: executing diffoscope
+[2023-05-17 18:57:13] INFO root fetch - processPackages [edx-event-bus-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_event_bus_kafka-4.0.1.tar.gz tmp/edx_event_bus_kafka-5.0.0.tar.gz --markdown 20230517/e/edx-event-bus-kafka/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-05-17 18:57:13] INFO root fetch - processPackages [psfam]: Downloading https://files.pythonhosted.org/packages/33/1b/c4e3b9878b62b3c3b0e2171707bbb65876260ff15d69042555febea55262/psfam-0.0.13.tar.gz
+[2023-05-17 18:57:13] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/91/30/71dd73b92863755840cf7a2e386dd6df693ab42b1c465e9c002249d7b4a2/dopplrSDK-1.2.0-py3-none-any.whl
+[2023-05-17 18:57:13] INFO root fetch - processPackages [quantuloop-quest]: Downloading https://files.pythonhosted.org/packages/a2/81/5fe64467be87d53ee730a9456f8446d3818ae6878e3f2e93ae51ed615557/quantuloop_quest-0.2.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 18:57:13] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Skipping package: exceeds size limit 38976628>=10485760
+[2023-05-17 18:57:13] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Start processing: murfey
+[2023-05-17 18:57:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta] error
+[2023-05-17 18:57:13] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/07/ab/4fdce70077b6b25cf3fbb75f83bdfd3e7cb6d004312780c89b39a29de83d/dcicutils-7.4.2.1b0.tar.gz
+[2023-05-17 18:57:13] INFO root fetch - processPackages [cosapp]: Downloading https://files.pythonhosted.org/packages/ef/ba/e783750195b832fbc897aa7b9b44f06747034db6b9a09bd26ab8cefcc969/cosapp-0.13.1.tar.gz
+[2023-05-17 18:57:13] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/67/0b/171d2ec7207bf5148d20e4890b76006be7d6aa29d0a2c5154ceee693482a/EnergyCapSdk-8.2302.4538.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-simulator]: Downloading https://files.pythonhosted.org/packages/e1/10/d5f1fd4acd76984925c29b09e74812ec7ae07b631b6522d96dd27132b5d1/quantuloop_simulator-2023.4.1.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-17 18:57:14] INFO root fetch - processPackages [psfam]: Downloading https://files.pythonhosted.org/packages/9f/46/4350930bee6dff1cf2770ceb4fbb3056f1bb2a36f7bd084159547a5a31ee/psfam-0.0.14.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/11/6a/a4676d77e88c83b9e4ec0a69f70924bc3abe4f7e8ac5e52d26aeadc4cda5/dopplrSDK-1.3.0-py3-none-any.whl
+[2023-05-17 18:57:14] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.2.tar.gz tmp/dcicutils-7.4.2.1b0.tar.gz --markdown 20230517/d/dcicutils/7.4.2-7.4.2.1b0/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [psfam]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [psfam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psfam-0.0.13.tar.gz tmp/psfam-0.0.14.tar.gz --markdown 20230517/p/psfam/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [fern-belvo]: Downloading https://files.pythonhosted.org/packages/33/be/89b33d6f0ff9f656b3d1aa3221d0df16c421435b6d1b92b1aec4dc45ab36/fern_belvo-0.0.32.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-quest]: Downloading https://files.pythonhosted.org/packages/e0/c5/9272f1c5c32dc9878dcab1a00be2535fb9a9b8ccfa562a745c41b5831cde/quantuloop_quest-0.2.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 18:57:14] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/06/4f/a37cd48a24edf35edbbeafaa3f929ada933d8ace6f309321972545424ec5/murfey-0.7.8.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-1.2.0-py3-none-any.whl.zip tmp/dopplrSDK-1.3.0-py3-none-any.whl.zip --markdown 20230517/d/dopplrSDK/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [fern-belvo]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [fern-belvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_belvo-0.0.31.tar.gz tmp/fern_belvo-0.0.32.tar.gz --markdown 20230517/f/fern-belvo/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-simulator]: Downloading https://files.pythonhosted.org/packages/59/d7/7f8156a8d32d0d225ac890d3beaae1c0c4738e623440e6305adcaa309071/quantuloop_simulator-2023.5.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-quest]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-quest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantuloop_quest-0.2.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quantuloop_quest-0.2.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/q/quantuloop-quest/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-simulator]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [quantuloop-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantuloop_simulator-2023.4.1.tar.gz tmp/quantuloop_simulator-2023.5.tar.gz --markdown 20230517/q/quantuloop-simulator/2023.4.1-2023.5/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/5f/d5/0b6df5173f0aadee1e6a7d7878cb6765e68c6bb22967c1834b45a263bc57/EnergyCapSdk-8.2302.4548.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/0a/c9/6898f393e289d698facbadbebab5245125a8d1d0295976e78f4151f50e4c/murfey-0.7.9.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [cosapp]: Downloading https://files.pythonhosted.org/packages/a7/db/7e9c9c11938591c63aa30da0778dacfd2018c871c9061de7e28f3b430c10/cosapp-0.14.0.tar.gz
+[2023-05-17 18:57:14] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230517/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2302.4538.tar.gz tmp/EnergyCapSdk-8.2302.4548.tar.gz --markdown 20230517/E/EnergyCapSdk/8.2302.4538-8.2302.4548/diff.md --exclude *.pyd
+[2023-05-17 18:57:14] INFO root fetch - processPackages [cosapp]: executing diffoscope
+[2023-05-17 18:57:14] INFO root fetch - processPackages [cosapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosapp-0.13.1.tar.gz tmp/cosapp-0.14.0.tar.gz --markdown 20230517/c/cosapp/0.13.1-0.14.0/diff.md --exclude *.pyd
+[2023-05-17 18:57:15] INFO root fetch - processPackages [dopplrSDK]: Start processing: ngsfragments
+[2023-05-17 18:57:15] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-05-17 18:57:15] INFO root fetch - processPackages [ngsfragments]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-17 18:57:15] INFO root fetch - processPackages [ngsfragments]: executing diffoscope
+[2023-05-17 18:57:15] INFO root fetch - processPackages [ngsfragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngsfragments-2.0.2.tar.gz tmp/ngsfragments-2.0.3.tar.gz --markdown 20230517/n/ngsfragments/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-17 18:57:15] INFO root fetch - processPackages [psfam]: Start processing: django-sql-explorer
+[2023-05-17 18:57:15] INFO root fetch - main [MainThread]: End processing [psfam]: success
+[2023-05-17 18:57:15] INFO root fetch - processPackages [django-sql-explorer]: New version: [3.2] Old Version: [3.1.1]
+[2023-05-17 18:57:15] INFO root fetch - processPackages [quantuloop-simulator]: Start processing: nlptoolssna
+[2023-05-17 18:57:15] INFO root fetch - main [MainThread]: End processing [quantuloop-simulator]: success
+[2023-05-17 18:57:16] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/0b/0a/671ee6d5cbc75520382f327e37931873218cca8ef6f045d3ba730e32f09c/django-sql-explorer-3.1.1.tar.gz
+[2023-05-17 18:57:16] INFO root fetch - processPackages [nlptoolssna]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 18:57:16] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-05-17 18:57:16] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/3d/47/e7b4bb9fb98d91f256869f7b9b5406548c50e7d18fe6cf62dd2023378d7e/nlptoolssna-0.8.8.tar.gz
+[2023-05-17 18:57:16] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/dd/56/4fa02f34c10057fa36a98f52c7018b3e008dee762cb67b02f2c98359bc49/django-sql-explorer-3.2.tar.gz
+[2023-05-17 18:57:16] INFO root fetch - main [MainThread]: End processing [edx-event-bus-kafka]: success
+[2023-05-17 18:57:16] INFO root fetch - processPackages [django-sql-explorer]: executing diffoscope
+[2023-05-17 18:57:16] INFO root fetch - processPackages [django-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sql-explorer-3.1.1.tar.gz tmp/django-sql-explorer-3.2.tar.gz --markdown 20230517/d/django-sql-explorer/3.1.1-3.2/diff.md --exclude *.pyd
+[2023-05-17 18:57:16] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/51/59/71be52925462fca829515b3094c5344e071b03c98c8c123e1741a8d40fd7/nlptoolssna-0.8.9.tar.gz
+[2023-05-17 18:57:16] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-17 18:57:16] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.8.8.tar.gz tmp/nlptoolssna-0.8.9.tar.gz --markdown 20230517/n/nlptoolssna/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 18:57:18] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-17 18:57:18] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-17 18:57:18] INFO root fetch - main [MainThread]: End processing [django-sql-explorer]: success
+[2023-05-17 18:57:19] INFO root fetch - main [MainThread]: End processing [ngsfragments]: success
+[2023-05-17 18:57:20] INFO root fetch - main [MainThread]: End processing [fern-belvo]: success
+[2023-05-17 18:57:21] INFO root fetch - main [MainThread]: End processing [cosapp]: success
+[2023-05-17 18:57:40] INFO root fetch - main [MainThread]: End processing [quantuloop-quest]: success
+[2023-05-17 18:57:47] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-05-17 18:57:47] INFO root fetch - main [MainThread]: Store serial: [18143143]
