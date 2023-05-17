@@ -19584,3 +19584,162 @@ EOFError: EOF read where object expected
 [2023-05-17 16:38:43] INFO root fetch - main [MainThread]: End processing [scenariogeneration]: success
 [2023-05-17 16:38:46] INFO root fetch - main [MainThread]: End processing [uplogic]: success
 [2023-05-17 16:38:46] INFO root fetch - main [MainThread]: Store serial: [18141041]
+[2023-05-17 16:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141041]
+[2023-05-17 16:43:55] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgl
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: log-check
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdfizer
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-configs
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfizer
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdfizer
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskcluster
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pm-slack
+[2023-05-17 16:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RiskLabAI
+[2023-05-17 16:43:55] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev31]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [pm-slack]: New version: [0.2.2] Old Version: [0.2.10]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [log-check]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [easy-configs]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [pgl]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-17 16:43:55] INFO root fetch - processPackages [taskcluster]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-05-17 16:43:55] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230517/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230517/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/53/e8/1202bdfc3eba4e63968ef144e8e594b142b4096db122d7ce776f572f4361/khoj_assistant-0.6.2.dev31.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.4.tar.gz tmp/RiskLabAI-0.0.6.tar.gz --markdown 20230517/R/RiskLabAI/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230517/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/fa/8e/9c95351d57c9bd7e78b10f172403aa3a4e8f71d58ff7a7bcfd411f99c1b9/pm_slack-0.2.10.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [easy-configs]: Downloading https://files.pythonhosted.org/packages/a7/f1/54f3e3a98d34788063304bb70dafd4d0fdee89cfa5d6b99c0b46cfb4deeb/easy-configs-0.0.1.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [pgl]: Downloading https://files.pythonhosted.org/packages/0e/d5/4d62c80720d33a6e5c640078c62a286f2b66da096d6cc73a6e4a53ed5c72/pgl-2.2.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-17 16:43:56] INFO root fetch - processPackages [taskcluster]: Downloading https://files.pythonhosted.org/packages/47/75/ffba5fae55fde34812e5912ddb8c29a676c663053222da69083ad3e32af3/taskcluster-7.0.0.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.10.tar.gz tmp/pm_slack-0.2.2.tar.gz --markdown 20230517/p/pm-slack/0.2.10-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [log-check]: Downloading https://files.pythonhosted.org/packages/41/bb/77f27d931a97bece51ae8dbb38a2fbfd469b2c98361759765ab22890119a/log_check-2.3.0.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.2.dev31.tar.gz tmp/khoj_assistant-0.6.2.dev6.tar.gz --markdown 20230517/k/khoj-assistant/0.6.2.dev31-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [easy-configs]: Downloading https://files.pythonhosted.org/packages/38/0d/11c613bbf70092fbe35a747ec65cf09a17b4c45a458d2d755048d1f9ec14/easy-configs-0.0.4.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [taskcluster]: Downloading https://files.pythonhosted.org/packages/c6/a9/2a20af412902aed28c5add3b8592c17665d4649886c0edcf7abca4dcc44c/taskcluster-7.0.1.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [easy-configs]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [easy-configs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-configs-0.0.1.tar.gz tmp/easy-configs-0.0.4.tar.gz --markdown 20230517/e/easy-configs/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [log-check]: Downloading https://files.pythonhosted.org/packages/c5/c6/49bf7e0299da413637fde6b6951d7c26f50f26f5d810bd58770d7d6430e9/log_check-2.4.0.tar.gz
+[2023-05-17 16:43:56] INFO root fetch - processPackages [taskcluster]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [taskcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskcluster-7.0.0.tar.gz tmp/taskcluster-7.0.1.tar.gz --markdown 20230517/t/taskcluster/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [log-check]: executing diffoscope
+[2023-05-17 16:43:56] INFO root fetch - processPackages [log-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log_check-2.3.0.tar.gz tmp/log_check-2.4.0.tar.gz --markdown 20230517/l/log-check/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-17 16:43:56] INFO root fetch - processPackages [pgl]: Downloading https://files.pythonhosted.org/packages/96/2b/75dd3026dfbd06a02f460d934b951371fb218868f726b92791c8af6e3c6a/pgl-2.2.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-17 16:43:57] INFO root fetch - processPackages [pm-slack]: Start processing: bawei
+[2023-05-17 16:43:57] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-17 16:43:57] INFO root fetch - processPackages [rdfizer]: Start processing: certora-cli-alpha-yuvalbd-function-signature-formatting
+[2023-05-17 16:43:57] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-17 16:43:57] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: New version: [20230517.7.59.860757] Old Version: [20230516.22.59.556250]
+[2023-05-17 16:43:57] INFO root fetch - processPackages [RiskLabAI]: Start processing: metobs-toolkit
+[2023-05-17 16:43:57] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2023-05-17 16:43:57] WARNING root fetch - processPackages [bawei]: Skipping, unable to determine old version
+[2023-05-17 16:43:57] INFO root fetch - processPackages [bawei]: Start processing: honeybee-grasshopper-core
+[2023-05-17 16:43:57] INFO root fetch - main [MainThread]: End processing [bawei] error
+[2023-05-17 16:43:58] INFO root fetch - processPackages [metobs-toolkit]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2023-05-17 16:43:58] INFO root fetch - processPackages [honeybee-grasshopper-core]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-17 16:43:58] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Downloading https://files.pythonhosted.org/packages/0b/8e/048e3af658305f4561136b73e622a042e105689709bd3e4a7fbde36082f5/certora-cli-alpha-yuvalbd-function_signature_formatting-20230516.22.59.556250.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [pgl]: executing diffoscope
+[2023-05-17 16:43:58] INFO root fetch - processPackages [pgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgl-2.2.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip tmp/pgl-2.2.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20230517/p/pgl/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-17 16:43:58] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Skipping package: exceeds size limit 38725407>=10485760
+[2023-05-17 16:43:58] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Start processing: hsfs
+[2023-05-17 16:43:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-function-signature-formatting] error
+[2023-05-17 16:43:58] INFO root fetch - processPackages [easy-configs]: Start processing: liveboot
+[2023-05-17 16:43:58] INFO root fetch - main [MainThread]: End processing [easy-configs]: success
+[2023-05-17 16:43:58] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc2] Old Version: [3.2.0rc1]
+[2023-05-17 16:43:58] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/db/82/f9c5c2433df272c58d7dc7994504822e492a3ecf1a580dbf65cdc67a2e0c/hsfs-3.2.0rc1.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [metobs-toolkit]: Downloading https://files.pythonhosted.org/packages/e1/d8/b056b7199abf8918182b14385f55d11fa25f2c7a9f60be5b19d9eca8acd1/metobs_toolkit-0.0.2a3.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [log-check]: Start processing: elefantolib
+[2023-05-17 16:43:58] INFO root fetch - main [MainThread]: End processing [log-check]: success
+[2023-05-17 16:43:58] INFO root fetch - processPackages [honeybee-grasshopper-core]: Downloading https://files.pythonhosted.org/packages/ac/e4/eea858d9e1db52a66889fbc651df5778c83ca0b7375070416b3584cbcc93/honeybee-grasshopper-core-1.9.0.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [liveboot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 16:43:58] INFO root fetch - processPackages [elefantolib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-17 16:43:58] INFO root fetch - processPackages [liveboot]: Downloading https://files.pythonhosted.org/packages/c9/73/166c29fa3c156a32598de8be0df56ed6ea8df328ab8f41c8187bc8b77565/liveboot-0.0.3.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/58/b8/7d0c0f64bbbfb947bd8c3283854e847ac138700e53c91dcf8072abe1ab25/hsfs-3.2.0rc2.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [taskcluster]: Start processing: airflow-db-logger
+[2023-05-17 16:43:58] INFO root fetch - main [MainThread]: End processing [taskcluster]: success
+[2023-05-17 16:43:58] INFO root fetch - processPackages [metobs-toolkit]: Downloading https://files.pythonhosted.org/packages/7e/45/4625f41d11d1c4d3d68b4754c8d9b85e2fbc9d95d72cea69edbbfb20f2e9/metobs_toolkit-0.0.2a4.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [elefantolib]: Downloading https://files.pythonhosted.org/packages/f0/58/e21ca55259bbd46c2f688c206d026bc71304fbb156ef25a203851ab2282c/elefantolib-0.9.1.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-05-17 16:43:58] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.0rc1.tar.gz tmp/hsfs-3.2.0rc2.tar.gz --markdown 20230517/h/hsfs/3.2.0rc1-3.2.0rc2/diff.md --exclude *.pyd
+[2023-05-17 16:43:58] INFO root fetch - processPackages [honeybee-grasshopper-core]: Downloading https://files.pythonhosted.org/packages/9f/d3/178ae65f9205bae55d153ddf7bded46daea544a32ff51fb34d6715864dae/honeybee-grasshopper-core-1.9.1.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [airflow-db-logger]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-17 16:43:58] INFO root fetch - processPackages [liveboot]: Downloading https://files.pythonhosted.org/packages/b9/7b/c13b490b266b314209592ddd472795c5f24b684166757f3abed0a9963d3c/liveboot-0.0.4.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [metobs-toolkit]: executing diffoscope
+[2023-05-17 16:43:58] INFO root fetch - processPackages [metobs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metobs_toolkit-0.0.2a3.tar.gz tmp/metobs_toolkit-0.0.2a4.tar.gz --markdown 20230517/m/metobs-toolkit/0.0.2a3-0.0.2a4/diff.md --exclude *.pyd
+[2023-05-17 16:43:58] INFO root fetch - processPackages [honeybee-grasshopper-core]: executing diffoscope
+[2023-05-17 16:43:58] INFO root fetch - processPackages [honeybee-grasshopper-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-core-1.9.0.tar.gz tmp/honeybee-grasshopper-core-1.9.1.tar.gz --markdown 20230517/h/honeybee-grasshopper-core/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-17 16:43:58] INFO root fetch - processPackages [airflow-db-logger]: Downloading https://files.pythonhosted.org/packages/cc/9a/539bb97a4ba3bc35f509ab6805757292584ab1006d626cd0031e71b8bea7/airflow_db_logger-3.0.0.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [elefantolib]: Downloading https://files.pythonhosted.org/packages/8c/74/507064140bc52fa473adcca0ad736465da0b0d1d8efe51b33a185f4a0329/elefantolib-0.9.2.tar.gz
+[2023-05-17 16:43:58] INFO root fetch - processPackages [liveboot]: executing diffoscope
+[2023-05-17 16:43:58] INFO root fetch - processPackages [liveboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveboot-0.0.3.tar.gz tmp/liveboot-0.0.4.tar.gz --markdown 20230517/l/liveboot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 16:43:59] INFO root fetch - processPackages [elefantolib]: executing diffoscope
+[2023-05-17 16:43:59] INFO root fetch - processPackages [elefantolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib-0.9.1.tar.gz tmp/elefantolib-0.9.2.tar.gz --markdown 20230517/e/elefantolib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-17 16:43:59] INFO root fetch - processPackages [airflow-db-logger]: Downloading https://files.pythonhosted.org/packages/6c/3b/d69ec9e45d4e1a414a4d35128529e8f2f263df5c7691cdea23f1cef1a82b/airflow_db_logger-3.0.1.tar.gz
+[2023-05-17 16:43:59] INFO root fetch - processPackages [rdfizer]: Start processing: cwsearch-utils
+[2023-05-17 16:43:59] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-17 16:43:59] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 16:43:59] INFO root fetch - processPackages [airflow-db-logger]: executing diffoscope
+[2023-05-17 16:43:59] INFO root fetch - processPackages [airflow-db-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_db_logger-3.0.0.tar.gz tmp/airflow_db_logger-3.0.1.tar.gz --markdown 20230517/a/airflow-db-logger/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-17 16:43:59] INFO root fetch - processPackages [rdfizer]: Start processing: armonik
+[2023-05-17 16:43:59] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-17 16:43:59] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-17 16:43:59] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230517/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 16:43:59] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev345] Old Version: [3.8.2.dev334]
+[2023-05-17 16:43:59] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/17/77/9541ccba1920fb97a945648f51cd33ab8e1f3689d7d4c6be8eb2ef47aeb7/armonik-3.8.2.dev334.tar.gz
+[2023-05-17 16:43:59] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a9/2c/050e807ea99042c1ac4198ee48de4788bc5d663851bc1779228a7fcc92e7/armonik-3.8.2.dev345.tar.gz
+[2023-05-17 16:44:00] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-05-17 16:44:00] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev334.tar.gz tmp/armonik-3.8.2.dev345.tar.gz --markdown 20230517/a/armonik/3.8.2.dev334-3.8.2.dev345/diff.md --exclude *.pyd
+[2023-05-17 16:44:00] INFO root fetch - processPackages [elefantolib]: Start processing: elody
+[2023-05-17 16:44:00] INFO root fetch - main [MainThread]: End processing [elefantolib]: success
+[2023-05-17 16:44:00] WARNING root fetch - processPackages [elody]: Skipping, unable to determine old version
+[2023-05-17 16:44:00] INFO root fetch - processPackages [elody]: Start processing: Fiona
+[2023-05-17 16:44:00] INFO root fetch - main [MainThread]: End processing [elody] error
+[2023-05-17 16:44:00] INFO root fetch - processPackages [liveboot]: Start processing: lbt-grasshopper
+[2023-05-17 16:44:00] INFO root fetch - main [MainThread]: End processing [liveboot]: success
+[2023-05-17 16:44:00] INFO root fetch - processPackages [khoj-assistant]: Start processing: sw-product-lib
+[2023-05-17 16:44:00] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-05-17 16:44:00] INFO root fetch - processPackages [sw-product-lib]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-17 16:44:00] INFO root fetch - processPackages [cwsearch-utils]: Start processing: musiclang
+[2023-05-17 16:44:00] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-17 16:44:00] INFO root fetch - processPackages [musiclang]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 16:44:00] INFO root fetch - processPackages [airflow-db-logger]: Start processing: Econ-Windows
+[2023-05-17 16:44:00] INFO root fetch - main [MainThread]: End processing [airflow-db-logger]: success
+[2023-05-17 16:44:00] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:44:00] INFO root fetch - processPackages [Fiona]: New version: [1.9b2] Old Version: [1.9b1]
+[2023-05-17 16:44:00] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-17 16:44:00] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-05-17 16:44:00] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.8.tar.gz tmp/musiclang-0.8.9.tar.gz --markdown 20230517/m/musiclang/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 16:44:00] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-17 16:44:00] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.8.tar.gz tmp/Econ_Windows-0.0.9.tar.gz --markdown 20230517/E/Econ-Windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:44:00] INFO root fetch - processPackages [sw-product-lib]: Downloading https://files.pythonhosted.org/packages/53/ee/9b269ae1ef18e8ee5ffcb39c97b08cb3e463a3274130e8d4994d5c45296a/sw_product_lib-0.5.2.tar.gz
+[2023-05-17 16:44:01] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-05-17 16:44:01] INFO root fetch - processPackages [Fiona]: Downloading https://files.pythonhosted.org/packages/8b/8a/0785177eeef93b2a8dcfa7b1ff829d817a197b208351724297507368901d/Fiona-1.9b1.tar.gz
+[2023-05-17 16:44:01] INFO root fetch - processPackages [sw-product-lib]: Downloading https://files.pythonhosted.org/packages/a6/ea/ab6e1da51c254085fbf6a58eb2c7161574ad5df079f9b610a6bcd525f61a/sw_product_lib-0.5.3.tar.gz
+[2023-05-17 16:44:01] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-05-17 16:44:01] INFO root fetch - processPackages [Fiona]: Downloading https://files.pythonhosted.org/packages/29/43/e5eac943cf2636999cf6ab486ce3cd00f18ae4b8e36aeabbbe88a93203d6/Fiona-1.9b2.tar.gz
+[2023-05-17 16:44:01] INFO root fetch - processPackages [sw-product-lib]: executing diffoscope
+[2023-05-17 16:44:01] INFO root fetch - processPackages [sw-product-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sw_product_lib-0.5.2.tar.gz tmp/sw_product_lib-0.5.3.tar.gz --markdown 20230517/s/sw-product-lib/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-17 16:44:01] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-05-17 16:44:01] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-05-17 16:44:01] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230517/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-17 16:44:01] INFO root fetch - processPackages [Fiona]: executing diffoscope
+[2023-05-17 16:44:01] INFO root fetch - processPackages [Fiona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fiona-1.9b1.tar.gz tmp/Fiona-1.9b2.tar.gz --markdown 20230517/F/Fiona/1.9b1-1.9b2/diff.md --exclude *.pyd
+[2023-05-17 16:44:01] INFO root fetch - main [MainThread]: End processing [metobs-toolkit]: success
+[2023-05-17 16:44:02] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-17 16:44:02] INFO root fetch - main [MainThread]: End processing [sw-product-lib]: success
+[2023-05-17 16:44:02] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-05-17 16:44:03] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-05-17 16:44:03] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-core]: success
+[2023-05-17 16:44:03] INFO root fetch - main [MainThread]: End processing [Fiona]: success
+[2023-05-17 16:44:05] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-05-17 16:44:11] INFO root fetch - main [MainThread]: End processing [pgl]: success
+[2023-05-17 16:44:11] INFO root fetch - main [MainThread]: Store serial: [18141126]
