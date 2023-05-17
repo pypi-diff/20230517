@@ -4814,3 +4814,72 @@
 [2023-05-17 04:22:56] INFO root fetch - main [MainThread]: End processing [yowasp-nextpnr-gowin]: success
 [2023-05-17 04:23:36] INFO root fetch - main [MainThread]: End processing [yowasp-nextpnr-nexus]: success
 [2023-05-17 04:23:36] INFO root fetch - main [MainThread]: Store serial: [18132771]
+[2023-05-17 04:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132771]
+[2023-05-17 04:28:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: health-calc-pack-py
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aphyt
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ufusion
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-dytnsapi
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windbg-copilot
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meeple-cli
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypots
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-24
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-skill-hello-world
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aphyt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ufusion]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [health-calc-pack-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [pypots]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [meeple-cli]: New version: [0.1.0rc1] Old Version: [0.1.0b8]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ovos-skill-hello-world]: New version: [0.0.4a2] Old Version: [0.0.4a1]
+[2023-05-17 04:28:55] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230517/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [meeple-cli]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [meeple-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeple-cli-0.1.0b8.tar.gz tmp/meeple_cli-0.1.0rc1.tar.gz --markdown 20230517/m/meeple-cli/0.1.0b8-0.1.0rc1/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/d9/ef/e75e594d499531503258f2eb9241dcbdc2e5d597b1cca5342cb2aa7758b1/ufusion-1.0.0.tar.gz
+[2023-05-17 04:28:55] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230517/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230517/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/38/01/25d45a70c8095c0e0fcb2b4735a97964630ea2f07388af6431d7da3e1564/health_calc_pack_py-0.1.0.tar.gz
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/f3/e0/257953411f2d39dc19a30c888efbaab733e441ad3cbcdcf8b14962911bd7/aliyun-python-sdk-dytnsapi-1.1.6.tar.gz
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ovos-skill-hello-world]: Downloading https://files.pythonhosted.org/packages/d0/44/a691f0f766517465614bd8270ac544170915768ef89bbb10428c538a9da9/ovos_skill_hello_world-0.0.4a1-py3-none-any.whl
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aphyt]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aphyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aphyt-0.1.8.tar.gz tmp/aphyt-0.1.9.tar.gz --markdown 20230517/a/aphyt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/84/bd/c1011fd247806c8829006ed6f8712cfb92508d3ce5a32681de5692f1783b/ufusion-1.0.1.tar.gz
+[2023-05-17 04:28:55] INFO root fetch - processPackages [pypots]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [pypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypots-0.0.8.tar.gz tmp/pypots-0.0.9.tar.gz --markdown 20230517/p/pypots/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/de/c8/3ca117785f9853a13995660efc9922ae94d6d932c4b71c6748d5001e74a6/health_calc_pack_py-0.2.0.tar.gz
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.0.tar.gz tmp/ufusion-1.0.1.tar.gz --markdown 20230517/u/ufusion/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [health-calc-pack-py]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [health-calc-pack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/health_calc_pack_py-0.1.0.tar.gz tmp/health_calc_pack_py-0.2.0.tar.gz --markdown 20230517/h/health-calc-pack-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ovos-skill-hello-world]: Downloading https://files.pythonhosted.org/packages/c3/57/691d13fd6ef5d321f476b4f8006eb1ffeb31c01640fe82e9302d9bf6b7e9/ovos_skill_hello_world-0.0.4a2-py3-none-any.whl
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/19/eb/50a8a63a80b82ba0c238aad0319e405acfe037ec9e2044f03affbd624d5f/aliyun-python-sdk-dytnsapi-1.1.7.tar.gz
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dytnsapi-1.1.6.tar.gz tmp/aliyun-python-sdk-dytnsapi-1.1.7.tar.gz --markdown 20230517/a/aliyun-python-sdk-dytnsapi/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ovos-skill-hello-world]: executing diffoscope
+[2023-05-17 04:28:55] INFO root fetch - processPackages [ovos-skill-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_hello_world-0.0.4a1-py3-none-any.whl.zip tmp/ovos_skill_hello_world-0.0.4a2-py3-none-any.whl.zip --markdown 20230517/o/ovos-skill-hello-world/0.0.4a1-0.0.4a2/diff.md --exclude *.pyd
+[2023-05-17 04:28:56] INFO root fetch - processPackages [windbg-copilot]: Start processing: predict-img
+[2023-05-17 04:28:56] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-05-17 04:28:56] WARNING root fetch - processPackages [predict-img]: Skipping, unable to determine old version
+[2023-05-17 04:28:56] INFO root fetch - processPackages [predict-img]: Start processing: sagemaker
+[2023-05-17 04:28:56] INFO root fetch - main [MainThread]: End processing [predict-img] error
+[2023-05-17 04:28:56] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-17 04:28:57] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 04:28:57] INFO root fetch - main [MainThread]: End processing [health-calc-pack-py]: success
+[2023-05-17 04:28:57] INFO root fetch - main [MainThread]: End processing [aphyt]: success
+[2023-05-17 04:28:57] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-05-17 04:28:57] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230517/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-17 04:28:57] INFO root fetch - main [MainThread]: End processing [pypots]: success
+[2023-05-17 04:28:57] INFO root fetch - main [MainThread]: End processing [meeple-cli]: success
+[2023-05-17 04:28:57] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dytnsapi]: success
+[2023-05-17 04:28:58] INFO root fetch - main [MainThread]: End processing [ovos-skill-hello-world]: success
+[2023-05-17 04:28:59] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-17 04:29:01] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-05-17 04:29:03] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-17 04:29:03] INFO root fetch - main [MainThread]: Store serial: [18132808]
