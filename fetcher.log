@@ -20480,3 +20480,105 @@ EOFError: EOF read where object expected
 [2023-05-17 17:16:32] INFO root fetch - main [MainThread]: End processing [solara]: success
 [2023-05-17 17:16:32] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
 [2023-05-17 17:16:32] INFO root fetch - main [MainThread]: Store serial: [18141626]
+[2023-05-17 17:21:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141626]
+[2023-05-17 17:21:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pvbm
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musiclang
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynotiontools
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audiodiffusion
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapy-processors
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-add-python
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptsubtitler
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: not1mm
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enot-latency-server
+[2023-05-17 17:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eispac
+[2023-05-17 17:21:43] INFO root fetch - processPackages [musiclang]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [audiodiffusion]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [gptsubtitler]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [test-add-python]: New version: [0.5] Old Version: [0.4]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [eispac]: New version: [0.94.4.dev0] Old Version: [0.94.1]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [pvbm]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [scrapy-processors]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [eispac]: Downloading https://files.pythonhosted.org/packages/7b/b1/f6c255ec38026a571cd47efb2b9d7922a21ca80de5ec1aac0daecc3df539/eispac-0.94.1.tar.gz
+[2023-05-17 17:21:43] WARNING root fetch - processPackages [enot-latency-server]: Skipping, unable to determine old version
+[2023-05-17 17:21:43] INFO root fetch - processPackages [enot-latency-server]: Start processing: unigui
+[2023-05-17 17:21:43] INFO root fetch - main [MainThread]: End processing [enot-latency-server] error
+[2023-05-17 17:21:43] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-05-17 17:21:43] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230517/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 17:21:43] INFO root fetch - processPackages [not1mm]: New version: [23.5.9.2] Old Version: [23.5.9.1]
+[2023-05-17 17:21:43] WARNING root fetch - processPackages [eispac]: Skipping package: exceeds size limit 10742167>=10485760
+[2023-05-17 17:21:43] INFO root fetch - processPackages [eispac]: Start processing: QuickMQ
+[2023-05-17 17:21:43] INFO root fetch - main [MainThread]: End processing [eispac] error
+[2023-05-17 17:21:43] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/14/47/921f0f0f455d5e5f8136699d47373a0356980cf9f4414cd06d74c3d49bb3/test_add_python-0.4.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [audiodiffusion]: Downloading https://files.pythonhosted.org/packages/be/84/8d75d08ef3b59d3e4941529571915e9b59dca6e828b170a9eb02888d1db1/audiodiffusion-1.5.3.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [unigui]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [scrapy-processors]: Downloading https://files.pythonhosted.org/packages/e1/37/58dec5ca0a48d330c797ed6a249db6729de00e0c82c6b146259e1bf8a91a/scrapy_processors-1.0.1.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [gptsubtitler]: Downloading https://files.pythonhosted.org/packages/7f/a7/114266ca13fa9eaaf152e71ef834a855917d1e26e29888a70333b2d9cc71/gptsubtitler-0.0.6.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [QuickMQ]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-17 17:21:43] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/07/fd/4d7cfe2fac698e93b160e1f917a478c5f9330115b26bd349f231b20b8cd0/pvbm-2.1.0.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/ed/c7/5c63a48c2a7fdeedac9c2684b6d0075a8861e5a1713360410089d2e6cf05/not1mm-23.5.9.1.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [gptsubtitler]: executing diffoscope
+[2023-05-17 17:21:43] INFO root fetch - processPackages [gptsubtitler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptsubtitler-0.0.5.tar.gz tmp/gptsubtitler-0.0.6.tar.gz --markdown 20230517/g/gptsubtitler/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 17:21:43] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/f5/69/b27afc9efd23c3765fe856d3a4fb7350eae86a6fca1732bd237097c5b1bf/test_add_python-0.5.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-05-17 17:21:43] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.8.tar.gz tmp/musiclang-0.8.9.tar.gz --markdown 20230517/m/musiclang/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-17 17:21:43] INFO root fetch - processPackages [QuickMQ]: Downloading https://files.pythonhosted.org/packages/02/84/512c3523b3b71ffd5f6894a6c3ff69c6985b1f24690698123d619bec15da/QuickMQ-0.8.2.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/2c/c9/70d4ec28381da11dfd617847c8616a29645d527cb449acb75966e578877d/unigui-1.4.4.tar.gz
+[2023-05-17 17:21:43] INFO root fetch - processPackages [scrapy-processors]: Downloading https://files.pythonhosted.org/packages/aa/84/502e9de8e3cee8788cc77d766320eabdee6dc2f4a5068a4583390e0c4926/scrapy_processors-1.1.0.tar.gz
+[2023-05-17 17:21:44] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-2.0.0.tar.gz tmp/pvbm-2.1.0.tar.gz --markdown 20230517/p/pvbm/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [audiodiffusion]: Downloading https://files.pythonhosted.org/packages/a6/72/3a84771868840d8b0e5f2620c2ffd09a7d6fcef5b41890d9c39a5f451270/audiodiffusion-1.5.4.tar.gz
+[2023-05-17 17:21:44] INFO root fetch - processPackages [scrapy-processors]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [scrapy-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_processors-1.0.1.tar.gz tmp/scrapy_processors-1.1.0.tar.gz --markdown 20230517/s/scrapy-processors/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [test-add-python]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [test-add-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_add_python-0.4.tar.gz tmp/test_add_python-0.5.tar.gz --markdown 20230517/t/test-add-python/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [QuickMQ]: Downloading https://files.pythonhosted.org/packages/8a/d0/593e52ab3234e97e665fcb7b689c7db229d8f7018b3d5e40d6ba474d76b5/QuickMQ-0.8.3.tar.gz
+[2023-05-17 17:21:44] INFO root fetch - processPackages [audiodiffusion]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [audiodiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiodiffusion-1.5.3.tar.gz tmp/audiodiffusion-1.5.4.tar.gz --markdown 20230517/a/audiodiffusion/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/9c/d2/f6d8777eac2402436e05af1a8cfe933637a56517b4689677f310af7926d8/unigui-1.4.5.tar.gz
+[2023-05-17 17:21:44] INFO root fetch - processPackages [QuickMQ]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [QuickMQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuickMQ-0.8.2.tar.gz tmp/QuickMQ-0.8.3.tar.gz --markdown 20230517/Q/QuickMQ/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/00/e6/d00294203db38e202ea164b1100176c5d420b80fe61e312c38cd36586173/not1mm-23.5.9.2.tar.gz
+[2023-05-17 17:21:44] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.4.4.tar.gz tmp/unigui-1.4.5.tar.gz --markdown 20230517/u/unigui/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-17 17:21:44] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.9.1.tar.gz tmp/not1mm-23.5.9.2.tar.gz --markdown 20230517/n/not1mm/23.5.9.1-23.5.9.2/diff.md --exclude *.pyd
+[2023-05-17 17:21:44] INFO root fetch - processPackages [mynotiontools]: Start processing: numina-data-client
+[2023-05-17 17:21:44] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-05-17 17:21:44] INFO root fetch - processPackages [numina-data-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 17:21:45] INFO root fetch - processPackages [numina-data-client]: executing diffoscope
+[2023-05-17 17:21:45] INFO root fetch - processPackages [numina-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numina-data-client-0.8.0.tar.gz tmp/numina-data-client-0.9.0.tar.gz --markdown 20230517/n/numina-data-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 17:21:45] INFO root fetch - processPackages [gptsubtitler]: Start processing: QuNet
+[2023-05-17 17:21:45] INFO root fetch - main [MainThread]: End processing [gptsubtitler]: success
+[2023-05-17 17:21:45] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 17:21:45] INFO root fetch - processPackages [scrapy-processors]: Start processing: femagtools
+[2023-05-17 17:21:45] INFO root fetch - main [MainThread]: End processing [scrapy-processors]: success
+[2023-05-17 17:21:45] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-17 17:21:45] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230517/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 17:21:45] INFO root fetch - processPackages [femagtools]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-17 17:21:45] INFO root fetch - processPackages [pvbm]: Start processing: ural
+[2023-05-17 17:21:45] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-05-17 17:21:45] INFO root fetch - processPackages [test-add-python]: Start processing: rapidpro-flow-tools
+[2023-05-17 17:21:45] INFO root fetch - main [MainThread]: End processing [test-add-python]: success
+[2023-05-17 17:21:45] INFO root fetch - processPackages [ural]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 17:21:45] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/ba/9a/aac7b6fe8fc22ac96fa66bf90f52c8c9200c64e48455ec88d51c405576e9/femagtools-1.2.7.tar.gz
+[2023-05-17 17:21:45] WARNING root fetch - processPackages [rapidpro-flow-tools]: Skipping, unable to determine old version
+[2023-05-17 17:21:45] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools] error
+[2023-05-17 17:21:46] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/f4/e5/a271a9f3c09f5ab118bade0be5451084882b62d366453410b5b99716dc20/ural-0.8.0.tar.gz
+[2023-05-17 17:21:46] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/4f/35/3363f8a5224c2ae78c8886016a79a0aa36aa8bfdc0119cbec7893fefff1c/femagtools-1.2.8.tar.gz
+[2023-05-17 17:21:46] INFO root fetch - main [MainThread]: End processing [QuickMQ]: success
+[2023-05-17 17:21:46] INFO root fetch - main [MainThread]: End processing [audiodiffusion]: success
+[2023-05-17 17:21:46] INFO root fetch - processPackages [femagtools]: executing diffoscope
+[2023-05-17 17:21:46] INFO root fetch - processPackages [femagtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femagtools-1.2.7.tar.gz tmp/femagtools-1.2.8.tar.gz --markdown 20230517/f/femagtools/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-17 17:21:46] INFO root fetch - main [MainThread]: End processing [numina-data-client]: success
+[2023-05-17 17:21:46] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-05-17 17:21:46] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8d/1a/a55321eefe2a11952939c061467755bbb0efafe278341985aebf3333527c/ural-0.9.0.tar.gz
+[2023-05-17 17:21:46] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-05-17 17:21:46] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.8.0.tar.gz tmp/ural-0.9.0.tar.gz --markdown 20230517/u/ural/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 17:21:46] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-17 17:21:47] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-05-17 17:21:48] INFO root fetch - main [MainThread]: End processing [femagtools]: success
+[2023-05-17 17:21:48] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-05-17 17:21:49] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-17 17:21:49] INFO root fetch - main [MainThread]: Store serial: [18141693]
