@@ -12033,3 +12033,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 11:17:57] INFO root fetch - main [MainThread]: End processing [openxlab-test]: success
 [2023-05-17 11:17:57] INFO root fetch - main [MainThread]: End processing [django-cards]: success
 [2023-05-17 11:17:57] INFO root fetch - main [MainThread]: Store serial: [18136937]
+[2023-05-17 11:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136937]
+[2023-05-17 11:23:06] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perun.connector
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daisytuner-llvm
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor-dev
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcai-datasets-nightly
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collecting-faces
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-05-17 11:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bioino
+[2023-05-17 11:23:06] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 11:23:06] INFO root fetch - processPackages [perun.connector]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-05-17 11:23:06] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-17 11:23:06] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230517.9.18.788519] Old Version: [20230517.8.8.983554]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [collecting-faces]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [daisytuner-llvm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.7.dev202305170919] Old Version: [0.1.7.dev202305040643]
+[2023-05-17 11:23:07] WARNING root fetch - processPackages [bioino]: Skipping, unable to determine old version
+[2023-05-17 11:23:07] INFO root fetch - processPackages [bioino]: Start processing: portfolyo
+[2023-05-17 11:23:07] INFO root fetch - main [MainThread]: End processing [bioino] error
+[2023-05-17 11:23:07] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230517/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [perun.connector]: Downloading https://files.pythonhosted.org/packages/f4/ca/48d2f5da93a89284168023649bcf167473a42a4dddbee7c90e8b91c52204/perun.connector-3.5.0.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [portfolyo]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [collecting-faces]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/9e/84/f07432b85b416afa4d460b998ccdd7b55651df9c624170e80896e937e052/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230517.8.8.983554.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [collecting-faces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collecting_faces-0.0.1.tar.gz tmp/collecting_faces-1.0.0.tar.gz --markdown 20230517/c/collecting-faces/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [daisytuner-llvm]: Downloading https://files.pythonhosted.org/packages/a1/04/f26b79636e8d84070dd47ac6b1c4c1a4e44b6ba49ae60314fc4a8efd1e7c/daisytuner_llvm-0.0.1-py3-none-any.whl
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/4d/30/2c407698f9065dcf3f3639861dfc493864665a05c4eefec24c7846d5d99c/hcai-datasets-nightly-0.1.7.dev202305040643.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-05-17 11:23:07] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 38742514>=10485760
+[2023-05-17 11:23:07] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Start processing: odoo-addon-sale-report-delivered
+[2023-05-17 11:23:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [portfolyo]: Downloading https://files.pythonhosted.org/packages/4f/86/619e7b73c02cc60d4bca31d1f06826395b3d9df22865e25ff092fffae260/portfolyo-0.5.1.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [daisytuner-llvm]: Downloading https://files.pythonhosted.org/packages/46/6a/577b2e8912489493cc49c895030a2daf818966e77e4f8055f3a9d9f01709/daisytuner_llvm-0.0.2-py3-none-any.whl
+[2023-05-17 11:23:07] INFO root fetch - processPackages [odoo-addon-sale-report-delivered]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.1]
+[2023-05-17 11:23:07] INFO root fetch - processPackages [daisytuner-llvm]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [daisytuner-llvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisytuner_llvm-0.0.1-py3-none-any.whl.zip tmp/daisytuner_llvm-0.0.2-py3-none-any.whl.zip --markdown 20230517/d/daisytuner-llvm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230517/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [perun.connector]: Downloading https://files.pythonhosted.org/packages/27/95/12950013744c136eb2927385b87e2b7bcca4e61cc7a013334917428f8ae4/perun.connector-3.6.0.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230517/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [portfolyo]: Downloading https://files.pythonhosted.org/packages/a2/23/2f91a4a1f64fd3abd748bf6b3ed9cf4ce5f88ba75efa687bd77b1902b58c/portfolyo-0.5.2.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [odoo-addon-sale-report-delivered]: Downloading https://files.pythonhosted.org/packages/fb/8f/97f32b18cd6e2042a77ac83945ac7f4d9400954d7f6539b3aa40974a44b5/odoo_addon_sale_report_delivered-15.0.1.0.0.1-py3-none-any.whl
+[2023-05-17 11:23:07] INFO root fetch - processPackages [perun.connector]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [perun.connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.connector-3.5.0.tar.gz tmp/perun.connector-3.6.0.tar.gz --markdown 20230517/p/perun.connector/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/d0/6a/6a4c102bd5da0bf8a2891ecfce768e251a6babf92f8f0e2b6e94141233a4/hcai-datasets-nightly-0.1.7.dev202305170919.tar.gz
+[2023-05-17 11:23:07] INFO root fetch - processPackages [portfolyo]: executing diffoscope
+[2023-05-17 11:23:07] INFO root fetch - processPackages [portfolyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolyo-0.5.1.tar.gz tmp/portfolyo-0.5.2.tar.gz --markdown 20230517/p/portfolyo/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-17 11:23:07] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-05-17 11:23:08] INFO root fetch - processPackages [odoo-addon-sale-report-delivered]: Downloading https://files.pythonhosted.org/packages/12/3c/b35ba971e7469015499c510fb45b13faf7e5c58c303593659ffc8defd4b9/odoo_addon_sale_report_delivered-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-17 11:23:08] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-17 11:23:08] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.7.dev202305040643.tar.gz tmp/hcai-datasets-nightly-0.1.7.dev202305170919.tar.gz --markdown 20230517/h/hcai-datasets-nightly/0.1.7.dev202305040643-0.1.7.dev202305170919/diff.md --exclude *.pyd
+[2023-05-17 11:23:08] INFO root fetch - processPackages [odoo-addon-sale-report-delivered]: executing diffoscope
+[2023-05-17 11:23:08] INFO root fetch - processPackages [odoo-addon-sale-report-delivered]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_report_delivered-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_report_delivered-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230517/o/odoo-addon-sale-report-delivered/15.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-17 11:23:08] INFO root fetch - processPackages [collecting-faces]: Start processing: minknow-api
+[2023-05-17 11:23:08] INFO root fetch - main [MainThread]: End processing [collecting-faces]: success
+[2023-05-17 11:23:08] INFO root fetch - processPackages [je-editor-dev]: Start processing: PyRVCTestC
+[2023-05-17 11:23:08] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-17 11:23:08] INFO root fetch - processPackages [minknow-api]: New version: [5.5.2] Old Version: [5.4.0]
+[2023-05-17 11:23:08] WARNING root fetch - processPackages [PyRVCTestC]: Skipping, unable to determine old version
+[2023-05-17 11:23:08] INFO root fetch - processPackages [PyRVCTestC]: Start processing: tinybird-cli
+[2023-05-17 11:23:08] INFO root fetch - main [MainThread]: End processing [PyRVCTestC] error
+[2023-05-17 11:23:08] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-17 11:23:08] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-05-17 11:23:08] INFO root fetch - processPackages [minknow-api]: Downloading https://files.pythonhosted.org/packages/2a/3c/6e63c48014d11d6524821276e39aebd1c3959816410687dcc83d7f37f033/minknow_api-5.4.0.tar.gz
+[2023-05-17 11:23:08] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-17 11:23:08] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230517/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-17 11:23:08] INFO root fetch - processPackages [daisytuner-llvm]: Start processing: gamma-facet
+[2023-05-17 11:23:08] INFO root fetch - main [MainThread]: End processing [daisytuner-llvm]: success
+[2023-05-17 11:23:09] INFO root fetch - processPackages [gamma-facet]: New version: [2.0rc2] Old Version: [2.0rc1]
+[2023-05-17 11:23:09] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-05-17 11:23:09] INFO root fetch - processPackages [minknow-api]: Downloading https://files.pythonhosted.org/packages/ce/f6/783c95f73cbc82647a094e25ca671909193f0aed1075b367fab067c0af7a/minknow_api-5.5.2.tar.gz
+[2023-05-17 11:23:09] INFO root fetch - processPackages [minknow-api]: executing diffoscope
+[2023-05-17 11:23:09] INFO root fetch - processPackages [minknow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minknow_api-5.4.0.tar.gz tmp/minknow_api-5.5.2.tar.gz --markdown 20230517/m/minknow-api/5.4.0-5.5.2/diff.md --exclude *.pyd
+[2023-05-17 11:23:09] INFO root fetch - processPackages [gamma-facet]: Downloading https://files.pythonhosted.org/packages/05/66/e027fc4db53962b4ccf247035d1d4e7958252eb0330e4d0a8de5eea7156f/gamma-facet-2.0rc1.tar.gz
+[2023-05-17 11:23:09] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-17 11:23:09] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230517/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-17 11:23:09] INFO root fetch - processPackages [spanishconjugator]: Start processing: agsi
+[2023-05-17 11:23:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-17 11:23:09] INFO root fetch - processPackages [spanishconjugator]: Start processing: dismake
+[2023-05-17 11:23:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-17 11:23:09] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 11:23:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-delivered]: success
+[2023-05-17 11:23:09] WARNING root fetch - processPackages [agsi]: Skipping, unable to determine old version
+[2023-05-17 11:23:09] INFO root fetch - main [MainThread]: End processing [agsi] error
+[2023-05-17 11:23:09] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-17 11:23:09] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230517/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:23:09] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-17 11:23:10] INFO root fetch - processPackages [gamma-facet]: Downloading https://files.pythonhosted.org/packages/7c/27/1f599e66e659d0fa7bf26d344a13c1786a1e3d26be0dc2f99ab709d40f4b/gamma-facet-2.0rc2.tar.gz
+[2023-05-17 11:23:10] INFO root fetch - processPackages [gamma-facet]: executing diffoscope
+[2023-05-17 11:23:10] INFO root fetch - processPackages [gamma-facet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamma-facet-2.0rc1.tar.gz tmp/gamma-facet-2.0rc2.tar.gz --markdown 20230517/g/gamma-facet/2.0rc1-2.0rc2/diff.md --exclude *.pyd
+[2023-05-17 11:23:10] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-17 11:23:10] INFO root fetch - main [MainThread]: End processing [portfolyo]: success
+[2023-05-17 11:23:11] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-17 11:23:11] INFO root fetch - main [MainThread]: End processing [minknow-api]: success
+[2023-05-17 11:23:12] INFO root fetch - main [MainThread]: End processing [perun.connector]: success
+[2023-05-17 11:23:12] INFO root fetch - main [MainThread]: End processing [gamma-facet]: success
+[2023-05-17 11:23:14] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-17 11:23:14] INFO root fetch - main [MainThread]: Store serial: [18136992]
