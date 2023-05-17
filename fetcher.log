@@ -11672,3 +11672,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 10:56:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-17 10:56:38] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
 [2023-05-17 10:56:38] INFO root fetch - main [MainThread]: Store serial: [18136743]
+[2023-05-17 11:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18136743]
+[2023-05-17 11:01:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu117
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sccca
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-socio-grpc
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encord-active
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: igwn-lldd-common
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cst-modeling3d
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: expl-perf-drop
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: signal-export
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: helios-opentelemetry-sdk
+[2023-05-17 11:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydae
+[2023-05-17 11:01:48] INFO root fetch - processPackages [signal-export]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.9] Old Version: [1.0.81]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [expl-perf-drop]: New version: [0.4] Old Version: [0.3]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/e6/05/1bbd00267f3c884d181541f708a49a79bcab8d774faf12ebdf66d94857d3/helios-opentelemetry-sdk-1.0.81.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [sccca]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [igwn-lldd-common]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [cst-modeling3d]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [expl-perf-drop]: executing diffoscope
+[2023-05-17 11:01:48] INFO root fetch - processPackages [expl-perf-drop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expl_perf_drop-0.3.tar.gz tmp/expl_perf_drop-0.4.tar.gz --markdown 20230517/e/expl-perf-drop/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-17 11:01:48] INFO root fetch - processPackages [signal-export]: Downloading https://files.pythonhosted.org/packages/39/a4/40a44f19807f78e5f174ca338c396acacab3cd3de2b401708f300734bf87/signal-export-1.5.5.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/01/19/02160d1da998c32692c25c360b677e53fc0179b7fad78e499a7767dcbbea/helios-opentelemetry-sdk-1.0.9.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [sccca]: Downloading https://files.pythonhosted.org/packages/bd/43/fffa650421e6b734517617a630c5ebc07496f4e826e3ac4adbcc995292f4/sccca-0.3.0.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 11:01:48] INFO root fetch - processPackages [igwn-lldd-common]: Downloading https://files.pythonhosted.org/packages/06/83/fa68de87d8541506f3d3240a21497c7c7fcb8e50b4169f45d00a2d12bd09/igwn-lldd-common-0.1.0.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [cst-modeling3d]: Downloading https://files.pythonhosted.org/packages/73/ec/805387266e6e80dd9635ff2cbf8c18ff30a63461e9fc17b93afef777d551/cst_modeling3d-0.2.3.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2023-05-17 11:01:48] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-05-17 11:01:48] INFO root fetch - processPackages [pydae]: Start processing: yuanfen
+[2023-05-17 11:01:48] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-05-17 11:01:48] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-05-17 11:01:48] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.81.tar.gz tmp/helios-opentelemetry-sdk-1.0.9.tar.gz --markdown 20230517/h/helios-opentelemetry-sdk/1.0.81-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:01:48] INFO root fetch - processPackages [yuanfen]: New version: [2023.5.17.1] Old Version: [2023.4.24.9]
+[2023-05-17 11:01:48] INFO root fetch - processPackages [sccca]: Downloading https://files.pythonhosted.org/packages/82/75/24b0e7846240234b373bdbf28574c18a59e2e47932d8acd560954f9e6bd4/sccca-0.3.1.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [igwn-lldd-common]: Downloading https://files.pythonhosted.org/packages/ee/56/11e165119d9c2c357e10197e0b598445893107598a62bd162608afcc30b1/igwn-lldd-common-0.2.0.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [cst-modeling3d]: Downloading https://files.pythonhosted.org/packages/5f/96/12331502d9d8832e6155c96a47a22fa5e777e83b461162cd40bbee779263/cst_modeling3d-0.2.4.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [signal-export]: Downloading https://files.pythonhosted.org/packages/61/c9/e0213a75e520c8a1bbcb44ca0a15a1eca405502856f68cf1af97ac470d7f/signal-export-1.6.0.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2023-05-17 11:01:48] INFO root fetch - processPackages [igwn-lldd-common]: executing diffoscope
+[2023-05-17 11:01:48] INFO root fetch - processPackages [igwn-lldd-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igwn-lldd-common-0.1.0.tar.gz tmp/igwn-lldd-common-0.2.0.tar.gz --markdown 20230517/i/igwn-lldd-common/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 11:01:48] INFO root fetch - processPackages [cst-modeling3d]: executing diffoscope
+[2023-05-17 11:01:48] INFO root fetch - processPackages [cst-modeling3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cst_modeling3d-0.2.3.tar.gz tmp/cst_modeling3d-0.2.4.tar.gz --markdown 20230517/c/cst-modeling3d/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-17 11:01:48] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/71/db/d8fa271d597c557a530de9c2302547c3ddc97c1134f497779ee924ff0a25/yuanfen-2023.4.24.9.tar.gz
+[2023-05-17 11:01:49] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2023-05-17 11:01:49] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20230517/d/django-socio-grpc/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 11:01:49] INFO root fetch - processPackages [sccca]: executing diffoscope
+[2023-05-17 11:01:49] INFO root fetch - processPackages [sccca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccca-0.3.0.tar.gz tmp/sccca-0.3.1.tar.gz --markdown 20230517/s/sccca/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-17 11:01:49] INFO root fetch - processPackages [signal-export]: executing diffoscope
+[2023-05-17 11:01:49] INFO root fetch - processPackages [signal-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-export-1.5.5.tar.gz tmp/signal-export-1.6.0.tar.gz --markdown 20230517/s/signal-export/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-05-17 11:01:49] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-05-17 11:01:49] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230517/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 11:01:49] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/3d/67/4107258e44dffb4093ccad5f61bd323c3d2f2124425620a1b4f2871fdcec/yuanfen-2023.5.17.1.tar.gz
+[2023-05-17 11:01:49] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 11:01:49] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2023-05-17 11:01:49] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2023.4.24.9.tar.gz tmp/yuanfen-2023.5.17.1.tar.gz --markdown 20230517/y/yuanfen/2023.4.24.9-2023.5.17.1/diff.md --exclude *.pyd
+[2023-05-17 11:01:49] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-05-17 11:01:49] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-17 11:01:50] INFO root fetch - processPackages [expl-perf-drop]: Start processing: mynotiontools
+[2023-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [expl-perf-drop]: success
+[2023-05-17 11:01:50] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-05-17 11:01:50] INFO root fetch - processPackages [mynotiontools]: Downloading https://files.pythonhosted.org/packages/98/13/e13d212d46ad4214423d4ea8f63f8515b313e0633b2cef00e79aa09885f2/mynotiontools-0.0.8.2.tar.gz
+[2023-05-17 11:01:50] INFO root fetch - processPackages [sccca]: Start processing: hent
+[2023-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [sccca]: success
+[2023-05-17 11:01:50] INFO root fetch - processPackages [hent]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-05-17 11:01:50] INFO root fetch - processPackages [yuanfen]: Start processing: openxlab-test
+[2023-05-17 11:01:50] INFO root fetch - processPackages [mynotiontools]: Downloading https://files.pythonhosted.org/packages/76/ec/1e88a508d5f7fec01a34e865832e94eae00dd0f9b8ae9215bd223573b340/mynotiontools-0.0.9.tar.gz
+[2023-05-17 11:01:50] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2023-05-17 11:01:51] WARNING root fetch - processPackages [openxlab-test]: Skipping, unable to determine old version
+[2023-05-17 11:01:51] INFO root fetch - processPackages [openxlab-test]: Start processing: py-redis-utils
+[2023-05-17 11:01:51] INFO root fetch - main [MainThread]: End processing [openxlab-test] error
+[2023-05-17 11:01:51] INFO root fetch - processPackages [hent]: Downloading https://files.pythonhosted.org/packages/f5/80/9a4dab237483917fd4d056afd2c3061db60832a2cb6fe88bfba26d199607/hent-1.0.3.tar.gz
+[2023-05-17 11:01:51] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-05-17 11:01:51] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230517/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:01:51] INFO root fetch - processPackages [py-redis-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 11:01:51] INFO root fetch - processPackages [signal-export]: Start processing: uberduck
+[2023-05-17 11:01:51] INFO root fetch - main [MainThread]: End processing [signal-export]: success
+[2023-05-17 11:01:51] INFO root fetch - processPackages [hent]: Downloading https://files.pythonhosted.org/packages/00/15/edb8fd2e7b16faa9f96ee384c719e9e51212562ca0d6de6290a78001c3e6/hent-1.0.5.tar.gz
+[2023-05-17 11:01:51] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/74/91/5f38ae5cdc0f58b67356154b3506a146e7bd59f7471f150353f12ca07bc4/py-redis-utils-1.0.8.tar.gz
+[2023-05-17 11:01:51] INFO root fetch - processPackages [uberduck]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 11:01:51] INFO root fetch - processPackages [hent]: executing diffoscope
+[2023-05-17 11:01:51] INFO root fetch - processPackages [hent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hent-1.0.3.tar.gz tmp/hent-1.0.5.tar.gz --markdown 20230517/h/hent/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 11:01:51] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/63/cb/2e72f403cf285303d6450af5ef1406d30059a148d29c42503ef3db3ec778/py-redis-utils-1.0.9.tar.gz
+[2023-05-17 11:01:51] INFO root fetch - main [MainThread]: End processing [igwn-lldd-common]: success
+[2023-05-17 11:01:51] INFO root fetch - processPackages [uberduck]: Downloading https://files.pythonhosted.org/packages/6c/b3/fd08db2b6199a74a002d270ca7bae50bf32ef7c0adc37f04c809f9a18e92/uberduck-0.0.4.tar.gz
+[2023-05-17 11:01:51] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-05-17 11:01:51] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-1.0.8.tar.gz tmp/py-redis-utils-1.0.9.tar.gz --markdown 20230517/p/py-redis-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 11:01:51] INFO root fetch - main [MainThread]: End processing [cst-modeling3d]: success
+[2023-05-17 11:01:52] INFO root fetch - processPackages [uberduck]: Downloading https://files.pythonhosted.org/packages/7e/a1/8985e0b76e8b9d06bf626bbffb0c3e19f81b807f3e301a7112002d97e9f9/uberduck-0.0.5.tar.gz
+[2023-05-17 11:01:52] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2023-05-17 11:01:52] INFO root fetch - processPackages [uberduck]: executing diffoscope
+[2023-05-17 11:01:52] INFO root fetch - processPackages [uberduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uberduck-0.0.4.tar.gz tmp/uberduck-0.0.5.tar.gz --markdown 20230517/u/uberduck/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 11:01:52] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-05-17 11:01:53] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-05-17 11:01:53] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-05-17 11:01:53] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-05-17 11:01:53] INFO root fetch - main [MainThread]: End processing [hent]: success
+[2023-05-17 11:01:53] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-05-17 11:01:54] INFO root fetch - main [MainThread]: End processing [uberduck]: success
+[2023-05-17 11:01:54] INFO root fetch - main [MainThread]: Store serial: [18136796]
