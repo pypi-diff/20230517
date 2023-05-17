@@ -4883,3 +4883,73 @@
 [2023-05-17 04:29:01] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-05-17 04:29:03] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-17 04:29:03] INFO root fetch - main [MainThread]: Store serial: [18132808]
+[2023-05-17 04:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132808]
+[2023-05-17 04:34:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ufusion
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ooouno
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dexchange-sms
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dytnsapi20200217
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-26
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-25
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: health-calc-pack-py
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: read-rapidpe
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s2aff
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ooouno]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [ufusion]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 04:34:12] WARNING root fetch - processPackages [dexchange-sms]: Skipping, unable to determine old version
+[2023-05-17 04:34:12] INFO root fetch - processPackages [dexchange-sms]: Start processing: videoslides
+[2023-05-17 04:34:12] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 04:34:12] INFO root fetch - main [MainThread]: End processing [dexchange-sms] error
+[2023-05-17 04:34:12] INFO root fetch - processPackages [health-calc-pack-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [s2aff]: New version: [0.49] Old Version: [0.48]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230517] Old Version: [1.2.20230516]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [videoslides]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 04:34:12] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-17 04:34:12] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-17 04:34:12] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230517/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-17 04:34:12] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230517/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/86/9a/e1ffba3d83dbacebfa353d922178b4eb36310f922edf41b191dbf417db8e/ufusion-1.0.2.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/e2/ac/5de6e20393f22513866c5d341d36307c42d8de48c0112445a746042fd6ef/s2aff-0.48.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ooouno]: Downloading https://files.pythonhosted.org/packages/75/92/c04b25a24c233d99d93ace23727fc4302eb7ca3f3fdd98734adad27dbd31/ooouno-2.0.1.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/f4/f6/de4bcaa09b05096fc9c84fcf97b4ae9f41117dd89a8fc1e492dafeaae968/iam_actions-1.2.20230516.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/a7/48/944f1f979abe7195eef5e86cce6077bed19b7b0f3de61ce0b27f08181188/health_calc_pack_py-0.3.0.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/d6/9b/aa721ecfced1626b8a175aad10c22ee879e11a8f0cdd21de3bf79c10df95/read_rapidpe-0.5.1.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/ca/e7/ea0e7b6fe52a3b06f8884ff07db7ef71da51bf7e1555622c7fd33f74ee60/alibabacloud_dytnsapi20200217-1.0.8.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/8c/b4/b750f2b50c52b9ab4ae87040122a7b80cb636ba04a29717e8f0ae8c65b41/videoslides-0.0.2.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [health-calc-pack-py]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [health-calc-pack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/health_calc_pack_py-0.2.0.tar.gz tmp/health_calc_pack_py-0.3.0.tar.gz --markdown 20230517/h/health-calc-pack-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.0.tar.gz tmp/read_rapidpe-0.5.1.tar.gz --markdown 20230517/r/read-rapidpe/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/ce/09/6ec94bca5f04a79b747b2d4c48c20b34bd04e56b8cd009b5f55c24336421/s2aff-0.49.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/e3/f7/5337a5e32d54996437cc0ce13123c3961b9f00375fded7d370d415025441/ufusion-1.0.3.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d4/62/4a713886e99fe584e8ca9d0d0b9eb9551a2cbe9c8f115dac8ebad7cc048e/iam_actions-1.2.20230517.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/90/e4/bfac9f37474d00b7053b752d73717630179a4aed5b0700f11ebf5327a4f4/alibabacloud_dytnsapi20200217-1.0.9.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.48.tar.gz tmp/s2aff-0.49.tar.gz --markdown 20230517/s/s2aff/0.48-0.49/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/aa/fe/2f1dbf081e3a96006f6d1f87bb59e373f8dbc555872dfe64c50990dcf5ac/videoslides-0.0.3.tar.gz
+[2023-05-17 04:34:13] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20200217-1.0.8.tar.gz tmp/alibabacloud_dytnsapi20200217-1.0.9.tar.gz --markdown 20230517/a/alibabacloud-dytnsapi20200217/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.2.tar.gz tmp/ufusion-1.0.3.tar.gz --markdown 20230517/u/ufusion/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.2.tar.gz tmp/videoslides-0.0.3.tar.gz --markdown 20230517/v/videoslides/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ooouno]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [ooouno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooouno-2.0.0.tar.gz tmp/ooouno-2.0.1.tar.gz --markdown 20230517/o/ooouno/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-17 04:34:13] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-17 04:34:13] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230516.tar.gz tmp/iam_actions-1.2.20230517.tar.gz --markdown 20230517/i/iam-actions/1.2.20230516-1.2.20230517/diff.md --exclude *.pyd
+[2023-05-17 04:34:14] INFO root fetch - main [MainThread]: End processing [health-calc-pack-py]: success
+[2023-05-17 04:34:14] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-17 04:34:14] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 04:34:14] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-05-17 04:34:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20200217]: success
+[2023-05-17 04:34:15] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-17 04:34:17] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-17 04:34:17] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-17 04:34:18] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-17 04:37:13] ERROR root fetch - processPackages [ooouno]: Timeout during execution of pkgdiff
+[2023-05-17 04:37:13] INFO root fetch - main [MainThread]: End processing [ooouno] error
+[2023-05-17 04:37:13] INFO root fetch - main [MainThread]: Store serial: [18132847]
