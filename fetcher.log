@@ -7752,3 +7752,28 @@
 [2023-05-17 06:22:55] INFO root fetch - main [MainThread]: End processing [arxivai]: success
 [2023-05-17 06:22:57] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-05-17 06:22:57] INFO root fetch - main [MainThread]: Store serial: [18134249]
+[2023-05-17 06:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134249]
+[2023-05-17 06:28:06] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-17 06:33:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134251]
+[2023-05-17 06:33:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-17 06:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-rename
+[2023-05-17 06:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nzooherd-torch
+[2023-05-17 06:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-queuey
+[2023-05-17 06:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflake-connector-python-nightly
+[2023-05-17 06:33:12] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-17 06:33:12] WARNING root fetch - processPackages [nzooherd-torch]: Skipping, unable to determine old version
+[2023-05-17 06:33:12] INFO root fetch - main [MainThread]: End processing [nzooherd-torch] error
+[2023-05-17 06:33:12] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.5.3] Old Version: [2023.5.16]
+[2023-05-17 06:33:12] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-17 06:33:12] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230517/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-17 06:33:12] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-05-17 06:33:12] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-05-17 06:33:12] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.5.16.tar.gz tmp/snowflake-connector-python-nightly-2023.5.3.tar.gz --markdown 20230517/s/snowflake-connector-python-nightly/2023.5.16-2023.5.3/diff.md --exclude *.pyd
+[2023-05-17 06:33:12] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/59/e6/b2c1dbd3286e831a1c0560c2aa29fa0b9e12fd23bec17d211f5a7e987405/nonebot_plugin_rename-1.2.0.tar.gz
+[2023-05-17 06:33:12] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/92/32/16234ccbb5e877654969722eb6433ca1153f46048831ef96d01a4bf7f9b4/nonebot_plugin_rename-1.2.2.tar.gz
+[2023-05-17 06:33:12] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-05-17 06:33:12] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.2.0.tar.gz tmp/nonebot_plugin_rename-1.2.2.tar.gz --markdown 20230517/n/nonebot-plugin-rename/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-05-17 06:33:13] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-17 06:33:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-05-17 06:33:14] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-05-17 06:33:14] INFO root fetch - main [MainThread]: Store serial: [18134262]
