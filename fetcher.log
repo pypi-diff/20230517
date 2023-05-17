@@ -22750,3 +22750,87 @@ EOFError: EOF read where object expected
 [2023-05-17 18:35:42] INFO root fetch - main [MainThread]: End processing [edk2-pytool-library]: success
 [2023-05-17 18:35:42] INFO root fetch - main [MainThread]: End processing [singlestoredb]: success
 [2023-05-17 18:35:42] INFO root fetch - main [MainThread]: Store serial: [18142812]
+[2023-05-17 18:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18142812]
+[2023-05-17 18:40:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-dudi-CERT-2090
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-testmon
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dirt-ssg
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moredata
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: x-ray
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-roy-CERT-2222-versions
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jiujitsu
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manim-course-utils
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grimoire-elk
+[2023-05-17 18:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lexisnexisapi
+[2023-05-17 18:40:52] INFO root fetch - processPackages [pytest-testmon]: New version: [2.0.7b3] Old Version: [2.0.7b1]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [moredata]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: New version: [20230517.7.41.774654] Old Version: [20230517.6.4.37877]
+[2023-05-17 18:40:52] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-2222-versions]: Skipping, unable to determine old version
+[2023-05-17 18:40:52] INFO root fetch - processPackages [dirt-ssg]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-2222-versions]: Start processing: tdw
+[2023-05-17 18:40:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-2222-versions] error
+[2023-05-17 18:40:52] INFO root fetch - processPackages [jiujitsu]: New version: [0.6] Old Version: [0.5]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [manim-course-utils]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [x-ray]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [lexisnexisapi]: New version: [2.0.45] Old Version: [2.0.44]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Downloading https://files.pythonhosted.org/packages/1b/7a/0ab22d0a1d4948f3c4bbbb942c043a73236d506427709f87431660e6482d/certora-cli-alpha-dudi-CERT-2090-20230517.6.4.37877.tar.gz
+[2023-05-17 18:40:52] WARNING root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Skipping package: exceeds size limit 38976261>=10485760
+[2023-05-17 18:40:52] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Start processing: fajrGPT
+[2023-05-17 18:40:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dudi-CERT-2090] error
+[2023-05-17 18:40:52] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-05-17 18:40:52] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230517/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-17 18:40:52] INFO root fetch - processPackages [fajrGPT]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-17 18:40:52] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/52/18/f4bc7fd9555220dc089fd0a0616713cd9e09d63c54ad9927254123bbccd7/pytest-testmon-2.0.7b1.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [x-ray]: Downloading https://files.pythonhosted.org/packages/d4/1a/f50246bb0d57d6816f86a57219d407122501de97cf7eec7ff26dbf391b4a/x-ray-0.3.3.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [lexisnexisapi]: Downloading https://files.pythonhosted.org/packages/40/73/5a671e30a9632b54f21fd11d1f586aeff8d33141a650b55a36ed3162e08f/lexisnexisapi-2.0.44.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [moredata]: Downloading https://files.pythonhosted.org/packages/91/4c/ad72398b8bd3f977acf3c18e28b75eb2fcfe1cdc8fa0a7a9c943525a1cd0/moredata-0.2.5.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [manim-course-utils]: Downloading https://files.pythonhosted.org/packages/35/cf/36dca76cd0fcc8deaf2942ad590a5afbe3b99940060a62c5634a46b4064b/manim_course_utils-0.4.0.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-05-17 18:40:52] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-0.1.2.tar.gz tmp/fajrGPT-0.1.3.tar.gz --markdown 20230517/f/fajrGPT/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-17 18:40:52] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [jiujitsu]: Downloading https://files.pythonhosted.org/packages/91/38/df9b150e60fb259fac4e476ca8e510cb9e9193396aa49e1c06594bf4668c/jiujitsu-0.6.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [dirt-ssg]: Downloading https://files.pythonhosted.org/packages/33/25/8eb8407cbb5105336594d70c7d84af18743daf24da295f812e0454abb3e9/dirt_ssg-0.1.0.tar.gz
+[2023-05-17 18:40:52] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-05-17 18:40:52] INFO root fetch - processPackages [tdw]: Start processing: aws-cdk-secure-api
+[2023-05-17 18:40:52] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-05-17 18:40:52] INFO root fetch - processPackages [jiujitsu]: executing diffoscope
+[2023-05-17 18:40:52] INFO root fetch - processPackages [jiujitsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiujitsu-0.5.tar.gz tmp/jiujitsu-0.6.tar.gz --markdown 20230517/j/jiujitsu/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-17 18:40:52] INFO root fetch - processPackages [lexisnexisapi]: Downloading https://files.pythonhosted.org/packages/62/e1/8a8c4874554326427d131ba3f2ef2a4deb394fb28a774b3399d6ea6f3ef1/lexisnexisapi-2.0.45.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [moredata]: Downloading https://files.pythonhosted.org/packages/25/8c/9e7aede0851f297ddad8d26ea87efe0992f1341ff9f87dd02b40eab3c4ab/moredata-0.2.6.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [manim-course-utils]: Downloading https://files.pythonhosted.org/packages/5a/a9/f9d01036036d99b708241c6a8f0514fb89ab74e432af8e92cec0e2fedc60/manim_course_utils-0.5.0.tar.gz
+[2023-05-17 18:40:52] INFO root fetch - processPackages [lexisnexisapi]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [lexisnexisapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexisnexisapi-2.0.44.tar.gz tmp/lexisnexisapi-2.0.45.tar.gz --markdown 20230517/l/lexisnexisapi/2.0.44-2.0.45/diff.md --exclude *.pyd
+[2023-05-17 18:40:53] INFO root fetch - processPackages [aws-cdk-secure-api]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-17 18:40:53] INFO root fetch - processPackages [x-ray]: Downloading https://files.pythonhosted.org/packages/3f/2b/029fe5eebaffef4a768c3d73128e41a54a5b70b9b142e56ab93035934b9f/x_ray-0.3.4.tar.gz
+[2023-05-17 18:40:53] INFO root fetch - processPackages [moredata]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [moredata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moredata-0.2.5.tar.gz tmp/moredata-0.2.6.tar.gz --markdown 20230517/m/moredata/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-17 18:40:53] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/e1/a9/f710d2f2ede500b554a3c103673ba06668781fca5bb4587e1cfc1e2d05ce/pytest-testmon-2.0.7b3.tar.gz
+[2023-05-17 18:40:53] INFO root fetch - processPackages [manim-course-utils]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [manim-course-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_course_utils-0.4.0.tar.gz tmp/manim_course_utils-0.5.0.tar.gz --markdown 20230517/m/manim-course-utils/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-17 18:40:53] INFO root fetch - processPackages [dirt-ssg]: Downloading https://files.pythonhosted.org/packages/fd/34/0f7a70f0161b436e250bd28e215136004a9116af95ab64f92d392b06a69c/dirt_ssg-0.2.0.tar.gz
+[2023-05-17 18:40:53] INFO root fetch - processPackages [pytest-testmon]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [pytest-testmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testmon-2.0.7b1.tar.gz tmp/pytest-testmon-2.0.7b3.tar.gz --markdown 20230517/p/pytest-testmon/2.0.7b1-2.0.7b3/diff.md --exclude *.pyd
+[2023-05-17 18:40:53] INFO root fetch - processPackages [dirt-ssg]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [dirt-ssg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirt_ssg-0.1.0.tar.gz tmp/dirt_ssg-0.2.0.tar.gz --markdown 20230517/d/dirt-ssg/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 18:40:53] INFO root fetch - processPackages [x-ray]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [x-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-ray-0.3.3.tar.gz tmp/x_ray-0.3.4.tar.gz --markdown 20230517/x/x-ray/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-17 18:40:53] INFO root fetch - processPackages [aws-cdk-secure-api]: Downloading https://files.pythonhosted.org/packages/22/f7/29ac62f737ea6117927d9d7622d73934db6be9dbeecfe93b5b6369a80fd7/aws-cdk-secure-api-0.1.2.tar.gz
+[2023-05-17 18:40:53] INFO root fetch - processPackages [aws-cdk-secure-api]: Downloading https://files.pythonhosted.org/packages/62/b6/aaf5fe08f089e5f39c2d669aac43fe7bb7a50978a9f7f628f762a9ab3f35/aws-cdk-secure-api-0.2.0.tar.gz
+[2023-05-17 18:40:53] INFO root fetch - processPackages [aws-cdk-secure-api]: executing diffoscope
+[2023-05-17 18:40:53] INFO root fetch - processPackages [aws-cdk-secure-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk-secure-api-0.1.2.tar.gz tmp/aws-cdk-secure-api-0.2.0.tar.gz --markdown 20230517/a/aws-cdk-secure-api/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 18:40:54] INFO root fetch - processPackages [fajrGPT]: Start processing: apicurioregistrydkpreview
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-05-17 18:40:54] WARNING root fetch - processPackages [apicurioregistrydkpreview]: Skipping, unable to determine old version
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [apicurioregistrydkpreview] error
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [lexisnexisapi]: success
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [manim-course-utils]: success
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [pytest-testmon]: success
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [x-ray]: success
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [jiujitsu]: success
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [moredata]: success
+[2023-05-17 18:40:54] INFO root fetch - main [MainThread]: End processing [dirt-ssg]: success
+[2023-05-17 18:40:55] INFO root fetch - main [MainThread]: End processing [aws-cdk-secure-api]: success
+[2023-05-17 18:40:57] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-05-17 18:40:57] INFO root fetch - main [MainThread]: Store serial: [18142858]
