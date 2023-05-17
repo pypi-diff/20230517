@@ -18762,3 +18762,98 @@ EOFError: EOF read where object expected
 [2023-05-17 16:06:46] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
 [2023-05-17 16:06:48] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
 [2023-05-17 16:06:48] INFO root fetch - main [MainThread]: Store serial: [18140598]
+[2023-05-17 16:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18140598]
+[2023-05-17 16:11:58] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xmqt
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WebtoonScraper
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statscend
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: effect-edc
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytmv1
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonschema-specifications
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: My-Serializer-For-Json-And-XML-For-Lab3-7
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yalexs
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piicli
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ngsfragments
+[2023-05-17 16:11:58] INFO root fetch - processPackages [statscend]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 16:11:58] WARNING root fetch - processPackages [My-Serializer-For-Json-And-XML-For-Lab3-7]: Skipping, unable to determine old version
+[2023-05-17 16:11:58] INFO root fetch - processPackages [My-Serializer-For-Json-And-XML-For-Lab3-7]: Start processing: moralis
+[2023-05-17 16:11:58] INFO root fetch - processPackages [xmqt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 16:11:58] INFO root fetch - main [MainThread]: End processing [My-Serializer-For-Json-And-XML-For-Lab3-7] error
+[2023-05-17 16:11:58] INFO root fetch - processPackages [effect-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [yalexs]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [piicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [jsonschema-specifications]: New version: [2023.5.1] Old Version: [2023.3.6]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [pytmv1]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [piicli]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [piicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piicli-0.0.8.tar.gz tmp/piicli-0.0.9.tar.gz --markdown 20230517/p/piicli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ngsfragments]: New version: [2.0.1] Old Version: [1.0.8]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [moralis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [statscend]: Downloading https://files.pythonhosted.org/packages/10/b3/f903d277448b91e39e8f37a4a3e23be7273281d578a7388ee9ff41442359/statscend-0.1.7.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/60/d3/fdc9151a861c28e4c2d0619159468ecb856c2e24c92b928e1ad1495dd0f2/effect-edc-0.1.8.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/fc/e1/8e6197b12c283b2d0138442667e50ebf451bc0013b2842eb6c4758b6b6aa/WebtoonScraper-0.0.5.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [xmqt]: Downloading https://files.pythonhosted.org/packages/14/24/93a093b53fcc80b57a805527c7c6c0bad5ac8615a319c6824bcc7d0ac9a0/xmqt-1.0.8.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [jsonschema-specifications]: Downloading https://files.pythonhosted.org/packages/3f/ca/f6def93c00c421f4d1711126e1052f5ed4b38a5703a4257657a626fa8346/jsonschema_specifications-2023.3.6.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/34/cc/d0509bdad61c6bd769d25c7ab37dc448caa6dda7e4ea7bc0cbd79196e0fa/yalexs-1.3.3.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [pytmv1]: Downloading https://files.pythonhosted.org/packages/41/2d/da6008434ff1aff299f52df1b8f0e3e41cd3b99cd2137176d4d64feb1fb0/pytmv1-0.4.3.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ngsfragments]: Downloading https://files.pythonhosted.org/packages/e3/b6/a33131f3aee95bab30dd78c898d50821b20b6ecb4395c78533b0b990040d/ngsfragments-1.0.8.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.4.tar.gz tmp/WebtoonScraper-0.0.5.tar.gz --markdown 20230517/W/WebtoonScraper/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [moralis]: Downloading https://files.pythonhosted.org/packages/77/f2/3463780cabfe68192ac3d9881adbadf2a86c7a0ff5e5606cdd2a69ec7340/moralis-0.1.8.tar.gz
+[2023-05-17 16:11:58] WARNING root fetch - processPackages [ngsfragments]: Skipping package: exceeds size limit 52334747>=10485760
+[2023-05-17 16:11:58] INFO root fetch - processPackages [ngsfragments]: Start processing: napari-nyxus
+[2023-05-17 16:11:58] INFO root fetch - main [MainThread]: End processing [ngsfragments] error
+[2023-05-17 16:11:58] INFO root fetch - processPackages [statscend]: Downloading https://files.pythonhosted.org/packages/65/cc/a0a7834121a149b4f1ea84539474325a52f0f4f3da253c9997a06f757d5a/statscend-0.1.8.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [pytmv1]: Downloading https://files.pythonhosted.org/packages/14/ba/718fd1fe9c0de35e6ed5a810494b7e817e7b14a8134ecffc9c4d0af92898/pytmv1-0.5.0.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [jsonschema-specifications]: Downloading https://files.pythonhosted.org/packages/2b/8c/a0599b0d71410ca71565da609af430fd4993999d4e63972e6e7954003cdb/jsonschema_specifications-2023.5.1.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/d4/a9/c249648fe69cf380547e0fe9146aecec08f8689d51ea9a4c1a85df9a347a/effect-edc-0.1.9.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [statscend]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [statscend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statscend-0.1.7.tar.gz tmp/statscend-0.1.8.tar.gz --markdown 20230517/s/statscend/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [pytmv1]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [pytmv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmv1-0.4.3.tar.gz tmp/pytmv1-0.5.0.tar.gz --markdown 20230517/p/pytmv1/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [napari-nyxus]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 16:11:58] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/53/af/0bbcb7402672f9dc08bca3ab30b3989e33f70249846cfdf913ffedb83221/yalexs-1.4.0.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [xmqt]: Downloading https://files.pythonhosted.org/packages/08/82/6791c5b62937ff5f719a3adca9c04a77efb2343d44c9619e665572bd1623/xmqt-1.0.9-py3.6.egg
+[2023-05-17 16:11:58] INFO root fetch - processPackages [jsonschema-specifications]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [jsonschema-specifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_specifications-2023.3.6.tar.gz tmp/jsonschema_specifications-2023.5.1.tar.gz --markdown 20230517/j/jsonschema-specifications/2023.3.6-2023.5.1/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [effect-edc]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [effect-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effect-edc-0.1.8.tar.gz tmp/effect-edc-0.1.9.tar.gz --markdown 20230517/e/effect-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [moralis]: Downloading https://files.pythonhosted.org/packages/93/43/cf4b48bd2d5d2b67b0f9145a197700fa0df0d289a20e3b4a177305d237fb/moralis-0.1.9.tar.gz
+[2023-05-17 16:11:58] INFO root fetch - processPackages [yalexs]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [yalexs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs-1.3.3.tar.gz tmp/yalexs-1.4.0.tar.gz --markdown 20230517/y/yalexs/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-05-17 16:11:58] INFO root fetch - processPackages [napari-nyxus]: Downloading https://files.pythonhosted.org/packages/1a/26/19909530b0da01a4f12998b547a2aff0e39941ff8ee8ecc6249ef35482cb/napari_nyxus-0.1.1-py3-none-any.whl
+[2023-05-17 16:11:58] INFO root fetch - processPackages [moralis]: executing diffoscope
+[2023-05-17 16:11:58] INFO root fetch - processPackages [moralis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moralis-0.1.8.tar.gz tmp/moralis-0.1.9.tar.gz --markdown 20230517/m/moralis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-17 16:11:59] INFO root fetch - processPackages [napari-nyxus]: Downloading https://files.pythonhosted.org/packages/8f/27/4de12501ff9b07e3b0493849477df42a5eca317cfc232ec08b635c9cb37e/napari_nyxus-0.1.2-py3-none-any.whl
+[2023-05-17 16:11:59] INFO root fetch - processPackages [napari-nyxus]: executing diffoscope
+[2023-05-17 16:11:59] INFO root fetch - processPackages [napari-nyxus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_nyxus-0.1.1-py3-none-any.whl.zip tmp/napari_nyxus-0.1.2-py3-none-any.whl.zip --markdown 20230517/n/napari-nyxus/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 16:11:59] INFO root fetch - processPackages [xmqt]: executing diffoscope
+[2023-05-17 16:11:59] INFO root fetch - processPackages [xmqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmqt-1.0.8.tar.gz tmp/xmqt-1.0.9-py3.6.egg --markdown 20230517/x/xmqt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 16:11:59] INFO root fetch - processPackages [piicli]: Start processing: e2xgrader
+[2023-05-17 16:11:59] INFO root fetch - main [MainThread]: End processing [piicli]: success
+[2023-05-17 16:11:59] INFO root fetch - processPackages [e2xgrader]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev1]
+[2023-05-17 16:12:00] INFO root fetch - processPackages [e2xgrader]: Downloading https://files.pythonhosted.org/packages/d1/66/8c7feccb1c67702b54db177d7ae1ed679704886f0acbc8611cd6208a4abb/e2xgrader-0.1.0.dev1.tar.gz
+[2023-05-17 16:12:00] INFO root fetch - processPackages [e2xgrader]: Downloading https://files.pythonhosted.org/packages/c9/9a/e1f86c333cc02881e8d9a30b0dc0091ecabddfbfb528e390d9dd37c92bc2/e2xgrader-0.1.0.dev3.tar.gz
+[2023-05-17 16:12:00] INFO root fetch - processPackages [e2xgrader]: executing diffoscope
+[2023-05-17 16:12:00] INFO root fetch - processPackages [e2xgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2xgrader-0.1.0.dev1.tar.gz tmp/e2xgrader-0.1.0.dev3.tar.gz --markdown 20230517/e/e2xgrader/0.1.0.dev1-0.1.0.dev3/diff.md --exclude *.pyd
+[2023-05-17 16:12:00] INFO root fetch - processPackages [statscend]: Start processing: clang-format
+[2023-05-17 16:12:00] INFO root fetch - main [MainThread]: End processing [statscend]: success
+[2023-05-17 16:12:00] INFO root fetch - processPackages [WebtoonScraper]: Start processing: pennyai-tap-amazon-sqs
+[2023-05-17 16:12:00] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-17 16:12:00] INFO root fetch - processPackages [clang-format]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-05-17 16:12:00] WARNING root fetch - processPackages [pennyai-tap-amazon-sqs]: Skipping, unable to determine old version
+[2023-05-17 16:12:00] INFO root fetch - main [MainThread]: End processing [pennyai-tap-amazon-sqs] error
+[2023-05-17 16:12:00] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/37/66/75e3c14f22c8a7a02c7e337547e29d42bed516ba8067fdef87d3d9346e52/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl
+[2023-05-17 16:12:00] INFO root fetch - main [MainThread]: End processing [napari-nyxus]: success
+[2023-05-17 16:12:00] INFO root fetch - main [MainThread]: End processing [pytmv1]: success
+[2023-05-17 16:12:01] INFO root fetch - main [MainThread]: End processing [jsonschema-specifications]: success
+[2023-05-17 16:12:01] INFO root fetch - main [MainThread]: End processing [xmqt]: success
+[2023-05-17 16:12:01] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/25/f2/d989afaf8a91385f18fd06e6202644be0bc3a1d14548c18a8ece4911e005/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl
+[2023-05-17 16:12:02] INFO root fetch - processPackages [clang-format]: executing diffoscope
+[2023-05-17 16:12:02] INFO root fetch - processPackages [clang-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl.zip tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip --markdown 20230517/c/clang-format/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-05-17 16:12:02] INFO root fetch - main [MainThread]: End processing [yalexs]: success
+[2023-05-17 16:12:05] INFO root fetch - main [MainThread]: End processing [e2xgrader]: success
+[2023-05-17 16:12:06] INFO root fetch - main [MainThread]: End processing [effect-edc]: success
+[2023-05-17 16:12:08] INFO root fetch - main [MainThread]: End processing [moralis]: success
+[2023-05-17 16:12:16] INFO root fetch - main [MainThread]: End processing [clang-format]: success
+[2023-05-17 16:12:16] INFO root fetch - main [MainThread]: Store serial: [18140658]
