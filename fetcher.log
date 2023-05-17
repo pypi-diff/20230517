@@ -13874,3 +13874,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-17 12:40:42] INFO root fetch - processPackages [OccuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OccuPy-0.1.9.tar.gz tmp/OccuPy-0.1.9rc1.tar.gz --markdown 20230517/O/OccuPy/0.1.9-0.1.9rc1/diff.md --exclude *.pyd
 [2023-05-17 12:40:44] INFO root fetch - main [MainThread]: End processing [OccuPy]: success
 [2023-05-17 12:40:44] INFO root fetch - main [MainThread]: Store serial: [18137927]
+[2023-05-17 12:45:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18137927]
+[2023-05-17 12:45:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-17 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordview
+[2023-05-17 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-17 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eis1600
+[2023-05-17 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ms-general-utils
+[2023-05-17 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydevd-pycharm
+[2023-05-17 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-andrew-satisfy
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fpcmci
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cohere
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: noise2read
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: benchmark-runner
+[2023-05-17 12:45:54] INFO root fetch - processPackages [wordview]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [fpcmci]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [eis1600]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ms-general-utils]: New version: [1.2] Old Version: [1.1]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [noise2read]: New version: [0.0.85] Old Version: [0.0.83]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: New version: [20230517.10.42.869699] Old Version: [20230516.8.26.706308]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [pydevd-pycharm]: New version: [232.5150.120] Old Version: [231.9011.9]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [cohere]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230517/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/98/92/a7cbe39dbc02b387deaa8df6c5671f961368febeefb3091da36ad3d82ca5/ms_general_utils-1.1.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/45/d1/68eac8c5a84da07bc1a9cec43699172e7547cc8d1145a30c5fb2d14025c0/noise2read-0.0.85.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/d6/0b/a41ecc63aad5b93539b58f4a2d03a9526a5f63525debfcf67f9c1eb1fe2b/fpcmci-4.1.2.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [pydevd-pycharm]: Downloading https://files.pythonhosted.org/packages/65/92/5b1b16fa0f7ae8221ecce0babc2303fd9f9b2a32f5d5460359ce876d1c44/pydevd-pycharm-231.9011.9.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/2b/b2/fcb0ed9fa622ad06520ebccdbbe77c061ce2e3864dca9b103e2fb8501e53/eis1600-0.9.0.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/b4/22/9dfb0f9b82b970ee8d172143b0ed8bcd6ff7a4fc90ab304cb63fcefb7b0b/PatryksAutoAI-0.9.0.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/d7/4f/7c88c8d7de3d3dd87bd3b180726263713e3ab4e43ceb7c37db9c98334468/cohere-4.4.1.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Downloading https://files.pythonhosted.org/packages/13/a0/3a5db13233e63de21723e3ee13952249624c52dbe70390365947f637580b/certora-cli-alpha-andrew-satisfy-20230516.8.26.706308.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.83.tar.gz tmp/noise2read-0.0.85.tar.gz --markdown 20230517/n/noise2read/0.0.83-0.0.85/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] WARNING root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Skipping package: exceeds size limit 39017252>=10485760
+[2023-05-17 12:45:54] INFO root fetch - processPackages [certora-cli-alpha-andrew-satisfy]: Start processing: gpt-convo-reader
+[2023-05-17 12:45:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-andrew-satisfy] error
+[2023-05-17 12:45:54] INFO root fetch - processPackages [gpt-convo-reader]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-17 12:45:54] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/7e/79/97521b887f41c37ef928c358eb955eb5c62cb357151d11af9a5248b1f6e2/wordview-0.2.2.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.8.9.tar.gz tmp/PatryksAutoAI-0.9.0.tar.gz --markdown 20230517/P/PatryksAutoAI/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/69/17/ea17ba3798a37207290bd60ce74fb2859d0833ba162159aabfa69b1c9389/ms_general_utils-1.2.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/e5/85/c4514139dc08f6ce6e13b9a3b851982a03c04563473322173f4c0ee1eb46/fpcmci-4.2.0.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.2.1.tar.gz tmp/wordview-0.2.2.tar.gz --markdown 20230517/w/wordview/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/b9/31/751709b22692685149b94da8ec5c258ef40ac37b22b38a5e2e4a1222c436/gpt-convo-reader-0.2.1.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/e3/44/067ea2615a4e12a9671a2da0a1569ea4a592cd4e796ea6a48b7b348c243d/eis1600-0.9.1.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/88/a3/cae619e89b46547531dca7911899f156edb32563e2dac1f4ce4f31fa0a94/cohere-4.4.2.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [fpcmci]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [fpcmci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpcmci-4.1.2.tar.gz tmp/fpcmci-4.2.0.tar.gz --markdown 20230517/f/fpcmci/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ms-general-utils]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [ms-general-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_general_utils-1.1.tar.gz tmp/ms_general_utils-1.2.tar.gz --markdown 20230517/m/ms-general-utils/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [pydevd-pycharm]: Downloading https://files.pythonhosted.org/packages/8c/bd/6bb8a37901f4e4c8e77d0fb11e231e472cec468b3a4e8bd0e17bf44baba8/pydevd-pycharm-232.5150.120.tar.gz
+[2023-05-17 12:45:54] INFO root fetch - processPackages [gpt-convo-reader]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [gpt-convo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-convo-reader-0.2.tar.gz tmp/gpt-convo-reader-0.2.1.tar.gz --markdown 20230517/g/gpt-convo-reader/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.4.1.tar.gz tmp/cohere-4.4.2.tar.gz --markdown 20230517/c/cohere/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.9.0.tar.gz tmp/eis1600-0.9.1.tar.gz --markdown 20230517/e/eis1600/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 12:45:54] INFO root fetch - processPackages [pydevd-pycharm]: executing diffoscope
+[2023-05-17 12:45:54] INFO root fetch - processPackages [pydevd-pycharm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydevd-pycharm-231.9011.9.tar.gz tmp/pydevd-pycharm-232.5150.120.tar.gz --markdown 20230517/p/pydevd-pycharm/231.9011.9-232.5150.120/diff.md --exclude *.pyd
+[2023-05-17 12:45:55] INFO root fetch - processPackages [benchmark-runner]: Start processing: xeauth
+[2023-05-17 12:45:55] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-05-17 12:45:55] INFO root fetch - processPackages [xeauth]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-17 12:45:56] INFO root fetch - processPackages [xeauth]: Downloading https://files.pythonhosted.org/packages/e8/46/ff2ae0e546788ac3792271573aee979faeea9d7d7447996f742817a47f5b/xeauth-0.2.3.tar.gz
+[2023-05-17 12:45:56] INFO root fetch - processPackages [ms-general-utils]: Start processing: pycatsearch
+[2023-05-17 12:45:56] INFO root fetch - main [MainThread]: End processing [ms-general-utils]: success
+[2023-05-17 12:45:56] INFO root fetch - processPackages [gpt-convo-reader]: Start processing: easy-configs
+[2023-05-17 12:45:56] INFO root fetch - main [MainThread]: End processing [gpt-convo-reader]: success
+[2023-05-17 12:45:56] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-05-17 12:45:56] INFO root fetch - processPackages [xeauth]: executing diffoscope
+[2023-05-17 12:45:56] INFO root fetch - processPackages [xeauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeauth-0.2.2.tar.gz tmp/xeauth-0.2.3.tar.gz --markdown 20230517/x/xeauth/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-17 12:45:56] WARNING root fetch - processPackages [easy-configs]: Skipping, unable to determine old version
+[2023-05-17 12:45:56] INFO root fetch - processPackages [easy-configs]: Start processing: cluster-experiments
+[2023-05-17 12:45:56] INFO root fetch - main [MainThread]: End processing [easy-configs] error
+[2023-05-17 12:45:56] INFO root fetch - processPackages [cluster-experiments]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-17 12:45:56] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/02/df/6a5b398197ed3dc0708cce888bf1585eb3b792bd2925eb3589aeda5c9b7e/pycatsearch-5.1.2.tar.gz
+[2023-05-17 12:45:56] INFO root fetch - processPackages [cohere]: Start processing: zcbot-predict-sdk
+[2023-05-17 12:45:56] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-05-17 12:45:56] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/1b/ae/331e86a9ee89692e75bd553e0b2872b94edd12c27c425117ea84edf6a4cf/cluster_experiments-0.8.2.tar.gz
+[2023-05-17 12:45:56] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-05-17 12:45:56] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.1.tar.gz tmp/pycatsearch-5.1.2.tar.gz --markdown 20230517/p/pycatsearch/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-05-17 12:45:56] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 12:45:56] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6e/9e65ce9f340a92e3b3cb8aaeb4734cda61695713be50bb6b46770a3a587a/zcbot-predict-sdk-0.0.8.tar.gz
+[2023-05-17 12:45:56] INFO root fetch - processPackages [noise2read]: Start processing: PatryksAutoAI
+[2023-05-17 12:45:56] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-17 12:45:56] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/a1/87/fb89a9b8d9195f6030f5cc098c2e40c2fc5d5e96b2b91526b247656eca82/cluster_experiments-0.8.3.tar.gz
+[2023-05-17 12:45:56] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-17 12:45:56] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-05-17 12:45:56] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.8.2.tar.gz tmp/cluster_experiments-0.8.3.tar.gz --markdown 20230517/c/cluster-experiments/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-17 12:45:56] INFO root fetch - processPackages [fpcmci]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-17 12:45:56] INFO root fetch - main [MainThread]: End processing [fpcmci]: success
+[2023-05-17 12:45:56] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/dd/fd/672e7324aba6d36bdfb646b144f3830ec599059467b064d8a523b4a00953/PatryksAutoAI-0.9.1.tar.gz
+[2023-05-17 12:45:56] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230517.9.18.788519] Old Version: [20230517.8.8.983554]
+[2023-05-17 12:45:57] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/b3/fa/c78fca334a791ad8ba00725d1b676d3000e6e1160fcd28fee2ac88852932/zcbot-predict-sdk-0.0.9.tar.gz
+[2023-05-17 12:45:57] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/9e/84/f07432b85b416afa4d460b998ccdd7b55651df9c624170e80896e937e052/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230517.8.8.983554.tar.gz
+[2023-05-17 12:45:57] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 38742514>=10485760
+[2023-05-17 12:45:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-17 12:45:57] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-17 12:45:57] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230517/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 12:45:57] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-17 12:45:57] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.9.0.tar.gz tmp/PatryksAutoAI-0.9.1.tar.gz --markdown 20230517/P/PatryksAutoAI/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-17 12:45:57] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 12:45:57] INFO root fetch - main [MainThread]: End processing [xeauth]: success
+[2023-05-17 12:45:57] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-05-17 12:45:58] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-05-17 12:45:58] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-05-17 12:45:58] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-17 12:45:58] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-17 12:45:58] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-05-17 12:46:49] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
+[2023-05-17 12:46:49] INFO root fetch - main [MainThread]: Store serial: [18137983]
