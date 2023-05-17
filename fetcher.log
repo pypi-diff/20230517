@@ -1419,3 +1419,65 @@
 [2023-05-17 02:02:27] INFO root fetch - main [MainThread]: End processing [goes-solar-retriever]: success
 [2023-05-17 02:02:27] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-05-17 02:02:27] INFO root fetch - main [MainThread]: Store serial: [18130792]
+[2023-05-17 02:07:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18130792]
+[2023-05-17 02:07:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudinary-cli
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-processing-img
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxkern-nightly
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: folioclient
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: corallium
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyt-gpt
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxutils-nightly
+[2023-05-17 02:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcTrackClient
+[2023-05-17 02:07:36] INFO root fetch - processPackages [cloudinary-cli]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [folioclient]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [image-processing-img]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [corallium]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230516] Old Version: [0.0.8.dev20230515]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1684195406] Old Version: [1684109005]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230517/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [cloudinary-cli]: Downloading https://files.pythonhosted.org/packages/19/3f/7b0420ecacf3b1088a73131a1eb187c70050b5d769876d0aed1eca2edc38/cloudinary-cli-1.6.2.tar.gz
+[2023-05-17 02:07:36] ERROR root fetch - processPackages [image-processing-img]: Unable to fetch info: No such project/version 'image-processing-img' 0.0.2
+[2023-05-17 02:07:36] INFO root fetch - main [MainThread]: End processing [image-processing-img] error
+[2023-05-17 02:07:36] INFO root fetch - processPackages [dcTrackClient]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-17 02:07:36] INFO root fetch - processPackages [corallium]: Downloading https://files.pythonhosted.org/packages/76/1d/6707ec61850b6352910bd212b1239306ce224da7079c4161fe0f9e54095c/corallium-0.2.1.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230517/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [folioclient]: Downloading https://files.pythonhosted.org/packages/2a/68/41e785fbf4765b96038fdfb050eba48d06f8a12b9e09235aea8fe7536933/folioclient-0.8.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ee/16/0d7cf7969a7468be482fd7a3bd1ad2aa79e83ad117534b7b69f29a0c0413/jaxutils-nightly-0.0.8.dev20230516.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230517/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [cloudinary-cli]: Downloading https://files.pythonhosted.org/packages/2b/17/a20138b27c0558c721382d8c3e649fae9179a1a550fef01b17e7140b77ea/cloudinary-cli-1.7.0.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/45/6d/3b31697508287060f99daa9135500eef3ef8b705d0f0b796bb67a7881c8c/dctrackclient-0.2.4.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/b4/39/999f9348718a9873c57cc1df98911eff71bf57e19e44a3e43699b7bb830f/torchdatasets-nightly-1684195406.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [corallium]: Downloading https://files.pythonhosted.org/packages/cc/4e/5da2ebacb092cdfecbcc3a9ed3bea081c502734c88d3171ad4a7ef64e9d8/corallium-0.2.2.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230515.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230516.tar.gz --markdown 20230517/j/jaxutils-nightly/0.0.8.dev20230515-0.0.8.dev20230516/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [cloudinary-cli]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [cloudinary-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudinary-cli-1.6.2.tar.gz tmp/cloudinary-cli-1.7.0.tar.gz --markdown 20230517/c/cloudinary-cli/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1684109005.tar.gz tmp/torchdatasets-nightly-1684195406.tar.gz --markdown 20230517/t/torchdatasets-nightly/1684109005-1684195406/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [folioclient]: Downloading https://files.pythonhosted.org/packages/92/c5/da338f49117e5b64f4ec89667e37588e7fd20caf7bf0601a0bbc0d3e0641/folioclient-0.9.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [corallium]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [corallium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corallium-0.2.1.tar.gz tmp/corallium-0.2.2.tar.gz --markdown 20230517/c/corallium/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/de/88/34b7edae9bdaef7fc619be085a8e25e637502822627106aeaee327ee9b02/dctrackclient-0.3.0.tar.gz
+[2023-05-17 02:07:36] INFO root fetch - processPackages [folioclient]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [folioclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folioclient-0.8.tar.gz tmp/folioclient-0.9.tar.gz --markdown 20230517/f/folioclient/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 02:07:36] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-05-17 02:07:36] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.2.4.tar.gz tmp/dctrackclient-0.3.0.tar.gz --markdown 20230517/d/dcTrackClient/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 02:07:37] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-17 02:07:37] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-17 02:07:37] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-17 02:07:38] INFO root fetch - main [MainThread]: End processing [folioclient]: success
+[2023-05-17 02:07:38] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-17 02:07:38] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-05-17 02:07:38] INFO root fetch - main [MainThread]: End processing [cloudinary-cli]: success
+[2023-05-17 02:07:38] INFO root fetch - main [MainThread]: End processing [corallium]: success
+[2023-05-17 02:07:46] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-17 02:07:46] INFO root fetch - main [MainThread]: Store serial: [18130822]
