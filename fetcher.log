@@ -8452,3 +8452,60 @@
 [2023-05-17 07:43:45] INFO root fetch - main [MainThread]: End processing [noise2read]: success
 [2023-05-17 07:43:46] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
 [2023-05-17 07:43:46] INFO root fetch - main [MainThread]: Store serial: [18134612]
+[2023-05-17 07:48:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134612]
+[2023-05-17 07:48:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learning-pipeline-plugin
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toui
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shared-atomic-enterprise
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tailwiz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bias-adjustment
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-tvm
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agri-sense
+[2023-05-17 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psycopg2-helper
+[2023-05-17 07:48:55] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.4] Old Version: [5!2.3.3]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [agri-sense]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [bias-adjustment]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [tailwiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/1e/a8/49c7bc74447167ecb22b9adace4396433eebaa7626bcc979eb63f5de68da/agri_sense-1.0.2.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/ac/dc/2e6a871453ee7c587644ad49b147c08bd2abc26e415cecda218d7e5bd52a/tailwiz-0.0.8.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [bias-adjustment]: Downloading https://files.pythonhosted.org/packages/9a/1b/3f0d0f09b771c0af92099ef91b9b06c382657d478187120a59ccf1d66c07/bias_adjustment-1.0.3.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [psycopg2-helper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [toui]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev74]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [learning-pipeline-plugin]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-17 07:48:55] INFO root fetch - processPackages [agri-sense]: Downloading https://files.pythonhosted.org/packages/b4/fd/b3b11cb335ce1cb8a980d8d837cd94fdae8c4acf2c994698328c255b189e/agri_sense-1.0.3.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/06/dd/d25827e45a9c717878ed3f28d86154b413b944f7467ca259e67975b6210b/tailwiz-0.0.9.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/65/57/1923fc6ae0b83b5ab5fedc8e692e61d722b7ede4e327bcd31ed103596ce0/shared_atomic_enterprise-5!2.3.3-py39-none-win_amd64.whl
+[2023-05-17 07:48:55] INFO root fetch - processPackages [bias-adjustment]: Downloading https://files.pythonhosted.org/packages/5e/d3/1794f5e5a07c5719dcb09161c97a59d27af95c366baad9217578c00d4872/bias_adjustment-1.0.4.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [agri-sense]: executing diffoscope
+[2023-05-17 07:48:55] INFO root fetch - processPackages [agri-sense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agri_sense-1.0.2.tar.gz tmp/agri_sense-1.0.3.tar.gz --markdown 20230517/a/agri-sense/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-17 07:48:55] INFO root fetch - processPackages [psycopg2-helper]: Downloading https://files.pythonhosted.org/packages/84/4e/43601008ab8832f3b48d79336523e4c87953f316588270f46b38440e67bd/psycopg2-helper-0.1.4.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/c3/10/05d91f6a321ebcdd830b2bd78afd88d32b4704613a7ca84745b3f2306497/toui-2.0.1.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/57/7a/0e255cdf4cdfcca6b5e06c1ebe9b4c9178b3919cfeb0251f35b0977d59c3/apache_tvm-0.13.dev74-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 07:48:55] INFO root fetch - processPackages [learning-pipeline-plugin]: Downloading https://files.pythonhosted.org/packages/0d/70/cb4fb85228a042049f44864da5a23a9415a5ab04d6dd22a6defeb6032d4f/learning_pipeline_plugin-0.5.1.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [tailwiz]: executing diffoscope
+[2023-05-17 07:48:55] INFO root fetch - processPackages [tailwiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailwiz-0.0.8.tar.gz tmp/tailwiz-0.0.9.tar.gz --markdown 20230517/t/tailwiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 07:48:55] INFO root fetch - processPackages [bias-adjustment]: executing diffoscope
+[2023-05-17 07:48:55] INFO root fetch - processPackages [bias-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bias_adjustment-1.0.3.tar.gz tmp/bias_adjustment-1.0.4.tar.gz --markdown 20230517/b/bias-adjustment/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 07:48:55] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48354866>=10485760
+[2023-05-17 07:48:55] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-05-17 07:48:55] INFO root fetch - processPackages [psycopg2-helper]: Downloading https://files.pythonhosted.org/packages/ad/c6/f368da9c6ad0897effd6b4117777cbd4717cb8ebd740764a24a6adc1111b/psycopg2-helper-0.1.5.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [learning-pipeline-plugin]: Downloading https://files.pythonhosted.org/packages/30/cb/be380bf432f3a2873b326b745fe0d5d5a7ceb9e79d91572827bb7b0292a9/learning_pipeline_plugin-0.5.2.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/f0/0a/8399708bdb7a811a1a4f9f2a45d72ba58e666d5294a37e1d9fecb6d6dfe9/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl
+[2023-05-17 07:48:55] INFO root fetch - processPackages [psycopg2-helper]: executing diffoscope
+[2023-05-17 07:48:55] INFO root fetch - processPackages [psycopg2-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg2-helper-0.1.4.tar.gz tmp/psycopg2-helper-0.1.5.tar.gz --markdown 20230517/p/psycopg2-helper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-17 07:48:55] INFO root fetch - processPackages [learning-pipeline-plugin]: executing diffoscope
+[2023-05-17 07:48:55] INFO root fetch - processPackages [learning-pipeline-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learning_pipeline_plugin-0.5.1.tar.gz tmp/learning_pipeline_plugin-0.5.2.tar.gz --markdown 20230517/l/learning-pipeline-plugin/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-17 07:48:55] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/b9/78/80aa764c9eeff2f258c98b6094e781e5de1d0d8f0ffb235c6eeabb77ca55/toui-2.1.0.tar.gz
+[2023-05-17 07:48:55] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-05-17 07:48:55] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.3-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.4-py39-none-win_amd64.whl.zip --markdown 20230517/s/shared-atomic-enterprise/5!2.3.3-5!2.3.4/diff.md --exclude *.pyd
+[2023-05-17 07:48:56] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-05-17 07:48:56] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-2.0.1.tar.gz tmp/toui-2.1.0.tar.gz --markdown 20230517/t/toui/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-17 07:48:56] INFO root fetch - main [MainThread]: End processing [agri-sense]: success
+[2023-05-17 07:48:56] INFO root fetch - main [MainThread]: End processing [tailwiz]: success
+[2023-05-17 07:48:56] INFO root fetch - main [MainThread]: End processing [bias-adjustment]: success
+[2023-05-17 07:48:57] INFO root fetch - main [MainThread]: End processing [psycopg2-helper]: success
+[2023-05-17 07:48:57] INFO root fetch - main [MainThread]: End processing [learning-pipeline-plugin]: success
+[2023-05-17 07:48:57] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-05-17 07:49:08] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-05-17 07:49:08] INFO root fetch - main [MainThread]: Store serial: [18134647]
