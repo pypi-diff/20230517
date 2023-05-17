@@ -5313,3 +5313,87 @@
 [2023-05-17 05:09:32] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-05-17 05:11:41] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-05-17 05:11:41] INFO root fetch - main [MainThread]: Store serial: [18133078]
+[2023-05-17 05:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18133078]
+[2023-05-17 05:16:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h5pydantic
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch4keras
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anything2image
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kwamehealthtoolboxpublic
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: k1lib
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanodeep
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hoyo-daily-logins-helper
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickzetta-connector
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GANDLF
+[2023-05-17 05:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clickzetta-sqlalchemy
+[2023-05-17 05:16:51] INFO root fetch - processPackages [torch4keras]: New version: [0.0.7.post2] Old Version: [0.0.7]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [anything2image]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [h5pydantic]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-17 05:16:51] WARNING root fetch - processPackages [nanodeep]: Skipping, unable to determine old version
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [nanodeep]: Start processing: tccli
+[2023-05-17 05:16:51] INFO root fetch - main [MainThread]: End processing [nanodeep] error
+[2023-05-17 05:16:51] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230516] Old Version: [0.0.16.dev20230515]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [k1lib]: New version: [1.3.8.2] Old Version: [1.3.8.1]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-17 05:16:51] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/d7/6a/ecd9cf037df618dab076b26cfc023ddfae59f92265029dfb411c7e6a3bdd/anything2image-1.0.1.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.3.0.tar.gz tmp/hoyo-daily-logins-helper-2.4.0.tar.gz --markdown 20230517/h/hoyo-daily-logins-helper/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-17 05:16:51] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/c6/c4/14cf1b78f1df9fc159324a6710186075ff82218071a5fe17df5589671929/torch4keras-0.0.7.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/76/cd/4091eb2f708c35f297071f68d764a63a7c9375c6df57c728c282d000adca/clickzetta-connector-0.6.7.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/b2/bd/839549b6d92425398d935c2ccb4b822eb09a4b60c8b31e59ee60db9390e6/clickzetta-sqlalchemy-0.6.7.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/24/d8/617efccf801dbd4fe13f9b14e4a9474650827c14e454968630fa40727dee/GANDLF-0.0.16.dev20230516.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: Downloading https://files.pythonhosted.org/packages/16/4b/c914d808e2759cc4eb878d2159a0f61aaf352ae786693a1d6e487b2e1a96/kwamehealthtoolboxpublic-1.3.1.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.6.6.tar.gz tmp/clickzetta-sqlalchemy-0.6.7.tar.gz --markdown 20230517/c/clickzetta-sqlalchemy/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-17 05:16:51] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.6.6.tar.gz tmp/clickzetta-connector-0.6.7.tar.gz --markdown 20230517/c/clickzetta-connector/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-17 05:16:51] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-17 05:16:51] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230515.tar.gz tmp/GANDLF-0.0.16.dev20230516.tar.gz --markdown 20230517/G/GANDLF/0.0.16.dev20230515-0.0.16.dev20230516/diff.md --exclude *.pyd
+[2023-05-17 05:16:51] INFO root fetch - processPackages [h5pydantic]: Downloading https://files.pythonhosted.org/packages/d3/74/3296de8ccaa4aa4c7f3254d0ded2ee409a894decdb514571fca914a63491/h5pydantic-0.3.0.tar.gz
+[2023-05-17 05:16:51] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: executing diffoscope
+[2023-05-17 05:16:51] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwamehealthtoolboxpublic-1.3.0.tar.gz tmp/kwamehealthtoolboxpublic-1.3.1.tar.gz --markdown 20230517/k/kwamehealthtoolboxpublic/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-17 05:16:52] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/73/16/658e88e00360b7545f3b3d6ed3bede5ba4f31f7b847ab79fe79cd2cf840e/k1lib-1.3.8.2-py3-none-any.whl
+[2023-05-17 05:16:52] INFO root fetch - processPackages [h5pydantic]: executing diffoscope
+[2023-05-17 05:16:52] INFO root fetch - processPackages [h5pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5pydantic-0.2.0.tar.gz tmp/h5pydantic-0.3.0.tar.gz --markdown 20230517/h/h5pydantic/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-17 05:16:52] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/2b/9d/cb09147f8b1cfc899cca73289a41f5482ee001dd6e242a1aad53733c0719/torch4keras-0.0.7.post2.tar.gz
+[2023-05-17 05:16:52] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/10/34/b2e3ea98d70f3c5868c3e2c04a04a1fa1e3a6ee9a5992d54ef2eaf44648f/anything2image-1.0.2.tar.gz
+[2023-05-17 05:16:52] INFO root fetch - processPackages [torch4keras]: executing diffoscope
+[2023-05-17 05:16:52] INFO root fetch - processPackages [torch4keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4keras-0.0.7.tar.gz tmp/torch4keras-0.0.7.post2.tar.gz --markdown 20230517/t/torch4keras/0.0.7-0.0.7.post2/diff.md --exclude *.pyd
+[2023-05-17 05:16:52] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-05-17 05:16:52] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230517/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-17 05:16:52] INFO root fetch - processPackages [anything2image]: executing diffoscope
+[2023-05-17 05:16:52] INFO root fetch - processPackages [anything2image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anything2image-1.0.1.tar.gz tmp/anything2image-1.0.2.tar.gz --markdown 20230517/a/anything2image/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 05:16:52] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-17 05:16:52] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.8.1-py3-none-any.whl.zip tmp/k1lib-1.3.8.2-py3-none-any.whl.zip --markdown 20230517/k/k1lib/1.3.8.1-1.3.8.2/diff.md --exclude *.pyd
+[2023-05-17 05:16:53] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: comicbox
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-17 05:16:53] INFO root fetch - processPackages [kwamehealthtoolboxpublic]: Start processing: geoserver-pyadm
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [kwamehealthtoolboxpublic]: success
+[2023-05-17 05:16:53] INFO root fetch - processPackages [comicbox]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 05:16:53] INFO root fetch - processPackages [geoserver-pyadm]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 05:16:53] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Start processing: jsonfmt
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [h5pydantic]: success
+[2023-05-17 05:16:53] INFO root fetch - processPackages [comicbox]: Downloading https://files.pythonhosted.org/packages/62/f6/0abeb996be8e833a0ee15cdca1da64d45662be3f31573db10b7e6985518c/comicbox-0.8.0.tar.gz
+[2023-05-17 05:16:53] WARNING root fetch - processPackages [comicbox]: Skipping package: exceeds size limit 78947960>=10485760
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [comicbox] error
+[2023-05-17 05:16:53] INFO root fetch - processPackages [jsonfmt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 05:16:53] INFO root fetch - processPackages [geoserver-pyadm]: Downloading https://files.pythonhosted.org/packages/bd/e5/e515826a63b8615339d03bdef5115eaa56f1bdb767ef75467135239d2fde/geoserver-pyadm-1.0.0.tar.gz
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [torch4keras]: success
+[2023-05-17 05:16:53] INFO root fetch - main [MainThread]: End processing [anything2image]: success
+[2023-05-17 05:16:54] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/e5/13/8ca4b42e74ad461f7132ebb6ee2c294730d289a94a550b37dfb069b4b60f/jsonfmt-0.1.4.tar.gz
+[2023-05-17 05:16:54] INFO root fetch - processPackages [geoserver-pyadm]: Downloading https://files.pythonhosted.org/packages/b4/fd/7f6df59b3301f3366aab71ad48275ba3f6795fdcd29f4a465312168185ce/geoserver-pyadm-1.0.1.tar.gz
+[2023-05-17 05:16:54] INFO root fetch - processPackages [jsonfmt]: executing diffoscope
+[2023-05-17 05:16:54] INFO root fetch - processPackages [jsonfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonfmt-0.1.3.tar.gz tmp/jsonfmt-0.1.4.tar.gz --markdown 20230517/j/jsonfmt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 05:16:54] INFO root fetch - processPackages [geoserver-pyadm]: executing diffoscope
+[2023-05-17 05:16:54] INFO root fetch - processPackages [geoserver-pyadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoserver-pyadm-1.0.0.tar.gz tmp/geoserver-pyadm-1.0.1.tar.gz --markdown 20230517/g/geoserver-pyadm/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-17 05:16:54] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-17 05:16:55] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-17 05:16:55] INFO root fetch - main [MainThread]: End processing [jsonfmt]: success
+[2023-05-17 05:16:55] INFO root fetch - main [MainThread]: End processing [geoserver-pyadm]: success
+[2023-05-17 05:16:56] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-17 05:16:59] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-05-17 05:16:59] INFO root fetch - main [MainThread]: Store serial: [18133124]
