@@ -9131,3 +9131,46 @@
 [2023-05-17 08:41:29] INFO root fetch - main [MainThread]: End processing [vl-datasets]: success
 [2023-05-17 08:41:30] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2023-05-17 08:41:30] INFO root fetch - main [MainThread]: Store serial: [18135058]
+[2023-05-17 08:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135058]
+[2023-05-17 08:46:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PSD-DL
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msaBase
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: betterproto-twirp-new
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cluseek
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aireq
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-duo-auth
+[2023-05-17 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2023-05-17 08:46:39] INFO root fetch - processPackages [aireq]: New version: [0.3] Old Version: [0.2]
+[2023-05-17 08:46:39] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-17 08:46:39] INFO root fetch - processPackages [django-duo-auth]: New version: [1.0.0] Old Version: [0.1.6]
+[2023-05-17 08:46:39] ERROR root fetch - processPackages [PSD-DL]: Unable to get metadata: No such project 'PSD-DL'
+[2023-05-17 08:46:39] WARNING root fetch - processPackages [betterproto-twirp-new]: Skipping, unable to determine old version
+[2023-05-17 08:46:39] INFO root fetch - main [MainThread]: End processing [PSD-DL] error
+[2023-05-17 08:46:39] INFO root fetch - main [MainThread]: End processing [betterproto-twirp-new] error
+[2023-05-17 08:46:39] WARNING root fetch - processPackages [cluseek]: Skipping, unable to determine old version
+[2023-05-17 08:46:39] INFO root fetch - main [MainThread]: End processing [cluseek] error
+[2023-05-17 08:46:39] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-17 08:46:39] INFO root fetch - processPackages [aireq]: executing diffoscope
+[2023-05-17 08:46:39] INFO root fetch - processPackages [aireq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aireq-0.2.tar.gz tmp/aireq-0.3.tar.gz --markdown 20230517/a/aireq/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-17 08:46:39] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-17 08:46:39] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-17 08:46:39] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230517/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-17 08:46:40] INFO root fetch - processPackages [django-duo-auth]: Downloading https://files.pythonhosted.org/packages/60/e0/b0238ac1ba9301f493967581438bd62e0bd003fa3be79439fe86a7b60207/django_duo_auth-0.1.6-py2.py3-none-any.whl
+[2023-05-17 08:46:40] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/76/9a/a27e686785e6b54482d58445355935f687e11cd0a044f803310195bbc129/msaBase-0.0.8.tar.gz
+[2023-05-17 08:46:40] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: Downloading https://files.pythonhosted.org/packages/13/de/0e3ca10038d8ad924336c4a8871dfec3b8066cce3ed80affc92922e39f85/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.7.tar.gz
+[2023-05-17 08:46:40] INFO root fetch - processPackages [django-duo-auth]: Downloading https://files.pythonhosted.org/packages/37/b4/929c7d98dbdb8f9b9961447d18b9eb5a3c7bd8ca0b3b10194491c8674453/django-duo-auth-1.0.0.tar.gz
+[2023-05-17 08:46:40] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: Downloading https://files.pythonhosted.org/packages/78/a8/d1fc2b7caa718f9e5a6d2aa33196b3d002a13a63541551fdb192638c8120/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.8.tar.gz
+[2023-05-17 08:46:40] INFO root fetch - processPackages [django-duo-auth]: executing diffoscope
+[2023-05-17 08:46:40] INFO root fetch - processPackages [django-duo-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_duo_auth-0.1.6-py2.py3-none-any.whl.zip tmp/django-duo-auth-1.0.0.tar.gz --markdown 20230517/d/django-duo-auth/0.1.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 08:46:40] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fd/c7/eaf57b5462f098d2e330245249477745d1619240fbb8ea59ece12e03eeff/msaBase-0.0.9.tar.gz
+[2023-05-17 08:46:40] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-17 08:46:40] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230517/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-17 08:46:40] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: executing diffoscope
+[2023-05-17 08:46:40] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.7.tar.gz tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.8.tar.gz --markdown 20230517/a/antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-17 08:46:41] INFO root fetch - main [MainThread]: End processing [aireq]: success
+[2023-05-17 08:46:41] INFO root fetch - main [MainThread]: End processing [django-duo-auth]: success
+[2023-05-17 08:46:41] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-17 08:46:41] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: success
+[2023-05-17 08:46:43] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-17 08:46:43] INFO root fetch - main [MainThread]: Store serial: [18135091]
