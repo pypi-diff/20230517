@@ -8883,3 +8883,47 @@
 [2023-05-17 08:20:31] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-17 08:20:32] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-17 08:20:32] INFO root fetch - main [MainThread]: Store serial: [18134938]
+[2023-05-17 08:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134938]
+[2023-05-17 08:25:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-python-release
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ows-lib
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-np4vtt
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: castxml-patch
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ubiquity-student
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-05-17 08:25:41] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230516] Old Version: [20230515]
+[2023-05-17 08:25:41] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-17 08:25:41] WARNING root fetch - processPackages [test-python-release]: Skipping, unable to determine old version
+[2023-05-17 08:25:41] INFO root fetch - main [MainThread]: End processing [test-python-release] error
+[2023-05-17 08:25:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/56/78/4805e33be130e7f34ba51f03b10e3cfad56b3f8e9a8eaa015b3d50341432/fake-bpy-module-latest-20230515.tar.gz
+[2023-05-17 08:25:41] INFO root fetch - processPackages [django-ows-lib]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-17 08:25:41] WARNING root fetch - processPackages [castxml-patch]: Skipping, unable to determine old version
+[2023-05-17 08:25:41] INFO root fetch - main [MainThread]: End processing [castxml-patch] error
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ubiquity-student]: New version: [1.0.0] Old Version: [0.8.2]
+[2023-05-17 08:25:41] INFO root fetch - processPackages [py-np4vtt]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 08:25:41] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-05-17 08:25:41] INFO root fetch - processPackages [django-ows-lib]: Downloading https://files.pythonhosted.org/packages/cd/4e/d95ee4f7acaf137f35e3521a613039ad61c2d41acb6c25c375b0fd5fb471/django-ows-lib-0.1.2.tar.gz
+[2023-05-17 08:25:41] INFO root fetch - processPackages [ubiquity-student]: Downloading https://files.pythonhosted.org/packages/7c/5e/e0333f06d71b25708ae32968f4dbc37723a958177c95d370ef2445c080a6/ubiquity-student-0.8.2.tar.gz
+[2023-05-17 08:25:41] INFO root fetch - processPackages [py-np4vtt]: Downloading https://files.pythonhosted.org/packages/8a/aa/b09b23ff501e443d6289ead1510c3b613c670a1d88b5cf05953d9cefaab0/py_np4vtt-1.0.4.tar.gz
+[2023-05-17 08:25:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/be/d3/6dd5ca163a95358a77ec25b36b672530db232f83e0754fde87c6801b3a34/fake-bpy-module-latest-20230516.tar.gz
+[2023-05-17 08:25:42] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-05-17 08:25:42] INFO root fetch - processPackages [django-ows-lib]: Downloading https://files.pythonhosted.org/packages/52/59/f0db6096f3cb6924c5c8f926ac5614bc10a826fa3df8b74ce7d1fdac6908/django-ows-lib-0.2.0.tar.gz
+[2023-05-17 08:25:42] INFO root fetch - processPackages [ubiquity-student]: Downloading https://files.pythonhosted.org/packages/74/eb/643f4ab92d270645768c825a74b68296a801ee4f23fed4b58d7d394e4f96/ubiquity_student-1.0.0-py3-none-any.whl
+[2023-05-17 08:25:42] INFO root fetch - processPackages [py-np4vtt]: Downloading https://files.pythonhosted.org/packages/4c/3d/55a1a5a2d08fb7352cebe2baa2864ed863db9447741f704e72b62abc16ec/py-np4vtt-1.0.5.tar.gz
+[2023-05-17 08:25:42] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-17 08:25:42] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230517/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-17 08:25:42] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-17 08:25:42] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230515.tar.gz tmp/fake-bpy-module-latest-20230516.tar.gz --markdown 20230517/f/fake-bpy-module-latest/20230515-20230516/diff.md --exclude *.pyd
+[2023-05-17 08:25:42] INFO root fetch - processPackages [django-ows-lib]: executing diffoscope
+[2023-05-17 08:25:42] INFO root fetch - processPackages [django-ows-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ows-lib-0.1.2.tar.gz tmp/django-ows-lib-0.2.0.tar.gz --markdown 20230517/d/django-ows-lib/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 08:25:42] INFO root fetch - processPackages [ubiquity-student]: executing diffoscope
+[2023-05-17 08:25:42] INFO root fetch - processPackages [ubiquity-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiquity-student-0.8.2.tar.gz tmp/ubiquity_student-1.0.0-py3-none-any.whl.zip --markdown 20230517/u/ubiquity-student/0.8.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-17 08:25:42] INFO root fetch - processPackages [py-np4vtt]: executing diffoscope
+[2023-05-17 08:25:42] INFO root fetch - processPackages [py-np4vtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_np4vtt-1.0.4.tar.gz tmp/py-np4vtt-1.0.5.tar.gz --markdown 20230517/p/py-np4vtt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 08:25:43] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-17 08:25:43] INFO root fetch - main [MainThread]: End processing [py-np4vtt]: success
+[2023-05-17 08:25:43] INFO root fetch - main [MainThread]: End processing [django-ows-lib]: success
+[2023-05-17 08:25:43] INFO root fetch - main [MainThread]: End processing [ubiquity-student]: success
+[2023-05-17 08:25:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-17 08:25:48] INFO root fetch - main [MainThread]: Store serial: [18134968]
