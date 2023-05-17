@@ -9782,3 +9782,47 @@
 [2023-05-17 09:20:03] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
 [2023-05-17 09:20:08] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-17 09:20:08] INFO root fetch - main [MainThread]: Store serial: [18135498]
+[2023-05-17 09:25:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135498]
+[2023-05-17 09:25:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcai-nova-server-nightly
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: savant-rs
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classiq
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panml
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: String-Controller
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iothealth
+[2023-05-17 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: floating
+[2023-05-17 09:25:17] INFO root fetch - processPackages [iothealth]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-17 09:25:17] INFO root fetch - processPackages [savant-rs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-17 09:25:17] INFO root fetch - processPackages [panml]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 09:25:17] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-05-17 09:25:17] WARNING root fetch - processPackages [String-Controller]: Skipping, unable to determine old version
+[2023-05-17 09:25:17] INFO root fetch - main [MainThread]: End processing [String-Controller] error
+[2023-05-17 09:25:17] WARNING root fetch - processPackages [floating]: Skipping, unable to determine old version
+[2023-05-17 09:25:17] INFO root fetch - main [MainThread]: End processing [floating] error
+[2023-05-17 09:25:17] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/15/38/2310e47546030ad7e6d71805f9b695e8f5f8e88ab26c18ca12b47ef86ec3/savant_rs-0.1.5.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202305170719] Old Version: [0.1.3.dev202304261438]
+[2023-05-17 09:25:17] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2023-05-17 09:25:17] INFO root fetch - processPackages [iothealth]: Downloading https://files.pythonhosted.org/packages/aa/46/2a448bd1e6ae53d744002b5126a7524e9ac27f25721141876b9e4796ad6f/iothealth-0.0.5.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/39/a5/5a9bb9d22d8e61f45d486f765cbb2328c62b6f7527536befce4dfd3d6818/savant_rs-0.1.6.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/8b/4d/fa438c152a286e7fdce99d4b55497c67f1297cf375246b891647fc9aa1f0/panml-0.0.4.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/69/e4/895d2fd41b8e708920ea9a34b5e78ab3839991b661257c4e2c20c361fc15/hcai-nova-server-nightly-0.1.3.dev202304261438.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-17 09:25:17] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.5.tar.gz tmp/savant_rs-0.1.6.tar.gz --markdown 20230517/s/savant-rs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-17 09:25:17] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2023-05-17 09:25:17] INFO root fetch - processPackages [iothealth]: Downloading https://files.pythonhosted.org/packages/1a/a9/27d9a67d326b8c48974743d692f2631adee3bb83f3dc3a6073e228327777/iothealth-0.0.6.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/46/2c/22cb6a8e89fc18a38e6d42ba937698b9fc090b44709969bddf5eaba53e20/panml-0.0.5.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/67/95/6f809ee13553680141b996b543bfd05b5fd1ff342f28fb2202756a72ae98/hcai-nova-server-nightly-0.1.3.dev202305170719.tar.gz
+[2023-05-17 09:25:17] INFO root fetch - processPackages [iothealth]: executing diffoscope
+[2023-05-17 09:25:17] INFO root fetch - processPackages [iothealth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iothealth-0.0.5.tar.gz tmp/iothealth-0.0.6.tar.gz --markdown 20230517/i/iothealth/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-17 09:25:17] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-05-17 09:25:17] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.4.tar.gz tmp/panml-0.0.5.tar.gz --markdown 20230517/p/panml/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 09:25:17] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2023-05-17 09:25:17] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20230517/c/classiq/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-05-17 09:25:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-17 09:25:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304261438.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202305170719.tar.gz --markdown 20230517/h/hcai-nova-server-nightly/0.1.3.dev202304261438-0.1.3.dev202305170719/diff.md --exclude *.pyd
+[2023-05-17 09:25:18] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-05-17 09:25:19] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-17 09:25:19] INFO root fetch - main [MainThread]: End processing [iothealth]: success
+[2023-05-17 09:25:19] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-17 09:25:19] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2023-05-17 09:25:19] INFO root fetch - main [MainThread]: Store serial: [18135536]
