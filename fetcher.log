@@ -23143,3 +23143,76 @@ EOFError: EOF read where object expected
 [2023-05-17 18:57:40] INFO root fetch - main [MainThread]: End processing [quantuloop-quest]: success
 [2023-05-17 18:57:47] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-05-17 18:57:47] INFO root fetch - main [MainThread]: Store serial: [18143143]
+[2023-05-17 19:02:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18143143]
+[2023-05-17 19:02:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bardapi
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decore-base
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zebrazoom
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multicloud-diagrams
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-captcha2
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cwl-utils
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykrx
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sfapi-client
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: halig
+[2023-05-17 19:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: WeeCoder
+[2023-05-17 19:02:59] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/ec/be/04338c29792c9477dc1ab7ab29b7b631310578fa72305b8a3dc9f82d2ed1/multicloud_diagrams-0.2.4.tar.gz
+[2023-05-17 19:02:59] WARNING root fetch - processPackages [flask-captcha2]: Skipping, unable to determine old version
+[2023-05-17 19:02:59] INFO root fetch - processPackages [flask-captcha2]: Start processing: dcicutils
+[2023-05-17 19:02:59] INFO root fetch - main [MainThread]: End processing [flask-captcha2] error
+[2023-05-17 19:02:59] WARNING root fetch - processPackages [WeeCoder]: Skipping, unable to determine old version
+[2023-05-17 19:02:59] INFO root fetch - processPackages [WeeCoder]: Start processing: abqcy
+[2023-05-17 19:02:59] INFO root fetch - main [MainThread]: End processing [WeeCoder] error
+[2023-05-17 19:02:59] INFO root fetch - processPackages [bardapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-17 19:02:59] WARNING root fetch - processPackages [sfapi-client]: Skipping, unable to determine old version
+[2023-05-17 19:02:59] INFO root fetch - processPackages [decore-base]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [sfapi-client]: Start processing: pulumi-artifactory
+[2023-05-17 19:02:59] INFO root fetch - main [MainThread]: End processing [sfapi-client] error
+[2023-05-17 19:02:59] INFO root fetch - processPackages [cwl-utils]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [halig]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-05-17 19:02:59] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230517/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-17 19:02:59] WARNING root fetch - processPackages [abqcy]: Skipping, unable to determine old version
+[2023-05-17 19:02:59] INFO root fetch - main [MainThread]: End processing [abqcy] error
+[2023-05-17 19:02:59] INFO root fetch - processPackages [pykrx]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [dcicutils]: New version: [7.4.2.1b0] Old Version: [7.4.2]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-17 19:02:59] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.2.tar.gz tmp/dcicutils-7.4.2.1b0.tar.gz --markdown 20230517/d/dcicutils/7.4.2-7.4.2.1b0/diff.md --exclude *.pyd
+[2023-05-17 19:02:59] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/6e/29/7d0a3ccf3df0a569b44e02ad9c581b4801713135f86de482b02ddd769c32/multicloud_diagrams-0.2.5.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/d0/83/233a96810e6f929971597216221cf63fe8be577222edced35384ef739b9a/bardapi-0.1.3.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [cwl-utils]: Downloading https://files.pythonhosted.org/packages/d3/68/559c19042fa610b775dcfe7ca7bc224f7d1de637598b7195ca091722772a/cwl-utils-0.8.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [pykrx]: Downloading https://files.pythonhosted.org/packages/a3/55/7259fd75e5b401e24a07c0ae1cf2ddb3216787ea3be9ec5bcf5d7bb3e4a9/pykrx-1.0.8-py3-none-any.whl
+[2023-05-17 19:02:59] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-05-17 19:02:59] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.2.4.tar.gz tmp/multicloud_diagrams-0.2.5.tar.gz --markdown 20230517/m/multicloud-diagrams/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-17 19:02:59] INFO root fetch - processPackages [halig]: Downloading https://files.pythonhosted.org/packages/8b/d4/3d5e303fbf1a4a9bee1b19716a806631d7885cd2a62e7aeb887f34d4c26a/halig-0.3.1.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [decore-base]: Downloading https://files.pythonhosted.org/packages/26/5a/68df97777087efc97e06dd825bf7f8ce4eef078f7df1a7e0fa1d37c12067/decore-base-0.0.4.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.5.0a1684341828] Old Version: [3.5.0a1684214270]
+[2023-05-17 19:02:59] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/3c/20/ca778cd01a5a6b977168917f368d3ea13d2c88f3481b5e1609e98d06901a/bardapi-0.1.4.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [halig]: Downloading https://files.pythonhosted.org/packages/73/7b/010fc3cb5b3964979f6c558f4e19f41606c91b0f42aa57ca13404e96d96c/halig-0.3.2.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [cwl-utils]: Downloading https://files.pythonhosted.org/packages/9a/1f/d99d30c8bc20f664466623599492829bec26e97df95fa688a1bec49b0c50/cwl-utils-0.9.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [pykrx]: Downloading https://files.pythonhosted.org/packages/8a/58/31e620fe04e267913710c3f430442a90356db77b989d3b390a89035d0304/pykrx-1.0.9-py3-none-any.whl
+[2023-05-17 19:02:59] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/a6/a7/55344428147fa80def308a2bcfa178d17e4034eeb6b1c71a6a981576edbd/pulumi_artifactory-3.5.0a1684214270.tar.gz
+[2023-05-17 19:02:59] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-05-17 19:02:59] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.3.tar.gz tmp/bardapi-0.1.4.tar.gz --markdown 20230517/b/bardapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-17 19:02:59] INFO root fetch - processPackages [halig]: executing diffoscope
+[2023-05-17 19:02:59] INFO root fetch - processPackages [halig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halig-0.3.1.tar.gz tmp/halig-0.3.2.tar.gz --markdown 20230517/h/halig/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-17 19:03:00] INFO root fetch - processPackages [cwl-utils]: executing diffoscope
+[2023-05-17 19:03:00] INFO root fetch - processPackages [cwl-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-utils-0.8.tar.gz tmp/cwl-utils-0.9.tar.gz --markdown 20230517/c/cwl-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 19:03:00] INFO root fetch - processPackages [pykrx]: executing diffoscope
+[2023-05-17 19:03:00] INFO root fetch - processPackages [pykrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykrx-1.0.8-py3-none-any.whl.zip tmp/pykrx-1.0.9-py3-none-any.whl.zip --markdown 20230517/p/pykrx/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 19:03:00] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/9d/a9/b51a39e1c55d76708b7e6cde2561094ba11cd033d044c760172d74995020/pulumi_artifactory-3.5.0a1684341828.tar.gz
+[2023-05-17 19:03:00] INFO root fetch - processPackages [decore-base]: executing diffoscope
+[2023-05-17 19:03:00] INFO root fetch - processPackages [decore-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore-base-0.0.2.tar.gz tmp/decore-base-0.0.4.tar.gz --markdown 20230517/d/decore-base/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 19:03:00] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-05-17 19:03:00] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-05-17 19:03:00] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.5.0a1684214270.tar.gz tmp/pulumi_artifactory-3.5.0a1684341828.tar.gz --markdown 20230517/p/pulumi-artifactory/3.5.0a1684214270-3.5.0a1684341828/diff.md --exclude *.pyd
+[2023-05-17 19:03:01] INFO root fetch - main [MainThread]: End processing [halig]: success
+[2023-05-17 19:03:01] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-05-17 19:03:01] INFO root fetch - main [MainThread]: End processing [pykrx]: success
+[2023-05-17 19:03:01] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-05-17 19:03:02] INFO root fetch - main [MainThread]: End processing [cwl-utils]: success
+[2023-05-17 19:03:02] INFO root fetch - main [MainThread]: End processing [decore-base]: success
+[2023-05-17 19:03:03] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-17 19:03:05] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-05-17 19:03:05] INFO root fetch - main [MainThread]: Store serial: [18143189]
