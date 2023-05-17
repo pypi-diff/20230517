@@ -4953,3 +4953,76 @@
 [2023-05-17 04:37:13] ERROR root fetch - processPackages [ooouno]: Timeout during execution of pkgdiff
 [2023-05-17 04:37:13] INFO root fetch - main [MainThread]: End processing [ooouno] error
 [2023-05-17 04:37:13] INFO root fetch - main [MainThread]: Store serial: [18132847]
+[2023-05-17 04:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18132847]
+[2023-05-17 04:42:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: risingwave
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audiolm-pytorch
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: milvus-cli
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyapp
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ufusion
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: img-prediction
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuya-device-sharing-sdk
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: img-prediction
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dynamicrender
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: img-prediction
+[2023-05-17 04:42:22] WARNING root fetch - processPackages [tuya-device-sharing-sdk]: Skipping, unable to determine old version
+[2023-05-17 04:42:22] INFO root fetch - processPackages [tuya-device-sharing-sdk]: Start processing: objectdict
+[2023-05-17 04:42:22] INFO root fetch - main [MainThread]: End processing [tuya-device-sharing-sdk] error
+[2023-05-17 04:42:22] INFO root fetch - processPackages [audiolm-pytorch]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [img-prediction]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [ufusion]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [img-prediction]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [risingwave]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [dynamicrender]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [img-prediction]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [milvus-cli]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [pyapp]: New version: [4.9.0] Old Version: [4.8.2]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [objectdict]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-17 04:42:22] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/d1/91/410bec4d2d04f9f515cc32a7423a79490ed5a03eb1d8223334872ee89df1/img_prediction-0.0.3-py3-none-any.whl
+[2023-05-17 04:42:22] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/d1/91/410bec4d2d04f9f515cc32a7423a79490ed5a03eb1d8223334872ee89df1/img_prediction-0.0.3-py3-none-any.whl
+[2023-05-17 04:42:22] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/d1/91/410bec4d2d04f9f515cc32a7423a79490ed5a03eb1d8223334872ee89df1/img_prediction-0.0.3-py3-none-any.whl
+[2023-05-17 04:42:22] INFO root fetch - processPackages [pyapp]: Downloading https://files.pythonhosted.org/packages/be/d7/8c5a20e389fb97ec3271033984fc0df71e7f833868a56148c4ed77a98b80/pyapp-4.8.2.tar.gz
+[2023-05-17 04:42:22] INFO root fetch - processPackages [milvus-cli]: Downloading https://files.pythonhosted.org/packages/70/90/8db1188b96d374f775fbc326af0daa42c8931973481163fef05d318a254e/milvus_cli-0.3.2.tar.gz
+[2023-05-17 04:42:22] INFO root fetch - processPackages [dynamicrender]: Downloading https://files.pythonhosted.org/packages/c4/f6/175e28d206ec13dd3da036dd8d3f20ee45168216b87e47db5e77cc68f58d/dynamicrender-1.2.5.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.6.tar.gz tmp/audiolm-pytorch-0.9.7.tar.gz --markdown 20230517/a/audiolm-pytorch/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] WARNING root fetch - processPackages [dynamicrender]: Skipping package: exceeds size limit 25184204>=10485760
+[2023-05-17 04:42:23] INFO root fetch - processPackages [dynamicrender]: Start processing: anything2image
+[2023-05-17 04:42:23] INFO root fetch - main [MainThread]: End processing [dynamicrender] error
+[2023-05-17 04:42:23] INFO root fetch - processPackages [objectdict]: Downloading https://files.pythonhosted.org/packages/5f/5d/ade17f08b7bb1c6b6932d040980ae496d76ba2b2eaab76f91a37e299e617/objectdict-0.0.7.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [ufusion]: Downloading https://files.pythonhosted.org/packages/7b/92/422b13ba5acba85996cfdc9357ce8c0b87844fc2dfd828098bd3c9e67dc2/ufusion-1.0.4.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [risingwave]: Downloading https://files.pythonhosted.org/packages/93/12/ccf05ea950924a87c4573f2fe1426746985f3adc76e9d5a1af7c0e0ddf1e/risingwave-0.0.7.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/c9/7b/a8b35e082e472a5cdf3e3a0a301a939721f9d27a88b471c17186ca6b7675/img-prediction-0.0.4.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/c9/7b/a8b35e082e472a5cdf3e3a0a301a939721f9d27a88b471c17186ca6b7675/img-prediction-0.0.4.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: Downloading https://files.pythonhosted.org/packages/c9/7b/a8b35e082e472a5cdf3e3a0a301a939721f9d27a88b471c17186ca6b7675/img-prediction-0.0.4.tar.gz
+[2023-05-17 04:42:23] WARNING root fetch - processPackages [anything2image]: Skipping, unable to determine old version
+[2023-05-17 04:42:23] INFO root fetch - main [MainThread]: End processing [anything2image] error
+[2023-05-17 04:42:23] INFO root fetch - processPackages [risingwave]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risingwave-0.0.6.tar.gz tmp/risingwave-0.0.7.tar.gz --markdown 20230517/r/risingwave/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [milvus-cli]: Downloading https://files.pythonhosted.org/packages/0a/aa/0b0f8a83e79b9a33cce3196b71f1078e23e06d330476433ac1d64391e365/milvus_cli-0.3.3.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [pyapp]: Downloading https://files.pythonhosted.org/packages/b6/e2/26085d91312e1cceac280b2bde2607186d9c99cb9605211960e89a7041fc/pyapp-4.9.0.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [ufusion]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img_prediction-0.0.3-py3-none-any.whl.zip tmp/img-prediction-0.0.4.tar.gz --markdown 20230517/i/img-prediction/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [ufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufusion-1.0.3.tar.gz tmp/ufusion-1.0.4.tar.gz --markdown 20230517/u/ufusion/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img_prediction-0.0.3-py3-none-any.whl.zip tmp/img-prediction-0.0.4.tar.gz --markdown 20230517/i/img-prediction/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [img-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img_prediction-0.0.3-py3-none-any.whl.zip tmp/img-prediction-0.0.4.tar.gz --markdown 20230517/i/img-prediction/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [objectdict]: Downloading https://files.pythonhosted.org/packages/1e/1a/3abe6fb26c4c22f6f580c3e412bd6cc87ee3be22ecbdaa76df4334b09982/objectdict-0.0.8.tar.gz
+[2023-05-17 04:42:23] INFO root fetch - processPackages [milvus-cli]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [milvus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus_cli-0.3.2.tar.gz tmp/milvus_cli-0.3.3.tar.gz --markdown 20230517/m/milvus-cli/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [pyapp]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [pyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-4.8.2.tar.gz tmp/pyapp-4.9.0.tar.gz --markdown 20230517/p/pyapp/4.8.2-4.9.0/diff.md --exclude *.pyd
+[2023-05-17 04:42:23] INFO root fetch - processPackages [objectdict]: executing diffoscope
+[2023-05-17 04:42:23] INFO root fetch - processPackages [objectdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectdict-0.0.7.tar.gz tmp/objectdict-0.0.8.tar.gz --markdown 20230517/o/objectdict/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-17 04:42:24] INFO root fetch - main [MainThread]: End processing [risingwave]: success
+[2023-05-17 04:42:24] INFO root fetch - main [MainThread]: End processing [img-prediction]: success
+[2023-05-17 04:42:24] INFO root fetch - main [MainThread]: End processing [img-prediction]: success
+[2023-05-17 04:42:24] INFO root fetch - main [MainThread]: End processing [img-prediction]: success
+[2023-05-17 04:42:25] INFO root fetch - main [MainThread]: End processing [ufusion]: success
+[2023-05-17 04:42:25] INFO root fetch - main [MainThread]: End processing [objectdict]: success
+[2023-05-17 04:42:25] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-17 04:42:25] INFO root fetch - main [MainThread]: End processing [milvus-cli]: success
+[2023-05-17 04:42:26] INFO root fetch - main [MainThread]: End processing [pyapp]: success
+[2023-05-17 04:42:26] INFO root fetch - main [MainThread]: Store serial: [18132894]
