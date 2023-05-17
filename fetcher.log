@@ -8600,3 +8600,43 @@
 [2023-05-17 07:59:33] INFO root fetch - main [MainThread]: End processing [mrq-custom]: success
 [2023-05-17 07:59:34] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
 [2023-05-17 07:59:34] INFO root fetch - main [MainThread]: Store serial: [18134774]
+[2023-05-17 08:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18134774]
+[2023-05-17 08:04:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-17 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docx2pdf-linux
+[2023-05-17 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor
+[2023-05-17 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor-dev
+[2023-05-17 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-17 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fancify-text
+[2023-05-17 08:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DGet
+[2023-05-17 08:04:43] INFO root fetch - processPackages [docx2pdf-linux]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [fancify-text]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-17 08:04:43] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-05-17 08:04:43] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-17 08:04:43] ERROR root fetch - processPackages [docx2pdf-linux]: Unable to fetch info: No such project/version 'docx2pdf-linux' 1.0.0
+[2023-05-17 08:04:43] INFO root fetch - main [MainThread]: End processing [docx2pdf-linux] error
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230517/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-17 08:04:43] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230517/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-17 08:04:43] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [fancify-text]: Downloading https://files.pythonhosted.org/packages/de/67/612904707296f55f7de9b89e47e8c6f67d4e02fd4cc4bcc2d192b01d432c/fancify-text-0.2.3.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/0f/36/1d3808eefb3026e41217503b0f7017839a9bce4107320f96a055448e4663/nonebot_plugin_spark_gpt-0.1.8-py3-none-any.whl
+[2023-05-17 08:04:43] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 13733621>=10485760
+[2023-05-17 08:04:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-17 08:04:43] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [fancify-text]: Downloading https://files.pythonhosted.org/packages/64/e6/7bbcdd0ff6eabe7ec472183f55d28b28b6afa9b8f5eb91928620b0707b54/fancify-text-0.2.4.tar.gz
+[2023-05-17 08:04:43] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-05-17 08:04:43] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230517/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-17 08:04:43] INFO root fetch - processPackages [fancify-text]: executing diffoscope
+[2023-05-17 08:04:43] INFO root fetch - processPackages [fancify-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancify-text-0.2.3.tar.gz tmp/fancify-text-0.2.4.tar.gz --markdown 20230517/f/fancify-text/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-17 08:04:44] INFO root fetch - main [MainThread]: End processing [fancify-text]: success
+[2023-05-17 08:04:45] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-05-17 08:04:45] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-17 08:04:45] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-17 08:04:45] INFO root fetch - main [MainThread]: Store serial: [18134798]
