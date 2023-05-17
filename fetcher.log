@@ -9891,3 +9891,106 @@
 [2023-05-17 09:30:35] INFO root fetch - main [MainThread]: End processing [zndraw]: success
 [2023-05-17 09:30:38] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-05-17 09:30:38] INFO root fetch - main [MainThread]: Store serial: [18135569]
+[2023-05-17 09:35:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18135569]
+[2023-05-17 09:35:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyLexia
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: splunk-add-on-ucc-framework
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clkhash
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atproto
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metagentools
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haobaba
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: example-package-harsha4021
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-msgbuf
+[2023-05-17 09:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pawnlib
+[2023-05-17 09:35:49] INFO root fetch - processPackages [PyLexia]: New version: [1.1] Old Version: [1.0]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [clkhash]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-17 09:35:49] WARNING root fetch - processPackages [haobaba]: Skipping, unable to determine old version
+[2023-05-17 09:35:49] INFO root fetch - processPackages [atproto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [haobaba]: Start processing: photoshop-python-api
+[2023-05-17 09:35:49] INFO root fetch - main [MainThread]: End processing [haobaba] error
+[2023-05-17 09:35:49] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-17 09:35:49] WARNING root fetch - processPackages [example-package-harsha4021]: Skipping, unable to determine old version
+[2023-05-17 09:35:49] INFO root fetch - processPackages [example-package-harsha4021]: Start processing: muutils
+[2023-05-17 09:35:49] INFO root fetch - main [MainThread]: End processing [example-package-harsha4021] error
+[2023-05-17 09:35:49] INFO root fetch - processPackages [metagentools]: New version: [0.0.dev2] Old Version: [0.0.7]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [photoshop-python-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [muutils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-17 09:35:49] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/a8/cb/7634b1c7ed6d9e45660fa8b6470f28587fe4cfd16ad19beb5c54c4b9a41c/pawnlib-1.0.8-py3-none-any.whl
+[2023-05-17 09:35:49] INFO root fetch - processPackages [PyLexia]: Downloading https://files.pythonhosted.org/packages/0a/b0/84b6d4f7111e041a633cd45692525f84f3433cb9ab9f3f73ca1e5398857e/PyLexia-1.0.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [metagentools]: Downloading https://files.pythonhosted.org/packages/a4/e9/49bb75271e9ad7963f54cef9385c6f56e2e22a514f44f590e280759133ac/metagentools-0.0.7.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/e5/1a/be9c0c6b988781b2019b731f112202f032371d0b5b489297fb2912c7d8ca/pawnlib-1.0.9-py3-none-any.whl
+[2023-05-17 09:35:49] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [clkhash]: Downloading https://files.pythonhosted.org/packages/4b/f7/38bd6ab5308955dd5907273927e25afbe2bf9f89d4e06aff6126a09ba01c/clkhash-0.8.1.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/90/6c/82c30b774b0cedd9a36183523eed7a5b14a0e0899746507c3bd4bb0ae92a/atproto-0.0.4.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Downloading https://files.pythonhosted.org/packages/29/aa/bc37d7ac3779a779790019dfcb02ec28c8faed23fa3b1bdaa49c83becd2c/nonebot-plugin-msgbuf-0.1.0.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [photoshop-python-api]: Downloading https://files.pythonhosted.org/packages/21/a0/58a991995acb0c81aed8911668b98bed07e70ce14ccd9a24ddaf8219850c/photoshop_python_api-0.8.0.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/c2/01/a194cc8564f06629ecf4b845104de25083deb8421b394220dfd708838ea1/muutils-0.3.8.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-17 09:35:49] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230517/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 09:35:49] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [PyLexia]: Downloading https://files.pythonhosted.org/packages/6c/c3/af82a52cbb4a235697127d7fb52c380d2efcf499f2560997608be7cc016c/PyLexia-1.1.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Downloading https://files.pythonhosted.org/packages/c7/bd/32845f798f34fbb9fa0e510be4968ce5ebf7be5289f310eb54b7258b825b/nonebot-plugin-msgbuf-0.2.0.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [metagentools]: Downloading https://files.pythonhosted.org/packages/d9/9f/a6f71326e3075bf1c51c56d9df402608a1221c1b4d3aeb4ca50136161211/metagentools-0.0.dev2.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [PyLexia]: executing diffoscope
+[2023-05-17 09:35:49] INFO root fetch - processPackages [PyLexia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLexia-1.0.tar.gz tmp/PyLexia-1.1.tar.gz --markdown 20230517/P/PyLexia/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-17 09:35:49] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-17 09:35:49] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230517/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:35:49] INFO root fetch - processPackages [photoshop-python-api]: Downloading https://files.pythonhosted.org/packages/57/83/41a0c1f902728967d4625c2e49195bb0d81ddfea52527b9aa6678b087f2b/photoshop_python_api-0.9.0.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: executing diffoscope
+[2023-05-17 09:35:49] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-msgbuf-0.1.0.tar.gz tmp/nonebot-plugin-msgbuf-0.2.0.tar.gz --markdown 20230517/n/nonebot-plugin-msgbuf/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-17 09:35:49] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/22/3f/ccdcf2f132dad37dea8b967808565b3d7809361c9feb8cdc8ce09278eb98/atproto-0.0.5.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [metagentools]: executing diffoscope
+[2023-05-17 09:35:49] INFO root fetch - processPackages [metagentools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metagentools-0.0.7.tar.gz tmp/metagentools-0.0.dev2.tar.gz --markdown 20230517/m/metagentools/0.0.7-0.0.dev2/diff.md --exclude *.pyd
+[2023-05-17 09:35:49] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/1b/c5/b0afe5fa7f6cccd4373a1d039394e874250b4c1af7cf59b13b6f3c21186d/muutils-0.3.9.tar.gz
+[2023-05-17 09:35:49] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-05-17 09:35:49] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.4.tar.gz tmp/atproto-0.0.5.tar.gz --markdown 20230517/a/atproto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-17 09:35:50] INFO root fetch - processPackages [muutils]: executing diffoscope
+[2023-05-17 09:35:50] INFO root fetch - processPackages [muutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muutils-0.3.8.tar.gz tmp/muutils-0.3.9.tar.gz --markdown 20230517/m/muutils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-17 09:35:50] INFO root fetch - processPackages [photoshop-python-api]: executing diffoscope
+[2023-05-17 09:35:50] INFO root fetch - processPackages [photoshop-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photoshop_python_api-0.8.0.tar.gz tmp/photoshop_python_api-0.9.0.tar.gz --markdown 20230517/p/photoshop-python-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:35:50] INFO root fetch - processPackages [clkhash]: Downloading https://files.pythonhosted.org/packages/36/53/41f394a97f17c5e19de699708fa566702815d5cab8bf8318aff3c7827ac6/clkhash-0.9.0.tar.gz
+[2023-05-17 09:35:50] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-05-17 09:35:50] INFO root fetch - processPackages [clkhash]: executing diffoscope
+[2023-05-17 09:35:50] INFO root fetch - processPackages [clkhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clkhash-0.8.1.tar.gz tmp/clkhash-0.9.0.tar.gz --markdown 20230517/c/clkhash/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:35:50] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-05-17 09:35:50] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230517/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-05-17 09:35:50] INFO root fetch - processPackages [PyLexia]: Start processing: django-descope
+[2023-05-17 09:35:50] INFO root fetch - main [MainThread]: End processing [PyLexia]: success
+[2023-05-17 09:35:50] INFO root fetch - processPackages [django-descope]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-17 09:35:51] INFO root fetch - processPackages [nonebot-plugin-msgbuf]: Start processing: hao
+[2023-05-17 09:35:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-msgbuf]: success
+[2023-05-17 09:35:51] INFO root fetch - processPackages [pawnlib]: Start processing: pawnlib
+[2023-05-17 09:35:51] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-17 09:35:51] INFO root fetch - processPackages [django-descope]: Downloading https://files.pythonhosted.org/packages/1e/4f/dd214dc82b65a290f478174adfc98722b3922639063a15ea5c0d84d6a888/django_descope-1.0.0.tar.gz
+[2023-05-17 09:35:51] INFO root fetch - processPackages [hao]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-17 09:35:51] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-17 09:35:51] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-17 09:35:51] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230517/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-17 09:35:51] INFO root fetch - processPackages [django-descope]: Downloading https://files.pythonhosted.org/packages/f3/c0/23d13834531a7b47fc0ee8040e462fa80765accda4875ffe657f8497bb6a/django_descope-1.1.0.tar.gz
+[2023-05-17 09:35:51] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/17/69/fb1ed565a2338e1820434f269f2d177e080721bb06eadd5906138f6beee5/hao-3.7.8.tar.gz
+[2023-05-17 09:35:51] INFO root fetch - processPackages [django-descope]: executing diffoscope
+[2023-05-17 09:35:51] INFO root fetch - processPackages [django-descope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_descope-1.0.0.tar.gz tmp/django_descope-1.1.0.tar.gz --markdown 20230517/d/django-descope/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-17 09:35:51] INFO root fetch - processPackages [metagentools]: Start processing: almapiwrapper
+[2023-05-17 09:35:51] INFO root fetch - main [MainThread]: End processing [metagentools]: success
+[2023-05-17 09:35:51] INFO root fetch - processPackages [almapiwrapper]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-17 09:35:51] INFO root fetch - processPackages [almapiwrapper]: executing diffoscope
+[2023-05-17 09:35:51] INFO root fetch - processPackages [almapiwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almapiwrapper-0.8.6.tar.gz tmp/almapiwrapper-0.9.0.tar.gz --markdown 20230517/a/almapiwrapper/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-17 09:35:51] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/f3/18/39775cc0b33aff460c38ad911af0b5fdbf79bb65311de2b2d64f1e3591d5/hao-3.7.9.tar.gz
+[2023-05-17 09:35:51] INFO root fetch - processPackages [hao]: executing diffoscope
+[2023-05-17 09:35:51] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.7.8.tar.gz tmp/hao-3.7.9.tar.gz --markdown 20230517/h/hao/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-17 09:35:51] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-17 09:35:52] INFO root fetch - main [MainThread]: End processing [muutils]: success
+[2023-05-17 09:35:52] INFO root fetch - main [MainThread]: End processing [django-descope]: success
+[2023-05-17 09:35:52] INFO root fetch - main [MainThread]: End processing [almapiwrapper]: success
+[2023-05-17 09:35:52] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-17 09:35:53] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2023-05-17 09:35:53] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-05-17 09:35:53] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-05-17 09:35:54] INFO root fetch - main [MainThread]: End processing [photoshop-python-api]: success
+[2023-05-17 09:35:55] INFO root fetch - main [MainThread]: End processing [clkhash]: success
+[2023-05-17 09:35:55] INFO root fetch - main [MainThread]: Store serial: [18135627]
