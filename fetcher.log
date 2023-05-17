@@ -20393,3 +20393,90 @@ EOFError: EOF read where object expected
 [2023-05-17 17:11:03] INFO root fetch - main [MainThread]: End processing [picsellia-tf2]: success
 [2023-05-17 17:11:16] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-05-17 17:11:16] INFO root fetch - main [MainThread]: Store serial: [18141550]
+[2023-05-17 17:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18141550]
+[2023-05-17 17:16:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: payok.io
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multidimensionalks
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BTKSorgu
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abqcy
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pastell-admin
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sspqdd
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wds-client
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyMca5
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-add-python
+[2023-05-17 17:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-17 17:16:26] INFO root fetch - processPackages [test-add-python]: New version: [0.3] Old Version: [0.2]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230517.9.43.923211] Old Version: [20230517.7.53.784228]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/f3/28/1cf73daf457042404af369ab2f3e55bcd126e2e6bc15ed2c07970a6754f0/certora-cli-alpha-uri-eradicate_certora_dir-20230517.7.53.784228.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [payok.io]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-17 17:16:26] WARNING root fetch - processPackages [abqcy]: Skipping, unable to determine old version
+[2023-05-17 17:16:26] INFO root fetch - processPackages [abqcy]: Start processing: solara-enterprise
+[2023-05-17 17:16:26] INFO root fetch - main [MainThread]: End processing [abqcy] error
+[2023-05-17 17:16:26] INFO root fetch - processPackages [sspqdd]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-17 17:16:26] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38976711>=10485760
+[2023-05-17 17:16:26] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: pywapor
+[2023-05-17 17:16:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-17 17:16:26] INFO root fetch - processPackages [BTKSorgu]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [pastell-admin]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [wds-client]: New version: [0.2.84] Old Version: [0.2.80]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [solara-enterprise]: New version: [1.12.0] Old Version: [1.11.0]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [PyMca5]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [test-add-python]: Downloading https://files.pythonhosted.org/packages/20/cf/96176a31f3615fc4b19eba04b71bb71890cc4ad8d2e775d243adf5660297/test_add_python-0.3.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [pywapor]: New version: [3.3.5] Old Version: [3.3.4]
+[2023-05-17 17:16:26] INFO root fetch - processPackages [payok.io]: Downloading https://files.pythonhosted.org/packages/ce/6d/d3c0f55631eb1181848dfc666362a0b78851b563dee4194506080285df7e/payok.io-1.0.1.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/9c/6b/5445ae5e638eca55652b7b95ebe0ba3a7613ca52637e3df108420318d8f7/wds-client-0.2.80.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [pastell-admin]: Downloading https://files.pythonhosted.org/packages/1f/a6/f9c80bee20a698caba790a99cb546ff4d3f256f4cd7e456d7391b395575f/pastell-admin-0.1.17.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [test-add-python]: executing diffoscope
+[2023-05-17 17:16:26] INFO root fetch - processPackages [test-add-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_add_python-0.2.tar.gz tmp/test_add_python-0.3.tar.gz --markdown 20230517/t/test-add-python/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-17 17:16:26] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/6d/46/94eb52bec6710b11a40a2a31f37fee0ea958cbc013a1a30931a1954aa6af/sspqdd-1.0.5.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/3a/6d/0fd50ca60d4e1cca9fa8c721f8a5b02e8a42eb79a3c556db66fbdf7cb2de/solara_enterprise-1.11.0.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [PyMca5]: Downloading https://files.pythonhosted.org/packages/8d/5a/f949d6d3018d87c143eea7f062b5335afc5c78e178a597a869b3c7711b23/PyMca5-5.8.2.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/47/d9/5fb31c04f207787a914e4706859ad70422a1c4688ad1ce29e989182bf52f/BTKSorgu-1.0.4.tar.gz
+[2023-05-17 17:16:26] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/f1/9d/c133828736d39ebbbd3f002797a642e4c91e577e8f79724c5cb63db1b60d/multidimensionalks-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-17 17:16:26] INFO root fetch - processPackages [pywapor]: Downloading https://files.pythonhosted.org/packages/5e/84/5ecb9fcfd149b31b563c454f40a12b2117c560fc33181a75004e64380196/pywapor-3.3.4.tar.gz
+[2023-05-17 17:16:26] WARNING root fetch - processPackages [PyMca5]: Skipping package: exceeds size limit 15895395>=10485760
+[2023-05-17 17:16:26] INFO root fetch - processPackages [PyMca5]: Start processing: solara
+[2023-05-17 17:16:26] INFO root fetch - main [MainThread]: End processing [PyMca5] error
+[2023-05-17 17:16:27] INFO root fetch - processPackages [solara]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-17 17:16:27] INFO root fetch - processPackages [payok.io]: Downloading https://files.pythonhosted.org/packages/6e/a6/4901b947a0c47aac6db936ac206ae8646f93c5e71ba13d5d669bc7bae794/payok.io-1.0.2.tar.gz
+[2023-05-17 17:16:27] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/4b/6e/e9dcc8be88195fdc86141e595290adae78221a002bef35fe56bb0681add0/wds-client-0.2.84.tar.gz
+[2023-05-17 17:16:27] INFO root fetch - processPackages [pastell-admin]: Downloading https://files.pythonhosted.org/packages/db/09/620107e384260be51b037f3208de7720216bb019dfd8b65ac137d9cde436/pastell-admin-0.1.18.tar.gz
+[2023-05-17 17:16:27] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.4.tar.gz tmp/sspqdd-1.0.5.tar.gz --markdown 20230517/s/sspqdd/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.0.3.tar.gz tmp/BTKSorgu-1.0.4.tar.gz --markdown 20230517/B/BTKSorgu/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.80.tar.gz tmp/wds-client-0.2.84.tar.gz --markdown 20230517/w/wds-client/0.2.80-0.2.84/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [pastell-admin]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [pastell-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastell-admin-0.1.17.tar.gz tmp/pastell-admin-0.1.18.tar.gz --markdown 20230517/p/pastell-admin/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/74/1e/c2b1888f7c025e2274f9515af85cdcf54aec3b630fad62b12b195cb63df5/solara_enterprise-1.12.0.tar.gz
+[2023-05-17 17:16:27] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230517/m/multidimensionalks/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [payok.io]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [payok.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payok.io-1.0.1.tar.gz tmp/payok.io-1.0.2.tar.gz --markdown 20230517/p/payok.io/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/0f/d5/8c179a51a9a0a60f569f9740c8bb93fdfbc24fd7c47c8e722b5b0f55b341/solara-1.8.2.tar.gz
+[2023-05-17 17:16:27] INFO root fetch - processPackages [solara-enterprise]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [solara-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_enterprise-1.11.0.tar.gz tmp/solara_enterprise-1.12.0.tar.gz --markdown 20230517/s/solara-enterprise/1.11.0-1.12.0/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [pywapor]: Downloading https://files.pythonhosted.org/packages/41/a4/26d5d9d425bba16559276c29cb1f89b7bef012ef4e410baae2eda12e537e/pywapor-3.3.5.tar.gz
+[2023-05-17 17:16:27] INFO root fetch - processPackages [pywapor]: executing diffoscope
+[2023-05-17 17:16:27] INFO root fetch - processPackages [pywapor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywapor-3.3.4.tar.gz tmp/pywapor-3.3.5.tar.gz --markdown 20230517/p/pywapor/3.3.4-3.3.5/diff.md --exclude *.pyd
+[2023-05-17 17:16:27] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/e8/90/f26cbae23327466263cf6a05ac43ed3ec38356f23af8c896fb9d38cbc597/solara-1.9.0.tar.gz
+[2023-05-17 17:16:28] INFO root fetch - processPackages [solara]: executing diffoscope
+[2023-05-17 17:16:28] INFO root fetch - processPackages [solara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230517:/home/abi/fetcher/20230517:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara-1.8.2.tar.gz tmp/solara-1.9.0.tar.gz --markdown 20230517/s/solara/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-17 17:16:28] INFO root fetch - processPackages [test-add-python]: Start processing: solara-assets
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [test-add-python]: success
+[2023-05-17 17:16:28] INFO root fetch - processPackages [solara-assets]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-17 17:16:28] INFO root fetch - processPackages [solara-assets]: Downloading https://files.pythonhosted.org/packages/32/88/9e435f44c84a3837462449476bdf0c80f355c752ae05b8b5f3cd293219f1/solara_assets-1.8.2.tar.gz
+[2023-05-17 17:16:28] WARNING root fetch - processPackages [solara-assets]: Skipping package: exceeds size limit 31423360>=10485760
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [solara-assets] error
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [pastell-admin]: success
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [payok.io]: success
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [solara-enterprise]: success
+[2023-05-17 17:16:28] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-17 17:16:30] INFO root fetch - main [MainThread]: End processing [pywapor]: success
+[2023-05-17 17:16:31] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-17 17:16:32] INFO root fetch - main [MainThread]: End processing [solara]: success
+[2023-05-17 17:16:32] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-17 17:16:32] INFO root fetch - main [MainThread]: Store serial: [18141626]
